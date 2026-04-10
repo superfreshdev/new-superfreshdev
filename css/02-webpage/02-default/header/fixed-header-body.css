@@ -1,0 +1,53 @@
+/* --------------------------------------------------------------- */
+/* > fixed-header-body.css
+/*
+/* : styles fixed header of body
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Fixed Header Body
+/* --------------------------------------------------------------- */
+
+#fixed-header-body {
+
+  z-index: 99;
+
+  height: 4.5em;
+  width: 100%;
+
+  position: fixed;
+  left:0;
+  right:0;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Overwrite Style | 📐 Resp Medium
+/* --------------------------------------------------------------- */
+
+#fixed-header-body > .resp-content-container-medium {
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Fixed Header Content Body
+/* --------------------------------------------------------------- */
+
+#fixed-header-content-body {
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgb(28, 28, 28);
+  color:white;
+
+  border-bottom: 1px solid rgba(52, 52, 52, .8);
+
+}

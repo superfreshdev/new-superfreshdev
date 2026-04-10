@@ -1,0 +1,56 @@
+/* --------------------------------------------------------------- */
+/* > resp-content-containers.css
+/*
+/* : styles resp content containers to let content
+     same content space
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Small, Medium, Big, Max | Resp Content Containers
+/* --------------------------------------------------------------- */
+
+.resp-content-container-small,
+.resp-content-container-medium,
+.resp-content-container-big,
+.resp-content-container-max {
+
+  width: 100%;
+  height: 100%;
+
+  padding: 0 .8em;
+
+  /* content center of child layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* small */
+.resp-content-container-small {
+
+  background-color: yellow;
+
+}
+
+/* medium */
+.resp-content-container-medium {
+
+  background-color: magenta;
+
+}
+
+/* big */
+.resp-content-container-big {
+
+  background-color: orange;
+
+}
+
+/* max */
+.resp-content-container-max {
+
+  background-color: green;
+
+}

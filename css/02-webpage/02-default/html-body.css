@@ -1,0 +1,139 @@
+/* --------------------------------------------------------------- */
+/* > html-body.css
+/*
+/* : default sets of all webpages
+/* --------------------------------------------------------------- */
+
+/* Info:
+
+    Reminder: By working with rem,em we had
+    default 1rem = 16px , 1em = 16px, em belongs to their
+    parent contents element sizes.
+    So e.g ,
+        1.) we want 18px in rem/em
+        2.) we calc 18px / 16px(1rem/1em=16px) = 1.125(rem/em)
+
+    14px = 0.875rem
+    16px = 1rem
+    18px = 1.125rem
+    20px = 1.25rem
+    22px = 1.375rem
+    24px = 1.5rem
+    26px = 1.625rem
+    28px = 1.75rem
+    30px = 1.875rem
+    32px = 2rem
+    34px = 2.125rem
+    36px = 2.25rem
+
+*/
+
+/* ------------------------------------------------------------------------------- */
+/* "*" | All HTML Tags
+/* ------------------------------------------------------------------------------- */
+
+* {
+
+  box-sizing: border-box;
+
+  /* Responsive Typographie */
+  /* font-size: clamp( 16px, 2vw, 18px); */
+
+  /* font-size: clamp(1rem, 1vw, 18px); */
+
+}
+
+/* ------------------------------------------------------------------------------- */
+/* HTML, Body
+/* ------------------------------------------------------------------------------- */
+
+html,body {
+
+  /* delete default margin 8px and allow correct grid/flex layout handling  */
+  margin: 0;
+
+  min-height: 100vh;
+
+  display: grid;
+  align-items: flex-start;
+
+  /* reminder: our header-body is fixed
+                & dont belong direct to body layout */
+
+  /* main-body, footer-body */
+  grid: 1fr auto / 1fr;
+
+  /* 1rem = 16px  */
+  /* font-size: 1rem; */
+
+
+  line-height: 1.8rem;
+
+  /* for smooth anker scrolling */
+  scroll-behavior: smooth;
+
+  /* start scrolling position, inkrement fixed header */
+  scroll-padding-top: 5.5em;
+
+  /* ---------------------------------------------------- */
+  /* ⚠️ Testing | Google Font Styles
+  /* ---------------------------------------------------- */
+
+  /* classic */
+  /* font-family: Arial, Helvetica, sans-serif; */
+
+  /* - Google Font -  https://fonts.google.com/selection/embed */
+  /* font-family: "Delius", cursive; */
+
+  /* - Coding gut 1/2 */
+  /* font-family: "Cascadia Code", sans-serif; */
+
+  /* - Coding gut 2/2 */
+  /* font-family: "Google Sans Code", monospace; */
+
+  /* 💪 Favorite */
+  font-family: "Open Sans", sans-serif;
+
+  /* 💪 Nunito */
+  /* font-family: "Nunito", sans-serif; */
+
+  /* Comig Relief */
+  /* font-family: "Comic Relief", system-ui; */
+
+  /* Roboto */
+   /* font-family: "Roboto", sans-serif; */
+
+  /* Alan Sans */
+  /* font-family: "Alan Sans", sans-serif; */
+
+  /* Lexend */
+  /* font-family: "Lexend", sans-serif; */
+
+
+}
+
+
+
+/* -------------------------------------------------------- */
+/* Html
+/* -------------------------------------------------------- */
+
+html {
+
+  /* scrollbar everytime reserve, for dyn. creating content
+  we dont like sometimes add scrollbar sometimes not - then
+  we will see an jumping layout effect */
+  overflow-y: scroll;
+
+}
+
+/* -------------------------------------------------------- */
+/* Body
+/* -------------------------------------------------------- */
+
+body {
+
+  /* for page sliding we dont like see scrollbar on x-slide */
+  overflow-x: hidden;
+
+}

@@ -1,0 +1,22 @@
+
+
+
+
+/* 🟪 auslagern */
+/* --------------------------------------------------------------- */
+/* About Page Container
+/* --------------------------------------------------------------- */
+
+#about-page-container {
+
+  padding-top: 4.5em;
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid: 1fr / 1fr;
+
+  background-color: wheat ;
+
+}

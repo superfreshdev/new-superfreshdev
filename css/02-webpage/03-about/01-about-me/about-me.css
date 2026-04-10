@@ -1,0 +1,51 @@
+/* --------------------------------------------------------------- */
+/* > about-me.css
+/*
+/* : styles about me
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* About Me Container
+/* --------------------------------------------------------------- */
+
+#about-me-container {
+
+  width: 100%;
+  height: 100%;
+
+  padding: .8em;
+
+  background-color: green;
+
+}
+
+/*
+
+  1. Welcome to Superfresh Sticker
+  2. Quick Info About Me Container + Show More
+
+
+*/
+
+/* 🟪 auslagern */
+/* --------------------------------------------------------------- */
+/* Welcome to Superfreshdev Sticker | About Me
+/* --------------------------------------------------------------- */
+
+#welcome-to-superfreshdev-sticker {
+
+  background-color: rgb(0, 255, 247);
+
+}
+
+/* 🟪 auslagern */
+/* --------------------------------------------------------------- */
+/* Quick Info Container | About Me
+/* --------------------------------------------------------------- */
+
+#quick-info-container-about-me {
+
+  background-color: yellow;
+
+}

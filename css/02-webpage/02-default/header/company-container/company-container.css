@@ -1,0 +1,71 @@
+/* --------------------------------------------------------------- */
+/* > company-container.css
+/*
+/* : styles company container
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Info Company Container
+/* --------------------------------------------------------------- */
+
+#info-company-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/2] | Info Company Title
+/* --------------------------------------------------------------- */
+
+#info-company-title {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .6em;
+
+  background-color: rgb(44, 44, 44);
+
+  /* default small mobile unshown */
+  display: none;
+
+}
+
+/* div */
+#info-company-title > div {
+
+  font-weight: bold;
+
+  color:wheat;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/2] | Info Company Img
+/* --------------------------------------------------------------- */
+
+#img-company-header-body {
+
+  width: 2.8em;
+  height: 2.8em;
+
+
+  /* max-width: 2em;
+  max-height: 2em; */
+
+  border-radius: .4em;
+
+  border: 3px solid grey;
+
+  /* default small mobile unshown */
+  display: none;
+
+}

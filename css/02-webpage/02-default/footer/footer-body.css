@@ -1,0 +1,101 @@
+/* --------------------------------------------------------------- */
+/* > footer-body.css
+/*
+/* : styles footer body
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Footer Body
+/* --------------------------------------------------------------- */
+
+#footer-body {
+
+  height: 3em;
+  width: 100%;
+
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Copyright Sfd Footer Sticker
+/* --------------------------------------------------------------- */
+
+#copyright-sfd-footer-sticker {
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+  font-weight: bold;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Title | Copyright Sfd Footer Sticker
+/* --------------------------------------------------------------- */
+
+#copyright-title-sfd-item  {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* img copyright */
+#copyright-title-sfd-item > img:nth-of-type(1) {
+
+  opacity: .6;
+
+}
+
+#copyright-title-sfd-item > div:nth-of-type(1) {
+
+  /* 14.5px | 14.5/16 = .90625em */
+  font-size: .90625em;
+
+  color:grey;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Seperator | Copyright Sfd Footer Sticker
+/* --------------------------------------------------------------- */
+
+#copyright-seperator-sfd {
+
+
+}
+
+/* div */
+#copyright-seperator-sfd > div {
+
+  /* 14.5px | 14.5/16 = .90625em */
+  font-size: .90625em;
+
+  font-weight: bold;
+  color:rgba(245, 222, 179, .6);
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Year | Copyright Sfd Footer Sticker
+/* --------------------------------------------------------------- */
+
+#copyright-year-sfd {
+
+  /* 14.5px | 14.5/16 = .90625em */
+  font-size: .90625em;
+
+  color:rgba(245, 222, 179, .6);
+
+}
