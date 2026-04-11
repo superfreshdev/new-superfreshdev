@@ -1,0 +1,107 @@
+/* --------------------------------------------------------------- */
+/* > quick-info-about-me.css
+/*
+/* : styles quick info about me
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Quick Info Container | About Me
+/* --------------------------------------------------------------- */
+
+#quick-info-container-about-me {
+
+  padding: 2.5em 0;
+
+  display: grid;
+  align-items: center;
+
+  grid: auto / 1fr auto;
+
+  column-gap: 2em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Quick Info Text Container | About Me
+/* --------------------------------------------------------------- */
+
+#quick-info-text-container-about-me {
+
+  display: grid;
+  justify-items: flex-start;
+  row-gap: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-text-container-about-me > header {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  border-radius: .6em;
+
+  background-color: rgb(181, 181, 181);
+  color:rgb(16, 16, 16);
+
+}
+
+/* div 1 */
+#quick-info-text-container-about-me > header > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-text-container-about-me > main {
+
+  padding-left: .6em;
+  color:rgb(122, 122, 122);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Footer | Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-text-container-about-me > footer {
+
+  width: 100%;
+  padding-top: 2.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: rgb(211, 211, 211); */
+  color:white;
+  font-weight: bold;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img | Quick Info Container
+/* --------------------------------------------------------------- */
+
+#img-about-me-prof {
+
+  width: 14em;
+
+  border-radius: 1em;
+  border: 3px solid rgb(210, 210, 210);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}

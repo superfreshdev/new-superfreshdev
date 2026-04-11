@@ -75,16 +75,23 @@
       <!-- ----------------------------------------- -->
 
       <link rel="stylesheet" href="css/02-webpage/03-about/01-about-me/about-me.css">
+      <link rel="stylesheet" href="css/02-webpage/03-about/01-about-me/welcome-about-me.css">
+      <link rel="stylesheet" href="css/02-webpage/03-about/01-about-me/quick-info-about-me.css">
 
-
+        <!-- Show More -->
+        <link rel="stylesheet" href="css/02-webpage/03-about/01-about-me/show-more/about-show-more.css">
 
       <!-- ----------------------------------------- -->
       <!-- [2/3] | Top IT Projects | About -->
       <!-- ----------------------------------------- -->
 
+      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/about-top-it-projects.css">
+
       <!-- ----------------------------------------- -->
       <!-- [3/3] | Contact Me | About -->
       <!-- ----------------------------------------- -->
+
+      <link rel="stylesheet" href="css/02-webpage/03-about/03-contact-me/contact-me.css">
 
       <!-- resp about -->
       <link rel="stylesheet" href="css/02-webpage/03-about/resp-about-page.css">
@@ -111,7 +118,7 @@
     <!-- ---------------------------------------------------------------- -->
     <!-- 📐 Resp | Medium -->
     <!-- ---------------------------------------------------------------- -->
-    <div class="resp-content-container-medium">
+    <div class="resp-content-container-small">
 
       <!-- ---------------------------------------------------------------- -->
       <!-- Fixed Header Content Body -->
@@ -197,7 +204,7 @@
   <main id="main-body">
 
     <!-- page slider -> slides -> ...  -->
-
+    <!-- Reminder: only one page will be shown -->
 
     <!-- --------------------------------------------------------------------- -->
     <!-- 🟥 [1/3] | About | Page Container -->
@@ -205,9 +212,9 @@
     <div id="about-page-container">
 
       <!-- --------------------------------------------------------------- -->
-      <!-- 🟥 [1/4] | About Me Container | 📐 Resp | Medium  -->
+      <!-- 🟥 [1/4] | About Me | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div class="resp-content-container-medium">
+      <div class="resp-content-container-small">
 
         <!-- --------------------------------------------------------------- -->
         <!-- 🟥 [1/4] | About Me Container   -->
@@ -215,17 +222,96 @@
         <div id="about-me-container">
 
           <!-- ------------------------------------------------------- -->
-          <!-- [1/2] | Welcome to Superfresh Sticker -->
+          <!-- [1/2] | Welcome SuperfreshDev Container -->
           <!-- ------------------------------------------------------- -->
-          <div id="welcome-to-superfreshdev-sticker">
-            Welcome to SuperfreshDev Sticker
+          <div id="welcome-sfd-container">
+
+            <!-- ------------------------------------------- -->
+            <!-- [1/2] | Img Clipart -->
+            <!-- ------------------------------------------- -->
+            <img src="media/imgs/content/01-about/about-me/me-hi.png"
+                 alt="img" id="img-clipart-welcome-sfd">
+
+            <!-- ------------------------------------------- -->
+            <!-- [2/2] | Title Welcome Sfd Container         -->
+            <!-- ------------------------------------------- -->
+            <div id="title-welcome-sfd-container">
+
+              <!-- title welcome  -->
+              <div id="title-welcome">Welcome to</div>
+
+              <!-- title welcome sfd -->
+              <div id="title-welcome-sfd">
+                <span>SuperfreshDEV</span>
+                <span>{World}</span>
+              </div>
+
+              <!-- sub title sfd -->
+              <div id="sub-title-welcome-sfd">» lets build systems not just software.</div>
+
+
+            </div>
+
           </div>
 
           <!-- ------------------------------------------------------- -->
           <!-- [2/2] | Welcome to Superfresh Sticker -->
           <!-- ------------------------------------------------------- -->
           <div id="quick-info-container-about-me">
-            Quick Info Container About Me
+
+
+            <!-- -------------------------------------------------------- -->
+            <!-- [1/2] | Quick Info Text About Container-->
+            <!-- -------------------------------------------------------- -->
+            <div id="quick-info-text-container-about-me">
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Header -->
+              <!-- --------------------------------------------------------------- -->
+              <header>
+
+                <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
+                     alt="img" style="height: 1.1em;">
+                <div>Quick Info</div>
+
+              </header>
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Main -->
+              <!-- --------------------------------------------------------------- -->
+              <main>
+                  My Name is Marko (SuperfreshDev) and I'm from Germany.
+                  I am a Fullstack Software Developer in building Web-Plattforms,
+                  Software/Mobile-Solutions and creating scalable running Backend-Systems.
+              </main>
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Footer  -->
+              <!-- --------------------------------------------------------------- -->
+              <footer>
+
+                <!-- --------------------------------------------------------------- -->
+                <!-- Show More | Label  -->
+                <!-- --------------------------------------------------------------- -->
+                <label for="" class="lbl-">
+
+                  Show More
+
+                </label>
+
+              </footer>
+
+
+            </div>
+
+            <!-- -------------------------------------------------------- -->
+            <!-- [2/2] | Img About Me Prof -->
+            <!-- -------------------------------------------------------- -->
+            <img src="media/imgs/content/01-about/about-me/big-superfreshdev.PNG"
+                 alt="img" id="img-about-me-prof">
+
+
+
           </div>
 
         </div>
@@ -233,27 +319,47 @@
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- [2/4] | Show More | About Me Container -->
+      <!-- 🟥 [2/4] | Show More | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div id="show-more-about-me-container" style="display: none;">
-          Show More | About Me Container
+      <div class="resp-content-container-medium">
+
+        <!-- --------------------------------------------------------------- -->
+        <!-- [2/4] | Show More | About Container -->
+        <!-- --------------------------------------------------------------- -->
+        <div id="show-more-about-container" >
+            Show More | About Container
+        </div>
+
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- [3/4] | Top IT Projects Container -->
+      <!-- 🟥 [3/4] | Top IT Projects | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div id="top-it-projects-container" style="display: none;">
-          Top IT Projects Container
+      <div class="resp-content-container-medium">
+
+        <!-- --------------------------------------------------------------- -->
+        <!-- [3/4] | Top IT Projects | About Container -->
+        <!-- --------------------------------------------------------------- -->
+        <div id="top-it-projects-about-container">
+            Top IT Projects | About Container
+        </div>
+
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- [4/4] | Contact Me Container -->
+      <!-- 🟥 [4/4] | Contact Me | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div id="contact-me-container" style="display: none;">
-          Contact Me Container
+      <div class="resp-content-container-medium">
+
+        <!-- --------------------------------------------------------------- -->
+        <!-- [4/4] | Contact Me Container -->
+        <!-- --------------------------------------------------------------- -->
+        <div id="contact-me-about-container" >
+            Contact Me | About Container
+        </div>
+
+
       </div>
-
-
 
     </div>
 

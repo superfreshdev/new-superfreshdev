@@ -1,8 +1,10 @@
+/* --------------------------------------------------------------- */
+/* > about-page.css
+/*
+/* : styles about page container
+/* --------------------------------------------------------------- */
 
 
-
-
-/* 🟪 auslagern */
 /* --------------------------------------------------------------- */
 /* About Page Container
 /* --------------------------------------------------------------- */
@@ -15,8 +17,53 @@
   height: 100%;
 
   display: grid;
-  grid: 1fr / 1fr;
+  justify-items: center;
+  /* about me | show more | top it projects | contact */
+  grid: auto auto auto 1fr / 1fr;
 
   background-color: wheat ;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/4] | Resp Content Container | About Me
+/* --------------------------------------------------------------- */
+
+#about-page-container > .resp-content-container-medium:nth-of-type(1) {
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/4] | Resp Content Container | Show More
+/* --------------------------------------------------------------- */
+
+#about-page-container > .resp-content-container-medium:nth-of-type(2) {
+
+  background-color: rgb(28, 28, 28);
+  /* background-color: yellow; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* [3/4] | Resp Content Container | Top IT Projects
+/* --------------------------------------------------------------- */
+
+#about-page-container > .resp-content-container-medium:nth-of-type(3) {
+
+  background-color: rgb(28, 28, 28);
+  background-color: brown;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [4/4] | Resp Content Container | Contact Me
+/* --------------------------------------------------------------- */
+
+#about-page-container > .resp-content-container-medium:nth-of-type(4) {
+
+  background-color: rgb(28, 28, 28);
+  background-color: rgb(101, 101, 101);
 
 }

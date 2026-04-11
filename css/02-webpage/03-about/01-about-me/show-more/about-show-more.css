@@ -1,21 +1,19 @@
 /* --------------------------------------------------------------- */
-/* > contact-me.css
+/* > about-show-more.css
 /*
-/* : styles about contact me
+/* : styles about show more
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Contact Me | About Container
+/* About Show More | About Container
 /* --------------------------------------------------------------- */
 
-#contact-me-about-container {
+#show-more-about-container {
 
   width: 100%;
-  height: 100%;
-
   padding: .8em;
 
-  background-color: rgb(118, 118, 239);
+  background-color: blueviolet;
 
 }

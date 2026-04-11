@@ -54,3 +54,76 @@
   background-color: green;
 
 }
+
+
+/* --------------------------------------------------------------- */
+/* >= 600px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 600px) {
+
+  .resp-content-container-small {
+
+    width: 95%;
+
+    background-color: red;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 800px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+  .resp-content-container-small {
+
+    width: 50em;
+
+    background-color: red;
+
+  }
+
+  #quick-info-container-about-me {
+
+    padding: 2.5em 1em !important;
+    /* background-color: red; */
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1000px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1000px) {
+
+  .resp-content-container-small {
+
+    width: 55em;
+
+    background-color: red;
+
+  }
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* >= 1200px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+
+  .resp-content-container-small {
+
+    width: 60em;
+
+    background-color: red;
+
+  }
+
+}

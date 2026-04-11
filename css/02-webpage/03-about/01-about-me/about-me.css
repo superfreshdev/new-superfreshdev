@@ -17,35 +17,6 @@
   padding: .8em;
 
   background-color: green;
-
-}
-
-/*
-
-  1. Welcome to Superfresh Sticker
-  2. Quick Info About Me Container + Show More
-
-
-*/
-
-/* 🟪 auslagern */
-/* --------------------------------------------------------------- */
-/* Welcome to Superfreshdev Sticker | About Me
-/* --------------------------------------------------------------- */
-
-#welcome-to-superfreshdev-sticker {
-
-  background-color: rgb(0, 255, 247);
-
-}
-
-/* 🟪 auslagern */
-/* --------------------------------------------------------------- */
-/* Quick Info Container | About Me
-/* --------------------------------------------------------------- */
-
-#quick-info-container-about-me {
-
-  background-color: yellow;
+  background-color: rgb(28, 28, 28);
 
 }

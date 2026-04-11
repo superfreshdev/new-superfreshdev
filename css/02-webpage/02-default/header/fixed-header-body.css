@@ -16,6 +16,9 @@
   height: 4.5em;
   width: 100%;
 
+  display: grid;
+  justify-items: center;
+
   position: fixed;
   left:0;
   right:0;
