@@ -64,9 +64,11 @@
 
   .resp-content-container-small {
 
+    padding: 0;
+
     width: 95%;
 
-    background-color: red;
+    /* background-color: red; */
 
   }
 
@@ -82,7 +84,7 @@
 
     width: 50em;
 
-    background-color: red;
+    /* background-color: red; */
 
   }
 
@@ -105,7 +107,7 @@
 
     width: 55em;
 
-    background-color: red;
+    /* background-color: red; */
 
   }
 
