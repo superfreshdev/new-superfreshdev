@@ -9,7 +9,83 @@
 /* >= 400px
 /* --------------------------------------------------------------- */
 
-@media (min-width: 400px ) {
+@media (min-width: 600px ) {
 
+  #quick-info-about-container {
+
+    /* mobile */
+    grid: auto / 1fr auto;
+
+}
+
+  #img-about-me-prof-square {
+
+    width: 14em;
+  }
+
+  #img-about-me-prof-rectangle {
+
+    width: 14em;
+  }
+
+
+}
+
+@media (min-width: 800px ) {
+
+  #about-me-container {
+
+    width: 90%;
+
+  }
+
+}
+
+
+/* 14 inch Laptops */
+/* --------------------------------------------------------------- */
+/* >= 400px & <= 1200px
+/* --------------------------------------------------------------- */
+
+@media (max-height: 900px )  {
+
+  /* show img square */
+  #img-about-me-prof-square {
+
+    display: grid;
+
+  }
+
+  /* unshown img rectangle */
+  #img-about-me-prof-rectangle {
+
+    display: none;
+
+  }
+
+}
+
+
+
+/* Desktop over 14 inch */
+/* --------------------------------------------------------------- */
+/* >= 400px & > 1200px
+/* --------------------------------------------------------------- */
+
+@media (min-height: 901px )  {
+
+  /* unshown img square */
+  #img-about-me-prof-square {
+
+    display: none;
+
+  }
+
+  /* show img rectangle */
+  #img-about-me-prof-rectangle {
+
+    display: grid;
+
+  }
 
 }

@@ -13,7 +13,7 @@
 
   display: flex;
   align-items: center;
-  column-gap: .4em;
+  /* column-gap: .4em; */
 
 }
 
@@ -86,7 +86,7 @@
   height: .4em;
   opacity: .6;
 
-  display: none;
+  /* display: none; */
 
 
 }

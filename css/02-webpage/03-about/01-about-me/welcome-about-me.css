@@ -23,7 +23,9 @@
 
 #img-clipart-welcome-sfd {
 
-  height: 6em;
+  /* small mobile */
+  height: 5em;
+
 
 }
 
@@ -33,7 +35,7 @@
 
 #title-welcome-sfd-container {
 
-  line-height: 1.7em;
+  line-height: 1.4em;
 
   font-weight: bold;
 
@@ -45,9 +47,14 @@
 
 #title-welcome {
 
+  /* small mobile */
+  font-size: 14.5px;
+
+  /* desktop */
+  /* font-size: 18px; */
+
   color:#aeb7bf;
 
-  font-size: 18px;
 
 }
 
@@ -57,21 +64,30 @@
 
 #title-welcome-sfd {
 
-
 }
 
 /* span 1 | superfreshdev */
 #title-welcome-sfd > span:nth-of-type(1) {
 
-  font-size: 20px;
+  /* small mobile */
+  font-size: 16px;
+
+  /* desktop */
+  /* font-size: 20px; */
+
   color:white;
+
 
 }
 
 /* span 2 | world */
 #title-welcome-sfd > span:nth-of-type(2) {
 
-  font-size: 20px;
+  /* small mobile */
+  font-size: 16px;
+
+  /* desktop */
+  /* font-size: 20px; */
   color:wheat;
 
 }
@@ -81,6 +97,16 @@
 /* ----------------------------------- */
 
 #sub-title-welcome-sfd {
+
+  padding-top: .3em;
+
+  line-height: 1.4em;
+
+  /* small mobile */
+  font-size: 14.5px;
+
+  /* desktop */
+  /* font-size: 16px; */
 
   color:#75787a;
 
