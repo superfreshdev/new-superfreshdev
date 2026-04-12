@@ -1,25 +1,20 @@
 /* --------------------------------------------------------------- */
-/* > about-me.css
+/* > row-container.css
 /*
-/* : styles about me
+/* : styles row container for resp content containers
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* About Me Container
+/* Row Container
 /* --------------------------------------------------------------- */
 
-#about-me-container {
+.row-container {
 
   width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
 
-  padding: .8em;
-
-  background-color: green;
-  background-color: rgb(28, 28, 28);
-
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  background-color: magenta;
 
 }

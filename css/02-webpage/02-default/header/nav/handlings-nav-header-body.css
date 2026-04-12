@@ -6,10 +6,28 @@
 
 
 /* --------------------------------------------------------------- */
-/* ...
+/* Handling | Stylings
 /* --------------------------------------------------------------- */
 
-#nav-header-body {
+/* default radios unshown */
 
+input[name="name-radio-nav-header-body"] {
+
+  display: none;
+
+}
+
+/* ------------------------------------------- */
+/* Set Background Color */
+/* ------------------------------------------- */
+
+#radio-about:checked ~ #fixed-header-body label[for="radio-about"],
+#radio-more-it:checked ~ #fixed-header-body label[for="radio-more-it"],
+#radio-private:checked ~ #fixed-header-body label[for="radio-private"] {
+
+  opacity: 1;
+
+  background-color: wheat;
+  color:black;
 
 }

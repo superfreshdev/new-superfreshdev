@@ -14,7 +14,33 @@
   height: 3em;
   width: 100%;
 
-  padding: 0 .8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(28, 28, 28);
+  border-top: 1px solid rgb(47, 47, 47);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Overwrite Style | 📐 Resp Medium
+/* --------------------------------------------------------------- */
+
+#footer-body > .resp-content-container-medium{
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Footer Content Body
+/* --------------------------------------------------------------- */
+
+#footer-content-body {
+
+  height: 100%;
+  width: 100%;
 
   display: flex;
   align-items: center;
@@ -22,13 +48,16 @@
 
   background-color: rgb(28, 28, 28);
 
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
 }
 
 /* --------------------------------------------------------------- */
-/* Copyright Sfd Footer Sticker
+/* Copyright Footer Container
 /* --------------------------------------------------------------- */
 
-#copyright-sfd-footer-sticker {
+#copyright-footer-container {
 
   display: flex;
   align-items: center;
@@ -39,10 +68,10 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Title | Copyright Sfd Footer Sticker
+/* Title | Copyright Title Footer
 /* --------------------------------------------------------------- */
 
-#copyright-title-sfd-item  {
+#copyright-title-footer  {
 
   display: flex;
   align-items: center;
@@ -51,13 +80,13 @@
 }
 
 /* img copyright */
-#copyright-title-sfd-item > img:nth-of-type(1) {
+#copyright-title-footer > img:nth-of-type(1) {
 
   opacity: .6;
 
 }
 
-#copyright-title-sfd-item > div:nth-of-type(1) {
+#copyright-title-footer > div:nth-of-type(1) {
 
   /* 14.5px | 14.5/16 = .90625em */
   font-size: .90625em;
@@ -67,16 +96,16 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Seperator | Copyright Sfd Footer Sticker
+/* Seperator | Copyright Seperator Footer
 /* --------------------------------------------------------------- */
 
-#copyright-seperator-sfd {
+#copyright-seperator-footer {
 
 
 }
 
 /* div */
-#copyright-seperator-sfd > div {
+#copyright-seperator-footer > div {
 
   /* 14.5px | 14.5/16 = .90625em */
   font-size: .90625em;
@@ -88,10 +117,10 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Year | Copyright Sfd Footer Sticker
+/* Year | Copyright Year Footer
 /* --------------------------------------------------------------- */
 
-#copyright-year-sfd {
+#copyright-year-footer {
 
   /* 14.5px | 14.5/16 = .90625em */
   font-size: .90625em;

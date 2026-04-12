@@ -23,49 +23,86 @@
 
 #info-company-title {
 
-  height: 1.8em;
-  padding: 0 .6em;
+  /* height: 1.8em; */
+  padding: .3em .6em;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+
+  line-height: 1.4em;
 
   border-radius: .6em;
 
+  font-weight: bold;
+
   background-color: rgb(44, 44, 44);
+  color:wheat;
 
   /* default small mobile unshown */
   display: none;
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+#info-company-title:hover {
+
+  color:white;
+  background-color: black;
+
+  background-color: wheat;
+  color:black;
 
 }
 
 /* div */
 #info-company-title > div {
 
-  font-weight: bold;
-
-  color:wheat;
+  /* font-size: 14.5px; */
 
 }
 
 /* --------------------------------------------------------------- */
-/* [2/2] | Info Company Img
+/* [2/2] | Img Company Container | Header Body
 /* --------------------------------------------------------------- */
 
-#img-company-header-body {
+#img-company-container-header-body {
 
-  width: 2.8em;
-  height: 2.8em;
-
-
-  /* max-width: 2em;
-  max-height: 2em; */
-
-  border-radius: .4em;
-
-  border: 3px solid grey;
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
 
   /* default small mobile unshown */
   display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img 1 | sfd
+/* --------------------------------------------------------------- */
+
+#img-company-container-header-body > img:nth-of-type(1) {
+
+  height: 2.4em;
+  width: 2.4em;
+
+  /* border-radius: .4em; */
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img 2 | arrow right
+/* --------------------------------------------------------------- */
+
+#img-company-container-header-body > img:nth-of-type(2) {
+
+  height: .6em;
+  /* transform: rotate(-90deg); */
+
+  opacity: .3;
 
 }

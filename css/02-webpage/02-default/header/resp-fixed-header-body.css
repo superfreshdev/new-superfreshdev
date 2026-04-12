@@ -6,15 +6,100 @@
 
 
 /* --------------------------------------------------------------- */
+/* >= 360px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 360px) {
+
+
+  /* --------------------------------------------------------------- */
+  /* Label Header Body | Img
+  /* --------------------------------------------------------------- */
+  .lbl-header-body > img {
+
+    display: flex;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Add Hover Handling | img grey black
+  /* --------------------------------------------------------------- */
+
+  #radio-about:hover ~ #fixed-header-body label[for="radio-about"],
+  #radio-more-it:hover ~ #fixed-header-body label[for="radio-more-it"],
+  #radio-private:hover ~ #fixed-header-body label[for="radio-private"] {
+
+    opacity: 1;
+
+    background-color: wheat;
+    color:black;
+
+  }
+
+  /* unshown grey img */
+  #radio-about:hover ~ #fixed-header-body label[for="radio-about"] > img:nth-of-type(1),
+  #radio-more-it:hover ~ #fixed-header-body label[for="radio-more-it"] > img:nth-of-type(1),
+  #radio-private:hover ~ #fixed-header-body label[for="radio-private"] > img:nth-of-type(1) {
+
+    display: none;
+
+  }
+
+  /* shown black img */
+  #radio-about:hover ~ #fixed-header-body label[for="radio-about"] > img:nth-of-type(2),
+  #radio-more-it:hover ~ #fixed-header-body label[for="radio-more-it"] > img:nth-of-type(2),
+  #radio-private:hover ~ #fixed-header-body label[for="radio-private"] > img:nth-of-type(2) {
+
+    display: flex;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Add Img Handling | img grey black
+  /* --------------------------------------------------------------- */
+
+  /* unshown grey img */
+  #radio-about:checked ~ #fixed-header-body label[for="radio-about"] > img:nth-of-type(1),
+  #radio-more-it:checked ~ #fixed-header-body label[for="radio-more-it"] > img:nth-of-type(1),
+  #radio-private:checked ~ #fixed-header-body label[for="radio-private"] > img:nth-of-type(1) {
+
+    display: none;
+
+  }
+
+  /* shown black img */
+  #radio-about:checked ~ #fixed-header-body label[for="radio-about"] > img:nth-of-type(2),
+  #radio-more-it:checked ~ #fixed-header-body label[for="radio-more-it"] > img:nth-of-type(2),
+  #radio-private:checked ~ #fixed-header-body label[for="radio-private"] > img:nth-of-type(2) {
+
+    display: flex;
+
+  }
+
+
+
+
+}
+
+/* --------------------------------------------------------------- */
 /* >= 400px
 /* --------------------------------------------------------------- */
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
 
   /* --------------------------------------------------------------- */
-  /* Company | Img
+  /* Fixed Header Content Body
   /* --------------------------------------------------------------- */
-  #img-company-header-body  {
+  #fixed-header-content-body {
+
+    justify-content: space-between;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Img Company Container
+  /* --------------------------------------------------------------- */
+  #img-company-container-header-body {
 
     display: flex;
 
@@ -28,10 +113,19 @@
 
 @media (min-width: 600px) {
 
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 650px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 650px) {
+
   /* --------------------------------------------------------------- */
   /* Company | Img
   /* --------------------------------------------------------------- */
-  #img-company-header-body  {
+  #img-company-container-header-body  {
 
     display: none;
 
@@ -45,5 +139,6 @@
     display: flex;
 
   }
+
 
 }

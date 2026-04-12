@@ -29,6 +29,19 @@
   <!-- [1/2] | CSS-Framework -->
   <!-- ------------------------------------------------------------------ -->
 
+    <!-- ----------------------------------------------------- -->
+    <!-- Sets -->
+    <!-- ----------------------------------------------------- -->
+
+      <!-- img sizes -->
+      <link rel="stylesheet" href="css/01-css-framework/sets/img-sizes.css">
+
+      <!-- flex, grid -->
+      <link rel="stylesheet" href="css/01-css-framework/sets/set-flex-grid.css">
+
+      <!-- overflow -->
+      <link rel="stylesheet" href="css/01-css-framework/sets/overflow-sets.css">
+
   <!-- ------------------------------------------------------------------ -->
   <!-- [2/2] | Webpage -->
   <!-- ------------------------------------------------------------------ -->
@@ -46,6 +59,7 @@
 
       <!-- 🟥 resp content containers -->
       <link rel="stylesheet" href="css/02-webpage/02-default/resp-content-containers/resp-content-containers.css">
+      <link rel="stylesheet" href="css/02-webpage/02-default/resp-content-containers/row-container.css">
 
       <!-- ➡️🟥 fixed header body -->
       <link rel="stylesheet" href="css/02-webpage/02-default/header/fixed-header-body.css">
@@ -108,25 +122,30 @@
 
 <body>
 
-  <!-- AI-Software-Cloud Engineer | Fullstack-Software Developer -->
+  <!-- ----------------------------------------------------------------------- -->
+  <!-- Radios | Nav Header Body -->
+  <!-- ----------------------------------------------------------------------- -->
+  <input checked type="radio" id="radio-about" name="name-radio-nav-header-body">
+  <input type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ----------------------------------------------------------------------- -->
-  <!-- ➡️🟥 Fixed Header ( belongs not to layout ) -->
+  <!-- 🟨🌊 Fixed Header ( belongs not to layout ) -->
   <!-- ----------------------------------------------------------------------- -->
   <header id="fixed-header-body">
 
     <!-- ---------------------------------------------------------------- -->
     <!-- 📐 Resp | Medium -->
     <!-- ---------------------------------------------------------------- -->
-    <div class="resp-content-container-small">
+    <div class="resp-content-container-medium">
 
       <!-- ---------------------------------------------------------------- -->
-      <!-- Fixed Header Content Body -->
+      <!-- 🟨 Fixed Header Content Body -->
       <!-- ---------------------------------------------------------------- -->
       <div id="fixed-header-content-body">
 
         <!-- ------------------------------------------------------------------ -->
-        <!-- [1/2] | Info Company Container -->
+        <!-- 🟨 [1/2] | Info Company Container -->
         <!-- ------------------------------------------------------------------ -->
         <div id="info-company-container">
 
@@ -134,30 +153,47 @@
           <!-- [1/2] | Info Company Sticker Title -->
           <!-- ------------------------------------------- -->
           <div id="info-company-title">
-            <div>Fullstack-Software Developer</div>
+
+            <div>Fullstack Software Developer.</div>
+
+
           </div>
 
           <!-- ------------------------------------------- -->
           <!-- [2/2] | Info Company Sticker Img -->
           <!-- ------------------------------------------- -->
-          <img src="media/imgs/content/01-about/about-me/small-superfreshdev-me.png"
-               alt="img" id="img-company-header-body">
+          <div id="img-company-container-header-body">
+
+            <!-- img sfd -->
+            <img src="media/imgs/icons/01-favicons/android-chrome-192x192.png"
+              alt="img">
+
+            <!-- img arrow right -->
+            <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-double-arrow-right.png"
+              alt="img">
+
+          </div>
+
 
 
         </div>
 
         <!-- ------------------------------------------------------------------ -->
-        <!-- [2/2] | Nav Header Body -->
+        <!-- 🟨 [2/2] | Nav Header Body -->
         <!-- ------------------------------------------------------------------ -->
         <div id="nav-header-body">
 
           <!-- ---------------------------------------------------- -->
           <!-- About | Label Radio -->
           <!-- ---------------------------------------------------- -->
-          <label for="radio-about" class="lbl-header-body-medium">
+          <label for="radio-about" class="lbl-header-body">
 
             <!-- img grey -->
+            <img src="media/imgs/icons/02-icon-colors/03-grey/grey-about.png"
+                alt="img" class="img-h-1-2" >
             <!-- img black -->
+            <img src="media/imgs/icons/02-icon-colors/01-black/black-about.png"
+                alt="img" class="img-h-1-2">
 
             <!-- title -->
             <div>About</div>
@@ -165,12 +201,23 @@
           </label>
 
           <!-- ---------------------------------------------------- -->
+          <!-- Img Seperator -->
+          <!-- ---------------------------------------------------- -->
+          <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-left-right-tag.png"
+              alt="img" class="img-seperator-nav-header-body">
+
+          <!-- ---------------------------------------------------- -->
           <!-- More IT | Label Radio -->
           <!-- ---------------------------------------------------- -->
-          <label for="radio-more-it" class="lbl-header-body-medium">
+          <label for="radio-more-it" class="lbl-header-body">
 
             <!-- img grey -->
+            <img src="media/imgs/icons/02-icon-colors/03-grey/grey-open-close-brackets.png"
+                alt="img" class="img-h-1" >
             <!-- img black -->
+            <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
+                alt="img" class="img-h-1" >
+
 
             <!-- title -->
             <div>More IT</div>
@@ -178,12 +225,22 @@
           </label>
 
           <!-- ---------------------------------------------------- -->
+          <!-- Img Seperator -->
+          <!-- ---------------------------------------------------- -->
+          <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-left-right-tag.png"
+              alt="img" class="img-seperator-nav-header-body">
+
+          <!-- ---------------------------------------------------- -->
           <!-- Private | Label Radio -->
           <!-- ---------------------------------------------------- -->
-          <label for="radio-private" class="lbl-header-body-medium">
+          <label for="radio-private" class="lbl-header-body">
 
             <!-- img grey -->
+            <img src="media/imgs/icons/02-icon-colors/03-grey/grey-3-shining-stars.png"
+                alt="img" class="img-h-1-2" >
             <!-- img black -->
+            <img src="media/imgs/icons/02-icon-colors/01-black/black-3-shining-stars.png"
+                alt="img" class="img-h-1-2">
 
             <!-- title -->
             <div>Private</div>
@@ -214,103 +271,108 @@
       <!-- --------------------------------------------------------------- -->
       <!-- 🟥 [1/4] | About Me | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div class="resp-content-container-small">
+      <div class="row-container">
 
-        <!-- --------------------------------------------------------------- -->
-        <!-- 🟥 [1/4] | About Me Container   -->
-        <!-- --------------------------------------------------------------- -->
-        <div id="about-me-container">
+        <div class="resp-content-container-medium">
 
-          <!-- ------------------------------------------------------- -->
-          <!-- [1/2] | Welcome SuperfreshDev Container -->
-          <!-- ------------------------------------------------------- -->
-          <div id="welcome-sfd-container">
+          <!-- --------------------------------------------------------------- -->
+          <!-- 🟥 [1/4] | About Me Container   -->
+          <!-- --------------------------------------------------------------- -->
+          <div id="about-me-container">
 
-            <!-- ------------------------------------------- -->
-            <!-- [1/2] | Img Clipart -->
-            <!-- ------------------------------------------- -->
-            <img src="media/imgs/content/01-about/about-me/me-hi.png"
-                 alt="img" id="img-clipart-welcome-sfd">
+            <div style="color:white;">About Me Container | Small</div>
 
-            <!-- ------------------------------------------- -->
-            <!-- [2/2] | Title Welcome Sfd Container         -->
-            <!-- ------------------------------------------- -->
-            <div id="title-welcome-sfd-container">
+            <!-- ------------------------------------------------------- -->
+            <!-- 🟥 [1/2] | Welcome SuperfreshDev Container -->
+            <!-- ------------------------------------------------------- -->
+            <div id="welcome-sfd-container" style="display: none;">
 
-              <!-- title welcome  -->
-              <div id="title-welcome">Welcome to</div>
+              <!-- ------------------------------------------- -->
+              <!-- [1/2] | Img Clipart -->
+              <!-- ------------------------------------------- -->
+              <img src="media/imgs/content/01-about/about-me/me-hi.png"
+                  alt="img" id="img-clipart-welcome-sfd">
 
-              <!-- title welcome sfd -->
-              <div id="title-welcome-sfd">
-                <span>SuperfreshDEV</span>
-                <span>{World}</span>
+              <!-- ------------------------------------------- -->
+              <!-- [2/2] | Title Welcome Sfd Container         -->
+              <!-- ------------------------------------------- -->
+              <div id="title-welcome-sfd-container">
+
+                <!-- title welcome  -->
+                <div id="title-welcome">Welcome to</div>
+
+                <!-- title welcome sfd -->
+                <div id="title-welcome-sfd">
+                  <span>SuperfreshDEV</span>
+                  <span>{World}</span>
+                </div>
+
+                <!-- sub title sfd -->
+                <div id="sub-title-welcome-sfd">» lets build systems not just software.</div>
+
+
               </div>
 
-              <!-- sub title sfd -->
-              <div id="sub-title-welcome-sfd">» lets build systems not just software.</div>
+            </div>
+
+            <!-- ------------------------------------------------------- -->
+            <!-- 🟥 [2/2] | Quick Info About Container -->
+            <!-- ------------------------------------------------------- -->
+            <div id="quick-info-container-about-me" style="display: none;">
+
+              <!-- -------------------------------------------------------- -->
+              <!-- [1/2] | Quick Info Text About Container-->
+              <!-- -------------------------------------------------------- -->
+              <div id="quick-info-text-container-about-me">
+
+                <!-- --------------------------------------------------------------- -->
+                <!-- Header -->
+                <!-- --------------------------------------------------------------- -->
+                <header>
+
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
+                      alt="img" style="height: 1.1em;">
+                  <div>Quick Info</div>
+
+                </header>
+
+                <!-- --------------------------------------------------------------- -->
+                <!-- Main -->
+                <!-- --------------------------------------------------------------- -->
+                <main>
+                    My Name is Marko (SuperfreshDev) and I'm from Germany.
+                    I am a Fullstack Software Developer in building Web-Plattforms,
+                    Software/Mobile-Solutions and creating scalable running Backend-Systems.
+                </main>
+
+                <!-- --------------------------------------------------------------- -->
+                <!-- Footer  -->
+                <!-- --------------------------------------------------------------- -->
+                <footer>
+
+                  <!-- --------------------------------------------------------------- -->
+                  <!-- Show More | Label  -->
+                  <!-- --------------------------------------------------------------- -->
+                  <label for="" class="lbl-">
+
+                    Show More
+
+                  </label>
+
+                </footer>
+
+
+              </div>
+
+              <!-- -------------------------------------------------------- -->
+              <!-- [2/2] | Img About Me Prof -->
+              <!-- -------------------------------------------------------- -->
+              <img src="media/imgs/content/01-about/about-me/big-superfreshdev.PNG"
+                  alt="img" id="img-about-me-prof">
+
 
 
             </div>
-
-          </div>
-
-          <!-- ------------------------------------------------------- -->
-          <!-- [2/2] | Welcome to Superfresh Sticker -->
-          <!-- ------------------------------------------------------- -->
-          <div id="quick-info-container-about-me">
-
-
-            <!-- -------------------------------------------------------- -->
-            <!-- [1/2] | Quick Info Text About Container-->
-            <!-- -------------------------------------------------------- -->
-            <div id="quick-info-text-container-about-me">
-
-              <!-- --------------------------------------------------------------- -->
-              <!-- Header -->
-              <!-- --------------------------------------------------------------- -->
-              <header>
-
-                <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
-                     alt="img" style="height: 1.1em;">
-                <div>Quick Info</div>
-
-              </header>
-
-              <!-- --------------------------------------------------------------- -->
-              <!-- Main -->
-              <!-- --------------------------------------------------------------- -->
-              <main>
-                  My Name is Marko (SuperfreshDev) and I'm from Germany.
-                  I am a Fullstack Software Developer in building Web-Plattforms,
-                  Software/Mobile-Solutions and creating scalable running Backend-Systems.
-              </main>
-
-              <!-- --------------------------------------------------------------- -->
-              <!-- Footer  -->
-              <!-- --------------------------------------------------------------- -->
-              <footer>
-
-                <!-- --------------------------------------------------------------- -->
-                <!-- Show More | Label  -->
-                <!-- --------------------------------------------------------------- -->
-                <label for="" class="lbl-">
-
-                  Show More
-
-                </label>
-
-              </footer>
-
-
-            </div>
-
-            <!-- -------------------------------------------------------- -->
-            <!-- [2/2] | Img About Me Prof -->
-            <!-- -------------------------------------------------------- -->
-            <img src="media/imgs/content/01-about/about-me/big-superfreshdev.PNG"
-                 alt="img" id="img-about-me-prof">
-
-
 
           </div>
 
@@ -321,27 +383,35 @@
       <!-- --------------------------------------------------------------- -->
       <!-- 🟥 [2/4] | Show More | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div class="resp-content-container-medium">
+      <div class="row-container">
 
-        <!-- --------------------------------------------------------------- -->
-        <!-- [2/4] | Show More | About Container -->
-        <!-- --------------------------------------------------------------- -->
-        <div id="show-more-about-container" >
-            Show More | About Container
+        <div class="resp-content-container-medium">
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- [2/4] | Show More | About Container -->
+          <!-- --------------------------------------------------------------- -->
+          <div id="show-more-about-container" >
+              Show More | About Container | Medium
+          </div>
+
         </div>
 
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- 🟥 [3/4] | Top IT Projects | 📐 Resp | Medium  -->
+      <!-- 🟥 [3/4] | Top IT Projects | 📐 Resp | Big  -->
       <!-- --------------------------------------------------------------- -->
-      <div class="resp-content-container-medium">
+      <div class="row-container">
 
-        <!-- --------------------------------------------------------------- -->
-        <!-- [3/4] | Top IT Projects | About Container -->
-        <!-- --------------------------------------------------------------- -->
-        <div id="top-it-projects-about-container">
-            Top IT Projects | About Container
+        <div class="resp-content-container-big">
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- [3/4] | Top IT Projects | About Container -->
+          <!-- --------------------------------------------------------------- -->
+          <div id="top-it-projects-about-container">
+              Top IT Projects | About Container | Big
+          </div>
+
         </div>
 
       </div>
@@ -349,15 +419,19 @@
       <!-- --------------------------------------------------------------- -->
       <!-- 🟥 [4/4] | Contact Me | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div class="resp-content-container-medium">
+      <div class="row-container">
 
-        <!-- --------------------------------------------------------------- -->
-        <!-- [4/4] | Contact Me Container -->
-        <!-- --------------------------------------------------------------- -->
-        <div id="contact-me-about-container" >
-            Contact Me | About Container
+        <div class="resp-content-container-medium">
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- [4/4] | Contact Me Container -->
+          <!-- --------------------------------------------------------------- -->
+          <div id="contact-me-about-container" >
+              Contact Me | About Container | Medium
+          </div>
+
+
         </div>
-
 
       </div>
 
@@ -386,46 +460,56 @@
   </main>
 
   <!-- ---------------------------------------------------------------- -->
-  <!-- 🟥 [2/2] | Footer Body | 📐 Resp | Medium -->
+  <!-- 🟨🌊 [2/2] | Footer Body | 📐 Resp | Medium -->
   <!-- ---------------------------------------------------------------- -->
-  <div class="resp-content-container-medium">
+  <footer id="footer-body">
 
     <!-- ---------------------------------------------------------------- -->
-    <!-- 🟥 [2/2] | Footer Body -->
+    <!-- 🟨 [2/2] | Footer Body | 📐 Resp | Medium -->
     <!-- ---------------------------------------------------------------- -->
-    <footer id="footer-body">
+    <div class="resp-content-container-medium">
 
-      <!-- ----------------------------------------------------- -->
-      <!-- Copyright SuperfreshDev Footer Sticker -->
-      <!-- ----------------------------------------------------- -->
-      <div id="copyright-sfd-footer-sticker">
+      <!-- ---------------------------------------------------------------- -->
+      <!-- 🟨 [2/2] | Footer Content Body -->
+      <!-- ---------------------------------------------------------------- -->
+      <div id="footer-content-body">
 
-        <!-- ---------------------------------------------- -->
-        <!-- [1/3] | Title -->
-        <!-- ---------------------------------------------- -->
-        <div id="copyright-title-sfd-item">
-          <img src="media/imgs/icons/02-icon-colors/04-light-grey/light-grey-copyright.png"
-              alt="img" style="height:1em">
-          <div>SuperfreshDEV</div>
+        <!-- ----------------------------------------------------- -->
+        <!-- Copyright Footer Contianer -->
+        <!-- ----------------------------------------------------- -->
+        <div id="copyright-footer-container">
+
+          <!-- ---------------------------------------------- -->
+          <!-- [1/3] | Title -->
+          <!-- ---------------------------------------------- -->
+          <div id="copyright-title-footer">
+
+            <img src="media/imgs/icons/02-icon-colors/04-light-grey/light-grey-copyright.png"
+                alt="img" class="img-h-0-8">
+            <div>SuperfreshDEV</div>
+
+          </div>
+
+          <!-- ---------------------------------------------- -->
+          <!-- [2/3] | Img Seperator -->
+          <!-- ---------------------------------------------- -->
+          <div id="copyright-seperator-footer">
+            <div>/</div>
+          </div>
+
+          <!-- ---------------------------------------------- -->
+          <!-- [3/3] | Year -->
+          <!-- ---------------------------------------------- -->
+          <div id="copyright-year-footer">2026⚠️</div>
+
         </div>
-
-        <!-- ---------------------------------------------- -->
-        <!-- [2/3] | Img Seperator -->
-        <!-- ---------------------------------------------- -->
-        <div id="copyright-seperator-sfd">
-          <div>/</div>
-        </div>
-
-        <!-- ---------------------------------------------- -->
-        <!-- [3/3] | Year -->
-        <!-- ---------------------------------------------- -->
-        <div id="copyright-year-sfd">2026⚠️</div>
 
       </div>
 
-    </footer>
+    </div>
 
-  </div>
+  </footer>
+
 
   <!-- ------------------------------------------------------------------------ -->
   <!-- 🟨 JS Bindings -->

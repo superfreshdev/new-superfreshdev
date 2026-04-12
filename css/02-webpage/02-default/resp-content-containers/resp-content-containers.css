@@ -17,8 +17,7 @@
 
   width: 100%;
   height: 100%;
-
-  padding: 0 .8em;
+  padding: 0 .6em;
 
   /* content center of child layout */
   display: flex;
@@ -57,7 +56,7 @@
 
 
 /* --------------------------------------------------------------- */
-/* >= 600px
+/* >= 600px | Small,
 /* --------------------------------------------------------------- */
 
 @media (min-width: 600px) {
@@ -65,8 +64,7 @@
   .resp-content-container-small {
 
     padding: 0;
-
-    width: 95%;
+    width: 80%;
 
     /* background-color: red; */
 
@@ -75,15 +73,24 @@
 }
 
 /* --------------------------------------------------------------- */
-/* >= 800px
+/* >= 800px | Small, Medium
 /* --------------------------------------------------------------- */
 
 @media (min-width: 800px) {
 
+  /* small */
   .resp-content-container-small {
 
-    width: 50em;
+    width: 40em;
+    /* background-color: red; */
 
+  }
+
+  /* medium */
+  .resp-content-container-medium {
+
+    padding: 0;
+    width: 90%;
     /* background-color: red; */
 
   }
@@ -98,33 +105,65 @@
 }
 
 /* --------------------------------------------------------------- */
-/* >= 1000px
+/* >= 1000px | Medium
 /* --------------------------------------------------------------- */
 
 @media (min-width: 1000px) {
 
-  .resp-content-container-small {
+  /* medium */
+  .resp-content-container-medium {
 
-    width: 55em;
-
+    width: 80%;
     /* background-color: red; */
 
   }
 
 }
 
+/* --------------------------------------------------------------- */
+/* >= 1200px | Medium
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1200px ) {
+
+   /* medium */
+  .resp-content-container-medium {
+
+    width: 65em;
+    /* background-color: red; */
+
+  }
+
+}
 
 /* --------------------------------------------------------------- */
-/* >= 1200px
+/* >= 1400px | Big
 /* --------------------------------------------------------------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px ) {
 
-  .resp-content-container-small {
+   /* big */
+  .resp-content-container-big {
 
-    width: 60em;
+    padding: 0;
+    width: 90%;
+    /* background-color: red; */
 
-    background-color: red;
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1600px | Big
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1600px ) {
+
+   /* big */
+  .resp-content-container-big {
+
+    width: 90em;
+    /* background-color: red; */
 
   }
 

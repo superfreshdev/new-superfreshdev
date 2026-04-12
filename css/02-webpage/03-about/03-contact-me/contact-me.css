@@ -16,6 +16,10 @@
 
   padding: .8em;
 
-  background-color: rgb(118, 118, 239);
+  color:white;
+  background-color: rgb(28, 28, 28);
+
+   border-left: 1px solid grey;
+  border-right: 1px solid grey;
 
 }

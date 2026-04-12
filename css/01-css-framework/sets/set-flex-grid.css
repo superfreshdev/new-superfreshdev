@@ -1,0 +1,77 @@
+/* -------------------------------------------------------------- */
+/* > set-flex-grid.css
+/*
+/* : set flex, grid default styles to create quick layouts
+/* -------------------------------------------------------------- */
+
+.flex { display: flex; }
+.iflex { display: inline-flex; }
+.grid { display: grid; }
+
+/* --------------------------------------------- */
+/* Align Content
+/* --------------------------------------------- */
+
+.ac-c { align-content: center; }
+.ac-fs { align-content: flex-start; }
+.ac-fe { align-content: flex-end; }
+
+/* --------------------------------------------- */
+/* Align Items
+/* --------------------------------------------- */
+
+.ai-c { align-items: center; }
+.ai-fs { align-items: flex-start; }
+.ai-fe { align-items: flex-end; }
+
+/* --------------------------------------------- */
+/* Justify Content
+/* --------------------------------------------- */
+
+.jc-c { justify-content: center; }
+.jc-sb { justify-content: space-between; }
+.jc-fs { justify-content: flex-start; }
+.jc-fe { justify-content: flex-end; }
+
+/* --------------------------------------------- */
+/* Justify Items
+/* --------------------------------------------- */
+
+.ji-c { justify-items: center;}
+.ji-fs { justify-items: flex-start; }
+.ji-fe { justify-items: flex-end; }
+
+/* --------------------------------------------- */
+/* Self
+/* --------------------------------------------- */
+
+.as-fe { align-self: flex-end; }
+
+.js-fe { justify-self: flex-end; }
+.js-c { justify-self: center; }
+
+
+
+/* --------------------------------------------- */
+/* Row Gab
+/* -------------------------------------------- */
+
+.row-g-0-3 { row-gap: .3em; }
+.row-g-0-5 { row-gap: .5em; }
+.row-g-0-8 { row-gap: .8em; }
+
+.row-g-1 { row-gap: 1em; }
+.row-g-1-2 { row-gap: 1.2em; }
+
+/* --------------------------------------------- */
+/* Column Gab
+/* -------------------------------------------- */
+
+.col-g-0-3 { column-gap: .3em; }
+.col-g-0-5 { column-gap: .5em; }
+.col-g-0-8 { column-gap: .8em; }
+.col-g-1 { column-gap: 1em; }
+
+.col-g-1-2 { column-gap: 1.2em; }
+.col-g-1-3 { column-gap: 1.3em; }
+.col-g-1-5 { column-gap: 1.5em; }

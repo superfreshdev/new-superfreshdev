@@ -1,0 +1,38 @@
+/* -------------------------------------------------------------- */
+/* > set-google-fonts.css
+/*
+/* : load local google font files from /src/fonts folders
+/* : Google Font Binding Local
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+/* Font: Delius
+/* -------------------------------------------------------- */
+
+/* @font-face {
+    font-family: "Inria Sans", sans-serif;
+    src: url('../../../../fonts/Inria_Sans/InriaSans-Regular.ttf') format('truetype'),
+         url('../../../../fonts/Inria_Sans/InriaSans-Bold.ttf') format('truetype');
+
+} */
+
+/* -------------------------------------------------------- */
+/* Test Font: Delius
+/* -------------------------------------------------------- */
+
+/* info: add this css in css body */
+/* font-family: "Inria Sans", sans-serif; */
+
+/* -------------------------------------------------------- */
+/* Font: ???
+/* -------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------- */
+/* Test Font: ???
+/* -------------------------------------------------------- */
+
+/* info: add this css in css body */
+/* font-family: "Inria Sans", sans-serif; */

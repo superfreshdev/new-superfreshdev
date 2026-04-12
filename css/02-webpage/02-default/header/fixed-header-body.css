@@ -19,15 +19,21 @@
   display: grid;
   justify-items: center;
 
+
   position: fixed;
   left:0;
   right:0;
 
+  background-color: rgb(28, 28, 28);
+
+  border-bottom: 1px solid rgb(47, 47, 47);
+
+
 }
 
-/* --------------------------------------------------------------- */
-/* Overwrite Style | 📐 Resp Medium
-/* --------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* [1/1] | Resp Content Container Medium | Overwrite | Fixed Header Body
+/* ----------------------------------------------------------------------- */
 
 #fixed-header-body > .resp-content-container-medium {
 
@@ -44,13 +50,17 @@
   width: 100%;
   height: 100%;
 
+  /* mobile */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   background-color: rgb(28, 28, 28);
   color:white;
 
-  border-bottom: 1px solid rgba(52, 52, 52, .8);
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+
 
 }
