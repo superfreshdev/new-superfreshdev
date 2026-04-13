@@ -1,0 +1,77 @@
+/* --------------------------------------------------------------- */
+/* > nav-handling-about-me.css
+/*
+/* : styles handlings of nav
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Handling | Stylings
+/* --------------------------------------------------------------- */
+
+/* default checkbox unshown */
+
+input[id="chk-show-more-about"] {
+
+  display: none;
+
+}
+
+/* ------------------------------------------- */
+/* Set Background Color */
+/* ------------------------------------------- */
+
+#chk-show-more-about:checked + .row-container label[for="chk-show-more-about"] {
+
+  background-color: wheat;
+  color:black;
+
+}
+
+/* ------------------------------------------- */
+/* Change Img  */
+/* ------------------------------------------- */
+
+/* unshown img grey */
+#chk-show-more-about:checked + .row-container label[for="chk-show-more-about"] > img:nth-of-type(1) {
+
+ display: none;
+
+}
+
+/* show img black */
+#chk-show-more-about:checked + .row-container label[for="chk-show-more-about"] > img:nth-of-type(2) {
+
+ display: flex;
+ transform: rotate(180deg);
+
+}
+
+
+/* 🟪 auslagern smooth concept */
+.smooth-open-close-container {
+
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-out;
+
+}
+
+.overflow-hidden {
+
+  overflow: hidden;
+
+}
+
+/* ------------------------------------------- */
+/* Open Smooth | Show More  */
+/* ------------------------------------------- */
+
+/* open smooth container */
+#chk-show-more-about:checked ~ .row-container:nth-of-type(2) #smooth-show-more-about-container {
+
+  grid-template-rows: 1fr;
+
+}

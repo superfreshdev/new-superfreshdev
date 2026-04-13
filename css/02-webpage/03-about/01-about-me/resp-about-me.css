@@ -261,9 +261,19 @@
 
   #about-me-container {
 
-    width: 55em;
-
+    width: 53em;
     /* background-color: red; */
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Footer | Quick Info Text Container
+  /* --------------------------------------------------------------- */
+
+  #quick-info-text-about-container > footer {
+
+    /* extra for 14 inch laptops */
+    padding-top: .8em;
 
   }
 
@@ -293,6 +303,16 @@
 
     width: 17em;
     /* border: 3px solid red; */
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Footer | Quick Info Text Container
+  /* --------------------------------------------------------------- */
+
+  #quick-info-text-about-container > footer {
+
+    padding-top: 1.5em;
 
   }
 

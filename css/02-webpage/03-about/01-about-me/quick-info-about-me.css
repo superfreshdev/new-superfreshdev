@@ -91,3 +91,22 @@
   font-weight: bold;
 
 }
+
+/* default unshown img black arrow */
+#quick-info-text-about-container > footer img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* hover, unshown img grey */
+#quick-info-text-about-container > footer > label:hover > img:nth-of-type(1) {
+
+  display: none;
+}
+
+/* hover, show img black */
+#quick-info-text-about-container > footer > label:hover > img:nth-of-type(2) {
+
+  display: flex;
+}
