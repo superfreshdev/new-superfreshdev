@@ -149,15 +149,11 @@
   #img-about-me-prof-square {
 
     display: grid;
+    width: 14em;
 
   }
 
-  /* unshown img rectangle */
-  #img-about-me-prof-rectangle {
 
-    display: none;
-
-  }
 
 }
 
@@ -173,14 +169,14 @@
   /* unshown img square */
   #img-about-me-prof-square {
 
-    display: none;
+    /* display: none; */
 
   }
 
   /* show img rectangle */
   #img-about-me-prof-rectangle {
 
-    display: grid;
+    /* display: grid; */
 
   }
 
