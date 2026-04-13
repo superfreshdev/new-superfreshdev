@@ -6,30 +6,18 @@
 
 
 /* --------------------------------------------------------------- */
-/* Quick Info | About Container
-/* --------------------------------------------------------------- */
-
-#quick-info-about-container {
-
-  padding: .5em 0;
-  width: 100%;
-
-  display: grid;
-  align-items: center;
-
-  column-gap: 2em;
-  row-gap: 2em;
-
-}
-
-/* --------------------------------------------------------------- */
 /* Quick Info Text Container | About Me
 /* --------------------------------------------------------------- */
 
 #quick-info-text-about-container {
 
+  grid-area: quick-info-about;
+
   display: grid;
-  justify-items: flex-start;
+
+  /* mobile */
+  justify-items: center;
+
   row-gap: .8em;
 
 }
@@ -73,10 +61,11 @@
 
 #quick-info-text-about-container > main {
 
-  /* font-size: 18px;
-  line-height: 1.8em; */
+  /* mobile */
+  text-align: center;
 
-  padding-left: .3em;
+  /* desktop */
+  /* padding-left: .3em; */
 
   color:rgb(122, 122, 122);
 
@@ -98,41 +87,5 @@
   /* background-color: rgb(211, 211, 211); */
   color:white;
   font-weight: bold;
-
-}
-
-/* --------------------------------------------------------------- */
-/* Img [1/2] | Rectangle
-/* --------------------------------------------------------------- */
-
-#img-about-me-prof-rectangle {
-
-  width: 14em;
-  width: 100%;
-
-  border-radius: 1em;
-  border: 3px solid rgb(210, 210, 210);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-  /* default unshown, add by responsive  */
-  display: none;
-
-}
-
-/* --------------------------------------------------------------- */
-/* Img [2/2] | Squaure
-/* --------------------------------------------------------------- */
-
-#img-about-me-prof-square {
-
-  width: 14em;
-  width: 100%;
-
-  border-radius: 1em;
-  border: 3px solid rgb(210, 210, 210);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-  /* default unshown, add by responsive  */
-  /* display: none; */
 
 }

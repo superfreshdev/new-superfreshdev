@@ -11,6 +11,8 @@
 
 #welcome-sfd-container {
 
+  grid-area: welcome-about;
+
   width: 100%;
 
   display: flex;
@@ -36,7 +38,7 @@
 
 #title-welcome-sfd-container {
 
-  line-height: 1.3em;
+  line-height: 1.5em;
 
   font-weight: bold;
 
@@ -66,7 +68,7 @@
 #title-welcome-sfd > span:nth-of-type(1) {
 
   /* small mobile */
-  font-size: 16px;
+  font-size: 18px;
   color:white;
 
 }
