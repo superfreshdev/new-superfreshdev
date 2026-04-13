@@ -23,8 +23,9 @@
 
 .lbl-header-body {
 
-  height: 2.5em;
-  padding: 0em .8em;
+  height: 2.1em;
+  padding: 0em .6em;
+
   display: flex;
   align-items: center;
 
@@ -85,7 +86,7 @@
 
   padding: 0 .3em;
 
-  height: .4em;
+  height: .3em;
   opacity: .6;
 
   /* display: none; */

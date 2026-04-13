@@ -17,14 +17,14 @@
   #img-clipart-welcome-sfd {
 
     /* small mobile */
-    height: 6.5em;
+    height: 5em;
 
   }
 
   /* title container */
   #title-welcome-sfd-container {
 
-    line-height: 1.6em;
+    line-height: 1.4em;
 
   }
 
@@ -112,7 +112,7 @@
 
   #about-me-container {
 
-    width: 90%;
+    /* width: 90%; */
 
   }
 
