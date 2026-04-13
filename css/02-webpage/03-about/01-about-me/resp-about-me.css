@@ -1,0 +1,168 @@
+/* --------------------------------------------------------------- */
+/* > resp-about-me.css
+/*
+/* : styles resp about me
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* >= 380px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 380px ) {
+
+  /* --------------------------------------------------------------- */
+  /* Welcome | Img Clipart
+  /* --------------------------------------------------------------- */
+  #img-clipart-welcome-sfd {
+
+    /* small mobile */
+    height: 6.5em;
+
+  }
+
+  /* title container */
+  #title-welcome-sfd-container {
+
+    line-height: 1.6em;
+
+  }
+
+  /* text - welcome */
+  #title-welcome {
+
+   font-size: 18px;
+   /* color:red; */
+
+  }
+
+  /* text - sfd */
+  #title-welcome-sfd > span:nth-of-type(1) {
+
+    font-size: 20px;
+
+  }
+
+  /* text - world */
+  #title-welcome-sfd > span:nth-of-type(2) {
+
+    font-size: 20px;
+
+  }
+
+  /* sub text - sfd */
+  #sub-title-welcome-sfd {
+
+    /* padding-top: 0em; */
+    font-size: 16px;
+
+  }
+
+  #quick-info-text-about-container > main {
+
+    font-size: 18px;
+    line-height: 1.8em;
+    padding-left: .6em;
+
+    color:rgb(122, 122, 122);
+
+  }
+
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 600px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 600px ) {
+
+
+  /* --------------------------------------------------------------- */
+  /* Quick Info | Container
+  /* --------------------------------------------------------------- */
+  #quick-info-about-container {
+
+    /* mobile */
+    grid: auto / 1fr auto;
+
+}
+
+  /* --------------------------------------------------------------- */
+  /* Quick Info | img square
+  /* --------------------------------------------------------------- */
+  #img-about-me-prof-square {
+
+    width: 14em;
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Quick Info | img rectangle
+  /* --------------------------------------------------------------- */
+  #img-about-me-prof-rectangle {
+
+    width: 14em;
+  }
+
+
+}
+
+@media (min-width: 800px ) {
+
+  #about-me-container {
+
+    width: 90%;
+
+  }
+
+}
+
+
+/* 14 inch Laptops */
+/* --------------------------------------------------------------- */
+/* >= 400px & <= 1200px
+/* --------------------------------------------------------------- */
+
+@media (max-height: 900px )  {
+
+  /* show img square */
+  #img-about-me-prof-square {
+
+    display: grid;
+
+  }
+
+  /* unshown img rectangle */
+  #img-about-me-prof-rectangle {
+
+    display: none;
+
+  }
+
+}
+
+
+
+/* Desktop over 14 inch */
+/* --------------------------------------------------------------- */
+/* >= 400px & > 1200px
+/* --------------------------------------------------------------- */
+
+@media (min-height: 901px )  {
+
+  /* unshown img square */
+  #img-about-me-prof-square {
+
+    display: none;
+
+  }
+
+  /* show img rectangle */
+  #img-about-me-prof-rectangle {
+
+    display: grid;
+
+  }
+
+}

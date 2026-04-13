@@ -85,10 +85,12 @@
 
 #img-company-container-header-body > img:nth-of-type(1) {
 
-  height: 2.4em;
-  width: 2.4em;
+  height: 2.8em;
+  width: 2.8em;
 
-  /* border-radius: .4em; */
+  border-radius: .6em;
+
+  border: 2px solid rgb(56, 56, 56);
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 

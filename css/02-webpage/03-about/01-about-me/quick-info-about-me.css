@@ -17,11 +17,6 @@
   display: grid;
   align-items: center;
 
-
-  /* mobile */
-  /* grid: auto / 1fr auto; */
-
-
   column-gap: 2em;
   row-gap: 2em;
 
@@ -55,6 +50,8 @@
   border-radius: .6em;
 
   background-color: rgb(181, 181, 181);
+  /* background-color: #aeb7bf; */
+
   color:rgb(16, 16, 16);
 
 }
@@ -73,7 +70,11 @@
 
 #quick-info-text-about-container > main {
 
+  /* font-size: 18px;
+  line-height: 1.8em; */
+
   padding-left: .6em;
+
   color:rgb(122, 122, 122);
 
 }

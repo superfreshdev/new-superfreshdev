@@ -1,0 +1,155 @@
+/* --------------------------------------------------------------- */
+/* > lbl-content.css
+/*
+/* : styles labels for contents
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label Content | Small, Medium, Big
+/* --------------------------------------------------------------- */
+
+.lbl-content-small,
+.lbl-content-medium,
+.lbl-content-big {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div 1 | Label Content
+/* --------------------------------------------------------------- */
+
+.lbl-content-small > div:nth-of-type(1),
+.lbl-content-medium > div:nth-of-type(1),
+.lbl-content-big > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* text */
+
+.lbl-content-small > div:nth-of-type(1) > div,
+.lbl-content-medium > div:nth-of-type(1) > div,
+.lbl-content-big > div:nth-of-type(1) > div {
+
+ font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Small | Label Content
+/* --------------------------------------------------------------- */
+
+.lbl-content-small {
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  border-radius: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Medium | Label Content
+/* --------------------------------------------------------------- */
+
+.lbl-content-medium {
+
+  height: 2.8em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Big | Label Content
+/* --------------------------------------------------------------- */
+
+.lbl-content-big {
+
+  height: 3em;
+  padding: 0 .6em;
+
+  border-radius: .8em;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Custom Label Styles
+/* --------------------------------------------------------------- */
+
+/* --------------------------------------------------------------- */
+/* [1/3] | Light Brown
+/* --------------------------------------------------------------- */
+
+.lbl-light-brown {
+
+  background-color: wheat;
+  color: rgb(28, 28, 28);
+
+}
+
+/* hover */
+.lbl-light-brown:hover {
+
+  background-color: rgb(249, 143, 143);
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/3] | Grey
+/* --------------------------------------------------------------- */
+
+.lbl-grey {
+
+  background-color: grey;
+  color:black;
+
+}
+
+/* hover */
+.lbl-grey:hover {
+
+  background-color: wheat;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [3/3] | Transparent
+/* --------------------------------------------------------------- */
+
+.lbl-transparent {
+
+  background-color: rgb(33, 33, 33);
+  color: rgb(201, 200, 200);
+
+  border: 1px solid rgb(63, 63, 63);
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+}
+
+/* hover */
+.lbl-transparent:hover {
+
+  background-color: wheat;
+  color:black;
+
+}
