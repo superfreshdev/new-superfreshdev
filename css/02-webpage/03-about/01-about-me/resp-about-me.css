@@ -121,9 +121,17 @@
 
 @media (min-width: 800px ) {
 
+  #quick-info-about-container {
+
+    /* width: 45em; */
+
+    /* background-color: red; */
+
+  }
+
   #about-me-container {
 
-    /* width: 90%; */
+    width: 50em;
 
   }
 

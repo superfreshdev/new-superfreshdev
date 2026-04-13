@@ -11,6 +11,8 @@
 
 #welcome-sfd-container {
 
+  width: 100%;
+
   display: flex;
   align-items: center;
   column-gap: .8em;
