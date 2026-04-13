@@ -9,6 +9,7 @@
 /* Resp Font Sizes
 /* --------------------------------------------------------------- */
 
+.resp-font-size-16to16-5,
 .resp-font-size-16to17,
 .resp-font-size-16to18 {
 
@@ -23,7 +24,15 @@
 
 @media (min-width: 380px ) {
 
-   /* 17px */
+  /* 16.5px */
+  .resp-font-size-16to16-5 {
+
+    font-size: 1.03125em;
+    line-height: 2em;
+
+  }
+
+  /* 17px */
   .resp-font-size-16to17 {
 
     font-size: 1.0625em;

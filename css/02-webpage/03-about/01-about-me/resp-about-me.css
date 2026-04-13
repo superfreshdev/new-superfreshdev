@@ -180,7 +180,7 @@
   /* show img rectangle */
   #img-about-me-rectangle {
 
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 
     align-self: flex-end;
     display: grid;
@@ -206,7 +206,7 @@
     ;
 
     row-gap: 3em;
-    column-gap: 2.5em;
+    column-gap: 1.5em;
 
 
   }
@@ -238,14 +238,14 @@
 
 
 /* --------------------------------------------------------------- */
-/* >= 700px
+/* >= 800px
 /* --------------------------------------------------------------- */
 
 @media (min-width: 800px ) {
 
   #about-me-container {
 
-    width: 45em;
+    width: 90%;
 
     /* background-color: red; */
 
@@ -254,9 +254,25 @@
 }
 
 /* --------------------------------------------------------------- */
-/* >= 1400px
+/* >= 1200px
 /* --------------------------------------------------------------- */
-@media (min-width: 1400px ) {
+
+@media (min-width: 1200px ) {
+
+  #about-me-container {
+
+    width: 55em;
+
+    /* background-color: red; */
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1300px
+/* --------------------------------------------------------------- */
+@media (min-width: 1300px ) {
 
 
    #about-me-container {
@@ -283,6 +299,21 @@
 
 }
 
+/* --------------------------------------------------------------- */
+/* >= 1400px
+/* --------------------------------------------------------------- */
+@media (min-width: 1400px ) {
+
+   #about-me-container {
+
+    padding: 2.5em 0em 6em 0em;
+    row-gap: 5em;
+
+    /* background-color: red; */
+
+  }
+
+}
 
 
 /* 14 inch Laptops */
