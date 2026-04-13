@@ -69,7 +69,7 @@
 #img-about-me-rectangle {
 
   /* default unshown, add by responsive  */
-  /* display: none; */
+  display: none;
 
 }
 
