@@ -28,8 +28,8 @@
 
 #quick-info-text-about-container > header {
 
-  height: 1.8em;
-  padding: 0 .6em;
+  height: 2em;
+  padding: 0 .7em;
 
   display: flex;
   align-items: center;

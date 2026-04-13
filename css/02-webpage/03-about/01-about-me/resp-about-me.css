@@ -144,13 +144,6 @@
     width: 14em;
   }
 
-  /* --------------------------------------------------------------- */
-  /* Quick Info | img rectangle
-  /* --------------------------------------------------------------- */
-  /* #img-about-me-prof-rectangle {
-
-    width: 16em;
-  } */
 
 
 }
@@ -169,7 +162,7 @@
   #img-about-me-square {
 
     width: 14.5em;
-    border: 3px solid red;
+    border: 3px solid wheat;
 
   }
 
@@ -274,13 +267,17 @@
   }
 
   /* --------------------------------------------------------------- */
-  /* Quick Info | img square
+  /* Imgs | Rectangle & Square
   /* --------------------------------------------------------------- */
-  #img-about-me-prof-square {
 
-    width: 16em;
+  #img-about-me-rectangle,
+  #img-about-me-square {
+
+    width: 17em;
+    /* border: 3px solid red; */
 
   }
+
 
 }
 
