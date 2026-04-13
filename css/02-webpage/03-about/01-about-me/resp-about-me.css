@@ -180,8 +180,9 @@
   /* show img rectangle */
   #img-about-me-rectangle {
 
-    align-self: flex-end;
+    margin-bottom: 4em;
 
+    align-self: flex-end;
     display: grid;
 
   }
@@ -267,11 +268,12 @@
   }
 
   /* --------------------------------------------------------------- */
-  /* Imgs | Rectangle & Square
+  /* Imgs | Rectangle
   /* --------------------------------------------------------------- */
 
-  #img-about-me-rectangle,
-  #img-about-me-square {
+  #img-about-me-rectangle {
+
+    margin-bottom: .5em;
 
     width: 17em;
     /* border: 3px solid red; */
