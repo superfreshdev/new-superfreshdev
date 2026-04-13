@@ -37,7 +37,7 @@
   box-sizing: border-box;
 
   /* 18px default | 18px / 1rem = 1.125 */
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
 
   /* Responsive Typographie */
   /* font-size: clamp( 16px, 2vw, 18px); */

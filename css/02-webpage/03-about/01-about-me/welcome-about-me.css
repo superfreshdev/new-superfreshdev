@@ -34,7 +34,7 @@
 
 #title-welcome-sfd-container {
 
-  line-height: 1.1em;
+  line-height: 1.4em;
 
   font-weight: bold;
 
@@ -48,12 +48,7 @@
 
   /* small mobile */
   font-size: 14.5px;
-
-  /* desktop */
-  /* font-size: 18px; */
-
   color:#aeb7bf;
-
 
 }
 
@@ -70,12 +65,7 @@
 
   /* small mobile */
   font-size: 16px;
-
-  /* desktop */
-  /* font-size: 20px; */
-
   color:white;
-
 
 }
 
@@ -84,9 +74,6 @@
 
   /* small mobile */
   font-size: 16px;
-
-  /* desktop */
-  /* font-size: 20px; */
   color:wheat;
 
 }
@@ -99,13 +86,10 @@
 
   padding-top: .3em;
 
-  line-height: 1.4em;
+  line-height: 1.3em;
 
   /* small mobile */
   font-size: 14.5px;
-
-  /* desktop */
-  /* font-size: 16px; */
 
   color:rgb(104, 104, 104);
 
