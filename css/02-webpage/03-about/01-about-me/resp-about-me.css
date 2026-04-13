@@ -51,8 +51,9 @@
 
   #quick-info-text-about-container > main {
 
-    font-size: 18px;
-    line-height: 1.8em;
+    /* font-size: 18px;
+    line-height: 1.8em; */
+
     padding-left: .6em;
 
     color:rgb(122, 122, 122);
