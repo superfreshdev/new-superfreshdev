@@ -19,6 +19,10 @@
 
   color:rgb(161, 161, 161);
 
+  color:rgb(210, 191, 156);
+
+  color:rgb(167, 152, 124);
+
   /* font-size: 14.5px; */
 
 }
@@ -70,13 +74,9 @@
 
   border-radius: 1em;
 
-  /* border: 3px solid rgb(56, 56, 56);
-  border: 3px solid rgb(210, 210, 210);
-  border: 3px solid rgb(133, 133, 133); */
-
   border: 3px solid wheat;
-
   border: 3px solid rgba(245, 222, 179, .6);
+  border: 3px solid rgb(133, 133, 133);
 
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 

@@ -220,6 +220,8 @@
     /* desktop */
     justify-items: flex-start;
 
+    row-gap: .8em;
+
   }
 
   /* --------------------------------------------------------------- */
@@ -230,7 +232,7 @@
 
     /* desktop */
     text-align: left;
-    padding: 0 0 0 .3em;
+    padding: 0 0 0 .4em;
 
 }
 
@@ -299,8 +301,6 @@
 
   #img-about-me-rectangle {
 
-    margin-bottom: .5em;
-
     width: 17em;
     /* border: 3px solid red; */
 
@@ -330,51 +330,6 @@
     row-gap: 5em;
 
     /* background-color: red; */
-
-  }
-
-}
-
-
-/* 14 inch Laptops */
-/* --------------------------------------------------------------- */
-/* >= 400px & <= 1200px
-/* --------------------------------------------------------------- */
-
-@media (max-height: 900px ) and (max-width: 1024px)  {
-
-  /* show img square */
-  #img-about-me-prof-square {
-
-    /* display: grid;
-    width: 14em; */
-
-  }
-
-
-
-}
-
-
-
-/* Desktop over 14 inch */
-/* --------------------------------------------------------------- */
-/* >= 400px & > 1200px
-/* --------------------------------------------------------------- */
-
-@media (min-height: 901px )  {
-
-  /* unshown img square */
-  #img-about-me-prof-square {
-
-    /* display: none; */
-
-  }
-
-  /* show img rectangle */
-  #img-about-me-prof-rectangle {
-
-    /* display: grid; */
 
   }
 
