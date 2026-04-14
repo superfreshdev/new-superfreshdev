@@ -36,14 +36,21 @@
 
   border-radius: .6em;
 
-  background-color: rgb(181, 181, 181);
+
   /* background-color: #aeb7bf; */
 
   background-color: rgb(55, 55, 55);
   color:rgb(157, 157, 157);
 
+  background-color: rgb(181, 181, 181);
+  color:rgb(55, 55, 55);
 
+}
 
+/* img */
+#quick-info-text-about-container > header > img:nth-of-type(1) {
+
+  opacity: .6;
 }
 
 /* div 1 */
@@ -64,11 +71,13 @@
   text-align: center;
   padding: 0 .4em;
 
-
   /* desktop */
   /* padding-left: .3em; */
 
   color:rgb(122, 122, 122);
+  color: rgb(171, 171, 171);
+
+
 
 }
 
