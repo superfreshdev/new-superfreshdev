@@ -1,0 +1,153 @@
+/* --------------------------------------------------------------- */
+/* > snippets-sport-lifestyle.css
+/*
+/* : styles snippes sport lifestyle in about me
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Snippets Sport Lifestyle About Container
+/* --------------------------------------------------------------- */
+
+#snippets-sport-lifestyle-about-container {
+
+  width: 100%;
+  padding: 4.5em 0;
+
+  display: grid;
+  justify-items: center;
+  row-gap: 4.5em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Snippets Sport Lifestyle Content Container
+/* --------------------------------------------------------------- */
+
+#snippets-sport-lifestyle-content-container {
+
+  /* width: 100%; */
+
+  display: grid;
+  justify-items: center;
+
+  grid-template-areas:
+
+    'snippet-video-link-box-1'
+    'snippet-video-link-box-2'
+    'snippet-video-link-box-3'
+
+  ;
+
+  row-gap: 2em;
+  column-gap: 1em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Snippet Video Link Box
+/* --------------------------------------------------------------- */
+
+.snippet-video-link-box {
+
+  position: relative;
+
+  width: 100%;
+  display: grid;
+  justify-items: center;
+
+  border-radius: .8em;
+
+  border: 3px solid rgb(67, 67, 67);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  transition: all .8s ease;
+
+}
+
+/* hover */
+.snippet-video-link-box:hover > img:nth-of-type(1) {
+
+  opacity: 1;
+
+}
+
+#snippet-video-link-box-1 {
+
+  grid-area: snippet-video-link-box-1;
+
+}
+
+#snippet-video-link-box-2 {
+
+  grid-area: snippet-video-link-box-2;
+
+}
+
+#snippet-video-link-box-3 {
+
+  grid-area: snippet-video-link-box-3;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/2] | Img Video | Snippet Video Link Box
+/* --------------------------------------------------------------- */
+
+.snippet-img-video {
+
+  width: 100%;
+
+  border-radius: .7em;
+
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/2] | Video Link | Snippet Video Link Box
+/* --------------------------------------------------------------- */
+
+.snippet-video-link {
+
+  position: absolute;
+  bottom: 0;
+
+  height: 2.8em;
+  width: 100%;
+
+  border-radius: 0 0 .7em .7em;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: .6em;
+
+  background-color: rgba(35, 35, 35, 0.4);
+  color:rgb(211, 211, 211);
+
+  cursor: pointer;
+  user-select: none;
+  transition: all .4s;
+
+}
+
+/* visited */
+.snippet-video-link:visited {
+
+  color:rgb(174, 174, 174);
+
+}
+
+/* hover */
+.snippet-video-link:hover {
+
+  background-color: wheat;
+  color:black;
+
+}

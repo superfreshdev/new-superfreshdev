@@ -21,8 +21,9 @@
 
   row-gap: 3em;
 
-  color:white;
+  color:rgb(28, 28, 28);
   background-color: rgb(28, 28, 28);
+  background-color: white;
 
   /* border-left: 1px solid grey;
   border-right: 1px solid grey; */

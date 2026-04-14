@@ -18,15 +18,15 @@
 
   display: grid;
   justify-items: center;
-  /* about me | show more | top it projects | contact */
-  grid: auto auto 1fr auto / 1fr;
+  /* about me | show more | top it projects | snippets | contact */
+  grid: auto auto auto 1fr auto / 1fr;
 
   /* background-color: wheat; */
 
 }
 
 /* --------------------------------------------------------------- */
-/* [1/4] | Row Container | Overwrite | About Me
+/* [1/5] | Row Container | Overwrite | About Me
 /* --------------------------------------------------------------- */
 
 #about-page-container > .row-container:nth-of-type(1) {
@@ -44,7 +44,7 @@
 }
 
 /* --------------------------------------------------------------- */
-/* [2/4] | Row Container | Overwrite  | Show More
+/* [2/5] | Row Container | Overwrite  | Show More
 /* --------------------------------------------------------------- */
 
 #about-page-container > .row-container:nth-of-type(2) {
@@ -63,7 +63,7 @@
 }
 
 /* --------------------------------------------------------------- */
-/* [3/4] | Row Container | Overwrite  | Top IT Projects
+/* [3/5] | Row Container | Overwrite  | Top IT Projects
 /* --------------------------------------------------------------- */
 
 #about-page-container > .row-container:nth-of-type(3) {
@@ -83,7 +83,7 @@
 }
 
 /* --------------------------------------------------------------- */
-/* [4/4] | Row Container | Overwrite  | Contact Me
+/* [4/5] | Row Container | Overwrite  | Snippet Sport
 /* --------------------------------------------------------------- */
 
 #about-page-container > .row-container:nth-of-type(4) {
@@ -94,9 +94,32 @@
 }
 
 /* extra overwrite resp content | medium */
-#about-page-container > .row-container:nth-of-type(4) > .resp-content-container-medium:nth-of-type(1) {
+#about-page-container > .row-container:nth-of-type(4) > .resp-content-container-big:nth-of-type(1) {
 
   /* background-color: red; */
   background-color: rgb(28, 28, 28);
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* [5/5] | Row Container | Overwrite  | Contact Me
+/* --------------------------------------------------------------- */
+
+#about-page-container > .row-container:nth-of-type(5) {
+
+  background-color: rgb(28, 28, 28);
+  /* background-color: rgb(101, 101, 101); */
+   background-color: white;
+
+}
+
+/* extra overwrite resp content | medium */
+#about-page-container > .row-container:nth-of-type(5) > .resp-content-container-medium:nth-of-type(1) {
+
+  /* background-color: red; */
+  background-color: rgb(28, 28, 28);
+  background-color: white;
+
 
 }
