@@ -14,12 +14,127 @@
   width: 100%;
   height: 100%;
 
-  padding: .8em;
+  padding: 3.5em 0em;
+
+  display: grid;
+  justify-items: center;
+
+  row-gap: 3em;
 
   color:white;
   background-color: rgb(28, 28, 28);
 
    border-left: 1px solid grey;
   border-right: 1px solid grey;
+
+}
+
+/* img layout fix */
+#contact-me-about-container > .first-section-header-on-dark:nth-of-type(1) > img {
+
+  margin-bottom: .4em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Contact Me Content | About Container
+/* --------------------------------------------------------------- */
+
+#contact-me-content-about-container {
+
+  position: relative;
+  /* width: 100%; */
+
+  display: grid;
+  justify-items: center;
+
+  column-gap: .3em;
+
+  /* border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/3] | Img Clipart Coffee
+/* --------------------------------------------------------------- */
+
+#img-clipart-contact-me {
+
+  height: 8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/3] | E-Mail Link
+/* --------------------------------------------------------------- */
+
+#email-link-container-contact-me {
+
+  z-index: 2;
+
+  height: 2.6em;
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  border-radius: .6em;
+
+  background-color: wheat;
+  color:black;
+
+  /* border: 1px solid rgb(63, 63, 63);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  background-color: rgb(179, 179, 179);
+  color: rgb(35, 35, 35); */
+
+
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* div */
+#email-link-container-contact-me > div {
+
+  font-size: 14.5px;
+
+}
+
+/* visited */
+#email-link-container-contact-me:visited {
+
+  color: black;
+
+}
+
+/* hover */
+#email-link-container-contact-me:hover {
+
+  background-color: rgb(210, 210, 210);
+  color: black;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [3/3] | Img Arrow Line
+/* --------------------------------------------------------------- */
+
+#img-arrow-line-contact-me {
+
+   position: absolute;
+   z-index: 1;
+
+   height: 7em;
+
+   /* mobile unshown */
+   display: none;
 
 }

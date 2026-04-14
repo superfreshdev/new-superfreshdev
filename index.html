@@ -57,6 +57,10 @@
       <!-- Layout Elements -->
       <!-- --------------------------------------------------  -->
 
+      <!-- header -->
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/first-section-headers.css">
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/resp-first-section-headers.css">
+
       <!-- labels -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/lbl-content.css">
 
@@ -118,11 +122,15 @@
 
       <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/about-top-it-projects.css">
 
+      <!-- top it project card -->
+      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/top-it-project-card.css">
+
       <!-- ----------------------------------------- -->
       <!-- [3/3] | Contact Me | About -->
       <!-- ----------------------------------------- -->
 
       <link rel="stylesheet" href="css/02-webpage/03-about/03-contact-me/contact-me.css">
+      <link rel="stylesheet" href="css/02-webpage/03-about/03-contact-me/resp-contact-me.css">
 
       <!-- resp about -->
       <link rel="stylesheet" href="css/02-webpage/03-about/resp-about-page.css">
@@ -138,6 +146,46 @@
 </head>
 
 <body>
+
+   <!-- Web Google Font Bindings -->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Delius&family=Fira+Code:wght@300..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playpen+Sans+Deva:wght@100..800&family=Playwrite+IE:wght@100..400&family=Playwrite+ZA+Guides&family=Pochaevsk&family=WDXL+Lubrifont+TC&display=swap');
+  </style>
+
+  <!-- Cacadadia rec -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans+Deva:wght@100..800&family=Playwrite+IE:wght@100..400&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+
+  <!-- Nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- Comig Relief -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Alan Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+
+  <!-- Lexend -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Google Sans Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
   <!-- ----------------------------------------------------------------------- -->
   <!-- Radios | Nav Header Body -->
@@ -472,7 +520,65 @@
           <!-- [3/4] | Top IT Projects | About Container -->
           <!-- --------------------------------------------------------------- -->
           <div id="top-it-projects-about-container">
-              Top IT Projects | About Container | Big
+
+            <!-- ------------------------------------------------------------- -->
+            <!-- [1/2] | First Section Header | on light | Top It Projects     -->
+            <!-- ------------------------------------------------------------- -->
+            <div class="first-section-header-on-light">
+
+              <!-- img -->
+              <img src="media/imgs/icons/02-icon-colors/01-black/black-rocket.png"
+                   class="img-h-2"
+                   alt="img">
+
+              <!-- div -->
+              <div class="title-content-first-section-header">
+
+                <!-- title -->
+                <div>My Top x3 IT-Project's</div>
+
+                <!-- sub title -->
+                <div>» Delivery Service, Insurance, Online Shop</div>
+
+              </div>
+
+            </div>
+
+            <!-- ------------------------------------------------------------- -->
+            <!-- [2/2] | Top IT Projects Content | About Container    -->
+            <!-- ------------------------------------------------------------- -->
+            <div id="top-it-projects-content-about-container">
+
+
+              <!-- ------------------------------------------------------------------------------------- -->
+              <!-- [1/3] | Food Online Shop & Kitchen Management Service | Top IT Project Card  -->
+              <!-- ------------------------------------------------------------------------------------- -->
+              <div class="about-top-it-project-card">
+
+                <div>Bild 1</div>
+
+              </div>
+
+              <!-- ------------------------------------------------------------------------------------- -->
+              <!-- [2/3] | Food Online Shop & Kitchen Management Service | Top IT Project Card  -->
+              <!-- ------------------------------------------------------------------------------------- -->
+              <div class="about-top-it-project-card">
+
+                <div>Bild 2</div>
+
+              </div>
+
+              <!-- ------------------------------------------------------------------------------------- -->
+              <!-- [3/3] | Food Online Shop & Kitchen Management Service | Top IT Project Card  -->
+              <!-- ------------------------------------------------------------------------------------- -->
+              <div class="about-top-it-project-card">
+
+                <div>Bild 3</div>
+
+              </div>
+
+            </div>
+
           </div>
 
         </div>
@@ -490,7 +596,62 @@
           <!-- [4/4] | Contact Me Container -->
           <!-- --------------------------------------------------------------- -->
           <div id="contact-me-about-container" >
-              Contact Me | About Container | Medium
+
+            <!-- --------------------------------------------------- -->
+            <!-- [1/2] | First Section Header | on dark | Contact Me -->
+            <!-- --------------------------------------------------- -->
+            <div class="first-section-header-on-dark">
+
+              <!-- img -->
+              <img src="media/imgs/icons/02-icon-colors/03-grey/grey-light-brown-email-arrow.png"
+                   class="img-h-2"
+                   alt="img">
+
+              <!-- div -->
+              <div class="title-content-first-section-header">
+
+                <!-- title -->
+                <div>Contact Me</div>
+
+                <!-- sub title -->
+                <div>» Write me an E-Mail ...</div>
+
+              </div>
+
+            </div>
+
+            <!-- --------------------------------------------------- -->
+            <!-- [2/2] | Contact Me Content About Container -->
+            <!-- --------------------------------------------------- -->
+            <div id="contact-me-content-about-container">
+
+              <!-- ------------------------------------------------------------ -->
+              <!-- [1/3] | Img Clipart Coffee -->
+              <!-- ------------------------------------------------------------ -->
+              <img src="media/imgs/content/01-about/about-me/coffee-me.png"
+                   id="img-clipart-contact-me" alt="img">
+
+              <!-- ------------------------------------------------------------ -->
+              <!-- [2/3] | E-Mail Link -->
+              <!-- ------------------------------------------------------------ -->
+              <a href="mailto:superfreshdev@gmx.de"
+                 target="_blank" title="Write me an E-Mail ..." id="email-link-container-contact-me">
+
+                <div>superfreshdev@gmx.de</div>
+
+              </a>
+
+              <!-- ------------------------------------------------------------ -->
+              <!-- [3/3] | Img Arrow Line | ( absoulte ) -->
+              <!-- ------------------------------------------------------------ -->
+               <img src="media/imgs/icons/02-icon-colors/03-grey/grey-curved-arrow-line.png"
+                    id="img-arrow-line-contact-me" alt="img">
+
+              </img>
+
+            </div>
+
+
           </div>
 
 
