@@ -1,0 +1,106 @@
+/* --------------------------------------------------------------- */
+/* > link-item-sfd.css
+/*
+/* : styles link item sfd
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Link Item Sfd | Small, Medium, Big
+/* --------------------------------------------------------------- */
+
+.link-item-sfd-small,
+.link-item-sfd-medium,
+.link-item-sfd-big {
+
+  text-decoration: none;
+
+  display: inline-flex;
+  align-items: center;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+  background-color: rgb(225, 225, 225);;
+  color:black;
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* visited */
+.link-item-sfd-small:visited,
+.link-item-sfd-medium:visited,
+.link-item-sfd-big:visited {
+
+  color:black
+
+}
+
+/* hover */
+.link-item-sfd-small:hover,
+.link-item-sfd-medium:hover,
+.link-item-sfd-big:hover {
+
+  background-color: wheat;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Small
+/* --------------------------------------------------------------- */
+
+.link-item-sfd-small {
+
+  min-height: 1.5em;
+  padding: 0 .6em;
+
+  border-radius: .4em;
+
+}
+
+.link-item-sfd-small > div {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Medium
+/* --------------------------------------------------------------- */
+
+.link-item-sfd-medium {
+
+  height: 2.1em;
+  padding: 0 .6em;
+
+  border-radius: .4em;
+
+}
+
+.link-item-sfd-medium > div {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Big
+/* --------------------------------------------------------------- */
+
+.link-item-sfd-big {
+
+  height: 2.5em;
+  padding: 0 .8em;
+
+  border-radius: .4em;
+
+}
+
+.link-item-sfd-big > div {
+
+  font-size: 16px;
+
+}

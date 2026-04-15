@@ -11,12 +11,14 @@
 
 #snippets-sport-lifestyle-about-container {
 
+  position: relative;
+
   width: 100%;
-  padding: 4.5em 0;
+  padding: 4.5em 0 5em 0;
 
   display: grid;
   justify-items: center;
-  row-gap: 4.5em;
+  row-gap: 3em;
 
 }
 
@@ -26,6 +28,7 @@
 
 #snippets-sport-lifestyle-content-container {
 
+  z-index: 3;
   /* width: 100%; */
 
   display: grid;
@@ -177,5 +180,20 @@
 .snippet-video-link:hover > img:nth-of-type(2) {
 
   display: flex;
+
+}
+
+
+#x {
+
+  z-index: 0;
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  /* transform: rotate(30deg); */
+
+  display: none;
 
 }

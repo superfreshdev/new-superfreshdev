@@ -19,10 +19,9 @@
   display: grid;
   align-content: flex-start;
   justify-items: center;
+  justify-content: center;
 
   row-gap: 4em;
-
-  font-weight: bold;
 
   /* background-color: white; */
 
@@ -37,9 +36,17 @@
 #top-it-projects-content-about-container {
 
   width: 100%;
+
+  /* mobile */
   display: grid;
-  /* justify-items: center; */
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-items: center;
+
+  /* grid: auto / 1fr 1fr 1fr; */
+
   row-gap: 3em;
+  column-gap: 1.3em;
 
 }
 
@@ -47,62 +54,7 @@
 
   #top-it-projects-content-about-container {
 
-    width: 70%;
-    display: grid;
-    /* justify-items: center; */
-    row-gap: 3em;
-  }
-
-}
-
-@media ( min-width: 800px) {
-
-  #top-it-projects-content-about-container {
-
-    width: 100%;
-    display: grid;
-
-    grid: auto / 1fr 1fr 1fr;
-
-    row-gap: 3em;
-    column-gap: 3em;
 
   }
 
 }
-
-/* --------------------------------------------------------------- */
-/* About Top IT Project Card
-/* --------------------------------------------------------------- */
-
-.about-top-it-project-card {
-
-
-
-}
-
-.about-top-it-project-card > div {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  height: 25em;
-
-  background-color: grey;
-
-
-}
-
-
-
-/* --------------------------------------------------------------- */
-/* [1/?] | Img | About Top IT Project Card
-/* --------------------------------------------------------------- */
-
-/* .about-top-it-project-card {
-
-
-
-} */

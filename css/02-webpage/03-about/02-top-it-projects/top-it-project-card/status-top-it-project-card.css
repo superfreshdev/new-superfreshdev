@@ -1,0 +1,109 @@
+/* --------------------------------------------------------------- */
+/* > status-top-it-project-card.css
+/*
+/* : styles status top it project card
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Status Container | About Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.status-container-about-top-it-project-card {
+
+  padding: 1em .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  /* background-color: rgb(227, 227, 227); */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Info Status | in progres, to do, later, finished
+/* --------------------------------------------------------------- */
+
+.info-status-in-progress,
+.info-status-to-do,
+.info-status-later,
+.info-status-finished {
+
+  height: 1.5em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+
+}
+
+/* div */
+.info-status-in-progress > div,
+.info-status-to-do > div,
+.info-status-later > div,
+.info-status-finished > div {
+
+  font-weight: bold;
+  font-size: 12.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress
+/* --------------------------------------------------------------- */
+
+.info-status-in-progress {
+
+  /* border: 1px solid rgb(229, 49, 49); */
+  background-color: rgb(251, 133, 133);
+
+  /* color: rgb(169, 31, 31); */
+
+}
+
+/* extra for img arrow */
+.info-status-in-progress > img {
+
+  transform: rotate(-45deg);
+
+  /* layout fix */
+  margin-top: .1em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* To Do
+/* --------------------------------------------------------------- */
+
+.info-status-to-do {
+
+  /* border: 1px solid rgb(209, 174, 0); */
+  background-color: rgb(255, 227, 86);
+
+  /* color: rgb(142, 119, 5); */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Later
+/* --------------------------------------------------------------- */
+
+.info-status-later {
+
+  background-color: rgb(205, 205, 205);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Finished
+/* --------------------------------------------------------------- */
+
+.info-status-finished {
+
+  background-color: rgb(153, 251, 153);
+
+}
