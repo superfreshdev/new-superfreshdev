@@ -1,31 +1,41 @@
 /* ------------------------------------------------------------------- */
-/* > first-section-headers.css
+/* > first-header-content.css
 /*
-/* : styles start headers
+/* : styles first header content
 /* ------------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------------------- */
-/* First Section Header | on dark, on light
+/* First Header Content | on dark, on light
 /* ------------------------------------------------------------------- */
 
-.first-section-header-on-dark,
-.first-section-header-on-light {
+.first-header-content-on-dark,
+.first-header-content-on-light {
 
   display: flex;
   align-items: center;
-  column-gap: .8em;
+  column-gap: 1.5em;
 
 }
 
 /* ------------------------------------------------------------------- */
-/* Div 1 | Title Content
+/* Title Area | First Content Header
 /* ------------------------------------------------------------------- */
 
-.title-content-first-section-header {
+.title-area-first-content-header {
+
+  display: grid;
+  font-weight: bold;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* Sub Title Content Header Container
+/* ------------------------------------------------------------------- */
+
+.sub-title-content-header-container {
 
   line-height: 1.6em;
-  font-weight: bold;
 
 }
 
@@ -34,7 +44,7 @@
 /* ------------------------------------------------------------------- */
 
 /* title */
-.first-section-header-on-dark .title-content-first-section-header > div:nth-of-type(1) {
+.first-header-content-on-dark .first-title-content-header {
 
   color:white;
   font-size: 18px;
@@ -42,9 +52,9 @@
 }
 
 /* sub title */
-.first-section-header-on-dark .title-content-first-section-header > div:nth-of-type(2) {
+.first-header-content-on-dark .sub-title-content-header-container > div {
 
-  color:rgb(187, 187, 187);
+  color:rgb(125, 125, 125);
   font-size: 14.5px;
 
 }
@@ -54,7 +64,7 @@
 /* ------------------------------------------------------------------- */
 
 /* title */
-.first-section-header-on-light .title-content-first-section-header > div:nth-of-type(1) {
+.first-header-content-on-light .first-title-content-header {
 
   color:black;
   font-size: 18px;
@@ -62,7 +72,7 @@
 }
 
 /* sub title */
-.first-section-header-on-light .title-content-first-section-header > div:nth-of-type(2) {
+.first-header-content-on-light .sub-title-content-header-container > div {
 
   color:rgb(95, 95, 95);
   font-size: 14.5px;

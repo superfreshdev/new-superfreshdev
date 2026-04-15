@@ -16,23 +16,23 @@
   /* Div 1 | Title Content
   /* ------------------------------------------------------------------- */
 
-  .title-content-first-section-header {
+  .first-title-content-header {
 
     line-height: 1.7em;
 
   }
 
   /* title | on dark, light */
-  .first-section-header-on-dark .title-content-first-section-header > div:nth-of-type(1),
-  .first-section-header-on-light .title-content-first-section-header > div:nth-of-type(1) {
+  .first-header-content-on-dark .first-title-content-header,
+  .first-header-content-on-light .first-title-content-header {
 
     font-size: 22px;
 
   }
 
   /* sub title | on dark, light */
-  .first-section-header-on-dark .title-content-first-section-header > div:nth-of-type(2),
-  .first-section-header-on-light .title-content-first-section-header > div:nth-of-type(2) {
+  .first-header-content-on-dark .sub-title-content-header-container > div,
+  .first-header-content-on-light .sub-title-content-header-container > div {
 
     font-size: 16px;
 

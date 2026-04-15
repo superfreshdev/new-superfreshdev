@@ -137,6 +137,20 @@
 
 }
 
+/* img 1 | grey */
+.snippet-video-link > img:nth-of-type(1) {
+
+  opacity: .8;
+
+}
+
+/* img 2 | black | default unshown */
+.snippet-video-link > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
 /* visited */
 .snippet-video-link:visited {
 
@@ -149,5 +163,19 @@
 
   background-color: wheat;
   color:black;
+
+}
+
+/* hover add | unshown img grey */
+.snippet-video-link:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* hover add | shown img black */
+.snippet-video-link:hover > img:nth-of-type(2) {
+
+  display: flex;
 
 }
