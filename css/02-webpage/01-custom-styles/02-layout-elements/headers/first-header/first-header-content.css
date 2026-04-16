@@ -60,6 +60,24 @@
 
 }
 
+/* sub link first header content on dark */
+.sub-link-first-header-content-on-dark {
+
+  text-decoration: underline;
+
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+.sub-link-first-header-content-on-dark:hover {
+
+  color:wheat;
+
+}
+
+
 /* ------------------------------------------------------------------- */
 /* on Light
 /* ------------------------------------------------------------------- */
@@ -77,5 +95,22 @@
 
   color:rgb(95, 95, 95);
   font-size: 14.5px;
+
+}
+
+/* sub link first header content on light */
+.sub-link-first-header-content-on-light {
+
+  text-decoration: underline;
+
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+.sub-link-first-header-content-on-light:hover {
+
+  color:wheat;
 
 }
