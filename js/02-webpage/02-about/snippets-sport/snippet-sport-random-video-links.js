@@ -1,6 +1,8 @@
 // console.log("🟨 snippet-sport-random-video-links.js")
 
 
+// update_random_sport_snippet_video_link_boxes
+
 /* ---------------------------------------------------------------------- */
 /* Dom Elements
 /* ---------------------------------------------------------------------- */
@@ -20,6 +22,14 @@ var links_of_sport_video_snippets = document.querySelectorAll(".snippet-video-li
 /* ---------------------------------------------------------------------- */
 /* Variables
 /* ---------------------------------------------------------------------- */
+
+// global
+var start_SnippetSportVideoIndizies  = [];
+start_SnippetSportVideoIndizies = [0,1,2];
+
+// ⚠️ e.g if u use 3 videos, than u should have minimum maxSportSnippetVideos of 6
+// because the first 3 dont will be shown, we like to get 3 new random items
+var maxSportSnippetVideos = 10;
 
 // 1: https://drive.google.com/file/d/16s4r5rtodqSpB2VvIerFl5F7DMOK_3Qo/view?usp=sharing
 // 2: https://drive.google.com/file/d/15MEJVgqmf14iXBTwS25rzKGphJppcZs4/view?usp=sharing
@@ -76,64 +86,78 @@ link_randomVideoLinks.addEventListener( "click",  async () => {
 
   // alert("snippet-click");
 
-  // Update 3 Random Video Links in a Random Range of 1-10
-  await async_update_random_snippetVideoLinks( 3, 10)
+  var new_randomIndizies = [];
+
+  /* ------------------------------------------------- */
+  /* Step 1
+  /* Generate new random numbers which
+  /* are not part of start numbers and they should be
+  /* unique because we like complete 3 new random
+  /* video link items
+  /* ------------------------------------------------- */
+
+    new_randomIndizies = await async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizies(
+                              start_SnippetSportVideoIndizies , maxSportSnippetVideos );
+
+  /* ------------------------------------------------------------------------------- */
+  /* Step 2:
+  /* > Update Sport Video Link Snippets
+  /* > by using getting random values
+  /* ------------------------------------------------------------------------------- */
+
+    // Update Random Snippet Video Links
+    await async_update_random_snippetVideoLinks( new_randomIndizies )
+
+
+  /* ------------------------------------------------------------------------------- */
+  /* Step 3:
+  /* > Update New Random Indizies to new start_SnippetSportVideoIndizies
+  /* > to get everytime new unique random items
+  /* ------------------------------------------------------------------------------- */
+
+    start_SnippetSportVideoIndizies = new_randomIndizies;
+
 
 } )
 
 
 /* ----------------------------------------------------------------- */
-/* ...
+/* Async Function |
+/ > Update Random Snippet Video Links by using random indizies
 /* ----------------------------------------------------------------- */
 
-// update random snippet video links
+async function async_update_random_snippetVideoLinks( updateRandomIndizies ) {
 
-// update img src
-
-// update link url
-
-
-/* ----------------------------------------------------------------- */
-/* Async | Update Random Snippet Video Links
-/* ----------------------------------------------------------------- */
-
-async function async_update_random_snippetVideoLinks( numberOfRandomValues, rangeLimit ) {
 
   // console.log("🪛|async_update_random_snippetVideoLinks()")
 
   // console.log("numberOfRandomValues = " + numberOfRandomValues );
   // console.log("rangeLimit = " + rangeLimit );
 
-  /* --------------------------------------------------------- */
-  /* Step 1/2
-  /* > Get x3 Random Values
-  /* --------------------------------------------------------- */
-
-  var get_randomValues = await async_get_randomNumbers_inRange( numberOfRandomValues, rangeLimit );
-
   // test print
   // for( let i=0; i < get_randomValues.length; i++ ) {
   //   console.log("Array="+ i + ": Random = " + get_randomValues[i])
   // }
 
+
   /* --------------------------------------------------------- */
-  /* Step 1/2
-  /* > Update Snippet Videos Links by Datas
+  /* Step 1
+  /* > Update Snippet Videos Links by using
+  /* > Random Indizies
   /* --------------------------------------------------------- */
 
-  var use_randomValue = "";
+  var new_index = "";
 
-  for( let i=0; i < get_randomValues.length; i++ ) {
+  for( let i=0; i < updateRandomIndizies.length; i++ ) {
 
-    // reminder: -1 because we use array indexing
-    use_randomValue = get_randomValues[i];
-    use_randomValue = use_randomValue -1;
+    // update new index
+    new_index = updateRandomIndizies[i];
 
     // update img
-    await async_update_src_from_queryElement( imgs_of_sport_video_snippets[i], img_list[ use_randomValue ] );
+    await async_update_src_from_queryElement( imgs_of_sport_video_snippets[i], img_list[ new_index ] );
 
     // update link
-    await async_update_href_from_queryElement( links_of_sport_video_snippets[i], url_list[ use_randomValue ] )
+    await async_update_href_from_queryElement( links_of_sport_video_snippets[i], url_list[ new_index ] )
 
   }
 
