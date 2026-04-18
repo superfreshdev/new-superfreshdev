@@ -42,6 +42,40 @@
 }
 
 /* --------------------------------------------------------------- */
+/* >= 550px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 550px) {
+
+  /* --------------------------------------------------------------- */
+  /* First Header Content | Overwrite CSS Style
+  /* --------------------------------------------------------------- */
+
+  #top-it-projects-about-container > .first-header-content-on-light {
+
+    display: flex;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Title Area | First Header Content | Overwrite CSS Style
+  /* --------------------------------------------------------------- */
+
+  #top-it-projects-about-container > .first-header-content-on-light .title-area-first-content-header {
+
+    justify-items: flex-start;
+
+  }
+
+  #top-it-projects-about-container > .first-header-content-on-light .sub-title-content-header-container {
+
+    text-align: left;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
 /* >= 650px
 /* --------------------------------------------------------------- */
 

@@ -1,0 +1,55 @@
+/* ------------------------------------------------------------------- */
+/* > first-header-content-on-light.css
+/*
+/* : styles first header content
+/* ------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------- */
+/* First Header Content | on light
+/* ------------------------------------------------------------------- */
+
+.first-header-content-on-light {
+
+  display: flex;
+  align-items: center;
+  column-gap: 1.5em;
+
+}
+
+/* title */
+.first-header-content-on-light .first-title-content-header {
+
+  color:black;
+
+  /* 18px */
+  font-size: 1.125em;
+
+}
+
+/* sub title */
+.first-header-content-on-light .sub-title-content-header-container > div {
+
+  color:rgb(95, 95, 95);
+
+  /* 14.5px */
+  font-size: .90625em;
+
+}
+
+/* sub link first header content on light */
+.sub-link-first-header-content-on-light {
+
+  text-decoration: underline;
+
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+.sub-link-first-header-content-on-light:hover {
+
+  color:wheat;
+
+}

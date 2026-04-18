@@ -95,6 +95,19 @@
 
   }
 
+  /* --------------------------------------------------------------- */
+  /* First Header Content | Overwrite CSS Style
+  /* --------------------------------------------------------------- */
+
+  #snippets-sport-lifestyle-about-container > .first-header-content-on-dark {
+
+    /* background-color: red; */
+    display: flex;
+
+
+  }
+
+
 }
 
 /* --------------------------------------------------------------- */

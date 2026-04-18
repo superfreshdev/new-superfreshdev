@@ -1,22 +1,9 @@
 /* ------------------------------------------------------------------- */
 /* > first-header-content.css
 /*
-/* : styles first header content
+/* : styles first header content defaults
 /* ------------------------------------------------------------------- */
 
-
-/* ------------------------------------------------------------------- */
-/* First Header Content | on dark, on light
-/* ------------------------------------------------------------------- */
-
-.first-header-content-on-dark,
-.first-header-content-on-light {
-
-  display: flex;
-  align-items: center;
-  column-gap: 1.5em;
-
-}
 
 /* ------------------------------------------------------------------- */
 /* Title Area | First Content Header
@@ -25,7 +12,11 @@
 .title-area-first-content-header {
 
   display: grid;
+
   font-weight: bold;
+
+  /* row-gap: .3em; */
+
 
 }
 
@@ -35,82 +26,15 @@
 
 .sub-title-content-header-container {
 
+  line-height: 1.4em;
+
+  /* background-color: red; */
+
+}
+
+.layout-fix-more-sub-title-items {
+
   line-height: 1.6em;
-
-}
-
-/* ------------------------------------------------------------------- */
-/* on Dark
-/* ------------------------------------------------------------------- */
-
-/* title */
-.first-header-content-on-dark .first-title-content-header {
-
-  color:white;
-  font-size: 18px;
-
-}
-
-/* sub title */
-.first-header-content-on-dark .sub-title-content-header-container > div {
-
-  color:rgb(125, 125, 125);
-  color:rgb(108, 108, 108);
-  font-size: 14.5px;
-
-}
-
-/* sub link first header content on dark */
-.sub-link-first-header-content-on-dark {
-
-  text-decoration: underline;
-
-  cursor: pointer;
-  transition: all .4s;
-
-}
-
-/* hover */
-.sub-link-first-header-content-on-dark:hover {
-
-  color:wheat;
-
-}
-
-
-/* ------------------------------------------------------------------- */
-/* on Light
-/* ------------------------------------------------------------------- */
-
-/* title */
-.first-header-content-on-light .first-title-content-header {
-
-  color:black;
-  font-size: 18px;
-
-}
-
-/* sub title */
-.first-header-content-on-light .sub-title-content-header-container > div {
-
-  color:rgb(95, 95, 95);
-  font-size: 14.5px;
-
-}
-
-/* sub link first header content on light */
-.sub-link-first-header-content-on-light {
-
-  text-decoration: underline;
-
-  cursor: pointer;
-  transition: all .4s;
-
-}
-
-/* hover */
-.sub-link-first-header-content-on-light:hover {
-
-  color:wheat;
+  padding-top: .3em;
 
 }

@@ -14,7 +14,7 @@
   position: relative;
 
   width: 100%;
-  padding: 4.5em 0 5em 0;
+  padding: 3.5em 0 5em 0;
 
   display: grid;
   justify-items: center;
@@ -29,9 +29,9 @@
 #snippets-sport-lifestyle-about-container > .first-header-content-on-dark {
 
   /* background-color: red; */
-  flex-wrap: wrap;
-  row-gap: 2.5em;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
+  row-gap: 2em;
 
 }
 
@@ -42,7 +42,7 @@
 /* small mobile */
 #snippets-sport-lifestyle-about-container > .first-header-content-on-dark > img:nth-of-type(1) {
 
-  height: 4em;
+  height: 3.5em;
 
 }
 

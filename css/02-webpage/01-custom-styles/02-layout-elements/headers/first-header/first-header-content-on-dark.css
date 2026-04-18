@@ -1,0 +1,60 @@
+/* ------------------------------------------------------------------- */
+/* > first-header-content-on-dark.css
+/*
+/* : styles first header content
+/* ------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------- */
+/* First Header Content | on dark
+/* ------------------------------------------------------------------- */
+
+.first-header-content-on-dark {
+
+  display: flex;
+  align-items: center;
+  column-gap: 1.5em;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* on Dark
+/* ------------------------------------------------------------------- */
+
+/* title */
+.first-header-content-on-dark .first-title-content-header {
+
+  color:white;
+
+  /* 18px */
+  font-size: 1.125em;
+
+}
+
+/* sub title */
+.first-header-content-on-dark .sub-title-content-header-container > div {
+
+  color:rgb(125, 125, 125);
+  color:rgb(108, 108, 108);
+
+  /* 14.5px */
+  font-size: .90625em;
+
+}
+
+/* sub link first header content on dark */
+.sub-link-first-header-content-on-dark {
+
+  text-decoration: underline;
+
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+.sub-link-first-header-content-on-dark:hover {
+
+  color:wheat;
+
+}
