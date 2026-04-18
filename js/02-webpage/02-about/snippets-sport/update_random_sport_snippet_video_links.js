@@ -1,7 +1,5 @@
-// console.log("🟨 snippet-sport-random-video-links.js")
+// console.log("🟨 update_random_sport_snippet_video_links.js ")
 
-
-// update_random_sport_snippet_video_link_boxes
 
 /* ---------------------------------------------------------------------- */
 /* Dom Elements
@@ -79,7 +77,7 @@ var img_list = [
 
 /* ----------------------------------------------------------------- */
 /* Event
-/* Click
+/* Click to generate Random Video Links
 /* ----------------------------------------------------------------- */
 
 link_randomVideoLinks.addEventListener( "click",  async () => {
@@ -128,6 +126,9 @@ link_randomVideoLinks.addEventListener( "click",  async () => {
 
 async function async_update_random_snippetVideoLinks( updateRandomIndizies ) {
 
+  // ⚠️ to from json file:
+  // mit den indizies aus der json lesen und daraus die Daten nehmen
+  // Extra Step 1 / 2
 
   // console.log("🪛|async_update_random_snippetVideoLinks()")
 

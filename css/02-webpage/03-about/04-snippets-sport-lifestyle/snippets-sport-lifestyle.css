@@ -23,6 +23,30 @@
 }
 
 /* --------------------------------------------------------------- */
+/* First Header Content | Overwrite CSS Style
+/* --------------------------------------------------------------- */
+
+#snippets-sport-lifestyle-about-container > .first-header-content-on-dark {
+
+  /* background-color: red; */
+  flex-wrap: wrap;
+  row-gap: 2.5em;
+  justify-content: center;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img | First Header Content |
+/* --------------------------------------------------------------- */
+
+/* small mobile */
+#snippets-sport-lifestyle-about-container > .first-header-content-on-dark > img:nth-of-type(1) {
+
+  height: 4em;
+
+}
+
+/* --------------------------------------------------------------- */
 /* Snippets Sport Lifestyle Content Container
 /* --------------------------------------------------------------- */
 

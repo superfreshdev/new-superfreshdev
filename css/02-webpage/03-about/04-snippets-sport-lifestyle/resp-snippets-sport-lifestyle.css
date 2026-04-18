@@ -55,8 +55,6 @@
 
   #snippets-sport-lifestyle-content-container {
 
-    /* grid: auto / 1fr 1fr; */
-
     grid-template-areas:
 
     'snippet-video-link-box-1 snippet-video-link-box-2'
@@ -65,7 +63,6 @@
     ;
 
     row-gap: 1em;
-
 
   }
 
@@ -169,7 +166,6 @@
     ;
 
     row-gap: 1em;
-
 
   }
 
