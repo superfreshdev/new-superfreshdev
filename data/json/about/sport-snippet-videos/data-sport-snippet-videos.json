@@ -1,0 +1,56 @@
+{
+
+  "defaultDatas": {
+
+    "imgPath": "media/imgs/content/01-about/about-me/snippet-img-videos/"
+
+  },
+
+  "sportSnippetVideoDatas": [
+
+    {
+      "imgName": "01.png",
+      "url": "https://drive.google.com/file/d/16s4r5rtodqSpB2VvIerFl5F7DMOK_3Qo/view?usp=sharing"
+    },
+    {
+      "imgName": "02.png",
+      "url": "https://drive.google.com/file/d/15MEJVgqmf14iXBTwS25rzKGphJppcZs4/view?usp=sharing"
+    },
+    {
+      "imgName": "03.png",
+      "url": "https://drive.google.com/file/d/1B0xlvXhssyTIM0jOLVrkkBWb9fZvtCu2/view?usp=sharing"
+    },
+    {
+      "imgName": "04.png",
+      "url": "https://drive.google.com/file/d/1c51KfZqyIEIHYXEu6WnOMulnZ5U4cJHa/view?usp=sharing"
+    },
+    {
+      "imgName": "05.png",
+      "url": "https://drive.google.com/file/d/1RQM3meA1csgiPwIowwgz1bqVBfZFDBsp/view?usp=sharing"
+    },
+    {
+      "imgName": "06.png",
+      "url": "https://drive.google.com/file/d/12JPskQ5xeu8jIWFcgQOw6Gal682knQyF/view?usp=sharing"
+    },
+    {
+      "imgName": "07.png",
+      "url": "https://drive.google.com/file/d/1Q_z7GMinGYnMW5Adv8lxNM2TgYF20_ih/view?usp=sharing"
+    },
+    {
+      "imgName": "08.png",
+      "url": "https://drive.google.com/file/d/1dtO-zPFdB8WsrsRWqWG1g9TOQ31Q_zEL/view?usp=sharing"
+    },
+    {
+      "imgName": "09.png",
+      "url": "https://drive.google.com/file/d/1JrzXdVsQny1V9onl1rmJc_Q83o4WScHI/view?usp=sharing"
+    },
+    {
+      "imgName": "10.png",
+      "url": "https://drive.google.com/file/d/1J9eMjm1CyoqzBIsSzrurCSb6t3eB_f8z/view?usp=sharing"
+    }
+
+  ]
+
+
+
+}
