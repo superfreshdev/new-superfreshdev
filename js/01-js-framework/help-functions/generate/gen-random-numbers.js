@@ -110,12 +110,12 @@ async function async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizie
   /* Given | Test Print
   /* ----------------------------------------------- */
 
-    console.log("⚠️⚠️⚠️| Given")
-    console.log("rangeLimit= " + rangeLimit);
-    for( let i=0; i < ignoringIndizies.length; i++ ) {
-      console.log(i+": ignore Index= " + ignoringIndizies[i])
-    }
-    console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
+    // console.log("⚠️⚠️⚠️| Given")
+    // console.log("rangeLimit= " + rangeLimit);
+    // for( let i=0; i < ignoringIndizies.length; i++ ) {
+    //   console.log(i+": ignore Index= " + ignoringIndizies[i])
+    // }
+    // console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
 
   /* ----------------------------------------------- */
   /* Step 1
@@ -130,11 +130,11 @@ async function async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizie
   /* Inkrement (num) | Test Print
   /* ----------------------------------------------- */
 
-    console.log("⚠️⚠️⚠️| Ignore Numbers ")
-    for( let i=0; i < ignoreNumbers.length; i++ ) {
-      console.log(i+": ignore Numbers (num)= " + ignoreNumbers[i])
-    }
-    console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
+    // console.log("⚠️⚠️⚠️| Ignore Numbers ")
+    // for( let i=0; i < ignoreNumbers.length; i++ ) {
+    //   console.log(i+": ignore Numbers (num)= " + ignoreNumbers[i])
+    // }
+    // console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
 
 
   /* ----------------------------------------------- */
@@ -155,7 +155,7 @@ async function async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizie
       // check if exist "ignoreNumbers" is false
       if( !exist_ignoreNumber ) {
 
-        console.log("❇️ Dont Exist in ignore = " + new_randomNumber )
+        // console.log("❇️ Dont Exist in ignore = " + new_randomNumber )
 
         /* ----------------------------------------------------------------------- */
         // Step 2:
@@ -170,7 +170,7 @@ async function async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizie
 
           if( !status_uniqueNumber ) {
 
-            console.log("🔥 uniqueNumber = " + new_randomNumber )
+            // console.log("🔥 uniqueNumber = " + new_randomNumber )
 
             // add unique
            new_randomNumbers.push( new_randomNumber );
@@ -208,12 +208,12 @@ async function async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizie
     /* > ony unique randome numebrs
     /* ----------------------------------------------- */
 
-      console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
+      // console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
 
-      for( let i=0; i < new_randomNumbers.length; i++ ) {
-        console.log(i+": new_randomNumbers (unique)= " + new_randomNumbers[i])
-      }
-      console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
+      // for( let i=0; i < new_randomNumbers.length; i++ ) {
+      //   console.log(i+": new_randomNumbers (unique)= " + new_randomNumbers[i])
+      // }
+      // console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
 
 
   /* ----------------------------------------------- */
@@ -231,12 +231,12 @@ async function async_get_randomIndizies_from_rangeLimit_by_ignoring_startIndizie
     /* > ony unique randome numebrs
     /* ----------------------------------------------- */
 
-      console.log("⚠️⚠️⚠️|Final")
+      // console.log("⚠️⚠️⚠️|Final")
 
-      for( let i=0; i <  new_randomIndizies.length; i++ ) {
-        console.log(i+":  new_randomIndizies= " +  new_randomIndizies[i])
-      }
-      console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
+      // for( let i=0; i <  new_randomIndizies.length; i++ ) {
+      //   console.log(i+":  new_randomIndizies= " +  new_randomIndizies[i])
+      // }
+      // console.log("⚠️⚠️⚠️⚠️⚠️⚠️")
 
 
 
@@ -328,12 +328,12 @@ async function async_get_randomIndizies_from_rangeLimit( maxRandomValues, rangeL
     /* Final | Test Print
     /* > dekrement random numbers to array indexing
     /* -------------------------------------------------------- */
-     console.log("🔥🔥🔥|Final")
+    //  console.log("🔥🔥🔥|Final")
 
-      for( let i=0; i <  new_randomIndizies.length; i++ ) {
-        console.log(i+":  new_randomIndizies= " +  new_randomIndizies[i])
-      }
-      console.log("🔥🔥🔥🔥🔥🔥")
+    //   for( let i=0; i <  new_randomIndizies.length; i++ ) {
+    //     console.log(i+":  new_randomIndizies= " +  new_randomIndizies[i])
+    //   }
+    //   console.log("🔥🔥🔥🔥🔥🔥")
 
 
 
