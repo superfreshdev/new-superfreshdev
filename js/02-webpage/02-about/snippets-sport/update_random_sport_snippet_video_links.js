@@ -22,7 +22,12 @@ var links_of_sport_video_snippets = document.querySelectorAll(".snippet-video-li
 /* ---------------------------------------------------------------------- */
 
 // json data file for all sport snippet video links
-var jsonFile = "../../../data/json/about/sport-snippet-videos/data-sport-snippet-videos.json"
+
+// server: json file
+var jsonFile = "data/json/about/sport-snippet-videos/data-sport-snippet-videos.json"
+
+// local: json file
+// var jsonFileLocal = "../../../data/json/about/sport-snippet-videos/data-sport-snippet-videos.json"
 
 // global
 var start_SnippetSportVideoIndizies  = [];
