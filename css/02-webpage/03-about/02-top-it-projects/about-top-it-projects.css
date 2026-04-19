@@ -72,7 +72,10 @@
 }
 
 
-/* 🟪 auslagern */
+/* --------------------------------------------------------------- */
+/* Top IT Project Content | About Container
+/* --------------------------------------------------------------- */
+
 #top-it-projects-content-about-container {
 
   width: 100%;
@@ -80,21 +83,43 @@
   /* mobile */
   display: grid;
   align-items: flex-start;
-  align-content: flex-start;
   justify-items: center;
 
-  /* grid: auto / 1fr 1fr 1fr; */
+  grid-template-areas:
+
+    'about-top-it-project-1'
+    'about-top-it-project-2'
+    'about-top-it-project-3'
+  ;
 
   row-gap: 3em;
-  column-gap: 1.3em;
+  column-gap: 1em;
+
+  /* background-color: red; */
 
 }
 
-@media ( min-width: 600px) {
+/* --------------------------------------------------------------- */
+/* Top It Project Cards
+/* --------------------------------------------------------------- */
 
-  #top-it-projects-content-about-container {
+/* 1 */
+#about-top-it-project-1 {
 
+  grid-area: about-top-it-project-1;
 
-  }
+}
+
+/* 2 */
+#about-top-it-project-2 {
+
+  grid-area: about-top-it-project-2;
+
+}
+
+/* 3 */
+#about-top-it-project-3 {
+
+  grid-area: about-top-it-project-3;
 
 }
