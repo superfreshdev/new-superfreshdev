@@ -91,6 +91,8 @@
   background-color: rgb(28, 28, 28);
   background-color: rgb(255, 255, 255);
 
+  background-color: grey;
+
 }
 
 /* extra overwrite resp content | medium */
@@ -98,6 +100,8 @@
 
   /* background-color: red; */
   background-color: rgb(28, 28, 28);
+
+  background-color: grey;
 
 }
 
