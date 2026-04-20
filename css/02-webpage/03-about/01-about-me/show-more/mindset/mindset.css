@@ -1,22 +1,26 @@
 /* --------------------------------------------------------------- */
-/* > row-container.css
+/* > mindset.css
 /*
-/* : styles row container for resp content containers
+/* : styles it skills
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Row Container
+/* Mindset | Show More Container
 /* --------------------------------------------------------------- */
 
-.row-container {
+#mindset-show-more-container {
 
+  padding: 3em 1em;
   width: 100%;
 
-  display:grid;
-  justify-items: center;
-  /* justify-content: center; */
+  display: grid;
 
-  background-color: magenta;
+  /* background-color: violet; */
+
+  border: 1px dashed grey;
+
+  /* default unshown */
+  display: none;
 
 }

@@ -1,0 +1,64 @@
+/* --------------------------------------------------------------- */
+/* > nav-about-show-more.css
+/*
+/* : styles nav
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Nav About Show More
+/* --------------------------------------------------------------- */
+
+#nav-about-show-more {
+
+  padding: 1em 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: .6em;
+  row-gap: .4em;
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Labels | Nav About Show More
+/* --------------------------------------------------------------- */
+
+.lbl-switch-content-medium {
+
+  height: 2.6em;
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+  border-radius: .6em;
+
+  border: 1px solid rgb(172, 172, 172);
+
+  background-color: rgb(229, 229, 229);
+  color:rgb(35, 35, 35);
+
+  transition: all .4s;
+
+}
+
+/* div */
+.lbl-switch-content-medium > div {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+}
+
+/* hover */
+.lbl-switch-content-medium:hover {
+
+  background-color: wheat;
+
+}

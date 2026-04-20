@@ -1,22 +1,27 @@
 /* --------------------------------------------------------------- */
-/* > row-container.css
+/* > story-behind-sfd.css
 /*
-/* : styles row container for resp content containers
+/* : styles story-behind-sfd
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Row Container
+/* Stroy Behind Sfd | Show More Container
 /* --------------------------------------------------------------- */
 
-.row-container {
+#story-behind-sfd-show-more-container {
 
+  padding: 3em 1em;
   width: 100%;
 
-  display:grid;
-  justify-items: center;
-  /* justify-content: center; */
+  display: grid;
 
-  background-color: magenta;
+  /* background-color: rgb(220, 231, 161); */
+
+  border: 1px dashed grey;
+
+  /* default unshown */
+  display: none;
+
 
 }

@@ -1,22 +1,26 @@
 /* --------------------------------------------------------------- */
-/* > row-container.css
+/* > hobbys.css
 /*
-/* : styles row container for resp content containers
+/* : styles hobbys
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Row Container
+/* Hobbys | Show More Container
 /* --------------------------------------------------------------- */
 
-.row-container {
+#hobbys-show-more-container {
 
+  padding: 3em 1em;
   width: 100%;
 
-  display:grid;
-  justify-items: center;
-  /* justify-content: center; */
+  display: grid;
 
-  background-color: magenta;
+  /* background-color: rgb(67, 144, 239); */
+
+  border: 1px dashed grey;
+
+  /* default unshown */
+  display: none;
 
 }

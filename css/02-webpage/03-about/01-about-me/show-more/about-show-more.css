@@ -14,10 +14,43 @@
   width: 100%;
   padding: .8em;
 
-  /* background-color: white; */
-  /* background-color: blueviolet; */
+  display: grid;
+  justify-items: center;
 
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  /* border-left: 1px solid grey;
+  border-right: 1px solid grey; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Info Show More About Container
+/* --------------------------------------------------------------- */
+
+#info-show-more-about-container {
+
+  padding: 1.5em 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 1.3em;
+
+}
+
+/* img */
+#img-clipart-info-show-more {
+
+  height: 5em;
+
+}
+
+/* title container */
+#info-show-more-about-container > div {
+
+  line-height: 1.5em;
+
+  font-weight: bold;
+  width: 8em;
 
 }

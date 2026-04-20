@@ -91,7 +91,8 @@
   background-color: rgb(28, 28, 28);
   background-color: rgb(255, 255, 255);
 
-  background-color: grey;
+  /* background-color: grey; */
+  border-bottom: 4px solid rgb(219, 219, 219);
 
 }
 
@@ -101,7 +102,7 @@
   /* background-color: red; */
   background-color: rgb(28, 28, 28);
 
-  background-color: grey;
+  background-color: white;
 
 }
 

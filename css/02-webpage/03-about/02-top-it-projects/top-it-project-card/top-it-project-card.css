@@ -40,6 +40,14 @@
 
 }
 
+/* hover nr */
+.about-top-it-project-card:hover .img-container-about-top-it-project-card .nr-box-about-top-it-project-card {
+
+  opacity: 0;
+  /* border: 3px solid transparent; */
+
+}
+
 /* hover main */
 .about-top-it-project-card:hover .content-container-about-top-it-project-card > main > main {
 
