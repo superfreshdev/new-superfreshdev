@@ -32,11 +32,20 @@
 
   border-radius: .4em;
 
-  border: 1px solid rgb(161, 161, 161);
-  color:rgb(91, 91, 91);
+  border: 1px solid rgb(154, 154, 154);
+  color:rgb(107, 107, 107);
 
   text-decoration: none;
   transition: all .4s;
+
+}
+
+/* imgs */
+.button-sfd-small > img,
+.button-sfd-medium > img,
+.button-sfd-big > img {
+
+  opacity: .6;
 
 }
 
@@ -86,6 +95,8 @@
   font-size: 14.5px;
 
 }
+
+
 
 /* --------------------------------------------------------------- */
 /* Big

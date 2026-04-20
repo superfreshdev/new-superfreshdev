@@ -52,6 +52,16 @@
 
 }
 
+/* img */
+.info-status-in-progress > img,
+.info-status-to-do > img,
+.info-status-later > img,
+.info-status-finished > img {
+
+ opacity: .6;
+
+}
+
 /* --------------------------------------------------------------- */
 /* In Progress
 /* --------------------------------------------------------------- */
@@ -61,7 +71,7 @@
   /* border: 1px solid rgb(229, 49, 49); */
   background-color: rgb(251, 133, 133);
 
-  /* color: rgb(169, 31, 31); */
+  color: rgb(169, 31, 31);
 
 }
 
@@ -84,7 +94,7 @@
   /* border: 1px solid rgb(209, 174, 0); */
   background-color: rgb(255, 227, 86);
 
-  /* color: rgb(142, 119, 5); */
+  color: rgb(142, 119, 5);
 
 }
 
@@ -95,6 +105,7 @@
 .info-status-later {
 
   background-color: rgb(205, 205, 205);
+  color: rgb(94, 94, 94);
 
 }
 

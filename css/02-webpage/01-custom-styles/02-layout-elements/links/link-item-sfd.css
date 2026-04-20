@@ -21,8 +21,9 @@
 
   font-weight: bold;
 
-  background-color: rgb(225, 225, 225);;
-  color:black;
+  background-color: rgb(225, 225, 225);
+
+  color:rgb(66, 66, 66);
 
   user-select: none;
   cursor: pointer;
@@ -35,7 +36,8 @@
 .link-item-sfd-medium:visited,
 .link-item-sfd-big:visited {
 
-  color:black
+  color:rgb(66, 66, 66);
+  color:rgb(107, 107, 107);
 
 }
 
