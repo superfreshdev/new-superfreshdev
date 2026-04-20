@@ -372,7 +372,7 @@
     <div id="about-page-container">
 
       <!-- Checkbox | Show More -->
-      <input type="checkbox" id="chk-show-more-about">
+      <input checked type="checkbox" id="chk-show-more-about">
 
       <!-- --------------------------------------------------------------- -->
       <!-- 🟥 [1/4] | About Me | 📐 Resp | Medium  -->
@@ -518,124 +518,147 @@
       <!-- --------------------------------------------------------------- -->
       <!-- ➡️🟥 [2/4] | Show More | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
-      <div class="row-container" style="background-color: blue;">
+      <div id="row-container-show-more-about">
 
-        <!-- ------------------------------------------------------------------ -->
-        <!-- [1/2] | Content | Show More -->
-        <!-- ------------------------------------------------------------------ -->
-        <div class="resp-content-container-max">
+        <!-- --------------------------------------------------------------- -->
+        <!-- [2/4] | Show More | About Container -->
+        <!-- --------------------------------------------------------------- -->
+        <div id="smooth-show-more-about-container" class="smooth-open-close-container">
 
-          <!-- --------------------------------------------------------------- -->
-          <!-- [2/4] | Show More | About Container -->
-          <!-- --------------------------------------------------------------- -->
-          <div id="smooth-show-more-about-container" class="smooth-open-close-container">
+          <!-- ------------------------------------------------- -->
+          <!-- overflow hidden -->
+          <!-- ------------------------------------------------- -->
+          <div class="overflow-hidden" style="width: 100%; display: grid; justify-items: center;">
 
-            <!-- overflow hidden -->
-            <div class="overflow-hidden" style="width: 100%; display: grid; justify-items: center;">
+            <!-- ------------------------------------------------------------------ -->
+            <!-- [X] | Radios Nav Show More -->
+            <!-- ------------------------------------------------------------------ -->
+            <input type="radio" id="radio-show-more-it-skills" name="name-radio-show-more-about">
+            <input type="radio" id="radio-show-more-story-behind-sfd" name="name-radio-show-more-about">
+            <input type="radio" id="radio-show-more-mindset" name="name-radio-show-more-about">
+            <input type="radio" id="radio-show-more-hobbys" name="name-radio-show-more-about">
 
-              <!-- --------------------------------------------------------------- -->
-              <!-- [2/4] | Show More | About Container -->
-              <!-- --------------------------------------------------------------- -->
-              <div id="show-more-about-container">
+            <!-- --------------------------------------------------------- -->
+            <!-- [1/2] | Show More Content | Row Container -->
+            <!-- --------------------------------------------------------- -->
+            <div class="row-container">
 
-                <!-- ------------------------------------------------------------------ -->
-                <!-- [X] | Radios Nav Show More -->
-                <!-- ------------------------------------------------------------------ -->
-                <input type="radio" id="radio-show-more-it-skills" name="name-radio-show-more-about">
-                <input type="radio" id="radio-show-more-story-behind-sfd" name="name-radio-show-more-about">
-                <input type="radio" id="radio-show-more-mindset" name="name-radio-show-more-about">
-                <input type="radio" id="radio-show-more-hobbys" name="name-radio-show-more-about">
+              <!-- ------------------------------------------------------------------ -->
+              <!-- Content | Show More -->
+              <!-- ------------------------------------------------------------------ -->
+              <div class="resp-content-container-medium">
 
-                <!-- ------------------------------------------------------------------ -->
-                <!-- [1/2] | Content | Show More | Medium -->
-                <!-- ------------------------------------------------------------------ -->
-                <div class="resp-content-container-medium" style="background-color: white;" >
-
-                  <!-- ------------------------------------------------------------------ -->
-                  <!-- [1/6] | Nav About Show More -->
-                  <!-- ------------------------------------------------------------------ -->
-                  <nav id="nav-about-show-more">
-
-                    <!-- IT Skills -->
-                    <label for="radio-show-more-it-skills" class="lbl-switch-content-medium">
-
-                      <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
-                          alt="img"
-                          class="img-h-1">
-
-                      <div>IT Skills</div>
-
-                    </label>
-
-                    <!-- Story behind sd -->
-                    <label for="radio-show-more-story-behind-sfd" class="lbl-switch-content-medium">
-
-                      <img src="media/imgs/icons/02-icon-colors/01-black/black-shower.png"
-                          alt="img"
-                          class="img-h-1">
-
-                      <div>Story behind Sfd</div>
-
-                    </label>
-
-                    <!-- Mindset -->
-                    <label for="radio-show-more-mindset" class="lbl-switch-content-medium">
-
-                      <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
-                          alt="img"
-                          class="img-h-1">
-
-                      <div>Mindset</div>
-
-                    </label>
-
-                    <!-- Hobbies -->
-                    <label for="radio-show-more-hobbys" class="lbl-switch-content-medium">
-
-                      <img src="media/imgs/icons/02-icon-colors/01-black/black-4-geometries-1.png"
-                          alt="img"
-                          class="img-h-1">
-
-                      <div>Hobbys</div>
-
-                    </label>
-
-                  </nav>
+                <!-- --------------------------------------------------------------- -->
+                <!-- [2/4] | Show More | About Container -->
+                <!-- --------------------------------------------------------------- -->
+                <div id="show-more-about-container">
 
                   <!-- ------------------------------------------------------------------ -->
-                  <!-- [2/6] | My IT Skills | Show More Container -->
+                  <!-- [1/2] | Content | Show More | Medium -->
                   <!-- ------------------------------------------------------------------ -->
-                  <div id="it-skills-show-more-container">
-                    IT Skills Show More Container
-                  </div>
+                  <div class="resp-content-container-medium">
 
-                  <!-- ------------------------------------------------------------------ -->
-                  <!-- [3/6] | Story Behind Sfd | Show More Container -->
-                  <!-- ------------------------------------------------------------------ -->
-                  <div id="story-behind-sfd-show-more-container">
-                    Story Behind Sdf Show More Container
-                  </div>
+                    <!-- ------------------------------------------------------------------ -->
+                    <!-- [1/6] | Nav About Show More -->
+                    <!-- ------------------------------------------------------------------ -->
+                    <nav id="nav-about-show-more">
 
-                  <!-- ------------------------------------------------------------------ -->
-                  <!-- [4/6] | My Mindset | Show More Container -->
-                  <!-- ------------------------------------------------------------------ -->
-                  <div id="mindset-show-more-container">
-                  Mindset Show More Container
-                  </div>
+                      <!-- IT Skills -->
+                      <label for="radio-show-more-it-skills" class="lbl-switch-content-medium">
 
-                  <!-- ------------------------------------------------------------------ -->
-                  <!-- [5/6] | My Hobbys | Show More Container -->
-                  <!-- ------------------------------------------------------------------ -->
-                  <div id="hobbys-show-more-container">
-                    Hobbys Show More Container
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
+                            alt="img"
+                            class="img-h-1">
+
+                        <div>IT Skills</div>
+
+                      </label>
+
+                      <!-- Story behind sd -->
+                      <label for="radio-show-more-story-behind-sfd" class="lbl-switch-content-medium">
+
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-shower.png"
+                            alt="img"
+                            class="img-h-1">
+
+                        <div>Story behind Sfd</div>
+
+                      </label>
+
+                      <!-- Mindset -->
+                      <label for="radio-show-more-mindset" class="lbl-switch-content-medium">
+
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
+                            alt="img"
+                            class="img-h-1">
+
+                        <div>Mindset</div>
+
+                      </label>
+
+                      <!-- Hobbies -->
+                      <label for="radio-show-more-hobbys" class="lbl-switch-content-medium">
+
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-4-geometries-1.png"
+                            alt="img"
+                            class="img-h-1">
+
+                        <div>Hobbys</div>
+
+                      </label>
+
+                    </nav>
+
+                    <!-- ------------------------------------------------------------------ -->
+                    <!-- [2/6] | My IT Skills | Show More Container -->
+                    <!-- ------------------------------------------------------------------ -->
+                    <div id="it-skills-show-more-container">
+                      IT Skills Show More Container
+                    </div>
+
+                    <!-- ------------------------------------------------------------------ -->
+                    <!-- [3/6] | Story Behind Sfd | Show More Container -->
+                    <!-- ------------------------------------------------------------------ -->
+                    <div id="story-behind-sfd-show-more-container">
+                      Story Behind Sdf Show More Container
+                    </div>
+
+                    <!-- ------------------------------------------------------------------ -->
+                    <!-- [4/6] | My Mindset | Show More Container -->
+                    <!-- ------------------------------------------------------------------ -->
+                    <div id="mindset-show-more-container">
+                    Mindset Show More Container
+                    </div>
+
+                    <!-- ------------------------------------------------------------------ -->
+                    <!-- [5/6] | My Hobbys | Show More Container -->
+                    <!-- ------------------------------------------------------------------ -->
+                    <div id="hobbys-show-more-container">
+                      Hobbys Show More Container
+                    </div>
+
                   </div>
 
                 </div>
 
+              </div>
+
+            </div>
+
+            <!-- --------------------------------------------------------- -->
+            <!-- [2/2] | Info Show More | Row Container -->
+            <!-- --------------------------------------------------------- -->
+            <div class="row-container">
+
+              <!-- ------------------------------------------------------------------ -->
+              <!-- Info Show More  -->
+              <!-- ------------------------------------------------------------------ -->
+              <div class="resp-content-container-max">
+
                 <!-- ------------------------------------------------------------------ -->
-                <!-- [2/2] | Info | Show More | Max -->
+                <!-- Info | Show More | Max -->
                 <!-- ------------------------------------------------------------------ -->
-                <div class="resp-content-container-max" style="background-color: white;">
+                <div class="resp-content-container-max">
 
                   <!-- ------------------------------------------------------------------ -->
                   <!-- Info Show More | Container -->
@@ -656,12 +679,9 @@
 
                 </div>
 
-
               </div>
 
-
             </div>
-
 
           </div>
 

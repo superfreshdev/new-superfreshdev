@@ -6,13 +6,54 @@
 
 
 /* --------------------------------------------------------------- */
+/* Row Container | Show More About
+/* --------------------------------------------------------------- */
+
+/* special layout case, because we like to have
+   info show more which has his own row container and its
+   part of smooth container */
+
+#row-container-show-more-about {
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+
+  /* background-color: yellow; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Row Container 1 | Overwerite (nav show more)
+/* --------------------------------------------------------------- */
+
+#row-container-show-more-about #smooth-show-more-about-container > div:nth-of-type(1) > .row-container:nth-of-type(1) {
+
+  background-color: rgb(101, 101, 101);
+  background-color: white;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Row Container 2 | Overwerite (info show more)
+/* --------------------------------------------------------------- */
+
+#row-container-show-more-about #smooth-show-more-about-container > div:nth-of-type(1) > .row-container:nth-of-type(2) {
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* --------------------------------------------------------------- */
 /* About Show More | About Container
 /* --------------------------------------------------------------- */
 
 #show-more-about-container {
 
   width: 100%;
-  padding: .8em;
+  /* padding: .8em; */
 
   display: grid;
   justify-items: center;
@@ -52,5 +93,7 @@
 
   font-weight: bold;
   width: 8em;
+
+  color: rgb(235, 235, 235);
 
 }

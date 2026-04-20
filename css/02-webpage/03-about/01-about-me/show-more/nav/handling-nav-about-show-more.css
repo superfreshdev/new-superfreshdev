@@ -17,10 +17,10 @@ input[name="name-radio-show-more-about"] {
 }
 
 /* set background */
-#radio-show-more-it-skills:checked ~ #nav-about-show-more label[for="radio-show-more-it-skills"],
-#radio-show-more-story-behind-sfd:checked ~ #nav-about-show-more label[for="radio-show-more-story-behind-sfd"],
-#radio-show-more-mindset:checked ~ #nav-about-show-more label[for="radio-show-more-mindset"],
-#radio-show-more-hobbys:checked ~ #nav-about-show-more label[for="radio-show-more-hobbys"] {
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-it-skills"],
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-story-behind-sfd"],
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-mindset"],
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-hobbys"] {
 
   background-color: wheat;
 
@@ -30,21 +30,11 @@ input[name="name-radio-show-more-about"] {
 /* Handling | Action
 /* --------------------------------------------------------------- */
 
-/* if any checked unshown info show more */
-#radio-show-more-it-skills:checked ~ #info-show-more-about-container,
-#radio-show-more-story-behind-sfd:checked ~ #info-show-more-about-container,
-#radio-show-more-mindset:checked ~ #info-show-more-about-container,
-#radio-show-more-hobbys:checked ~ #info-show-more-about-container {
-
-  display: none;
-
-}
-
 /* show content */
-#radio-show-more-it-skills:checked ~ #it-skills-show-more-container,
-#radio-show-more-story-behind-sfd:checked ~ #story-behind-sfd-show-more-container,
-#radio-show-more-mindset:checked ~ #mindset-show-more-container,
-#radio-show-more-hobbys:checked ~ #hobbys-show-more-container {
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(1) #it-skills-show-more-container,
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(1) #story-behind-sfd-show-more-container,
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(1) #mindset-show-more-container,
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(1) #hobbys-show-more-container {
 
   display: grid;
 

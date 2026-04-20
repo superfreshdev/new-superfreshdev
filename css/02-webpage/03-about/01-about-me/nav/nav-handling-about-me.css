@@ -57,6 +57,7 @@ input[id="chk-show-more-about"] {
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
 
+
 }
 
 .overflow-hidden {
@@ -70,7 +71,7 @@ input[id="chk-show-more-about"] {
 /* ------------------------------------------- */
 
 /* open smooth container */
-#chk-show-more-about:checked ~ .row-container:nth-of-type(2) #smooth-show-more-about-container {
+#chk-show-more-about:checked ~ #row-container-show-more-about #smooth-show-more-about-container {
 
   grid-template-rows: 1fr;
 
