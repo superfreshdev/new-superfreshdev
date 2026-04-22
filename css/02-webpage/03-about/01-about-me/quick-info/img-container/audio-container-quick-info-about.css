@@ -9,18 +9,29 @@
 /* Audio Container | Quick Info About
 /* --------------------------------------------------------------- */
 
-.audio-container-quick-info-about {
+#audio-container-quick-info-about {
 
   width: 100%;
+  padding-top: .6em;
 
-  display: flex;
+  display: grid;
+  justify-items: flex-end;
+
+  /* display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
   row-gap: .4em;
 
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+
+}
+
+/* default button pause audio unshown */
+#pause-audio-about-quick-info {
+
+  display: none;
 
 }
 
@@ -41,8 +52,8 @@
 	outline: inherit;
 
   /* new style */
-  height: 2.3em;
-  padding: 0 .8em;
+  height: 2em;
+  padding: 0 .6em;
 
   display: flex;
   align-items: center;
@@ -53,7 +64,7 @@
   border-radius: .6em;
 
   background-color: transparent;
-  color:grey;
+  color:rgb(78, 78, 78);
 
   transition: all .4s;
 
@@ -81,13 +92,9 @@
 /* pause */
 .btn-audio-pause {
 
-  background-color: rgb(245, 148, 148);
+  /* background-color: rgb(245, 148, 148); */
   color:rgb(115, 40, 40);
 
-}
-
-.btn-audio-pause:hover {
-
-  color:black;
+  color:#f59494;
 
 }

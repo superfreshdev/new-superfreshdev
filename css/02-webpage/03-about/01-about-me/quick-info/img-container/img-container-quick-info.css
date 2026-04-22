@@ -1,0 +1,70 @@
+/* --------------------------------------------------------------- */
+/* > img-container-quick-info.css
+/*
+/* : styles img container quick info
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Img Container About Quick Info
+/* --------------------------------------------------------------- */
+
+#img-container-about-quick-info {
+
+  grid-area: img-container-about-quick-info;
+
+  /* mobile, resp */
+  width: 90%;
+
+  display: grid;
+  justify-items: center;
+
+  /* border: 3px solid red; */
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Imgs | Rectangle & Square
+/* --------------------------------------------------------------- */
+
+#img-about-me-rectangle,
+#img-about-me-square {
+
+  width: 100%;
+
+  border-radius: 1em;
+
+  border: 3px solid wheat;
+  border: 3px solid rgba(245, 222, 179, .6);
+  border: 2px solid rgb(133, 133, 133);
+
+  border: 3px solid rgb(67, 67, 67);
+
+  border: 3px solid rgb(113, 113, 113);
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img [1/2] | Rectangle
+/* --------------------------------------------------------------- */
+
+#img-about-me-rectangle {
+
+  /* default unshown, add by responsive  */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img [2/2] | Squaure
+/* --------------------------------------------------------------- */
+
+#img-about-me-square {
+
+  /* default unshown, add by responsive  */
+  /* display: none; */
+
+}

@@ -38,7 +38,7 @@
 
 #title-welcome-sfd-container {
 
-  line-height: 1.5em;
+  line-height: 1.6em;
 
   font-weight: bold;
 
@@ -51,7 +51,7 @@
 #title-welcome {
 
   /* small mobile */
-  font-size: 14.5px;
+  font-size: 16px;
   color:#aeb7bf;
 
 }
@@ -88,13 +88,15 @@
 
 #sub-title-welcome-sfd {
 
-  padding-top: .3em;
+  padding-top: .4em;
 
-  line-height: 1.3em;
+  line-height: 1.4em;
 
   /* small mobile */
   font-size: 14.5px;
 
   color:rgb(132, 132, 132);
+
+  color:rgb(77, 77, 77);
 
 }
