@@ -1,0 +1,93 @@
+/* --------------------------------------------------------------- */
+/* > audio-container-quick-info-about.css
+/*
+/* : styles audio container quick info about
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Audio Container | Quick Info About
+/* --------------------------------------------------------------- */
+
+.audio-container-quick-info-about {
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: .4em;
+
+  border: 1px solid grey;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Audio Button |
+/* --------------------------------------------------------------- */
+
+/* default */
+.btn-audio-quick-info {
+
+  /* delete default browser button styles */
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  /* new style */
+  height: 2.3em;
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  border-radius: .6em;
+
+  background-color: transparent;
+  color:grey;
+
+  transition: all .4s;
+
+}
+
+.btn-audio-quick-info > div {
+
+  font-size: 14.5px;
+
+}
+
+/* hover */
+.btn-audio-quick-info:hover {
+
+  color:wheat;
+
+}
+
+/* play */
+.btn-audio-play {
+
+
+}
+
+/* pause */
+.btn-audio-pause {
+
+  background-color: rgb(245, 148, 148);
+  color:rgb(115, 40, 40);
+
+}
+
+.btn-audio-pause:hover {
+
+  color:black;
+
+}
