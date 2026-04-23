@@ -34,9 +34,9 @@
   border-bottom: 2px solid rgb(225, 224, 224);
   border-right: 2px solid rgb(225, 224, 224); */
 
-  border-left: 3px solid rgb(209, 209, 209);
+  /* border-left: 3px solid rgb(209, 209, 209);
   border-bottom: 3px solid rgb(209, 209, 209);
-  border-right: 3px solid rgb(209, 209, 209);
+  border-right: 3px solid rgb(209, 209, 209); */
 
   background-color: white;
 
@@ -47,7 +47,9 @@
 
   /* border-radius: 1em 1em 0 0 ; */
 
-  border: 3px solid rgb(209, 209, 209);
+  /* border: 3px solid rgb(209, 209, 209); */
+
+  border-radius: 1em;
 
 
 }
@@ -95,7 +97,7 @@
   background-color: rgb(235, 235, 235);
   background-color: rgb(244, 244, 244); */
 
-  color:rgb(63, 63, 63);
+  color:rgb(95, 95, 95);
   /* color:rgb(148, 148, 148); */
 
   border: 3px solid rgb(239, 239, 239);
@@ -131,7 +133,7 @@
 
   width: 100%;
 
-  border-radius: 1em 1em 0 0;
+  border-radius: 1em 1em;
 
   /* border: 3px solid rgb(223, 223, 223); */
   border-left: 3px solid rgb(225, 224, 224);
@@ -151,22 +153,22 @@
   width: 100%;
   display: grid;
 
-  border-radius: 0 0 1.3em 1.3em;
+  margin-top: 1em;
+
+  border-radius: 1.3em 1.3em;
 
   /* border-left: 2px solid transparent;
   border-bottom: 2px solid transparent;
   border-right: 2px solid transparent; */
 
-  border-left: 3px solid rgb(225, 224, 224);
+  /* border-left: 3px solid rgb(225, 224, 224);
   border-bottom: 3px solid rgb(225, 224, 224);
-  border-right: 3px solid rgb(225, 224, 224);
+  border-right: 3px solid rgb(225, 224, 224); */
 
   /* background-color: rgb(246, 246, 246); */
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(246, 246, 246); */
 
-   background-color: rgb(246, 246, 246);
-
-
+  background-color: rgb(244, 244, 244);
 
 }
 
