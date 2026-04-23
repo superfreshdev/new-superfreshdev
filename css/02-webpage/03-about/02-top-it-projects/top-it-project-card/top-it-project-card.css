@@ -28,19 +28,24 @@
 /* hover > content */
 .about-top-it-project-card:hover .content-top-it-project-card {
 
-  background-color: rgb(246, 246, 246);
-  /* background-color: rgb(255, 255, 255); */
-
+/*
   border-left: 2px solid rgb(225, 224, 224);
   border-bottom: 2px solid rgb(225, 224, 224);
-  border-right: 2px solid rgb(225, 224, 224);
+  border-right: 2px solid rgb(225, 224, 224); */
+
+  border-left: 2px solid rgb(143, 143, 143);
+  border-bottom: 2px solid rgb(143, 143, 143);
+  border-right: 2px solid rgb(143, 143, 143);
 
 }
 
 /* hover > content container > img */
 .about-top-it-project-card:hover .content-container-top-it-project-card > img:nth-of-type(1) {
 
-  border-radius: 1em 1em 0 0 ;
+  /* border-radius: 1em 1em 0 0 ; */
+
+  border: 2px solid rgb(143, 143, 143);
+
 
 }
 
@@ -118,13 +123,13 @@
 
   width: 100%;
 
-  border-radius: 1em;
+  border-radius: 1em 1em 0 0;
 
   /* border: 3px solid rgb(223, 223, 223); */
-  border-left: 3px solid rgb(225, 224, 224);
-  border-top: 3px solid rgb(225, 224, 224);
-  border-right: 3px solid rgb(225, 224, 224);
-  border-bottom: 3px solid rgb(225, 224, 224);
+  border-left: 2px solid rgb(225, 224, 224);
+  border-top: 2px solid rgb(225, 224, 224);
+  border-right: 2px solid rgb(225, 224, 224);
+  border-bottom: 2px solid rgb(225, 224, 224);
 
 
 }
@@ -140,14 +145,20 @@
 
   border-radius: 0 0 1.3em 1.3em;
 
-  border-left: 2px solid transparent;
+  /* border-left: 2px solid transparent;
   border-bottom: 2px solid transparent;
-  border-right: 2px solid transparent;
+  border-right: 2px solid transparent; */
+
+  border-left: 2px solid rgb(225, 224, 224);
+  border-bottom: 2px solid rgb(225, 224, 224);
+  border-right: 2px solid rgb(225, 224, 224);
 
   /* background-color: rgb(246, 246, 246); */
   background-color: rgb(255, 255, 255);
 
-  transition: all .4s;
+   background-color: rgb(246, 246, 246);
+
+
 
 }
 
