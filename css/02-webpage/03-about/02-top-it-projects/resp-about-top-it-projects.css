@@ -21,17 +21,6 @@
 
   }
 
-  /* --------------------------------------------------------------- */
-  /* Header | Content Container
-  /* --------------------------------------------------------------- */
-
-  .content-container-about-top-it-project-card > main > header {
-
-    padding: 0 .2em;
-
-
-  }
-
 }
 
 /* --------------------------------------------------------------- */
@@ -51,21 +40,21 @@
   }
 
    /* img icon | online food #1 */
-  #about-top-it-project-1 .content-container-about-top-it-project-card > main > header img {
+  #about-top-it-project-1 .content-top-it-project-card > main > header img {
 
     height: 1.4em;
 
   }
 
   /* img icon | insurance #2 */
-  #about-top-it-project-2 .content-container-about-top-it-project-card > main > header img {
+  #about-top-it-project-2 .content-top-it-project-card > main > header img {
 
     height: 1.4em;
 
   }
 
   /* img icon | online shop #3 */
-  #about-top-it-project-3 .content-container-about-top-it-project-card > main > header img {
+  #about-top-it-project-3 .content-top-it-project-card > main > header img {
 
     height: 1.6em;
 
@@ -147,7 +136,6 @@
 
 }
 
-
 /* --------------------------------------------------------------- */
 /* >= 850px
 /* --------------------------------------------------------------- */
@@ -216,8 +204,6 @@
 
   }
 
-
-
 }
 
 /* --------------------------------------------------------------- */
@@ -264,7 +250,6 @@
   #top-it-projects-content-about-container {
 
     column-gap: 3em;
-
 
   }
 

@@ -17,134 +17,156 @@
 
   display: grid;
   align-items: flex-start;
-  grid: 1fr auto / 1fr;
+  grid: auto auto 1fr / 1fr;
 
-  border-radius: .8em;
+  /* border-radius: 1em; */
 
   transition: all .4s;
 
 }
 
-/* hover */
-.about-top-it-project-card:hover {
+/* hover > content */
+.about-top-it-project-card:hover .content-top-it-project-card {
 
- background-color: rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
+  /* background-color: rgb(255, 255, 255); */
 
-}
-
-/* hover img */
-.about-top-it-project-card:hover .img-container-about-top-it-project-card > img {
-
-  border-radius: .8em .8em 0 0;
-  /* border: 3px solid transparent; */
+  border-left: 2px solid rgb(225, 224, 224);
+  border-bottom: 2px solid rgb(225, 224, 224);
+  border-right: 2px solid rgb(225, 224, 224);
 
 }
 
-/* hover nr */
-.about-top-it-project-card:hover .img-container-about-top-it-project-card .nr-box-about-top-it-project-card {
+/* hover > content container > img */
+.about-top-it-project-card:hover .content-container-top-it-project-card > img:nth-of-type(1) {
 
-  opacity: 0;
-  /* border: 3px solid transparent; */
+  border-radius: 1em 1em 0 0 ;
 
 }
 
-/* hover main */
-.about-top-it-project-card:hover .content-container-about-top-it-project-card > main > main {
+/* hover > content > main > main */
+.about-top-it-project-card:hover .content-top-it-project-card > main > main {
 
-  color:rgb(96, 96, 96);
+  color:rgb(110, 110, 110);
 
 }
 
 /* --------------------------------------------------------------- */
-/* [1/2] | Img Container | About Top IT Project Card
+/* [1/2] | Nr Header | Top IT Project
 /* --------------------------------------------------------------- */
 
-.img-container-about-top-it-project-card {
+.nr-header-top-it-project-card {
 
-  width: 100%;
-  position: relative;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-/* img */
-.img-container-about-top-it-project-card > img {
-
-  width: 100%;
-
-  border-radius: .8em;
-
-  border: 3px solid rgb(209, 209, 209);
-
-  border: 3px solid rgb(66, 66, 66);
-
-  border: 3px solid rgb(223, 223, 223);
-
-}
-
-/* nr box */
-.nr-box-about-top-it-project-card {
-
-  position: absolute;
-  top:0;
-  right:0;
-
-  height: 2em;
-  width: 2em;
+  padding: 0em 0 1.5em 0;
 
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border-radius: 0 .8em 0 .6em;
 
   font-weight: bold;
 
-  background-color: rgb(66, 66, 66);
-  color:white;
+}
+
+/* div 1 | nr box */
+.nr-header-top-it-project-card > div:nth-of-type(1) {
+
+  height: 2.5em;
+  width: 2.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .8em;
+
+  background-color: rgb(248, 248, 248);
+  background-color: rgb(28, 28, 28);
+
+  background-color: rgb(235, 235, 235);
+  color:rgb(92, 92, 92);
 
 }
 
-/* div | nr box */
-.nr-box-about-top-it-project-card > div {
+/* div 1 > div | nr box text */
+.nr-header-top-it-project-card > div:nth-of-type(1) > div:nth-of-type(1) {
 
-  font-size: 14.5px;
+  font-size: 16px;
 
 }
 
 /* --------------------------------------------------------------- */
-/* [2/2] | Content Container | About Top IT Project Card
+/* [2/2] | Content Container | Top It Project Card
 /* --------------------------------------------------------------- */
 
-.content-container-about-top-it-project-card {
+.content-container-top-it-project-card {
 
+  width: 100%;
   display: grid;
-  /* row-gap: .6em; */
-  /* border-top: 3px solid rgb(214, 214, 214); */
+  grid: auto 1fr / 1fr;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Main | Content Container
+/* [1/2] | Img | Top It Project Card
 /* --------------------------------------------------------------- */
 
-.content-container-about-top-it-project-card > main {
+.img-top-it-project-card {
 
-  padding: 0 .6em 1em .6em ;
+  width: 100%;
+
+  border-radius: 1em;
+
+  /* border: 3px solid rgb(223, 223, 223); */
+  border-left: 3px solid rgb(225, 224, 224);
+  border-top: 3px solid rgb(225, 224, 224);
+  border-right: 3px solid rgb(225, 224, 224);
+  border-bottom: 3px solid rgb(225, 224, 224);
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/2] | Content | Top It Project Card
+/* --------------------------------------------------------------- */
+
+.content-top-it-project-card {
+
+  width: 100%;
+  display: grid;
+
+  border-radius: 0 0 1.3em 1.3em;
+
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+
+  /* background-color: rgb(246, 246, 246); */
+  background-color: rgb(255, 255, 255);
+
+  transition: all .4s;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Content
+/* --------------------------------------------------------------- */
+
+.content-top-it-project-card > main {
+
+  padding: 1em 1em 1em 1em ;
 
   display: grid;
   row-gap: 1em;
 
+  /* background-color: red; */
+
 }
 
 /* --------------------------------------------------------------- */
-/* Header | Content Container
+/* Header | Content
 /* --------------------------------------------------------------- */
 
-.content-container-about-top-it-project-card > main > header {
+.content-top-it-project-card > main > header {
 
   /* padding: 0 .4em; */
 
@@ -159,14 +181,14 @@
 }
 
 /* div */
-.content-container-about-top-it-project-card > main > header > div {
+.content-top-it-project-card > main > header > div {
 
   line-height: 1.5em;
 
 }
 
 /* img icon | online food #1 */
-#about-top-it-project-1 .content-container-about-top-it-project-card > main > header img {
+#about-top-it-project-1 .content-top-it-project-card > main > header img {
 
   height: 1.2em;
   opacity: .7;
@@ -174,7 +196,7 @@
 }
 
 /* img icon | insurance #2 */
-#about-top-it-project-2 .content-container-about-top-it-project-card > main > header img {
+#about-top-it-project-2 .content-top-it-project-card> main > header img {
 
    height: 1.2em;
    opacity: .7;
@@ -182,7 +204,7 @@
 }
 
 /* img icon | online shop #3 */
-#about-top-it-project-3 .content-container-about-top-it-project-card > main > header img {
+#about-top-it-project-3 .content-top-it-project-card > main > header img {
 
   height: 1.5em;
   opacity: .7;
@@ -193,7 +215,7 @@
 /* Main | Content Container
 /* --------------------------------------------------------------- */
 
-.content-container-about-top-it-project-card > main > main  {
+.content-top-it-project-card > main > main  {
 
   padding: 0 .3em;
   line-height: 1.6em;
@@ -206,14 +228,16 @@
 /* Footer | Content Container
 /* --------------------------------------------------------------- */
 
-.content-container-about-top-it-project-card > main > footer {
+.content-top-it-project-card > main > footer {
 
   margin-top: .8em;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   column-gap: .8em;
+  row-gap: .4em;
 
   /* background-color: greenyellow; */
 
@@ -246,18 +270,16 @@
 .status-links-about-top-it-project-card {
 
   padding: .4em .8em;
-
   line-height: 1.2em;
 
-  color:rgb(180, 180, 180);
+
   font-weight: bold;
 
   border-radius: .8em;
 
-  border: 1px dashed rgb(202, 202, 202);
+  color:rgb(180, 180, 180);
 
-
-
+  border: 1px dashed rgb(155, 155, 155);
 
 }
 

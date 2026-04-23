@@ -52,6 +52,46 @@
 }
 
 /* --------------------------------------------------------------- */
+/* Img | First Header Content | Overwrite layout fix more sub
+/* --------------------------------------------------------------- */
+
+/* layout fix because of special x3 style */
+#top-it-projects-about-container .first-header-content-on-light .layout-fix-more-sub-title-items {
+
+  padding-top: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* x3 Extra Style
+/* --------------------------------------------------------------- */
+
+#extra-three-style {
+
+  height: 1.5em;
+  padding: 0 .4em;
+  margin: 0 .2em;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  font-style: italic;
+
+  background-color: rgb(28, 28, 28);
+  color:rgb(209, 209, 209);
+
+}
+
+#extra-three-style > span {
+
+  /* font-size: 18px; */
+
+}
+
+/* --------------------------------------------------------------- */
 /* Top IT Project Content | About Container
 /* --------------------------------------------------------------- */
 
