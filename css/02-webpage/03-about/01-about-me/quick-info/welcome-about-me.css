@@ -28,7 +28,7 @@
 #img-clipart-welcome-sfd {
 
   /* small mobile */
-  height: 4.5em;
+  height: 5em;
 
 }
 
@@ -38,7 +38,7 @@
 
 #title-welcome-sfd-container {
 
-  line-height: 1.6em;
+  line-height: 1.4em;
 
   font-weight: bold;
 
@@ -77,7 +77,7 @@
 #title-welcome-sfd > span:nth-of-type(2) {
 
   /* small mobile */
-  font-size: 16px;
+  font-size: 18px;
   color:wheat;
 
 }
@@ -88,15 +88,15 @@
 
 #sub-title-welcome-sfd {
 
-  padding-top: .4em;
+  padding-top: .3em;
 
-  line-height: 1.4em;
+  line-height: 1.3em;
 
   /* small mobile */
   font-size: 14.5px;
 
   color:rgb(132, 132, 132);
 
-  color:rgb(77, 77, 77);
+  color:rgb(104, 104, 104);
 
 }
