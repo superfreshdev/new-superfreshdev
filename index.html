@@ -378,12 +378,6 @@
     <!-- Audio | Relax Music | About Quick Info  -->
     <!-- ------------------------------------------------------- -->
 
-    <!-- unshown, will be handled with js -->
-    <audio controls  style="display: none;" id="audio-relax">
-      <source src="media/audios/about/quick-info/relax-music.mp3" type="audio/mpeg">
-      Your Web-Browser dont support my Audio Mp3 File.
-    </audio>
-
     <!-- page slider -> slides -> ...  -->
     <!-- Reminder: only one page will be shown -->
 
@@ -391,6 +385,14 @@
     <!-- 🟥 [1/3] | About | Page Container -->
     <!-- --------------------------------------------------------------------- -->
     <div id="about-page-container">
+
+      <!-- ------------------------------------------------ -->
+      <!-- Audio Relax | Quick Info | JS handling -->
+      <!-- ------------------------------------------------ -->
+      <audio id="audio-relax" controls loop style="display: none;">
+        <source src="media/audios/about/quick-info/relax-music.mp3" type="audio/mpeg">
+        Your Web-Browser dont support my Audio Mp3 File.
+      </audio>
 
       <!-- Checkbox | Show More -->
       <input checked type="checkbox" id="chk-show-more-about">
@@ -471,6 +473,9 @@
                     Backend, Frontend and AI are working
                     togehter and building an great product.
                 </main>
+
+
+
 
                 <!-- --------------------------------------------------------------- -->
                 <!-- Footer  -->
