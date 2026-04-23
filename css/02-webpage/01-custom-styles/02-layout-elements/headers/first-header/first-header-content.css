@@ -11,13 +11,11 @@
 
 .title-area-first-content-header {
 
+  width: 100%;
   display: grid;
-
   font-weight: bold;
 
-  /* row-gap: .3em; */
-
-
+  /* background-color: blue; */
 }
 
 /* ------------------------------------------------------------------- */
@@ -26,8 +24,12 @@
 
 .sub-title-content-header-container {
 
-  line-height: 1.4em;
+  width: 100%;
 
+  display: grid;
+  justify-items: flex-start;
+
+  line-height: 1.4em;
   /* background-color: red; */
 
 }

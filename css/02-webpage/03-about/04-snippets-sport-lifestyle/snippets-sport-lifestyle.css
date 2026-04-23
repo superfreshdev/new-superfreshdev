@@ -22,18 +22,6 @@
 
 }
 
-/* --------------------------------------------------------------- */
-/* First Header Content | Overwrite CSS Style
-/* --------------------------------------------------------------- */
-
-#snippets-sport-lifestyle-about-container > .first-header-content-on-dark {
-
-  /* background-color: red; */
-  display: grid;
-  justify-items: center;
-  row-gap: 2em;
-
-}
 
 /* --------------------------------------------------------------- */
 /* Img | First Header Content |

@@ -11,19 +11,30 @@
 
 .first-header-content-on-light {
 
-  display: flex;
+  display: grid;
+
   align-items: center;
+  justify-items: center;
+
   column-gap: 1.5em;
+  row-gap: 2em;
+
+  /* background-color: red; */
 
 }
 
 /* title */
 .first-header-content-on-light .first-title-content-header {
 
+  /* text-align: center; */
+
   color:black;
 
   /* 18px */
   font-size: 1.125em;
+
+  /* 20px */
+  font-size: 1.25em;
 
 }
 

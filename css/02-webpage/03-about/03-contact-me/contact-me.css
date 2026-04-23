@@ -30,11 +30,20 @@
 
 }
 
-/* img layout fix */
-#contact-me-about-container > .first-section-header-on-dark:nth-of-type(1) > img {
+/* --------------------------------------------------------------- */
+/* First Header Content | Overwrite CSS Style
+/* --------------------------------------------------------------- */
 
-  margin-bottom: .4em;
+#contact-me-about-container > .first-header-content-on-light {
 
+  display: flex;
+
+}
+
+/* img contact layout fix */
+#contact-me-about-container > .first-header-content-on-light > img:nth-of-type(1) {
+
+  margin-bottom: .2em;
 }
 
 /* --------------------------------------------------------------- */

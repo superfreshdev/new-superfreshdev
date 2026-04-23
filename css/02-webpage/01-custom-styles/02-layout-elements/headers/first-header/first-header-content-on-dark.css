@@ -11,9 +11,13 @@
 
 .first-header-content-on-dark {
 
-  display: flex;
+  display: grid;
+
   align-items: center;
+  justify-items: center;
+
   column-gap: 1.5em;
+  row-gap: 2em;
 
 }
 
@@ -24,10 +28,15 @@
 /* title */
 .first-header-content-on-dark .first-title-content-header {
 
+  /* text-align: center; */
+
   color:white;
 
   /* 18px */
   font-size: 1.125em;
+
+   /* 20px */
+  font-size: 1.25em;
 
 }
 

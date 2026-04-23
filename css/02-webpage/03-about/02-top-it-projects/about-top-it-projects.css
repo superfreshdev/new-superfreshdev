@@ -31,30 +31,12 @@
 }
 
 /* --------------------------------------------------------------- */
-/* First Header Content | Overwrite CSS Style
-/* --------------------------------------------------------------- */
-
-#top-it-projects-about-container > .first-header-content-on-light {
-
-  display: grid;
-  justify-items: center;
-  row-gap: 1.5em;
-
-}
-
-/* --------------------------------------------------------------- */
 /* Title Area | First Header Content | Overwrite CSS Style
 /* --------------------------------------------------------------- */
 
 #top-it-projects-about-container > .first-header-content-on-light .title-area-first-content-header {
 
   justify-items: center;
-
-}
-
-#top-it-projects-about-container > .first-header-content-on-light .sub-title-content-header-container {
-
-  text-align: center;
 
 }
 
