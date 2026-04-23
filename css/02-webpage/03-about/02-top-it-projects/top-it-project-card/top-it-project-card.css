@@ -84,6 +84,7 @@
 
   background-color: rgb(235, 235, 235);
   color:rgb(92, 92, 92);
+  color:rgb(148, 148, 148);
 
 }
 
@@ -153,7 +154,7 @@
 
 .content-top-it-project-card > main {
 
-  padding: 1em 1em 1em 1em ;
+  padding: 2em 1em 1em 1em ;
 
   display: grid;
   row-gap: 1em;
