@@ -16,6 +16,7 @@
   width: 100%;
 
   display: grid;
+  justify-items: center;
   row-gap: 3em;
 
   /* background-color: grey; */
@@ -31,10 +32,19 @@
 
 .it-skill-row-container-show-more {
 
+  width: 100%;
+  padding: 1em;
+
   display: grid;
   justify-items: center;
 
-  row-gap: 2.5em;
+  row-gap: 1em;
+
+  border-radius: .6em;
+
+  border: 1px solid rgb(225, 225, 225);
+
+  background-color: rgb(247, 247, 247);
 
 }
 
@@ -61,7 +71,7 @@
 
   display: flex;
   align-items: center;
-  column-gap: .6em;
+  column-gap: 1.3em;
 
 }
 
@@ -87,6 +97,8 @@
   font-weight: bold;
   font-size: 20px;
 
+  color:rgb(48, 48, 48);
+
 }
 
 /* div 2 | sub title */
@@ -104,7 +116,7 @@
 .nr-box-it-skill-category {
 
   height: 2.5em;
-  width: 2.5em;
+  width: 2.6em;
 
   display: flex;
   align-items: center;
@@ -112,7 +124,10 @@
 
   border-radius: .4em;
 
+  border: 1px solid rgb(199, 199, 199);
+
   background-color: rgb(212, 212, 212);
+  background-color: white;
   color:grey;
 
 
@@ -169,6 +184,7 @@
   border: 1px solid rgb(202, 202, 202);
 
   background-color: rgb(247, 247, 247);
+  background-color: white;
   color:rgb(103, 103, 103);
 
 
