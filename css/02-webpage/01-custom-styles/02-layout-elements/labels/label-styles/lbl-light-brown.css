@@ -1,24 +1,24 @@
 /* --------------------------------------------------------------- */
-/* > nav-about-show-more.css
+/* > lbl-light-brown.css
 /*
-/* : styles nav
+/* : styles label as light brown
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Nav About Show More
+/* Light Brown
 /* --------------------------------------------------------------- */
 
-#nav-about-show-more {
+.lbl-light-brown {
 
-  padding: 1em 0;
+  background-color: wheat;
+  color: rgb(28, 28, 28);
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+}
 
-  column-gap: .6em;
-  row-gap: .4em;
+/* hover */
+.lbl-light-brown:hover {
+
+  background-color: rgb(249, 143, 143);
 
 }

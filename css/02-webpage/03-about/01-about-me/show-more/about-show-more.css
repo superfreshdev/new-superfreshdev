@@ -21,7 +21,7 @@
   display: grid;
   justify-items: center;
 
-  /* background-color: yellow; */
+  background-color: white;
 
 }
 
@@ -31,7 +31,7 @@
 
 #row-container-show-more-about #smooth-show-more-about-container > div:nth-of-type(1) > .row-container:nth-of-type(1) {
 
-  background-color: rgb(101, 101, 101);
+  /* background-color: rgb(101, 101, 101); */
   background-color: white;
 
 }
@@ -58,8 +58,10 @@
   display: grid;
   justify-items: center;
 
-  /* border-left: 1px solid grey;
-  border-right: 1px solid grey; */
+  /* background-color: red; */
+
+  border-left: 1px dashed grey;
+  border-right: 1px dashed grey;
 
 }
 

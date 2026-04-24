@@ -1,24 +1,24 @@
 /* --------------------------------------------------------------- */
-/* > nav-about-show-more.css
+/* > lbl-grey.css
 /*
-/* : styles nav
+/* : styles labels grey
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Nav About Show More
+/* Label | Grey
 /* --------------------------------------------------------------- */
 
-#nav-about-show-more {
+.lbl-grey {
 
-  padding: 1em 0;
+  background-color: grey;
+  color:black;
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+}
 
-  column-gap: .6em;
-  row-gap: .4em;
+/* hover */
+.lbl-grey:hover {
+
+  background-color: wheat;
 
 }

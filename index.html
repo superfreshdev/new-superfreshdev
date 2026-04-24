@@ -65,7 +65,17 @@
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/first-header/resp-first-header-content.css">
 
       <!-- labels -->
-      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/lbl-content.css">
+
+        <!-- default -->
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/lbl-content.css">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-on-light.css">
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-on-dark.css">
+
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-grey.css">
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-transparent.css">
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-light-brown.css">
 
       <!-- buttons -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/buttons/button-sfd.css">
@@ -485,7 +495,7 @@
                   <!-- --------------------------------------------------------------- -->
                   <!-- Show More | Label  -->
                   <!-- --------------------------------------------------------------- -->
-                  <label for="chk-show-more-about" class="lbl-content-medium lbl-transparent">
+                  <label for="chk-show-more-about" class="lbl-big lbl-transparent">
 
                     <!-- ---------------------------- -->
                     <!-- [1/3] | Img + Text -->
@@ -579,122 +589,115 @@
       <div id="row-container-show-more-about">
 
         <!-- --------------------------------------------------------------- -->
-        <!-- [2/4] | Show More | About Container -->
+        <!-- 🟨 [2/4] | Show More | About Container -->
         <!-- --------------------------------------------------------------- -->
         <div id="smooth-show-more-about-container" class="smooth-open-close-container">
 
           <!-- ------------------------------------------------- -->
-          <!-- overflow hidden -->
+          <!-- 🟨 overflow hidden style="width: 100%; display: grid; justify-items: center;" -->
           <!-- ------------------------------------------------- -->
-          <div class="overflow-hidden" style="width: 100%; display: grid; justify-items: center;">
+          <div class="overflow-hidden">
 
             <!-- ------------------------------------------------------------------ -->
-            <!-- [X] | Radios Nav Show More -->
+            <!-- 🟨 [X] | Radios Nav Show More -->
             <!-- ------------------------------------------------------------------ -->
-            <input type="radio" id="radio-show-more-it-skills" name="name-radio-show-more-about">
+            <input checked type="radio" id="radio-show-more-it-skills" name="name-radio-show-more-about">
             <input type="radio" id="radio-show-more-story-behind-sfd" name="name-radio-show-more-about">
             <input type="radio" id="radio-show-more-mindset" name="name-radio-show-more-about">
             <input type="radio" id="radio-show-more-hobbys" name="name-radio-show-more-about">
 
             <!-- --------------------------------------------------------- -->
-            <!-- [1/2] | Show More Content | Row Container -->
+            <!-- ➡️🟥 [1/2] | Show More Content | Row Container -->
             <!-- --------------------------------------------------------- -->
             <div class="row-container">
 
               <!-- ------------------------------------------------------------------ -->
-              <!-- Content | Show More -->
+              <!-- Resp Medium -->
               <!-- ------------------------------------------------------------------ -->
               <div class="resp-content-container-medium">
 
                 <!-- --------------------------------------------------------------- -->
-                <!-- [2/4] | Show More | About Container -->
+                <!-- 🟨 [2/4] | Show More | About Container -->
                 <!-- --------------------------------------------------------------- -->
                 <div id="show-more-about-container">
 
                   <!-- ------------------------------------------------------------------ -->
-                  <!-- [1/2] | Content | Show More | Medium -->
+                  <!-- 🟨 [1/6] | Nav About Show More -->
                   <!-- ------------------------------------------------------------------ -->
-                  <div class="resp-content-container-medium">
+                  <nav id="nav-about-show-more">
 
-                    <!-- ------------------------------------------------------------------ -->
-                    <!-- [1/6] | Nav About Show More -->
-                    <!-- ------------------------------------------------------------------ -->
-                    <nav id="nav-about-show-more">
+                    <!-- IT Skills -->
+                    <label for="radio-show-more-it-skills" class="lbl-medium lbl-on-light">
 
-                      <!-- IT Skills -->
-                      <label for="radio-show-more-it-skills" class="lbl-switch-content-medium">
+                      <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
+                          alt="img"
+                          class="img-h-1">
 
-                        <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
-                            alt="img"
-                            class="img-h-1">
+                      <div>IT Skills</div>
 
-                        <div>IT Skills</div>
+                    </label>
 
-                      </label>
+                    <!-- Story behind sd -->
+                    <label for="radio-show-more-story-behind-sfd" class="lbl-medium lbl-on-light">
 
-                      <!-- Story behind sd -->
-                      <label for="radio-show-more-story-behind-sfd" class="lbl-switch-content-medium">
+                      <img src="media/imgs/icons/02-icon-colors/01-black/black-shower.png"
+                          alt="img"
+                          class="img-h-1">
 
-                        <img src="media/imgs/icons/02-icon-colors/01-black/black-shower.png"
-                            alt="img"
-                            class="img-h-1">
+                      <div>Story behind Sfd</div>
 
-                        <div>Story behind Sfd</div>
+                    </label>
 
-                      </label>
+                    <!-- Mindset -->
+                    <label for="radio-show-more-mindset" class="lbl-medium lbl-on-light">
 
-                      <!-- Mindset -->
-                      <label for="radio-show-more-mindset" class="lbl-switch-content-medium">
+                      <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
+                          alt="img"
+                          class="img-h-1">
 
-                        <img src="media/imgs/icons/02-icon-colors/01-black/black-thunder.png"
-                            alt="img"
-                            class="img-h-1">
+                      <div>Mindset</div>
 
-                        <div>Mindset</div>
+                    </label>
 
-                      </label>
+                    <!-- Hobbies -->
+                    <label for="radio-show-more-hobbys" class="lbl-medium lbl-on-light">
 
-                      <!-- Hobbies -->
-                      <label for="radio-show-more-hobbys" class="lbl-switch-content-medium">
+                      <img src="media/imgs/icons/02-icon-colors/01-black/black-4-geometries-1.png"
+                          alt="img"
+                          class="img-h-1">
 
-                        <img src="media/imgs/icons/02-icon-colors/01-black/black-4-geometries-1.png"
-                            alt="img"
-                            class="img-h-1">
+                      <div>Hobbys</div>
 
-                        <div>Hobbys</div>
+                    </label>
 
-                      </label>
+                  </nav>
 
-                    </nav>
+                  <!-- ------------------------------------------------------------------ -->
+                  <!-- ➡️🟥 [2/6] | My IT Skills | Show More Container -->
+                  <!-- ------------------------------------------------------------------ -->
+                  <div id="it-skills-show-more-container">
+                    IT Skills Show More Container
+                  </div>
 
-                    <!-- ------------------------------------------------------------------ -->
-                    <!-- [2/6] | My IT Skills | Show More Container -->
-                    <!-- ------------------------------------------------------------------ -->
-                    <div id="it-skills-show-more-container">
-                      IT Skills Show More Container
-                    </div>
+                  <!-- ------------------------------------------------------------------ -->
+                  <!-- 🟥 [3/6] | Story Behind Sfd | Show More Container -->
+                  <!-- ------------------------------------------------------------------ -->
+                  <div id="story-behind-sfd-show-more-container">
+                    Story Behind Sdf Show More Container
+                  </div>
 
-                    <!-- ------------------------------------------------------------------ -->
-                    <!-- [3/6] | Story Behind Sfd | Show More Container -->
-                    <!-- ------------------------------------------------------------------ -->
-                    <div id="story-behind-sfd-show-more-container">
-                      Story Behind Sdf Show More Container
-                    </div>
+                  <!-- ------------------------------------------------------------------ -->
+                  <!-- 🟥 [4/6] | My Mindset | Show More Container -->
+                  <!-- ------------------------------------------------------------------ -->
+                  <div id="mindset-show-more-container">
+                  Mindset Show More Container
+                  </div>
 
-                    <!-- ------------------------------------------------------------------ -->
-                    <!-- [4/6] | My Mindset | Show More Container -->
-                    <!-- ------------------------------------------------------------------ -->
-                    <div id="mindset-show-more-container">
-                    Mindset Show More Container
-                    </div>
-
-                    <!-- ------------------------------------------------------------------ -->
-                    <!-- [5/6] | My Hobbys | Show More Container -->
-                    <!-- ------------------------------------------------------------------ -->
-                    <div id="hobbys-show-more-container">
-                      Hobbys Show More Container
-                    </div>
-
+                  <!-- ------------------------------------------------------------------ -->
+                  <!-- 🟥 [5/6] | My Hobbys | Show More Container -->
+                  <!-- ------------------------------------------------------------------ -->
+                  <div id="hobbys-show-more-container">
+                    Hobbys Show More Container
                   </div>
 
                 </div>
@@ -704,7 +707,7 @@
             </div>
 
             <!-- --------------------------------------------------------- -->
-            <!-- [2/2] | Info Show More | Row Container -->
+            <!-- 🟥 [2/2] | Info Show More | Row Container -->
             <!-- --------------------------------------------------------- -->
             <div class="row-container">
 
@@ -749,7 +752,7 @@
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- ➡️🟨 [3/4] | Top IT Projects | 📐 Resp | Big  -->
+      <!-- 🟨 [3/4] | Top IT Projects | 📐 Resp | Big  -->
       <!-- --------------------------------------------------------------- -->
       <div class="row-container">
 
@@ -1266,8 +1269,8 @@
                       <!-- status - later -->
                       <div class="info-status-later">
 
-                        <img src="media/imgs/icons/02-icon-colors/01-black/add.png"
-                            alt="img" class="img-h-0-8">
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                            alt="img" class="img-h-0-7">
                         <div>later</div>
 
                       </div>

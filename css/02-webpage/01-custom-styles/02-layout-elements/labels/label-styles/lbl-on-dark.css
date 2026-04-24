@@ -1,24 +1,12 @@
 /* --------------------------------------------------------------- */
-/* > nav-about-show-more.css
+/* > lbl-on-dark.css
 /*
-/* : styles nav
+/* : styles labels on dark background
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Nav About Show More
+/* Labels | Medium
 /* --------------------------------------------------------------- */
 
-#nav-about-show-more {
-
-  padding: 1em 0;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-  column-gap: .6em;
-  row-gap: .4em;
-
-}
+/* lbl-on-dark-medium */
