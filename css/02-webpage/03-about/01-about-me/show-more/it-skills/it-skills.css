@@ -11,15 +11,188 @@
 
 #it-skills-show-more-container {
 
-   margin: 1.3em 0 2.5em 0;
+  margin: 1.3em 0 2.5em 0;
   padding: 3em 1em;
   width: 100%;
 
   display: grid;
+  row-gap: 3em;
 
-  background-color: grey;
+  /* background-color: grey; */
 
   /* default unshown */
   display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* It Skill Row Container Show More
+/* --------------------------------------------------------------- */
+
+.it-skill-row-container-show-more {
+
+  display: grid;
+  justify-items: center;
+
+  row-gap: 2.5em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | It Skill Row Container Show More
+/* --------------------------------------------------------------- */
+
+.it-skill-row-container-show-more > header {
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Title Box | Header
+/* --------------------------------------------------------------- */
+
+.title-box-it-skill-cateogory {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/2] | Img | Title Box | Header
+/* --------------------------------------------------------------- */
+
+/* individual styled */
+
+/* --------------------------------------------------------------- */
+/* [2/2] | Title Content | Title Box | Header
+/* --------------------------------------------------------------- */
+
+.title-content-it-skill-category {
+
+  line-height: 2em;
+
+}
+
+/* div 1 | title */
+.title-content-it-skill-category > div:nth-of-type(1) {
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+/* div 2 | sub title */
+.title-content-it-skill-category > div:nth-of-type(2) {
+
+  color:rgb(185, 185, 185);
+  line-height: 1.4em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Nr Box | Header
+/* --------------------------------------------------------------- */
+
+.nr-box-it-skill-category {
+
+  height: 2.5em;
+  width: 2.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  background-color: rgb(212, 212, 212);
+  color:grey;
+
+
+}
+
+/* div */
+.nr-box-it-skill-category > div:nth-of-type(1) {
+
+  font-weight: bold;
+
+  font-size: 18px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | It Skill Row Container Show More
+/* --------------------------------------------------------------- */
+
+.it-skill-row-container-show-more > main {
+
+  padding: 1em 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  column-gap: .6em;
+  row-gap: .6em;
+
+  /* border-left: 1px dashed black;
+  border-right: 1px dashed black; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Link It Skill About | Main
+/* --------------------------------------------------------------- */
+
+.link-it-skill-about {
+
+  text-decoration: none;
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+  border-radius: .4em;
+
+  /* font-weight: bold; */
+
+  border: 1px solid rgb(202, 202, 202);
+
+  background-color: rgb(247, 247, 247);
+  color:rgb(103, 103, 103);
+
+
+  transition: all .4s;
+
+}
+
+/* div 1 */
+.link-it-skill-about > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+
+}
+
+/* hover */
+.link-it-skill-about:hover {
+
+  background-color: wheat;
+
+}
+
+/* visited */
+.link-it-skill-about {
+
+  /* color:black; */
 
 }
