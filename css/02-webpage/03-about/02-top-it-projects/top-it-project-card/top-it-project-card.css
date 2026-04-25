@@ -98,6 +98,27 @@
 
 }
 
+/* hover > hover - button details */
+.about-top-it-project-card:hover .content-top-it-project-card .button-sfd-medium:hover {
+
+  color:rgb(83, 83, 83);
+
+}
+
+/* hover > hover - button details - unshown img white */
+.about-top-it-project-card:hover .content-top-it-project-card .button-sfd-medium:hover > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* hover > hover - button details - shown img dark */
+.about-top-it-project-card:hover .content-top-it-project-card .button-sfd-medium:hover > img:nth-of-type(1) {
+
+  display: flex;
+
+}
+
 /* --------------------------------------------------------------- */
 /* [1/2] | Nr Header | Top IT Project
 /* --------------------------------------------------------------- */
