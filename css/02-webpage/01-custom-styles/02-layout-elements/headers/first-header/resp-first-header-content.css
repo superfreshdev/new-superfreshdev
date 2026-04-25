@@ -68,12 +68,23 @@
 
   }
 
-  /* sub title | on dark, light */
+  /* div (text) | sub title | on dark, light */
   .first-header-content-on-dark .sub-title-content-header-container > div,
   .first-header-content-on-light .sub-title-content-header-container > div {
 
     /* 16px */
     /* font-size: 1em; */
+
+    font-size: 18px;
+
+  }
+
+   /* only by more than x1 item | sub title | on dark, light */
+  .first-header-content-on-dark .layout-fix-more-sub-title-items div,
+  .first-header-content-on-light .layout-fix-more-sub-title-items div {
+
+    line-height: 1.6em;
+    /* color:red; */
 
   }
 

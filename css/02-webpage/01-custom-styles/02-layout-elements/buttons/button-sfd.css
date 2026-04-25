@@ -32,8 +32,8 @@
 
   border-radius: .4em;
 
-  border: 1px solid rgb(154, 154, 154);
-  color:rgb(107, 107, 107);
+  border: 1px solid rgb(196, 196, 196);
+  color:rgb(154, 154, 154);
 
   text-decoration: none;
   transition: all .4s;
@@ -95,8 +95,6 @@
   font-size: 14.5px;
 
 }
-
-
 
 /* --------------------------------------------------------------- */
 /* Big
