@@ -22,8 +22,8 @@
   row-gap: 3em;
 
   color:rgb(28, 28, 28);
-  background-color: rgb(28, 28, 28);
-  background-color: white;
+  /* background-color: rgb(28, 28, 28);
+  background-color: white; */
 
   /* border-left: 1px solid grey;
   border-right: 1px solid grey; */
@@ -97,8 +97,8 @@
 
   border-radius: .6em;
 
-  background-color: wheat;
-  color:black;
+  background-color: rgb(54, 54, 54);
+  color:rgb(227, 227, 227);
 
   /* border: 1px solid rgb(63, 63, 63);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -128,7 +128,8 @@
 /* hover */
 #email-link-container-contact-me:hover {
 
-  background-color: rgb(210, 210, 210);
+  background-color: wheat;
+
   color: black;
 
 }

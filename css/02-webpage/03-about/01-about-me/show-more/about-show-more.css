@@ -21,28 +21,42 @@
   display: grid;
   justify-items: center;
 
-  background-color: white;
+  /* background-color: white; */
 
 }
 
-/* --------------------------------------------------------------- */
-/* Row Container 1 | Overwerite (nav show more)
-/* --------------------------------------------------------------- */
 
-#row-container-show-more-about #smooth-show-more-about-container > div:nth-of-type(1) > .row-container:nth-of-type(1) {
+/* --------------------------------------------------------------------- */
+/* Img Background
+/* --------------------------------------------------------------------- */
 
-  /* background-color: rgb(101, 101, 101); */
-  background-color: white;
+#img-background-about-show-more {
+
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../../media/imgs/content/01-about/about-me/sky_cloud_clouds_175163_3840x2400.jpg);
+  background-image: url(../../../../media/imgs/content/01-about/about-me/grass_dew_drops_158971_3840x2400.jpg);
+  background-image: url(../../../../../media/imgs/content/01-about/about-me/grass_dew_drops_158971_3840x2400.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
 
 }
 
-/* --------------------------------------------------------------- */
-/* Row Container 2 | Overwerite (info show more)
-/* --------------------------------------------------------------- */
+#overflow-checker-background {
 
-#row-container-show-more-about #smooth-show-more-about-container > div:nth-of-type(1) > .row-container:nth-of-type(2) {
+  position: relative;
 
-  background-color: rgb(28, 28, 28);
+  width: 100%;
+  /* height: 100%; */
+
+  display: grid;
+
+  justify-items: center;
 
 }
 
@@ -71,6 +85,8 @@
 
 #info-nav-show-more-about-container {
 
+  z-index: 3;
+
   width: 100%;
 
   margin: 1.5em 0;
@@ -80,7 +96,10 @@
   align-items: center;
   justify-content: center;
 
-  /* background-color: red; */
+  background-color: rgb(235, 235, 235);
+
+  /* default unshown, wait on click */
+  display: none;
 
 }
 

@@ -17,10 +17,10 @@ input[name="name-radio-show-more-about"] {
 }
 
 /* set background */
-#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-it-skills"],
-#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-story-behind-sfd"],
-#radio-show-more-mindset:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-mindset"],
-#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(1) label[for="radio-show-more-hobbys"] {
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(2) label[for="radio-show-more-it-skills"],
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(2) label[for="radio-show-more-story-behind-sfd"],
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(2) label[for="radio-show-more-mindset"],
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(2) label[for="radio-show-more-hobbys"] {
 
   background-color: wheat;
 
@@ -31,20 +31,32 @@ input[name="name-radio-show-more-about"] {
 /* --------------------------------------------------------------- */
 
 /* show content */
-#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(1) #it-skills-show-more-container,
-#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(1) #story-behind-sfd-show-more-container,
-#radio-show-more-mindset:checked ~ .row-container:nth-of-type(1) #mindset-show-more-container,
-#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(1) #hobbys-show-more-container {
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(2) #it-skills-show-more-container,
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(2) #story-behind-sfd-show-more-container,
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(2) #mindset-show-more-container,
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(2) #hobbys-show-more-container {
 
   display: grid;
 
 }
 
+/* show info by any clicked */
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container,
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container,
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container,
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container {
+
+  display: flex;
+
+
+}
+
+
 /* show img category */
-#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(1) #info-nav-show-more-about-container > img:nth-of-type(1),
-#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(1) #info-nav-show-more-about-container > img:nth-of-type(2),
-#radio-show-more-mindset:checked ~ .row-container:nth-of-type(1) #info-nav-show-more-about-container > img:nth-of-type(3),
-#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(1) #info-nav-show-more-about-container > img:nth-of-type(4) {
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(1),
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(2),
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(3),
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(4) {
 
   display: flex;
 

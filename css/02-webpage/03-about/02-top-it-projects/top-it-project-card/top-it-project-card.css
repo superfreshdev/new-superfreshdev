@@ -133,6 +133,8 @@
 
   font-weight: bold;
 
+
+
 }
 
 /* div 1 | nr box */
@@ -152,6 +154,8 @@
 
   background-color: rgb(242, 242, 242);
   color:rgb(95, 95, 95);
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 

@@ -593,15 +593,20 @@
       <!-- --------------------------------------------------------------- -->
       <div id="row-container-show-more-about">
 
+
         <!-- --------------------------------------------------------------- -->
         <!-- 🟨 [2/4] | Show More | About Container -->
         <!-- --------------------------------------------------------------- -->
         <div id="smooth-show-more-about-container" class="smooth-open-close-container">
 
           <!-- ------------------------------------------------- -->
-          <!-- 🟨 overflow hidden style="width: 100%; display: grid; justify-items: center;" -->
+          <!-- 🟨 overflow hidden -->
           <!-- ------------------------------------------------- -->
-          <div class="overflow-hidden">
+          <div class="overflow-hidden" id="overflow-checker-background" >
+
+
+            <!-- 🖼️ background img -->
+            <div id="img-background-about-show-more"></div>
 
             <!-- ------------------------------------------------------------------ -->
             <!-- 🟨 [X] | Radios Nav Show More -->
@@ -611,10 +616,11 @@
             <input type="radio" id="radio-show-more-mindset" name="name-radio-show-more-about">
             <input type="radio" id="radio-show-more-hobbys" name="name-radio-show-more-about">
 
+
             <!-- --------------------------------------------------------- -->
             <!-- ➡️🟥 [1/2] | Show More Content | Row Container -->
             <!-- --------------------------------------------------------- -->
-            <div class="row-container">
+            <div class="row-container" style="z-index: 3;">
 
               <!-- ------------------------------------------------------------------ -->
               <!-- Resp Medium -->
@@ -712,35 +718,32 @@
                     <div class="it-skill-row-container-show-more">
 
                       <!-- ------------------------------------------------------ -->
-                      <!-- [1/2] | Header -->
+                      <!-- ➡️🟥 [1/2] | Header -->
                       <!-- ------------------------------------------------------ -->
                       <header>
 
-                        <!-- Title Box -->
-                        <div class="title-box-it-skill-cateogory">
+                        <!-- 1/3 | img -->
+                        <img src="media/imgs/icons/02-icon-colors/03-grey/grey-frontend.png"
+                              alt="img"
+                              class="img-h-2-5">
 
-                          <!-- img -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-frontend.png"
-                               alt="img"
-                               class="img-h-2-5">
 
-                          <!-- title content -->
-                          <div class="title-content-it-skill-category">
+                        <!-- 2/3 | title content -->
+                        <div class="title-content-it-skill-category">
 
-                            <div>Frontend</div>
-                            <div>»
-                               Sub Title here comes the sun and it could be long text so
-                               be warned it should be checked that this is a long text
-                               so if you can understand me we write this and
-                               we talk about what we can do ao so understand what i mean ?
+                          <div>Frontend</div>
+                          <div>
+                            I enjoy creating UI designs for software solutions because
+                            I like the feeling of how good design and Usability
+                            can make people happy and help them work more efficiently. <br>
 
-                            </div>
+                            I also agree with what Steve Jobs said: “Design is not just what it looks like — it’s how it works.”
 
                           </div>
 
                         </div>
 
-                        <!-- Nr Box -->
+                        <!-- 3/3 | Nr Box -->
                         <div class="nr-box-it-skill-category">
                           <div>1/5</div>
                         </div>
@@ -749,7 +752,7 @@
                       </header>
 
                       <!-- ------------------------------------------------------ -->
-                      <!-- [2/2] | Main -->
+                      <!-- 🟥 [2/2] | Main -->
                       <!-- ------------------------------------------------------ -->
                       <main>
 
@@ -875,21 +878,19 @@
                       <!-- ------------------------------------------------------ -->
                       <header>
 
-                        <!-- Title Box -->
-                        <div class="title-box-it-skill-cateogory">
 
-                          <!-- img -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-happy-unhappy-mask.png"
-                               alt="img"
-                               class="img-h-2-5">
+                        <!-- img -->
+                        <img src="media/imgs/icons/02-icon-colors/03-grey/grey-testing-list.png"
+                              alt="img"
+                              class="img-h-2-5">
 
-                          <!-- title content -->
-                          <div class="title-content-it-skill-category">
+                        <!-- title content -->
+                        <div class="title-content-it-skill-category">
 
-                            <div>Testing</div>
-                            <div>» Sub Title</div>
-
-                          </div>
+                          <div>Testing</div>
+                          <div>Testing is important because it helps us think ahead about what could go wrong.
+                              It also serves as a form of documentation, showing how things were implemented
+                              and providing a useful reference for other developers who want to add new features.</div>
 
                         </div>
 
@@ -1017,21 +1018,18 @@
                       <!-- ------------------------------------------------------ -->
                       <header>
 
-                        <!-- Title Box -->
-                        <div class="title-box-it-skill-cateogory">
+                        <!-- img -->
+                        <img src="media/imgs/icons/02-icon-colors/03-grey/grey-cloud-server.png"
+                              alt="img"
+                              class="img-h-2-5">
 
-                          <!-- img -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-cloud-server.png"
-                               alt="img"
-                               class="img-h-2-5">
+                        <!-- title content -->
+                        <div class="title-content-it-skill-category">
 
-                          <!-- title content -->
-                          <div class="title-content-it-skill-category">
-
-                            <div>Backend</div>
-                            <div>» Sub Title</div>
-
-                          </div>
+                          <div>Backend</div>
+                          <div>Without a good backend, software is only as good as its foundation.
+                            The beautiful thing about backend development is that you can trigger one action,
+                            and the system handles many processes in the background — allowing you to focus on other tasks in the meantime.</div>
 
                         </div>
 
@@ -1280,21 +1278,16 @@
                       <!-- ------------------------------------------------------ -->
                       <header>
 
-                        <!-- Title Box -->
-                        <div class="title-box-it-skill-cateogory">
+                        <!-- img -->
+                        <img src="media/imgs/icons/02-icon-colors/03-grey/grey-2-fusion.png"
+                              alt="img"
+                              class="img-h-2-5">
 
-                          <!-- img -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-2-fusion.png"
-                               alt="img"
-                               class="img-h-2-5">
+                        <!-- title content -->
+                        <div class="title-content-it-skill-category">
 
-                          <!-- title content -->
-                          <div class="title-content-it-skill-category">
-
-                            <div>Others</div>
-                            <div>» Sub Title</div>
-
-                          </div>
+                          <div>Others</div>
+                          <div>Just Tools</div>
 
                         </div>
 
@@ -1363,20 +1356,17 @@
                       <!-- ------------------------------------------------------ -->
                       <header>
 
-                        <!-- Title Box -->
-                        <div class="title-box-it-skill-cateogory">
-
-                          <!-- img -->
+                        <!-- img -->
                           <img src="media/imgs/icons/02-icon-colors/03-grey/grey-gen-ai.png"
                                alt="img"
                                class="img-h-2-5">
 
-                          <!-- title content -->
-                          <div class="title-content-it-skill-category">
+                        <!-- title content -->
+                        <div class="title-content-it-skill-category">
 
-                            <div>AI - Actually Learning</div>
-                            <div>» Sub Title</div>
-
+                          <div>AI - Actually Learning</div>
+                          <div>AI can be either your enemy or your all in improving yourself.<br>
+                                It’s up to you which path you choose.
                           </div>
 
                         </div>
@@ -1527,7 +1517,7 @@
             <!-- --------------------------------------------------------- -->
             <!-- 🟥 [2/2] | Info Show More | Row Container -->
             <!-- --------------------------------------------------------- -->
-            <div class="row-container">
+            <div class="row-container" style="z-index: 3;">
 
               <!-- ------------------------------------------------------------------ -->
               <!-- Info Show More  -->
