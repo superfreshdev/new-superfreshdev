@@ -28,7 +28,10 @@
 .about-top-it-project-card:hover .content-top-it-project-card {
 
   background-color: white;
-  border: 3px solid rgb(228, 228, 228);
+
+  border-left: 3px solid rgb(228, 228, 228);
+  border-right: 3px solid rgb(228, 228, 228);
+  border-bottom: 3px solid rgb(228, 228, 228);
 
 }
 
@@ -76,7 +79,7 @@
 
   border-radius: .4em;
 
-  border: 3px solid rgb(195, 195, 195);
+  border: 1px solid rgb(184, 184, 184);
 
 
   background-color: rgb(242, 242, 242);
@@ -111,7 +114,7 @@
 
   width: 100%;
 
-  border-radius: .4em .4em;
+  border-radius: .8em .8em 0 0;
 
   border: 3px solid rgb(225, 224, 224);
 
@@ -126,13 +129,13 @@
   width: 100%;
   display: grid;
 
-  margin-top: 1em;
+  /* margin-top: 1em; */
 
-  border-radius: .4em .4em;
+  border-radius: 0 0 .8em.8em;
 
   border: 3px solid transparent;
 
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(249, 249, 249);
 
 }
 
