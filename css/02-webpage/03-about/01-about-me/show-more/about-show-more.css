@@ -66,6 +66,36 @@
 }
 
 /* --------------------------------------------------------------- */
+/* Info Nav | Show More About Container
+/* --------------------------------------------------------------- */
+
+#info-nav-show-more-about-container {
+
+  width: 100%;
+
+  margin: 1.5em 0;
+  padding: 1em 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: red; */
+
+}
+
+/* imgs */
+#info-nav-show-more-about-container > img {
+
+  height: 2em;
+  opacity: .3;
+
+  /* default unshown, shows by clicked */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
 /* Info Show More About Container
 /* --------------------------------------------------------------- */
 
