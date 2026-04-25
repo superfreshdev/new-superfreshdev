@@ -19,35 +19,82 @@
   align-items: flex-start;
   grid: auto auto 1fr / 1fr;
 
+
   /* border-radius: 1em; */
   transition: all .4s;
 
 }
 
-/* hover > content */
-.about-top-it-project-card:hover .content-top-it-project-card {
+/* --------------------------------------------------------------- */
+/* Hover Styles
+/* --------------------------------------------------------------- */
 
-  background-color: white;
+/* hover > header */
+.about-top-it-project-card:hover .nr-header-top-it-project-card > div {
 
-  border-left: 3px solid rgb(228, 228, 228);
-  border-right: 3px solid rgb(228, 228, 228);
-  border-bottom: 3px solid rgb(228, 228, 228);
+  background-color: rgb(49, 49, 49);
+  color:white;
+
+}
+
+/* hover > content container */
+.about-top-it-project-card:hover .content-container-top-it-project-card {
+
+  background-color: rgb(28, 28, 28);
+
+  background-color: rgb(49, 49, 49);
+  border: 3px solid rgb(49, 49, 49);
 
 }
 
-/* hover > content container > img */
-.about-top-it-project-card:hover .content-container-top-it-project-card > img:nth-of-type(1) {
+/* hover > content > main > header */
+.about-top-it-project-card:hover .content-top-it-project-card > main > header {
 
-  /* border-radius: 1em 1em 0 0 ; */
-  /* border: 3px solid rgb(209, 209, 209); */
-  /* border-radius: 1em; */
+  color:rgb(239, 239, 239);
 
 }
+
+/* unshown img dark */
+.about-top-it-project-card:hover .content-top-it-project-card > main > header > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show img light grey */
+.about-top-it-project-card:hover .content-top-it-project-card > main > header > img:nth-of-type(2) {
+
+  display: flex;
+
+}
+
 
 /* hover > content > main > main */
 .about-top-it-project-card:hover .content-top-it-project-card > main > main {
 
-  color:rgb(110, 110, 110);
+  color:rgb(155, 155, 155);
+
+}
+
+/* hover > button details */
+.about-top-it-project-card:hover .content-top-it-project-card .button-sfd-medium {
+
+  border: 1px solid rgb(137, 137, 137);
+  color: rgb(197, 197, 197);;
+
+}
+
+/* hover > button details > img black unshown */
+.about-top-it-project-card:hover .content-top-it-project-card .button-sfd-medium > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* hover > button details > img white show */
+.about-top-it-project-card:hover .content-top-it-project-card .button-sfd-medium > img:nth-of-type(2) {
+
+  display: flex;
 
 }
 
@@ -104,6 +151,14 @@
   display: grid;
   grid: auto 1fr / 1fr;
 
+  border-radius: 1.3em;
+
+  border: 3px solid rgb(225, 224, 224);
+  /* border: 3px solid red; */
+
+  background-color: rgb(249, 249, 249);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 /* --------------------------------------------------------------- */
@@ -114,9 +169,11 @@
 
   width: 100%;
 
-  border-radius: .8em .8em 0 0;
+  border-radius: 1.1em 1.1em 0 0;
 
-  border: 3px solid rgb(225, 224, 224);
+  border-bottom: 3px solid rgb(219, 219, 219);
+
+  cursor: pointer;
 
 }
 
@@ -132,10 +189,6 @@
   /* margin-top: 1em; */
 
   border-radius: 0 0 .8em.8em;
-
-  border: 3px solid transparent;
-
-  background-color: rgb(249, 249, 249);
 
 }
 
@@ -161,7 +214,6 @@
 .content-top-it-project-card > main > header {
 
   /* padding: 0 .4em; */
-
   display: flex;
   align-items: center;
   column-gap: .8em;
@@ -176,6 +228,13 @@
 .content-top-it-project-card > main > header > div {
 
   line-height: 1.5em;
+
+}
+
+/* default img light grey unshown */
+.content-top-it-project-card > main > header > img:nth-of-type(2) {
+
+  display: none;
 
 }
 
@@ -235,6 +294,13 @@
 
 }
 
+/* details button > img white unshown */
+.content-top-it-project-card > main > footer .button-sfd-medium > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
 /* --------------------------------------------------------------- */
 /* GitHub Zip Container About
 /* --------------------------------------------------------------- */
@@ -267,17 +333,21 @@
 
   font-weight: bold;
 
-  border-radius: .8em;
+  border-radius: .6em;
 
-  color:rgb(180, 180, 180);
 
-  border: 1px dashed rgb(155, 155, 155);
+
+  border: 1px solid rgb(193, 193, 193);
+  background-color: rgb(230, 230, 230);
+
+  background-color: white;
 
 }
 
 /* div 1 | title */
 .status-links-about-top-it-project-card > div:nth-of-type(1) {
 
+  color:rgb(96, 96, 96);
   font-size: 13.5px;
   /* font-style: italic; */
 
@@ -286,7 +356,8 @@
 /* div 2 | sub title */
 .status-links-about-top-it-project-card > div:nth-of-type(2) {
 
-  font-size: 10.5px;
-  color:rgb(194, 194, 194);
+  color:rgb(139, 139, 139);
+  font-size: 11.5px;
+
 
 }

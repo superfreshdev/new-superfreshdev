@@ -204,7 +204,8 @@
 /* hover */
 .link-it-skill-about:hover {
 
-  background-color: wheat;
+  background-color: rgb(235, 235, 235);
+  color:rgb(61, 61, 61);
 
 }
 
