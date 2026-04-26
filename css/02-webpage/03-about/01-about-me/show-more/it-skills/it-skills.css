@@ -11,12 +11,12 @@
 
 #it-skills-show-more-container {
 
-  padding: 1.5em .4em 1.5em .4em;
+  padding: 2.5em .4em 3em .4em;
   width: 100%;
 
   display: grid;
   justify-items: center;
-  row-gap: 2em;
+  row-gap: 4.5em;
 
   /* background-color: grey; */
 
@@ -59,8 +59,9 @@
 
   grid-template-areas:
 
-    'img-it-skill-category-show-more nr-box-it-skill-show-more'
-    'title-content-it-skill-show-more title-content-it-skill-show-more'
+    'img-itSkill-showMore nrBox-itSkill-showMore'
+    'title-itSkill-showMore title-itSkill-showMore'
+    'text-itSkill-showMore text-itSkill-showMore'
 
   ;
 
@@ -70,40 +71,40 @@
 
 }
 
-/* 1/3 - img */
+/* --------------------------------------------------------- */
+/* [1/4] | Img
+/* --------------------------------------------------------- */
+
 .it-skill-row-container-show-more > header > img:nth-of-type(1) {
 
-  grid-area: img-it-skill-category-show-more;
+  grid-area: img-itSkill-showMore;
 
 }
 
-/* --------------------------------------------------------------- */
-/* [2/2] | Title Content | Title Box | Header
-/* --------------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* [2/4] | Title
+/* --------------------------------------------------------- */
 
-.title-content-it-skill-category {
+.title-category-it-skill-show-more {
 
-  grid-area: title-content-it-skill-show-more;
-
-  display: grid;
-  row-gap: .6em;
-
-}
-
-/* div 1 | title */
-.title-content-it-skill-category > div:nth-of-type(1) {
+  grid-area: title-itSkill-showMore;
 
   line-height: 1.2em;
 
   font-weight: bold;
   font-size: 20px;
 
-  color:rgb(82, 82, 82);
+  color:rgb(122, 122, 122);
 
 }
 
-/* div 2 | sub title */
-.title-content-it-skill-category > div:nth-of-type(2) {
+/* --------------------------------------------------------- */
+/* [3/4] | Text
+/* --------------------------------------------------------- */
+
+.text-it-skill-show-more {
+
+  grid-area: text-itSkill-showMore;
 
   padding-left: .4em;
 
@@ -114,15 +115,17 @@
   color:rgb(185, 185, 185);
   color:rgb(194, 194, 194);
 
+  color:rgb(147, 147, 147);
+
 }
 
-/* --------------------------------------------------------------- */
-/* Nr Box | Header
-/* --------------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* [4/4] | Nr
+/* --------------------------------------------------------- */
 
 .nr-box-it-skill-category {
 
-  grid-area: nr-box-it-skill-show-more;
+  grid-area: nrBox-itSkill-showMore;
 
   min-height: 2.5em;
   min-width: 2.6em;
@@ -135,10 +138,8 @@
 
   border: 1px solid rgb(199, 199, 199);
 
-  background-color: rgb(212, 212, 212);
-  background-color: white;
-  color:grey;
-
+  background-color: rgb(246, 246, 246);
+  color:rgb(164, 164, 164);
 
 }
 
@@ -147,7 +148,7 @@
 
   font-weight: bold;
 
-  font-size: 18px;
+  font-size: 16.5px;
 
 }
 
@@ -190,9 +191,12 @@
 
   /* font-weight: bold; */
 
-  border: 1px solid rgb(202, 202, 202);
+  border: 1px solid rgb(209, 209, 209);
 
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(253, 253, 253);
+
+  background-color: rgb(245, 245, 245);
+
   color:rgb(161, 161, 161);
 
   transition: all .4s;
@@ -209,7 +213,7 @@
 /* hover */
 .link-it-skill-about:hover {
 
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(212, 212, 212);
   color:rgb(61, 61, 61);
 
 }

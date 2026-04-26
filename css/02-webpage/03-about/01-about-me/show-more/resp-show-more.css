@@ -18,6 +18,34 @@
 
   }
 
+  /* --------------------------------------------------------------- */
+  /* Header | It Skill Row Container Show More
+  /* --------------------------------------------------------------- */
+
+  .it-skill-row-container-show-more > header {
+
+    grid-template-areas:
+
+    'img-itSkill-showMore title-itSkill-showMore nrBox-itSkill-showMore'
+    'text-itSkill-showMore text-itSkill-showMore text-itSkill-showMore'
+
+    ;
+
+    align-items: center;
+
+    grid-template-columns: auto auto 1fr;
+
+    column-gap: .8em;
+
+  }
+
+  /* nr */
+  .nr-box-it-skill-category {
+
+    justify-self: flex-end;
+
+  }
+
 }
 
 

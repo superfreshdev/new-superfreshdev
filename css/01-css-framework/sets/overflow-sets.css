@@ -15,3 +15,15 @@
   overflow: hidden;
 
 }
+
+.overflow-hidden-with-background-img {
+
+  overflow: hidden;
+
+  position: relative;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+
+}

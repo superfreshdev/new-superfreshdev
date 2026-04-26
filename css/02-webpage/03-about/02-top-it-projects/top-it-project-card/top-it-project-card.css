@@ -19,7 +19,6 @@
   align-items: flex-start;
   grid: auto auto 1fr / 1fr;
 
-
   /* border-radius: 1em; */
   transition: all .4s;
 
@@ -133,8 +132,6 @@
 
   font-weight: bold;
 
-
-
 }
 
 /* div 1 | nr box */
@@ -176,13 +173,13 @@
   display: grid;
   grid: auto 1fr / 1fr;
 
-  border-radius: 1.3em;
+  border-radius: 1em;
 
   border: 3px solid rgb(225, 224, 224);
   /* border: 3px solid red; */
 
   background-color: rgb(249, 249, 249);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 
 }
 
@@ -194,7 +191,7 @@
 
   width: 100%;
 
-  border-radius: 1.1em 1.1em 0 0;
+  border-radius: .8em .8em 0 0;
 
   border-bottom: 3px solid rgb(219, 219, 219);
 
