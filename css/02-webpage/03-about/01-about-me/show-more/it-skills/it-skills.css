@@ -11,7 +11,7 @@
 
 #it-skills-show-more-container {
 
-  padding: 2.5em .4em 3em .4em;
+  padding: 3.5em .4em 3.5em .4em;
   width: 100%;
 
   display: grid;
@@ -193,9 +193,9 @@
 
   border: 1px solid rgb(209, 209, 209);
 
-  background-color: rgb(253, 253, 253);
+  /* background-color: rgb(253, 253, 253);
 
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245); */
 
   color:rgb(161, 161, 161);
 
