@@ -11,11 +11,15 @@
 
 #mindset-show-more-container {
 
-   margin: 1.3em 0 2.5em 0;
-  padding: 3em 1em;
   width: 100%;
 
+  margin: 1.3em 0 2.5em 0;
+  padding: 3em 0em;
+
+
   display: grid;
+  justify-items: center;
+  row-gap: 4em;
 
   /* background-color: violet; */
 
@@ -23,5 +27,224 @@
 
   /* default unshown */
   display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Mindset Videos Container
+/* --------------------------------------------------------------- */
+
+#mindset-videos-container {
+
+  display: grid;
+  justify-items: center;
+
+  /* mobile */
+  grid: auto auto / 1fr;
+
+  /* grid: auto / 1fr 1fr; */
+
+  column-gap: 2.5em;
+  row-gap: 2.5em;
+
+  /* background-color: red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Mindset Video Item
+/* --------------------------------------------------------------- */
+
+.mindset-video-item {
+
+  width: 100%;
+
+  display: grid;
+  justify-items: flex-start;
+
+  row-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Mindset Video Item
+/* --------------------------------------------------------------- */
+
+.mindset-video-item > header {
+
+  width: 100%;
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+/* div 1 > header */
+.mindset-video-item > header > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Nr Box | Header
+/* --------------------------------------------------------------- */
+
+.nr-box-mindset-video {
+
+  height: 2.1em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(199, 199, 199);
+  background-color: rgb(246, 246, 246);
+  color: rgb(164, 164, 164);
+
+}
+
+.nr-box-mindset-video > div {
+
+  font-size: 15px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Time Box | Header
+/* --------------------------------------------------------------- */
+
+.time-box-mindset-video {
+
+  height: 2.1em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: .4em;
+
+  color: rgb(164, 164, 164);
+
+}
+
+.time-box-mindset-video > span {
+
+  font-size: 15px;
+
+}
+
+/* div 2 | title */
+.mindset-video-item > header > div:nth-of-type(2) {
+
+  font-size: 16px;
+  padding-left: .3em;
+
+  font-style: italic;
+  font-weight: bold;
+
+  color: rgb(114, 114, 114);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Video | Mindset Video Item
+/* --------------------------------------------------------------- */
+
+.mindset-video-item > video {
+
+  width: 100%;
+  height: 14em;
+
+  object-fit: cover;
+  /* object-fit: fill; */
+  /* object-fit: contain; */
+  border-radius: 1em;
+  /* border: 4px solid #444444; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Mindset Quote Container
+/* --------------------------------------------------------------- */
+
+#mindset-quote-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  column-gap: .4em;
+
+}
+
+/* div */
+#mindset-quote-container > div {
+
+  height: 2.3em;
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .6em;
+
+  font-weight: bold;
+
+  background-color: rgb(239, 239, 239);
+  color:grey;
+
+}
+
+/* img */
+#mindset-quote-container > img {
+
+  height: 2.5em;
+  opacity: .1;
+
+}
+
+
+/* img 1/2 */
+#mindset-quote-container > img:nth-of-type(1) {
+
+  transform: rotate(180deg);
+
+
+}
+
+/* div 1,3 */
+#mindset-quote-container > div:nth-of-type(1),
+#mindset-quote-container > div:nth-of-type(3) {
+
+
+}
+
+/* div 2 */
+#mindset-quote-container > div:nth-of-type(2) {
+
+  background-color: wheat;
+  color:black;
+
+}
+
+/* img 2/2 */
+#mindset-quote-container > img:nth-of-type(2) {
+
+
 
 }
