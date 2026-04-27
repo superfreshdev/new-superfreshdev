@@ -11,17 +11,11 @@
 
 #hobbys-show-more-container {
 
-  margin: 1.3em 0 2.5em 0;
-
-  padding: 3em 1em;
+  padding: 0em 1em 6em 1em;
   width: 100%;
 
   display: grid;
-  row-gap: 2em;
-
-  /* background-color: rgb(67, 144, 239); */
-
-  border: 1px dashed grey;
+  justify-items: center;
 
   /* default unshown */
   display: none;
@@ -35,8 +29,9 @@
 
 .hobby-category-content-container {
 
+  width: 100%;
   display: grid;
-  row-gap: 2em;
+  /* row-gap: 2em; */
 
 }
 
@@ -47,6 +42,7 @@
 .hobby-category-content-container > header {
 
   width: 100%;
+  padding: 4em 0;
 
   display: flex;
   align-items: center;
