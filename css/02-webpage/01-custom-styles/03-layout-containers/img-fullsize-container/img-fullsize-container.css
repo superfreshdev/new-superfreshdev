@@ -116,12 +116,14 @@
 .img-close-btn > img:nth-of-type(1) {
 
   margin-top: 1px;
+
 }
 
 /* div | text */
 .img-close-btn > div:nth-of-type(1) {
 
-  font-size: 16.5px;
+  font-size: 16px;
+  margin-bottom: 1px;
 
 }
 
