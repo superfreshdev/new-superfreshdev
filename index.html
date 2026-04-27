@@ -53,6 +53,9 @@
       <!-- resp font sizes -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/resp-font-sizes/resp-font-sizes.css">
 
+      <!-- img fullsize container -->
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/img-fullsize-container/img-fullsize-container.css">
+
       <!-- --------------------------------------------------  -->
       <!-- Layout Elements -->
       <!-- --------------------------------------------------  -->
@@ -388,7 +391,41 @@
   <!-- ----------------------------------------------------------------------- -->
   <!-- 🟥 [1/2] | Main Body -->
   <!-- ----------------------------------------------------------------------- -->
-  <main id="main-body">
+  <div id="main-body">
+
+    <!-- ------------------------------------------------------- -->
+    <!-- Feature -->
+    <!-- ⭐ Img Fullsize Container ( About - Top IT Projects )  -->
+    <!-- ------------------------------------------------------- -->
+    <div class="img-fullsize-view">
+
+      <div class="img-fullsize-container">
+
+        <div class="img-box">
+
+            <div class="img-header">
+
+                <button class="img-close-btn">
+
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-x.png"
+                        alt="img"
+                        class="img-h-1">
+
+                  <!-- <div>Close</div> -->
+
+                </button>
+
+            </div>
+
+            <div class="img-frame">
+                <img src="media/imgs/content/01-about/about-me/canyon-1852921.jpg" alt="Bild">
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
     <!-- ------------------------------------------------------- -->
     <!-- Audio | Relax Music | About Quick Info  -->
@@ -400,7 +437,7 @@
     <!-- --------------------------------------------------------------------- -->
     <!-- 🟥 [1/3] | About | Page Container -->
     <!-- --------------------------------------------------------------------- -->
-    <div id="about-page-container">
+    <div id="about-page-container" style="display: none;">
 
       <!-- ------------------------------------------------ -->
       <!-- Audio Relax | Quick Info | JS handling -->
@@ -411,10 +448,10 @@
       </audio>
 
       <!-- Checkbox | Show More -->
-      <input checked type="checkbox" id="chk-show-more-about">
+      <input type="checkbox" id="chk-show-more-about">
 
       <!-- --------------------------------------------------------------- -->
-      <!-- 🟥 [1/4] | About Me | 📐 Resp | Medium  -->
+      <!-- 🟩 [1/4] | About Me | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
       <div class="row-container">
 
@@ -590,7 +627,7 @@
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- ➡️🟥 [2/4] | Show More | 📐 Resp | Medium  -->
+      <!-- 🟩 [2/4] | Show More | 📐 Resp | Medium  -->
       <!-- --------------------------------------------------------------- -->
       <div id="row-container-show-more-about">
 
@@ -2247,7 +2284,7 @@
       </div>
 
       <!-- --------------------------------------------------------------- -->
-      <!-- 🟨 [3/4] | Top IT Projects | 📐 Resp | Big  -->
+      <!-- ➡️🟥 [3/4] | Top IT Projects | 📐 Resp | Big  -->
       <!-- --------------------------------------------------------------- -->
       <div class="row-container">
 
@@ -2338,7 +2375,7 @@
                   <!-- 🟨 [1/2] | Img Top It Project Card -->
                   <!-- ------------------------------------------------------------- -->
                   <img src="media/imgs/content/01-about/top-it-projects/top-it-project-1/project-food-delivery-service.png"
-                      alt="img" class="img-top-it-project-card ">
+                      alt="img" class="img-top-it-project-card" id="js-img-fullsize-top-it-project-1">
 
                   <!-- ------------------------------------------------------------- -->
                   <!-- 🟨 [2/2] | Content | Top It Project Card -->
@@ -2527,7 +2564,7 @@
                   <!-- 🟨 [1/2] | Img Top It Project Card -->
                   <!-- ------------------------------------------------------------- -->
                   <img src="media/imgs/content/01-about/top-it-projects/top-it-project-1/project-insurance-customer-portal.png"
-                      alt="img" class="img-top-it-project-card ">
+                      alt="img" class="img-top-it-project-card" id="js-img-fullsize-top-it-project-2">
 
                   <!-- ------------------------------------------------------------- -->
                   <!-- 🟨 [2/2] | Content | Top It Project Card -->
@@ -2731,7 +2768,7 @@
                   <!-- 🟨 [1/2] | Img Top It Project Card -->
                   <!-- ------------------------------------------------------------- -->
                   <img src="media/imgs/content/01-about/top-it-projects/top-it-project-1/project-1-sass-dashboard.png"
-                      alt="img" class="img-top-it-project-card ">
+                      alt="img" class="img-top-it-project-card" id="js-img-fullsize-top-it-project-3">
 
                   <!-- ------------------------------------------------------------- -->
                   <!-- 🟨 [2/2] | Content | Top It Project Card -->
@@ -3500,6 +3537,9 @@
 
           <!-- mindset video countdown -->
           <script src="js/02-webpage/02-about/mindset/video-mindset-countdown.js"></script>
+
+          <!-- top it project -->
+          <script src="js/02-webpage/02-about/top-it-projects/img-fullsize-top-it-project.js"></script>
 
         <!-- ----------------------------------------------- -->
         <!-- More IT -->
