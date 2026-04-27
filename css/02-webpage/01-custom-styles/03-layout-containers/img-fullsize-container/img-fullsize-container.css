@@ -19,7 +19,7 @@
 }
 
 /* Overlay */
-.img-fullsize-view{
+.img-fullsize-view {
 
   z-index: 999;
 
@@ -32,13 +32,15 @@
 
   /* overflow:hidden; */
 
-  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-  background-blend-mode: multiply;
+  /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply; */
+
+  background-color: rgb(28, 28, 28);
 
   /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
 
   /* default unshown, only by click */
-  /* display: none; */
+  display: none;
 
 }
 
