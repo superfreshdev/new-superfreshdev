@@ -1,0 +1,154 @@
+/* --------------------------------------------------------------- */
+/* > hobby-info-box.css
+/*
+/* : styles hobby info box
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.hobby-info-box {
+
+  width: 100%;
+  display: grid;
+
+  border-radius: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.hobby-info-box > header:nth-of-type(1) {
+
+  width: 100%;
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+  border-radius: 1.1em;
+
+  border: 1px solid rgb(221, 221, 221);
+  background-color: rgb(241, 241, 241);
+
+}
+
+/* img hobby only header */
+.img-hobby-only-header {
+
+  height: 100%;
+  width: 5em;
+
+  border-radius: 1em 0 0 1em;
+}
+
+/* div 1  title */
+.hobby-info-box > header:nth-of-type(1) > div:nth-of-type(1) {
+
+  line-height: 1.4em;
+  font-weight: bold;
+
+  color:grey;
+
+}
+
+/* --------------------------------------------------------------- */
+/* (Optional) Main | Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.hobby-info-box > main {
+
+  padding: 1.5em 1em .5em 1em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Text Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.text-hobby-info-box {
+
+  color:rgb(109, 109, 109);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.header-hobby-info-box {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* div */
+.header-hobby-info-box > div {
+
+  height: 2em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: bold;
+
+  border-radius: .4em;
+
+  background-color: grey;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Audio List Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.audio-list-hobby-info-box {
+
+  padding-top: .5em;
+
+  display: grid;
+  row-gap: 1.5em;
+
+}
+
+/* audio  */
+.audio-list-hobby-info-box audio {
+
+  width: 100%;
+  /* background-color: red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div | Audio List Hobby Info Box
+/* --------------------------------------------------------------- */
+
+.audio-list-hobby-info-box > div {
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div | Header
+/* --------------------------------------------------------------- */
+
+.audio-list-hobby-info-box > div > header {
+
+   padding-left: .6em;
+
+   line-height: 1.4em;
+
+   color:rgb(173, 173, 173);
+
+}

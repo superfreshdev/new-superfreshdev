@@ -17,6 +17,7 @@
   width: 100%;
 
   display: grid;
+  row-gap: 2em;
 
   /* background-color: rgb(67, 144, 239); */
 
@@ -24,5 +25,56 @@
 
   /* default unshown */
   display: none;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Hobby Category Content Container
+/* --------------------------------------------------------------- */
+
+.hobby-category-content-container {
+
+  display: grid;
+  row-gap: 2em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Hobby Category Content Container
+/* --------------------------------------------------------------- */
+
+.hobby-category-content-container > header {
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: blue; */
+
+}
+
+.hobby-category-content-container > header > div:nth-of-type(1) {
+
+  font-size: 22px;
+  font-weight: bold;
+  color:rgb(173, 173, 173);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Hobby Category Content Container
+/* --------------------------------------------------------------- */
+
+.hobby-category-content-container > main {
+
+
+  display: grid;
+  row-gap: 1em;
+  column-gap: 2em;
+
+  /* background-color: red; */
 
 }
