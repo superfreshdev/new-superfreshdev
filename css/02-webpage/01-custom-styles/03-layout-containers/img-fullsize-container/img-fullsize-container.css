@@ -8,68 +8,121 @@
 /* =====================================
    EINSTELLUNGEN
 ===================================== */
-:root{
-    --viewer-height:98vh;   /* 95vh / 100vh */
-    --top-space:1em;        /* Abstand oben */
-    --btn-gap:.5em;         /* Abstand X zum Bild */
-    --btn-size:2.3em;
-    --img-radius:1em;
+:root {
+
+  --viewer-height:98vh;   /* 95vh / 100vh */
+  --top-space:1em;        /* Abstand oben */
+  --btn-gap:.5em;         /* Abstand X zum Bild */
+  --btn-size:2.3em;
+  --img-radius:1em;
+
 }
 
 /* Overlay */
 .img-fullsize-view{
 
-    z-index: 999;
+  z-index: 999;
 
-    position:fixed;
-    inset:0;
+  position:fixed;
+  inset:0;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-    background-blend-mode: multiply;
+  /* overflow:hidden; */
+
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
 
 }
 
 /* Einheit aus Bild + X */
 .img-fullsize-container{
-    height:var(--viewer-height);
-    max-width:95vw;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  height:var(--viewer-height);
+  max-width:95vw;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
 }
 
 /* WICHTIG: wächst nur mit Bild */
-.img-box{
-    display:inline-flex;
-    flex-direction:column;
-    align-items:flex-end;   /* X rechts an Bildkante */
-    width:auto;
-    max-width:100%;
+.img-box {
+
+  max-width:100%;
+  width:auto;
+
+  display:inline-flex;
+  flex-direction:column;
+  align-items:flex-end;   /* X rechts an Bildkante */
+
 }
 
 /* X Header hängt DIREKT am Bild */
 .img-header{
-    width:100%;
-    display:flex;
-    justify-content:flex-end;
-    margin-bottom:var(--btn-gap); /* Abstand zum Bild */
+
+  width:100%;
+  padding-right: .1em;
+
+  display:flex;
+  justify-content:flex-end;
+
+  margin-bottom:var(--btn-gap); /* Abstand zum Bild */
+
 }
 
 /* Button */
-.img-close-btn{
-    width:var(--btn-size);
-    height:var(--btn-size);
-    border:none;
-    border-radius:50%;
-    background:#fff;
-    font-size:1.2em;
-    cursor:pointer;
+.img-close-btn {
+
+  /* delete default browser button styles */
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  /* new style */
+  height:var(--btn-size);
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  border-radius: .6em;
+
+  background-color: rgb(255, 145, 145);
+
+  cursor:pointer;
+  transition: all .4s;
+
+}
+
+.img-close-btn:hover {
+
+  background-color: wheat;
+
+}
+
+/* img layout fix */
+.img-close-btn > img:nth-of-type(1) {
+
+  margin-top: 1px;
+}
+
+/* div | text */
+.img-close-btn > div:nth-of-type(1) {
+
+  font-size: 16.5px;
+
 }
 
 /* Bild */
@@ -77,7 +130,7 @@
     display:inline-block;
 }
 
-.img-frame img{
+.img-frame img {
     display:block;
 
     max-height:calc(var(--viewer-height) - var(--btn-size) - var(--btn-gap) - var(--top-space));
