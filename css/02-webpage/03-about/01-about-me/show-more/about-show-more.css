@@ -81,7 +81,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: rgb(246, 246, 246);
+  /* background-color: rgb(216, 216, 216); */
 
   background-color: rgb(28, 28, 28);
 
@@ -94,7 +94,7 @@
 #info-nav-show-more-about-container > img {
 
   height: 2em;
-  opacity: .3;
+  opacity: .6;
 
   /* default unshown, shows by clicked */
   display: none;
