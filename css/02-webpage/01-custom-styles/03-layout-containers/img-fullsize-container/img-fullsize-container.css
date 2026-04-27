@@ -13,7 +13,7 @@
   --viewer-height:98vh;   /* 95vh / 100vh */
   --top-space:1em;        /* Abstand oben */
   --btn-gap:.5em;         /* Abstand X zum Bild */
-  --btn-size:2.3em;
+  --btn-size:2em;
   --img-radius:1em;
 
 }
@@ -88,12 +88,12 @@
 
   /* new style */
   height:var(--btn-size);
-  padding: 0 .8em;
+  padding: 0 .6em;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: .6em;
+  column-gap: .4em;
 
   font-weight: bold;
 
