@@ -2,7 +2,9 @@
 
   "defaults": {
 
-    "imgPath": "media/imgs/content/01-about/top-it-projects/"
+    "imgPath": "media/imgs/content/01-about/top-it-projects/",
+    "iconStatusPath": "media/imgs/icons/02-icon-colors/01-black/",
+    "iconHeaderPath": "media/imgs/icons/02-icon-colors/"
 
   },
 
@@ -10,15 +12,79 @@
 
     {
       "folderName": "top-it-project-1/",
-      "imgProjectName": "project-food-delivery-service.png"
+      "imgProjectName": "project-food-delivery-service.png",
+
+      "status": {
+
+        "statusShow": "true",
+        "cssClassStatus": "info-status-in-progress",
+        "iconName": "black-arrow-right.png",
+        "cssClassIcon": "img-h-0-6",
+        "statusTitle": "in progress"
+
+      },
+
+      "header": {
+
+        "iconDarkPath": "01-black/black-shopping-cart.png",
+        "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
+        "title": "Food Delivery Service with Kitchen Management to handle orders"
+
+      },
+
+      "mainText": "🤡An online food ordering platform where customers can place their orders. The Kitchen Management Dashboard reviews each order and decides whether to accept, delay, or reject it based on preparation capacity ..."
+
     },
     {
       "folderName": "top-it-project-2/",
-      "imgProjectName": "project-insurance-customer-portal.png"
+      "imgProjectName": "project-insurance-customer-portal.png",
+
+      "status": {
+
+        "statusShow": "true",
+        "cssClassStatus": "info-status-to-do",
+        "iconName": "black-arrow-right.png",
+        "cssClassIcon": "img-h-0-6",
+        "statusTitle": "to do"
+
+      },
+
+      "header": {
+
+        "iconDarkPath": "01-black/black-healthcare.png",
+        "iconLightPath": "04-light-grey/light-grey-healthcare.png",
+        "title": "Insurance - Customer Portal"
+
+      },
+
+      "mainText": "🤡Insurance Web Application that allows customers to manage their policies, explore new offers, and generate their documents as PDF files ..."
+
+
     },
     {
       "folderName": "top-it-project-3/",
-      "imgProjectName": "project-1-sass-dashboard.png"
+      "imgProjectName": "project-1-sass-dashboard.png",
+
+      "status": {
+
+        "statusShow": "true",
+        "cssClassStatus": "info-status-later",
+        "iconName": "black-stop-hand.png",
+        "cssClassIcon": "img-h-0-7",
+        "statusTitle": "later"
+
+      },
+
+      "header": {
+
+        "iconDarkPath": "01-black/black-dashboard.png",
+        "iconLightPath": "04-light-grey/light-grey-dashboard.png",
+        "title": "Responsive Data Dashboard with 4 Analytics"
+
+      },
+
+      "mainText": "🤡Responsive Data Dashboard featuring 4 distinct analytics views. Users can configure how frequently the dasboard updates and define specific parameters that trigger push email notifications. E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration."
+
     }
 
   ]

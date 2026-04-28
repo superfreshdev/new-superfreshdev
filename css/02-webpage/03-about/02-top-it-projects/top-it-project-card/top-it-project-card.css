@@ -205,6 +205,8 @@
 
 .content-top-it-project-card {
 
+  padding-top: 1.5em;
+
   width: 100%;
   display: grid;
 
@@ -220,7 +222,7 @@
 
 .content-top-it-project-card > main {
 
-  padding: 2em 1em 1em 1em ;
+  padding: 0em 1em 1em 1em ;
 
   display: grid;
   row-gap: 1em;
