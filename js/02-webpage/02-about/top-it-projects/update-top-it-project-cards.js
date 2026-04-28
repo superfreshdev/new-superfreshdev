@@ -7,7 +7,7 @@
 
 // x3 top it project cards
 var divTopItProjectCards = document.getElementsByClassName("about-top-it-project-card");
-console.log("🔥Lenght = " + divTopItProjectCards.length)
+// console.log("🔥Lenght = " + divTopItProjectCards.length)
 
 /* -------------------------------------------------------------------------- */
 /* Var
@@ -52,11 +52,11 @@ async function update_topItProjectCard_by_json( jsonFile ) {
   /* ------------------------------------------------------ */
 
     var data_topItProjects = await async_getJsonFile( jsonFile )
-    console.log("🔥JSON:🔥= " + data_topItProjects)
+    // console.log("🔥JSON:🔥= " + data_topItProjects)
 
     // Get Default Img Path
     var default_imgPath = data_topItProjects.defaults.imgPath;
-    console.log("1. Default Path = " + default_imgPath)
+    // console.log("1. Default Path = " + default_imgPath)
 
     // Get default icon Status Path
     var default_iconStatusPath = data_topItProjects.defaults.iconStatusPath;
@@ -71,7 +71,7 @@ async function update_topItProjectCard_by_json( jsonFile ) {
 
     // Get Array of Data from top it project cards
     var datas = data_topItProjects.dataTopItProjectCards;
-    console.log("datas= " + datas.length )
+    // console.log("datas= " + datas.length )
 
     // Update Routine
     for( let i=0; i < datas.length; i++ ) {
@@ -86,7 +86,6 @@ async function update_topItProjectCard_by_json( jsonFile ) {
 
       // get img element
       var imgProject = divTopItProjectCards[i].querySelector(".content-container-top-it-project-card > img:nth-of-type(1)");
-      var imgSrcProject = imgProject.getAttribute("src");
 
       // update img element
       var folderNameProject = datas[i].folderName;
@@ -216,7 +215,7 @@ async function update_topItProjectCard_by_json( jsonFile ) {
       /* > Update Main - Main
       /* ------------------------------------------------------- */
 
-        console.log("➡️ Step 4:")
+        // console.log("➡️ Step 4:")
 
         // get main element
         var mainElement = divTopItProjectCards[i].querySelector(".content-top-it-project-card > main > main:nth-of-type(1)");
@@ -228,10 +227,100 @@ async function update_topItProjectCard_by_json( jsonFile ) {
         mainElement.innerText = textMain;
 
       /* ------------------------------------------------------- */
-      /* ➡️🟥 Step 2.4:
+      /* 🟩 Step 2.4:
       /* > Update Main - Footer
       /* ------------------------------------------------------- */
-      // console.log("➡️ Step 5:")
+
+        // console.log("➡️ Step 5:")
+
+        // get footer element
+        var footerElement = divTopItProjectCards[i].querySelector(".content-top-it-project-card > main > footer:nth-of-type(1)");
+
+
+        // get footer datas
+        var dataFooter = datas[i].footer;
+        var footerShow = dataFooter.footerShow;
+
+        /* ---------------------------------------------------------- */
+        /* update only if footer should be shown
+        /* ---------------------------------------------------------- */
+        if( footerShow === "true" ) {
+
+          console.log("🟩 footer show")
+          // show footer
+          footerElement.style.display = "flex";
+
+          /* ---------------------------------------------------------- */
+          // check to show | zip und github container
+          /* ---------------------------------------------------------- */
+          var zipGithubShow = dataFooter.zipGitHubShow;
+
+          if( zipGithubShow === "true" ) {
+
+            // console.log(">> Create zipGithub Container")
+
+            // show zip github
+            var zipGithubContainer = footerElement.querySelector(".github-zip-container-about-top-it-project-card");
+            zipGithubContainer.style.display = "flex";
+
+            // update links
+            var linkZipElement = zipGithubContainer.querySelector("a:nth-of-type(1)");
+            var linkGithubElement = zipGithubContainer.querySelector("a:nth-of-type(2)");
+
+              // update zip link
+              var urlZip = dataFooter.zipLink;
+              linkZipElement.setAttribute("href", urlZip);
+
+              // update github link
+              var urlGithub = dataFooter.githubLink;
+              linkGithubElement.setAttribute("href", urlGithub);
+
+          }
+
+          /* ---------------------------------------------------------- */
+          // check to show | details
+          /* ---------------------------------------------------------- */
+
+          // get status data
+          var detailsShow = dataFooter.detailsShow;
+
+          if( detailsShow === "true" ) {
+
+            // console.log(">> Details Show")
+
+            // get button details element
+            var detailsButton = footerElement.querySelector(".button-sfd-medium:nth-of-type(1)");
+
+            // show button details
+            detailsButton.style.display = "flex";
+
+          }
+
+          /* ---------------------------------------------------------- */
+          // check to show | status
+          /* ---------------------------------------------------------- */
+
+          // get status data
+          var footerStatusShow = dataFooter.statusShow;
+
+          if( footerStatusShow === "true" ) {
+
+            // console.log("🔥footerStatusShow Show")
+
+            // get status container
+            var statusContainer = footerElement.querySelector(".status-links-about-top-it-project-card");
+
+            // show status container
+            statusContainer.style.display = "block";
+
+          }
+
+
+        } else {
+
+          console.log("❌ footer unshown")
+
+        }
 
 
 

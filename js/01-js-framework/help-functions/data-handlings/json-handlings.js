@@ -7,7 +7,7 @@
 
 async function async_getJsonFile( jsonFile ) {
 
-  console.log("async_getJsonFile")
+  // console.log("async_getJsonFile")
 
   /* ------------------------------------------- */
   /* Step 1/1
