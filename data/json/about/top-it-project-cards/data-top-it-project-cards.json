@@ -32,7 +32,7 @@
 
       },
 
-      "mainText": "🤡An online food ordering platform where customers can place their orders. The Kitchen Management Dashboard reviews each order and decides whether to accept, delay, or reject it based on preparation capacity ...",
+      "mainText": "An online food ordering platform where customers can place their orders. The Kitchen Management Dashboard reviews each order and decides whether to accept, delay, or reject it based on preparation capacity ...",
 
       "footer": {
 
@@ -71,7 +71,7 @@
 
       },
 
-      "mainText": "🤡Insurance Web Application that allows customers to manage their policies, explore new offers, and generate their documents as PDF files ...",
+      "mainText": "Insurance Web Application that allows customers to manage their policies, explore new offers, and generate their documents as PDF files ...",
 
       "footer": {
 
@@ -112,7 +112,7 @@
 
       },
 
-      "mainText": "🤡Responsive Data Dashboard featuring 4 distinct analytics views. Users can configure how frequently the dasboard updates and define specific parameters that trigger push email notifications. E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.",
+      "mainText": "Responsive Data Dashboard featuring 4 distinct analytics views. Users can configure how frequently the dasboard updates and define specific parameters that trigger push email notifications. E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.",
 
       "footer": {
 
