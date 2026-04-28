@@ -1,0 +1,26 @@
+{
+
+  "defaults": {
+
+    "imgPath": "media/imgs/content/01-about/top-it-projects/"
+
+  },
+
+  "dataTopItProjectCards": [
+
+    {
+      "folderName": "top-it-project-1/",
+      "imgProjectName": "project-food-delivery-service.png"
+    },
+    {
+      "folderName": "top-it-project-2/",
+      "imgProjectName": "project-insurance-customer-portal.png"
+    },
+    {
+      "folderName": "top-it-project-3/",
+      "imgProjectName": "project-1-sass-dashboard.png"
+    }
+
+  ]
+
+}
