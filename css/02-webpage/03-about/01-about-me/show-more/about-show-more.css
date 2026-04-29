@@ -123,20 +123,38 @@
 
 #info-show-more-about-container {
 
-  padding: 1.5em 0;
+  padding: .8em 1.3em;
+  margin-bottom: 1em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  column-gap: 1.3em;
+  column-gap: .8em;
+
+  border-radius: 1.8em;
+
+  border: 3px solid rgb(56, 56, 56);
+
+  background-color: rgb(28, 28, 28);
+
+  opacity: .8;
 
 }
 
-/* img */
+/* img 1 */
 #img-clipart-info-show-more {
 
   height: 5em;
+
+}
+
+/* img 2 - arrow */
+#img-arrow-info-show-more {
+
+  height: 3em;
+  transform: rotate(20deg);
+  opacity: .6;
 
 }
 
@@ -147,6 +165,8 @@
 
   font-weight: bold;
   width: 8em;
+
+  text-align: center;
 
   color: rgb(235, 235, 235);
 

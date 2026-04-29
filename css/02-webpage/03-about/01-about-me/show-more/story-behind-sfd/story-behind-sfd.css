@@ -11,7 +11,7 @@
 
 #story-behind-sfd-show-more-container {
 
-  margin-bottom: 3.5em;
+  margin-bottom: 1em;
   padding: 3.5em .4em;
   width: 100%;
 
@@ -41,7 +41,7 @@
 
   text-align: center;
 
-  background-color: red;
+  /* background-color: red; */
 
 }
 
