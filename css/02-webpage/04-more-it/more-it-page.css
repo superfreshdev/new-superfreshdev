@@ -16,8 +16,10 @@
 
   display: grid;
   justify-items: center;
+
+  grid: auto auto 1fr / 1fr;
   /* row-gap: 1em; */
 
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
 
 }
