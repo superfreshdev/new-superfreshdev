@@ -33,7 +33,7 @@
 
   border-radius: 1.1em;
 
-  border: 1px solid rgb(221, 221, 221);
+  border: 1px solid rgb(223, 223, 223);
   background-color: rgb(249, 249, 249);
 
 }
@@ -65,7 +65,7 @@
 
 .hobby-info-box > main {
 
-  padding: 1.5em 1em .5em 1em;
+  padding: 1.5em .6em 1.3em .6em;
 
 }
 

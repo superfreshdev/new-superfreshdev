@@ -11,14 +11,17 @@
 
 #it-skills-show-more-container {
 
-  padding: 3.5em .4em 3.5em .4em;
+  margin-bottom: 3.5em;
+  padding: 3.5em 1em;
   width: 100%;
 
   display: grid;
   justify-items: center;
-  row-gap: 4.5em;
+  justify-content: center;
+  row-gap: 4em;
 
-  /* background-color: grey; */
+  border-radius: 1em;
+  background-color: white;
 
   /* default unshown */
   display: none;
@@ -67,7 +70,7 @@
 
   grid-template-columns: 1fr auto;
 
-  row-gap: .5em;
+  row-gap: 1.3em;
 
 }
 
@@ -136,7 +139,7 @@
 
   border-radius: .4em;
 
-  border: 1px solid rgb(199, 199, 199);
+  border: 1px solid rgb(223, 223, 223);
 
   background-color: rgb(246, 246, 246);
   color:rgb(164, 164, 164);
@@ -191,13 +194,15 @@
 
   /* font-weight: bold; */
 
-  border: 1px solid rgb(209, 209, 209);
+  border: 1px solid rgb(223, 223, 223);
+
+  background-color: rgb(249, 249, 249);
 
   /* background-color: rgb(253, 253, 253);
 
   background-color: rgb(245, 245, 245); */
 
-  color:rgb(161, 161, 161);
+  color:rgb(162, 162, 162);
 
   transition: all .4s;
 

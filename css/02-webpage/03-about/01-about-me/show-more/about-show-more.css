@@ -22,6 +22,7 @@
   justify-items: center;
 
   /* background-color: white; */
+  /* background-color: red; */
 
 }
 
@@ -73,9 +74,7 @@
   z-index: 3;
 
   width: 100%;
-
-  margin: 0em 0;
-  padding: 1em 0;
+  padding: 1.5em 0 2em 0;
 
   display: flex;
   align-items: center;
@@ -83,21 +82,38 @@
 
   /* background-color: rgb(216, 216, 216); */
 
-  background-color: rgb(28, 28, 28);
+  /* background-color: rgb(28, 28, 28); */
 
   /* default unshown, wait on click */
   display: none;
 
 }
 
-/* imgs */
-#info-nav-show-more-about-container > img {
+/* divs */
+#info-nav-show-more-about-container > div {
 
-  height: 2em;
-  opacity: .6;
+  min-height: 4em;
+  min-width: 4em;
 
-  /* default unshown, shows by clicked */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .8em;
+
+  background-color: wheat;
+
+  /* default unshown, only by click */
   display: none;
+
+}
+
+/* imgs */
+#info-nav-show-more-about-container > div > img {
+
+  height: 2.3em;
+  opacity: .8;
 
 }
 

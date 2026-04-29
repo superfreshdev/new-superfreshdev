@@ -11,11 +11,15 @@
 
 #hobbys-show-more-container {
 
-  padding: 0em 1em 6em 1em;
+  margin-bottom: 3.5em;
+  padding: 3.5em 1em;
   width: 100%;
 
   display: grid;
   justify-items: center;
+
+  border-radius: 1.3em;
+  background-color: white;
 
   /* default unshown */
   display: none;
@@ -36,6 +40,14 @@
 
 }
 
+/* extra case, entertainment */
+#hobbys-show-more-container .hobby-category-content-container:nth-of-type(2) > header {
+
+  padding-top: 3em;
+  /* background-color: blue; */
+
+}
+
 /* --------------------------------------------------------------- */
 /* Header | Hobby Category Content Container
 /* --------------------------------------------------------------- */
@@ -43,7 +55,7 @@
 .hobby-category-content-container > header {
 
   width: 100%;
-  padding: 4em 0;
+  padding-bottom: 3em;
 
   display: flex;
   align-items: center;

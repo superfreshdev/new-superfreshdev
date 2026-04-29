@@ -53,10 +53,10 @@ input[name="name-radio-show-more-about"] {
 
 
 /* show img category */
-#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(1),
-#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(2),
-#radio-show-more-mindset:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(3),
-#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > img:nth-of-type(4) {
+#radio-show-more-it-skills:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > div:nth-of-type(1),
+#radio-show-more-story-behind-sfd:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > div:nth-of-type(2),
+#radio-show-more-mindset:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > div:nth-of-type(3),
+#radio-show-more-hobbys:checked ~ .row-container:nth-of-type(2) #info-nav-show-more-about-container > div:nth-of-type(4) {
 
   display: flex;
 

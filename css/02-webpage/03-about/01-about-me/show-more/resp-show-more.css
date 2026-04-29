@@ -6,6 +6,22 @@
 
 
 /* --------------------------------------------------------------- */
+/* >= 340px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 340px ) {
+
+
+  #story-behind-sfd-show-more-container {
+
+    /* width: 95%; */
+    padding: 2.5em 1em;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
 /* >= 380px
 /* --------------------------------------------------------------- */
 
@@ -21,6 +37,7 @@
 
   }
 
+
 }
 
 
@@ -32,10 +49,32 @@
 
 @media (min-width: 400px ) {
 
-  .it-skill-row-container-show-more {
+  #it-skills-show-more-container {
 
     width: 95%;
+    /* padding: 2.5em 2em; */
     /* background-color: red; */
+
+  }
+
+  #story-behind-sfd-show-more-container {
+
+    width: 95%;
+    /* padding: 2.5em 2em; */
+
+  }
+
+  #mindset-show-more-container {
+
+    width: 95%;
+    /* padding: 2.5em 2em; */
+
+  }
+
+  #hobbys-show-more-container {
+
+    width: 95%;
+    /* padding: 2.5em 2em; */
 
   }
 
@@ -142,7 +181,7 @@
     justify-items: center;
 
     /* mobile */
-    grid: auto auto / 28em;
+    grid: auto auto / 24em;
 
     /* grid: auto / 1fr 1fr; */
 
@@ -152,6 +191,46 @@
     /* background-color: red; */
 
   }
+
+  #it-skills-show-more-container {
+
+    /* width: 95%; */
+    padding: 2.5em 2.5em;
+    /* background-color: red; */
+
+  }
+
+  #story-behind-sfd-show-more-container {
+
+    /* width: 95%; */
+    padding: 2.5em 2.5em;
+
+  }
+
+  #hobbys-show-more-container {
+
+    /* width: 95%; */
+    padding: 2.5em 2.5em;
+
+  }
+
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 680px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 680px ) {
+
+   #mindset-videos-container {
+
+    /* mobile */
+    grid: auto auto / 28em;
+
+  }
+
 
 }
 
@@ -185,7 +264,6 @@
   /* --------------------------------------------------------------- */
   /* It Skill Row Container Show More
   /* --------------------------------------------------------------- */
-
 
   .it-skill-row-container-show-more  {
 
@@ -237,7 +315,7 @@
     justify-items: center;
 
     /* mobile */
-    grid: auto / 22em 22em;
+    grid: auto / 1fr 1fr;
 
     /* grid: auto / 1fr 1fr; */
 
@@ -248,13 +326,32 @@
 
   }
 
-  /* --------------------------------------------------------------- */
-  /* Hobbys | Show More Container
-  /* --------------------------------------------------------------- */
+  #it-skills-show-more-container {
+
+    /* width: 95%; */
+    padding: 3.5em 4.5em;
+    /* background-color: red; */
+
+  }
+
+  #story-behind-sfd-show-more-container {
+
+    /* width: 95%; */
+    padding: 3.5em 2.5em;
+
+  }
+
+  #mindset-show-more-container {
+
+    /* width: 95%; */
+    padding: 3.5em 2em;
+
+  }
 
   #hobbys-show-more-container {
 
-    width: 80%;
+    /* width: 95%; */
+    padding: 3.5em 2.5em;
 
   }
 
@@ -263,7 +360,7 @@
 
 
 /* --------------------------------------------------------------- */
-/* >= 1000px
+/* >= 1000px 🤡
 /* --------------------------------------------------------------- */
 
 @media (min-width:1000px ) {
@@ -276,6 +373,35 @@
 
     width: 43em;
     /* background-color: blue; */
+
+  }
+
+  #it-skills-show-more-container {
+
+    /* width: 95%; */
+    padding: 4.5em 0em;
+    /* background-color: red; */
+
+  }
+
+  #story-behind-sfd-show-more-container {
+
+    /* width: 95%; */
+    padding: 3.5em 2em;
+
+  }
+
+  #mindset-show-more-container {
+
+    /* width: 95%; */
+    padding: 4.5em 4em;
+
+  }
+
+  #hobbys-show-more-container {
+
+    /* width: 95%; */
+    padding: 3.5em 4em;
 
   }
 
@@ -310,7 +436,7 @@
     justify-items: center;
 
     /* mobile */
-    grid: auto / 24em 24em;
+    grid: auto / 1fr 1fr;
 
     /* grid: auto / 1fr 1fr; */
 
