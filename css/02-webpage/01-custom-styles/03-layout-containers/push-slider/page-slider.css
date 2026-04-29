@@ -1,0 +1,111 @@
+/* --------------------------------------------------------------- */
+/* > page-slider.css
+/*
+/* : styles horizontal page slider it
+/*   used an java script file - because
+/*   we need to calc the correct sliding page & time slides
+/*   - if we click extreme fast it can be happend that we see
+/*   an white background, than click slow next step than we see
+/*   normal view, problem is that the timer should have minimum
+/*   milliseconds to allow smooth slide
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Push Slider
+/* -------------------------------------------------------------- */
+
+.push-slider {
+
+  /* ---------------------------------------------- */
+  /* no detail fullsize */
+  /* ---------------------------------------------- */
+
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+
+  /* ---------------------------------------------- */
+  /* detail fullsize */
+  /* ---------------------------------------------- */
+
+  /* height: 100%;
+  width: auto; */
+
+  /* overflow: auto; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Push Content Slide ( default all unshwon )
+/* -------------------------------------------------------------- */
+
+/* reminder: at the beginning if we set default slide index
+   we dont like to active anim, that it should be shown
+   direct ... if we use radio change listener than
+   we like to see animation effect
+
+*/
+
+.push-content-slide-no-anim,
+.push-content-slide-with-anim  {
+
+  /* ---------------------------------------------- */
+  /* no detail fullsize */
+  /* ---------------------------------------------- */
+
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+
+
+  /* default start animation  */
+  transform: translateX(100%);
+
+  /* ---------------------------------------------- */
+  /* detail fullsize */
+  /* ---------------------------------------------- */
+
+}
+
+.push-content-slide-with-anim {
+
+  /* transition effect */
+  transition: all .4s;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Active | Push Content Slide ( show )
+/* -------------------------------------------------------------- */
+
+.push-content-slide-no-anim.active ,
+.push-content-slide-with-anim.active {
+
+  /* ---------------------------------------------- */
+  /* no detail fullsize */
+  /* ---------------------------------------------- */
+
+  /* ⚠️⚠️ ???? brauch ich das wirklich */
+  z-index: 2;
+
+  position: relative;
+
+  transform: translateX(0);
+
+  /* ---------------------------------------------- */
+  /* detail fullsize */
+  /* ---------------------------------------------- */
+
+  /* layer over fixed header body */
+  /* z-index: 3; */
+
+}

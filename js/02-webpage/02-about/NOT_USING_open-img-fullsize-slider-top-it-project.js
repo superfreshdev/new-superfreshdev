@@ -1,4 +1,4 @@
-console.log("🟨 open-img-fullsize-slider-top-it-project.js")
+// console.log("🟨 open-img-fullsize-slider-top-it-project.js")
 
 
 /* ---------------------------------------------------------------------- */

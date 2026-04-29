@@ -246,7 +246,7 @@ async function update_topItProjectCard_by_json( jsonFile ) {
         /* ---------------------------------------------------------- */
         if( footerShow === "true" ) {
 
-          console.log("🟩 footer show")
+          // console.log("🟩 footer show")
           // show footer
           footerElement.style.display = "flex";
 
@@ -318,7 +318,7 @@ async function update_topItProjectCard_by_json( jsonFile ) {
 
         } else {
 
-          console.log("❌ footer unshown")
+          // console.log("❌ footer unshown")
 
         }
 

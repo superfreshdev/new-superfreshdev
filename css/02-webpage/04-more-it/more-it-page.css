@@ -1,0 +1,23 @@
+/* --------------------------------------------------------------- */
+/* > more-it-page.css
+/*
+/* : more it page
+/* --------------------------------------------------------------- */
+
+#more-it-page-container {
+
+  margin-top: 4.5em;
+
+  z-index: 2;
+
+  /* important to allow child elements to use max content area */
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+  /* row-gap: 1em; */
+
+  background-color: yellow;
+
+}

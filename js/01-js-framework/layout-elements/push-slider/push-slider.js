@@ -16,6 +16,27 @@
 
 */
 
+ async function async_update_cssClass_to_element( idElement, newCssClass ) {
+
+    console.log("🟪 async_update_cssClass_to_element()")
+
+    // ⚠️ dont check if class-attribute exist
+    // var oldCssClass = idElement.getAttribute("class")
+    // console.log("➡️ oldCssClasst = " +  oldCssClass);
+
+    // update css class to element
+    // idElement.classList.replace( oldCssClass, newCssClass );
+
+   return new Promise(resolve => {
+        resolve();
+      })
+
+ }
+
+//  async function  async_replace(params) {
+
+//  }
+
 
 /* ---------------------------------------------------------------------- */
 /* Function:
@@ -138,14 +159,22 @@
         console.log( "⚡ Current Index = " + currentIndex )
 
         /* -------------------------------------------------------------------------------------------- */
+        /* 🔥🔥🔥 BUGGY - funktioniert aber !!!
         /* Step 1: Update Slides with css class "push-content-slide-with-anim" only ones
         /* -------------------------------------------------------------------------------------------- */
 
           if( wasClicked == false ) {
 
+            // console.log("slides.lengt= " + slides.length)
+
             for( let i=0; i < slides.length; i++ ) {
 
-              async_update_cssClass_to_element( cssClass_noAnim, cssClass_withAnim, slides[i] )
+              // console.log("🔥: cssClass_noAnim = " + cssClass_noAnim);
+              // console.log("🔥: cssClass_withAnim = " + cssClass_withAnim);
+              // console.log("🔥: slide i = " +i);
+
+              // css class: no anim -> with anim
+              // async_update_cssClass_to_element( cssClass_noAnim, cssClass_withAnim, slides[i] )
 
             }
 
@@ -181,7 +210,6 @@
 /* ---------------------------------------------------------------------- */
 /* 🟨 Start Function for Push Slides:
 /* > 1. comination of radios & clickElements
-/* > 2. only clickedElements
 /* ---------------------------------------------------------------------- */
 
   // comination of radios & clickElements
@@ -225,22 +253,6 @@
     return new Promise(resolve => {
       resolve( );
     })
-
-
-  }
-
-  // 🟨 only clickedElements
-  async function async_create_pushSlides_only_clickElements( startSlide, slides, clickedElements ) {
-
-    /* -------------------------------------------------- */
-    /* Step 1:
-    /* > Show Start Slide
-    /* -------------------------------------------------- */
-
-    /* -------------------------------------------------- */
-    /* Step 2:
-    /* > Add Push Slides to clickElements
-    /* -------------------------------------------------- */
 
 
   }
