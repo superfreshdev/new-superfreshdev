@@ -224,3 +224,46 @@
   /* color:black; */
 
 }
+
+
+/* --------------------------------------------------------------- */
+/* Learning Process It Skills
+/* --------------------------------------------------------------- */
+
+.learning-process-it-skills {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Animation | Learning Process It Skills
+/* --------------------------------------------------------------- */
+
+.anim-learning-it-skill-item {
+
+  animation: anim-learning-active-it-skill 1.3s infinite reverse ease-in-out;
+
+}
+
+@keyframes anim-learning-active-it-skill {
+
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+
+  50% {
+
+    background-color: rgb(255, 233, 111);
+
+  }
+
+  100% {
+
+    background-color: rgb(255, 255, 255);
+  }
+
+
+}
