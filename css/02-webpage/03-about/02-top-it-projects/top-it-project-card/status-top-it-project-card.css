@@ -87,6 +87,38 @@
 }
 
 /* --------------------------------------------------------------- */
+/* Animation | Status in Progress
+/* --------------------------------------------------------------- */
+
+.anim-status-in-progress {
+
+  animation: anim-status-in-progress 1.3s infinite reverse ease-in-out;
+
+}
+
+@keyframes anim-status-in-progress {
+
+  0% {
+    background-color: rgb(230, 230, 230);
+  }
+
+  50% {
+
+    background-color: rgb(251, 133, 133);
+
+  }
+
+  100% {
+
+    background-color: rgb(230, 230, 230);
+    color:rgb(73, 73, 73);
+  }
+
+
+}
+
+
+/* --------------------------------------------------------------- */
 /* To Do
 /* --------------------------------------------------------------- */
 

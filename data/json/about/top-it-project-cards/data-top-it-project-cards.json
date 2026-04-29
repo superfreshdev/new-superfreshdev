@@ -17,7 +17,7 @@
       "status": {
 
         "statusShow": "true",
-        "cssClassStatus": "info-status-in-progress",
+        "cssClassStatus": "info-status-in-progress anim-status-in-progress",
         "iconName": "black-arrow-right.png",
         "cssClassIcon": "img-h-0-6",
         "statusTitle": "in progress"
