@@ -1,0 +1,68 @@
+/* --------------------------------------------------------------- */
+/* > handlings-nav-more-it.css
+/*
+/* : handlings nav more it
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Default Unshown
+/* -------------------------------------------------------------- */
+
+input[name="name-radio-nav-more-it"] {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Styles
+/* -------------------------------------------------------------- */
+
+/* set background color */
+#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-it-projects"],
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"],
+#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-codings"],
+#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"],
+#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] {
+
+  background-color: wheat;
+  color:rgb(31, 31, 31);
+
+}
+
+/* by checked, unshown grey img */
+#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-it-projects"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-codings"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] > img:nth-of-type(1) {
+
+ display: none;
+
+}
+
+/* by checked, show black img */
+#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-it-projects"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-codings"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] > img:nth-of-type(2) {
+
+ display: flex;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content
+/* -------------------------------------------------------------- */
+
+#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(3),
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(4),
+#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(5),
+#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(6),
+#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(7) {
+
+ display: grid;
+
+}

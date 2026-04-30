@@ -1,0 +1,24 @@
+/* --------------------------------------------------------------- */
+/* > mini-it-projects.css
+/*
+/* : styles mini it projects
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Mini It Projects Container
+/* -------------------------------------------------------------- */
+
+#mini-it-projects-container {
+
+  width: 100%;
+  padding: 1.5em .8em;
+
+  display: grid;
+
+  background-color: red;
+
+  /* default unshown, by click will be shown */
+  /* display: none; */
+
+}

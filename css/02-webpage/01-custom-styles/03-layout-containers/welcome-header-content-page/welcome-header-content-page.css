@@ -64,10 +64,9 @@
 /* category info page item */
 .category-info-page-item  {
 
-  height: 1.6em;
+  height: 1.4em;
   padding: 0 .4em;
-
-  margin: 0 0em;
+  margin: 0 .1em;
 
   display: inline-flex;
   align-items: center;

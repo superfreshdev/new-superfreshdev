@@ -1,0 +1,25 @@
+/* --------------------------------------------------------------- */
+/* > mini-games.css
+/*
+/* : styles mini it projects
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Mini Games Container
+/* -------------------------------------------------------------- */
+
+#mini-games-container {
+
+  width: 100%;
+  padding: 1.5em .8em;
+
+  display: grid;
+
+
+  background-color: rgb(80, 169, 225);
+
+  /* default unshown, by click will be shown */
+  /* display: none; */
+
+}

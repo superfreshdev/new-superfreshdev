@@ -1,0 +1,22 @@
+/* --------------------------------------------------------------- */
+/* > unshow-more-it-container.css
+/*
+/* : styles unshow more it container
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Unshow More IT Container
+/* -------------------------------------------------------------- */
+
+#unshow-more-it-container {
+
+  width: 100%;
+  padding: 1.5em .8em;
+
+  background-color: rgb(120, 120, 155);
+
+  /* default unshown, by click will be shown */
+  /* display: none; */
+
+}
