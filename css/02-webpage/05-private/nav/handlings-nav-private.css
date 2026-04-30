@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------- */
-/* > handlings-nav-more-it.css
+/* > handlings-nav-private.css
 /*
-/* : handlings nav more it
+/* : handlings nav private
 /* --------------------------------------------------------------- */
 
 
@@ -9,7 +9,7 @@
 /* Default Unshown
 /* -------------------------------------------------------------- */
 
-input[name="name-radio-nav-more-it"] {
+input[name="name-radio-nav-private"] {
 
   display: none;
 
@@ -20,11 +20,11 @@ input[name="name-radio-nav-more-it"] {
 /* -------------------------------------------------------------- */
 
 /* set background color */
-#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-it-projects"],
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"],
-#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-codings"],
-#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"],
-#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] {
+#radio-nav-private-sport-lifestyle:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-sport-lifestyle"],
+#radio-nav-private-books:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-books"],
+#radio-nav-private-meals:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-meals"],
+#radio-nav-private-softskills-trainer:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-softskills-trainer"],
+#radio-nav-private-sport-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-sport-unshow"] {
 
   background-color: wheat;
   color:rgb(31, 31, 31);
@@ -32,22 +32,22 @@ input[name="name-radio-nav-more-it"] {
 }
 
 /* by checked, unshown grey img */
-#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-it-projects"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"]  > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-codings"]  > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] > img:nth-of-type(1) {
+#radio-nav-private-sport-lifestyle:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-sport-lifestyle"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-private-books:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-books"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-private-meals:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-meals"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-private-softskills-trainer:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-softskills-trainer"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-private-sport-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-sport-unshow"] > img:nth-of-type(1) {
 
  display: none;
 
 }
 
 /* by checked, show black img */
-#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-it-projects"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"]  > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-codings"]  > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] > img:nth-of-type(2) {
+#radio-nav-private-sport-lifestyle:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-sport-lifestyle"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-private-books:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-books"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-private-meals:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-meals"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-private-softskills-trainer:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-softskills-trainer"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-private-sport-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-private-sport-unshow"] > img:nth-of-type(2) {
 
  display: flex;
 
@@ -57,11 +57,11 @@ input[name="name-radio-nav-more-it"] {
 /* Show Content
 /* -------------------------------------------------------------- */
 
-#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(3),
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(4),
-#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(5),
-#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(6),
-#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(7) {
+#radio-nav-private-sport-lifestyle:checked ~ .row-container:nth-of-type(3),
+#radio-nav-private-books:checked ~ .row-container:nth-of-type(4),
+#radio-nav-private-meals:checked ~ .row-container:nth-of-type(5),
+#radio-nav-private-softskills-trainer:checked ~ .row-container:nth-of-type(6),
+#radio-nav-private-sport-unshow:checked ~ .row-container:nth-of-type(7) {
 
  display: grid;
 

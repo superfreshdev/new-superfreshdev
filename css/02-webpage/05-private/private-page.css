@@ -37,40 +37,40 @@
 
 
 /* -------------------------------------------------------------- */
-/* [1/5] | Mini IT Projects | Row Container | unshown
+/* [1/5] | Sport Lifestyle | Row Container | unshown
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(3) {
+#private-page-container .row-container:nth-of-type(3) {
 
   display: none;
 
 }
 
 /* -------------------------------------------------------------- */
-/* [2/5] | Mini Games | Row Container | unshown
+/* [2/5] | Books | Row Container | unshown
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(4) {
+#private-page-container .row-container:nth-of-type(4) {
 
   display: none;
 
 }
 
 /* -------------------------------------------------------------- */
-/* [3/5] | Codings | Row Container | unshown
+/* [3/5] | Meals | Row Container | unshown
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(5) {
+#private-page-container .row-container:nth-of-type(5) {
 
   display: none;
 
 }
 
 /* -------------------------------------------------------------- */
-/* [4/5] | Docs | Row Container | unshown
+/* [4/5] | Softskills Trainer | Row Container | unshown
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(6) {
+#private-page-container .row-container:nth-of-type(6) {
 
   display: none;
 
@@ -80,7 +80,7 @@
 /* [5/5] | Unhsow | Row Container | unshown
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(7) {
+#private-page-container .row-container:nth-of-type(7) {
 
   display: none;
 

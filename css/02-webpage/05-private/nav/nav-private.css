@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
-/* > nav-more-it.css
+/* > nav-private.css
 /*
-/* : nav more it
+/* : nav private
 /* --------------------------------------------------------------- */
 
 
 /* -------------------------------------------------------------- */
-/* Nav More IT
+/* Nav Private
 /* -------------------------------------------------------------- */
 
-#nav-more-it {
+#nav-private {
 
   width: 100%;
   padding: .4em 0 1.5em 0;
@@ -24,83 +24,5 @@
 
   background-color: rgb(28, 28, 28);
   color:white;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Labels | Nav More IT
-/* -------------------------------------------------------------- */
-
-.lbl-dark-medium {
-
-  height: 2.8em;
-  padding: 0 .8em;
-
-  display: flex;
-  align-items: center;
-  column-gap: .6em;
-
-  border-radius: .6em;
-
-  font-weight: bold;
-
-  border: 1px solid rgb(53, 53, 53);
-  color:rgb(83, 83, 83);
-
-  transition: all .4s;
-
-}
-
-.lbl-dark-medium:hover {
-
-  background-color: wheat;
-  color:rgb(41, 41, 41);
-
-}
-
-/* -------------------------------------------------------------- */
-/* Div 1 ( icon + title ) | Labels
-/* -------------------------------------------------------------- */
-
-.lbl-dark-medium > div:nth-of-type(1) {
-
-  display: flex;
-  align-items: center;
-  column-gap: .6em;
-
-}
-
-/* img 1 */
-.lbl-dark-medium > div:nth-of-type(1) > img {
-
-  opacity: .4;
-
-}
-
-/* div 1 */
-.lbl-dark-medium > div:nth-of-type(1) > div {
-
-}
-
-/* -------------------------------------------------------------- */
-/* Label Content Items Counter
-/* -------------------------------------------------------------- */
-
-.lbl-content-items-counter {
-
-  height: 1.5em;
-  padding: 0 .2em;
-
-  display: flex;
-  align-items: center;
-  justify-content: c;
-
-}
-
-.lbl-content-items-counter > div {
-
-  font-size: 14.5px;
-  color:rgb(63, 63, 63);
-  color: rgb(159, 145, 119);
 
 }
