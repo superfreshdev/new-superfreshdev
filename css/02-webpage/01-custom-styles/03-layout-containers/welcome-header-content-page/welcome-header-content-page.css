@@ -12,53 +12,15 @@
 .welcome-header-content-page-container {
 
   width: 100%;
-  min-height: 5.5em;
+  padding: 1.5em .4em;
+  /* min-height: 5.5em; */
 
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: 1.3em;
 
-
   /* background-color: green; */
-
-}
-
-/* -------------------------------------------------------------- */
-/* Div 1 | Img Box
-/* -------------------------------------------------------------- */
-
-.welcome-header-content-page-container > div:nth-of-type(2) {
-
-  /* padding: 1em 0; */
-  height: 100%;
-  /* min-width: 6em;
-  max-width: 6em; */
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-color: red;
-
-  background-color: rgb(28, 28, 28);
-
-}
-
-/* -------------------------------------------------------------- */
-/* Imgs |
-/* -------------------------------------------------------------- */
-
-#img-more-it-welcome {
-
-  height: 3em;
-  opacity: .1;
-
-}
-
-#img-private-welcome {
-
-  height: 4em;
 
 }
 
@@ -77,12 +39,15 @@
 }
 
 /* -------------------------------------------------------------- */
-/* [1/2] | Img
+/* [1/2] | Img "Hands"
 /* -------------------------------------------------------------- */
 
 .welcome-title-container-content-page > img:nth-of-type(1) {
 
   height: 2.3em;
+
+  /* default unshown, small mobile */
+  display: none;
 
 }
 
@@ -92,41 +57,99 @@
 
 .welcome-content-title-content-page {
 
-  line-height: 1.8em;
+
 
 }
 
-.mix {
+/* category info page item */
+.category-info-page-item  {
 
-  height: 1.4em;
-  padding: 0 .5em;
+  height: 1.6em;
+  padding: 0 .4em;
 
-  margin: 0 .2em;
+  margin: 0 0em;
 
   display: inline-flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .6em;
+  border-radius: .4em;
 
-  background-color: rgb(58, 58, 58);
-  color:rgb(138, 138, 138);
+  background-color: rgb(59, 59, 59);
+  color:rgb(255, 255, 255);
+
+  /* font-size: 14.5px; */
+
+}
+
+.category-info-page-item > span {
+
+  font-size: 14.5px;
 
 }
 
 /* div 1 | title */
 .welcome-content-title-content-page > div:nth-of-type(1)  {
 
+  line-height: 1.4em;
+
   font-weight: bold;
   font-size: 18px;
 
   color:rgb(168, 168, 168);
+  /* color:rgb(97, 97, 97); */
 
 }
 
 /* div 2 | sub title */
 .welcome-content-title-content-page > div:nth-of-type(2)  {
 
-  color:rgb(79, 79, 79);
+  /* padding-top: .4em; */
+
+  line-height: 1.3em;
+
+  color:rgb(97, 97, 97);
+  font-weight: bold;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div 2 | Img Box
+/* -------------------------------------------------------------- */
+
+.welcome-header-content-page-container > div:nth-of-type(2) {
+
+  /* padding: 1em 0; */
+  height: 100%;
+  /* min-width: 6em;
+  max-width: 6em; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: red;
+
+  background-color: rgb(28, 28, 28);
+
+  /* small mobile, default unshown */
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Imgs |
+/* -------------------------------------------------------------- */
+
+#img-more-it-welcome {
+
+  height: 3em;
+  opacity: .1;
+
+}
+
+#img-private-welcome {
+
+  height: 4em;
 
 }

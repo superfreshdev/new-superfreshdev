@@ -42,6 +42,9 @@
       <!-- overflow -->
       <link rel="stylesheet" href="css/01-css-framework/sets/overflow-sets.css">
 
+      <!-- value sets -->
+      <link rel="stylesheet" href="css/01-css-framework/sets/value-sets.css">
+
   <!-- ------------------------------------------------------------------ -->
   <!-- [2/2] | Webpage -->
   <!-- ------------------------------------------------------------------ -->
@@ -59,8 +62,9 @@
       <!-- push slider -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/push-slider/page-slider.css">
 
-       <!-- welcome header content page -->
+      <!-- welcome header content page -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/welcome-header-content-page/welcome-header-content-page.css">
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/welcome-header-content-page/resp-welcome-header-content-page.css">
 
       <!-- --------------------------------------------------  -->
       <!-- Layout Elements -->
@@ -85,6 +89,8 @@
         <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-grey.css">
         <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-transparent.css">
         <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-light-brown.css">
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-counter.css">
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/label-styles/lbl-only-icon.css">
 
       <!-- buttons -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/buttons/button-sfd.css">
@@ -217,6 +223,38 @@
 
       <!-- nav -->
       <link rel="stylesheet" href="css/02-webpage/04-more-it/nav/nav-more-it.css">
+      <link rel="stylesheet" href="css/02-webpage/04-more-it/nav/handlings-nav-more-it.css">
+
+      <!-- ---------------------- -->
+      <!-- content -->
+      <!-- ---------------------- -->
+
+        <!-- mini it projects -->
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/mini-it-projects/mini-it-projects.css">
+
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/mini-it-projects/resp-mini-it-projects.css">
+
+        <!-- mini games -->
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/mini-games/mini-games.css">
+
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/mini-games/resp-mini-games.css">
+
+        <!-- codings -->
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/codings.css">
+
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/resp-codings.css">
+
+        <!-- docs -->
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/docs/docs.css">
+
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/docs/resp-docs.css">
+
+        <!-- unshow more it -->
+        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/unshow-container/unshow-more-it-container.css">
+
+        <!-- <link rel="stylesheet" href="css/02-webpage/04-more-it/content/unshow-container/"> -->
+
+
 
     <!-- ----------------------------------------------------- -->
     <!-- [5/5] | Private -->
@@ -3275,27 +3313,36 @@
       </div>
 
       <!-- --------------------------------------------------------------------- -->
-      <!-- 🟥 [2/3] | More IT | Page Slide #2 | (z-index: 2) -->
+      <!-- ➡️🟥 [2/3] | More IT | Page Slide #2 | (z-index: 2) -->
       <!-- --------------------------------------------------------------------- -->
       <div class="push-content-slide-no-anim">
 
         <div id="more-it-page-container">
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 📐 Resp | Medium  -->
+          <!-- Radios Nav More It -->
+          <!-- --------------------------------------------------------------- -->
+          <input type="radio" id="radio-nav-more-it-mini-it-projects" name="name-radio-nav-more-it">
+          <input type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
+          <input type="radio" id="radio-nav-more-it-codings" name="name-radio-nav-more-it">
+          <input type="radio" id="radio-nav-more-it-docs" name="name-radio-nav-more-it">
+          <input type="radio" id="radio-nav-more-it-unshow" name="name-radio-nav-more-it">
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- 🟨 Welcome Header Content Page  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" style="background-color: rgb(28, 28, 28);">
 
             <div class="resp-content-container-medium">
 
               <!-- --------------------------------------------------------------- -->
-              <!-- 🟥 Welcome Header Content Page Container -->
+              <!-- ➡️🟥 Welcome Header Content Page Container -->
               <!-- --------------------------------------------------------------- -->
               <header class="welcome-header-content-page-container">
 
 
                 <!-- --------------------------------------------- -->
-                <!-- [2/2] | Welcome Title Container -->
+                <!-- [1/2] | Welcome Title Container -->
                 <!-- --------------------------------------------- -->
                 <div class="welcome-title-container-content-page">
 
@@ -3306,7 +3353,13 @@
                   <div class="welcome-content-title-content-page">
 
                     <!-- title -->
-                    <div>Welcome to <span class="mix">More It </span> Content </div>
+                    <div>Welcome to my
+
+                      <span class="category-info-page-item">
+                        <span>More It</span>
+                      </span>
+
+                    Content </div>
 
                     <!-- sub title -->
                     <div>» My Codings & Learnings ...
@@ -3333,7 +3386,7 @@
                 </div>
 
                 <!-- --------------------------------------------- -->
-                <!-- [1/2] | Img Box 01-black/black-open-close-brackets.png -->
+                <!-- [2/2] | Img Box 01-black/black-open-close-brackets.png -->
                 <!-- --------------------------------------------- -->
                 <div>
 
@@ -3351,7 +3404,7 @@
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 📐 Resp | Medium  -->
+          <!-- 🟨 Nav More IT  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" style="background-color: rgb(28, 28, 28);">
 
@@ -3362,17 +3415,24 @@
               <!-- --------------------------------------------------------------- -->
               <nav id="nav-more-it">
 
-                <!-- label 1 -->
-                <label for="" class="lbl-dark-medium">
+                <!-- Label | Mini It Projects -->
+                <label for="radio-nav-more-it-mini-it-projects" class="lbl-medium lbl-counter-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
                   <!-- --------------------------------------------- -->
                   <div>
 
-                    <img src="media/imgs/icons/02-icon-colors/02-white/white-rocket.png"
+                     <!-- img grey -->
+                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-rocket.png"
                          alt="img"
-                         class="img-h-1">
+                         class="img-h-1 margin-t-0-2px">
+
+                    <!-- img black | default unshown -->
+                    <img src="media/imgs/icons/02-icon-colors/01-black/black-rocket.png"
+                         alt="img"
+                         class="img-h-1 margin-t-0-2px">
+
                     <div> Mini IT Projects</div>
 
                   </div>
@@ -3387,17 +3447,24 @@
 
                 </label>
 
-                 <!-- label 1 -->
-                <label for="" class="lbl-dark-medium">
+                <!-- Label | Mini Games -->
+                <label for="radio-nav-more-it-mini-games" class="lbl-medium lbl-counter-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
                   <!-- --------------------------------------------- -->
                   <div>
 
-                    <img src="media/imgs/icons/02-icon-colors/02-white/white-gaming-controller.png"
+                    <!-- img grey -->
+                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-gaming-controller.png"
                          alt="img"
                          class="img-h-0-8">
+
+                    <!-- img black | default unshown -->
+                    <img src="media/imgs/icons/02-icon-colors/01-black/black-gaming-controller.png"
+                         alt="img"
+                         class="img-h-0-8">
+
                     <div> Mini Games</div>
 
                   </div>
@@ -3413,17 +3480,24 @@
 
                 </label>
 
-                 <!-- label 1 -->
-                <label for="" class="lbl-dark-medium">
+                <!-- Label | Codings -->
+                <label for="radio-nav-more-it-codings" class="lbl-medium lbl-counter-on-dark">
 
-                   <!-- --------------------------------------------- -->
+                  <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
                   <!-- --------------------------------------------- -->
                   <div>
 
-                    <img src="media/imgs/icons/02-icon-colors/02-white/white-binary-small.png"
+                    <!-- img grey -->
+                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-binary-small.png"
                          alt="img"
                          class="img-h-1-1">
+
+                    <!-- img black | default unshown -->
+                    <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
+                         alt="img"
+                         class="img-h-1-1">
+
                     <div> Codings</div>
 
                   </div>
@@ -3437,17 +3511,24 @@
 
                 </label>
 
-                 <!-- label 1 -->
-                <label for="" class="lbl-dark-medium">
+                 <!-- Label | Docs -->
+                <label for="radio-nav-more-it-docs" class="lbl-medium lbl-counter-on-dark">
 
-                    <!-- --------------------------------------------- -->
+                  <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
                   <!-- --------------------------------------------- -->
                   <div>
 
-                    <img src="media/imgs/icons/02-icon-colors/02-white/white-three-books.png"
+                    <!-- img grey -->
+                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-three-books.png"
                          alt="img"
                          class="img-h-1-1">
+
+                    <!-- img black | default unshown -->
+                    <img src="media/imgs/icons/02-icon-colors/01-black/black-three-books.png"
+                         alt="img"
+                         class="img-h-1-1">
+
                     <div> Docs</div>
 
                   </div>
@@ -3462,6 +3543,21 @@
 
                 </label>
 
+                 <!-- Label | Unshow -->
+                <label for="radio-nav-more-it-unshow" class="lbl-medium lbl-only-icon-on-dark">
+
+                  <!-- img grey -->
+                  <img src="media/imgs/icons/02-icon-colors/03-grey/grey-eye-unshow.png"
+                         alt="img"
+                         class="img-h-1-1">
+
+                  <!-- img black -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-eye-unshow.png"
+                         alt="img"
+                         class="img-h-1-1">
+
+                </label>
+
 
               </nav>
 
@@ -3471,7 +3567,7 @@
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 📐 Resp | Medium  -->
+          <!-- ➡️🟥 [1/5] | Mini IT Projects Container  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" style="background-color: rgb(155, 0, 93);">
 
@@ -3480,9 +3576,89 @@
               <!-- --------------------------------------------------------------- -->
               <!-- Content | More IT  -->
               <!-- --------------------------------------------------------------- -->
-              <div id="content-container-more-it">
+              <div id="mini-it-projects-container">
 
-                Content Container - More IT
+                Mini It Projects Container
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- 🟥 [2/5] | Mini Games Container  -->
+          <!-- --------------------------------------------------------------- -->
+          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+
+            <div class="resp-content-container-medium">
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Content | More IT  -->
+              <!-- --------------------------------------------------------------- -->
+              <div id="mini-games-container">
+
+                Mini Games Container
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- 🟥 [3/5] | Codings Container  -->
+          <!-- --------------------------------------------------------------- -->
+          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+
+            <div class="resp-content-container-medium">
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Content | More IT  -->
+              <!-- --------------------------------------------------------------- -->
+              <div id="codings-container">
+
+                Codings Container
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- 🟥 [4/5] | Docs Container  -->
+          <!-- --------------------------------------------------------------- -->
+          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+
+            <div class="resp-content-container-medium">
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Content | More IT  -->
+              <!-- --------------------------------------------------------------- -->
+              <div id="docs-container">
+
+                Docs Container
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- --------------------------------------------------------------- -->
+          <!-- 🟥 [5/5] | Unshow More IT Container  -->
+          <!-- --------------------------------------------------------------- -->
+          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+
+            <div class="resp-content-container-medium">
+
+              <!-- --------------------------------------------------------------- -->
+              <!-- Content | More IT  -->
+              <!-- --------------------------------------------------------------- -->
+              <div id="unshow-more-it-container">
+
+                Unshow More IT Container
 
               </div>
 

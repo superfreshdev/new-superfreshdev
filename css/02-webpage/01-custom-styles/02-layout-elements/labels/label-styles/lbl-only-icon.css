@@ -1,0 +1,56 @@
+/* --------------------------------------------------------------- */
+/* > lbl-only-icon.css
+/*
+/* : styles label only icon style
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label Only Icon Style | on dark
+/* --------------------------------------------------------------- */
+
+.lbl-only-icon-on-dark {
+
+  border: 1px solid rgb(53, 53, 53);
+
+  background-color: rgb(33, 33, 33);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  color:rgb(83, 83, 83);
+
+}
+
+.lbl-only-icon-on-dark:hover {
+
+  background-color: wheat;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img 2 ( Black ) Default Unshown
+/* --------------------------------------------------------------- */
+
+.lbl-only-icon-on-dark > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show black img by hover, unshown grey img
+/* ------------------------------------------------------------------------- */
+
+/* unshow grey img */
+.lbl-only-icon-on-dark:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show black img */
+.lbl-only-icon-on-dark:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}

@@ -4,6 +4,11 @@
 /* : more it page
 /* --------------------------------------------------------------- */
 
+
+/* -------------------------------------------------------------- */
+/* More IT Page Container
+/* -------------------------------------------------------------- */
+
 #more-it-page-container {
 
   margin-top: 4.5em;
@@ -17,9 +22,65 @@
   display: grid;
   justify-items: center;
 
+  /* welcome, nav, content (x1) - mini it projects, mini games, codings, docs, unshow */
   grid: auto auto 1fr / 1fr;
   /* row-gap: 1em; */
 
   background-color: rgb(255, 255, 255);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Default all Content of Row Container unshown
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* [1/5] | Mini IT Projects | Row Container | unshown
+/* -------------------------------------------------------------- */
+
+#more-it-page-container .row-container:nth-of-type(3) {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* [2/5] | Mini Games | Row Container | unshown
+/* -------------------------------------------------------------- */
+
+#more-it-page-container .row-container:nth-of-type(4) {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* [3/5] | Codings | Row Container | unshown
+/* -------------------------------------------------------------- */
+
+#more-it-page-container .row-container:nth-of-type(5) {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* [4/5] | Docs | Row Container | unshown
+/* -------------------------------------------------------------- */
+
+#more-it-page-container .row-container:nth-of-type(6) {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* [5/5] | Unhsow | Row Container | unshown
+/* -------------------------------------------------------------- */
+
+#more-it-page-container .row-container:nth-of-type(7) {
+
+  display: none;
 
 }
