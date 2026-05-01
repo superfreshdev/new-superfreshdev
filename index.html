@@ -66,6 +66,12 @@
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/welcome-header-content-page/welcome-header-content-page.css">
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/welcome-header-content-page/resp-welcome-header-content-page.css">
 
+      <!-- to do list -->
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/to-do-list/to-do-list.css">
+
+      <!-- under construction -->
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/03-layout-containers/under-construction/under-construction-content.css">
+
       <!-- --------------------------------------------------  -->
       <!-- Layout Elements -->
       <!-- --------------------------------------------------  -->
@@ -343,8 +349,8 @@
   <!-- Radios | Nav Header Body -->
   <!-- ----------------------------------------------------------------------- -->
   <input type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input  type="radio" id="radio-more-it" name="name-radio-nav-header-body">
-  <input checked type="radio" id="radio-private" name="name-radio-nav-header-body">
+  <input checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input  type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ----------------------------------------------------------------------- -->
   <!-- 🟨🌊 Fixed Header ( belongs not to layout ) -->
@@ -3345,7 +3351,7 @@
       </div>
 
       <!-- --------------------------------------------------------------------- -->
-      <!-- 🟨 [2/3] | More IT | Page Slide #2 | (z-index: 2) -->
+      <!-- ➡️🟥 [2/3] | More IT | Page Slide #2 | (z-index: 2) -->
       <!-- --------------------------------------------------------------------- -->
       <div class="push-content-slide-no-anim">
 
@@ -3354,16 +3360,16 @@
           <!-- --------------------------------------------------------------- -->
           <!-- Radios Nav More It -->
           <!-- --------------------------------------------------------------- -->
-          <input type="radio" id="radio-nav-more-it-mini-it-projects" name="name-radio-nav-more-it">
+          <input checked type="radio" id="radio-nav-more-it-mini-it-projects" name="name-radio-nav-more-it">
           <input type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
           <input type="radio" id="radio-nav-more-it-codings" name="name-radio-nav-more-it">
           <input type="radio" id="radio-nav-more-it-docs" name="name-radio-nav-more-it">
-          <input checked type="radio" id="radio-nav-more-it-unshow" name="name-radio-nav-more-it">
+          <input  type="radio" id="radio-nav-more-it-unshow" name="name-radio-nav-more-it">
 
           <!-- --------------------------------------------------------------- -->
           <!-- 🟨 Welcome Header Content Page  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(28, 28, 28);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3374,7 +3380,7 @@
 
 
                 <!-- --------------------------------------------- -->
-                <!-- [1/2] | Welcome Title Container -->
+                <!--  Welcome Title Container -->
                 <!-- --------------------------------------------- -->
                 <div class="welcome-title-container-content-page">
 
@@ -3414,17 +3420,6 @@
 
                   </div>
 
-
-                </div>
-
-                <!-- --------------------------------------------- -->
-                <!-- [2/2] | Img Box 01-black/black-open-close-brackets.png -->
-                <!-- --------------------------------------------- -->
-                <div>
-
-                  <img src="media/imgs/icons/02-icon-colors/02-white/white-brackets-open-close.png"
-                      alt="img"
-                      id="img-more-it-welcome">
 
                 </div>
 
@@ -3601,16 +3596,83 @@
           <!-- --------------------------------------------------------------- -->
           <!-- ➡️🟥 [1/5] | Mini IT Projects Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container">
 
             <div class="resp-content-container-medium">
 
               <!-- --------------------------------------------------------------- -->
-              <!-- Content | More IT  -->
+              <!-- ➡️🟥 Mini IT Projects Container  -->
               <!-- --------------------------------------------------------------- -->
               <div id="mini-it-projects-container">
 
-                Mini It Projects Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction:</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+                      <div>» I am currently in the learning and practical implementation phase of building<br>
+                        <b>small mini IT projects</b>.
+                        <br>
+                        As soon as I have a few finished results, I will upload them here soon and present them in a visually appealing way.
+                        <br><br>
+                        <b>Just for clarification:</b> In Progress refers to the tasks I am currently working on in my free time,
+                        To Do are the tasks planned next, and Later includes tasks that will come afterward and currently do not have high priority.
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
 
               </div>
 
@@ -3621,7 +3683,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [2/5] | Mini Games Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3630,7 +3692,74 @@
               <!-- --------------------------------------------------------------- -->
               <div id="mini-games-container">
 
-                Mini Games Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction:</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+                      <div>» I am currently in the learning and practical implementation phase of building<br>
+                        <b>mini games</b>.
+                        <br>
+                        As soon as I have a few finished results, I will upload them here soon and present them in a visually appealing way.
+                        <br><br>
+                        <b>Just for clarification:</b> In Progress refers to the tasks I am currently working on in my free time,
+                        To Do are the tasks planned next, and Later includes tasks that will come afterward and currently do not have high priority.
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
 
               </div>
 
@@ -3641,7 +3770,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [3/5] | Codings Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3650,7 +3779,74 @@
               <!-- --------------------------------------------------------------- -->
               <div id="codings-container">
 
-                Codings Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction:</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+                      <div>» I am currently in the learning and practical implementation phase of building<br>
+                        <b>codings ( leetcode, a&d, others )</b>.
+                        <br>
+                        As soon as I have a few finished results, I will upload them here soon and present them in a visually appealing way.
+                        <br><br>
+                        <b>Just for clarification:</b> In Progress refers to the tasks I am currently working on in my free time,
+                        To Do are the tasks planned next, and Later includes tasks that will come afterward and currently do not have high priority.
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
 
               </div>
 
@@ -3661,7 +3857,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [4/5] | Docs Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3670,7 +3866,8 @@
               <!-- --------------------------------------------------------------- -->
               <div id="docs-container">
 
-                Docs Container
+
+                Docs -> NOW !!!
 
               </div>
 
@@ -3681,7 +3878,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [5/5] | Unshow More IT Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(227, 227, 227);">
 
             <div class="resp-content-container-medium">
 
@@ -3690,7 +3887,8 @@
               <!-- --------------------------------------------------------------- -->
               <div id="unshow-more-it-container">
 
-                Unshow More IT Container
+                <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
+                     alt="img">
 
               </div>
 
@@ -3723,7 +3921,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟨 Welcome Header Content Page  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(28, 28, 28);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3734,7 +3932,7 @@
 
 
                 <!-- --------------------------------------------- -->
-                <!-- [1/2] | Welcome Title Container -->
+                <!-- Welcome Title Container -->
                 <!-- --------------------------------------------- -->
                 <div class="welcome-title-container-content-page">
 
@@ -3754,7 +3952,7 @@
                     World </div>
 
                     <!-- sub title -->
-                    <div>» Sport Lifestyle - Books - Meals - Softskills Trainer
+                    <div>» Insights into my private interests ...
                       <span style="display: none;"> Sub Title here comes the sun and so on
                       Sub Title here comes the sun and so on
                       Sub Title here comes the sun and so on
@@ -3774,17 +3972,6 @@
 
                   </div>
 
-
-                </div>
-
-                <!-- --------------------------------------------- -->
-                <!-- [2/2] | Img Box 01-black/black-open-close-brackets.png -->
-                <!-- --------------------------------------------- -->
-                <div>
-
-                  <img src="media/imgs/icons/02-icon-colors/02-white/white-3-shining-stars.png"
-                      alt="img"
-                      id="img-more-it-welcome">
 
                 </div>
 
@@ -3934,7 +4121,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟨 [1/5] | Sport Lifestyle Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3943,7 +4130,73 @@
               <!-- --------------------------------------------------------------- -->
               <div id="sport-lifestyle-container">
 
-                Sport Lifestyle Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction (Low Priority):</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+                      <div>»
+
+                        My <b>"Sport Lifestyle"</b> content will be coming soon once
+                         I upload more content in my <b>"More IT"</b> section, as that currently has the highest priority for me.
+
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
+
 
               </div>
 
@@ -3954,7 +4207,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [2/5] | Books Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3963,7 +4216,70 @@
               <!-- --------------------------------------------------------------- -->
               <div id="books-container">
 
-                Books Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction (Low Priority):</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+                      <div>»
+                        My <b>"Books"</b> content will be coming soon once
+                         I upload more content in my <b>"More IT"</b> section, as that currently has the highest priority for me.
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
 
               </div>
 
@@ -3974,7 +4290,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [3/5] | Meals Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -3983,7 +4299,69 @@
               <!-- --------------------------------------------------------------- -->
               <div id="meals-container">
 
-                Meals Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction (Low Priority):</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+                      <div>» My <b>"Meals"</b> content will be coming soon once
+                         I upload more content in my <b>"More IT"</b> section, as that currently has the highest priority for me.
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
 
               </div>
 
@@ -3994,7 +4372,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟥 [4/5] | Softskills Trainer Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(255, 255, 255);">
 
             <div class="resp-content-container-medium">
 
@@ -4003,7 +4381,73 @@
               <!-- --------------------------------------------------------------- -->
               <div id="softskills-trainer-container">
 
-                Softskills Container
+                <!-- ------------------------------------------------------- -->
+                <!-- ➡️🟥 Under Construction Content Container -->
+                <!-- ------------------------------------------------------- -->
+                <div class="under-construction-content-container">
+
+                  <!-- img under construction -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-warning-2.png"
+                       alt="img"
+                       class="img-under-construction-content">
+
+                  <!-- title -->
+                  <div class="title-container-under-construction-content">
+
+                    <!-- header -->
+                    <header>Under Construction (Low Priority):</header>
+
+                    <!-- main -->
+                    <main>
+
+                      <!-- Ich befinde mich aktuell in meiner lern und praktische Umsetzungsphase
+                       von dem bauen von kleinen Mini IT Projekten.
+                       Sobald ich paar fertige Ergebnisse habe, werde ich diese zeitnah hier
+                       in diesen Bereich hochladen und visuell schön ansprechend zubereiten.
+                       Kurz zur Info: In Progress sind meine Aufgaben mit dennen ich mich aktuell in meiner
+                       Freizeit beschäftige, to does sind die Aufgaben die danach anstehen und
+                       Later sind die nach dem ganzen kommen und erstmal keine hohe Priorität haben. -->
+
+                       <!-- My "Softskills Trainer" Content will be coming soon if
+                            i upload more content in my Chapter "More IT" because that
+                            has for me at first the hights priority. -->
+                      <div>» My <b>"Softskills Trainer"</b> content will be coming soon once
+                         I upload more content in my <b>"More IT"</b> section, as that currently has the highest priority for me.
+
+                      </div>
+
+                    </main>
+
+                  </div>
+
+                  <!-- Under Construction Content Info | Einblicke in meine privaten Interessen -->
+                </div>
+
+                <!-- ------------------------------------------------------- -->
+                <!-- 🟥 List to Do's -->
+                <!-- ------------------------------------------------------- -->
+                <div class="to-do-list">
+
+                  <!-- 1. to do   -->
+                  <div>
+
+                    <!-- nr -->
+                    <div>
+                      <span>1.</span>
+                    </div>
+
+                    <!-- img starte -->
+                    <img src=""
+                         alt="img" class="img-h-0-8">
+
+                    <!--title  -->
+                    <div>PDF Rechnung Upload LLM Parser with Dashboard to see the parsed Information about the PDF File.
+                        - It helps the Agents to check quicker this fall  </div>
+
+
+                  </div>
+
+                </div>
 
               </div>
 
@@ -4012,9 +4456,9 @@
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 🟥 [5/5] | Unshow PrivateContainer  -->
+          <!-- 🟥 [5/5] | Unshow Private Container  -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container" style="background-color: rgb(155, 0, 93);">
+          <div class="row-container" style="background-color: rgb(227, 227, 227);">
 
             <div class="resp-content-container-medium">
 
@@ -4023,7 +4467,8 @@
               <!-- --------------------------------------------------------------- -->
               <div id="unshow-private-container">
 
-                Unshow Private Container
+                <img src="media/imgs/icons/02-icon-colors/01-black/black-3-shining-stars.png"
+                     alt="img">
 
               </div>
 

@@ -1,0 +1,109 @@
+/* --------------------------------------------------------------- */
+/* > under-construction-content.css
+/*
+/* : styles under construction content
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Under Construction Content Container
+/* -------------------------------------------------------------- */
+
+.under-construction-content-container {
+
+  width: 100%;
+  padding: 1.5em .8em;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  column-gap: 2em;
+  row-gap: 2em;
+
+  border-radius: 1.3em;
+
+  background-color: rgb(255, 255, 166);
+
+  /* default unshown, by click will be shown */
+  /* display: none; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Img | Under Construction Content Container
+/* -------------------------------------------------------------- */
+
+.img-under-construction-content {
+
+  height: 10vh;
+  opacity: .4;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Title Container | Under Construction Content Container
+/* -------------------------------------------------------------- */
+
+.title-container-under-construction-content {
+
+  display: grid;
+  row-gap: .8em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header | Title Container
+/* -------------------------------------------------------------- */
+
+.title-container-under-construction-content > header {
+
+  font-weight: bold;
+  font-size: 18px;
+  color:rgb(44, 44, 44);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Main | Title Container
+/* -------------------------------------------------------------- */
+
+.title-container-under-construction-content > main {
+
+
+}
+
+/* -------------------------------------------------------------- */
+/* Main Divs | Title Container
+/* -------------------------------------------------------------- */
+
+.title-container-under-construction-content > main > div {
+
+  color:grey;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Media Queries ( Quick & Dirty )
+/* -------------------------------------------------------------- */
+
+/* --------------------------------------------------------------- */
+/* >= 360px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+
+  .under-construction-content-container {
+
+    width: 100%;
+    padding: 1.5em .8em;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+  }
+
+
+}

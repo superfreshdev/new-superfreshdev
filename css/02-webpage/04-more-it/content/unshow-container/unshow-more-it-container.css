@@ -12,11 +12,23 @@
 #unshow-more-it-container {
 
   width: 100%;
-  padding: 1.5em .8em;
 
-  background-color: rgb(120, 120, 155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 
   /* default unshown, by click will be shown */
   /* display: none; */
+
+}
+
+#unshow-more-it-container > img {
+
+  height: 10em;
+  opacity: .1;
+
+  /* footer */
+  margin-bottom: 13em;
 
 }

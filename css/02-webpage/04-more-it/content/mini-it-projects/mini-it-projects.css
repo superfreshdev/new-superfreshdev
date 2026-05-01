@@ -16,7 +16,14 @@
 
   display: grid;
 
-  background-color: red;
+  grid: auto 1fr / 1fr;
+
+  row-gap: 2em;
+
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+  /* background-color: red; */
 
   /* default unshown, by click will be shown */
   /* display: none; */

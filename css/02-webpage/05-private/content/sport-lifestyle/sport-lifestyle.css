@@ -14,7 +14,13 @@
   width: 100%;
   padding: 1.5em .8em;
 
-  background-color: rgb(255, 43, 43);
+  display: grid;
+  grid: auto 1fr / 1fr;
+
+  row-gap: 2em;
+
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
 
   /* default unshown, by click will be shown */
   /* display: none; */

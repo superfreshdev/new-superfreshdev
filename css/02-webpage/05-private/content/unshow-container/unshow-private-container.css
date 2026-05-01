@@ -12,11 +12,24 @@
 #unshow-private-container {
 
   width: 100%;
-  padding: 1.5em .8em;
+  /* padding: 1.5em .8em; */
+  /* margin-bottom: 3em; */
 
-  background-color: rgb(120, 120, 155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   /* default unshown, by click will be shown */
   /* display: none; */
+
+}
+
+#unshow-private-container > img {
+
+  height: 10em;
+  opacity: .1;
+
+  /* footer */
+  margin-bottom: 13em;
 
 }
