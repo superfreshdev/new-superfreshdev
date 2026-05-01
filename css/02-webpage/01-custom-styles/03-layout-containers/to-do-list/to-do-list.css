@@ -12,7 +12,12 @@
 .to-do-list {
 
   width: 100%;
-  padding: 1.5em .8em;
+  padding: 2em 1.5em;
+
+  display: grid;
+  align-items: flex-start;
+
+  row-gap: 1.8em;
 
   border-radius: 1em;
   border: 1px dashed rgb(188, 188, 188);
@@ -25,28 +30,133 @@
 }
 
 /* -------------------------------------------------------------- */
-/* To Do Item
+/* Divs | To Do List
 /* -------------------------------------------------------------- */
 
-.to-do-item {
+.to-do-list > div {
 
+  display: grid;
+  /* row-gap: .3em; */
 
 }
 
 /* -------------------------------------------------------------- */
-/* in Progress Item
+/* Nr Status To Do List
 /* -------------------------------------------------------------- */
 
+.nr-status-to-do-list {
+
+  margin-bottom: .8em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* nr */
+.nr-status-to-do-list > div:nth-of-type(1) {
+
+  font-weight: bold;
+
+}
+
+/* status */
+.nr-status-to-do-list  > div:nth-of-type(2) {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+}
+
+.nr-status-to-do-list  > div:nth-of-type(2) > div {
+
+  font-size: 13.5px;
+
+}
+
+/* in progress | status */
 .in-progress-item {
 
+  /* border: 1px solid rgb(229, 49, 49); */
+  background-color: rgb(251, 133, 133);
+  color: rgb(169, 31, 31);
+
+}
+
+.in-progress-item > img {
+
+  transform: rotate(-45deg);
+  margin-top: 1px;
+
+}
+
+/* anim in progress to to */
+.anim-in-progress-to-do-list {
+
+  animation: anim-in-progress-to-do-list 1s infinite ease;
+
+}
+
+@keyframes anim-in-progress-to-do-list {
+
+  0% {
+    background-color: rgb(230, 230, 230);
+  }
+  50% {
+      background-color: rgb(251, 133, 133);
+  }
+  100% {
+      background-color: rgb(230, 230, 230);
+      color: rgb(73, 73, 73);
+  }
+
+}
+
+/* to do | status */
+.to-do-item {
+
+  /* border: 1px solid rgb(209, 174, 0); */
+  background-color: rgb(255, 227, 86);
+  color: rgb(142, 119, 5);
+
+}
+
+
+/* later | status */
+.to-do-later-item {
+
+  background-color: rgb(205, 205, 205);
+  color: rgb(94, 94, 94);
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Divs | Header | To Do List
+/* -------------------------------------------------------------- */
+
+.to-do-list > div > header {
+
+  font-weight: bold;
+  color:rgb(91, 91, 91);
 
 }
 
 /* -------------------------------------------------------------- */
-/* To Do Later Item
+/* Divs | Main | To Do List
 /* -------------------------------------------------------------- */
 
-.to-do-later-item {
+.to-do-list > div > main {
 
+  /* font-weight: bold; */
 
 }

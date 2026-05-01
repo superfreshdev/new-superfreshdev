@@ -15,12 +15,13 @@
   padding: 1.5em .8em;
 
   display: grid;
+  align-items: flex-start;
   grid: auto 1fr / 1fr;
 
-  row-gap: 2em;
+  row-gap: 1em;
 
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  /* border-left: 1px solid grey;
+  border-right: 1px solid grey; */
   /* default unshown, by click will be shown */
   /* display: none; */
 
