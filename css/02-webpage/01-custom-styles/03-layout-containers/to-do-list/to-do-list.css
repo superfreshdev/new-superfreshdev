@@ -22,6 +22,8 @@
   border-radius: 1em;
   border: 1px dashed rgb(188, 188, 188);
 
+  background-color: rgb(252, 252, 252);
+
   /* background-color: rgb(120, 120, 155); */
 
   /* default unshown, by click will be shown */
