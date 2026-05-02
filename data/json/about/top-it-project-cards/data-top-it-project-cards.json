@@ -12,7 +12,7 @@
 
     {
       "folderName": "top-it-project-1/",
-      "imgProjectName": "project-food-delivery-service.png",
+      "imgProjectName": "pdf-upload-parser-dashboard.png",
 
       "status": {
 
@@ -28,12 +28,11 @@
 
         "iconDarkPath": "01-black/black-shopping-cart.png",
         "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
-        "title": "Food Delivery Service with Kitchen Management to handle orders"
+        "title": "PDF Rechnung Upload & Filter relevant Information"
 
       },
 
-      "mainText": "An online food ordering platform where customers can place their orders. The Kitchen Management Dashboard reviews each order and decides whether to accept, delay, or reject it based on preparation capacity ...",
-
+      "mainText": "Text is coming soon ...",
       "footer": {
 
         "footerShow": "true",
@@ -51,7 +50,7 @@
     },
     {
       "folderName": "top-it-project-2/",
-      "imgProjectName": "project-insurance-customer-portal.png",
+      "imgProjectName": "project-food-delivery-service.png",
 
       "status": {
 
@@ -65,13 +64,13 @@
 
       "header": {
 
-        "iconDarkPath": "01-black/black-healthcare.png",
-        "iconLightPath": "04-light-grey/light-grey-healthcare.png",
-        "title": "Insurance - Customer Portal"
+        "iconDarkPath": "01-black/black-shopping-cart.png",
+        "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
+        "title": "Food Delivery Service with Kitchen Management to handle orders"
 
       },
 
-      "mainText": "Insurance Web Application that allows customers to manage their policies, explore new offers, and generate their documents as PDF files ...",
+      "mainText": "An online food ordering platform where customers can place their orders. The Kitchen Management Dashboard reviews each order and decides whether to accept, delay, or reject it based on preparation capacity ...",
 
       "footer": {
 
