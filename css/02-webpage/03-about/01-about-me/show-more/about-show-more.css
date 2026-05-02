@@ -21,7 +21,7 @@
   display: grid;
   justify-items: center;
 
-  /* background-color: white; */
+  background-color: white;
   /* background-color: red; */
 
 }
@@ -136,7 +136,7 @@
 
   border: 2px solid rgb(56, 56, 56);
 
-  background-color: rgb(28, 28, 28);
+  /* background-color: rgb(28, 28, 28); */
 
   opacity: .8;
 

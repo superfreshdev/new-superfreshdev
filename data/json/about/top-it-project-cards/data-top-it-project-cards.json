@@ -28,11 +28,11 @@
 
         "iconDarkPath": "01-black/black-shopping-cart.png",
         "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
-        "title": "PDF Rechnung Upload & Filter relevant Information"
+        "title": "PDF Invoice Upload Parser to Present Key Data Elegantly and Save Time"
 
       },
 
-      "mainText": "Text is coming soon ...",
+      "mainText": "This system allows users to upload PDF invocies, extract key invoice data, and display them in a structured JSON dashboard, with the option to also view the original PDF ...",
       "footer": {
 
         "footerShow": "true",

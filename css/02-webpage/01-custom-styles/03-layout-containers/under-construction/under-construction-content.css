@@ -12,7 +12,7 @@
 .under-construction-content-container {
 
   width: 100%;
-  padding: 1.5em .8em;
+  padding: 1.5em 1.5em;
 
   display: flex;
   justify-content: center;
@@ -97,8 +97,6 @@
 
   .under-construction-content-container {
 
-    width: 100%;
-    padding: 1.5em .8em;
 
     display: flex;
     justify-content: center;

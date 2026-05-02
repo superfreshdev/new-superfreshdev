@@ -16,7 +16,7 @@
 
   display: grid;
   align-items: flex-start;
-  grid: auto auto 1fr / 1fr;
+  grid: auto auto auto 1fr / 1fr;
 
   row-gap: 1em;
 
