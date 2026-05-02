@@ -407,3 +407,21 @@
 
 
 }
+
+
+/* --------------------------------------------------------------- */
+/* Optional Link
+/* --------------------------------------------------------------- */
+
+.link-top-it-project-card {
+
+  color:grey;
+  font-weight: bold;
+
+}
+
+.link-top-it-project-card:visited {
+
+  color:grey;
+
+}
