@@ -96,10 +96,10 @@
       "status": {
 
         "statusShow": "true",
-        "cssClassStatus": "info-status-later",
-        "iconName": "black-stop-hand.png",
-        "cssClassIcon": "img-h-0-7",
-        "statusTitle": "later"
+        "cssClassStatus": "info-status-to-do",
+        "iconName": "black-arrow-right.png",
+        "cssClassIcon": "img-h-0-6",
+        "statusTitle": "to do"
 
       },
 
