@@ -35,7 +35,7 @@
 
   background-color: rgb(224, 224, 224);
 
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(59, 59, 59);
 
 }
 
@@ -225,7 +225,15 @@
 
   border: 1px dashed grey;
 
+  color:black;
+
   transition: all .4s;
+
+}
+
+.three-link-to-do-block a:visited {
+
+  color:black;
 
 }
 
@@ -238,6 +246,7 @@
 .to-do-not-finished {
 
   background-color: rgb(255, 192, 192);
+  /* background-color: rgb(251, 133, 133); */
 
 }
 
@@ -254,7 +263,7 @@
 
 .three-link-to-do-block a > div {
 
-  font-size: 16px;
+  font-size: 14.5px;
   font-weight: bold;
 
 }
