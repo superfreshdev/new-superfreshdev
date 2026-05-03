@@ -6,10 +6,273 @@
 
 
 /* -------------------------------------------------------------- */
+/* To Do List For Mini Tasks
+/* -------------------------------------------------------------- */
+
+.to-do-list-for-mini-tasks {
+
+  border-radius: 1em;
+  border: 1px dashed rgb(188, 188, 188);
+
+  background-color: white;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header | To Do List For Mini Tasks
+/* -------------------------------------------------------------- */
+
+.to-do-list-for-mini-tasks > header {
+
+  padding: .8em .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .8em;
+
+  border-radius: 1em 1em 0 0;
+
+  background-color: rgb(224, 224, 224);
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* title container */
+.to-do-list-for-mini-tasks > header > div:nth-of-type(1) {
+
+  line-height: 1.6em;
+
+}
+
+/* title */
+.to-do-list-for-mini-tasks > header > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-weight: bold;
+  font-size: 16.5px;
+
+  color:white;
+
+}
+
+/* sub title */
+.to-do-list-for-mini-tasks > header > div:nth-of-type(1) > div:nth-of-type(2) {
+
+  color:grey;
+  font-weight: bold;
+
+}
+
+/* -------------------------------------------------------------- */
 /* To Do Mini Task Item
 /* -------------------------------------------------------------- */
 
 .to-do-mini-task-item {
 
+  padding: 1.5em 1.3em;
+  display: grid;
+  row-gap: .2em;
+
+  background-color: rgb(244, 244, 244);
+
+}
+
+
+
+
+
+/* -------------------------------------------------------------- */
+/* Nr Status Time To Do Container
+/* -------------------------------------------------------------- */
+
+.nr-status-time-to-do-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+/* div 1 | nr status */
+.nr-status-time-to-do-container > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Nr | Nr Status Time To Do Container
+/* -------------------------------------------------------------- */
+
+.nr-status-time-to-do-container > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-size: 18px;
+  font-weight: bold;
+  /* color:red; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Time | Nr Status Time To Do Container
+/* -------------------------------------------------------------- */
+
+.nr-status-time-to-do-container > div:nth-of-type(2) {
+
+  font-weight: bold;
+  /* color:red; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Content Img To Do Mini Task
+/* -------------------------------------------------------------- */
+
+.content-img-to-do-mini-task {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Content To Do Mini Task
+/* -------------------------------------------------------------- */
+
+.content-to-do-mini-task {
+
+  padding-top: .3em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header | To Do Mini Task Item
+/* -------------------------------------------------------------- */
+
+.content-to-do-mini-task > header {
+
+  padding-top: .3em;
+
+  line-height: 1.6em;
+
+}
+
+.txt-branch-style {
+
+  color:rgb(155, 155, 155);
+
+}
+
+/* title */
+.content-to-do-mini-task > header > div:nth-of-type(1) {
+
+  font-weight: bold;
+  font-size: 16.5px;
+
+}
+
+/* sub title */
+.content-to-do-mini-task > header > div:nth-of-type(2) {
+
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Main | To Do Mini Task Item
+/* -------------------------------------------------------------- */
+
+.content-to-do-mini-task > main {
+
+  padding-top: 1em;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: .4em;
+  row-gap: .4em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Three Link to Do Block
+/* -------------------------------------------------------------- */
+
+.three-link-to-do-block {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+.three-link-to-do-block a {
+
+  width: 2.2em;
+  height: 1.8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .4em;
+
+  border-radius: .4em;
+
+  border: 1px dashed grey;
+
+  transition: all .4s;
+
+}
+
+.three-link-to-do-block a:hover {
+
+  background-color: rgb(236, 236, 236);
+
+}
+
+.to-do-not-finished {
+
+  background-color: rgb(255, 192, 192);
+
+}
+
+.to-do-later {
+
+  background-color: rgb(202, 202, 202);
+
+}
+
+.to-do-finsihed {
+
+  background-color: rgb(190, 255, 190);
+}
+
+.three-link-to-do-block a > div {
+
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Img To Do Mini Task
+/* -------------------------------------------------------------- */
+
+.img-to-do-mini-task {
+
+  height: 8em;
+  /* min-width: 9em; */
+
+  border-radius: .4em;
+
+  border: 3px solid rgb(225, 225, 225);
+
+  display: none;
 
 }

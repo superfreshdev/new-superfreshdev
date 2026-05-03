@@ -11,7 +11,8 @@
 
 @media (min-width: 600px) {
 
-  .img-content-to-do-mini-project {
+  .img-content-to-do-mini-project,
+  .img-to-do-mini-task {
 
   /* default in mobile unshown */
   display: block;

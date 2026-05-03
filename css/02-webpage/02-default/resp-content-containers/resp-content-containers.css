@@ -66,8 +66,8 @@
 
   .resp-content-container-small {
 
-    padding: 0;
-    width: 80%;
+    /* padding: 0;
+    width: 80%; */
 
     /* background-color: red; */
 
@@ -84,7 +84,7 @@
   /* small */
   .resp-content-container-small {
 
-    width: 40em;
+    width: 50em;
     /* background-color: red; */
 
   }
@@ -112,6 +112,14 @@
 /* --------------------------------------------------------------- */
 
 @media (min-width: 1000px) {
+
+   /* small */
+  .resp-content-container-small {
+
+    width: 55em;
+    /* background-color: red; */
+
+  }
 
   /* medium */
   .resp-content-container-medium {
