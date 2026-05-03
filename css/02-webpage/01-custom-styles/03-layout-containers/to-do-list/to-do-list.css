@@ -12,103 +12,21 @@
 .to-do-list {
 
   width: 100%;
-  padding: 2em 1.5em;
 
   display: grid;
   align-items: flex-start;
 
-  row-gap: 1.8em;
-
-  border-radius: 1em;
-  border: 1px dashed rgb(188, 188, 188);
-
-  background-color: rgb(252, 252, 252);
-
-  /* background-color: rgb(120, 120, 155); */
-
-  /* default unshown, by click will be shown */
-  /* display: none; */
+  row-gap: .8em;
 
 }
 
 /* -------------------------------------------------------------- */
-/* Header | To Do List
+/* To Do | In Progress, To Do, Later
 /* -------------------------------------------------------------- */
 
-.to-do-list > header {
-
-  padding: .8em 1em;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  column-gap: .6em;
-
-  border-radius: .6em;
-
-  background-color: rgb(214, 214, 214);
-
-}
-
-/* title container */
-.to-do-list > header > div:nth-of-type(1) {
-
-  line-height: 1.5em;
-
-}
-
-/* title */
-.to-do-list > header > div:nth-of-type(1) > div:nth-of-type(1) {
-
-  font-size: 18px;
-  font-weight: bold;
-
-}
-
-/* sub title */
-.to-do-list > header > div:nth-of-type(1) > div:nth-of-type(2) {
-
-  /* font-style: italic; */
-  color:rgb(89, 89, 89);
-
-}
-
-/* -------------------------------------------------------------- */
-/* Divs | To Do List
-/* -------------------------------------------------------------- */
-
-.to-do-list > div {
-
-  position: relative;
-
-  /* display: grid; */
-  /* row-gap: .3em; */
-
-}
-
-/* -------------------------------------------------------------- */
-/* Nr Status To Do List
-/* -------------------------------------------------------------- */
-
-.nr-status-to-do-list {
-
-  margin-bottom: .8em;
-
-  display: flex;
-  align-items: center;
-  column-gap: .4em;
-
-}
-
-/* nr */
-.nr-status-to-do-list > div:nth-of-type(1) {
-
-  font-weight: bold;
-
-}
-
-/* status */
-.nr-status-to-do-list  > div:nth-of-type(2) {
+.to-do-in-progress-status,
+.to-do-status,
+.to-do-later-status {
 
   height: 1.8em;
   padding: 0 .6em;
@@ -121,16 +39,20 @@
 
   font-weight: bold;
 
+
 }
 
-.nr-status-to-do-list  > div:nth-of-type(2) > div {
+/* div */
+.to-do-in-progress-status > div,
+.to-do-status > div,
+.to-do-later-status > div {
 
   font-size: 13.5px;
 
 }
 
 /* in progress | status */
-.in-progress-item {
+.to-do-in-progress-status {
 
   /* border: 1px solid rgb(229, 49, 49); */
   background-color: rgb(251, 133, 133);
@@ -138,7 +60,7 @@
 
 }
 
-.in-progress-item > img {
+.to-do-in-progress-status > img {
 
   transform: rotate(-45deg);
   margin-top: 1px;
@@ -168,7 +90,7 @@
 }
 
 /* to do | status */
-.to-do-item {
+.to-do-status {
 
   /* border: 1px solid rgb(209, 174, 0); */
   background-color: rgb(255, 227, 86);
@@ -178,54 +100,9 @@
 
 
 /* later | status */
-.to-do-later-item {
+.to-do-later-status {
 
   background-color: rgb(205, 205, 205);
   color: rgb(94, 94, 94);
-
-}
-
-
-/* -------------------------------------------------------------- */
-/* Divs | Header | To Do List
-/* -------------------------------------------------------------- */
-
-.to-do-list > div > header {
-
-  font-weight: bold;
-  color:rgb(91, 91, 91);
-
-}
-
-/* -------------------------------------------------------------- */
-/* Divs | Main | To Do List
-/* -------------------------------------------------------------- */
-
-.to-do-list > div > main {
-
-  /* font-weight: bold; */
-
-}
-
-/* -------------------------------------------------------------- */
-/* Img Float | To Do List
-/* -------------------------------------------------------------- */
-
-.img-float-to-do-list-item {
-
-  float: right;
-
-  margin-top: 1.3em;
-  margin-left: 1em;
-
-  height: 8em;
-  /* min-width: 9em; */
-
-  border-radius: .4em;
-
-  border: 3px solid rgb(225, 225, 225);
-
-  /* default in mobile unshown */
-  display: none;
 
 }
