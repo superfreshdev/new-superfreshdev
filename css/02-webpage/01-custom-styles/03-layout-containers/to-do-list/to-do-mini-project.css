@@ -32,6 +32,13 @@
 .to-do-mini-project-item:hover {
 
   background-color: rgb(243, 243, 243);
+  opacity: 1;
+}
+
+.to-do-mini-project-no-focus {
+
+  opacity: .1;
+
 }
 
 /* -------------------------------------------------------------- */

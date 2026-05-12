@@ -21,12 +21,13 @@
 }
 
 /* -------------------------------------------------------------- */
-/* To Do | In Progress, To Do, Later
+/* To Do | In Progress, To Do, Later, STatus
 /* -------------------------------------------------------------- */
 
 .to-do-in-progress-status,
 .to-do-status,
-.to-do-later-status {
+.to-do-later-status,
+.to-do-future-idea-status {
 
   height: 1.8em;
   padding: 0 .6em;
@@ -45,7 +46,8 @@
 /* div */
 .to-do-in-progress-status > div,
 .to-do-status > div,
-.to-do-later-status > div {
+.to-do-later-status > div,
+.to-do-future-idea-status > div {
 
   font-size: 13.5px;
 
@@ -105,5 +107,14 @@
 
   background-color: rgb(205, 205, 205);
   color: rgb(94, 94, 94);
+
+}
+
+/* future idea | status */
+.to-do-future-idea-status {
+
+  border: 1px solid rgb(205, 205, 205);
+  color: rgb(94, 94, 94);
+
 
 }

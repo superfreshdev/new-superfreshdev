@@ -24,9 +24,22 @@
 
 }
 
+.status-no-focus {
+
+  opacity: .3;
+
+}
+
 /* --------------------------------------------------------------- */
 /* Hover Styles
 /* --------------------------------------------------------------- */
+
+/* hover default */
+.about-top-it-project-card:hover  {
+
+  opacity: 1;
+
+}
 
 /* hover > header */
 .about-top-it-project-card:hover .nr-header-top-it-project-card > div {
@@ -417,6 +430,12 @@
 
   color:grey;
   font-weight: bold;
+
+}
+
+.link-top-it-project-card:hover {
+
+  color:white !important;
 
 }
 

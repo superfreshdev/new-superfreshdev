@@ -80,7 +80,7 @@
 /* extra for img arrow */
 .info-status-in-progress > img {
 
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
 
   /* layout fix */
   margin-top: .1em;
@@ -100,19 +100,21 @@
 @keyframes anim-status-in-progress {
 
   0% {
-    background-color: rgb(230, 230, 230);
+    /* background-color: rgb(230, 230, 230); */
+    background-color: rgb(255, 179, 179);
   }
 
   50% {
 
     background-color: rgb(251, 133, 133);
-    background-color: rgb(255, 192, 192);
+    /* background-color: rgb(255, 192, 192); */
 
   }
 
   100% {
 
-    background-color: rgb(230, 230, 230);
+    /* background-color: rgb(230, 230, 230); */
+    background-color: rgb(255, 179, 179);
     /* color:rgb(73, 73, 73); */
   }
 

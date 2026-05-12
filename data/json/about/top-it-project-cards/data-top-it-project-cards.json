@@ -12,14 +12,14 @@
 
     {
       "folderName": "top-it-project-1/",
-      "imgProjectName": "pdf-upload-parser-dashboard.png",
+      "imgProjectName": "pdf-upload-architecture.png",
 
       "status": {
 
         "statusShow": "true",
         "cssClassStatus": "info-status-in-progress anim-status-in-progress",
-        "iconName": "black-arrow-right.png",
-        "cssClassIcon": "img-h-0-6",
+        "iconName": "black-fire-1.png",
+        "cssClassIcon": "img-h-0-8",
         "statusTitle": "in progress"
 
       },
@@ -28,14 +28,14 @@
 
         "iconDarkPath": "01-black/black-shopping-cart.png",
         "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
-        "title": "PDF Invoice Upload Parser to Present Key Data Elegantly and Save Time"
+        "title": "Extract Key Invoice Data Automatically and visualize it in a structured Analytics Dashboard"
 
       },
 
-      "mainText": "This system allows users to upload PDF invocies, extract key invoice data, and display them in a structured JSON dashboard, with the option to also view the original PDF ...",
+      "mainText": "This system allows users to upload PDF invoices, extract key invoice data, and display them in a structured JSON dashboard, with the option to also view the original PDF ...",
       "footer": {
 
-        "footerShow": "true",
+        "footerShow": "false",
 
         "zipGitHubShow": "false",
         "zipLink": "⭐⭐⭐",
@@ -58,7 +58,7 @@
         "cssClassStatus": "info-status-to-do",
         "iconName": "black-arrow-right.png",
         "cssClassIcon": "img-h-0-6",
-        "statusTitle": "to do"
+        "statusTitle": "coming next"
 
       },
 
@@ -96,10 +96,10 @@
       "status": {
 
         "statusShow": "true",
-        "cssClassStatus": "info-status-to-do",
-        "iconName": "black-arrow-right.png",
-        "cssClassIcon": "img-h-0-6",
-        "statusTitle": "to do"
+        "cssClassStatus": "info-status-later",
+        "iconName": "black-stop-hand.png",
+        "cssClassIcon": "img-h-0-8",
+        "statusTitle": "later"
 
       },
 
@@ -111,7 +111,7 @@
 
       },
 
-      "mainText": "Responsive Data Dashboard featuring 4 distinct analytics views. Users can configure how frequently the dasboard updates and define specific parameters that trigger push email notifications. E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.",
+      "mainText": "Responsive Data Dashboard featuring 4 distinct analytics views. Users can configure how frequently the dashboard updates and define specific parameters that trigger push email notifications. E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.",
 
       "footer": {
 
