@@ -1,0 +1,197 @@
+/* --------------------------------------------------------------- */
+/* > quick-progress-container.css
+/*
+/* : styles quick progress container
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Quick Progress Container
+/* --------------------------------------------------------------- */
+
+.quick-progress-container {
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Quick Progress Content Box | Quick Progress Container
+/* --------------------------------------------------------------- */
+
+.quick-progress-content-box {
+
+  display: grid;
+  row-gap: 1em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Label | Quick Progress Content Box
+/* --------------------------------------------------------------- */
+
+.quick-progress-content-box > label {
+
+  height: 2.5em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: bold;
+  border-radius: .4em;
+
+  opacity: .8;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all .4s;
+
+}
+
+.quick-progress-content-box > label:hover {
+
+  opacity: 1;
+
+}
+
+.quick-progress-content-box > label > div {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  font-size: 14.5px;
+
+}
+
+.qpcb-header-finish {
+
+  background-color: rgb(139, 250, 139);
+  color: rgb(5, 103, 15);
+}
+
+.qbcb-header-in-progress {
+
+  background-color: rgb(255, 192, 192);
+  color: rgb(169, 31, 31) !important;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Quick Progress Content Box
+/* --------------------------------------------------------------- */
+
+.quick-progress-content-box > main {
+
+  display: grid;
+  row-gap: .4em;
+
+  /* default unshown */
+  display: none;
+
+}
+
+.quick-progress-content-box > main > div {
+
+  padding: .4em .4em;
+
+  display: grid;
+  row-gap: .3em;
+
+  border-radius: .4em;
+  border: 1px dashed rgb(168, 168, 168);
+
+}
+
+.quick-progress-content-box > main > div > div {
+
+  line-height: 1.5em;
+  color:grey;
+
+}
+
+
+.bps-sticker-in-progress {
+
+  margin-bottom: .4em;
+
+  /* grid */
+  justify-self: flex-start;
+  padding: .1em .4em;
+
+  font-size: 13.5px;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+  background-color: rgb(255, 192, 192);
+  color: rgb(169, 31, 31) !important;
+
+}
+
+.bps-sticker-coming-soon {
+
+  margin-bottom: .4em;
+
+  /* grid */
+  justify-self: flex-start;
+ padding: .1em .4em;
+
+  font-size: 13.5px;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+  color:grey;
+  background-color: rgb(220, 220, 220);
+
+}
+
+
+/* links */
+.quick-progress-content-box > main a {
+
+  /* font-weight: bold; */
+  color:rgb(112, 112, 112);
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.quick-progress-content-box > main div a:hover {
+
+  color: white;
+
+}
+
+.quick-progress-content-box > main a:visited {
+
+  color:rgb(112, 112, 112);
+
+}
+
+
+/* --------------------------------------------- */
+/* Handlings Checkbox
+/* --------------------------------------------- */
+
+
+/* default show building process */
+#chk-top-it-project-1-ms-arch:checked ~ main,
+#chk-top-it-project-1-build-process:checked ~ main {
+
+  display: grid;
+
+}
+
+#chk-top-it-project-1-build-process:checked ~ label[for="chk-top-it-project-1-ms-arch"] > img,
+#chk-top-it-project-1-build-process:checked ~ label[for="chk-top-it-project-1-build-process"] > img {
+
+  transform: rotate(-180deg);
+
+}

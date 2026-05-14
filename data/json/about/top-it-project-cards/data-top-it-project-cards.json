@@ -28,7 +28,7 @@
 
         "iconDarkPath": "01-black/black-shopping-cart.png",
         "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
-        "title": "Extract Key Invoice Data Automatically and visualize it in a structured Analytics Dashboard"
+        "title": "Invoice PDF Parsing & Analytics Dashboard"
 
       },
 
