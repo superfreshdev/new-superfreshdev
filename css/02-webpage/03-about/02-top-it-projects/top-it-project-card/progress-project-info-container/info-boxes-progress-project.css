@@ -174,11 +174,11 @@
 .status-box-progress-project-to-do-item > img:nth-of-type(1) {
 
   /* layout fix */
-  margin-top: .45em;
+  margin-top: .69em;
 
 }
 
-.status-box-progress-project-to-do-item > div:nth-of-type(2) {
+.status-box-progress-project-to-do-item > div {
 
   /* layout pos fix */
   margin-top: .38em;
