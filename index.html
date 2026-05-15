@@ -201,7 +201,13 @@
       <!-- top it project card -->
       <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/top-it-project-card.css">
       <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/status-top-it-project-card.css">
-      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/quick-progress-container.css">
+
+      <!-- ⭐ Feature: Progress Project Info  -->
+      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/progress-project-info-container/progress-project-info-container.css">
+      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/progress-project-info-container/status-progress-project-info.css">
+      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/progress-project-info-container/info-boxes-progress-project.css">
+      <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/top-it-project-card/progress-project-info-container/handlings-nav-progress-project.css">
+
 
       <!-- resp -->
       <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/resp-about-top-it-projects.css">
@@ -2619,167 +2625,460 @@
 
                           </main>
 
+                          <!--
+
+                          progress-project-info-container
+
+                            - link - container
+
+                            - state - container
+
+                                - now
+                                   only info items
+
+                                - coming soon
+
+                          -->
+                          <!-- ❇️ -->
                           <!-- ---------------------------------------------------------------- -->
                           <!-- ⭐ Feature Layout  -->
                           <!-- ---------------------------------------------------------------- -->
-                          <div class="quick-progress-container">
+                          <div class="progress-project-info-container">
 
 
-                            <!-- -------------------------------------------------- -->
-                            <!-- Architecture Links -->
-                            <!-- -------------------------------------------------- -->
-                            <div class="quick-progress-content-box">
+                            <!-- -------------------------------------------------------- -->
+                            <!-- 🟩 [1/3] | Info | Category Progress Project Container -->
+                            <!-- -------------------------------------------------------- -->
+                            <div class="category-progress-project-container">
 
-                              <input type="checkbox" id="chk-top-it-project-1-ms-arch" style="display: none;">
+                              <!-- checkbox -->
+                              <input type="checkbox" id="chk-category-progress-project-invoice-info">
 
-                              <!-- label -->
-                              <label for="chk-top-it-project-1-ms-arch" class="qpcb-header-finish">
+                              <!-- -------------------------------------------------- -->
+                              <!-- [1/2] | Label -->
+                              <!-- -------------------------------------------------- -->
+                              <label for="chk-category-progress-project-invoice-info" class="progress-project-status-info">
 
+                                <!-- Title -->
                                 <div>
 
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                       alt="img" class="img-h-0-7">
-                                  <div>Microservice Architecture (Views):</div>
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-info.png"
+                                     alt="img" class="img-h-1">
+                                  <div>Info Container:</div>
 
                                 </div>
 
-
-
+                                <!-- Img open/close -->
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-arrow-clap-down.png"
                                      alt="img" class="img-h-0-6">
 
-
                               </label>
 
-                              <!-- links -->
+                              <!-- -------------------------------------------------- -->
+                              <!-- [2/2] | Main -->
+                              <!-- -------------------------------------------------- -->
                               <main>
 
-                                <!-- overview - category box - #1 -->
-                                <div>
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟥🟩 Overview - Invoice PDF Parser
-                                  </a>
-                                </div>
-
-                                <!-- overview - category box - #2 -->
+                                <!-- info 1 -->
                                 <div>
 
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟨🟩 1. Invoice Upload
-                                  </a>
-
-                                   <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank" >
-                                      🟨🟩 2. Invoice Upload Failure
-                                  </a>
-
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟨🟩 3. Tech Overview - Invoice Upload
-                                  </a>
+                                  <div class="text-category-progress-project">
+                                    Info 1: Info hier kommt einfach eine kleine Beschreibung,
+                                    natürlich kann dies auch ein längerer Text sein.
+                                  </div>
 
                                 </div>
 
-                                <!-- overview - category box - #3 -->
+                                <!-- info 2 -->
                                 <div>
 
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟥🟩 4. Invoice Upload Persistence
-                                  </a>
-
-                                   <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank" >
-                                      🟥🟩 5. Invoice Upload Persistence Failure
-                                  </a>
-
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟥🟩 6. Tech Overview - Invoice Upload Persistence
-                                  </a>
+                                  <div class="text-category-progress-project">
+                                    Info 2: Info hier kommt einfach eine kleine Beschreibung,
+                                    natürlich kann dies auch ein längerer Text sein.
+                                  </div>
 
                                 </div>
-
-                                <!-- overview - category box - #4 -->
-                                <div>
-
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟥🟩 7. Invoice Parser
-                                  </a>
-
-                                   <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank" >
-                                      🟥🟩 8. Invoice Parser Failure
-                                  </a>
-
-                                  <a href="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.jpg"
-                                    target="_blank">
-                                      🟥🟩 9. Tech Overview - Invoice Parser
-                                  </a>
-
-                                </div>
-
 
                               </main>
+
 
 
                             </div>
 
-                            <!-- -------------------------------------------------- -->
-                            <!-- Building Process Status -->
-                            <!-- -------------------------------------------------- -->
-                            <div class="quick-progress-content-box">
+                            <!-- -------------------------------------------------------- -->
+                            <!-- 🟩 [2/3] | Finished | Category Progress Project Container -->
+                            <!-- -------------------------------------------------------- -->
+                            <div class="category-progress-project-container">
 
-                              <input type="checkbox" id="chk-top-it-project-1-build-process" style="display: none;">
+                              <!-- checkbox -->
+                              <input type="checkbox" id="chk-category-progress-project-invoice-finished">
 
-                              <!-- label -->
-                              <label for="chk-top-it-project-1-build-process" class="qbcb-header-in-progress" >
+                              <!-- -------------------------------------------------- -->
+                              <!-- [1/2] | Label -->
+                              <!-- -------------------------------------------------- -->
+                              <label for="chk-category-progress-project-invoice-finished" class="progress-project-status-in-progress">
 
+                                <!-- Title -->
                                 <div>
-                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                       alt="img" class="img-h-1">
-                                  <div>Building Status:</div>
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-architecture.png"
+                                     alt="img" class="img-h-0-9">
+                                  <div>Microservice Architecture:</div>
+
                                 </div>
 
+                                <!-- Img open/close -->
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-arrow-clap-down.png"
                                      alt="img" class="img-h-0-6">
 
                               </label>
 
-                              <!-- links -->
+
+                              <!-- -------------------------------------------------- -->
+                              <!-- [2/2] | Main -->
+                              <!-- -------------------------------------------------- -->
                               <main>
 
-                                <!-- overview - category box - #1 -->
-                                <div style="border: 0;">
+                                <!-- 🟥 overview | link category  -->
+                                <div class="link-box-progress-project">
 
-                                  <div class="bps-sticker-in-progress">Now: </div>
+                                  <!-- link status -->
+                                  <a href=""
+                                    target="_blank">
 
-                                  <div>🟥 Deep-Dive into MS-Patterns, Spring Boot, Docker, RabbitMQ, Outbox, MinIO </div>
+                                    <!-- status item -->
+                                    <div class="status-progress-item-finished"></div>
 
+                                    <!-- text -->
+                                    <div>Overview - Invoice PDF Parser</div>
 
-                                </div>
-
-
-                                <!-- overview - category box - #2 -->
-                                <div style="border: 0;">
-
-                                  <div class="bps-sticker-coming-soon">Coming Soon: </div>
-
-                                  <div>🤚 1/5 - Build: Invoive Upload </div>
-                                  <div>🤚 2/5 - Build: Invoive Persistence </div>
-                                  <div>🤚 3/5 - Build: Invoive Parser </div>
-                                  <div>🤚 4/5 - Build: Final togehter </div>
-                                  <div>🤚 5/5 - DevOps: More Testings, Metrics, Traces, Logs, Alerts </div>
+                                  </a>
 
 
                                 </div>
 
+                                <!-- 🟨 invoice upload | link category-->
+                                <div class="link-box-progress-project">
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-hammer.png"
+                                         alt="img" class="img-status-progress-item-now">
+
+                                    <!-- text -->
+                                    <div>Invoice Upload - Happy Path</div>
+
+                                  </a>
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-hammer.png"
+                                         alt="img" class="img-status-progress-item-now">
+
+                                    <!-- text -->
+                                    <div>Invoice Upload - Failure</div>
+
+                                  </a>
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-hammer.png"
+                                         alt="img" class="img-status-progress-item-now">
+
+                                    <!-- text -->
+                                    <div>Invoice Upload - Tech</div>
+
+                                  </a>
+
+                                </div>
+
+                                <!-- 🟥 invoice persistence | link category-->
+                                <div class="link-box-progress-project">
+
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <div class="status-progress-item-to-do"></div>
+
+                                    <!-- text -->
+                                    <div>Invoice Persistence - Happy Path</div>
+
+                                  </a>
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <div class="status-progress-item-to-do"></div>
+
+                                    <!-- text -->
+                                    <div>Invoice Persistence - Failure</div>
+
+                                  </a>
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <div class="status-progress-item-to-do"></div>
+
+                                    <!-- text -->
+                                    <div>Invoice Persistence - Tech</div>
+
+                                  </a>
+
+                                </div>
+
+                                <!-- 🟥 invoice parser | link category-->
+                                <div class="link-box-progress-project">
+
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <div class="status-progress-item-to-do"></div>
+
+                                    <!-- text -->
+                                    <div>Invoice Parser - Happy Path</div>
+
+                                  </a>
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <div class="status-progress-item-to-do"></div>
+
+                                    <!-- text -->
+                                    <div>Invoice Parser - Failure</div>
+
+                                  </a>
+
+                                  <a href=""
+                                    target="_blank">
+
+                                    <!-- status item -->
+                                    <div class="status-progress-item-to-do"></div>
+
+                                    <!-- text -->
+                                    <div>Invoice Parser - Tech</div>
+
+                                  </a>
+
+                                </div>
 
 
                               </main>
+
+
+
+                            </div>
+
+                            <!-- -------------------------------------------------------- -->
+                            <!-- 🟩 [3/3] | Finished | Category Progress Project Container -->
+                            <!-- -------------------------------------------------------- -->
+                            <div class="category-progress-project-container">
+
+                              <!-- checkbox -->
+                              <input type="checkbox" id="chk-category-progress-project-invoice-building">
+
+                              <!-- -------------------------------------------------- -->
+                              <!-- [1/2] | Label -->
+                              <!-- -------------------------------------------------- -->
+                              <label for="chk-category-progress-project-invoice-building" class="progress-project-status-in-progress">
+
+                                <!-- Title -->
+                                <div>
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                     alt="img" class="img-h-1-1">
+                                  <div>Building Status:</div>
+
+                                </div>
+
+                                <!-- Img open/close -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-arrow-clap-down.png"
+                                     alt="img" class="img-h-0-6">
+
+                              </label>
+
+
+                              <!-- -------------------------------------------------- -->
+                              <!-- [2/2] | Main -->
+                              <!-- -------------------------------------------------- -->
+                              <main>
+
+                                <!-- status box - now  -->
+                                <div class="status-box-progress-project">
+
+                                  <!-- header -->
+                                  <header class="status-mini-sticker-now">
+                                    <div>Now:</div>
+                                  </header>
+
+                                  <!-- main -->
+                                  <main>
+
+                                    <!-- now - to do 1 -->
+                                    <div class="status-box-progress-project-to-do-item">
+
+                                      <!-- img -->
+                                      <img src="media/imgs/icons/02-icon-colors/01-black/black-hammer.png"
+                                         alt="img" class="img-status-progress-item-now">
+
+                                      <!-- text -->
+                                      <div>Deep-Dive into MS-Patterns, Spring Boot, Docker, RabbitMQ, Outbox, MinIO, Streaming, (Architecture-Patterns) </div>
+
+
+                                    </div>
+
+                                    <!-- now - to do 2 -->
+                                    <div class="status-box-progress-project-to-do-item" style="display: none;">
+
+                                      <!-- img -->
+                                      <img src="media/imgs/icons/02-icon-colors/01-black/black-hammer.png"
+                                         alt="img" class="img-status-progress-item-now">
+
+                                      <!-- text -->
+                                      <div>Deep-Dive into MS-Patterns, Spring Boot, Docker, RabbitMQ, Outbox, MinIO, Streaming, (Architecture-Patterns) </div>
+
+
+                                    </div>
+
+                                  </main>
+
+                                </div>
+
+                                <!-- status box - coming soon  -->
+                                <div class="status-box-progress-project">
+
+                                  <!-- header -->
+                                  <header class="status-mini-sticker-coming-soon">
+                                    <div>Coming Soon:</div>
+                                  </header>
+
+                                  <!-- main -->
+                                  <main>
+
+                                    <!-- 🟥 coming soon - to do 1 -->
+                                    <div class="status-box-progress-project-to-do-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-to-do"></div>
+
+                                      <!-- text -->
+                                      <div>1/5 - Build: Invoice Upload </div>
+
+
+                                    </div>
+
+                                    <!-- 🟥 coming soon - to do 2 -->
+                                    <div class="status-box-progress-project-to-do-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-to-do"></div>
+
+                                      <!-- text -->
+                                      <div>2/5 - Build: Invoice Upload </div>
+
+
+                                    </div>
+
+                                    <!-- 🟥 coming soon - to do 3 -->
+                                    <div class="status-box-progress-project-to-do-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-to-do"></div>
+
+                                      <!-- text -->
+                                      <div>3/5 - Build: Invoice Upload </div>
+
+
+                                    </div>
+
+                                    <!-- 🟥 coming soon - to do 4 -->
+                                    <div class="status-box-progress-project-to-do-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-to-do"></div>
+
+                                      <!-- text -->
+                                      <div>4/5 - Build: Invoice Upload </div>
+
+
+                                    </div>
+
+                                    <!-- 🟥 coming soon - to do 5 -->
+                                    <div class="status-box-progress-project-to-do-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-to-do"></div>
+
+                                      <!-- text -->
+                                      <div>5/5 - DevOps: More Testings, Metrics, Traces, Logs, Alerts </div>
+
+
+                                    </div>
+
+
+                                  </main>
+
+                                </div>
+
+                                <!-- status box - finished  -->
+                                <div class="status-box-progress-project">
+
+                                  <!-- header -->
+                                  <header class="status-mini-sticker-finished">
+                                    <div>Finished:</div>
+                                  </header>
+
+                                  <!-- main -->
+                                  <main>
+
+                                    <!-- 🟥 finished - to do 1 -->
+                                    <a href=""
+                                      target="_blank"
+                                      class="status-box-progress-project-finished-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-finished"></div>
+
+                                      <!-- text -->
+                                      <div>1/5 - Build: Invoice Upload </div>
+
+
+                                    </a>
+
+                                    <!-- 🟥 finished - to do 2 -->
+                                    <a href=""
+                                      target="_blank"
+                                      class="status-box-progress-project-finished-item">
+
+                                      <!-- img -->
+                                      <div class="status-progress-item-finished"></div>
+
+                                      <!-- text -->
+                                      <div>2/5 - Build: Invoice Upload </div>
+
+
+                                    </a>
+
+                                  </main>
+
+                                </div>
+
+                              </main>
+
 
 
                             </div>

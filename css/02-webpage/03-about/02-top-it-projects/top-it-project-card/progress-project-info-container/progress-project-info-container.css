@@ -1,0 +1,126 @@
+/* --------------------------------------------------------------- */
+/* > progress-project-info-container.css
+/*
+/* : styles progress project info container
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Progress Project Info Container
+/* --------------------------------------------------------------- */
+
+.progress-project-info-container {
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Category Progress Project Container
+/* --------------------------------------------------------------- */
+
+.category-progress-project-container {
+
+  /*  */
+
+}
+
+/* default unshown checkboxes */
+.category-progress-project-container input[type="checkbox"] {
+
+  display: none;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Label | Category Progress Project Container
+/* --------------------------------------------------------------- */
+
+.category-progress-project-container > label {
+
+  padding: .6em .6em;
+  line-height: 1.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+  opacity: .8;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.category-progress-project-container > label:hover {
+
+  opacity: 1;
+
+}
+
+
+/* title block */
+.category-progress-project-container > label > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* title */
+.category-progress-project-container > label > div:nth-of-type(1) > div {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Category Progress Project Container
+/* --------------------------------------------------------------- */
+
+.category-progress-project-container > main {
+
+  margin-top: .8em;
+
+  display: grid;
+  row-gap: .4em;
+
+  /* default unshown, change by checkbox checked */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div Boxes | Main
+/* --------------------------------------------------------------- */
+
+.category-progress-project-container > main > div {
+
+  padding: .6em .6em;
+
+  line-height: 1.5em;
+
+  border-radius: .6em;
+
+  border: 1px dashed rgb(168, 168, 168);
+
+  background-color: white;
+
+}
+
+.text-category-progress-project {
+
+  font-size: 14.5px;
+
+}
