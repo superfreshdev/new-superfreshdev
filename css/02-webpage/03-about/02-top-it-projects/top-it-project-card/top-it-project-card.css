@@ -39,6 +39,9 @@
 
   opacity: 1;
 
+  /* box-shadow: 0 8px 24px rgba(0, 0, 0, .15); */
+  /* transform: translateY(-18px); */
+
 }
 
 /* hover > header */
@@ -52,17 +55,19 @@
 /* hover > content container */
 .about-top-it-project-card:hover .content-container-top-it-project-card {
 
-  background-color: rgb(28, 28, 28);
+  /* background-color: rgb(28, 28, 28); */
 
-  background-color: rgb(49, 49, 49);
-  border: 3px solid rgb(49, 49, 49);
+  /* background-color: rgb(49, 49, 49); */
+  border: 3px solid rgb(225, 225, 225);
+
+  /* border: 3px solid rgb(207, 207, 207); */
 
 }
 
 /* hover > content > main > header */
 .about-top-it-project-card:hover .content-top-it-project-card > main > header {
 
-  color:rgb(239, 239, 239);
+  /* color:rgb(239, 239, 239); */
 
 }
 
@@ -192,6 +197,8 @@
   /* border: 3px solid red; */
 
   background-color: rgb(249, 249, 249);
+
+  background-color: rgb(255, 255, 255);
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 
 }
@@ -278,15 +285,15 @@
 /* img icon | online food #1 */
 #about-top-it-project-1 .content-top-it-project-card > main > header img {
 
-  height: 1.2em;
+  height: 1.5em !important;
   opacity: .7;
 
 }
 
 /* img icon | insurance #2 */
-#about-top-it-project-2 .content-top-it-project-card> main > header img {
+#about-top-it-project-2 .content-top-it-project-card > main > header img {
 
-   height: 1.2em;
+   height: 1.5em !important;
    opacity: .7;
 
 }
@@ -294,7 +301,7 @@
 /* img icon | online shop #3 */
 #about-top-it-project-3 .content-top-it-project-card > main > header img {
 
-  height: 1.5em;
+  height: 1.8em !important;
   opacity: .7;
 
 }

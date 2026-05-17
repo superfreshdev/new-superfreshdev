@@ -20,19 +20,19 @@
         "cssClassStatus": "info-status-in-progress anim-status-in-progress",
         "iconName": "black-fire-1.png",
         "cssClassIcon": "img-h-0-8",
-        "statusTitle": "in progress"
+        "statusTitle": "Now"
 
       },
 
       "header": {
 
-        "iconDarkPath": "01-black/black-shopping-cart.png",
-        "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
+        "iconDarkPath": "01-black/pdf-light.png",
+        "iconLightPath": "01-black/pdf-light.png",
         "title": "Invoice PDF Parsing & Analytics Dashboard"
 
       },
 
-      "mainText": "This system allows users to upload PDF invoices, extract key invoice data, and display them in a structured JSON dashboard, with the option to also view the original PDF ...",
+      "mainText": "Automated invoice processing: upload a PDF, extract key data, and explore results alongside the original - all in one dashboard.",
       "footer": {
 
         "footerShow": "false",
@@ -55,22 +55,22 @@
       "status": {
 
         "statusShow": "true",
-        "cssClassStatus": "info-status-to-do",
+        "cssClassStatus": "info-status-coming-next",
         "iconName": "black-arrow-right.png",
         "cssClassIcon": "img-h-0-6",
-        "statusTitle": "coming next"
+        "statusTitle": "Next"
 
       },
 
       "header": {
 
         "iconDarkPath": "01-black/black-shopping-cart.png",
-        "iconLightPath": "04-light-grey/light-grey-shopping-cart.png",
+        "iconLightPath": "01-black/black-shopping-cart.png",
         "title": "Food Delivery Service with Kitchen Management to handle orders"
 
       },
 
-      "mainText": "An online food ordering platform where customers can place their orders. The Kitchen Management Dashboard reviews each order and decides whether to accept, delay, or reject it based on preparation capacity ...",
+      "mainText": "Orders placed, kitchen notified - instantly. A real-time food ordering platform where the Kitchen Dashboard decides to accept, delay, or reject each order based on live capacity.",
 
       "footer": {
 
@@ -97,21 +97,21 @@
 
         "statusShow": "true",
         "cssClassStatus": "info-status-later",
-        "iconName": "black-stop-hand.png",
-        "cssClassIcon": "img-h-0-8",
-        "statusTitle": "later"
+        "iconName": "black-calendar.png",
+        "cssClassIcon": "img-h-0-9",
+        "statusTitle": "Later"
 
       },
 
       "header": {
 
         "iconDarkPath": "01-black/black-dashboard.png",
-        "iconLightPath": "04-light-grey/light-grey-dashboard.png",
+        "iconLightPath": "01-black/black-dashboard.png",
         "title": "Responsive Data Dashboard with 4 Analytics"
 
       },
 
-      "mainText": "Responsive Data Dashboard featuring 4 distinct analytics views. Users can configure how frequently the dashboard updates and define specific parameters that trigger push email notifications. E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.",
+      "mainText": "4 Analytics views, fully configurable. Set your own update intervals, define alert thresholds and get notified automatically via SendGrid, Gmail or Mailgun.",
 
       "footer": {
 

@@ -1,0 +1,60 @@
+/* --------------------------------------------------------------- */
+/* > info-status-progress-project.css
+/*
+/* : styles in progress, img to do, finished
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* In Progress, Finished
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-item-in-progress,
+.category-progress-project-status-item-finished {
+
+  /* layout fix, because of flex  */
+  margin-top: .2em;
+
+  min-height: 1.1em;
+  min-width: 1.1em;
+
+  border-radius: .3em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Status Progress Items
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-item-in-progress {
+
+  /* animation: anim-status-in-progress 1.3s infinite reverse ease-in-out; */
+
+  background-color: rgb(255, 227, 86);
+  border: 1px solid rgb(167, 161, 78);
+
+}
+
+/* --------------------------------------------------------------- */
+/* To Do | Status Progress Items
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-item-img-to-do {
+
+  /* layout fix, because of flex  */
+  margin-top: .2em;
+
+  opacity: 1;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Finished | Status Progress Items
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-item-finished {
+
+  background-color: rgb(83, 184, 83);
+  border: 1px solid rgb(53, 161, 3);
+
+}

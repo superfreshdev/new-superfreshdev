@@ -1,0 +1,40 @@
+/* --------------------------------------------------------------- */
+/* > label-status-progress-project.css
+/*
+/* : styles info, in progress, finished
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Info | Category Progress Project
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-label-info {
+
+  background-color: rgb(218, 218, 218);
+  color:rgb(109, 109, 109);
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Category Progress Project
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-label-in-progress {
+
+  background-color: rgb(255, 227, 86);
+  background-color: rgb(255, 235, 132);
+  color: rgb(142, 119, 5);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Finished | Category Progress Project
+/* --------------------------------------------------------------- */
+
+.category-progress-project-status-label-finished {
+
+  background-color: rgb(139, 250, 139);
+  color: rgb(5, 103, 15);
+
+}

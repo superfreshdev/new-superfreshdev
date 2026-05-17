@@ -40,8 +40,7 @@
 
 }
 
-/* text */
-
+/* text block (img + text) + (img arrow open close) */
 .lbl-small > div:nth-of-type(1) > div,
 .lbl-medium > div:nth-of-type(1) > div,
 .lbl-big > div:nth-of-type(1) > div {
@@ -49,6 +48,15 @@
  font-size: 14.5px;
 
 }
+
+.lbl-small > div:nth-of-type(1),
+.lbl-medium > div:nth-of-type(1),
+.lbl-big > div:nth-of-type(1) {
+
+ font-size: 14.5px;
+
+}
+
 
 /* --------------------------------------------------------------- */
 /* Small | Label
@@ -69,7 +77,7 @@
 
 .lbl-medium {
 
-  height: 2.6em;
+  height: 2.8em;
   padding: 0 .8em;
 
   border-radius: .6em;

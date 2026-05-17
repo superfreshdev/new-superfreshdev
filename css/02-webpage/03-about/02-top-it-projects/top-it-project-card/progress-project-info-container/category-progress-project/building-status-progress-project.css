@@ -1,0 +1,113 @@
+/* --------------------------------------------------------------- */
+/* > building-status-progress-project.css
+/*
+/* : styles building status boxes
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Building Status Container | Category Progress Project
+/* --------------------------------------------------------------- */
+
+.category-progress-project-building-status-now-container,
+.category-progress-project-building-status-next-container,
+.category-progress-project-building-status-done-container {
+
+  display: grid;
+  row-gap: 1em;
+
+  background-color: white;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Building Status Boxes
+/* --------------------------------------------------------------- */
+
+.category-progress-project-building-status-now-container > header,
+.category-progress-project-building-status-next-container > header,
+.category-progress-project-building-status-done-container > header {
+
+  justify-self: flex-start;
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+
+  font-weight: bold;
+
+  border-radius: .4em;
+
+}
+
+/* div */
+.category-progress-project-building-status-now-container > header > div,
+.category-progress-project-building-status-next-container > header > div,
+.category-progress-project-building-status-done-container > header > div {
+
+  font-size: 13.5px;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Main | Building Status Boxes
+/* --------------------------------------------------------------- */
+
+.category-progress-project-building-status-now-container > main,
+.category-progress-project-building-status-next-container > main,
+.category-progress-project-building-status-done-container > main {
+
+  padding: 0 .3em;
+
+  display: grid;
+  row-gap: .5em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Now | Builind Status Box
+/* --------------------------------------------------------------- */
+
+.category-progress-project-building-status-now-container > header {
+
+  /* border: 1px solid rgb(188, 188, 188); */
+
+   /* border: 1px solid rgb(174, 174, 174); */
+   background-color: rgb(255, 227, 86);
+   color: rgb(142, 119, 5);
+
+  opacity: .8;
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Next | Builind Status Box
+/* --------------------------------------------------------------- */
+
+.category-progress-project-building-status-next-container > header {
+
+  /* border: 1px solid rgb(174, 174, 174); */
+  background-color: #dcdcdc;
+  color:#808080;
+
+  opacity: .8;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Done | Builind Status Box
+/* --------------------------------------------------------------- */
+
+.category-progress-project-building-status-done-container > header {
+
+  /* border: 1px solid rgb(174, 174, 174); */
+  background-color: rgb(139, 250, 139);
+  color: rgb(5, 103, 15);
+
+  opacity: .8;
+
+}

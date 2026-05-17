@@ -39,35 +39,23 @@
 
   border-radius: .6em;
 
-
-  /* background-color: #aeb7bf; */
-
-  background-color: rgb(55, 55, 55);
-  color:rgb(157, 157, 157);
-
-  background-color: rgb(181, 181, 181);
-  color:rgb(55, 55, 55);
-
-  background-color: transparent;
-  background-color: rgb(48, 48, 48);
-
-  border: 2px solid rgb(44, 44, 44);
-  color:rgb(170, 170, 170);
-
-
   background-color: rgb(33, 33, 33);
+
   color: rgb(201, 200, 200);
+
+  color: rgb(99, 99, 99);
+
   border: 1px solid rgb(63, 63, 63);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
-  opacity: 1;
+  opacity: .6;
 
 }
 
 /* img */
 #quick-info-text-about-container > header > img:nth-of-type(1) {
 
-  opacity: .6;
+  opacity: .4;
 }
 
 /* div 1 */

@@ -11,8 +11,9 @@
 
 .lbl-transparent {
 
-  background-color: rgb(33, 33, 33);
-  color: rgb(201, 200, 200);
+  /* background-color: rgb(33, 33, 33); */
+
+  color:rgb(108, 108, 108);
 
   border: 1px solid rgb(63, 63, 63);
 
@@ -22,6 +23,33 @@
 
 /* hover */
 .lbl-transparent:hover {
+
+  background-color: wheat;
+  color:black;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Label Transparent Light
+/* --------------------------------------------------------------- */
+
+
+.lbl-transparent-light {
+
+  /* background-color: rgb(33, 33, 33); */
+
+  color:rgb(144, 144, 144);
+
+  background-color: rgba(25, 25, 25, 1);
+
+  border: 1px solid rgb(63, 63, 63);
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+/* hover */
+.lbl-transparent-light:hover {
 
   background-color: wheat;
   color:black;

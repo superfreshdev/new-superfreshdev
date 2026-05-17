@@ -26,7 +26,7 @@
 /* --------------------------------------------------------------- */
 
 .info-status-in-progress,
-.info-status-to-do,
+.info-status-coming-next,
 .info-status-later,
 .info-status-finished {
 
@@ -44,7 +44,7 @@
 
 /* div */
 .info-status-in-progress > div,
-.info-status-to-do > div,
+.info-status-coming-next > div,
 .info-status-later > div,
 .info-status-finished > div {
 
@@ -55,7 +55,7 @@
 
 /* img */
 .info-status-in-progress > img,
-.info-status-to-do > img,
+.info-status-coming-next > img,
 .info-status-later > img,
 .info-status-finished > img {
 
@@ -70,10 +70,8 @@
 .info-status-in-progress {
 
   /* border: 1px solid rgb(229, 49, 49); */
-  background-color: rgb(251, 133, 133);
-  background-color: rgb(255, 192, 192);
-
-  color: rgb(169, 31, 31);
+  background-color: rgb(255, 227, 86);
+  color: rgb(142, 119, 5);
 
 }
 
@@ -100,56 +98,43 @@
 @keyframes anim-status-in-progress {
 
   0% {
-    /* background-color: rgb(230, 230, 230); */
-    background-color: rgb(255, 179, 179);
+
+    background-color: rgb(255, 242, 180);
   }
 
   50% {
 
-    background-color: rgb(251, 133, 133);
-    /* background-color: rgb(255, 192, 192); */
+
+    background-color: rgb(255, 227, 86);
+
 
   }
 
   100% {
 
-    /* background-color: rgb(230, 230, 230); */
-    background-color: rgb(255, 179, 179);
-    /* color:rgb(73, 73, 73); */
+    background-color: rgb(255, 242, 180);
+
   }
 
 
 }
 
-
 /* --------------------------------------------------------------- */
-/* To Do
-/* --------------------------------------------------------------- */
-
-.info-status-to-do {
-
-  /* border: 1px solid rgb(209, 174, 0); */
-  background-color: rgb(255, 227, 86);
-
-  color: rgb(142, 119, 5);
-
-}
-
-/* img layout pos fix */
-.info-status-to-do > img {
-
-  margin-top: 2px;
-
-}
-
-/* --------------------------------------------------------------- */
-/* Later
+/* Coming Next, Later
 /* --------------------------------------------------------------- */
 
+.info-status-coming-next,
 .info-status-later {
 
   background-color: rgb(205, 205, 205);
   color: rgb(94, 94, 94);
+
+}
+
+/* img layout pos fix */
+.info-status-coming-next > img {
+
+  margin-top: 2px;
 
 }
 

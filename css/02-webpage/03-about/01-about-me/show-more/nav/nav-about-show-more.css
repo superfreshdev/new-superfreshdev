@@ -23,3 +23,33 @@
   row-gap: .4em;
 
 }
+
+/* img white opacity */
+#nav-about-show-more > label > img:nth-of-type(1) {
+
+  opacity: .8;
+
+}
+
+
+/* default unshown black img, change only by check */
+#nav-about-show-more > label > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* hover - unshown white img */
+#nav-about-show-more > label:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+
+/* hover - show black img */
+#nav-about-show-more >  label:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}
