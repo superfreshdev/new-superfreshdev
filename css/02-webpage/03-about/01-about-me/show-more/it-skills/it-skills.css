@@ -226,7 +226,7 @@
 }
 
 /* div 1 */
-.link-it-skill-about > div:nth-of-type(1) {
+.link-it-skill-about > div {
 
   font-size: 14.5px;
 
@@ -264,6 +264,7 @@
   column-gap: .3em;
 
 }
+
 
 /* --------------------------------------------------------------- */
 /* Animation | Learning Process It Skills
