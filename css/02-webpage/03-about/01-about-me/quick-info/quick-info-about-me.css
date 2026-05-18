@@ -43,7 +43,7 @@
 
   color: rgb(201, 200, 200);
 
-  color: rgb(99, 99, 99);
+  /* color: rgb(99, 99, 99); */
 
   border: 1px solid rgb(63, 63, 63);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -55,7 +55,7 @@
 /* img */
 #quick-info-text-about-container > header > img:nth-of-type(1) {
 
-  opacity: .4;
+  opacity: .8;
 }
 
 /* div 1 */
@@ -73,13 +73,17 @@
 #quick-info-text-about-container > main {
 
   /* mobile */
-  text-align: center;
+  /* text-align: center; */
 
   width: 90%;
+  padding-left: .4em;
 
   color: rgb(131, 131, 131);
 
+  color:rgb(187, 187, 187);
+
   /* background-color: red; */
+  font-style: italic;
 
 }
 

@@ -127,7 +127,9 @@
 
   #quick-info-text-about-container > main {
 
-    width: 24em;
+    width: 22em;
+    /* background-color: red; */
+
 
   }
 
@@ -165,7 +167,8 @@
 
   #quick-info-text-about-container > main {
 
-    width: 30em;
+    width: 26em;
+    text-align: center;
 
   }
 
