@@ -334,7 +334,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+
+  /* without details at first */
+  justify-content: flex-end;
+  /* justify-content: space-between; */
+
   column-gap: .8em;
   row-gap: .4em;
 

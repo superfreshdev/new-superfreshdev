@@ -74,9 +74,9 @@
 
       "footer": {
 
-        "footerShow": "false",
+        "footerShow": "true",
 
-        "zipGitHubShow": "false",
+        "zipGitHubShow": "true",
         "zipLink": "⭐⭐⭐",
         "githubLink": "🤡🤡🤡",
 
@@ -96,10 +96,10 @@
       "status": {
 
         "statusShow": "true",
-        "cssClassStatus": "info-status-later",
-        "iconName": "black-calendar.png",
-        "cssClassIcon": "img-h-0-9",
-        "statusTitle": "Later"
+        "cssClassStatus": "info-status-done",
+        "iconName": "black-small-correct.png",
+        "cssClassIcon": "img-h-0-6",
+        "statusTitle": "Done"
 
       },
 

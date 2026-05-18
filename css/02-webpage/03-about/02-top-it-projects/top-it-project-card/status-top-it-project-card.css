@@ -28,7 +28,7 @@
 .info-status-in-progress,
 .info-status-coming-next,
 .info-status-later,
-.info-status-finished {
+.info-status-done {
 
   height: 1.8em;
   padding: 0 .6em;
@@ -46,7 +46,7 @@
 .info-status-in-progress > div,
 .info-status-coming-next > div,
 .info-status-later > div,
-.info-status-finished > div {
+.info-status-done > div {
 
   font-weight: bold;
   font-size: 12.5px;
@@ -57,7 +57,7 @@
 .info-status-in-progress > img,
 .info-status-coming-next > img,
 .info-status-later > img,
-.info-status-finished > img {
+.info-status-done > img {
 
  opacity: .6;
 
@@ -139,10 +139,10 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Finished
+/* Done
 /* --------------------------------------------------------------- */
 
-.info-status-finished {
+.info-status-done {
 
   background-color: rgb(153, 251, 153);
 
