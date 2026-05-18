@@ -22,7 +22,9 @@
   row-gap: 4em;
 
   border-radius: 1.3em;
-  background-color: white;
+
+  background-color: rgba(47, 47, 47, .6);
+  border: 4px solid rgb(60, 79, 107);
 
   /* default unshown */
   display: none;
@@ -105,9 +107,8 @@
 
   font-weight: bold;
 
-  border: 1px solid rgb(223, 223, 223);
-  background-color: rgb(250, 250, 250);
-  color: rgb(198, 198, 198);
+  border: 2px solid rgb(138, 138, 138);
+  color:rgb(138, 138, 138);
 
 }
 
@@ -132,10 +133,8 @@
 
   font-weight: bold;
 
-  border: 1px solid rgb(223, 223, 223);
-  border-radius: .4em;
-
-  color: rgb(198, 198, 198);
+  /* border: 2px solid rgb(138, 138, 138); */
+  color:rgb(138, 138, 138);
 
 }
 
@@ -156,6 +155,8 @@
 
   color: rgb(144, 144, 144);
 
+  color:rgb(229, 229, 229);
+
 }
 
 /* --------------------------------------------------------------- */
@@ -171,8 +172,12 @@
   /* object-fit: fill; */
   /* object-fit: contain; */
   border-radius: 1em;
+
+  border: 4px solid rgba(87, 87, 87, .3);
+
+  /* border: 4px solid rgb(60, 79, 107); */
+
   /* border: 4px solid #444444; */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
@@ -208,8 +213,8 @@
 
   font-weight: bold;
 
-  background-color: rgb(239, 239, 239);
-  color:grey;
+
+  color:rgb(138, 138, 138);
 
 }
 
@@ -217,7 +222,7 @@
 #mindset-quote-container > img {
 
   height: 2.5em;
-  opacity: .1;
+  opacity: .3;
 
 }
 
@@ -235,11 +240,14 @@
 #mindset-quote-container > div:nth-of-type(1),
 #mindset-quote-container > div:nth-of-type(3) {
 
+  /* border: 2px solid rgb(138, 138, 138); */
 
 }
 
 /* div 2 */
 #mindset-quote-container > div:nth-of-type(2) {
+
+  /* border: 2px solid wheat; */
 
   background-color: wheat;
   color:black;

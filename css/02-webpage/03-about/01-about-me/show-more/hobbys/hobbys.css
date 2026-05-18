@@ -19,7 +19,9 @@
   justify-items: center;
 
   border-radius: 1.3em;
-  background-color: white;
+
+  background-color: rgba(47, 47, 47, .6);
+  border: 4px solid rgb(60, 79, 107);
 
   /* default unshown */
   display: none;
