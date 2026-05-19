@@ -1,0 +1,104 @@
+/* --------------------------------------------------------------- */
+/* > to-do-mini-projects.css
+/*
+/* : styles to do mini projects
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Status | Now, Next, Later, Done, Future Idea
+/* -------------------------------------------------------------- */
+
+.status-to-do-project-now,
+.status-to-do-project-next,
+.status-to-do-project-later,
+.status-to-do-project-done,
+.status-to-do-project-future-idea {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: .4em;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+}
+
+.status-to-do-project-now > div,
+.status-to-do-project-next > div,
+.status-to-do-project-later > div,
+.status-to-do-project-done > div,
+.status-to-do-project-future-idea > div {
+
+  font-size: 14.5px;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Now
+/* -------------------------------------------------------------- */
+
+.status-to-do-project-now {
+
+  animation: anim-status-in-progress 1.3s infinite reverse ease-in-out;
+
+  background-color: rgb(255, 227, 86);
+  color: rgb(142, 119, 5);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Later, Future Idea
+/* -------------------------------------------------------------- */
+
+.status-to-do-project-later,
+.status-to-do-project-future-idea {
+
+  border: 1px solid rgb(203, 203, 203);
+  color:rgb(87, 87, 87);
+  opacity: .6;
+
+}
+
+/* black img */
+.status-to-do-project-later > img,
+.status-to-do-project-future-idea > img {
+
+  opacity: .6;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Next
+/* -------------------------------------------------------------- */
+
+.status-to-do-project-next {
+
+  background-color: #cdcdcd;
+  color:rgb(87, 87, 87);
+
+}
+
+/* black img */
+.status-to-do-project-next > img {
+
+  opacity: .6;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Done
+/* -------------------------------------------------------------- */
+
+.status-to-do-project-done {
+
+  background-color: green;
+  color:yellow;
+
+}

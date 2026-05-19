@@ -55,7 +55,7 @@
       "status": {
 
         "statusShow": "true",
-        "cssClassStatus": "info-status-coming-next",
+        "cssClassStatus": "info-status-next",
         "iconName": "black-arrow-right.png",
         "cssClassIcon": "img-h-0-6",
         "statusTitle": "Next"

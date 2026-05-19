@@ -1,0 +1,490 @@
+{
+
+  "defaults": {
+
+    "srcs": {
+
+      "imgs": "media/imgs/content/02-more-it/mini-games/",
+      "icons": "media/imgs/icons/02-icon-colors/01-black/"
+
+    },
+
+    "cssClasses": {
+
+      "projectToDo_item_content": "project-to-do-item-content",
+      "projectToDo_item_content_nrStatusHeader": "project-to-do-item-nr-status-header",
+
+      "projectToDo_item_media": "project-to-do-item-media"
+
+    }
+
+  },
+
+  "cards": [
+
+    {
+      "cssClass_project_item": "project-to-do-item",
+
+      "content": {
+
+        "nr": "",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-later",
+          "iconName": "black-calendar-2.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Later"
+
+        },
+
+        "text_header": "Tic Tac Toe",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "01-tictactoe/",
+        "imgName": "tictactoe.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item",
+
+      "content": {
+
+        "nr": "",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-later",
+          "iconName": "black-calendar-2.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Later"
+
+        },
+
+        "text_header": "4 Wins",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "02-4wins/",
+        "imgName": "4wins.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item",
+
+      "content": {
+
+        "nr": "",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-later",
+          "iconName": "black-calendar-2.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Later"
+
+        },
+
+        "text_header": "Tricky (Kniffel)",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "03-kniffel/",
+        "imgName": "kniffel.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item-future-idea",
+
+      "content": {
+
+        "nr": "?.",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-future-idea",
+          "iconName": "black-spiral.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Future Idea"
+
+        },
+
+        "text_header": "Checkers",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "04-checkers/",
+        "imgName": "checkers.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item-future-idea",
+
+      "content": {
+
+        "nr": "?.",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-future-idea",
+          "iconName": "black-spiral.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Future Idea"
+
+        },
+
+        "text_header": "Squirrel Game",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "05-squirrel-game/",
+        "imgName": "squirrel.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item-future-idea",
+
+      "content": {
+
+        "nr": "?.",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-future-idea",
+          "iconName": "black-spiral.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Future Idea"
+
+        },
+
+        "text_header": "Breakout",
+
+        "text_main": "Epic Steve Jobs Game (who knows who knows)"
+
+      },
+
+      "media": {
+
+        "imgPath": "06-steve-jobs-game/",
+        "imgName": "steve-jobs-game.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item-future-idea",
+
+      "content": {
+
+        "nr": "?.",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-future-idea",
+          "iconName": "black-spiral.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Future Idea"
+
+        },
+
+        "text_header": "Duo",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "07-duo/",
+        "imgName": "duo.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    },
+
+    {
+
+      "cssClass_project_item": "project-to-do-item-future-idea",
+
+      "content": {
+
+        "nr": "?.",
+        "statusItems": {
+
+          "cssClass_status": "status-to-do-project-future-idea",
+          "iconName": "black-spiral.png",
+          "cssClass_img": "img-h-0-8",
+          "text_status": "Future Idea"
+
+        },
+
+        "text_header": "Blobby Volleyball",
+
+        "text_main": ""
+
+      },
+
+      "media": {
+
+        "imgPath": "08-blobby/",
+        "imgName": "blobby.png",
+
+        "footer": [
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-gaming-controller.png",
+            "cssClass_img": "img-h-0-7",
+            "text_link": "Play"
+
+          },
+
+          {
+
+            "show": "false",
+            "href": "www-🥒🥒🥒",
+            "cssClass_link": "link-item-sfd-medium",
+            "iconName": "black-github.png",
+            "cssClass_img": "img-h-0-9",
+            "text_link": "GitHub"
+
+          }
+
+        ]
+
+      }
+
+
+    }
+
+  ]
+
+}

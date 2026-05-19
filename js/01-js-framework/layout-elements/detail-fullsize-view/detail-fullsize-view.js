@@ -1,4 +1,4 @@
-console.log("🟨 detail-fullsize-view.js")
+// console.log("🟨 detail-fullsize-view.js")
 
 
 /* ---------------------------------------------------------------------- */

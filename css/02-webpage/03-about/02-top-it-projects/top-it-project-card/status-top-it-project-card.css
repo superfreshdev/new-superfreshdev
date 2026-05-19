@@ -26,7 +26,7 @@
 /* --------------------------------------------------------------- */
 
 .info-status-in-progress,
-.info-status-coming-next,
+.info-status-next,
 .info-status-later,
 .info-status-done {
 
@@ -44,7 +44,7 @@
 
 /* div */
 .info-status-in-progress > div,
-.info-status-coming-next > div,
+.info-status-next > div,
 .info-status-later > div,
 .info-status-done > div {
 
@@ -55,7 +55,7 @@
 
 /* img */
 .info-status-in-progress > img,
-.info-status-coming-next > img,
+.info-status-next > img,
 .info-status-later > img,
 .info-status-done > img {
 
@@ -116,15 +116,13 @@
 
   }
 
-
 }
 
 /* --------------------------------------------------------------- */
-/* Coming Next, Later
+/*  Next
 /* --------------------------------------------------------------- */
 
-.info-status-coming-next,
-.info-status-later {
+.info-status-next {
 
   background-color: rgb(205, 205, 205);
   color: rgb(94, 94, 94);
@@ -135,6 +133,18 @@
 .info-status-coming-next > img {
 
   margin-top: 2px;
+
+}
+
+/* --------------------------------------------------------------- */
+/*  Later
+/* --------------------------------------------------------------- */
+
+.info-status-later {
+
+  border: 1px solid rgb(203, 203, 203);
+  color:rgb(87, 87, 87);
+  opacity: .6;
 
 }
 

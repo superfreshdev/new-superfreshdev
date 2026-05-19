@@ -21,6 +21,188 @@
 }
 
 /* -------------------------------------------------------------- */
+/* Project To Do Item & Future Idea
+/* -------------------------------------------------------------- */
+
+.project-to-do-item,
+.project-to-do-item-future-idea {
+
+  width: 100%;
+  padding: 1.3em 1.5em;
+
+  /* desktop */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+  /* mobile */
+  display: grid;
+  row-gap: .8em;
+
+  border-radius: 1em;
+  border: 1px dashed rgb(188, 188, 188);
+
+  background-color: white;
+
+  transition: all .4s;
+
+}
+
+/* no focus on future ideas */
+.project-to-do-item-future-idea {
+
+  opacity: .1;
+
+}
+
+/* hover */
+.project-to-do-item:hover,
+.project-to-do-item-future-idea:hover {
+
+  background-color: rgb(243, 243, 243);
+  background-color: rgb(247, 247, 247);
+  opacity: 1;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Content | Project To Do Item & Future Idea
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-content {
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header | Content
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-content > header {
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* title header */
+.project-to-do-item-content > header > div:last-child {
+
+  font-weight: bold;
+  font-size: 18px;
+
+  line-height: 1.4em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Nr Status Header
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-nr-status-header {
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+  /* background-color: red; */
+
+}
+
+/* nr */
+.project-to-do-item-nr-status-header > div:nth-of-type(1) {
+
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Main | Content
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-content > main {
+
+  color: #a8a8a8;;
+  line-height: 1.6em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Media | Project To Do Item & Future Idea
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-media {
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Img | Media
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-media > img {
+
+  height: 8em;
+
+  border-radius: .4em;
+  border: 3px solid rgb(225, 225, 225);
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Footer | Media
+/* -------------------------------------------------------------- */
+
+.project-to-do-item-media > footer {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .4em;
+
+  /* background-color: blue; */
+
+  /* display: none; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ❌❌❌ Trash */
+/* -------------------------------------------------------------- */
 /* To Do | In Progress, To Do, Later, STatus
 /* -------------------------------------------------------------- */
 

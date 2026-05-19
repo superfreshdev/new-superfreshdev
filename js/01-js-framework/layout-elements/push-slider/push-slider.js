@@ -137,7 +137,7 @@
   async function async_add_clickListeners_to_slide( clickElements, slides, currentIndex ) {
 
 
-    console.log("🟨 async_add_clickListeners_to_slide()")
+    // console.log("🟨 async_add_clickListeners_to_slide()")
 
       // css class: with or no anims effects
       var cssClass_withAnim = "push-content-slide-with-anim";
