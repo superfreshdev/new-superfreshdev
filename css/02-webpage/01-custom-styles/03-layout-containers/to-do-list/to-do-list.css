@@ -60,8 +60,13 @@
 .project-to-do-item:hover,
 .project-to-do-item-future-idea:hover {
 
-  background-color: rgb(243, 243, 243);
-  background-color: rgb(247, 247, 247);
+
+  background-color: rgb(228, 228, 228);
+
+  background-color: rgb(28, 28, 28);
+
+  background-color: rgb(235, 235, 235);
+
   opacity: 1;
 
 }

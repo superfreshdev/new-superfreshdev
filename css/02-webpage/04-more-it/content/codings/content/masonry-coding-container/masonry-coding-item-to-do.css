@@ -1,0 +1,150 @@
+/* --------------------------------------------------------------- */
+/* > masnory-coding-item-to-do.css
+/*
+/* : styles masonry coding item to do
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Masonry Coding Item To Do | Main
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-to-do {
+
+  width: 100%;
+  padding: 1em .8em;
+
+  display: grid;
+
+  transition: all .4s;
+
+}
+
+.masonry-coding-item-to-do:hover {
+
+  background-color: rgb(249, 249, 249);
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Content | Div 1 | Masonry Coding Item To Do | Main
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-to-do > div:nth-of-type(1) {
+
+  display: flex;
+  column-gap: .8em;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Header | Masonry Coding Item To Do
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-to-do > div:nth-of-type(1) > header {
+
+  /* layout fix */
+  padding-top: .3em;
+
+  display: flex;
+  column-gap: .8em;
+
+}
+
+/* nr */
+.masonry-coding-item-to-do > div:nth-of-type(1) >  header > div:nth-of-type(1) {
+
+  font-size: 12.5px;
+  font-weight: bold;
+
+  color:rgb(160, 160, 160);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Masonry Coding Item To Do
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-to-do > div:nth-of-type(1) > main {
+
+  line-height: 1.6em;
+
+  font-size: 14.5px;
+
+}
+
+/* div 1 - bold header */
+.masonry-coding-item-to-do > div:nth-of-type(1) > main > div:nth-of-type(1) {
+
+  font-weight: bold;
+  color:rgb(92, 92, 92);
+
+}
+
+/* div 2 - text header */
+.masonry-coding-item-to-do > div:nth-of-type(1) > main > div:nth-of-type(2) {
+
+  color:grey;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Footer | Masonry Coding Item To Do
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-to-do > footer {
+
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Link | Footer
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-to-do > footer > a {
+
+  text-decoration: none;
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .8em;
+
+  border: 1px solid rgb(216, 216, 216);
+  font-weight: bold;
+
+  opacity: .6;
+
+  transition: all .4s;
+
+}
+
+.masonry-coding-item-to-do > footer > a:hover {
+
+  background-color: wheat;
+  opacity: 1;
+
+}
+
+.masonry-coding-item-to-do > footer > a > img {
+
+  height: .8em;
+  opacity: .8;
+
+
+}
+
+.masonry-coding-item-to-do > footer > a > div {
+
+  font-size: 12.5px;
+  color: rgb(121, 121, 121);
+
+}

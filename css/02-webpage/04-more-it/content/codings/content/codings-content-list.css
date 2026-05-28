@@ -1,7 +1,8 @@
 /* --------------------------------------------------------------- */
 /* > codings-content-list.css
 /*
-/* : styles codings content
+/* : styles codings content list
+/* : tech - algos - leetcode - unshown
 /* --------------------------------------------------------------- */
 
 
@@ -12,6 +13,7 @@
 #codings-content-list-container {
 
   width: 100%;
+  /* padding: 0 1.5em; */
 
   /* background-color: red; */
   background-color: white;
@@ -19,69 +21,30 @@
 }
 
 /* -------------------------------------------------------------- */
-/* Coding Categories Containers
+/* Coding Content List Item
+/* -------------------------------------------------------------- */
+
+.coding-content-list-item {
+
+  height: 100%;
+
+  display: grid;
+  grid: 1fr / 1fr;
+
+  /* background-color: blue; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* All | Coding Content Container
+/* : tech - algos - leetcode - unshown
 /* -------------------------------------------------------------- */
 
 #coding-tech-container,
 #coding-algos-container,
 #coding-leetcode-container {
 
-
-
- padding: 0 1.5em;
-
-
-
-  display: grid;
-
   /* default unshown, only by check */
-  display: none;
-
-}
-
-
-/* -------------------------------------------------------------- */
-/* Coding Tech Categories
-/* -------------------------------------------------------------- */
-
-/* exercices categories */
-#coding-tech-java-container,
-#coding-tech-spring-boot-container,
-#coding-tech-microservices-container,
-#coding-tech-angular-container,
-#coding-tech-python-container,
-#coding-tech-react-native-container {
-
-  display: grid;
-
-  /* default unshown */
-  display: none;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Coding Algos Categories
-/* -------------------------------------------------------------- */
-
-#coding-algos-basic-container,
-#coding-algos-advanced-container {
-
-  display: grid;
-
-  /* default unshown */
-  display: none;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Coding LeetCode Categories
-/* -------------------------------------------------------------- */
-
-#coding-leetcode-container {
-
-  display: grid;
-
-  /* default unshown */
   display: none;
 
 }

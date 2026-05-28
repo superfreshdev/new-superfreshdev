@@ -1,0 +1,54 @@
+/* --------------------------------------------------------------- */
+/* > resp-codings.css
+/*
+/* : styles resp codings
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* > 800px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+
+  .coding-content-category-container > header {
+
+    width: 70%;
+
+    /* background-color: yellow; */
+
+  }
+
+  /* -------------------------------------------------------------- */
+  /* Header Content Coding Container
+  /* -------------------------------------------------------------- */
+
+  .header-coding-category {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: .8em;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* > 900px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 900px) {
+
+   .coding-content-category-container > header {
+
+    width: 45em;
+
+    /* background-color: rgb(110, 110, 110); */
+    /* background-color: red; */
+
+  }
+
+
+}

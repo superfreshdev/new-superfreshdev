@@ -288,21 +288,21 @@
 
           <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/codings.css">
 
-          <!-- nav handlings | default -->
+          <!-- nav - default -->
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/nav/nav-codings.css">
           <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/nav/handling-nav-codings.css">
 
-          <!-- nav content-->
-          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/nav/nav-content/nav-coding-category.css">
+          <!-- nav content - tech -->
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/nav/nav-content/nav-coding-tech.css">
           <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/nav/nav-content/handling-nav-coding-tech.css">
 
           <!-- content -->
           <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-content-list.css">
-          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-content.css">
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-content-category.css">
 
-          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/resp-coding-content-container.css">
-
-          <!-- mansory category task container -->
-          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/mansory-category-task-container/mansory-category-task-container.css">
+          <!-- mansory coding container -->
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/masonry-coding-container/masonry-coding-container.css">
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/masonry-coding-container/masonry-coding-item-to-do.css">
 
           <!--❌ delete | coding tutorial list -->
           <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/coding-task-list-container/coding-task-list-container.css">
@@ -4381,7 +4381,7 @@
               <input  type="radio" id="radio-nav-codings-unshown" name="name-radio-nav-codings">
 
               <!-- Sub Radios - Tech - Coding More IT -->
-              <input  type="radio" id="radio-nav-codings-tech-java" name="name-radio-nav-codings-tech">
+              <input checked type="radio" id="radio-nav-codings-tech-java" name="name-radio-nav-codings-tech">
               <input  type="radio" id="radio-nav-codings-tech-spring-boot" name="name-radio-nav-codings-tech">
               <input  type="radio" id="radio-nav-codings-tech-microservices" name="name-radio-nav-codings-tech">
               <input  type="radio" id="radio-nav-codings-tech-angular" name="name-radio-nav-codings-tech">
@@ -4397,7 +4397,7 @@
                 <!-- --------------------------------------------------------------- -->
                 <!-- 🟩 [1/2] | Nav List Codings More It  -->
                 <!-- --------------------------------------------------------------- -->
-                <div class="row-container bg-x">
+                <div class="row-container">
 
                   <!-- --------------------------------------------------------------- -->
                   <!-- Nav List Codings More It  -->
@@ -4686,19 +4686,21 @@
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟥 [1/4] | Coding | tech Container -->
                     <!-- ----------------------------------------------------------- -->
-                    <div id="coding-tech-container">
+                    <div class="coding-content-list-item" id="coding-tech-container">
 
                       <!-- --------------------------------------------------------------- -->
                       <!-- 🟨 Java | tech Container -->
                       <!-- --------------------------------------------------------------- -->
-                      <div class="coding-content-container" id="coding-tech-java-container">
+                      <div class="coding-content-category-container" id="coding-tech-java-container">
+
+                        <!-- 💛 js dyn. creating -->
 
                         <!-- ------------------------------------------------------------------ -->
                         <!-- ➡️🟥 [1/3] | Header -->
                         <!-- ------------------------------------------------------------------ -->
                         <header>
 
-                          <!-- status header -->
+                          <!-- status - header -->
                           <div class="status-item-in-progress anim-status-in-progress">
 
                             <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
@@ -4706,8 +4708,8 @@
 
                           </div>
 
-                          <!-- header content -->
-                          <div class="header-content-coding-container">
+                          <!-- title - header -->
+                          <div class="header-coding-category">
 
                             <!-- col 1 | img + title -->
                             <div>
@@ -4741,25 +4743,302 @@
                         <!-- ------------------------------------------------------------------ -->
                         <!-- 🟥 [2/3] | Seperator -->
                         <!-- ------------------------------------------------------------------ -->
-                        <div class="line-seperator-coding-content-container"></div>
+                        <div class="line-seperator-coding-category"></div>
 
                         <!-- ------------------------------------------------------------------ -->
                         <!-- 🟥 [3/3] | Mansory Category Task Container -->
                         <!-- ------------------------------------------------------------------ -->
-                        <div class="mansory-category-task-list" id="mansory-tech-java-container">
+                        <div class="masonry-coding-container" id="masonry-tech-java-container">
 
-                          <!-- div 1 -->
-                          <div style="background-color: rgb(255, 173, 173);">
-                            <div>Link 1</div>
-                            <div>Link 1</div>
-                            <div>Link 1</div>
-                            <div>Link 1</div>
-                            <div>Link 1</div>
-                            <div>Link 1</div>
+                          <!-- ➡️🟥 div 1 -->
+                          <div class="masonry-coding-item">
+
+                            <!-- 🟩 header -->
+                            <header>
+
+                              <!-- title -->
+                              <div>
+
+                                <!-- status block -->
+                                <div class="status-item-in-progress">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
+                                  <!-- <div>in progress</div> -->
+
+                                </div>
+
+                                <div>
+                                  Collections, Streams, Lamdas, Interface, Wrapper Classes, und so weiter,
+                                  jetzt stellen wir uns das länger vor
+                                </div>
+
+
+                              </div>
+
+                              <!-- task counter -->
+                              <div>
+                                <div>
+                                  <span>6</span>
+                                  <span>- Tasks</span>
+                                </div>
+                              </div>
+
+                            </header>
+
+                            <!-- main -->
+                            <main>
+
+                                <!-- item 1 -->
+                                <div class="masonry-coding-item-to-do">
+
+
+                                  <!-- content ( nr + content) -->
+                                  <div>
+
+                                    <!-- ➡️🟥 nr + status - block -->
+                                    <header>
+
+                                      <!-- nr -->
+                                      <div>
+                                        01.
+                                      </div>
+
+                                      <!-- status block -->
+                                      <div class="status-item-in-progress">
+
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
+                                        <!-- <div>in progress</div> -->
+
+                                      </div>
+
+                                    </header>
+
+                                    <!-- 🟥 title - block -->
+                                    <main>
+
+                                      <!-- bold header -->
+                                      <div>Stream Filter + Map Pipeline</div>
+
+                                      <!-- text header -->
+                                      <div>Filter eine Liste von einem
+                                        Text und so kann es weiter gehen wenn du verstehst was ich meine
+                                      </div>
+
+                                    </main>
+
+                                  </div>
+
+                                  <!-- github link - footer -->
+                                  <footer>
+
+                                    <a href=""
+                                       target="_blank">
+
+                                       <!-- img -->
+                                       <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                       <!-- github -->
+                                       <div>GitHub</div>
+
+                                    </a>
+
+
+                                  </footer>
+
+
+                                </div>
+
+                                <!-- item 2 -->
+                                <div class="masonry-coding-item-to-do">
+
+
+                                  <!-- content ( nr + content) -->
+                                  <div>
+
+                                    <!-- ➡️🟥 nr + status - block -->
+                                    <header>
+
+                                      <!-- nr -->
+                                      <div>
+                                        02.
+                                      </div>
+
+                                      <!-- status block -->
+                                      <div class="status-item-in-progress">
+
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
+                                        <!-- <div>in progress</div> -->
+
+                                      </div>
+
+                                    </header>
+
+                                    <!-- 🟥 title - block -->
+                                    <main>
+
+                                      <!-- bold header -->
+                                      <div>Stream Filter + Map Pipeline</div>
+
+                                      <!-- text header -->
+                                      <div>Filter eine Liste von einem
+                                        Text und so kann es weiter gehen wenn du verstehst was ich meine
+                                      </div>
+
+                                    </main>
+
+                                  </div>
+
+                                  <!-- github link - footer -->
+                                  <footer>
+
+                                    <a href=""
+                                       target="_blank">
+
+                                       <!-- img -->
+                                       <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                       <!-- github -->
+                                       <div>GitHub</div>
+
+                                    </a>
+
+
+                                  </footer>
+
+
+                                </div>
+
+                                <!-- item 3 -->
+                                <div class="masonry-coding-item-to-do">
+
+
+                                  <!-- content ( nr + content) -->
+                                  <div>
+
+                                    <!-- ➡️🟥 nr + status - block -->
+                                    <header>
+
+                                      <!-- nr -->
+                                      <div>
+                                        01.
+                                      </div>
+
+                                      <!-- status block -->
+                                      <div class="status-item-in-progress">
+
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
+                                        <!-- <div>in progress</div> -->
+
+                                      </div>
+
+                                    </header>
+
+                                    <!-- 🟥 title - block -->
+                                    <main>
+
+                                      <!-- bold header -->
+                                      <div>Stream Filter + Map Pipeline</div>
+
+                                      <!-- text header -->
+                                      <div>Filter eine Liste von einem
+                                        Text und so kann es weiter gehen wenn du verstehst was ich meine
+                                      </div>
+
+                                    </main>
+
+                                  </div>
+
+                                  <!-- github link - footer -->
+                                  <footer>
+
+                                    <a href=""
+                                       target="_blank">
+
+                                       <!-- img -->
+                                       <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                       <!-- github -->
+                                       <div>GitHub</div>
+
+                                    </a>
+
+
+                                  </footer>
+
+
+                                </div>
+
+                                <!-- item 4 -->
+                                 <div class="masonry-coding-item-to-do">
+
+
+                                  <!-- content ( nr + content) -->
+                                  <div>
+
+                                    <!-- ➡️🟥 nr + status - block -->
+                                    <header>
+
+                                      <!-- nr -->
+                                      <div>
+                                        01.
+                                      </div>
+
+                                      <!-- status block -->
+                                      <div class="status-item-in-progress">
+
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
+                                        <!-- <div>in progress</div> -->
+
+                                      </div>
+
+                                    </header>
+
+                                    <!-- 🟥 title - block -->
+                                    <main>
+
+                                      <!-- bold header -->
+                                      <div>Stream Filter + Map Pipeline</div>
+
+                                      <!-- text header -->
+                                      <div>Filter eine Liste von einem
+                                        Text und so kann es weiter gehen wenn du verstehst was ich meine -
+                                        jetzt stell dir vor, dieser Text könnte noch länger gehen was dann (Java)
+                                      </div>
+
+                                    </main>
+
+                                  </div>
+
+                                  <!-- github link - footer -->
+                                  <footer>
+
+                                    <a href=""
+                                       target="_blank">
+
+                                       <!-- img -->
+                                       <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                       <!-- github -->
+                                       <div>GitHub</div>
+
+                                    </a>
+
+
+                                  </footer>
+
+
+                                </div>
+
+                            </main>
+
                           </div>
 
                           <!-- div 2 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 2</div>
                             <div>Link 2</div>
                             <div>Link 2</div>
@@ -4769,7 +5048,7 @@
                           </div>
 
                           <!-- div 3 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 3</div>
                             <div>Link 3</div>
                             <div>Link 3</div>
@@ -4779,7 +5058,7 @@
                           </div>
 
                           <!-- div 4 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 4</div>
                             <div>Link 4</div>
                             <div>Link 4</div>
@@ -4802,7 +5081,7 @@
                       <!-- --------------------------------------------------------------- -->
                       <!-- 🟨 Spring Boot | tech Container -->
                       <!-- --------------------------------------------------------------- -->
-                      <div class="coding-content-container" id="coding-tech-spring-boot-container">
+                      <div class="coding-content-category-container" id="coding-tech-spring-boot-container">
 
                         <!-- ------------------------------------------------------------------ -->
                         <!-- ➡️🟥 [1/3] | Header -->
@@ -4818,7 +5097,7 @@
                           </div>
 
                           <!-- header content -->
-                          <div class="header-content-coding-container">
+                          <div class="header-coding-category">
 
                             <!-- col 1 | img + title -->
                             <div>
@@ -4852,15 +5131,15 @@
                         <!-- ------------------------------------------------------------------ -->
                         <!-- 🟥 [2/3] | Seperator -->
                         <!-- ------------------------------------------------------------------ -->
-                        <div class="line-seperator-coding-content-container"></div>
+                        <div class="line-seperator-coding-category"></div>
 
                         <!-- ------------------------------------------------------------------ -->
                         <!-- 🟥 [3/3] | Mansory Category Task Container -->
                         <!-- ------------------------------------------------------------------ -->
-                        <div class="mansory-category-task-list" id="mansory-tech-spring-boot-container">
+                        <div class="masonry-coding-container" id="masonry-tech-spring-boot-container">
 
                           <!-- div 1 -->
-                          <div style="background-color: rgb(255, 228, 96);">
+                          <div class="masonry-coding-item" style="background-color: rgb(255, 228, 96);">
                             <div>Link 1</div>
                             <div>Link 1</div>
                             <div>Link 1</div>
@@ -4870,7 +5149,7 @@
                           </div>
 
                           <!-- div 2 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 2</div>
                             <div>Link 2</div>
                             <div>Link 2</div>
@@ -4880,7 +5159,7 @@
                           </div>
 
                           <!-- div 3 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 3</div>
                             <div>Link 3</div>
                             <div>Link 3</div>
@@ -4890,7 +5169,7 @@
                           </div>
 
                           <!-- div 4 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 4</div>
                             <div>Link 4</div>
                             <div>Link 4</div>
@@ -4906,14 +5185,14 @@
                           </div>
 
                           <!-- div 5 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 5</div>
                             <div>Link 5</div>
                             <div>Link 5</div>
                           </div>
 
                           <!-- div 6 -->
-                          <div>
+                          <div class="masonry-coding-item">
                             <div>Link 6</div>
                             <div>Link 6</div>
                             <div>Link 6</div>
@@ -4936,28 +5215,28 @@
                       <!-- --------------------------------------------------------------- -->
                       <!-- 🟥 Microservices | tech Container -->
                       <!-- --------------------------------------------------------------- -->
-                      <div id="coding-tech-microservices-container">
+                      <div class="coding-content-category-container" id="coding-tech-microservices-container">
                         Microservices tech Container
                       </div>
 
                       <!-- --------------------------------------------------------------- -->
                       <!-- 🟥 Angular | tech Container -->
                       <!-- --------------------------------------------------------------- -->
-                      <div id="coding-tech-angular-container">
+                      <div class="coding-content-category-container" id="coding-tech-angular-container">
                         Angular tech Container
                       </div>
 
                       <!-- --------------------------------------------------------------- -->
                       <!-- 🟥 Python | tech Container -->
                       <!-- --------------------------------------------------------------- -->
-                      <div id="coding-tech-python-container">
+                      <div class="coding-content-category-container" id="coding-tech-python-container">
                         Python tech Container
                       </div>
 
                       <!-- --------------------------------------------------------------- -->
                       <!-- 🟥 React Native | tech Container -->
                       <!-- --------------------------------------------------------------- -->
-                      <div id="coding-tech-react-native-container">
+                      <div  class="coding-content-category-container" id="coding-tech-react-native-container">
                         React Native tech Container
                       </div>
 
@@ -4966,16 +5245,23 @@
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟥 [2/4] | Coding | Algos Container -->
                     <!-- ----------------------------------------------------------- -->
-                    <div id="coding-algos-container">
+                    <div class="coding-content-list-item" id="coding-algos-container">
 
-                      Basics + Advanced - Box
+                      <div class="coding-content-category-container">
+
+                        header <br>
+                        line <br>
+                        Basics + Advanced - Box
+
+                      </div>
+
 
                     </div>
 
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟥 [3/4] | Coding | LeetCode Container -->
                     <!-- ----------------------------------------------------------- -->
-                    <div id="coding-leetcode-container">
+                    <div class="coding-content-list-item" id="coding-leetcode-container">
 
                       LeetCode - Easy - Medium - Hard
 
@@ -4984,7 +5270,7 @@
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟥 [4/4] | Coding | Unshown Container -->
                     <!-- ----------------------------------------------------------- -->
-                    <div id="coding-unshown-container">
+                    <div class="coding-content-list-item" id="coding-unshown-container">
 
                       <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
                         alt="img">
@@ -5622,8 +5908,10 @@
         <!-- push slider -->
         <script src="js/01-js-framework/layout-elements/push-slider/push-slider.js"></script>
 
-        <!-- mansory.js -->
-        <script src="js/01-js-framework/layout-elements/mansory/mansory.js"></script>
+        <!-- masonry.js - Library -->
+        <script src="js/01-js-framework/layout-elements/masonry/masonry-system.js"></script>
+        <script src="js/01-js-framework/layout-elements/masonry/masonry-help-functions.js"></script>
+        <script src="js/01-js-framework/layout-elements/masonry/masonry-layout-functions.js"></script>
 
 
     <!-- ------------------------------------------------------------------------ -->
