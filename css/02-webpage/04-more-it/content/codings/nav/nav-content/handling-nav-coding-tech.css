@@ -1,0 +1,67 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-coding-tech.css
+/*
+/* : styles handling nav coding tech
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Handlings
+/* --------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-nav-codings-tech"] {
+
+  display: none;
+
+}
+
+/* background color */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"],
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"],
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"],
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"],
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"],
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] {
+
+  background-color: wheat;
+  color: black;
+
+}
+
+/* unshow grey img */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"]  > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* unshow black img */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:nth-of-type(1) > img:nth-of-type(2) {
+
+ display: flex;
+
+}
+
+
+/* show content */
+#radio-nav-codings-tech-java:checked ~ #codings-container .resp-content-container-big #coding-tech-java-container,
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container .resp-content-container-big #coding-tech-spring-boot-container,
+#radio-nav-codings-tech-microservices:checked ~ #codings-container .resp-content-container-big #coding-tech-microservices-container,
+#radio-nav-codings-tech-angular:checked ~ #codings-container .resp-content-container-big #coding-tech-angular-container,
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container .resp-content-container-big #coding-tech-python-container,
+#radio-nav-codings-tech-react-native:checked ~ #codings-container .resp-content-container-big #coding-tech-react-native-container {
+
+ display: grid;
+
+}

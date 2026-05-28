@@ -1,0 +1,208 @@
+/* --------------------------------------------------------------- */
+/* > coding-task-container.css
+/*
+/* : styles codings
+/* --------------------------------------------------------------- */
+
+/* .status-to-do-project-now,
+.status-to-do-project-next,
+.status-to-do-project-later,
+.status-to-do-project-done,
+.status-to-do-project-future-idea  */
+
+/* -------------------------------------------------------------- */
+/* Coding Category Task Container
+/* -------------------------------------------------------------- */
+
+.coding-category-task-container {
+
+  /* padding: 1em 0; */
+
+  /* background-color: green; */
+
+  /* border: 1px solid black; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header | Coding Category Task Container
+/* -------------------------------------------------------------- */
+
+.coding-category-task-container > header {
+
+  padding: .8em .8em;
+
+  line-height: 1.5em;
+
+  border-radius: .8em;
+
+  font-weight: bold;
+
+  color:grey;
+  background-color: rgb(244, 244, 244);
+
+}
+
+/* img */
+.coding-category-task-container > header > img:nth-of-type(1) {
+
+  /* layout fix */
+  position: relative;
+  top: .3em;
+
+  margin-right: .4em;
+  margin-bottom: .4em;
+
+  float: left;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Main | Coding Category Task Container
+/* -------------------------------------------------------------- */
+
+.coding-category-task-container > main {
+
+  padding: 1.5em .4em;
+
+}
+
+/* line seperator coding section */
+.line-seperator-coding-section {
+
+  margin: 1.5em 0;
+
+  width: 100%;
+  height: .1em;
+
+  border-radius: 1em;
+
+  background-color: rgb(241, 241, 241);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding Category Task Box | Main
+/* -------------------------------------------------------------- */
+
+.coding-category-task-box {
+
+  display: grid;
+  row-gap: 1em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding Category Task Item
+/* -------------------------------------------------------------- */
+
+.coding-category-task-item {
+
+  display: grid;
+  align-items: flex-start;
+
+  grid: auto / auto 1fr;
+  column-gap: 1em;
+
+}
+
+/* div 1 ( nr + status ) */
+.coding-category-task-item > div:nth-of-type(1) {
+
+  /* layout fix */
+  margin-top: .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* nr */
+.coding-category-task-item > div:nth-of-type(1) > div:nth-of-type(1) {
+
+ font-weight: bold;
+ color:grey;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Link | Coding Category Task Box
+/* -------------------------------------------------------------- */
+
+.coding-category-task-item > a {
+
+  color:rgb(176, 176, 176);
+
+  text-decoration: none;
+
+
+}
+
+.coding-category-task-item > a:hover  {
+
+  color:black;
+  text-decoration: underline;
+
+}
+
+
+/* div 1 (status) */
+
+.coding-category-task-box > a > div:nth-of-type(1) {
+
+
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Status Fire
+/* -------------------------------------------------------------- */
+
+.status-fire {
+
+  height: 1.5em;
+  width: 1.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  background-color: rgb(255, 227, 86);
+  border: 1px solid rgb(167, 161, 78);
+
+}
+
+.status-fire img {
+
+  height: .8em;
+  opacity: .6;
+
+}
+
+
+.status-finished {
+
+  height: 1.5em;
+  width: 1.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  background-color: rgb(65, 210, 99);
+  border: 1px solid rgb(167, 161, 78);
+
+}
+
+.status-finished img {
+
+  height: .6em;
+  opacity: .4;
+
+}

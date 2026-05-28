@@ -1,0 +1,103 @@
+/* --------------------------------------------------------------- */
+/* > lbl-counter-on-light.css
+/*
+/* : styles label counter on light
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label Counter | on light
+/* --------------------------------------------------------------- */
+
+.lbl-counter-on-light {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(203, 203, 203);
+
+  color:rgb(124, 124, 124);
+  background-color: rgb(237, 237, 237);
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+/* icons + title box */
+.lbl-counter-on-light > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* div 1 - title */
+.lbl-counter-on-light > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-size: 14.5px
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img 2 ( Black ) Default Unshown
+/* --------------------------------------------------------------- */
+
+.lbl-counter-on-light > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show black img by hover, unshown grey img
+/* ------------------------------------------------------------------------- */
+
+.lbl-counter-on-light:hover {
+
+  background-color: wheat;
+  color:black;
+
+}
+
+/* unshow grey img */
+.lbl-counter-on-light:hover > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show black img */
+.lbl-counter-on-light:hover > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: flex;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Label Content Items Counter
+/* -------------------------------------------------------------- */
+
+.lbl-content-items-counter-on-light {
+
+  height: 1.5em;
+  padding: 0 .2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.lbl-content-items-counter-on-light > div {
+
+  font-size: 14.5px;
+  color:rgb(125, 125, 125);
+  /* color:red; */
+
+}

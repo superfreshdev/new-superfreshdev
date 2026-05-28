@@ -6,24 +6,45 @@
 
 
 /* -------------------------------------------------------------- */
-/* Docs Container
+/* Codings Container
 /* -------------------------------------------------------------- */
 
 #codings-container {
 
   width: 100%;
-  padding: 1.5em 0em;
+  /* height: 100%; */
 
   display: grid;
-  align-items: flex-start;
-  grid: auto auto auto 1fr / 1fr;
+  justify-items: center;
+  align-content: flex-start;
 
+  grid: auto calc(1fr + 2em) / 1fr;
+
+  background-color: rgb(47, 47, 47);
+
+  background-color: white;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Nav List Codings More It
+/* -------------------------------------------------------------- */
+
+#nav-list-codings-more-it {
+
+  padding: 1.5em 0;
+
+  display: grid;
   row-gap: 1em;
 
-  /* border-left: 1px solid grey;
-  border-right: 1px solid grey; */
+  /* background-color: red; */
 
-  /* default unshown, by click will be shown */
-  /* display: none; */
+}
+
+.bg-x {
+
+  z-index: 3;
+
+  background-color: rgb(47, 47, 47);
 
 }

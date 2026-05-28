@@ -1,26 +1,28 @@
 /* --------------------------------------------------------------- */
-/* > lbl-counter.css
+/* > lbl-only-icon-on-dark.css
 /*
-/* : styles label counter style
+/* : styles label only icon style
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Counter | on dark
+/* Label Only Icon Style | on dark
 /* --------------------------------------------------------------- */
 
-.lbl-counter-on-dark {
+.lbl-only-icon-on-dark {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   border: 1px solid rgb(53, 53, 53);
 
   background-color: rgb(33, 33, 33);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
-  color:rgb(83, 83, 83);
-
 }
 
-.lbl-counter-on-dark:hover {
+.lbl-only-icon-on-dark:hover {
 
   background-color: wheat;
 
@@ -30,7 +32,7 @@
 /* Img 2 ( Black ) Default Unshown
 /* --------------------------------------------------------------- */
 
-.lbl-counter-on-dark > div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-only-icon-on-dark > img:nth-of-type(2) {
 
   display: none;
 
@@ -42,39 +44,15 @@
 /* ------------------------------------------------------------------------- */
 
 /* unshow grey img */
-
-.lbl-counter-on-dark:hover > div:nth-of-type(1) > img:nth-of-type(1) {
+.lbl-only-icon-on-dark:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-counter-on-dark:hover > div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-only-icon-on-dark:hover > img:nth-of-type(2) {
 
   display: flex;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Label Content Items Counter
-/* -------------------------------------------------------------- */
-
-.lbl-content-items-counter {
-
-  height: 1.5em;
-  padding: 0 .2em;
-
-  display: flex;
-  align-items: center;
-  justify-content: c;
-
-}
-
-.lbl-content-items-counter > div {
-
-  font-size: 14.5px;
-  color:rgb(63, 63, 63);
-  color: rgb(159, 145, 119);
 
 }

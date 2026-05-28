@@ -1,40 +1,24 @@
+
 /* --------------------------------------------------------------- */
-/* > status-top-it-project-card.css
+/* > status-progress-items.css
 /*
-/* : styles status top it project card
+/* : styles status progress mini items
+/* : in progress, next, later, done, future idea
 /* --------------------------------------------------------------- */
 
 
-/* ❌❌❌❌❌ DELETE */
-
 /* --------------------------------------------------------------- */
-/* Status Container | About Top IT Project Card
+/* All | Status Progress Item
 /* --------------------------------------------------------------- */
 
-.status-container-about-top-it-project-card {
-
-  padding: 0em .8em 0em .8em;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-
-  /* background-color: rgb(227, 227, 227); */
-
-}
-
-/* --------------------------------------------------------------- */
-/* Info Status | in progres, to do, later, finished
-/* --------------------------------------------------------------- */
-
-.info-status-in-progress,
-.info-status-next,
-.info-status-later,
-.info-status-done {
+.status-item-future-idea,
+.status-item-later,
+.status-item-next,
+.status-item-in-progress,
+.status-item-done {
 
   height: 1.8em;
   padding: 0 .6em;
-  margin-bottom: 1em;
 
   display: flex;
   align-items: center;
@@ -44,53 +28,49 @@
 
 }
 
-/* div */
-.info-status-in-progress > div,
-.info-status-next > div,
-.info-status-later > div,
-.info-status-done > div {
+/* img */
+.status-item-future-idea > img,
+.status-item-later > img,
+.status-item-next > img,
+.status-item-in-progress > img,
+.status-item-done > img {
+
+  opacity: .6;
+
+}
+
+/* div (text) */
+.status-item-future-idea > div,
+.status-item-later > div,
+.status-item-next > div,
+.status-item-in-progress > div,
+.status-item-done > div {
 
   font-weight: bold;
   font-size: 12.5px;
 
 }
 
-/* img */
-.info-status-in-progress > img,
-.info-status-next > img,
-.info-status-later > img,
-.info-status-done > img {
-
- opacity: .6;
-
-}
 
 /* --------------------------------------------------------------- */
-/* In Progress
+/* Now | Status Progress Item
 /* --------------------------------------------------------------- */
 
-.info-status-in-progress {
+.status-item-in-progress {
 
-  /* border: 1px solid rgb(229, 49, 49); */
   background-color: rgb(255, 227, 86);
   color: rgb(142, 119, 5);
 
 }
 
-/* extra for img arrow */
-.info-status-in-progress > img {
-
-  /* transform: rotate(-45deg); */
+.status-item-in-progress > img {
 
   /* layout fix */
   margin-top: .1em;
 
 }
 
-/* --------------------------------------------------------------- */
-/* Animation | Status in Progress
-/* --------------------------------------------------------------- */
-
+/* anim now */
 .anim-status-in-progress {
 
   animation: anim-status-in-progress 1.3s infinite reverse ease-in-out;
@@ -121,10 +101,10 @@
 }
 
 /* --------------------------------------------------------------- */
-/*  Next
+/* Next | Status Progress Item
 /* --------------------------------------------------------------- */
 
-.info-status-next {
+.status-item-next {
 
   background-color: rgb(205, 205, 205);
   color: rgb(94, 94, 94);
@@ -132,17 +112,29 @@
 }
 
 /* img layout pos fix */
-.info-status-coming-next > img {
+.status-item-next > img {
 
   margin-top: 2px;
 
 }
 
 /* --------------------------------------------------------------- */
-/*  Later
+/* Later | Status Progress Item
 /* --------------------------------------------------------------- */
 
-.info-status-later {
+.status-item-later {
+
+  background-color: rgb(219, 219, 219);
+  color:rgb(87, 87, 87);
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Future Idea | Status Progress Item
+/* --------------------------------------------------------------- */
+
+.status-item-future-idea {
 
   border: 1px solid rgb(203, 203, 203);
   color:rgb(87, 87, 87);
@@ -151,10 +143,10 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Done
+/* Done | Status Progress Item
 /* --------------------------------------------------------------- */
 
-.info-status-done {
+.status-item-done {
 
   background-color: rgb(153, 251, 153);
 

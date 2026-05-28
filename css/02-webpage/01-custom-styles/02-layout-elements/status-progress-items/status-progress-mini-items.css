@@ -1,59 +1,58 @@
 /* --------------------------------------------------------------- */
-/* > lbl-content.css
+/* > status-progress-mini-items.css
 /*
-/* : styles labels for contents
+/* : styles status progress mini items
+/* : later, now, done
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Content | Small, Medium, Big
+/* All | Later, Now, Done
 /* --------------------------------------------------------------- */
 
-.lbl-small,
-.lbl-medium,
-.lbl-big {
+.status-progress-mini-later,
+.status-progress-mini-now,
+.status-progress-mini-done {
 
-  user-select: none;
-  cursor: pointer;
-  transition: all .4s;
+  min-height: 1.5em;
+  min-width: 1.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .4em;
+
+
 
 }
 
 /* --------------------------------------------------------------- */
-/* Small | Label
+/* Later
 /* --------------------------------------------------------------- */
 
-.lbl-small {
+.status-progress-mini-later {
 
-  height: 2.5em;
-  padding: 0 .6em;
-
-  border-radius: .6em;
+  background-color: grey;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Medium | Label Content
+/* Now
 /* --------------------------------------------------------------- */
 
-.lbl-medium {
+.status-progress-mini-now {
 
-  height: 2.8em;
-  padding: 0 .8em;
-
-  border-radius: .6em;
+  background-color: yellow;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Big | Label Content
+/* Done
 /* --------------------------------------------------------------- */
 
-.lbl-big {
+.status-progress-mini-done {
 
-  height: 3em;
-  padding: 0 .8em;
-
-  border-radius: .8em;
+  background-color: rgb(65, 210, 99);
+  border: 1px solid rgb(167, 161, 78);
 
 }

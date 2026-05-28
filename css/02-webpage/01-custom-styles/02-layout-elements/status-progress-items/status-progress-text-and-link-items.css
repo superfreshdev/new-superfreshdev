@@ -1,0 +1,71 @@
+/* --------------------------------------------------------------- */
+/* > status-progress-text-and-link-items.css
+/*
+/* : styles status progress link items
+/* : later, now, done
+/* --------------------------------------------------------------- */
+
+/* ❌❌❌ delete - category - progress status info - to do  | category-progress-project-status-info-to-d */
+
+/* --------------------------------------------------------------- */
+/* Text | Later, Now
+/* --------------------------------------------------------------- */
+
+.status-progress-text-later,
+.status-progress-text-now {
+
+  line-height: 1.3em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+}
+
+/* div */
+.status-progress-text-later > div:last-child,
+.status-progress-text-now > div:last-child {
+
+  font-size: 14.5px;
+
+}
+
+/* later */
+.status-progress-text-later {
+
+  color: #c6c6c6;
+
+}
+
+/* now */
+.status-progress-text-now {
+
+  color: rgb(148, 148, 148);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Link | Done
+/* --------------------------------------------------------------- */
+
+.status-progress-link-done {
+
+  line-height: 1.3em;
+
+  color: rgb(148, 148, 148);
+
+}
+
+.status-progress-link-done > div:last-child {
+
+  font-size: 14.5px;
+
+}
+
+.status-progress-link-done:hover {
+
+  color:black;
+
+}

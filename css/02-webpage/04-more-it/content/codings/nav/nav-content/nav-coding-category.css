@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------- */
+/* > nav-coding-category.css
+/*
+/* : styles nav coding category
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Nav Coding Category
+/* --------------------------------------------------------------- */
+
+.nav-coding-category {
+
+  z-index: 3;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: .4em;
+  row-gap: .6em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Default | Nav Categories unshown - only by check
+/* -------------------------------------------------------------- */
+
+#nav-tech-codings-more-it {
+
+  /* default unshown */
+  display:none;
+
+}

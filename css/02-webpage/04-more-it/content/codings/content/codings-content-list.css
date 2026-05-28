@@ -1,0 +1,117 @@
+/* --------------------------------------------------------------- */
+/* > codings-content-list.css
+/*
+/* : styles codings content
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Codings Content List Container
+/* -------------------------------------------------------------- */
+
+#codings-content-list-container {
+
+  width: 100%;
+
+  /* background-color: red; */
+  background-color: white;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding Categories Containers
+/* -------------------------------------------------------------- */
+
+#coding-tech-container,
+#coding-algos-container,
+#coding-leetcode-container {
+
+
+
+ padding: 0 1.5em;
+
+
+
+  display: grid;
+
+  /* default unshown, only by check */
+  display: none;
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Coding Tech Categories
+/* -------------------------------------------------------------- */
+
+/* exercices categories */
+#coding-tech-java-container,
+#coding-tech-spring-boot-container,
+#coding-tech-microservices-container,
+#coding-tech-angular-container,
+#coding-tech-python-container,
+#coding-tech-react-native-container {
+
+  display: grid;
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding Algos Categories
+/* -------------------------------------------------------------- */
+
+#coding-algos-basic-container,
+#coding-algos-advanced-container {
+
+  display: grid;
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding LeetCode Categories
+/* -------------------------------------------------------------- */
+
+#coding-leetcode-container {
+
+  display: grid;
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding Container - Unshown
+/* -------------------------------------------------------------- */
+
+#coding-unshown-container {
+
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  /* background-color: grey; */
+
+  /* default unshown, only by check */
+  display: none;
+
+}
+
+#coding-unshown-container > img {
+
+  margin-bottom: 6em;
+
+  height: 8em;
+
+  opacity: .1;
+
+}

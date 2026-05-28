@@ -2,6 +2,7 @@
 /* > handlings-nav-more-it.css
 /*
 /* : handlings nav more it
+/* : mini it projects - mini games - codings - docs
 /* --------------------------------------------------------------- */
 
 
@@ -57,11 +58,11 @@ input[name="name-radio-nav-more-it"] {
 /* Show Content
 /* -------------------------------------------------------------- */
 
-#radio-nav-more-it-mini-it-projects:checked ~ .row-container:nth-of-type(3),
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(4),
-#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(5),
-#radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(6),
-#radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(7) {
+#radio-nav-more-it-mini-it-projects:checked ~ #row-container-more-it-mini-it-projects,
+#radio-nav-more-it-mini-games:checked ~ #row-container-more-it-mini-games,
+#radio-nav-more-it-codings:checked ~ #row-container-more-it-codings,
+#radio-nav-more-it-docs:checked ~ #row-container-more-it-docs,
+#radio-nav-more-it-unshow:checked ~ #row-container-more-it-unshow {
 
  display: grid;
 

@@ -31,58 +31,69 @@
 }
 
 /* -------------------------------------------------------------- */
-/* Default all Content of Row Container unshown
+/* All | Row Containers
 /* -------------------------------------------------------------- */
 
-
-/* -------------------------------------------------------------- */
-/* [1/5] | Mini IT Projects | Row Container | unshown
-/* -------------------------------------------------------------- */
-
-#more-it-page-container .row-container:nth-of-type(3) {
-
-  background-color: rgb(255, 255, 255);
+#row-container-more-it-mini-it-projects,
+#row-container-more-it-mini-games,
+#row-container-more-it-codings,
+#row-container-more-it-docs,
+#row-container-more-it-unshow {
 
   display: none;
 
 }
 
 /* -------------------------------------------------------------- */
-/* [2/5] | Mini Games | Row Container | unshown
+/* [1/5] | Row | Mini IT Projects
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(4) {
+#row-container-more-it-mini-it-projects {
 
-  display: none;
+  background-color: white;
+  /* background-color: red; */
 
 }
 
 /* -------------------------------------------------------------- */
-/* [3/5] | Codings | Row Container | unshown
+/* [2/5] | Row | Mini Games
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(5) {
+#row-container-more-it-mini-games {
 
-  display: none;
+  background-color: white;
+  /* background-color: yellow; */
 
 }
 
 /* -------------------------------------------------------------- */
-/* [4/5] | Docs | Row Container | unshown
+/* [3/5] | Row | Codings
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(6) {
+#row-container-more-it-codings {
 
-  display: none;
+  background-color: white;
+  /* background-color: green; */
 
 }
 
 /* -------------------------------------------------------------- */
-/* [5/5] | Unhsow | Row Container | unshown
+/* [4/5] | Row | Docs
 /* -------------------------------------------------------------- */
 
-#more-it-page-container .row-container:nth-of-type(7) {
+#row-container-more-it-docs {
 
-  display: none;
+  background-color: white;
+  /* background-color: blue; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* [5/5] | Row | Unshow
+/* -------------------------------------------------------------- */
+
+#row-container-more-it-unshow {
+
+  background-color: rgb(111, 111, 111);
 
 }
