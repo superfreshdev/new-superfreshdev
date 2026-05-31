@@ -1,0 +1,98 @@
+/* --------------------------------------------------------------- */
+/* > header-coding-category.css
+/*
+/* : styles header codings category
+/* :
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Header Coding Category Container
+/* -------------------------------------------------------------- */
+
+.header-coding-category-container {
+
+  width: 100%;
+  padding: 1.5em 0;
+
+  display: grid;
+  justify-items: flex-start;
+  row-gap: .6em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header Coding Category Content
+/* -------------------------------------------------------------- */
+
+.header-coding-category-content {
+
+  width: 100%;
+  /* mobile */
+  display: grid;
+
+  column-gap: 1em;
+  row-gap: .8em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div 1 ( img + title ) | Header Coding Category Content
+/* -------------------------------------------------------------- */
+
+.header-coding-category-content > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+
+}
+
+/* div 1 | title  */
+.header-coding-category-content >  div:nth-of-type(1) > div:last-child {
+
+  line-height: 1.5em;
+  font-size: 18px;
+
+  font-weight: bold;
+
+}
+
+/* div 2 | timebox */
+.header-coding-category-content >  div:nth-of-type(2) {
+
+  justify-self: flex-end;
+  align-self: flex-end;
+
+  height: 2em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .5em;
+
+  border-radius: .6em;
+
+  /* background-color: rgb(245, 245, 245); */
+
+}
+
+/* img timebox */
+.header-coding-category-content >  div:nth-of-type(2) > img {
+
+  /* layout fix */
+  margin-top: .1em;
+
+  opacity: .6;
+
+}
+
+/* text timebox */
+.header-coding-category-content >  div:nth-of-type(2) > div:last-child {
+
+  font-size: 12.5px;
+  color:grey;
+  font-weight: bold;
+
+}

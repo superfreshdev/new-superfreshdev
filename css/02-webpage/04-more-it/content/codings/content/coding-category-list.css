@@ -1,37 +1,44 @@
 /* --------------------------------------------------------------- */
-/* > codings-content-list.css
+/* > coding-category-list.css
 /*
-/* : styles codings content list
+/* : styles coding category list
 /* : tech - algos - leetcode - unshown
 /* --------------------------------------------------------------- */
 
+/* content-coding-category-list */
 
 /* -------------------------------------------------------------- */
-/* Codings Content List Container
+/* Coding Category List
 /* -------------------------------------------------------------- */
 
-#codings-content-list-container {
+#coding-category-list {
 
   width: 100%;
-  /* padding: 0 1.5em; */
-
-  /* background-color: red; */
-  background-color: white;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Coding Content List Item
-/* -------------------------------------------------------------- */
-
-.coding-content-list-item {
-
   height: 100%;
+
+  padding: 1.5em 0;
 
   display: grid;
   grid: 1fr / 1fr;
 
-  /* background-color: blue; */
+  /* background-color: red; */
+  background-color: white;
+
+  /* background-color: red; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Coding Category List Item
+/* : tech, algos, leetcode, unshown
+/* -------------------------------------------------------------- */
+
+.coding-category-list-item {
+
+  /* height: 100%; */
+
+  display: grid;
+  /* grid: 1fr / 1fr; */
 
 }
 
@@ -62,8 +69,6 @@
   justify-items: center;
   align-items: center;
 
-  /* background-color: grey; */
-
   /* default unshown, only by check */
   display: none;
 
@@ -72,9 +77,7 @@
 #coding-unshown-container > img {
 
   margin-bottom: 6em;
-
   height: 8em;
-
   opacity: .1;
 
 }

@@ -2,27 +2,33 @@
 /* > status-progress-mini-items.css
 /*
 /* : styles status progress mini items
-/* : later, now, done
+/* : later, in-progress, done
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* All | Later, Now, Done
+/* All | Later, in-progress, Done
 /* --------------------------------------------------------------- */
 
 .status-progress-mini-later,
-.status-progress-mini-now,
+.status-progress-mini-in-progress,
 .status-progress-mini-done {
 
-  min-height: 1.5em;
-  min-width: 1.5em;
+  min-height: 1.8em;
+  min-width: 1.8em;
 
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: .4em;
 
+}
 
+.status-progress-mini-later > img,
+.status-progress-mini-in-progress > img,
+.status-progress-mini-done > img {
+
+ opacity: .5;
 
 }
 
@@ -32,18 +38,19 @@
 
 .status-progress-mini-later {
 
-  background-color: grey;
+  background-color: #d8d8d8;
+  border: 1px solid rgb(207, 207, 207);
 
 }
 
 /* --------------------------------------------------------------- */
-/* Now
+/* in-progress
 /* --------------------------------------------------------------- */
 
-.status-progress-mini-now {
+.status-progress-mini-in-progress {
 
-  background-color: yellow;
-
+  background-color: rgb(255, 227, 86);
+  border: 1px solid rgb(207, 207, 207);
 }
 
 /* --------------------------------------------------------------- */
@@ -52,7 +59,7 @@
 
 .status-progress-mini-done {
 
-  background-color: rgb(65, 210, 99);
-  border: 1px solid rgb(167, 161, 78);
+  background-color: rgb(153, 251, 153);
+  border: 1px solid rgb(207, 207, 207);
 
 }

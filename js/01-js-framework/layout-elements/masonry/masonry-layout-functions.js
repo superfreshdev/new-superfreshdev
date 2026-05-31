@@ -13,14 +13,17 @@
     console.log("⭐layout: " + layout);
     console.log("⭐items: " + items);
 
+
     return new Promise( resolve => {
 
       setTimeout( () => {
 
-        const gutter = 16;
+        const gutter = 24;
         const domItems = document.querySelectorAll( items );
 
         domItems.forEach( item => {
+
+          // console.log("🥒item = " + item)
 
           item.style.width = columns === 1
             ? '100%'
@@ -31,8 +34,8 @@
         // create new masonry
         ctx.container = new Masonry( layout, {
 
-          itemSelector: items,
-          columnWidth: items,
+          itemSelector: items + ':not(:empty)',
+          columnWidth: items + ':not(:empty)',
           percentPosition: true,
           gutter: gutter
 

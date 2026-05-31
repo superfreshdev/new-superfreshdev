@@ -1,0 +1,215 @@
+/* --------------------------------------------------------------- */
+/* > masnory-coding-item-task.css
+/*
+/* : styles masonry coding item task
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Masonry Coding Item Task
+/* > in progress, later, done
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress,
+.masonry-coding-item-task-later,
+.masonry-coding-item-task-done {
+
+  width: 100%;
+  padding: 1em .8em;
+
+  display: grid;
+
+  transition: all .4s;
+
+}
+
+
+.masonry-coding-item-task-in-progress:hover,
+.masonry-coding-item-task-later:hover,
+.masonry-coding-item-task-done:hover {
+
+  background-color: white;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Masonry
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress {
+
+  background-color: rgb(255, 247, 185);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Later | Masonry
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-later {
+
+  background-color: rgb(243, 243, 243);
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Done | Masonry
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-done {
+
+  background-color: rgb(224, 255, 209);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div 1 ( Content ) | Nr + Status + Content
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress  > div:nth-of-type(1),
+.masonry-coding-item-task-later  > div:nth-of-type(1),
+.masonry-coding-item-task-done  > div:nth-of-type(1) {
+
+  display: flex;
+  column-gap: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Div 1 ( Content )
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress  > div:nth-of-type(1) > header,
+.masonry-coding-item-task-later  > div:nth-of-type(1) > header,
+.masonry-coding-item-task-done  > div:nth-of-type(1) > header {
+
+  display: grid;
+  justify-items: center;
+  align-content: flex-start;
+  /* row-gap: .4em; */
+
+}
+
+/* nr */
+.masonry-coding-item-task-in-progress > div:nth-of-type(1) > header > div:nth-of-type(1),
+.masonry-coding-item-task-later > div:nth-of-type(1) > header > div:nth-of-type(1),
+.masonry-coding-item-task-done > div:nth-of-type(1) > header > div:nth-of-type(1) {
+
+  font-size: 12.5px;
+  font-weight: bold;
+
+  color:rgb(160, 160, 160);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Div 1 ( Content )
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress  > div:nth-of-type(1) > main,
+.masonry-coding-item-task-later  > div:nth-of-type(1) > main,
+.masonry-coding-item-task-done  > div:nth-of-type(1) > main {
+
+  line-height: 1.6em;
+
+  font-size: 14.5px;
+
+}
+
+/* div 1 - bold header */
+.masonry-coding-item-task-in-progress  > div:nth-of-type(1) > main > div:nth-of-type(1),
+.masonry-coding-item-task-later  > div:nth-of-type(1) > main > div:nth-of-type(1),
+.masonry-coding-item-task-done  > div:nth-of-type(1) > main > div:nth-of-type(1) {
+
+  font-weight: bold;
+  color:rgb(123, 123, 123);
+
+  color:rgb(72, 72, 72);
+
+}
+
+/* div 2 - text header */
+.masonry-coding-item-task-in-progress  > div:nth-of-type(1) > main > div:nth-of-type(2),
+.masonry-coding-item-task-later  > div:nth-of-type(1) > main > div:nth-of-type(2),
+.masonry-coding-item-task-done  > div:nth-of-type(1) > main > div:nth-of-type(2) {
+
+  color:grey;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Footer | Masonry Coding Item To Do
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress > footer,
+.masonry-coding-item-task-later > footer,
+.masonry-coding-item-task-done > footer {
+
+  margin-top: .8em;
+
+  display: flex;
+  justify-content: flex-end;
+
+  /* display: none; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Link | Footer
+/* --------------------------------------------------------------- */
+
+.masonry-coding-item-task-in-progress > footer > a,
+.masonry-coding-item-task-later > footer > a,
+.masonry-coding-item-task-done > footer > a {
+
+  text-decoration: none;
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .8em;
+
+  border: 1px solid rgb(216, 216, 216);
+
+  color: rgb(121, 121, 121);
+
+  font-weight: bold;
+
+  opacity: .6;
+
+  transition: all .4s;
+
+}
+
+.masonry-coding-item-task-in-progress > footer > a:hover,
+.masonry-coding-item-task-later > footer > a:hover,
+.masonry-coding-item-task-done > footer > a:hover {
+
+  background-color: rgb(211, 211, 211);
+  color:black;
+  opacity: 1;
+
+}
+
+.masonry-coding-item-task-in-progress > footer > a > img ,
+.masonry-coding-item-task-later > footer > a > img ,
+.masonry-coding-item-task-done > footer > a > img  {
+
+  height: .8em;
+  opacity: .8;
+
+}
+
+.masonry-coding-item-task-in-progress > footer > a > div,
+.masonry-coding-item-task-later > footer > a > div,
+.masonry-coding-item-task-done > footer > a > div {
+
+  font-size: 12.5px;
+
+
+}

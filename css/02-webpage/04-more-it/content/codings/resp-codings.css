@@ -6,49 +6,43 @@
 
 
 /* --------------------------------------------------------------- */
-/* > 800px
+/* > 500px
 /* --------------------------------------------------------------- */
 
-@media (min-width: 800px) {
-
-
-  .coding-content-category-container > header {
-
-    width: 70%;
-
-    /* background-color: yellow; */
-
-  }
+@media (min-width: 500px) {
 
   /* -------------------------------------------------------------- */
-  /* Header Content Coding Container
+  /* Header Coding Category Content
   /* -------------------------------------------------------------- */
 
-  .header-coding-category {
+  .header-coding-category-content {
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    column-gap: .8em;
 
   }
 
 }
 
 /* --------------------------------------------------------------- */
-/* > 900px
+/* > 650px
 /* --------------------------------------------------------------- */
 
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 
-   .coding-content-category-container > header {
+  /* -------------------------------------------------------------- */
+  /* Header Coding Category Container
+  /* -------------------------------------------------------------- */
 
-    width: 45em;
+  .header-coding-category-container {
 
-    /* background-color: rgb(110, 110, 110); */
-    /* background-color: red; */
+    width: 40em;
+    /* background-color: yellow; */
 
   }
+
 
 
 }

@@ -22,8 +22,8 @@ console.log("🟨 update-tech-mansories.js")
   // tech mansories items
   var tech_masonry_items = [
 
-    "#masonry-tech-java-container .masonry-coding-item",
-    "#masonry-tech-spring-boot-container .masonry-coding-item"
+    "#masonry-tech-java-container > div",
+    "#masonry-tech-spring-boot-container > div"
 
   ]
 
@@ -63,6 +63,10 @@ console.log("🟨 update-tech-mansories.js")
     document.addEventListener( "DOMContentLoaded", async () => {
 
       // window.alert("DOM")
+
+      console.log("🟩 Spring Boot items beim Start:",
+        document.querySelectorAll("#masonry-tech-spring-boot-container > .masonry-coding-item").length
+      )
 
       /* ----------------------------------------------------- */
       /* Step 1
@@ -195,3 +199,7 @@ console.log("🟨 update-tech-mansories.js")
 /* -------------------------------------------------------------------------- */
 /* Execute
 /* -------------------------------------------------------------------------- */
+
+ document.querySelectorAll('.masonry-coding-item').forEach( item => {
+  console.log("🖼️ = " + item.className, item.offsetHeight )
+ })
