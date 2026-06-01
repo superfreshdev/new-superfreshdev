@@ -19,6 +19,7 @@
   justify-items: flex-start;
   row-gap: .6em;
 
+
 }
 
 /* -------------------------------------------------------------- */
@@ -45,6 +46,8 @@
   display: flex;
   align-items: center;
   column-gap: 1em;
+
+  color:white;
 
 }
 
