@@ -96,7 +96,9 @@
   font-size: 18px;
 
   color:rgb(40, 40, 40);
-  /* color:rgb(97, 97, 97); */
+  color:rgb(166, 166, 166);
+
+  color:rgb(199, 199, 199);
 
 }
 
@@ -108,8 +110,9 @@
   line-height: 1.3em;
 
   font-style: italic;
-
-  color:rgb(166, 166, 166);
   font-weight: bold;
+
+  color:rgb(83, 83, 83);
+
 
 }
