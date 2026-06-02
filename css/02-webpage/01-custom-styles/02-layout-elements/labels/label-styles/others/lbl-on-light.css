@@ -1,37 +1,33 @@
-
 /* --------------------------------------------------------------- */
-/* > lbl-icon-text-only-dark.css
+/* > lbl-on-light.css
 /*
-/* : styles
+/* : styles labels on light background
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Icon + Text | on dark
+/* Labels |
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-only-dark {
+.lbl-on-light {
 
   display: flex;
   align-items: center;
   column-gap: .6em;
 
-  font-weight: bold;
+  border-radius: .6em;
 
-  border: 1px solid rgb(38, 38, 38);
+  border: 1px solid rgb(203, 203, 203);
 
-  color:rgb(103, 103, 103);
+  background-color: rgb(237, 237, 237);
 
-  background-color: rgb(44, 44, 44);
+  color:rgb(124, 124, 124);
 
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 
-}
-
-/* div 1 */
-.lbl-icon-text-only-dark > div:nth-of-type(1) {
-
-  font-size: 14.5px;
+  border: 1px solid rgb(212, 212, 212);
+  cursor: pointer;
+  transition: all .4s;
 
 }
 
@@ -39,7 +35,7 @@
 /* Img 2 ( Black ) Default Unshown
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-only-dark > img:nth-of-type(2) {
+.lbl-on-light > img:nth-of-type(2) {
 
   display: none;
 
@@ -50,7 +46,7 @@
 /* > show black img by hover, unshown grey img
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-only-dark:hover {
+.lbl-on-light:hover {
 
   background-color: wheat;
   color:black;
@@ -58,13 +54,14 @@
 }
 
 /* unshow grey img */
-.lbl-icon-text-only-dark:hover > img:nth-of-type(1) {
+div:nth-of-type(1) > img:nth-of-type(1) {
 
   display: none;
 
 }
 
-.lbl-icon-text-only-dark:hover > img:nth-of-type(2) {
+/* show black img */
+div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: flex;
 

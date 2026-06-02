@@ -2,6 +2,8 @@
 /* > lbl-counter-on-dark.css
 /*
 /* : styles label counter on dark
+/* : [ Icons + Title ] + Counter
+/* : 🟩 100% - Finished
 /* --------------------------------------------------------------- */
 
 
@@ -23,7 +25,9 @@
   color:rgb(103, 103, 103);
   /* background-color: rgb(33, 33, 33); */
 
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+
+  border: 1px solid rgb(63, 63, 63);
 
 }
 
@@ -37,20 +41,30 @@
 }
 
 /* div 1 - title */
-.lbl-counter-on-dark > div:nth-of-type(1) > div:nth-of-type(1) {
+.lbl-counter-on-dark > div:nth-of-type(1) > div:last-child {
 
-  font-size: 14.5px
+  font-size: 14.5px;
 
 }
 
 
 /* --------------------------------------------------------------- */
-/* Img 2 ( Black ) Default Unshown
+/* Default Unshown | Black Img
 /* --------------------------------------------------------------- */
 
 .lbl-counter-on-dark > div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Show | Grey Img
+/* --------------------------------------------------------------- */
+
+.lbl-counter-on-dark > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: flex;
 
 }
 
@@ -81,10 +95,10 @@
 }
 
 /* -------------------------------------------------------------- */
-/* Label Content Items Counter on dark
+/* Div 2 | Label Counter on Dark
 /* -------------------------------------------------------------- */
 
-.lbl-content-items-counter-on-dark {
+.lbl-counter-on-dark > div:nth-of-type(2) {
 
   height: 1.5em;
   padding: 0 .2em;
@@ -95,10 +109,12 @@
 
 }
 
-.lbl-content-items-counter-on-dark > div {
+.lbl-counter-on-dark > div:nth-of-type(2) > div {
 
   font-size: 14.5px;
   color:rgb(63, 63, 63);
   color: rgb(159, 145, 119);
+
+  color: rgb(194, 176, 143);
 
 }

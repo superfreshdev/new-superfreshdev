@@ -1,16 +1,16 @@
+
 /* --------------------------------------------------------------- */
-/* > lbl-icon-text-on-light.css
+/* > lbl-icon-text-transparent.css
 /*
-/* : styles icon + text
-/* : 🟩 100% - Finished
+/* : styles
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Icon + Text | on light
+/* Icon + Text | transparent
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-on-light {
+.lbl-icon-text-transparent {
 
   display: flex;
   align-items: center;
@@ -18,30 +18,28 @@
 
   font-weight: bold;
 
-  border: 1px solid rgb(203, 203, 203);
+  border: 1px solid rgb(38, 38, 38);
 
-  background-color: rgb(237, 237, 237);
+  color:rgb(103, 103, 103);
 
-  color:rgb(124, 124, 124);
+  background-color: rgb(44, 44, 44);
 
-  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
-
-  border: 1px solid rgb(212, 212, 212);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
 }
 
 /* div 1 */
-.lbl-icon-text-on-light > div:last-child  {
+.lbl-icon-text-transparent > div:nth-of-type(1) {
 
   font-size: 14.5px;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Default Unshown | Black Img
+/* Img 2 ( Black ) Default Unshown
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-on-light > img:nth-of-type(2) {
+.lbl-icon-text-transparent > img:nth-of-type(2) {
 
   display: none;
 
@@ -50,9 +48,10 @@
 /* --------------------------------------------------------------- */
 /* Hover Handlings
 /* > show black img by hover, unshown grey img
+/* : ⚠️ Actually dont using
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-on-light:hover {
+.lbl-icon-text-transparent:hover {
 
   background-color: wheat;
   color:black;
@@ -60,14 +59,13 @@
 }
 
 /* unshow grey img */
-.lbl-icon-text-on-light:hover > img:nth-of-type(1) {
+.lbl-icon-text-transparent:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
-/* show black img */
-.lbl-icon-text-on-light:hover > img:nth-of-type(2) {
+.lbl-icon-text-transparent:hover > img:nth-of-type(2) {
 
   display: flex;
 

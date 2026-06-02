@@ -2,6 +2,7 @@
 /* > lbl-only-icon-on-light.css
 /*
 /* : styles label only icon style
+/* : 🟩 100% - Finished
 /* --------------------------------------------------------------- */
 
 
@@ -18,8 +19,12 @@
   border: 1px solid rgb(203, 203, 203);
 
   background-color: rgb(237, 237, 237);
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
+  color:rgb(124, 124, 124);
+
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+
+  border: 1px solid rgb(212, 212, 212);
 }
 
 .lbl-only-icon-on-light:hover {
@@ -29,7 +34,7 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Img 2 ( Black ) Default Unshown
+/* Default Unshown | Black Img
 /* --------------------------------------------------------------- */
 
 .lbl-only-icon-on-light > img:nth-of-type(2) {
