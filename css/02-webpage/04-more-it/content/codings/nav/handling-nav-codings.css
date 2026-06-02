@@ -65,3 +65,11 @@ input[name="name-radio-nav-codings"] {
   /* background-color: black; */
 
 }
+
+/* show header coding category if not unshown */
+
+#radio-nav-codings-unshown:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container {
+
+  display: none;
+
+}

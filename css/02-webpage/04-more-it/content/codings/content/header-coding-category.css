@@ -10,7 +10,7 @@
 /* Header Coding Category Container
 /* -------------------------------------------------------------- */
 
-.header-coding-category-container {
+#header-coding-category-container {
 
   width: 100%;
   padding: 1.5em 0;
@@ -18,6 +18,8 @@
   display: grid;
   justify-items: flex-start;
   row-gap: .8em;
+
+  /* display: none; */
 
 
 }
