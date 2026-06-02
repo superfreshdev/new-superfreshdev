@@ -22,12 +22,13 @@
 
   border: 1px solid rgb(65, 65, 65);
 
-  color:rgb(103, 103, 103);
+  color:rgb(152, 152, 152);
   /* background-color: rgb(33, 33, 33); */
 
-  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
   border: 1px solid rgb(63, 63, 63);
+
 
 }
 
@@ -115,6 +116,6 @@
   color:rgb(63, 63, 63);
   color: rgb(159, 145, 119);
 
-  color: rgb(194, 176, 143);
+  /* color: rgb(194, 176, 143); */
 
 }
