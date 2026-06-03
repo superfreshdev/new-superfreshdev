@@ -40,7 +40,7 @@
   align-items: center;
   column-gap: .3em;
 
-  border-radius: .4em;
+  border-radius: 1em;
 
 }
 
@@ -72,8 +72,8 @@
 .info-status-in-progress {
 
   /* border: 1px solid rgb(229, 49, 49); */
-  background-color: rgb(255, 227, 86);
-  color: rgb(142, 119, 5);
+  /* background-color: rgb(255, 227, 86); */
+  /* color: rgb(142, 119, 5); */
 
 }
 
@@ -93,7 +93,7 @@
 
 .anim-status-in-progress {
 
-  animation: anim-status-in-progress 1.3s infinite reverse ease-in-out;
+  animation: anim-status-in-progress 1s infinite reverse ease-in-out;
 
 }
 
@@ -101,20 +101,21 @@
 
   0% {
 
-    background-color: rgb(255, 242, 180);
+    background-color: rgb(253, 231, 118);
   }
 
   50% {
 
 
-    background-color: rgb(255, 227, 86);
+
+    background-color: rgb(247, 207, 107);
 
 
   }
 
   100% {
 
-    background-color: rgb(255, 242, 180);
+    background-color: rgb(253, 231, 118);
 
   }
 

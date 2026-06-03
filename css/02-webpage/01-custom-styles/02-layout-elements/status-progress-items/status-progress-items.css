@@ -24,7 +24,7 @@
   align-items: center;
   column-gap: .3em;
 
-  border-radius: .4em;
+  border-radius: .6em;
 
 }
 
@@ -58,8 +58,8 @@
 
 .status-item-in-progress {
 
-  background-color: rgb(255, 227, 86);
-  color: rgb(142, 119, 5);
+  /* background-color: rgb(255, 227, 86); */
+  /* color: rgb(142, 119, 5); */
 
 }
 

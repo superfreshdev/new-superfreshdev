@@ -98,7 +98,7 @@
   color:rgb(40, 40, 40);
   color:rgb(166, 166, 166);
 
-  color:rgb(199, 199, 199);
+  color:rgb(230, 230, 230);
 
 }
 
@@ -107,12 +107,14 @@
 
   /* padding-top: .4em; */
 
+  font-size: 14.5px;
+
   line-height: 1.3em;
 
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: bold;
 
-  color:rgb(83, 83, 83);
+  color:rgb(109, 109, 109);
 
 
 }

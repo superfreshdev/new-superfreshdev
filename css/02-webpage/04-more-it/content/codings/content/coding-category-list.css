@@ -16,8 +16,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 3;
-  /* height: 100%; */
 
 
   display: grid;
@@ -33,6 +31,7 @@
 #background-img-coding {
 
   z-index: 1;
+
   position: absolute;
   width: 100%;
   height: 100%;
@@ -72,25 +71,7 @@ background-blend-mode: normal, multiply; */
 
 }
 
-#test-a {
 
-  /* height: 100%; */
-
-  padding: 2em 0;
-
-  display: grid;
-  align-content: flex-start;
-
-  row-gap: .3em;
-
-  background-color: yellow;
-
-}
-
-#test-a div {
-
-  background-color: grey;
-}
 
 /* -------------------------------------------------------------- */
 /* Coding Category List Item
@@ -100,7 +81,6 @@ background-blend-mode: normal, multiply; */
 .coding-category-list-item {
 
   height: 100%;
-   z-index: 3;
 
    padding: 2em 0;
 
@@ -150,6 +130,6 @@ background-blend-mode: normal, multiply; */
 
   margin-bottom: 6em;
   height: 8em;
-  opacity: .6;
+  opacity: .1;
 
 }
