@@ -63,6 +63,9 @@
 .status-progress-mini-done {
 
   background-color: rgb(153, 251, 153);
+
+  background-color: rgb(103, 199, 103);
+
   border: 1px solid rgb(207, 207, 207);
 
 }

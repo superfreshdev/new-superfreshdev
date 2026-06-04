@@ -20,6 +20,7 @@ input[name="name-radio-nav-codings-tech"] {
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"],
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"],
 #radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"],
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"],
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"],
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"],
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] {
@@ -27,12 +28,14 @@ input[name="name-radio-nav-codings-tech"] {
   background-color: wheat;
   color: black;
 
+
 }
 
 /* unshow grey img */
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"]  > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"]  > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"]  > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"]  > div:nth-of-type(1) > img:nth-of-type(1) {
@@ -45,6 +48,7 @@ input[name="name-radio-nav-codings-tech"] {
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:nth-of-type(1) > img:nth-of-type(2) {
@@ -57,6 +61,7 @@ input[name="name-radio-nav-codings-tech"] {
 #radio-nav-codings-tech-java:checked ~ #codings-container .resp-content-container-medium #masonry-tech-java-container,
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container .resp-content-container-medium #masonry-tech-spring-boot-container,
 #radio-nav-codings-tech-microservices:checked ~ #codings-container .resp-content-container-medium #masonry-tech-microservices-container,
+#radio-nav-codings-tech-cloud:checked ~ #codings-container .resp-content-container-medium #masonry-tech-cloud-container,
 #radio-nav-codings-tech-angular:checked ~ #codings-container .resp-content-container-medium #masonry-tech-angular-container,
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container .resp-content-container-medium #masonry-tech-python-container,
 #radio-nav-codings-tech-react-native:checked ~ #codings-container .resp-content-container-medium #masonry-tech-react-native-container {

@@ -413,6 +413,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
+  <!-- Google Font - font-family: "Arimo", sans-serif; -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap" rel="stylesheet">
+
+
+  <!--  font-family: "Stack Sans Headline", sans-serif; -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
+
+
 
   <!-- ----------------------------------------------------------------------- -->
   <!-- Radios | Nav Header Body -->
@@ -4389,8 +4401,10 @@
             <input checked type="radio" id="radio-nav-codings-tech-java" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-spring-boot" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-microservices" name="name-radio-nav-codings-tech">
-            <input  type="radio" id="radio-nav-codings-tech-angular" name="name-radio-nav-codings-tech">
+            <input  type="radio" id="radio-nav-codings-tech-cloud" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-pyhton" name="name-radio-nav-codings-tech">
+
+            <input  type="radio" id="radio-nav-codings-tech-angular" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-react-native" name="name-radio-nav-codings-tech">
 
             <!-- --------------------------------------------------------------- -->
@@ -4586,24 +4600,24 @@
 
                       </label>
 
-                      <!-- label | angular -->
-                      <label for="radio-nav-codings-tech-angular" class="lbl-small lbl-counter-transparent">
+                      <!-- label | cloud gcp -->
+                      <label for="radio-nav-codings-tech-cloud" class="lbl-small lbl-counter-transparent">
 
                         <!-- icon + title box -->
                         <div>
 
                           <!-- img grey -->
-                          <img src="media/imgs/icons/04-tech-logos/angular-grey.png"
+                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-cloud-server.png"
                               alt="img"
                               class="img-h-1-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/angular-black.png"
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-cloud-server.png"
                               alt="img"
                               class="img-h-1-1">
 
                           <!-- title -->
-                          <div>Angular</div>
+                          <div>Cloud GCP</div>
 
 
                         </div>
@@ -4614,6 +4628,7 @@
                         </div>
 
                       </label>
+
 
                       <!-- label | python -->
                       <label for="radio-nav-codings-tech-pyhton" class="lbl-small lbl-counter-transparent">
@@ -4643,6 +4658,36 @@
                         </div>
 
                       </label>
+
+                      <!-- label | angular -->
+                      <label for="radio-nav-codings-tech-angular" class="lbl-small lbl-counter-transparent">
+
+                        <!-- icon + title box -->
+                        <div>
+
+                          <!-- img grey -->
+                          <img src="media/imgs/icons/04-tech-logos/angular-grey.png"
+                              alt="img"
+                              class="img-h-1-1">
+
+                          <!-- img black | default unshown -->
+                          <img src="media/imgs/icons/04-tech-logos/angular-black.png"
+                              alt="img"
+                              class="img-h-1-1">
+
+                          <!-- title -->
+                          <div>Angular</div>
+
+
+                        </div>
+
+                        <!-- counter -->
+                        <div>
+                          <div>03</div>
+                        </div>
+
+                      </label>
+
 
                       <!-- label | react native -->
                       <label for="radio-nav-codings-tech-react-native" class="lbl-small lbl-counter-transparent">
@@ -4683,10 +4728,10 @@
               </div>
 
               <!-- --------------------------------------------------------------- -->
-              <!-- 🟩 [2/2] | Header Coding Category Container background-color: rgba(29, 29, 29, 1); -->
+              <!-- 🟩 [2/2] | Header Coding Category Container background-color: rgb(246, 246, 246)-->
               <!-- --------------------------------------------------------------- -->
-              <div class="row-container" style="background-color: white; z-index: 4;
-              border-top: 1px solid rgb(234, 234, 234); border-bottom: 1px solid rgb(234, 234, 234);">
+              <div class="row-container" style="background-color: #1d1d1d;
+              border-top: 0px solid rgb(211, 211, 211); border-bottom: 0px solid rgb(211, 211, 211);">
 
 
                 <!-- --------------------------------------------------------------- -->
@@ -4695,47 +4740,55 @@
                 <div class="resp-content-container-small" >
 
 
-
                   <!-- ------------------------------------------------------------------ -->
                   <!-- 💛 JS Dyn | Header Coding Category Container  -->
                   <!-- ------------------------------------------------------------------ -->
                   <header id="header-coding-category-container">
 
-                    <!-- status - header -->
-                    <div class="status-item-in-progress anim-status-in-progress">
+                    <!-- ------------------------------------------------------------------------------ -->
+                    <!-- 🟩 [1/2] | Header Coding | Title Container -->
+                    <!-- ------------------------------------------------------------------------------ -->
+                    <div id="header-coding-title-container">
 
-                      <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
-                      <div>in progress</div>
+                      <!-- -------------------------------------------------------------------- -->
+                      <!-- Status -->
+                      <!-- -------------------------------------------------------------------- -->
+                      <div class="status-item-in-progress anim-status-in-progress">
 
-                    </div>
-
-                    <!-- title - header -->
-                    <div class="header-coding-category-content">
-
-                      <!-- col 1 | img + title -->
-                      <div>
-
-                        <img src="media/imgs/icons/04-tech-logos/java-black.png"
-                            alt="img"
-                            class="img-h-2-5">
-
-                        <!-- title -->
-                        <div>Java | TDD (JUnit, Mock)
-                        </div>
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png" alt="img" class="img-h-0-8">
+                        <div>in progress</div>
 
                       </div>
 
-                      <!-- col 2 | time box -->
+                      <!-- -------------------------------------------------------------------- -->
+                      <!-- Title -->
+                      <!-- -------------------------------------------------------------------- -->
+                      <div>
+                        Java | TDD ... XXX
+                      </div>
+
+                    </div>
+
+                    <!-- ------------------------------------------------------------------------------ -->
+                    <!-- 🟩 [2/2] | Header Coding | Time Container -->
+                    <!-- ------------------------------------------------------------------------------ -->
+                    <div id="header-coding-time-container">
+
+                      <!-- time box -->
                       <div>
 
                         <img src="media/imgs/icons/02-icon-colors/02-white/white-sand-of-time.png"
-                            alt="img"
-                            class="img-h-0-9">
+                              alt="img"
+                              class="img-h-0-8">
 
                           <!-- title -->
                           <div>30|60 Min.</div>
 
                       </div>
+
+                      <!-- Img Category -->
+                      <img src="media/imgs/content/02-more-it/codings/header-coding-categories/coding-task-java-spring-boot.png"
+                           alt="img">
 
                     </div>
 
@@ -4751,7 +4804,7 @@
               <div class="row-container" style="z-index: 4;">
 
                 <!-- 🖼️ background img -->
-                <!-- <div id="background-img-coding"></div> -->
+                <div id="background-img-coding"></div>
 
 
                 <!-- --------------------------------------------------------------- -->
@@ -4787,7 +4840,7 @@
                             <div>
 
                               <!-- status block -->
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
                                 alt="img" class="img-h-1-6">
 
 
@@ -5137,7 +5190,7 @@
                             <div>
 
                               <!-- status block -->
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
                                 alt="img" class="img-h-1-6">
 
                               <div>
@@ -5359,7 +5412,7 @@
                             <div>
 
                               <!-- status block -->
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
                                 alt="img" class="img-h-1-6">
 
                               <div>
@@ -5581,7 +5634,7 @@
                             <div>
 
                               <!-- status block -->
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
                                 alt="img" class="img-h-1-6">
 
                               <div>
@@ -5812,6 +5865,13 @@
                       </div>
 
                       <!-- --------------------------------------------------------------- -->
+                      <!-- 🟥 Cloud | Masonry Container -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="masonry-coding-container" id="masonry-tech-cloud-container">
+                        Cloud tech Container
+                      </div>
+
+                      <!-- --------------------------------------------------------------- -->
                       <!-- 🟥 Angular | Masonry Container -->
                       <!-- --------------------------------------------------------------- -->
                       <div class="masonry-coding-container" id="masonry-tech-angular-container">
@@ -5980,7 +6040,7 @@
                     </div>
 
                     <!-- sub title -->
-                    <div>» my free-time interests ...
+                    <div>» My free-time interests ...
                       <span style="display: none;"> Sub Title here comes the sun and so on
                       Sub Title here comes the sun and so on
                       Sub Title here comes the sun and so on
@@ -6572,8 +6632,17 @@
           <!-- mini games -->
           <script src="js/02-webpage/03-more-it/mini-games/add-mini-games.js"></script>
 
+          <!-- --------------------------------------- -->
           <!-- codings -->
-          <script src="js/02-webpage/03-more-it/codings/update-tech-mansories.js"></script>
+          <!-- --------------------------------------- -->
+
+            <script src="js/02-webpage/03-more-it/codings/update-tech-mansories.js"></script>
+
+            <!-- navs -->
+            <script src="js/02-webpage/03-more-it/codings/navs/nav-codings.js"></script>
+            <script src="js/02-webpage/03-more-it/codings/navs/sub-nav-codings.js"></script>
+
+            <script src="js/02-webpage/03-more-it/codings/header-update-codings/header-update-codings.js"></script>
 
 
 

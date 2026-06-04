@@ -8,10 +8,10 @@
 
   async function rebuild_respMasonry_2col_layout( columns, ctx, layout, items ) {
 
-    console.log("⭐columns: " + columns);
-    console.log("⭐ctx: " + ctx);
-    console.log("⭐layout: " + layout);
-    console.log("⭐items: " + items);
+    // console.log("⭐columns: " + columns);
+    // console.log("⭐ctx: " + ctx);
+    // console.log("⭐layout: " + layout);
+    // console.log("⭐items: " + items);
 
 
     return new Promise( resolve => {

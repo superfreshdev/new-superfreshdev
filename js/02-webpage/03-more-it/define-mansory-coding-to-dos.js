@@ -1,4 +1,4 @@
-console.log("🟨 Define Mansory - Coding To Dos (1/2cols)")
+// console.log("🟨 Define Mansory - Coding To Dos (1/2cols)")
 
 
 /* -------------------------------------------------------------------------- */

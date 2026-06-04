@@ -80,3 +80,81 @@
       })
 
  }
+
+ /* ---------------------------------------------------------------- */
+/* Async Function
+/* > Update Css Class to Element
+/* ---------------------------------------------------------------- */
+
+// update
+ async function async_update_cssClass_to_element( element, cssClass ) {
+
+    // console.log("🟪 async_set_cssClass_to_element()")
+
+    // console.log("➡️ cssClass = " + cssClass );
+    // console.log("➡️ element = " +  element.getAttribute("class"));
+
+    // remove old css class
+    element.className = "";
+
+    // update css class to element
+    element.classList.add(cssClass);
+
+   return new Promise(resolve => {
+        resolve( );
+      })
+
+ }
+
+/* ---------------------------------------------------------------- */
+/* Async Function
+/* > Update x2 Css Class to Element
+/* ---------------------------------------------------------------- */
+
+// update
+ async function async_update_2_cssClass_to_element( element, cssClass_1, cssClass_2 ) {
+
+    // console.log("🟪 async_set_cssClass_to_element()")
+
+    // console.log("➡️ cssClass = " + cssClass );
+    // console.log("➡️ element = " +  element.getAttribute("class"));
+
+    // remove old css class
+    element.className = "";
+
+    // update css class to element
+    element.classList.add(cssClass_1);
+
+    element.classList.add(cssClass_2);
+
+   return new Promise(resolve => {
+        resolve( );
+      })
+
+ }
+
+ /* ---------------------------------------------------------------- */
+/* Async Function
+/* > Update Text from Element
+/* ---------------------------------------------------------------- */
+
+// update
+ async function async_update_text_from_element( element, newText ) {
+
+    // console.log("🟪 async_set_cssClass_to_element()")
+
+    // console.log("➡️ cssClass = " + cssClass );
+    // console.log("➡️ element = " +  element.getAttribute("class"));
+
+    // remove old css class
+    element.innerText = "";
+
+    // update new text
+    element.innerText = newText;
+
+
+   return new Promise(resolve => {
+        resolve( );
+      })
+
+ }

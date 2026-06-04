@@ -1,4 +1,4 @@
-console.log("🟨 update-tech-mansories.js")
+// console.log("🟨 update-tech-mansories.js")
 
 
 // update tech mansories
@@ -9,7 +9,7 @@ console.log("🟨 update-tech-mansories.js")
 
   // radios tech
   var radios_of_tech = document.querySelectorAll("input[name='name-radio-nav-codings-tech']")
-  console.log("🔥= " + radios_of_tech.length )
+  // console.log("🔥= " + radios_of_tech.length )
 
   // tech mansories
   var tech_masonry_id_containers = [
@@ -64,9 +64,9 @@ console.log("🟨 update-tech-mansories.js")
 
       // window.alert("DOM")
 
-      console.log("🟩 Spring Boot items beim Start:",
-        document.querySelectorAll("#masonry-tech-spring-boot-container > .masonry-coding-item").length
-      )
+      // console.log("🟩 Spring Boot items beim Start:",
+      //   document.querySelectorAll("#masonry-tech-spring-boot-container > .masonry-coding-item").length
+      // )
 
       /* ----------------------------------------------------- */
       /* Step 1
@@ -74,7 +74,7 @@ console.log("🟨 update-tech-mansories.js")
       /* ----------------------------------------------------- */
 
         checked_techId = await async_get_checked_radioIndex( radios_of_tech );
-        console.log("checked_techID = " + checked_techId)
+        // console.log("checked_techID = " + checked_techId)
 
         // exit if no tech id is checked
         if(checked_techId == null ) return;
@@ -166,8 +166,8 @@ console.log("🟨 update-tech-mansories.js")
           active_tech_masonry = tech_masonry_id_containers[checked_techId];
           active_tech_masonry_items = tech_masonry_items[checked_techId];
 
-          console.log("🔥🔥🔥 active_tech_masonry = " + active_tech_masonry)
-          console.log("🔥🔥🔥 active_tech_masonry_items = " + active_tech_masonry_items)
+          // console.log("🔥🔥🔥 active_tech_masonry = " + active_tech_masonry)
+          // console.log("🔥🔥🔥 active_tech_masonry_items = " + active_tech_masonry_items)
 
         /* ------------------------------------------------------- */
         /* Step 2
@@ -200,6 +200,6 @@ console.log("🟨 update-tech-mansories.js")
 /* Execute
 /* -------------------------------------------------------------------------- */
 
- document.querySelectorAll('.masonry-coding-item').forEach( item => {
-  console.log("🖼️ = " + item.className, item.offsetHeight )
- })
+//  document.querySelectorAll('.masonry-coding-item').forEach( item => {
+//   console.log("🖼️ = " + item.className, item.offsetHeight )
+//  })
