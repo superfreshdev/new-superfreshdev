@@ -6,6 +6,10 @@
 /* --------------------------------------------------------------- */
 
 
+/* -------------------------------------------------------------- */
+/* Row | Header Coding Category Container
+/* -------------------------------------------------------------- */
+
 #row-header-coding-category-container {
 
   z-index: 4;
@@ -13,9 +17,9 @@
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-
   /* border-top: 3px solid rgb(236, 236, 236); */
   /* border-bottom: 3px solid rgb(57, 57, 57); */
+
 
 }
 
@@ -36,7 +40,7 @@
   column-gap: 2.5em;
   row-gap: .8em;
 
-  /* display: none; */
+  display: none;
 
 }
 
@@ -64,6 +68,7 @@
 
   font-size: 16px;
   font-weight: bold;
+  /* font-style: italic; */
 
   color:rgb(180, 180, 180);
 

@@ -1,0 +1,51 @@
+{
+
+  "default_data": {
+
+    "iconPath_grey": "media/imgs/icons/02-icon-colors/03-black/",
+    "iconPath_white": "media/imgs/icons/02-icon-colors/02-black/",
+    "iconPath_black": "media/imgs/icons/02-icon-colors/01-black/",
+
+    "icon_filename_puzzle": "white-puzzle-couple.png",
+
+    "icon_filename_fire": "black-fire-1.png",
+    "icon_filename_later":"calender.png",
+    "icon_filename_done": "black-small-correct.png",
+
+    "text_tasks": "Tasks"
+
+  },
+
+  "default_cssStyles": {
+
+    "masonryContainer_cssClass": "masonry-coding-container",
+    "masonryItem_cssClass": "masonry-coding-item"
+
+  },
+
+  "categories": [
+
+    {
+      "header": {
+
+        "title": "Collections, Streams, Lamdas, XYZ und so weiter wenn du verstehst was ich meine"
+
+      },
+
+      "tasks": [
+
+        {
+          "status": "in_progress, later, done",
+          "title": "Stream Filter + Map Pipeline 🌴",
+          "description": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!",
+          "githubLinkShow": "true",
+          "githubLink": "https://..."
+        }
+
+      ]
+
+
+    }
+  ]
+
+}

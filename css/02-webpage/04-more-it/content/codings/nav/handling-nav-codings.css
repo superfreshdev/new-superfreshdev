@@ -55,7 +55,17 @@ input[name="name-radio-nav-codings"] {
 
 }
 
-/* show content */
+/* show header coding categories - tech, algos, leetcode */
+#radio-nav-codings-tech:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container,
+#radio-nav-codings-algos:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container,
+#radio-nav-codings-leetcode:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container {
+
+  display: flex;
+  /* background-color: black; */
+
+}
+
+/* show content - tech, algos, leetcode */
 #radio-nav-codings-tech:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-tech-container,
 #radio-nav-codings-algos:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-algos-container,
 #radio-nav-codings-leetcode:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-leetcode-container,
@@ -66,8 +76,7 @@ input[name="name-radio-nav-codings"] {
 
 }
 
-/* show header coding category if not unshown */
-
+/* unshown checked - unshow =  header coding category container */
 #radio-nav-codings-unshown:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container {
 
   display: none;

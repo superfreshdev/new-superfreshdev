@@ -7,6 +7,7 @@ console.log("🟨 header-update-codings.js")
 /* Dom Elements
 /* -------------------------------------------------------------------------- */
 
+
 //  update - header container
 var header_codingCategory_container = document.getElementById("header-coding-category-container");
 
