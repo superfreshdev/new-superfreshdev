@@ -22,9 +22,9 @@
 
   display: flex;
   align-items: center;
-  column-gap: .3em;
+  column-gap: .4em;
 
-  border-radius: .4em;
+  border-radius: .6em;
 
 }
 
@@ -68,7 +68,7 @@
 .status-item-in-progress > img {
 
   /* layout fix */
-  margin-top: .1em;
+  /* margin-top: .1em; */
 
 }
 
@@ -129,9 +129,14 @@
 
 .status-item-later {
 
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(222, 222, 222);
   color:rgb(87, 87, 87);
-  opacity: .6;
+
+}
+
+.status-item-later > img {
+
+  height: .8em;
 
 }
 

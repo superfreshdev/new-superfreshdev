@@ -116,6 +116,18 @@
 
 }
 
+/* new style */
+.masonry-coding-item-task-in-progress  > div:nth-of-type(1) > header,
+.masonry-coding-item-task-later  > div:nth-of-type(1) > header,
+.masonry-coding-item-task-done  > div:nth-of-type(1) > header {
+
+  height: 100%;
+  border-radius: .4em;
+
+   background-color: rgb(247, 207, 107);
+
+}
+
 /* nr */
 .masonry-coding-item-task-in-progress > div:nth-of-type(1) > header > div:nth-of-type(1),
 .masonry-coding-item-task-later > div:nth-of-type(1) > header > div:nth-of-type(1),
