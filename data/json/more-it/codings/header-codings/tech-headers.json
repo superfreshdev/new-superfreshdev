@@ -117,9 +117,10 @@
 
         "cssClass_status": "status-item-later",
         "cssClass_status_anim": "",
-        "icon_filename": "black-stop-hand.png",
-        "cssClass_icon": "img-h-0-8",
+        "icon_filename": "black-calendar-2.png",
+        "cssClass_icon": "img-h-0-3",
         "text": "later"
+
 
       },
 
@@ -165,8 +166,8 @@
 
         "cssClass_status": "status-item-later",
         "cssClass_status_anim": "",
-        "icon_filename": "black-stop-hand.png",
-        "cssClass_icon": "img-h-0-8",
+        "icon_filename": "black-calendar-2.png",
+        "cssClass_icon": "img-h-0-3",
         "text": "later"
 
       },
