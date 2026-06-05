@@ -24,7 +24,7 @@
   align-items: center;
   column-gap: .3em;
 
-  border-radius: .6em;
+  border-radius: .4em;
 
 }
 
@@ -61,6 +61,8 @@
   /* background-color: rgb(255, 227, 86); */
   /* color: rgb(142, 119, 5); */
 
+   background-color: rgb(247, 207, 107);
+
 }
 
 .status-item-in-progress > img {
@@ -73,7 +75,7 @@
 /* anim now */
 .anim-status-in-progress {
 
-  animation: anim-status-in-progress 1.3s infinite reverse ease-in-out;
+  animation: anim-status-in-progress 1.6s infinite reverse ease-in-out;
 
 }
 
@@ -81,27 +83,23 @@
 
   0% {
 
-    /* background-color: rgb(255, 242, 180); */
 
-     /* background-color: rgb(243, 212, 136) */
+    background-color: rgb(247, 207, 107);
+
   }
 
   50% {
 
-
-    /* background-color: rgb(255, 227, 86); */
-
-    /* background-color: rgb(255, 199, 57);
-    background-color: red; */
+    background-color: rgba(105, 105, 105, .8);
 
 
   }
 
   100% {
 
-    /* background-color: rgb(255, 242, 180); */
+      background-color: rgb(255, 243, 214);
 
-    /* background-color: rgb(243, 212, 136) */
+      background-color: rgb(247, 207, 107);
 
   }
 

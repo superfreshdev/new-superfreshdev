@@ -23,17 +23,17 @@
         "cssClass_status_anim": "anim-status-in-progress",
         "icon_filename": "black-fire-1.png",
         "cssClass_icon": "img-h-0-8",
-        "text": "Farid Bang 💥"
+        "text": "in progress 💥"
 
       },
 
       "content": {
 
 
-        "title": "Java | TDD (JUnit, Mock)-😈",
+        "title": "Java | TDD (JUnit, Mock)-😈 jetzt kommt bewusst ein längerer Text du weisst schon was ich meine - es geht weiter und so weiter haha es wird lang",
 
-        "time_info": "30|60 Min.🌴",
-        "img_codingCategory_filename": "coding-task-java-spring-boot.png"
+        "time_info": "30|60 Min",
+        "img_codingCategory_filename": "coding-java.png"
 
       }
 
@@ -55,6 +55,126 @@
 
 
         "title": "Spring Boot | TDD (MockMVC)",
+
+        "time_info": "30|60 Min.",
+        "img_codingCategory_filename": "coding-spring-boot.png"
+
+      }
+
+    },
+
+    {
+
+      "status": {
+
+        "cssClass_status": "status-item-in-progress",
+        "cssClass_status_anim": "anim-status-in-progress",
+        "icon_filename": "black-fire-1.png",
+        "cssClass_icon": "img-h-0-8",
+        "text": "in progress"
+
+      },
+
+      "content": {
+
+
+        "title": "Microservices | APIs, Database, Observability, ...",
+
+        "time_info": "30|60 Min.",
+        "img_codingCategory_filename": "coding-ms.png"
+
+      }
+
+    },
+
+    {
+
+      "status": {
+
+        "cssClass_status": "status-item-in-progress",
+        "cssClass_status_anim": "anim-status-in-progress",
+        "icon_filename": "black-fire-1.png",
+        "cssClass_icon": "img-h-0-8",
+        "text": "in progress"
+
+      },
+
+      "content": {
+
+
+        "title": "Cloud | Google Cloud Platform",
+
+        "time_info": "30|60 Min.",
+        "img_codingCategory_filename": "coding-cloud.png"
+
+      }
+
+    },
+
+    {
+
+      "status": {
+
+        "cssClass_status": "status-item-later",
+        "cssClass_status_anim": "",
+        "icon_filename": "black-stop-hand.png",
+        "cssClass_icon": "img-h-0-8",
+        "text": "later"
+
+      },
+
+      "content": {
+
+
+        "title": "Python | Django | Flask API",
+
+        "time_info": "30|60 Min.",
+        "img_codingCategory_filename": "coding-python.png"
+
+      }
+
+    },
+
+    {
+
+      "status": {
+
+        "cssClass_status": "status-item-in-progress",
+        "cssClass_status_anim": "anim-status-in-progress",
+        "icon_filename": "black-fire-1.png",
+        "cssClass_icon": "img-h-0-8",
+        "text": "in progress"
+
+      },
+
+      "content": {
+
+
+        "title": "Angular | Jest | NgRX | RxJS | Signal | Angular Universal ... ",
+
+        "time_info": "30|60 Min.",
+        "img_codingCategory_filename": "coding-angular.png"
+
+      }
+
+    },
+
+    {
+
+      "status": {
+
+        "cssClass_status": "status-item-later",
+        "cssClass_status_anim": "",
+        "icon_filename": "black-stop-hand.png",
+        "cssClass_icon": "img-h-0-8",
+        "text": "later"
+
+      },
+
+      "content": {
+
+
+        "title": "React Native | Mobile Dev",
 
         "time_info": "30|60 Min.",
         "img_codingCategory_filename": "coding-react-native.png"

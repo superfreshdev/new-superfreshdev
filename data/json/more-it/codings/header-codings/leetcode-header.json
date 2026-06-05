@@ -1,0 +1,43 @@
+{
+
+  "defaults": {
+
+    "icons_techPath": "media/imgs/icons/04-tech-logos/",
+    "icons_blackPath": "media/imgs/icons/02-icon-colors/01-black/",
+
+    "cssClass_header": "header-coding-category-content",
+
+    "icon_filename_sandOfTime": "black-sand-of-time.png",
+    "cssClass_icon_sandOfTime": "img-h-0-9",
+    "imgs_codingCategories_path": "media/imgs/content/02-more-it/codings/header-coding-categories/"
+
+  },
+
+  "headers": [
+
+    {
+
+      "status": {
+
+        "cssClass_status": "status-item-in-progress",
+        "cssClass_status_anim": "anim-status-in-progress",
+        "icon_filename": "black-fire-1.png",
+        "cssClass_icon": "img-h-0-8",
+        "text": "in progress 💥"
+
+      },
+
+      "content": {
+
+
+        "title": "LeetCode | Easy | Medium | Hard",
+
+        "time_info": "30|60 Min",
+        "img_codingCategory_filename": "coding-leetcode.png"
+
+      }
+
+    }
+  ]
+
+}

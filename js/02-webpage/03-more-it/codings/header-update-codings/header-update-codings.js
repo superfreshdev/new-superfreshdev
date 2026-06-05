@@ -10,6 +10,18 @@ console.log("🟨 header-update-codings.js")
 //  update - header container
 var header_codingCategory_container = document.getElementById("header-coding-category-container");
 
+// radios - tech
+var radios_techCategory = document.getElementById("radio-nav-codings-tech");
+
+// radios - tech categories
+var radios_techCategories = document.querySelectorAll('input[name="name-radio-nav-codings-tech"]');
+
+// radio - algo
+var radio_algoCategory = document.getElementById("radio-nav-codings-algos");
+
+// radio - leetcode
+var radio_leetcodeCategory = document.getElementById("radio-nav-codings-leetcode");
+
 /* -------------------------------------------------------------------------- */
 /* Json Datas
 /* -------------------------------------------------------------------------- */
@@ -18,8 +30,10 @@ var header_codingCategory_container = document.getElementById("header-coding-cat
 var jsonData_header_codings_tech = "data/json/more-it/codings/header-codings/tech-headers.json";
 
 // algos - data
+var jsonData_header_codings_algos = "data/json/more-it/codings/header-codings/algos-header.json";
 
 // leetcode - data
+var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings/leetcode-header.json";
 
 /* -------------------------------------------------------------------------- */
 /* Async Function
@@ -144,7 +158,17 @@ var jsonData_header_codings_tech = "data/json/more-it/codings/header-codings/tec
           // Update CSS Class
           /* ------------------------------ */
 
-            await async_update_2_cssClass_to_element( statusContainer, status_cssClass, status_cssClass_anim );
+            if( status_cssClass_anim != "") {
+
+              await async_update_2_cssClass_to_element( statusContainer, status_cssClass, status_cssClass_anim );
+
+            } else {
+
+              await async_update_cssClass_to_element( statusContainer, status_cssClass );
+
+            }
+
+
 
           /* ------------------------------ */
           // Update Img Src + CSS Class
@@ -203,17 +227,71 @@ var jsonData_header_codings_tech = "data/json/more-it/codings/header-codings/tec
 
   }
 
+
 /* -------------------------------------------------------------------------- */
-/* Event (1/3) - Tech
+/* 🟥 Event - First Time
+/* > Document Load
 /* -------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------- */
-/* Event (2/3) - Algos
+/* 🟩 Event (1/3) - Tech
+/* > Change Listener
 /* -------------------------------------------------------------------------- */
 
+ radios_techCategory.addEventListener('change', async ()=> {
+
+    // Set Checked Tech Category
+    // if no radio is checked, method get index 0 and set first element checked
+    var checkedIndex = await async_get_checked_radioIndex_or_zeroIndex( radios_techCategories )
+
+    // console.log(" checked Index = " + checkedIndex)
+
+    // set dyn radio checked if in dom was not default setted
+    await async_set_radioElement_checked( radios_techCategories[checkedIndex] )
+
+    // update
+    await update_headerCodings_byID( checkedIndex, jsonData_header_codings_tech, header_codingCategory_container )
+
+  })
+
 /* -------------------------------------------------------------------------- */
-/* Event (3/3) - Leetcod
+/* 🟩 Event (1/3) - Tech Categories
+/* > Change Listeners
 /* -------------------------------------------------------------------------- */
+
+  for( let i=0; i < radios_techCategories.length; i++ ) {
+
+    radios_techCategories[i].addEventListener('change', async ()=> {
+
+      update_headerCodings_byID( i, jsonData_header_codings_tech, header_codingCategory_container )
+
+    })
+
+  }
+
+/* -------------------------------------------------------------------------- */
+/* 🟩 Event (2/3) - Algos
+/* > Change Listener
+/* -------------------------------------------------------------------------- */
+
+  radio_algoCategory.addEventListener('change', async ()=> {
+
+    // only 1 item -> 0
+    update_headerCodings_byID( 0, jsonData_header_codings_algos, header_codingCategory_container )
+
+  })
+
+/* -------------------------------------------------------------------------- */
+/* 🟩 Event (3/3) - Leetcode
+/* > Change Listener
+/* -------------------------------------------------------------------------- */
+
+   radio_leetcodeCategory.addEventListener('change', async ()=> {
+
+    // only 1 item -> 0
+    update_headerCodings_byID( 0, jsonData_header_codings_leetcode, header_codingCategory_container )
+
+  })
 
 /* -------------------------------------------------------------------------- */
 /* Excecute

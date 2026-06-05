@@ -59,3 +59,21 @@
       })
 
  }
+
+
+ /* ---------------------------------------------------------------- */
+/* Async Function
+/* > Set Radio Checked
+/* ---------------------------------------------------------------- */
+
+ async function async_set_radioElement_checked ( radioElement ) {
+
+    // console.log("🟪 async_set_idElement_show()")
+
+   radioElement.checked = "checked"
+
+   return new Promise(resolve => {
+        resolve();
+      })
+
+ }
