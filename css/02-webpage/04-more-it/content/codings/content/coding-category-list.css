@@ -17,66 +17,10 @@
   width: 100%;
   height: 100%;
 
-
   display: grid;
   /* grid: 1fr / 1fr; */
 
-  /* background-color: red; */
-  /* background-color: white; */
-
-
 }
-
-/* 🖼️ */
-#background-img-coding {
-
-  z-index: 1;
-
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url(../../../../media/imgs/content/01-about/about-me/show-more/sky_cloud_clouds_175163_3840x2400.jpg);
-  background-image: url(../../../../media/imgs/content/01-about/about-me/show-more/grass_dew_drops_158971_3840x2400.jpg);
-  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/grass_dew_drops_158971_3840x2400.jpg);
-  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/ocean_waves_water_207875_3840x2400.jpg);
-  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/sea_landscape_fog_1126742_3840x2400.jpg);
-
-  background-image: url(../../../../../../media/imgs/content/01-about/about-me/show-more/sea_landscape_fog_1126742_3840x2400.jpg);
-
-  background-image: url(../../../../../../media/imgs/content/01-about/about-me/show-more/sea_horizon_minimalism_127411_3840x2400.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  opacity: .8;
-
-}
-
-.background-color-codings {
-
- /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
- background-blend-mode: multiply,multiply; */
-
- background-color: rgb(87, 87, 87) !important;
-
- /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
-
- /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
-
- /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%); */
-
-  /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
-
-/* background-color: #E4E4E1;
-background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
-background-blend-mode: normal, multiply; */
-
-/* background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%); */
-
-}
-
-
 
 /* -------------------------------------------------------------- */
 /* Coding Category List Item

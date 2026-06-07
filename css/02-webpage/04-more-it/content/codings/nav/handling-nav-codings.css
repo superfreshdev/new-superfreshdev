@@ -56,29 +56,29 @@ input[name="name-radio-nav-codings"] {
 }
 
 /* show header coding categories - tech, algos, leetcode */
-#radio-nav-codings-tech:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container,
-#radio-nav-codings-algos:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container,
-#radio-nav-codings-leetcode:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container {
+#radio-nav-codings-tech:checked ~ #codings-container #coding-content-container #header-coding-category-container,
+#radio-nav-codings-algos:checked ~ #codings-container #coding-content-container #header-coding-category-container,
+#radio-nav-codings-leetcode:checked ~ #codings-container #coding-content-container #header-coding-category-container {
 
   display: flex;
   /* background-color: black; */
 
 }
 
-/* show content - tech, algos, leetcode */
-#radio-nav-codings-tech:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-tech-container,
-#radio-nav-codings-algos:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-algos-container,
-#radio-nav-codings-leetcode:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-leetcode-container,
-#radio-nav-codings-unshown:checked ~ #codings-container > .row-container:nth-of-type(3) .resp-content-container-medium #coding-unshown-container {
+/* unshown checked - unshow =  header coding category container */
+#radio-nav-codings-unshown:checked ~ #codings-container > #coding-content-container #header-coding-category-container {
 
-  display: grid;
-  /* background-color: black; */
+  display: none;
 
 }
 
-/* unshown checked - unshow =  header coding category container */
-#radio-nav-codings-unshown:checked ~ #codings-container > .row-container:nth-of-type(2) #header-coding-category-container {
+/* show content - tech, algos, leetcode */
+#radio-nav-codings-tech:checked ~ #codings-container > #coding-content-container .resp-content-container-medium #coding-tech-container,
+#radio-nav-codings-algos:checked ~ #codings-container > #coding-content-container .resp-content-container-medium #coding-algos-container,
+#radio-nav-codings-leetcode:checked ~ #codings-container > #coding-content-container .resp-content-container-medium #coding-leetcode-container,
+#radio-nav-codings-unshown:checked ~ #codings-container > #coding-content-container .resp-content-container-medium #coding-unshown-container {
 
-  display: none;
+  display: grid;
+  /* background-color: black; */
 
 }

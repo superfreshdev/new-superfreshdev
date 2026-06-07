@@ -1,0 +1,140 @@
+
+/* --------------------------------------------------------------- */
+/* > status-tasks.css
+/*
+/* : styles status tasks
+/* : in progress, later, future idea, done
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* All | Status Progress Item
+/* --------------------------------------------------------------- */
+
+.status-task-future-idea,
+.status-task-later,
+.status-task-in-progress,
+.status-task-done {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  border-radius: .6em;
+
+}
+
+/* img */
+.status-task-future-idea > img,
+.status-task-later > img,
+.status-task-in-progress > img,
+.status-task-done > img {
+
+  opacity: .6;
+
+}
+
+/* div (text) */
+.status-task-future-idea > div,
+.status-task-later > div,
+.status-task-in-progress > div,
+.status-task-done > div {
+
+  font-weight: bold;
+  font-size: 12.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress
+/* --------------------------------------------------------------- */
+
+.status-task-in-progress {
+
+  background-color: rgb(251, 217, 132);
+  /* border: 1px solid rgba(220, 174, 55, .3); */
+
+}
+
+.status-task-in-progress > img {
+
+  /* layout fix */
+  /* margin-top: .1em; */
+
+}
+
+/* anim now */
+.anim-status-in-progress {
+
+  animation: anim-status-in-progress 1.6s infinite reverse ease-in-out;
+
+}
+
+@keyframes anim-status-in-progress {
+
+  0% {
+
+    background-color: rgb(247, 207, 107);
+
+  }
+
+  50% {
+
+    background-color: rgba(71, 71, 71, 0.8);
+
+  }
+
+  100% {
+
+    background-color: rgb(247, 207, 107);
+
+  }
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Done | Status Progress task
+/* --------------------------------------------------------------- */
+
+.status-task-done {
+
+  background-color: rgb(136, 216, 136);
+  /* border: 1px solid rgba(10, 114, 19, 0.3); */
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Later
+/* --------------------------------------------------------------- */
+
+.status-task-later {
+
+  background-color: #e3e3e3;
+  /* border: 1px solid rgba(107, 107, 107, 0.3); */
+
+}
+
+.status-task-later > img {
+
+  height: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Future Idea
+/* --------------------------------------------------------------- */
+
+.status-task-future-idea {
+
+  background-color: #e3e3e3;
+  border: 1px solid rgba(107, 107, 107, 0.3);
+  color:grey;
+
+  opacity: .6;
+
+}

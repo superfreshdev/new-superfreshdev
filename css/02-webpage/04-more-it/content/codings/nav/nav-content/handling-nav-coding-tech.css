@@ -58,13 +58,13 @@ input[name="name-radio-nav-codings-tech"] {
 }
 
 /* show content */
-#radio-nav-codings-tech-java:checked ~ #codings-container .resp-content-container-medium #masonry-tech-java-container,
-#radio-nav-codings-tech-spring-boot:checked ~ #codings-container .resp-content-container-medium #masonry-tech-spring-boot-container,
-#radio-nav-codings-tech-microservices:checked ~ #codings-container .resp-content-container-medium #masonry-tech-microservices-container,
-#radio-nav-codings-tech-cloud:checked ~ #codings-container .resp-content-container-medium #masonry-tech-cloud-container,
-#radio-nav-codings-tech-angular:checked ~ #codings-container .resp-content-container-medium #masonry-tech-angular-container,
-#radio-nav-codings-tech-pyhton:checked ~ #codings-container .resp-content-container-medium #masonry-tech-python-container,
-#radio-nav-codings-tech-react-native:checked ~ #codings-container .resp-content-container-medium #masonry-tech-react-native-container {
+#radio-nav-codings-tech-java:checked ~ #codings-container #coding-content-container #masonry-tech-java-container,
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container #coding-content-container #masonry-tech-spring-boot-container,
+#radio-nav-codings-tech-microservices:checked ~ #codings-container #coding-content-container #masonry-tech-microservices-container,
+#radio-nav-codings-tech-cloud:checked ~ #codings-container #coding-content-container #masonry-tech-cloud-container,
+#radio-nav-codings-tech-angular:checked ~ #codings-container #coding-content-container #masonry-tech-angular-container,
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container #coding-content-container #masonry-tech-python-container,
+#radio-nav-codings-tech-react-native:checked ~ #codings-container #coding-content-container #masonry-tech-react-native-container {
 
  display: grid;
 

@@ -1,4 +1,4 @@
-console.log("🟨 header-update-codings.js")
+// console.log("🟨 header-update-codings.js")
 
 
 // update header codings
@@ -43,11 +43,11 @@ var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings
 
   async function update_headerCodings_byID( checkedId, jsonFile, headerContainer ) {
 
-    console.log("💪 update_headerCodings_byID")
+    // console.log("💪 update_headerCodings_byID")
 
     // Give Data
-    console.log("➡️ checkedID: " + checkedId);
-    console.log("➡️ headerContainer: " + headerContainer);
+    // console.log("➡️ checkedID: " + checkedId);
+    // console.log("➡️ headerContainer: " + headerContainer);
 
     /* -------------------------------------------------------------------- */
     /* ➡️🟥 Step 1:
@@ -55,9 +55,9 @@ var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings
     /* -------------------------------------------------------------------- */
 
       var dataHeader = await async_getJsonFile( jsonFile )
-      console.log("🟩 JSON:= " + dataHeader )
+      // console.log("🟩 JSON:= " + dataHeader )
 
-      console.log("⭐ checkedID: " + checkedId )
+      // console.log("⭐ checkedID: " + checkedId )
 
       /* ------------------------------------------------------ */
       /* Step 1.1
@@ -75,15 +75,15 @@ var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings
       var def_imgs_codingCategory_path = dataHeader.defaults.imgs_codingCategories_path;
 
       // Prints Default Datas
-      console.log("🦾 def: " + def_icons_techPath)
-      console.log("🦾 def: " + def_icons_blackPath)
+      // console.log("🦾 def: " + def_icons_techPath)
+      // console.log("🦾 def: " + def_icons_blackPath)
 
-      console.log("🦾 def: " + def_cssClass_header)
+      // console.log("🦾 def: " + def_cssClass_header)
 
-      console.log("🦾 def: " + def_icon_filename_sandOfTime)
-      console.log("🦾 def: " + def_cssClass_icon_sandOfTime)
+      // console.log("🦾 def: " + def_icon_filename_sandOfTime)
+      // console.log("🦾 def: " + def_cssClass_icon_sandOfTime)
 
-      console.log("🦾 def: " + def_imgs_codingCategory_path)
+      // console.log("🦾 def: " + def_imgs_codingCategory_path)
 
 
       /* ------------------------------------------------------ */
@@ -92,15 +92,15 @@ var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings
       /* ------------------------------------------------------ */
 
         // Correct checked ID
-        console.log( "Length Json Headers = " + dataHeader.headers.length )
+        // console.log( "Length Json Headers = " + dataHeader.headers.length )
 
         if( checkedId >= 0 && checkedId < dataHeader.headers.length ) {
 
-          console.log("🟩 allowed = " + checkedId)
+          // console.log("🟩 allowed = " + checkedId)
 
         } else {
 
-          console.log("🟥 not allowed = " + checkedId )
+          // console.log("🟥 not allowed = " + checkedId )
         }
 
         var dataHeader_byIndex = dataHeader.headers[checkedId];
@@ -115,13 +115,13 @@ var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings
           var status_icon_cssClass = dataHeader_byIndex.status.cssClass_icon;
           var status_text = dataHeader_byIndex.status.text;
 
-          console.log("🧱 st: " + status_cssClass)
-          console.log("🧱 st: " + status_cssClass_anim)
+          // console.log("🧱 st: " + status_cssClass)
+          // console.log("🧱 st: " + status_cssClass_anim)
 
-          console.log("🧱 st: " + status_iconFilename)
+          // console.log("🧱 st: " + status_iconFilename)
 
-          console.log("🧱 st: " + status_icon_cssClass)
-          console.log("🧱 st: " + status_text)
+          // console.log("🧱 st: " + status_icon_cssClass)
+          // console.log("🧱 st: " + status_text)
 
 
         /* ---------------------------------------------------------------- */
@@ -132,9 +132,9 @@ var jsonData_header_codings_leetcode = "data/json/more-it/codings/header-codings
           var header_timeInfo =  dataHeader_byIndex.content.time_info;
           var header_imgCodingCategory_filename = dataHeader_byIndex.content.img_codingCategory_filename;
 
-          console.log("🧱 h: " + header_title )
-          console.log("🧱 h: " + header_timeInfo )
-          console.log("🧱 h: " + header_imgCodingCategory_filename )
+          // console.log("🧱 h: " + header_title )
+          // console.log("🧱 h: " + header_timeInfo )
+          // console.log("🧱 h: " + header_imgCodingCategory_filename )
 
 
     /* -------------------------------------------------------------------- */

@@ -19,7 +19,7 @@
 
       "status": {
 
-        "cssClass_status": "status-item-in-progress",
+        "cssClass_status": "status-task-in-progress",
         "cssClass_status_anim": "anim-status-in-progress",
         "icon_filename": "black-fire-1.png",
         "cssClass_icon": "img-h-0-8",

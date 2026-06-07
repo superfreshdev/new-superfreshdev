@@ -40,7 +40,25 @@
           "description": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!",
           "githubLinkShow": "true",
           "githubLink": "https://..."
+        },
+
+        {
+          "status": "in_progress, later, done",
+          "title": "Stream Filter + Map Pipeline 🌴",
+          "description": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!",
+          "githubLinkShow": "true",
+          "githubLink": "https://..."
+        },
+
+        {
+          "status": "in_progress, later, done",
+          "title": "Stream Filter + Map Pipeline 🌴",
+          "description": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!",
+          "githubLinkShow": "true",
+          "githubLink": "https://..."
         }
+
+
 
       ]
 

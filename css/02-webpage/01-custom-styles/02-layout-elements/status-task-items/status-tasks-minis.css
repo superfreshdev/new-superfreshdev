@@ -1,18 +1,17 @@
 /* --------------------------------------------------------------- */
-/* > status-progress-mini-items.css
+/* > status-task-minis.css
 /*
-/* : styles status progress mini items
-/* : later, in-progress, done
+/* : styles task minis
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* All | Later, in-progress, Done
+/* All | In Progress, Later, Done
 /* --------------------------------------------------------------- */
 
-.status-progress-mini-later,
-.status-progress-mini-in-progress,
-.status-progress-mini-done {
+.status-task-mini-in-progress,
+.status-task-mini-later,
+.status-task-mini-done {
 
   min-height: 1.8em;
   min-width: 1.8em;
@@ -24,11 +23,22 @@
 
 }
 
-.status-progress-mini-later > img,
-.status-progress-mini-in-progress > img,
-.status-progress-mini-done > img {
+.status-task-mini-in-progress > img,
+.status-task-mini-later > img,
+.status-task-mini-done > img {
 
- opacity: .5;
+  opacity: .5;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress
+/* --------------------------------------------------------------- */
+
+.status-task-mini-in-progress {
+
+  background-color: rgb(251, 217, 132);
+  border: 1px solid rgba(220, 174, 55, .3);
 
 }
 
@@ -36,36 +46,20 @@
 /* Later
 /* --------------------------------------------------------------- */
 
-.status-progress-mini-later {
+.status-task-mini-later {
 
   background-color: #e3e3e3;
-  border: 1px solid rgb(207, 207, 207);
+  border: 1px solid rgba(107, 107, 107, 0.3);
 
-}
-
-/* --------------------------------------------------------------- */
-/* in-progress
-/* --------------------------------------------------------------- */
-
-.status-progress-mini-in-progress {
-
-  background-color: rgb(255, 227, 86);
-
-  background-color: rgb(247, 207, 107);
-
-  border: 1px solid rgb(207, 207, 207);
 }
 
 /* --------------------------------------------------------------- */
 /* Done
 /* --------------------------------------------------------------- */
 
-.status-progress-mini-done {
+.status-task-mini-done {
 
-  background-color: rgb(153, 251, 153);
-
-  background-color: rgb(104, 190, 104);
-
-  border: 1px solid rgb(207, 207, 207);
+  background-color: rgb(136, 216, 136);
+  border: 1px solid rgba(10, 114, 19, 0.3);
 
 }
