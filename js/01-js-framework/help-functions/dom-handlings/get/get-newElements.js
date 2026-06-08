@@ -140,8 +140,6 @@ async function async_get_newImg_src( srcPath ) {
 
 }
 
-
-
 /* --------------------------------------------------------------------- */
 /* Get New Link | Href, cssClass
 /* --------------------------------------------------------------------- */
@@ -161,6 +159,28 @@ async function async_get_newLink_href_cssClass( hrefPath, cssClass ) {
   // add css class
   newLink.classList.add(cssClass);
 
+
+  return new Promise(resolve => {
+    resolve( newLink );
+  })
+
+}
+
+/* --------------------------------------------------------------------- */
+/* Get New Link | Href
+/* --------------------------------------------------------------------- */
+
+async function async_get_newLink_href( hrefPath ) {
+
+  // console.log("🟨 async_get_newLink_href_cssClass")
+
+  // new Link
+  const newLink = document.createElement("a");
+
+  // set href
+  newLink.setAttribute( "href", hrefPath )
+  // set target
+  newLink.setAttribute( "target", "_blank" )
 
   return new Promise(resolve => {
     resolve( newLink );
