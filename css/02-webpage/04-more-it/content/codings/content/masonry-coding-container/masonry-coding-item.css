@@ -65,8 +65,11 @@
 /* img puzzle */
 .masonry-coding-item > header > div:nth-of-type(1) > img:nth-of-type(1) {
 
+  height: 1.6em;
+
   opacity: .6;
   transform: rotate(15deg);
+
 
 }
 
@@ -88,11 +91,14 @@
 .masonry-coding-item > header > div:nth-of-type(2) {
 
   height: 1.6em;
+
   padding: 0 .6em;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  column-gap: .4em;
 
   border-radius: 1em;
 
@@ -104,7 +110,7 @@
 
 }
 
-.masonry-coding-item > header > div:nth-of-type(2) > div {
+.masonry-coding-item > header > div:nth-of-type(2) span {
 
   font-size: 12.5px;
 
