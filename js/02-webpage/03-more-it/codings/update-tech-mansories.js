@@ -7,6 +7,7 @@
 /* Dom Elements
 /* -------------------------------------------------------------------------- */
 
+
   // radios tech
   var radios_of_tech = document.querySelectorAll("input[name='name-radio-nav-codings-tech']")
   // console.log("🔥= " + radios_of_tech.length )

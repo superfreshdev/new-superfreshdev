@@ -17,6 +17,7 @@
     if( msnryCtx.container ) {
       msnryCtx.container.destroy();
       msnryCtx.container = null;
+
     }
 
 
