@@ -143,15 +143,53 @@
 
     // console.log("🟪 async_set_cssClass_to_element()")
 
-    // console.log("➡️ cssClass = " + cssClass );
-    // console.log("➡️ element = " +  element.getAttribute("class"));
-
     // remove old css class
     element.innerText = "";
 
     // update new text
     element.innerText = newText;
 
+
+   return new Promise(resolve => {
+        resolve( );
+      })
+
+ }
+
+
+/* ---------------------------------------------------------------- */
+/* Async Function
+/* > Update Img - Src & CSS Class
+/* ---------------------------------------------------------------- */
+
+ async function async_update_img_src_cssClass( srcPath, cssClass, img ) {
+
+    // console.log("🟪 async_update_img_src_cssClass_from_element()")
+
+    // update src
+    img.setAttribute( "src", srcPath )
+
+    // update css class
+    img.classList.add(cssClass);
+
+
+   return new Promise(resolve => {
+        resolve( );
+      })
+
+ }
+
+ /* ---------------------------------------------------------------- */
+/* Async Function
+/* > Update Img - Src & CSS Class
+/* ---------------------------------------------------------------- */
+
+ async function async_update_img_src( srcPath, img ) {
+
+    // console.log("🟪 async_update_img_src()")
+
+    // update src
+    img.setAttribute( "src", srcPath )
 
    return new Promise(resolve => {
         resolve( );

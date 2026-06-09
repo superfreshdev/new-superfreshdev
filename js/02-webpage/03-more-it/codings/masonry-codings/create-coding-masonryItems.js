@@ -99,7 +99,7 @@
     // Get - Status Order Task Item
     async function async_getOrderIndex_taskItem( statusTask ) {
 
-      console.log("📐 Check Which Status Order to use")
+      // console.log("📐 Check Which Status Order to use")
 
       // order direction
       var index_order_inProgress = [];
@@ -143,9 +143,9 @@
 
       }
 
-      console.log("🌴 inProgress Indizies = " + index_order_inProgress)
-      console.log("🌴 done Indizies = " + index_order_done)
-      console.log("🌴 later Indizies = " + index_order_later)
+      // console.log("🌴 inProgress Indizies = " + index_order_inProgress)
+      // console.log("🌴 done Indizies = " + index_order_done)
+      // console.log("🌴 later Indizies = " + index_order_later)
 
       // ⚠️ Spread - Operator better solution
 
@@ -204,8 +204,8 @@
         indizies_statusOrder = await async_getOrderIndex_taskItem( dataTasks )
         var indexOrder = "";
 
-        console.log("⭐indizies_statusOrder = " + indizies_statusOrder )
-        console.log("⭐indizies_statusOrder 0 = " + indizies_statusOrder[0] )
+        // console.log("⭐indizies_statusOrder = " + indizies_statusOrder )
+        // console.log("⭐indizies_statusOrder 0 = " + indizies_statusOrder[0] )
 
         for( let i=0; i < maxTasksItems; i++ ) {
 
@@ -219,7 +219,7 @@
             // User Index Status Order
             // 1. in progress, 2. done, 3. later
             indexOrder = indizies_statusOrder[i];
-            console.log("🔥 Use - IndexOrder = " + indexOrder )
+            // console.log("🔥 Use - IndexOrder = " + indexOrder )
 
             cssClass_taskItem = dataTasks[indexOrder].status.cssClass_item;
             div_taskItems.push( await async_get_newElement_cssClass( "div", cssClass_taskItem ) )
@@ -363,10 +363,10 @@
     // Create - Masonry Coding Items
     async function create_coding_masonryItems_to( jsonFile, addPoint ) {
 
-      console.log("🧱 Build | All Masonry Items to [Add Point] ")
+      // console.log("🧱 Build | All Masonry Items to [Add Point] ")
 
-      console.log("jsonFile= " + jsonFile);
-      console.log("addPoint= " + addPoint);
+      // console.log("jsonFile= " + jsonFile);
+      // console.log("addPoint= " + addPoint);
 
       /* -------------------------------------------------------------------- */
       /* > Get Default Data
@@ -374,7 +374,7 @@
 
         // get data from json file
         var dataCodingMasonryItems = await async_getJsonFile( jsonFile )
-        console.log("🟩 JSON:= " + dataCodingMasonryItems )
+        // console.log("🟩 JSON:= " + dataCodingMasonryItems )
 
         var defaultData = dataCodingMasonryItems.defaults;
         var dataCatagories = dataCodingMasonryItems.categories;

@@ -2,14 +2,13 @@
 
   "defaults": {
 
-    "icons_techPath": "media/imgs/icons/04-tech-logos/",
-    "icons_blackPath": "media/imgs/icons/02-icon-colors/01-black/",
+    "iconsPath_tech": "media/imgs/icons/04-tech-logos/",
+    "iconsPath_black": "media/imgs/icons/02-icon-colors/01-black/",
+    "iconsPath_white": "media/imgs/icons/02-icon-colors/02-white/",
 
-    "cssClass_header": "header-coding-category-content",
-
-    "icon_filename_sandOfTime": "black-sand-of-time.png",
-    "cssClass_icon_sandOfTime": "img-h-0-9",
-    "imgs_codingCategories_path": "media/imgs/content/02-more-it/codings/header-coding-categories/"
+    "iconFilename_clock": "white-clock.png",
+    "cssClass_iconClock": "img-h-0-9",
+    "imgPath_codingCategory": "media/imgs/content/02-more-it/codings/header-coding-categories/"
 
   },
 
@@ -33,7 +32,7 @@
         "title": "Java | TDD (JUnit, Mock)-😈 jetzt kommt bewusst ein längerer Text du weisst schon was ich meine - es geht weiter und so weiter haha es wird lang",
 
         "time_info": "30|60 Min",
-        "img_codingCategory_filename": "coding-java.png"
+        "imgFilename_codingCategory": "coding-java.png"
 
       }
 
@@ -57,7 +56,7 @@
         "title": "Spring Boot | TDD (MockMVC)",
 
         "time_info": "30|60 Min.",
-        "img_codingCategory_filename": "coding-spring-boot.png"
+        "imgFilename_codingCategory": "coding-spring-boot.png"
 
       }
 
@@ -81,7 +80,7 @@
         "title": "Microservices | APIs, Database, Observability, ...",
 
         "time_info": "30|60 Min.",
-        "img_codingCategory_filename": "coding-ms.png"
+        "imgFilename_codingCategory": "coding-ms.png"
 
       }
 
@@ -105,7 +104,7 @@
         "title": "Cloud | Google Cloud Platform",
 
         "time_info": "30|60 Min.",
-        "img_codingCategory_filename": "coding-cloud.png"
+        "imgFilename_codingCategory": "coding-cloud.png"
 
       }
 
@@ -130,7 +129,7 @@
         "title": "Python | Django | Flask API",
 
         "time_info": "30|60 Min.",
-        "img_codingCategory_filename": "coding-python.png"
+        "imgFilename_codingCategory": "coding-python.png"
 
       }
 
@@ -154,7 +153,7 @@
         "title": "Angular | Jest | NgRX | RxJS | Signal | Angular Universal ... ",
 
         "time_info": "30|60 Min.",
-        "img_codingCategory_filename": "coding-angular.png"
+        "imgFilename_codingCategory": "coding-angular.png"
 
       }
 
@@ -178,7 +177,7 @@
         "title": "React Native | Mobile Dev",
 
         "time_info": "30|60 Min.",
-        "img_codingCategory_filename": "coding-react-native.png"
+        "imgFilename_codingCategory": "coding-react-native.png"
 
       }
 

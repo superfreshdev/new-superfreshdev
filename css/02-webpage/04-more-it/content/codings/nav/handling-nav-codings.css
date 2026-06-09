@@ -60,15 +60,14 @@ input[name="name-radio-nav-codings"] {
 #radio-nav-codings-algos:checked ~ #codings-container #coding-content-container #header-coding-category-container,
 #radio-nav-codings-leetcode:checked ~ #codings-container #coding-content-container #header-coding-category-container {
 
-  display: flex;
-  /* background-color: black; */
+  /* display: flex; */
 
 }
 
 /* unshown checked - unshow =  header coding category container */
 #radio-nav-codings-unshown:checked ~ #codings-container > #coding-content-container #header-coding-category-container {
 
-  display: none;
+  /* display: none; */
 
 }
 
@@ -79,6 +78,5 @@ input[name="name-radio-nav-codings"] {
 #radio-nav-codings-unshown:checked ~ #codings-container > #coding-content-container .resp-content-container-medium #coding-unshown-container {
 
   display: grid;
-  /* background-color: black; */
 
 }
