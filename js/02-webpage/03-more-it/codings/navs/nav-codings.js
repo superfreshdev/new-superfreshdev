@@ -16,6 +16,8 @@
  // showing header container
  var headerCodingsContainer = document.getElementById("header-coding-category-container");
 
+
+
 /* -------------------------------------------------------------------------- */
 /* Variables
 /* -------------------------------------------------------------------------- */
