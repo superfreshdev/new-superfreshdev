@@ -22,7 +22,7 @@
   /* -------------------------------------------------------------------------- */
 
     // data - java tasks
-    var jsonData_categoryTasks_java = "data/json/more-it/codings/tech-masonry/java-category-tasks-masonry.json";
+    var jsonData_categoryTasks_java = "data/json/more-it/codings/masonries/tech/java-task-categories.json";
 
   /* -------------------------------------------------------------------------- */
   /* Help Functions

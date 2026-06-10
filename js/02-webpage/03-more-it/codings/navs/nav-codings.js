@@ -2,42 +2,39 @@
 
 
 /* -------------------------------------------------------------------------- */
-/* Dom Elements
+/* 🏗️ | Dom Elements
 /* -------------------------------------------------------------------------- */
 
- // radios - nav codings
+ // Radios - nav codings
  var radiosNavCodings = document.querySelectorAll( "input[name='name-radio-nav-codings']" );
- //  console.log("Radios_NavCodings= " + radiosNavCodings.length)
 
- // radios - tech nav codings
- var radios_techNavCodings = document.querySelectorAll( "input[name='name-radio-nav-codings-tech']" );
- console.log("radios_techNavCodings= " + radios_techNavCodings.length)
-
- // showing header container
+ // Coding Header Container
  var headerCodingsContainer = document.getElementById("header-coding-category-container");
 
 
-
 /* -------------------------------------------------------------------------- */
-/* Variables
+/* 🔩 | Variables
 /* -------------------------------------------------------------------------- */
 
   // Json Data - Header Tech
-  var dataFile_headerTech = "data/json/more-it/codings/header-codings/header-techs.json";
+  var dataFileHeaderTech = "data/json/more-it/codings/headers/header-techs.json";
 
   // Json Data - Header Algos
-  var dataFile_headerAlgos = "data/json/more-it/codings/header-codings/header-algos.json";
+  var dataFileHeaderAlgos = "data/json/more-it/codings/headers/header-algos.json";
 
   // Json Data - Header Leetcode
-  var dataFile_headerLeetcode = "data/json/more-it/codings/header-codings/header-leetcodes.json";
+  var dataFileHeaderLeetcode = "data/json/more-it/codings/headers/header-leetcode.json";
+
+  // Json Data - Header Challenges
+  var dataFileHeaderChallenges = "data/json/more-it/codings/headers/header-challenges.json";
 
 
 /* -------------------------------------------------------------------------- */
-/* Toggle Async Function
-/* > Toggle - Show/Hide - Coding Header
+/* 🔶 Help | Async Function
+/* > Apply Visibility - Coding Header Visibility ( show / unshown )
 /* -------------------------------------------------------------------------- */
 
-  async function async_toggle_codingHeader( radios, header ) {
+  async function applyVisibilityCodingHeader( radios, header ) {
 
     // states
     var cssStyle_show = "display:flex;"
@@ -83,42 +80,65 @@
   }
 
 /* -------------------------------------------------------------------------- */
-/* Event
-/* > DomContentLoaded Listener ( first content load )
-/* > Toggle - Header Coding Container
-/* > Update - Coding Header
+/* 🔶 Help | Async Function
+/* > Handle Update - Coding Header
 /* -------------------------------------------------------------------------- */
 
-  document.addEventListener( "DOMContentLoaded", async ()=> {
+  async function handleUpdateCodingHeader ( radiosNavCodings ) {
 
-    /* ------------------------------------------------------ */
-    /* Step 1/1:
-    /* > Toggle Coding Header by Checked Index
-    /* ------------------------------------------------------ */
-
-      await async_toggle_codingHeader( radiosNavCodings,
-                                       headerCodingsContainer )
-
-    /* ------------------------------------------------------ */
-    /* Step 2/2:
-    /* > Update Coding Header by Checked Index
-    /* ------------------------------------------------------ */
 
       var checkedIndex = await async_get_checked_radioIndex( radiosNavCodings )
 
-      // Only 1=Algos | 2=Leetcode - Data Update - Coding Header
+      /* Update Coding Header Cases:
+      /* 0: Tech - Sub Categories - Java, Spring Boot, ...
+      /* 1: Algos
+      /* 2: Leetcode
+      /* 3: Challenges */
+
       switch( checkedIndex ) {
 
-        // Data Update - Header Coding Algos
-        case 1:
-           // 0 - we only have one data item
-          async_update_codingHeader( 0, dataFile_headerAlgos, headerCodingsContainer )
+        /* -------------------------------------------------- */
+        /* Update | Coding Header - Tech Sub Category
+        /* -------------------------------------------------- */
+        case 0:
+
+          // window.alert("🎉 - 0 - Update - Coding Header" )
+          var radiosTech = document.querySelectorAll( "input[name='name-radio-nav-codings-tech']" );
+          var checkedIndex = await async_get_checked_radioIndex( radiosTech )
+          // console.log("checkedIndex == " + checkedIndex )
+
+          await updateCodingHeader( checkedIndex, dataFileHeaderTech, headerCodingsContainer )
+
           break;
 
-        // Data Update - Header Coding Leetcode
+        /* -------------------------------------------------- */
+        /* Update | Coding Header - Algos
+        /* -------------------------------------------------- */
+        case 1:
+
+           // 0 - we only have one data header item
+          await updateCodingHeader( 0, dataFileHeaderAlgos, headerCodingsContainer )
+
+          break;
+
+        /* -------------------------------------------------- */
+        /* Update | Coding Header - Leetcode
+        /* -------------------------------------------------- */
         case 2:
-          // 0 - we only have one data item
-          async_update_codingHeader( 0, dataFile_headerLeetcode, headerCodingsContainer )
+
+          // 0 - we only have one data header item
+          await updateCodingHeader( 0, dataFileHeaderLeetcode, headerCodingsContainer )
+
+          break;
+
+        /* -------------------------------------------------- */
+        /* Update | Coding Header - Challenges
+        /* -------------------------------------------------- */
+        case 3:
+
+          // 0 - we only have one data header item
+          await updateCodingHeader( 0, dataFileHeaderChallenges, headerCodingsContainer )
+
           break;
 
         default:
@@ -126,183 +146,83 @@
 
       }
 
-  })
+    return new Promise(resolve => {
+        resolve( );
+      })
+
+  }
 
 /* -------------------------------------------------------------------------- */
-/* Event
-/* > Radio Change Listener
-/* > Radios: tech, algos, leetcode, unshown
-/> > Toggle - Header Coding Container
+/* 🎉 Event
+/* > DomContentLoaded Listener ( first content load )
+/* > * Toggle - Header Coding Container ( all )
+/* > * Update - Coding Header ( Algos, Leetcode, Challenges )
+/* -------------------------------------------------------------------------- */
+
+  document.addEventListener( "DOMContentLoaded", async ()=> {
+
+    /* ------------------------------------------------------ */
+    /* Step 1/1:
+    /* > Apply Coding Header - Visibility ( show / unshown )
+    /* > by finding checked index
+    /* ------------------------------------------------------ */
+
+      await applyVisibilityCodingHeader( radiosNavCodings,
+                                         headerCodingsContainer )
+
+    /* ------------------------------------------------------ */
+    /* Step 2/2:
+    /* > Handle Update Coding Header by Checked Index
+    /*
+    /* Checked Indizies:
+    /* 0 = Tech = go deeper in nav
+    /* 1 = Algos = Update Coding Header
+    /* 2 = Leetcode = Update Coding Header
+    /* 3 = Challenges = Update Coding Header
+    /* otherwise ids will be ignorred
+    /* ------------------------------------------------------ */
+
+      await handleUpdateCodingHeader( radiosNavCodings )
+
+
+  })
+
+
+/* -------------------------------------------------------------------------- */
+/* 🎉 Event
+/* > Radio Change Listener - Tech, Algos, Leetcode, Challenges, Unshown
+/* > * Toggle - Header Coding Container ( all )
+/* > * Update - Coding Header ( Algos, Leetcode, Challenges )
 /* -------------------------------------------------------------------------- */
 
   for( let i=0; i < radiosNavCodings.length; i++ ) {
 
     radiosNavCodings[i].addEventListener( "change", async ()=> {
 
-      window.alert("Toggle coding Header = " + i)
+      window.alert("Tab Switching = " + i)
 
-      // Toggle - Coding Header Container
-      await async_toggle_codingHeader( radiosNavCodings,
-                                       headerCodingsContainer )
+      /* ------------------------------------------------------ */
+      /* Step 1/1:
+      /* > Apply Coding Header - Visibility ( show / unshown )
+      /* ------------------------------------------------------ */
 
-    })
-
-  }
-
-/* -------------------------------------------------------------------------- */
-/* Event
-/* > Radio Change Listener - Tech
-/* > Update - Coding Header
-/> > Create - Masonry Container
-/* -------------------------------------------------------------------------- */
-
-  var radioNavCodingTech = document.getElementById("radio-nav-codings-tech")
-
-  radioNavCodingTech.addEventListener( "change", async() => {
-
-      window.alert("Tab = Tech")
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 1/2
-    /* > Update - Coding Header Container - Tech
-    /* ---------------------------------------------------------------------- */
-
-      // Look which index checked otherwise get index 0
-      var checkedIndex = await async_get_checked_radioIndex( radios_techNavCodings )
-      console.log("😀 checkedIndex = " + checkedIndex )
-
-      if( checkedIndex != null &&
-          checkedIndex != undefined )
-      {
-         await async_update_codingHeader( checkedIndex,
-                                          dataFile_headerTech,
+        await applyVisibilityCodingHeader( radiosNavCodings,
                                           headerCodingsContainer )
-      } else {
 
-        // Unshown Coding Header Container
-        await async_toggle_codingHeader( radios_techNavCodings, headerCodingsContainer )
+      /* ------------------------------------------------------ */
+      /* Step 2/2:
+      /* > Handle Update Coding Header by Checked Index
+      /*
+      /* Checked Indizies:
+      /* 0 = Tech = go deeper in nav
+      /* 1 = Algos = Update Coding Header
+      /* 2 = Leetcode = Update Coding Header
+      /* 3 = Challenges = Update Coding Header
+      /* otherwise ids will be ignorred
+      /* ------------------------------------------------------ */
 
-      }
-
-
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 2/2
-    /* > Create - Masonry Container for Algos
-    /* ---------------------------------------------------------------------- */
-
-    // window.alert("🛠️| Create Masonry Container - Algos"  )
-
-
-  })
-
-/* -------------------------------------------------------------------------- */
-/* Event
-/* > Radio Change Listener - Tech
-/* > Update - Coding Header
-/> > Create - Masonry Container
-/* -------------------------------------------------------------------------- */
-
-  for( let i=0; i < radios_techNavCodings.length; i++ ) {
-
-    radios_techNavCodings[i].addEventListener( "change", async() => {
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 1/1
-    /* > Update - Coding Header Container - Tech by Ids
-    /* ---------------------------------------------------------------------- */
-
-      var checkedIndex = i;
-      console.log("⭐ checkedIndex = " + checkedIndex )
-
-      await async_update_codingHeader( checkedIndex,
-                                       dataFile_headerTech,
-                                       headerCodingsContainer )
+        await handleUpdateCodingHeader( radiosNavCodings )
 
     })
 
   }
-
-
-/* -------------------------------------------------------------------------- */
-/* Event
-/* > Radio Change Listener - Algo
-/* > Update - Coding Header
-/> > Create - Masonry Container
-/* -------------------------------------------------------------------------- */
-
-  var radioNavCodingAlgos = document.getElementById("radio-nav-codings-algos")
-
-  radioNavCodingAlgos.addEventListener( "change", async() => {
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 1/2
-    /* > Update - Coding Header Container - Algos
-    /* ---------------------------------------------------------------------- */
-
-      await async_update_codingHeader( 0,
-                                       dataFile_headerAlgos,
-                                       headerCodingsContainer )
-
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 2/2
-    /* > Create - Masonry Container for Algos
-    /* ---------------------------------------------------------------------- */
-
-    // window.alert("🛠️| Create Masonry Container - Algos"  )
-
-
-  })
-
-/* -------------------------------------------------------------------------- */
-/* Event
-/* > Radio Change Listener - Leetcode
-/* > Update - Coding Header
-/> > Create - Masonry Container
-/* -------------------------------------------------------------------------- */
-
-  var radioNavCodingLeetcode = document.getElementById("radio-nav-codings-leetcode")
-
-  radioNavCodingLeetcode.addEventListener( "change", async() => {
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 1/2
-    /* > Update - Coding Header Container for Leetcode
-    /* ---------------------------------------------------------------------- */
-
-      await async_update_codingHeader( 0,
-                                       dataFile_headerLeetcode,
-                                       headerCodingsContainer )
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 2/2
-    /* > Create - Masonry Container for Leetcode
-    /* ---------------------------------------------------------------------- */
-
-    // window.alert("🛠️| Create Masonry Container - Leetcode"  )
-
-  })
-
-/* -------------------------------------------------------------------------- */
-/* Event
-/* > Radio Change Listener - Unshown
-/* > Update - Coding Header
-/> > Destroy - Masonry Container
-/* -------------------------------------------------------------------------- */
-
-  var radioNavCodingUnshown = document.getElementById("radio-nav-codings-unshown")
-
-  radioNavCodingUnshown.addEventListener( "change", async() => {
-
-    /* ---------------------------------------------------------------------- */
-    /* Step 1/1
-    /* > Destroy last Masonry Container to restart new
-    /* ---------------------------------------------------------------------- */
-
-    // window.alert("❌| Detroy Masonry Container - Unshwon"  )
-
-
-
-
-  })

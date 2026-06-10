@@ -1,12 +1,12 @@
-// console.log("🟨 header-update-codings.js")
+// console.log("🟨 update-coding-header.js")
 
 
   /* -------------------------------------------------------------------------- */
-  /* 🟩 Async Function
+  /* 🟩 Help | Async Function
   /* > Update | Coding Header - Title Container
   /* -------------------------------------------------------------------------- */
 
-    async function async_update_codingHeader_titleContainer( dataDefault, dataHeaderItem, titleContainer ) {
+    async function updateCodingHeaderTitleContainer( dataDefault, dataHeaderItem, titleContainer ) {
 
       // console.log("⭐ async_update_codingHeader_titleContainer() ")
 
@@ -110,11 +110,11 @@
     }
 
   /* -------------------------------------------------------------------------- */
-  /* 🟩 Async Function
+  /* 🟩 Help | Async Function
   /* > Update | Coding Header - Time Container
   /* -------------------------------------------------------------------------- */
 
-    async function async_update_codingHeader_timeContainer( dataDefault, dataHeaderItem, timeContainer) {
+    async function updateCodingHeaderTimeContainer( dataDefault, dataHeaderItem, timeContainer) {
 
       // console.log("⭐ async_update_codingHeader_timeContainer() ")
 
@@ -203,15 +203,33 @@
     }
 
   /* -------------------------------------------------------------------------- */
-  /* Execute | Async Function
+  /* 🟩 Execute | Async Function
   /* > Update - Coding Header
   /* -------------------------------------------------------------------------- */
 
-    async function async_update_codingHeader( dataIndex, jsonFile, header ) {
+    async function updateCodingHeader( dataIndex, jsonFile, header ) {
 
       console.log("➡️ dataIndex= " + dataIndex);
       console.log("➡️ jsonFile= " + jsonFile);
       console.log("➡️ header= " + header );
+
+      /* ------------------------------------------------------------------- */
+      /* 🟩 Secure Check
+      /* > Given Wrong Data Index
+      /* ------------------------------------------------------------------- */
+
+        if( dataIndex == null &&
+            dataIndex == undefined )
+        {
+
+          console.log("❌ dataIndex = " + dataIndex)
+
+          // Unshown Header
+          header.style.display = "none";
+
+          return;
+
+        }
 
       /* ------------------------------------------------------------------- */
       /* 🟩 Step 1/4
@@ -235,7 +253,7 @@
       /* ------------------------------------------------------------------- */
 
         var div_titleContainer = document.getElementById("header-coding-title-container");
-        await async_update_codingHeader_titleContainer( dataDefault,
+        await updateCodingHeaderTitleContainer( dataDefault,
                                                         dataHeaderItem,
                                                         div_titleContainer )
 
@@ -245,7 +263,7 @@
       /* ------------------------------------------------------------------- */
 
         var div_timeContainer = document.getElementById("header-coding-time-container");
-        await async_update_codingHeader_timeContainer(  dataDefault,
+        await updateCodingHeaderTimeContainer(  dataDefault,
                                                         dataHeaderItem,
                                                         div_timeContainer )
 
