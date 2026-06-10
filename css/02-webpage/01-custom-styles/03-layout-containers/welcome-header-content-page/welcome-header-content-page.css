@@ -12,109 +12,57 @@
 .welcome-header-content-page-container {
 
   width: 100%;
-  padding: 1.3em .4em 1.4em .4em;
+  padding: 1em .8em;
+  /* padding: 1.3em .4em 1.4em .4em; */
   /* min-height: 5.5em; */
 
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 1.3em;
 
   /* background-color: green; */
 
+  /* border-bottom: 1px solid rgb(47, 47, 47); */
+
 }
 
 /* -------------------------------------------------------------- */
-/* Welcome Title Container
+/* Div 1 |
 /* -------------------------------------------------------------- */
 
-.welcome-title-container-content-page {
-
-  /* padding: 1em 1.3em; */
+.welcome-header-content-page-container > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
-  column-gap: 1em;
+  column-gap: .5em;
 
 }
 
 /* -------------------------------------------------------------- */
-/* [1/2] | Img "Hands"
+/* Img | Div 1
 /* -------------------------------------------------------------- */
 
-.welcome-title-container-content-page > img:nth-of-type(1) {
+.welcome-header-content-page-container > div:nth-of-type(1) > img:nth-of-type(1) {
 
-  height: 2.3em;
-
-  /* default unshown, small mobile */
-  display: none;
+  /* opacity: .6; */
 
 }
 
 /* -------------------------------------------------------------- */
-/* [2/2] | Welcome Content Title
+/* Div | Div 1
 /* -------------------------------------------------------------- */
 
-.welcome-content-title-content-page {
-
-
-
-}
-
-/* category info page item */
-.category-info-page-item  {
-
-  height: 1.4em;
-  padding: 0 .4em;
-  margin: 0 .1em;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: .4em;
-
-  background-color: rgb(55, 55, 55);
-  color:rgb(209, 209, 209);
-
-  /* font-size: 14.5px; */
-
-}
-
-.category-info-page-item > span {
-
-  font-size: 14.5px;
-
-}
-
-/* div 1 | title */
-.welcome-content-title-content-page > div:nth-of-type(1)  {
-
-  line-height: 1.4em;
-
-  font-weight: bold;
-  font-size: 18px;
-
-  color:rgb(40, 40, 40);
-  color:rgb(166, 166, 166);
-
-  color:rgb(230, 230, 230);
-
-}
-
-/* div 2 | sub title */
-.welcome-content-title-content-page > div:nth-of-type(2)  {
-
-  /* padding-top: .4em; */
-
-  font-size: 14.5px;
+.welcome-header-content-page-container > div:nth-of-type(1) > div:nth-of-type(1) {
 
   line-height: 1.3em;
 
-  /* font-style: italic; */
+  font-size: 14.5px;
+
   font-weight: bold;
 
   color:rgb(109, 109, 109);
 
+  /* color: wheat; */
+  /* opacity: .4; */
 
 }
