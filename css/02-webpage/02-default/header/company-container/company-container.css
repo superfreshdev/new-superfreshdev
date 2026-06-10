@@ -36,11 +36,11 @@
 
   font-weight: bold;
 
-  background-color: rgb(44, 44, 44);
-  color:wheat;
-  color: rgba(245, 222, 179, .6);
 
+  background-color: rgb(44, 44, 44);
   color:grey;
+
+
 
   /* default small mobile unshown */
   display: none;
@@ -54,8 +54,8 @@
 /* hover */
 #info-company-title:hover {
 
-  color:white;
-  background-color: black;
+  background-color: rgb(44, 44, 44);
+  color:grey;
 
   background-color: wheat;
   color:black;

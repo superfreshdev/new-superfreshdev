@@ -142,6 +142,7 @@
         console.log( "⚡ Clicked Index = " + clickedIndex )
         console.log( "⚡ Current Index = " + currentIndex )
 
+
         /* -------------------------------------------------------------------------------------------- */
         /* 🔥🔥🔥 BUGGY - funktioniert aber !!!
         /* Step 1: Update Slides with css class "push-content-slide-with-anim" only ones
