@@ -16,6 +16,12 @@
 
   display: grid;
 
+
+  /* test */
+  align-items: start;
+  grid: auto / 1fr 1fr;
+  gap:1em;
+
 }
 
 /* -------------------------------------------------------------- */

@@ -30,7 +30,7 @@
     radiosTechNavCodings[i].addEventListener( "change", async() => {
 
     /* ---------------------------------------------------------------------- */
-    /* Step 1/1
+    /* Step 1/2
     /* > Update | Coding Header Container - Tech Nav
     /* ---------------------------------------------------------------------- */
 
@@ -40,6 +40,64 @@
       await updateCodingHeader( checkedIndex,
                                 dataFileHeaderTech,
                                 headerCodingsContainer )
+
+    /* ---------------------------------------------------------------------- */
+    /* Step 2/2
+    /* > Update | Masonry Items
+    /* ---------------------------------------------------------------------- */
+
+      switch( i ) {
+
+        /* ---------------------------------------------------------- */
+        /* Java - Task Categories
+        /* ---------------------------------------------------------- */
+        case 0:
+
+          // window.alert("➡️ Create | Masonry Items = Java")
+
+            // var tech_masonry_id_containers = [
+
+            //   "#masonry-tech-java-container",
+            //   "#masonry-tech-spring-boot-container"
+
+            // ]
+
+          var addPointMasonryJavaContainer = document.getElementById("masonry-tech-java-container");
+          var jsonPathJavaCodingTaskCategories = "data/json/more-it/codings/masonries/tech/java-task-categories.json";
+
+          await createCodingMasonryItems( jsonPathJavaCodingTaskCategories,
+                                          addPointMasonryJavaContainer )
+
+          break;
+
+        /* ---------------------------------------------------------- */
+        /* Spring Boot - Task Categories
+        /* ---------------------------------------------------------- */
+        case 1:
+
+          // window.alert("➡️ Create | Masonry Items = Spring Boot ")
+
+          var addPointMasonryJavaContainer = document.getElementById("masonry-tech-spring-boot-container");
+          var jsonPathJavaCodingTaskCategories = "data/json/more-it/codings/masonries/tech/spring-boot-task-categories.json";
+
+          await createCodingMasonryItems( jsonPathJavaCodingTaskCategories,
+                                          addPointMasonryJavaContainer )
+
+          break;
+
+        /* ---------------------------------------------------------- */
+        /* Microservice - Task Categories
+        /* ---------------------------------------------------------- */
+        case 2:
+          break
+
+        default:
+          return;
+
+      }
+
+
+
 
     })
 

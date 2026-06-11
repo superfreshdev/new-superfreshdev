@@ -30,9 +30,17 @@
 /* In Progress | Masonry
 /* --------------------------------------------------------------- */
 
+.masonry-coding-item-task-in-progress {
+
+  background-color: rgb(255, 240, 202);
+
+}
+
 .masonry-coding-item-task-in-progress:hover {
 
   background-color: rgb(255, 240, 202);
+
+  background-color: white;
 
 }
 
@@ -40,9 +48,17 @@
 /* Later | Masonry
 /* --------------------------------------------------------------- */
 
+.masonry-coding-item-task-later {
+
+  background-color: rgb(237, 237, 237);
+
+}
+
 .masonry-coding-item-task-later:hover {
 
   background-color: rgb(237, 237, 237);
+
+  background-color: white;
 
 }
 
@@ -50,9 +66,17 @@
 /* Done | Masonry
 /* --------------------------------------------------------------- */
 
+.masonry-coding-item-task-done {
+
+  background-color: rgb(199, 255, 199);
+
+}
+
 .masonry-coding-item-task-done:hover {
 
   background-color: rgb(199, 255, 199);
+
+  background-color: white;
 }
 
 /* --------------------------------------------------------------- */

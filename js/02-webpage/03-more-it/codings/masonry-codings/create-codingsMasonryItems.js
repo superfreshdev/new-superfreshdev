@@ -1,26 +1,17 @@
-// console.log("🟨 create-codingMasonryItems.js")
+// console.log("🟨 create-codingsMasonryItems.js")
 
-  /*
+/*
 
-  //   /masonry-codings
+  - createCodingsMasonryItems( jsonPath, addPoint )
+  - initCodingMasonry( updateCodingMasonryContainer )
 
-  //     - createCodingsMasonryItems( jsonPath, addPoint )
-  //     - initCodingMasonry( updateCodingMasonryContainer )
-
-
-  //   1. createCodingMasonryItems()
-  //   2. initCodingMasonry();
-
-  // */
+*/
 
 
 /* -------------------------------------------------------------------------- */
 /* 🏗️ | Dom Elements
 /* -------------------------------------------------------------------------- */
 
-  var addPointMasonryJavaContainer = document.getElementById("masonry-tech-java-container");
-  // ❌
-  var addPoint_masonry_javaContainer = document.getElementById("masonry-tech-java-container");
 
   // cssClassCodingMasonryItem = ""
 
@@ -29,15 +20,15 @@
 /* -------------------------------------------------------------------------- */
 
   // data - java tasks
-  var jsonData_categoryTasks_java = "data/json/more-it/codings/masonries/tech/java-task-categories.json";
+
 
 
 /* -------------------------------------------------------------------------- */
 /* 🔶 Help Functions
 /* -------------------------------------------------------------------------- */
 
-  // Create - Header
-  async function create_coding_masonryItem_header( dataDefaults, dataCategory ) {
+  // 🟨 Create - Header
+  async function createMasonryItemCodingHeader( dataDefaults, dataCategory ) {
 
     // console.log("🧱 Build | Masonry Item - Header")
 
@@ -104,7 +95,7 @@
 
   }
 
-  // Get - Status Order Task Item
+  // 🟥 Get - Status Order Task Item
   async function async_getOrderIndex_taskItem( statusTask ) {
 
     // console.log("📐 Check Which Status Order to use")
@@ -185,8 +176,8 @@
 
   }
 
-  // Create - Main
-  async function create_coding_masonryItem_main( dataDefaults, dataTasks ) {
+  //🟨  Create - Main
+  async function createMasonryItemCodingMain( dataDefaults, dataTasks ) {
 
     // console.log("🧱 Build | Masonry Item - Main")
 
@@ -367,20 +358,30 @@
 /* ➡️ Apply Functions
 /* -------------------------------------------------------------------------- */
 
-  // Create - Masonry Coding Items
-  async function create_coding_masonryItems_to( jsonFile, addPoint ) {
+  // 🟥 Create - Masonry Coding Items
+  async function createCodingMasonryItems( jsonPath, addPoint ) {
 
     // console.log("🧱 Build | All Masonry Items to [Add Point] ")
 
-    // console.log("jsonFile= " + jsonFile);
+    // console.log("jsonFile= " + jsonPath);
     // console.log("addPoint= " + addPoint);
+
+    /* -------------------------------------------------------------------- */
+    /* > Step 1
+    /* : Delete old Dom Items if they exist
+    /* -------------------------------------------------------------------- */
+
+      var cssItemsSelector = ":scope > div";
+      await deleteDomElements( addPoint, cssItemsSelector )
+
+      // deleteDomElements()
 
     /* -------------------------------------------------------------------- */
     /* > Get Default Data
     /* -------------------------------------------------------------------- */
 
       // get data from json file
-      var dataCodingMasonryItems = await async_getJsonFile( jsonFile )
+      var dataCodingMasonryItems = await async_getJsonFile( jsonPath )
       // console.log("🟩 JSON:= " + dataCodingMasonryItems )
 
       var defaultData = dataCodingMasonryItems.defaults;
@@ -424,14 +425,14 @@
         /* > Build - MasonryItem[x] - header
         /* ---------------------------------------------------------- */
 
-          header_masonryItems.push( await create_coding_masonryItem_header( defaultData, dataCatagories[i] ) )
+          header_masonryItems.push( await createMasonryItemCodingHeader( defaultData, dataCatagories[i] ) )
 
         /* ---------------------------------------------------------- */
         /* Step 3
         /* > Build - MasonryItem[x] - main
         /* ---------------------------------------------------------- */
 
-          main_masonryItems.push( await create_coding_masonryItem_main( defaultData, dataCatagories[i].tasks ) )
+          main_masonryItems.push( await createMasonryItemCodingMain( defaultData, dataCatagories[i].tasks ) )
 
         /* ---------------------------------------------------------- */
         /* Step 4
@@ -462,5 +463,4 @@
 /* 🚀 Start Functions
 /* -------------------------------------------------------------------------- */
 
-  create_coding_masonryItems_to( jsonData_categoryTasks_java,
-                                   addPoint_masonry_javaContainer )
+  // info: executions goes in sub nav handlings
