@@ -1,275 +1,325 @@
 // console.log("🟨 update-coding-header.js")
 
 
-  /* -------------------------------------------------------------------------- */
-  /* 🟩 Help | Async Function
-  /* > Update | Coding Header - Title Container
-  /* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* 🔶 Help | Async Function
+/* > Apply Visibility - Coding Header Visibility ( show / unshown )
+/* -------------------------------------------------------------------------- */
 
-    async function updateCodingHeaderTitleContainer( dataDefault, dataHeaderItem, titleContainer ) {
+  async function applyVisibilityCodingHeader( radios ) {
 
-      // console.log("⭐ async_update_codingHeader_titleContainer() ")
+    // states
+    var cssStyle_show = "display:flex;"
+    var cssTyle_unshown = "display:none;"
 
-      // console.log("------")
+    /* --------------------------------------------------------- */
+    // Step 1 - Get Checked Index
+    /* --------------------------------------------------------- */
 
-      // console.log("➡️dataDefault= " + dataDefault);
-      // console.log("➡️dataHeaderItem= " + dataHeaderItem);
-      // console.log("➡️titleContainer= " + titleContainer);
+      var checkedIndex = await async_get_checked_radioIndex( radios )
 
-      // console.log("------")
+    /* --------------------------------------------------------- */
+    // Step 2 - Get Last Index ( unshwon index )
+    /* --------------------------------------------------------- */
 
-      /* ------------------------------------------------------------------ */
-      /* Get Default Datas
-      /* ------------------------------------------------------------------ */
+      var unshownIndex = radios.length - 1;
 
-        var def_iconPath_black = dataDefault.iconsPath_black;
-        // console.log("def_iconPath_black= " + def_iconPath_black)
+    /* --------------------------------------------------------- */
+    // Step 3 - Toggle Coding Header by checked index
+    /* --------------------------------------------------------- */
 
+      // console.log("checkedIndex= " + checkedIndex)
 
-      /* ------------------------------------------------------------------ */
-      /* Step 1/2
-      /* > Update - Status Container
-      /* ------------------------------------------------------------------ */
+      if( checkedIndex != unshownIndex &&
+          checkedIndex != null &&
+          checkedIndex != undefined )
+      {
 
-        var cssClass_status = dataHeaderItem.status.cssClass_status;
-        var cssClass_status_anim = dataHeaderItem.status.cssClass_status_anim;
+          // Show Header Coding Container
+          console.log("🟩 Show - header ")
+          await async_update_cssStyle_to_element( cssStyle_show,
+                                                  headerCodingsContainer )
 
-        var div_statusContainer = titleContainer.querySelector("div:nth-of-type(1)");
+      } else {
 
-        /* -------------------------------------------------------------------------- */
-        /* Update | Status Container
-        /* -------------------------------------------------------------------------- */
+        // Unshow Mode - Unshown Header Coding Container
+        console.log("❌ Unshow - header ")
+        await async_update_cssStyle_to_element( cssTyle_unshown,
+                                                headerCodingsContainer )
 
-        if( cssClass_status_anim != "" ) {
+      }
 
-          // set css class - in progress with anim
-          await async_update_2_cssClass_to_element( div_statusContainer, cssClass_status, cssClass_status_anim );
+  }
 
-        } else {
+/* -------------------------------------------------------------------------- */
+/* 🔶 Help | Async Function
+/* > Update | Coding Header - Title Container
+/* -------------------------------------------------------------------------- */
 
-          // set css class - done, later
-          await async_update_cssClass_to_element( div_statusContainer, cssClass_status );
+  async function updateCodingHeaderTitleContainer( dataDefault, dataHeaderItem, titleContainer ) {
 
-        }
+    // console.log("⭐ async_update_codingHeader_titleContainer() ")
 
-        /* ---------------------------------------- */
-        /* Get Item | Img Status
-        /* ---------------------------------------- */
+    // console.log("------")
 
-          var iconFilename_status = dataHeaderItem.status.icon_filename;
-          var iconFullPath_status = def_iconPath_black + iconFilename_status;
-          var cssClass_iconStatus = dataHeaderItem.status.cssClass_icon;
+    // console.log("➡️dataDefault= " + dataDefault);
+    // console.log("➡️dataHeaderItem= " + dataHeaderItem);
+    // console.log("➡️titleContainer= " + titleContainer);
 
-          var div_statusImg = div_statusContainer.querySelector("img:nth-of-type(1)");
+    // console.log("------")
 
-        /* ---------------------------------------- */
-        /* Update Item | Img Status
-        /* ---------------------------------------- */
+    /* ------------------------------------------------------------------ */
+    /* Get Default Datas
+    /* ------------------------------------------------------------------ */
 
-          await async_update_img_src_cssClass( iconFullPath_status,
-                                               cssClass_iconStatus,
-                                               div_statusImg )
+      var def_iconPath_black = dataDefault.iconsPath_black;
+      // console.log("def_iconPath_black= " + def_iconPath_black)
 
-        /* ---------------------------------------- */
-        /* Get Item | Div Status Text
-        /* ---------------------------------------- */
 
-          var textStatus = dataHeaderItem.status.text;
-          var div_statusText = div_statusContainer.querySelector("div:nth-of-type(1)");
+    /* ------------------------------------------------------------------ */
+    /* Step 1/2
+    /* > Update - Status Container
+    /* ------------------------------------------------------------------ */
 
-        /* ---------------------------------------- */
-        /* Update Item | Div Status Text
-        /* ---------------------------------------- */
+      var cssClass_status = dataHeaderItem.status.cssClass_status;
+      var cssClass_status_anim = dataHeaderItem.status.cssClass_status_anim;
 
-          await async_update_text_from_element( div_statusText, textStatus )
+      var div_statusContainer = titleContainer.querySelector("div:nth-of-type(1)");
 
+      /* -------------------------------------------------------------------------- */
+      /* Update | Status Container
+      /* -------------------------------------------------------------------------- */
 
-      /* ------------------------------------------------------------------ */
-      /* Step 2/2
-      /* > Update - Title
-      /* ------------------------------------------------------------------ */
+      if( cssClass_status_anim != "" ) {
 
-        /* ---------------------------------------- */
-        /* Get Item | Div Title Text
-        /* ---------------------------------------- */
+        // set css class - in progress with anim
+        await async_update_2_cssClass_to_element( div_statusContainer, cssClass_status, cssClass_status_anim );
 
-          var textTitle = dataHeaderItem.content.title;
-          var div_title = titleContainer.querySelector("div:nth-of-type(2)");
+      } else {
 
-        /* ---------------------------------------- */
-        /* Update Item | Div Title Text
-        /* ---------------------------------------- */
+        // set css class - done, later
+        await async_update_cssClass_to_element( div_statusContainer, cssClass_status );
 
-          await async_update_text_from_element( div_title, textTitle );
+      }
 
+      /* ---------------------------------------- */
+      /* Get Item | Img Status
+      /* ---------------------------------------- */
 
-      return new Promise(resolve => {
-        resolve( );
-      })
+        var iconFilename_status = dataHeaderItem.status.icon_filename;
+        var iconFullPath_status = def_iconPath_black + iconFilename_status;
+        var cssClass_iconStatus = dataHeaderItem.status.cssClass_icon;
 
-    }
+        var div_statusImg = div_statusContainer.querySelector("img:nth-of-type(1)");
 
-  /* -------------------------------------------------------------------------- */
-  /* 🟩 Help | Async Function
-  /* > Update | Coding Header - Time Container
-  /* -------------------------------------------------------------------------- */
+      /* ---------------------------------------- */
+      /* Update Item | Img Status
+      /* ---------------------------------------- */
 
-    async function updateCodingHeaderTimeContainer( dataDefault, dataHeaderItem, timeContainer) {
+        await async_update_img_src_cssClass( iconFullPath_status,
+                                              cssClass_iconStatus,
+                                              div_statusImg )
 
-      // console.log("⭐ async_update_codingHeader_timeContainer() ")
+      /* ---------------------------------------- */
+      /* Get Item | Div Status Text
+      /* ---------------------------------------- */
 
-      // console.log("------")
+        var textStatus = dataHeaderItem.status.text;
+        var div_statusText = div_statusContainer.querySelector("div:nth-of-type(1)");
 
-      // console.log("➡️dataDefault= " + dataDefault);
-      // console.log("➡️dataHeaderItem= " + dataHeaderItem);
-      // console.log("➡️timeContainer= " + timeContainer);
+      /* ---------------------------------------- */
+      /* Update Item | Div Status Text
+      /* ---------------------------------------- */
 
-      // console.log("------")
+        await async_update_text_from_element( div_statusText, textStatus )
 
-      /* ------------------------------------------------------------------ */
-      /* Get Default Datas
-      /* ------------------------------------------------------------------ */
 
-        var def_iconPath_white = dataDefault.iconsPath_white;
-        var iconFilename_clock = dataDefault.iconFilename_clock;
-        var cssClass_iconClock = dataDefault.cssClass_iconClock;
+    /* ------------------------------------------------------------------ */
+    /* Step 2/2
+    /* > Update - Title
+    /* ------------------------------------------------------------------ */
 
-        var iconFullPath_clock = def_iconPath_white + iconFilename_clock;
+      /* ---------------------------------------- */
+      /* Get Item | Div Title Text
+      /* ---------------------------------------- */
 
-        // img coding category
-        var def_imgPath_codingCategory = dataDefault.imgPath_codingCategory;
+        var textTitle = dataHeaderItem.content.title;
+        var div_title = titleContainer.querySelector("div:nth-of-type(2)");
 
+      /* ---------------------------------------- */
+      /* Update Item | Div Title Text
+      /* ---------------------------------------- */
 
-      /* ------------------------------------------------------------------ */
-      /* Step 1/2
-      /* > Update - Time Box
-      /* ------------------------------------------------------------------ */
+        await async_update_text_from_element( div_title, textTitle );
 
-        var div_timeBox = timeContainer.querySelector("div:nth-of-type(1)")
 
-        /* ---------------------------------------- */
-        /* Get Item | Img Time
-        /* ---------------------------------------- */
+    return new Promise(resolve => {
+      resolve( );
+    })
 
-          var img_timeIcon = div_timeBox.querySelector("img:nth-of-type(1)");
+  }
 
-        /* ---------------------------------------- */
-        /* Update Item | Img Time
-        /* ---------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* 🔶 Help | Async Function
+/* > Update | Coding Header - Time Container
+/* -------------------------------------------------------------------------- */
 
-          await async_update_img_src_cssClass( iconFullPath_clock,
-                                               cssClass_iconClock,
-                                               img_timeIcon )
+  async function updateCodingHeaderTimeContainer( dataDefault, dataHeaderItem, timeContainer) {
 
-        /* ---------------------------------------- */
-        /* Get Item | Div Time Text
-        /* ---------------------------------------- */
+    // console.log("⭐ async_update_codingHeader_timeContainer() ")
 
-          var text_time = dataHeaderItem.content.time_info;
-          var div_timeText = div_timeBox.querySelector("div:nth-of-type(1)");
+    // console.log("------")
 
-        /* ---------------------------------------- */
-        /* Update Item | Div Time Text
-        /* ---------------------------------------- */
+    // console.log("➡️dataDefault= " + dataDefault);
+    // console.log("➡️dataHeaderItem= " + dataHeaderItem);
+    // console.log("➡️timeContainer= " + timeContainer);
 
-          await async_update_text_from_element( div_timeText, text_time );
+    // console.log("------")
 
-      /* ------------------------------------------------------------------ */
-      /* Step 2/2
-      /* > Update - Img Category
-      /* ------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------ */
+    /* Get Default Datas
+    /* ------------------------------------------------------------------ */
 
-        /* ---------------------------------------- */
-        /* Get Item | Img Category
-        /* ---------------------------------------- */
+      var def_iconPath_white = dataDefault.iconsPath_white;
+      var iconFilename_clock = dataDefault.iconFilename_clock;
+      var cssClass_iconClock = dataDefault.cssClass_iconClock;
 
-          var imgFullPath_codingCategory = def_imgPath_codingCategory + dataHeaderItem.content.imgFilename_codingCategory;
-          var img_codingCategory = timeContainer.querySelector("img:last-child")
+      var iconFullPath_clock = def_iconPath_white + iconFilename_clock;
 
-        /* ---------------------------------------- */
-        /* Update Item | Img Category
-        /* ---------------------------------------- */
+      // img coding category
+      var def_imgPath_codingCategory = dataDefault.imgPath_codingCategory;
 
-          await async_update_img_src( imgFullPath_codingCategory,
-                                      img_codingCategory )
 
+    /* ------------------------------------------------------------------ */
+    /* Step 1/2
+    /* > Update - Time Box
+    /* ------------------------------------------------------------------ */
 
+      var div_timeBox = timeContainer.querySelector("div:nth-of-type(1)")
 
-      return new Promise(resolve => {
-        resolve( );
-      })
+      /* ---------------------------------------- */
+      /* Get Item | Img Time
+      /* ---------------------------------------- */
 
+        var img_timeIcon = div_timeBox.querySelector("img:nth-of-type(1)");
 
-    }
+      /* ---------------------------------------- */
+      /* Update Item | Img Time
+      /* ---------------------------------------- */
 
-  /* -------------------------------------------------------------------------- */
-  /* 🟩 Execute | Async Function
-  /* > Update - Coding Header
-  /* -------------------------------------------------------------------------- */
+        await async_update_img_src_cssClass( iconFullPath_clock,
+                                              cssClass_iconClock,
+                                              img_timeIcon )
 
-    async function updateCodingHeader( dataIndex, jsonFile, header ) {
+      /* ---------------------------------------- */
+      /* Get Item | Div Time Text
+      /* ---------------------------------------- */
 
-      console.log("➡️ dataIndex= " + dataIndex);
-      console.log("➡️ jsonFile= " + jsonFile);
-      console.log("➡️ header= " + header );
+        var text_time = dataHeaderItem.content.time_info;
+        var div_timeText = div_timeBox.querySelector("div:nth-of-type(1)");
 
-      /* ------------------------------------------------------------------- */
-      /* 🟩 Secure Check
-      /* > Given Wrong Data Index
-      /* ------------------------------------------------------------------- */
+      /* ---------------------------------------- */
+      /* Update Item | Div Time Text
+      /* ---------------------------------------- */
 
-        if( dataIndex == null &&
-            dataIndex == undefined )
-        {
+        await async_update_text_from_element( div_timeText, text_time );
 
-          console.log("❌ dataIndex = " + dataIndex)
+    /* ------------------------------------------------------------------ */
+    /* Step 2/2
+    /* > Update - Img Category
+    /* ------------------------------------------------------------------ */
 
-          // Unshown Header
-          header.style.display = "none";
+      /* ---------------------------------------- */
+      /* Get Item | Img Category
+      /* ---------------------------------------- */
 
-          return;
+        var imgFullPath_codingCategory = def_imgPath_codingCategory + dataHeaderItem.content.imgFilename_codingCategory;
+        var img_codingCategory = timeContainer.querySelector("img:last-child")
 
-        }
+      /* ---------------------------------------- */
+      /* Update Item | Img Category
+      /* ---------------------------------------- */
 
-      /* ------------------------------------------------------------------- */
-      /* 🟩 Step 1/4
-      /* Get Data from JSON File
-      /* ------------------------------------------------------------------- */
+        await async_update_img_src( imgFullPath_codingCategory,
+                                    img_codingCategory )
 
-        var dataHeader = await async_getJsonFile( jsonFile )
-        console.log("🟩 JSON:= " + dataHeader )
 
-      /* ------------------------------------------------------------------- */
-      /* 🟩 Step 2/4
-      /* Get Default Datas
-      /* ------------------------------------------------------------------- */
 
-        var dataDefault = dataHeader.defaults;
-        var dataHeaderItem = dataHeader.headers[dataIndex];
+    return new Promise(resolve => {
+      resolve( );
+    })
 
-      /* ------------------------------------------------------------------- */
-      /* 🟩 Step 3/4
-      /* Update - Header Coding - Title Container
-      /* ------------------------------------------------------------------- */
 
-        var div_titleContainer = document.getElementById("header-coding-title-container");
-        await updateCodingHeaderTitleContainer( dataDefault,
-                                                        dataHeaderItem,
-                                                        div_titleContainer )
+  }
 
-      /* ------------------------------------------------------------------- */
-      /* 🟩 Step 4/4
-      /* Update - Header Coding - Time Container
-      /* ------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* 🚀 Execute | Async Function
+/* > Update - Coding Header
+/* -------------------------------------------------------------------------- */
 
-        var div_timeContainer = document.getElementById("header-coding-time-container");
-        await updateCodingHeaderTimeContainer(  dataDefault,
-                                                        dataHeaderItem,
-                                                        div_timeContainer )
+  async function updateCodingHeader( dataIndex, jsonFile, header ) {
 
+    console.log("➡️ dataIndex= " + dataIndex);
+    console.log("➡️ jsonFile= " + jsonFile);
+    console.log("➡️ header= " + header );
 
-      return new Promise(resolve => {
-        resolve( );
-      })
+    /* ------------------------------------------------------------------- */
+    /* 🟩 Secure Check
+    /* > Given Wrong Data Index
+    /* ------------------------------------------------------------------- */
 
-    }
+      if( dataIndex == null &&
+          dataIndex == undefined )
+      {
+
+        console.log("❌ dataIndex = " + dataIndex)
+
+        // Unshown Header
+        header.style.display = "none";
+
+        return;
+
+      }
+
+    /* ------------------------------------------------------------------- */
+    /* 🟩 Step 1/4
+    /* Get Data from JSON File
+    /* ------------------------------------------------------------------- */
+
+      var dataHeader = await async_getJsonFile( jsonFile )
+      console.log("🟩 JSON:= " + dataHeader )
+
+    /* ------------------------------------------------------------------- */
+    /* 🟩 Step 2/4
+    /* Get Default Datas
+    /* ------------------------------------------------------------------- */
+
+      var dataDefault = dataHeader.defaults;
+      var dataHeaderItem = dataHeader.headers[dataIndex];
+
+    /* ------------------------------------------------------------------- */
+    /* 🟩 Step 3/4
+    /* Update - Header Coding - Title Container
+    /* ------------------------------------------------------------------- */
+
+      var div_titleContainer = document.getElementById("header-coding-title-container");
+      await updateCodingHeaderTitleContainer( dataDefault,
+                                                      dataHeaderItem,
+                                                      div_titleContainer )
+
+    /* ------------------------------------------------------------------- */
+    /* 🟩 Step 4/4
+    /* Update - Header Coding - Time Container
+    /* ------------------------------------------------------------------- */
+
+      var div_timeContainer = document.getElementById("header-coding-time-container");
+      await updateCodingHeaderTimeContainer(  dataDefault,
+                                                      dataHeaderItem,
+                                                      div_timeContainer )
+
+
+    return new Promise(resolve => {
+      resolve( );
+    })
+
+  }

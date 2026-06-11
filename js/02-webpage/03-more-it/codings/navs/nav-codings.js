@@ -8,150 +8,9 @@
  // Radios - nav codings
  var radiosNavCodings = document.querySelectorAll( "input[name='name-radio-nav-codings']" );
 
- // Coding Header Container
- var headerCodingsContainer = document.getElementById("header-coding-category-container");
+ // Radios - sub nav tech - codings
+ var radiosTechNavCodings = document.querySelectorAll( "input[name='name-radio-nav-codings-tech']" );
 
-
-/* -------------------------------------------------------------------------- */
-/* 🔩 | Variables
-/* -------------------------------------------------------------------------- */
-
-  // Json Data - Header Tech
-  var dataFileHeaderTech = "data/json/more-it/codings/headers/header-techs.json";
-
-  // Json Data - Header Algos
-  var dataFileHeaderAlgos = "data/json/more-it/codings/headers/header-algos.json";
-
-  // Json Data - Header Leetcode
-  var dataFileHeaderLeetcode = "data/json/more-it/codings/headers/header-leetcode.json";
-
-  // Json Data - Header Challenges
-  var dataFileHeaderChallenges = "data/json/more-it/codings/headers/header-challenges.json";
-
-
-/* -------------------------------------------------------------------------- */
-/* 🔶 Help | Async Function
-/* > Apply Visibility - Coding Header Visibility ( show / unshown )
-/* -------------------------------------------------------------------------- */
-
-  async function applyVisibilityCodingHeader( radios, header ) {
-
-    // states
-    var cssStyle_show = "display:flex;"
-    var cssTyle_unshown = "display:none;"
-
-    /* --------------------------------------------------------- */
-    // Step 1 - Get Checked Index
-    /* --------------------------------------------------------- */
-
-      var checkedIndex = await async_get_checked_radioIndex( radios )
-
-    /* --------------------------------------------------------- */
-    // Step 2 - Get Last Index ( unshwon index )
-    /* --------------------------------------------------------- */
-
-      var unshownIndex = radios.length - 1;
-
-    /* --------------------------------------------------------- */
-    // Step 3 - Toggle Coding Header by checked index
-    /* --------------------------------------------------------- */
-
-      // console.log("checkedIndex= " + checkedIndex)
-
-      if( checkedIndex != unshownIndex &&
-          checkedIndex != null &&
-          checkedIndex != undefined )
-      {
-
-          // Show Header Coding Container
-          console.log("🟩 Show - header ")
-          await async_update_cssStyle_to_element( cssStyle_show,
-                                                  header )
-
-      } else {
-
-        // Unshow Mode - Unshown Header Coding Container
-        console.log("❌ Unshow - header ")
-        await async_update_cssStyle_to_element( cssTyle_unshown,
-                                                header )
-
-      }
-
-  }
-
-/* -------------------------------------------------------------------------- */
-/* 🔶 Help | Async Function
-/* > Handle Update - Coding Header
-/* -------------------------------------------------------------------------- */
-
-  async function handleUpdateCodingHeader ( radiosNavCodings ) {
-
-
-      var checkedIndex = await async_get_checked_radioIndex( radiosNavCodings )
-
-      /* Update Coding Header Cases:
-      /* 0: Tech - Sub Categories - Java, Spring Boot, ...
-      /* 1: Algos
-      /* 2: Leetcode
-      /* 3: Challenges */
-
-      switch( checkedIndex ) {
-
-        /* -------------------------------------------------- */
-        /* Update | Coding Header - Tech Sub Category
-        /* -------------------------------------------------- */
-        case 0:
-
-          // window.alert("🎉 - 0 - Update - Coding Header" )
-          var radiosTech = document.querySelectorAll( "input[name='name-radio-nav-codings-tech']" );
-          var checkedIndex = await async_get_checked_radioIndex( radiosTech )
-          // console.log("checkedIndex == " + checkedIndex )
-
-          await updateCodingHeader( checkedIndex, dataFileHeaderTech, headerCodingsContainer )
-
-
-          break;
-
-        /* -------------------------------------------------- */
-        /* Update | Coding Header - Algos
-        /* -------------------------------------------------- */
-        case 1:
-
-           // 0 - we only have one data header item
-          await updateCodingHeader( 0, dataFileHeaderAlgos, headerCodingsContainer )
-
-          break;
-
-        /* -------------------------------------------------- */
-        /* Update | Coding Header - Leetcode
-        /* -------------------------------------------------- */
-        case 2:
-
-          // 0 - we only have one data header item
-          await updateCodingHeader( 0, dataFileHeaderLeetcode, headerCodingsContainer )
-
-          break;
-
-        /* -------------------------------------------------- */
-        /* Update | Coding Header - Challenges
-        /* -------------------------------------------------- */
-        case 3:
-
-          // 0 - we only have one data header item
-          await updateCodingHeader( 0, dataFileHeaderChallenges, headerCodingsContainer )
-
-          break;
-
-        default:
-          return;
-
-      }
-
-    return new Promise(resolve => {
-        resolve( );
-      })
-
-  }
 
 /* -------------------------------------------------------------------------- */
 /* 🎉 Event
@@ -163,16 +22,16 @@
   document.addEventListener( "DOMContentLoaded", async ()=> {
 
     /* ------------------------------------------------------ */
-    /* Step 1/1:
+    /* Step 1/3:
     /* > Apply Coding Header - Visibility ( show / unshown )
     /* > by finding checked index
     /* ------------------------------------------------------ */
 
-      await applyVisibilityCodingHeader( radiosNavCodings,
-                                         headerCodingsContainer )
+      await applyVisibilityCodingHeader( radiosNavCodings )
+
 
     /* ------------------------------------------------------ */
-    /* Step 2/2:
+    /* Step 2/3:
     /* > Handle Update Coding Header by Checked Index
     /*
     /* Checked Indizies:
@@ -183,7 +42,18 @@
     /* otherwise ids will be ignorred
     /* ------------------------------------------------------ */
 
-      await handleUpdateCodingHeader( radiosNavCodings )
+      await handleUpdateCodingHeader( radiosNavCodings,
+                                      radiosTechNavCodings )
+
+
+    /* ------------------------------------------------------ */
+    /* Step 3/3:
+    /> Handle Update Masonry Coding Items by checking
+    /* 2x indizies
+    /* ------------------------------------------------------ */
+
+      await handleUpdateMasonryCodingsItems( radiosNavCodings,
+                                             radiosTechNavCodings )
 
 
   })
@@ -200,18 +70,17 @@
 
     radiosNavCodings[i].addEventListener( "change", async ()=> {
 
-      window.alert("Tab Switching = " + i)
+      window.alert("Nav Coding | Switching = " + i)
 
       /* ------------------------------------------------------ */
-      /* Step 1/1:
+      /* Step 1/3:
       /* > Apply Coding Header - Visibility ( show / unshown )
       /* ------------------------------------------------------ */
 
-        await applyVisibilityCodingHeader( radiosNavCodings,
-                                          headerCodingsContainer )
+        await applyVisibilityCodingHeader( radiosNavCodings )
 
       /* ------------------------------------------------------ */
-      /* Step 2/2:
+      /* Step 2/3:
       /* > Handle Update Coding Header by Checked Index
       /*
       /* Checked Indizies:
@@ -222,7 +91,18 @@
       /* otherwise ids will be ignorred
       /* ------------------------------------------------------ */
 
-        await handleUpdateCodingHeader( radiosNavCodings )
+        await handleUpdateCodingHeader( radiosNavCodings,
+                                        radiosTechNavCodings )
+
+
+      /* ------------------------------------------------------ */
+      /* Step 3/3:
+      /> Handle Update Masonry Coding Items by checking
+      /* 2x indizies
+      /* ------------------------------------------------------ */
+
+        await handleUpdateMasonryCodingsItems( radiosNavCodings,
+                                               radiosTechNavCodings )
 
     })
 

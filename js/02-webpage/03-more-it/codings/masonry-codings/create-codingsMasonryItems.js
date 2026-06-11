@@ -1,27 +1,5 @@
 // console.log("🟨 create-codingsMasonryItems.js")
 
-/*
-
-  - createCodingsMasonryItems( jsonPath, addPoint )
-  - initCodingMasonry( updateCodingMasonryContainer )
-
-*/
-
-
-/* -------------------------------------------------------------------------- */
-/* 🏗️ | Dom Elements
-/* -------------------------------------------------------------------------- */
-
-
-  // cssClassCodingMasonryItem = ""
-
-/* -------------------------------------------------------------------------- */
-/* 🔩 | Variables
-/* -------------------------------------------------------------------------- */
-
-  // data - java tasks
-
-
 
 /* -------------------------------------------------------------------------- */
 /* 🔶 Help Functions
@@ -355,7 +333,8 @@
   }
 
 /* -------------------------------------------------------------------------- */
-/* ➡️ Apply Functions
+/* 🚀 Execute | Async Function
+/* > Create | Masonry Item to addPoint
 /* -------------------------------------------------------------------------- */
 
   // 🟥 Create - Masonry Coding Items
@@ -373,8 +352,6 @@
 
       var cssItemsSelector = ":scope > div";
       await deleteDomElements( addPoint, cssItemsSelector )
-
-      // deleteDomElements()
 
     /* -------------------------------------------------------------------- */
     /* > Get Default Data
@@ -457,10 +434,3 @@
     })
 
   }
-
-
-/* -------------------------------------------------------------------------- */
-/* 🚀 Start Functions
-/* -------------------------------------------------------------------------- */
-
-  // info: executions goes in sub nav handlings

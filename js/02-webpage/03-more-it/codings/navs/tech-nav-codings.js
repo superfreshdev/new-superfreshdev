@@ -5,18 +5,11 @@
 /* 🏗️ | Dom Elements
 /* -------------------------------------------------------------------------- */
 
+ // Radios - nav codings
+ var radiosNavCodings = document.querySelectorAll( "input[name='name-radio-nav-codings']" );
+
  // Radios - Techs
  var radiosTechNavCodings = document.querySelectorAll( "input[name='name-radio-nav-codings-tech']" );
-
- // Coding Header Container
- var headerCodingsContainer = document.getElementById("header-coding-category-container");
-
-/* -------------------------------------------------------------------------- */
-/* 🔩 | Variables
-/* -------------------------------------------------------------------------- */
-
-  // Json Data - Header Tech
-  var dataFileHeaderTech = "data/json/more-it/codings/headers/header-techs.json";
 
 
 /* -------------------------------------------------------------------------- */
@@ -29,74 +22,24 @@
 
     radiosTechNavCodings[i].addEventListener( "change", async() => {
 
+      console.log("Tech 🍎 ")
+
     /* ---------------------------------------------------------------------- */
     /* Step 1/2
     /* > Update | Coding Header Container - Tech Nav
     /* ---------------------------------------------------------------------- */
 
-      var checkedIndex = i;
-      // console.log("⭐ checkedIndex = " + checkedIndex )
+      await handleUpdateCodingHeader( radiosNavCodings,
+                                      radiosTechNavCodings )
 
-      await updateCodingHeader( checkedIndex,
-                                dataFileHeaderTech,
-                                headerCodingsContainer )
+     /* ------------------------------------------------------ */
+    /* Step 2/2:
+    /> Handle Update Masonry Coding Items by checking
+    /* 2x indizies
+    /* ------------------------------------------------------ */
 
-    /* ---------------------------------------------------------------------- */
-    /* Step 2/2
-    /* > Update | Masonry Items
-    /* ---------------------------------------------------------------------- */
-
-      switch( i ) {
-
-        /* ---------------------------------------------------------- */
-        /* Java - Task Categories
-        /* ---------------------------------------------------------- */
-        case 0:
-
-          // window.alert("➡️ Create | Masonry Items = Java")
-
-            // var tech_masonry_id_containers = [
-
-            //   "#masonry-tech-java-container",
-            //   "#masonry-tech-spring-boot-container"
-
-            // ]
-
-          var addPointMasonryJavaContainer = document.getElementById("masonry-tech-java-container");
-          var jsonPathJavaCodingTaskCategories = "data/json/more-it/codings/masonries/tech/java-task-categories.json";
-
-          await createCodingMasonryItems( jsonPathJavaCodingTaskCategories,
-                                          addPointMasonryJavaContainer )
-
-          break;
-
-        /* ---------------------------------------------------------- */
-        /* Spring Boot - Task Categories
-        /* ---------------------------------------------------------- */
-        case 1:
-
-          // window.alert("➡️ Create | Masonry Items = Spring Boot ")
-
-          var addPointMasonryJavaContainer = document.getElementById("masonry-tech-spring-boot-container");
-          var jsonPathJavaCodingTaskCategories = "data/json/more-it/codings/masonries/tech/spring-boot-task-categories.json";
-
-          await createCodingMasonryItems( jsonPathJavaCodingTaskCategories,
-                                          addPointMasonryJavaContainer )
-
-          break;
-
-        /* ---------------------------------------------------------- */
-        /* Microservice - Task Categories
-        /* ---------------------------------------------------------- */
-        case 2:
-          break
-
-        default:
-          return;
-
-      }
-
-
+      await handleUpdateMasonryCodingsItems( radiosNavCodings,
+                                             radiosTechNavCodings )
 
 
     })
