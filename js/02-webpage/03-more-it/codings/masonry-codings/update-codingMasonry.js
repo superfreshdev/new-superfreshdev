@@ -4,17 +4,6 @@
 
 /*
 
-  1. Create Masonry Codings Items
-  2. Create Masonry Codings Container ( max 2 col layout | 800 px )
-
-
-  Step 1:
-
-    1. Create to "addPoint" all "masonryItems"
-    2. Create Masonry Coding Container to it
-
-*/
-
 /* -------------------------------------------------------------------------- */
 /* Dom Elements
 /* -------------------------------------------------------------------------- */

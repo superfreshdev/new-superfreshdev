@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", async()=> {
 
   var checkedHeaderIndex = await async_get_checked_radioIndex( radios_header_body )
 
-  window.alert("DomContent = " + checkedHeaderIndex)
+  // window.alert("DomContent = " + checkedHeaderIndex)
 
   if( checkedHeaderIndex == 0 ) {
 
@@ -59,7 +59,7 @@ for( let i=0; i < radios_header_body.length; i++ ) {
 
   radios_header_body[i].addEventListener( "change", async() => {
 
-    console.log("Header Tab = " + i )
+    // console.log("Header Tab = " + i )
 
     var checkedHeaderIndex = await  async_get_checked_radioIndex( radios_header_body )
 
