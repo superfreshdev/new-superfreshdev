@@ -5,7 +5,113 @@
 /* 🔶 Help Functions
 /* -------------------------------------------------------------------------- */
 
-  // 🟨 Create - Header
+  // 🟥 Filtered Indizies - Category Task Containers
+  async function getCategoryIndicesPrioritzedByProgress( categoryTasks ) {
+
+    // console.log("📐 getCategoryIndicesPrioritzedByProgress()")
+    console.log("🔥 Max | Category Tasks = " + categoryTasks.length )
+
+
+    var finalOrderIndizies = [];
+
+
+
+    console.log("🔥 Filtered | Category Tasks = "  )
+
+     return new Promise(resolve => {
+        resolve( finalOrderIndizies );
+    })
+
+  }
+
+  // 🟩 Filtered Indizies - Task Items (Main)
+  // > 1. In Progress - 2. Later - 3. Done
+  async function getTaskIndiziesPriorizedByProgress( statusTask ) {
+
+    // console.log("📐 Check Which Status Order to use")
+
+    // order direction
+    var index_order_inProgress = [];
+    var index_order_done = [];
+    var index_order_later = [];
+
+    var cssClass_statusItem = "";
+
+    // final status order
+    var final_index_statusOrder = [];
+
+    for( let i=0; i < statusTask.length; i++ ) {
+
+      // console.log("Task Items = " + i)
+      cssClass_statusItem = statusTask[i].status.cssClass_item;
+      // console.log("statusItem= " + cssClass_statusItem)
+
+      /* -------------------------------------------------------------- */
+      /* Define Status Order
+      /* > 1. in progress > 2. done > 3. later
+      /* -------------------------------------------------------------- */
+
+      switch( cssClass_statusItem ) {
+
+        case "masonry-coding-item-task-in-progress":
+          index_order_inProgress.push(i);
+          break;
+
+        case "masonry-coding-item-task-done":
+          index_order_done.push(i);
+          break;
+
+        case "masonry-coding-item-task-later":
+          index_order_later.push(i);
+          break;
+
+        default:
+          return -1;
+
+      }
+
+    }
+
+    // console.log("🌴 inProgress Indizies = " + index_order_inProgress)
+    // console.log("🌴 done Indizies = " + index_order_done)
+    // console.log("🌴 later Indizies = " + index_order_later)
+
+    // ⚠️ Spread - Operator better solution
+
+    // First: in progress
+    for( let i=0; i < index_order_inProgress.length; i++ ) {
+
+      final_index_statusOrder.push( index_order_inProgress[i] )
+
+    }
+
+    // Second: later
+    for( let i=0; i < index_order_later.length; i++ ) {
+
+      final_index_statusOrder.push( index_order_later[i] )
+
+    }
+
+    // Last: done
+    for( let i=0; i < index_order_done.length; i++ ) {
+
+      final_index_statusOrder.push( index_order_done[i] )
+
+    }
+
+
+    return new Promise(resolve => {
+        resolve( final_index_statusOrder );
+    })
+
+  }
+
+
+/* -------------------------------------------------------------------------- */
+/* 🔶 Building Functions
+/* -------------------------------------------------------------------------- */
+
+  // 🟩 Create - Masonry Item - Coding Header
   async function createMasonryItemCodingHeader( dataDefaults, dataCategory ) {
 
     // console.log("🧱 Build | Masonry Item - Header")
@@ -73,88 +179,7 @@
 
   }
 
-  // 🟥 Get - Status Order Task Item
-  async function async_getOrderIndex_taskItem( statusTask ) {
-
-    // console.log("📐 Check Which Status Order to use")
-
-    // order direction
-    var index_order_inProgress = [];
-    var index_order_done = [];
-    var index_order_later = [];
-
-    var cssClass_statusItem = "";
-
-    // final status order
-    var final_index_statusOrder = [];
-
-    for( let i=0; i < statusTask.length; i++ ) {
-
-      // console.log("Task Items = " + i)
-      cssClass_statusItem = statusTask[i].status.cssClass_item;
-      // console.log("statusItem= " + cssClass_statusItem)
-
-      /* -------------------------------------------------------------- */
-      /* Define Status Order
-      /* > 1. in progress > 2. done > 3. later
-      /* -------------------------------------------------------------- */
-
-      switch( cssClass_statusItem ) {
-
-        case "masonry-coding-item-task-in-progress":
-          index_order_inProgress.push(i);
-          break;
-
-        case "masonry-coding-item-task-done":
-          index_order_done.push(i);
-          break;
-
-        case "masonry-coding-item-task-later":
-          index_order_later.push(i);
-          break;
-
-        default:
-          return -1;
-
-      }
-
-    }
-
-    // console.log("🌴 inProgress Indizies = " + index_order_inProgress)
-    // console.log("🌴 done Indizies = " + index_order_done)
-    // console.log("🌴 later Indizies = " + index_order_later)
-
-    // ⚠️ Spread - Operator better solution
-
-    // First: in progress
-    for( let i=0; i < index_order_inProgress.length; i++ ) {
-
-      final_index_statusOrder.push( index_order_inProgress[i] )
-
-    }
-
-    // Second: done
-    for( let i=0; i < index_order_done.length; i++ ) {
-
-      final_index_statusOrder.push( index_order_done[i] )
-
-    }
-
-    // Last: later
-    for( let i=0; i < index_order_later.length; i++ ) {
-
-      final_index_statusOrder.push( index_order_later[i] )
-
-    }
-
-
-    return new Promise(resolve => {
-        resolve( final_index_statusOrder );
-    })
-
-  }
-
-  //🟨  Create - Main
+  // 🟩 Create - Masonry Item - Coding Main
   async function createMasonryItemCodingMain( dataDefaults, dataTasks ) {
 
     // console.log("🧱 Build | Masonry Item - Main")
@@ -174,11 +199,14 @@
     /* > Create & Add All - Task Items to Main
     /* ------------------------------------------------------------- */
 
-      // ⚠️ Future - fct: status + main + footer
+
+      /* --------------------------------------------------------- */
+      /* 🟥 Baustelle
+      /* --------------------------------------------------------- */
 
       // Use index status Order
       var indizies_statusOrder = "";
-      indizies_statusOrder = await async_getOrderIndex_taskItem( dataTasks )
+      indizies_statusOrder = await getTaskIndiziesPriorizedByProgress( dataTasks )
       var indexOrder = "";
 
       // console.log("⭐indizies_statusOrder = " + indizies_statusOrder )
@@ -332,12 +360,13 @@
 
   }
 
+
 /* -------------------------------------------------------------------------- */
 /* 🚀 Execute | Async Function
 /* > Create | Masonry Item to addPoint
 /* -------------------------------------------------------------------------- */
 
-  // 🟥 Create - Masonry Coding Items
+  // 🟩 Create - Masonry Coding Items
   async function createCodingMasonryItems( jsonPath, addPoint ) {
 
     // console.log("🧱 Build | All Masonry Items to [Add Point] ")
@@ -378,8 +407,18 @@
       // main masonryItems
       var main_masonryItems = [];
 
+
     /* -------------------------------------------------------------------- */
     /* Step 2
+    /* > Get Filtered by In Progress Category Tasks
+    /* -------------------------------------------------------------------- */
+
+      var indexOrderCategoryTasks = [];
+      indexOrderCategoryTasks = await getCategoryIndicesPrioritzedByProgress( dataCatagories );
+      console.log("☠️ = " + indexOrderCategoryTasks )
+
+    /* -------------------------------------------------------------------- */
+    /* Step 3
     /* > Create "masonryItems" to "addPoint"
     /* -------------------------------------------------------------------- */
 
