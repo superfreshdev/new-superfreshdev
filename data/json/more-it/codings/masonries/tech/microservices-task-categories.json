@@ -40,7 +40,7 @@
 
           "content": {
 
-            "title": "Stream Filter + Map Pipeline 🌴",
+            "title": "Microservices🌴⭐🍎🚀",
             "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️ haha das kann bewusst etwas länger sein du trottel",
             "github_link": ""
 
@@ -153,162 +153,6 @@
 
             "cssClass_item": "masonry-coding-item-task-done",
             "cssClass_vertical": "status-task-vertical-done",
-            "iconName": "black-small-correct.png",
-            "cssClass_icon": "img-h-0-6"
-
-          },
-
-          "content": {
-
-            "title": "Stream Filter + Map Pipeline 🌴",
-            "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️ haha das kann bewusst etwas länger sein du trottel",
-            "github_link": ""
-
-          }
-
-        },
-
-        {
-
-          "status": {
-
-            "cssClass_item": "masonry-coding-item-task-done",
-            "cssClass_vertical": "status-task-vertical-done",
-            "iconName": "black-small-correct.png",
-            "cssClass_icon": "img-h-0-6"
-
-          },
-
-          "content": {
-
-            "title": "Stream Filter + Map Pipeline 🌴",
-            "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️ haha das kann bewusst etwas länger sein du trottel",
-            "github_link": ""
-
-          }
-
-        },
-
-        {
-
-          "status": {
-
-            "cssClass_item": "masonry-coding-item-task-later",
-            "cssClass_vertical": "status-task-vertical-later",
-            "iconName": "black-stop-hand.png",
-            "cssClass_icon": "img-h-0-8"
-
-          },
-
-          "content": {
-
-            "title": "Stream Filter + Map Pipeline 🌴",
-            "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️",
-            "github_link": "https://..."
-
-          }
-
-        }
-
-
-      ]
-
-
-    },
-
-    {
-      "header": {
-
-        "title": "Collections, Streams, Lamdas, XYZ und so weiter wenn du verstehst was ich meine🌴"
-
-      },
-
-      "tasks": [
-
-        {
-
-          "status": {
-
-            "cssClass_item": "masonry-coding-item-task-done",
-            "cssClass_vertical": "status-task-vertical-done",
-            "iconName": "black-small-correct.png",
-            "cssClass_icon": "img-h-0-6"
-
-          },
-
-          "content": {
-
-            "title": "Stream Filter + Map Pipeline 🌴",
-            "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️ haha das kann bewusst etwas länger sein du trottel",
-            "github_link": ""
-
-          }
-
-        },
-
-        {
-
-          "status": {
-
-            "cssClass_item": "masonry-coding-item-task-done",
-            "cssClass_vertical": "status-task-vertical-done",
-            "iconName": "black-small-correct.png",
-            "cssClass_icon": "img-h-0-6"
-
-          },
-
-          "content": {
-
-            "title": "Stream Filter + Map Pipeline 🌴",
-            "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️ haha das kann bewusst etwas länger sein du trottel",
-            "github_link": ""
-
-          }
-
-        },
-
-        {
-
-          "status": {
-
-            "cssClass_item": "masonry-coding-item-task-later",
-            "cssClass_vertical": "status-task-vertical-later",
-            "iconName": "black-stop-hand.png",
-            "cssClass_icon": "img-h-0-8"
-
-          },
-
-          "content": {
-
-            "title": "Stream Filter + Map Pipeline 🌴",
-            "sub_title": "Filter eine Liste von einem Text und so kann es weitergehen wenn du verstehst was ich mein ?!➡️",
-            "github_link": "https://..."
-
-          }
-
-        }
-
-
-      ]
-
-
-    },
-
-    {
-      "header": {
-
-        "title": "Collections, Streams, Lamdas, XYZ und so weiter wenn du verstehst was ich meine🌴"
-
-      },
-
-      "tasks": [
-
-        {
-
-          "status": {
-
-            "cssClass_item": "masonry-coding-item-task-in-progress",
-            "cssClass_vertical": "status-task-vertical-in-progress",
             "iconName": "black-small-correct.png",
             "cssClass_icon": "img-h-0-6"
 
@@ -371,7 +215,6 @@
 
 
     }
-
 
   ]
 

@@ -9,14 +9,96 @@
   async function getCategoryIndicesPrioritzedByProgress( categoryTasks ) {
 
     // console.log("📐 getCategoryIndicesPrioritzedByProgress()")
-    console.log("🔥 Max | Category Tasks = " + categoryTasks.length )
+
+    /* ------------------------------------------------- */
+    /* Variables
+    /* ------------------------------------------------- */
+
+      var maxCategoryTasks = categoryTasks.length;
+      var taskItems = "";
+
+      var strFilterPrio = "masonry-coding-item-task-in-progress";
+
+      var finalOrderIndizies = [];
+
+      var prioritizedIndizies = [];
+      var restIndizies = [];
 
 
-    var finalOrderIndizies = [];
+    /* ------------------------------------------------- */
+    /* Step 1/2
+    /* > Look for minimum x1 css class in progress
+    /*   to prioritzize up
+    /* ------------------------------------------------- */
+
+      console.log("🔥 Max | Category Tasks = " + maxCategoryTasks )
+
+      // c = categories
+      // i = items
+
+      for( let c=0; c < maxCategoryTasks; c++ ) {
+
+        // Get actually tasks items per category x
+        taskItems = categoryTasks[c].tasks;
+
+        // Check Status Task Items for "in progress"
+        for( let i=0; i < taskItems.length; i++ ) {
+
+          // console.log("c="+c + "i="+i + "|" + taskItems[i].status.cssClass_item)
+
+          // Set Prio Index
+          if( taskItems[i].status.cssClass_item == strFilterPrio ) {
+
+            console.log("🟢 Category Index = " + c + " | prio")
+
+            // Add c as Order Index
+            prioritizedIndizies.push( c );
+
+            // exit from items loop
+            i = taskItems.length;
+
+          }
+
+          // Check Last Item if yes then not found
+          if( (i+1) == taskItems.length ) {
+
+            // console.log("🍎🍎 = not found " + (i+1) )
+            restIndizies.push( c )
+
+          }
+
+        }
+
+      }
+
+    /* ------------------------------------------------- */
+    /* Prints
+    /* ------------------------------------------------- */
+
+      // console.log("🔥 prioritizedIndizies = " + prioritizedIndizies )
+      // console.log("🔥 restIndizies = " + restIndizies )
 
 
+    /* ------------------------------------------------- */
+    /* Step 2/2
+    /* > Concat Final Filtered Indizies
+    /*   to prioritzize up
+    /* ------------------------------------------------- */
 
-    console.log("🔥 Filtered | Category Tasks = "  )
+      // Step 1 - Priotizes Indizies "in progress"
+      for( let i=0; i < prioritizedIndizies.length; i++ ) {
+
+        finalOrderIndizies.push( prioritizedIndizies[i] )
+
+      }
+
+      // Step 2 - Rest Indizies
+      for( let i=0; i < restIndizies.length; i++ ) {
+
+        finalOrderIndizies.push( restIndizies[i] )
+
+      }
+
 
      return new Promise(resolve => {
         resolve( finalOrderIndizies );
@@ -383,6 +465,7 @@
       await deleteDomElements( addPoint, cssItemsSelector )
 
     /* -------------------------------------------------------------------- */
+    /* > Step 2
     /* > Get Default Data
     /* -------------------------------------------------------------------- */
 
@@ -409,16 +492,16 @@
 
 
     /* -------------------------------------------------------------------- */
-    /* Step 2
+    /* Step 3
     /* > Get Filtered by In Progress Category Tasks
     /* -------------------------------------------------------------------- */
 
       var indexOrderCategoryTasks = [];
       indexOrderCategoryTasks = await getCategoryIndicesPrioritzedByProgress( dataCatagories );
-      console.log("☠️ = " + indexOrderCategoryTasks )
+      // console.log("☠️ = " + indexOrderCategoryTasks )
 
     /* -------------------------------------------------------------------- */
-    /* Step 3
+    /* Step 4
     /* > Create "masonryItems" to "addPoint"
     /* -------------------------------------------------------------------- */
 
@@ -441,14 +524,14 @@
         /* > Build - MasonryItem[x] - header
         /* ---------------------------------------------------------- */
 
-          header_masonryItems.push( await createMasonryItemCodingHeader( defaultData, dataCatagories[i] ) )
+          header_masonryItems.push( await createMasonryItemCodingHeader( defaultData, dataCatagories[ indexOrderCategoryTasks[i] ] ) )
 
         /* ---------------------------------------------------------- */
         /* Step 3
         /* > Build - MasonryItem[x] - main
         /* ---------------------------------------------------------- */
 
-          main_masonryItems.push( await createMasonryItemCodingMain( defaultData, dataCatagories[i].tasks ) )
+          main_masonryItems.push( await createMasonryItemCodingMain( defaultData, dataCatagories[ indexOrderCategoryTasks[i] ].tasks ) )
 
         /* ---------------------------------------------------------- */
         /* Step 4
@@ -456,13 +539,13 @@
         /* ---------------------------------------------------------- */
 
           // Add "header" to "masonryItems"
-          div_masonryItems[i].appendChild( header_masonryItems[i] )
+          div_masonryItems[i].appendChild( header_masonryItems[ i ] )
 
           // Add "main" to "masonryItems"
-          div_masonryItems[i].appendChild( main_masonryItems[i] )
+          div_masonryItems[i].appendChild( main_masonryItems[ i ] )
 
           // Final Add "masoinryItems" to addPoint
-          addPoint.prepend( div_masonryItems[i] );
+          addPoint.appendChild( div_masonryItems[ i ] );
 
 
       }

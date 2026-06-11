@@ -16,7 +16,7 @@
     var jsonPathCodingTasks_springBoot = "data/json/more-it/codings/masonries/tech/spring-boot-task-categories.json";
 
     // Json Data - Microservices
-    var jsonPathCodingTasks_microservices = "data/json/more-it/codings/masonries/tech/java-task-categories.json";
+    var jsonPathCodingTasks_microservices = "data/json/more-it/codings/masonries/tech/microservices-task-categories.json";
 
     // Json Data - Cloud GCP
     var jsonPathCodingTasks_cloudgcp = "data/json/more-it/codings/masonries/tech/java-task-categories.json";
@@ -133,7 +133,15 @@
 
               // Microservices
               case 2:
-                console.log("➡️ Create | Masonry Items = Microservices" )
+
+                  console.log("➡️ Create | Masonry Items = Microservices" )
+
+                  // Update - ⚠️ Clean Code machen
+                  var addPointMasonryJavaContainer = document.getElementById("masonry-tech-microservices-container");
+                  await createCodingMasonryItems( jsonPathCodingTasks_microservices,
+                                                  addPointMasonryJavaContainer )
+
+
                 break;
 
               // Cloud GCP
