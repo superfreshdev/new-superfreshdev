@@ -31,6 +31,44 @@
 }
 
 /* -------------------------------------------------------------- */
+/* Div 1 | Row Container | Welcome Header
+/* -------------------------------------------------------------- */
+
+#more-it-page-container > div:nth-of-type(1) {
+
+  background-color: rgba(29, 29, 29, .1);
+  border-bottom: 1px solid rgb(47, 47, 47);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div 2 | Row Container | More IT - Nav
+/* -------------------------------------------------------------- */
+
+#more-it-page-container > div:nth-of-type(2) {
+
+  background-color: rgb(29, 29, 29);
+
+  /* background-color: rgb(52, 52, 52); */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div X | Codings Navs Container
+/* -------------------------------------------------------------- */
+
+#more-it-page-container #codings-container > .row-container:nth-of-type(1) {
+
+  z-index: 3;
+
+  background-color: rgb(29, 29, 29);
+
+  /* background-color: rgb(52, 52, 52); */
+
+
+}
+
+/* -------------------------------------------------------------- */
 /* All | Row Containers
 /* -------------------------------------------------------------- */
 
@@ -94,6 +132,6 @@
 
 #row-container-more-it-unshow {
 
-  background-color: rgb(111, 111, 111);
+  /* background-color: rgb(111, 111, 111); */
 
 }

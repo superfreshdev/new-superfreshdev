@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > resp-welcome-header-content-page.css
+/* > resp-welcome-content-header.css
 /*
 /* : styles responsive welcome header content page
 /* --------------------------------------------------------------- */
@@ -15,7 +15,7 @@
   /* Img "Hands"
   /* -------------------------------------------------------------- */
 
-  .welcome-title-container-content-page > img:nth-of-type(1) {
+  .welcome-content-header > img:nth-of-type(1) {
 
     height: 2em;
 
@@ -33,13 +33,13 @@
 @media (min-width: 500px) {
 
   /* Div 2 | Img Box */
-  .welcome-header-content-page-container > div:nth-of-type(2) {
+  .welcome-content-header > div:nth-of-type(2) {
 
     display: flex;
 
   }
 
-  .welcome-content-title-content-page > div:nth-of-type(2)  {
+  .welcome-content-header > div:nth-of-type(2)  {
 
     padding-top: .2em;
 

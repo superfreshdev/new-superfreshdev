@@ -1,0 +1,272 @@
+/* --------------------------------------------------------------- */
+/* > codings-category-task-item.css
+/* : styles codings category task item
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Codings Category Task Items
+/* > in progress, later, done
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-in-progress,
+.codings-category-task-item-later,
+.codings-category-task-item-done {
+
+  padding: 1.1em .8em;
+
+  display: grid;
+  /* row-gap: .6em; */
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.codings-category-task-item-in-progress:hover,
+.codings-category-task-item-later:hover,
+.codings-category-task-item-done:hover {
+
+  background-color: white;
+
+}
+
+/* -------------------------------------------------------------- */
+/* In Progress | Task Item
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-in-progress {
+
+  background-color: rgb(255, 240, 202);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Later | Task Item
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-later {
+
+  background-color: rgb(237, 237, 237);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Done | Task Item
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-done {
+
+  background-color: rgb(199, 255, 199);
+
+}
+
+/* -------------------------------------------------------------- */
+/* [1/2] Section Content
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-in-progress > section,
+.codings-category-task-item-later > section,
+.codings-category-task-item-done > section {
+
+  width: 100%;
+
+  display: flex;
+  column-gap: 1em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Header | Div 2 | Content
+/* -------------------------------------------------------------- */
+
+.codings-task-header {
+
+  line-height: 1.3em;
+
+  font-size: 14.5px;
+
+  font-weight: bold;
+
+}
+
+/* header - in progress */
+.codings-category-task-item-in-progress .codings-task-header {
+
+  color:rgb(177, 144, 34);
+
+}
+
+/* header - later */
+.codings-category-task-item-later .codings-task-header {
+
+  color:rgba(74, 74, 74, 0.6);
+
+}
+
+/* header - done */
+.codings-category-task-item-done .codings-task-header {
+
+  color:rgba(20, 155, 40, 0.8);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Time Info | Div 2 | Content
+/* -------------------------------------------------------------- */
+
+.codings-task-time-info {
+
+  float: right;
+  margin-left: .6em;
+  margin-bottom: .4em;
+
+  height: 1.3em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+
+  border: 1px solid rgb(194, 194, 194);
+
+  color:rgb(98, 98, 98);
+
+  opacity: .4;
+  /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* img */
+.codings-task-time-info > img:nth-of-type(1) {
+
+  height: .6em;
+  opacity: .6;
+
+}
+
+/* text - div */
+.codings-task-time-info > div:nth-of-type(1) {
+
+  font-size: 11.5px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Description Text | Div 2 | Content
+/* -------------------------------------------------------------- */
+
+.codings-task-description {
+
+  padding-top: .4em;
+
+  font-size: 13.5px;
+
+  line-height: 1.5em;
+
+}
+
+/* description - in progress */
+.codings-category-task-item-in-progress .codings-task-description {
+
+  color:rgb(198, 161, 38);
+
+  color:rgb(159, 129, 32);
+
+}
+
+/* description  - later */
+.codings-category-task-item-later .codings-task-description {
+
+  color:rgba(113, 113, 113, 0.6);
+
+  color:rgba(61, 61, 61, 0.6);
+
+}
+
+/* description  - done */
+.codings-category-task-item-done .codings-task-description {
+
+  color:rgba(23, 179, 46, 0.8);
+
+  color:rgba(20, 155, 40, 0.8);
+
+}
+
+/* -------------------------------------------------------------- */
+/* [2/2] Nav Links
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-in-progress > nav,
+.codings-category-task-item-later > nav,
+.codings-category-task-item-done > nav {
+
+  padding-top: .8em;
+
+  display: flex;
+  justify-content: flex-end;
+
+  /* background-color: green; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Codings Github Link
+/* -------------------------------------------------------------- */
+
+.codings-github-link {
+
+  text-decoration: none;
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .8em;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(216, 216, 216);
+
+  background-color: rgba(239, 239, 239, 0.1);
+  color: rgb(145, 145, 145);
+
+
+  /* opacity: .6; */
+  transition: all .4s;
+
+}
+
+/* hover */
+.codings-github-link > img {
+
+  height: .8em;
+  opacity: .6;
+
+}
+
+/* text */
+.codings-github-link > div {
+
+  font-size: 12.5px;
+  font-weight: bold;
+  /* color: red; */
+
+}
+
+/* hover */
+.codings-github-link:hover {
+
+  background-color: rgb(237, 237, 237);
+
+}

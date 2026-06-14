@@ -1,18 +1,19 @@
 /* --------------------------------------------------------------- */
-/* > nav-more-it.css
+/* > more-it-nav.css
 /*
 /* : nav more it
 /* --------------------------------------------------------------- */
 
 
 /* -------------------------------------------------------------- */
-/* Nav More IT
+/* More IT - Nav
 /* -------------------------------------------------------------- */
 
-#nav-more-it {
+#more-it-nav {
+
+  padding: 1.3em .8em;
 
   width: 100%;
-  padding: .8em 0;
 
   display: flex;
   flex-wrap: wrap;
@@ -22,7 +23,6 @@
   column-gap: .6em;
   row-gap: .6em;
 
-  /* background-color: rgb(28, 28, 28); */
-  color:white;
+  /* background-color: red; */
 
 }

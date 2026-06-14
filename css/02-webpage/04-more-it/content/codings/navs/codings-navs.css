@@ -1,0 +1,63 @@
+/* --------------------------------------------------------------- */
+/* > codings-navs.css
+/* : styles default codings navs
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Codings Navs Container
+/* -------------------------------------------------------------- */
+
+#codings-navs-container {
+
+  padding-bottom: 1.3em;
+
+  display: grid;
+  row-gap: 1em;
+
+  /* background-color: green; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Codings Nav Primary,
+/* Codings Nav Tech
+/* -------------------------------------------------------------- */
+
+#codings-nav-primary,
+#codings-nav-tech {
+
+  z-index: 3;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Codings Nav Primary
+/* -------------------------------------------------------------- */
+
+#codings-nav-primary {
+
+  column-gap: .6em;
+  row-gap: .6em;
+
+  /* background-color: red; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Codings Nav Tech
+/* -------------------------------------------------------------- */
+
+#codings-nav-tech {
+
+  column-gap: .3em;
+  row-gap: .3em;
+
+  /* background-color: blue; */
+
+}

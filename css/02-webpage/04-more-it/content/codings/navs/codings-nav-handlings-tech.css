@@ -1,0 +1,96 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-coding-tech.css
+/*
+/* : styles handling nav coding tech
+/* --------------------------------------------------------------- */
+
+
+/* default unshown - nav */
+#codings-nav-tech {
+
+  display: none;
+
+}
+
+/* default unshown - radios */
+input[name="name-radio-nav-codings-tech"] {
+
+  display: none;
+
+}
+
+/* ------------------------------------------------------------- */
+/* Handlings - Stylings
+/* ------------------------------------------------------------- */
+
+/* background color */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"],
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"],
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"],
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"],
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"],
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"],
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] {
+
+  /* background-color: wheat; */
+  color: wheat;
+  color: rgb(205, 185, 149);
+
+
+}
+
+/* unshow grey img */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"]  > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* unshow black img */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:nth-of-type(1) > img:nth-of-type(2) {
+
+ display: flex;
+
+}
+
+
+/* ------------------------------------------------------------- */
+/* Handlings - Content
+/* ------------------------------------------------------------- */
+
+#radio-nav-codings-tech-java:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-microservices:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-cloud:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-angular:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-react-native:checked ~ #codings-container #codings-masonry-container {
+
+ display: grid;
+
+}
+
+/* unshown primary checked + nav tech any is checked -> unshown codings masonry container */
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-java:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-spring-boot:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-microservices:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-cloud:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-angular:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-pyhton:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-react-native:checked ~ #codings-container #codings-masonry-container {
+
+  display: none;
+
+}

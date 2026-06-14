@@ -19,12 +19,11 @@
   column-gap: .4em;
 
   /* font-weight: bold; */
-
   /* font-style: italic; */
 
-  color:rgb(91, 91, 91);
+  color:rgb(100, 100, 100);
 
-  /* border: 1px solid rgba(65, 65, 65, .4); */
+  /* border: 1px solid rgb(67, 67, 67); */
 
 }
 
@@ -33,7 +32,7 @@
 
   display: flex;
   align-items: center;
-  column-gap: .6em;
+  column-gap: .4em;
 
 }
 
@@ -42,6 +41,16 @@
 
   font-size: 14.5px;
   /* color:red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img - Grey
+/* --------------------------------------------------------------- */
+
+.lbl-counter-transparent > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  opacity: .6;
 
 }
 
@@ -62,8 +71,12 @@
 
 .lbl-counter-transparent:hover {
 
-  background-color: wheat;
+  /* background-color: wheat; */
   color:black;
+
+  color: wheat;
+
+
 
 }
 
@@ -98,8 +111,10 @@
 
 .lbl-counter-transparent > div:nth-of-type(2) > div {
 
-  font-size: 14.5px;
+  font-size: 12.5px;
+
   color:rgb(125, 125, 125);
-  /* color:red; */
+
+
 
 }

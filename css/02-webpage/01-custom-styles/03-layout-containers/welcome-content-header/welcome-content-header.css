@@ -1,0 +1,45 @@
+/* --------------------------------------------------------------- */
+/* > welcome-content-header.css
+/*
+/* : welcome content header
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Welcome Content Header
+/* -------------------------------------------------------------- */
+
+.welcome-content-header {
+
+  width: 100%;
+  padding: 1em .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: green; */
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div 1 |
+/* -------------------------------------------------------------- */
+
+.welcome-content-header > div:nth-of-type(1) {
+
+  line-height: 1.3em;
+
+  font-size: 14.5px;
+  /* letter-spacing: .6px; */
+
+  font-weight: bold;
+  font-style: italic;
+
+  color:rgb(154, 140, 114);
+
+  color:rgb(116, 116, 116);
+
+  /* color:rgb(155, 155, 155); */
+
+}

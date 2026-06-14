@@ -24,7 +24,7 @@
 #info-company-title {
 
   height: 1.8em;
-  padding: 0em .6em;
+  padding: 0em .4em 0 .4em;
 
   display: flex;
   align-items: center;
@@ -36,11 +36,10 @@
 
   font-weight: bold;
 
+  /* border: 2px solid rgb(56, 56, 56); */
+  border: 2px solid transparent;
 
-  background-color: rgb(44, 44, 44);
-  color:grey;
-
-
+  color:rgb(124, 124, 124);
 
   /* default small mobile unshown */
   display: none;
@@ -58,7 +57,7 @@
   color:grey;
 
   background-color: wheat;
-  color:black;
+  color:black !important;
 
 }
 
