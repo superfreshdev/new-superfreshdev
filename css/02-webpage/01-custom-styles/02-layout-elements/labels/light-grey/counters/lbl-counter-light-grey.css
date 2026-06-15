@@ -1,19 +1,14 @@
 /* --------------------------------------------------------------- */
-/* > lbl-counter-on-light.css
-/*
-/* : styles label counter on light
-/* : [ Icons + Title ] + Counter
-/* : 🟩 100% - Finished
+/* > lbl-counter-light-grey.css
+/* : styles label counter loght grey
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Counter | on light
+/* Label Counter | Light Grey
 /* --------------------------------------------------------------- */
 
-/* ⚠️ on light-grey */
-
-.lbl-counter-on-light {
+.lbl-counter-light-grey {
 
   display: flex;
   align-items: center;
@@ -22,17 +17,14 @@
 
   font-weight: bold;
 
-  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
-  border: 1px solid rgb(212, 212, 212);
+  /* background-color: rgb(44, 44, 44); */
 
-  /* background-color: rgb(237, 237, 237); */
-  color:rgb(137, 137, 137);
-
+  color:#808080;
 
 }
 
 /* icons + title box */
-.lbl-counter-on-light > div:nth-of-type(1) {
+.lbl-counter-light-grey > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
@@ -41,9 +33,9 @@
 }
 
 /* div 1 - title */
-.lbl-counter-on-light > div:nth-of-type(1) > div:last-child {
+.lbl-counter-light-grey > div:nth-of-type(1) > div:last-child {
 
-  font-size: 14.5px
+  font-size: 14.5px;
 
 }
 
@@ -51,9 +43,19 @@
 /* Default Unshown | Black Img
 /* --------------------------------------------------------------- */
 
-.lbl-counter-on-light > div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-counter-light-grey > div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Show | Grey Img
+/* --------------------------------------------------------------- */
+
+.lbl-counter-light-grey > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: flex;
 
 }
 
@@ -62,48 +64,52 @@
 /* > show black img by hover, unshown grey img
 /* ------------------------------------------------------------------------- */
 
-.lbl-counter-on-light:hover {
+.lbl-counter-light-grey:hover {
 
   background-color: wheat;
+
+  /* background-color: #cbcbcb; */
   color:black;
-
-
 
 }
 
 /* unshow grey img */
-.lbl-counter-on-light:hover > div:nth-of-type(1) > img:nth-of-type(1) {
+.lbl-counter-light-grey:hover > div:nth-of-type(1) > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-counter-on-light:hover > div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-counter-light-grey:hover > div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: flex;
 
 }
 
 /* -------------------------------------------------------------- */
-/* Counter
+/* Div 2 | Label Counter | Light Grey
 /* -------------------------------------------------------------- */
 
-.lbl-counter-on-light > div:nth-of-type(2) {
+.lbl-counter-light-grey > div:nth-of-type(2) {
 
   height: 1.5em;
   padding: 0 .2em;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: c;
 
 }
 
-.lbl-counter-on-light > div:nth-of-type(2) > div {
+.lbl-counter-light-grey > div:nth-of-type(2) > div {
 
   font-size: 14.5px;
-  color:rgb(125, 125, 125);
-  /* color:red; */
+
+  color:rgb(63, 63, 63);
+  color:#7d7d7d;
+
+
+  /* color: rgb(194, 176, 143); */
 
 }

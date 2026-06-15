@@ -1,44 +1,39 @@
+
 /* --------------------------------------------------------------- */
-/* > lbl-only-icon-on-dark.css
+/* > lbl-clap-light-grey.csss
 /*
-/* : styles label only icon style
-/* : ⚠️ Actually dont using
+/* : styles lbl clap light grey
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Only Icon Style | on dark
+/* Label Clap | Light Grey
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-dark {
+.lbl-clap-light-grey {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  column-gap: .4em;
 
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-weight: bold;
 
   border: 1px solid rgb(65, 65, 65);
 
   color:rgb(103, 103, 103);
+  background-color: rgb(210, 210, 210);
 
-  background-color: rgb(44, 44, 44);
-
-}
-
-.lbl-only-icon-on-dark:hover {
-
-  background-color: wheat;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
 }
 
-/* --------------------------------------------------------------- */
-/* Img 2 ( Black ) Default Unshown
-/* --------------------------------------------------------------- */
+/* icons + title box */
+.lbl-clap-light-grey > div:nth-of-type(1) {
 
-.lbl-only-icon-on-dark > img:nth-of-type(2) {
-
-  display: none;
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
 
 }
 
@@ -47,15 +42,22 @@
 /* > show black img by hover, unshown grey img
 /* ------------------------------------------------------------------------- */
 
+.lbl-clap-light-grey:hover {
+
+  background-color: wheat;
+  color:black;
+
+}
+
 /* unshow grey img */
-.lbl-only-icon-on-dark:hover > img:nth-of-type(1) {
+.lbl-clap-light-grey:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-only-icon-on-dark:hover > img:nth-of-type(2) {
+.lbl-clap-light-grey:hover > img:nth-of-type(2) {
 
   display: flex;
 

@@ -13,7 +13,7 @@
   padding-bottom: 1.3em;
 
   display: grid;
-  row-gap: 1em;
+  row-gap: 1.3em;
 
   /* background-color: green; */
 
@@ -56,7 +56,7 @@
 #codings-nav-tech {
 
   column-gap: .3em;
-  row-gap: .3em;
+  row-gap: .4em;
 
   /* background-color: blue; */
 

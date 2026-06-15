@@ -1,17 +1,14 @@
 /* --------------------------------------------------------------- */
-/* > lbl-counter-transparent.css
-/*
-/* : styles label counter on light
-/* : [ Icons + Title ] + Counter
-/* : 🟩 100% - Finished
+/* > lbl-no-border-transparent.css
+/* : styles label no border transparent
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Counter | transparent
+/* Label Counter No Border | Transparent
 /* --------------------------------------------------------------- */
 
-.lbl-counter-transparent {
+.lbl-counter-no-border-transparent {
 
   display: flex;
   align-items: center;
@@ -19,16 +16,16 @@
   column-gap: .4em;
 
   /* font-weight: bold; */
-  /* font-style: italic; */
 
-  color:rgb(100, 100, 100);
 
-  /* border: 1px solid rgb(67, 67, 67); */
+  border: 1px solid transparent;
+
+  color: #5b5b5b;
 
 }
 
 /* icons + title box */
-.lbl-counter-transparent > div:nth-of-type(1) {
+.lbl-counter-no-border-transparent > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
@@ -37,7 +34,7 @@
 }
 
 /* div 1 - title */
-.lbl-counter-transparent > div:nth-of-type(1) > div:last-child {
+.lbl-counter-no-border-transparent > div:nth-of-type(1) > div:last-child {
 
   font-size: 14.5px;
   /* color:red; */
@@ -48,7 +45,7 @@
 /* Img - Grey
 /* --------------------------------------------------------------- */
 
-.lbl-counter-transparent > div:nth-of-type(1) > img:nth-of-type(1) {
+.lbl-counter-no-border-transparent > div:nth-of-type(1) > img:nth-of-type(1) {
 
   opacity: .6;
 
@@ -58,7 +55,7 @@
 /* Default Unshown | Black Img
 /* --------------------------------------------------------------- */
 
-.lbl-counter-transparent > div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-counter-no-border-transparent > div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: none;
 
@@ -69,26 +66,22 @@
 /* > show black img by hover, unshown grey img
 /* ------------------------------------------------------------------------- */
 
-.lbl-counter-transparent:hover {
+.lbl-counter-no-border-transparent:hover {
 
   /* background-color: wheat; */
-  color:black;
-
-  color: wheat;
-
-
+  color: rgb(209, 189, 153);
 
 }
 
 /* unshow grey img */
-.lbl-counter-transparent:hover > div:nth-of-type(1) > img:nth-of-type(1) {
+.lbl-counter-no-border-transparent:hover > div:nth-of-type(1) > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-counter-transparent:hover > div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-counter-no-border-transparent:hover > div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: flex;
 
@@ -98,7 +91,7 @@
 /* Counter
 /* -------------------------------------------------------------- */
 
-.lbl-counter-transparent > div:nth-of-type(2) {
+.lbl-counter-no-border-transparent > div:nth-of-type(2) {
 
   height: 1.5em;
   padding: 0 .2em;
@@ -109,12 +102,10 @@
 
 }
 
-.lbl-counter-transparent > div:nth-of-type(2) > div {
+.lbl-counter-no-border-transparent > div:nth-of-type(2) > div {
 
   font-size: 12.5px;
 
   color:rgb(125, 125, 125);
-
-
 
 }

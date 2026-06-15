@@ -54,8 +54,10 @@
 
 .status-task-in-progress {
 
+  color:#886e18;
+
   background-color: rgb(251, 217, 132);
-  /* border: 1px solid rgba(220, 174, 55, .3); */
+  border: 1px solid rgba(220, 174, 55, .3);
 
 }
 
@@ -77,20 +79,21 @@
 
   0% {
 
-    background-color: rgb(249, 223, 157);
+    background-color: rgb(255, 237, 190);
 
   }
 
   50% {
 
     /* background-color: rgba(71, 71, 71, 0.8); */
-    background-color: rgb(248, 196, 64);
+    /* background-color: rgb(248, 196, 64); */
+    background-color: rgb(251, 217, 132);
 
   }
 
   100% {
 
-    background-color: rgb(249, 223, 157);
+    background-color: rgb(255, 237, 190);
 
   }
 

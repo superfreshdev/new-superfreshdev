@@ -1,41 +1,44 @@
 /* --------------------------------------------------------------- */
-/* > lbl-on-light.css
-/*
-/* : styles labels on light background
+/* > lbl-icon-text-light-grey.css
+/* : styles label icon text light
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Labels |
+/* Label Icon + Text | Light Grey
 /* --------------------------------------------------------------- */
 
-.lbl-on-light {
+.lbl-icon-text-light-grey {
 
   display: flex;
   align-items: center;
   column-gap: .6em;
 
-  border-radius: .6em;
-
-  border: 1px solid rgb(203, 203, 203);
-
-  background-color: rgb(237, 237, 237);
-
-  color:rgb(124, 124, 124);
+  font-weight: bold;
 
   /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 
-  border: 1px solid rgb(212, 212, 212);
-  cursor: pointer;
-  transition: all .4s;
+  /* background-color: rgb(44, 44, 44); */
+
+  /* border: 1px solid rgb(186, 186, 186); */
+
+  color:#808080;
+
+
+}
+
+/* div 1 */
+.lbl-icon-text-light-grey > div:last-child  {
+
+  font-size: 14.5px;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Img 2 ( Black ) Default Unshown
+/* Default Unshown | Black Img
 /* --------------------------------------------------------------- */
 
-.lbl-on-light > img:nth-of-type(2) {
+.lbl-icon-text-light-grey > img:nth-of-type(2) {
 
   display: none;
 
@@ -46,22 +49,24 @@
 /* > show black img by hover, unshown grey img
 /* --------------------------------------------------------------- */
 
-.lbl-on-light:hover {
+.lbl-icon-text-light-grey:hover {
 
   background-color: wheat;
+
+  /* background-color: #cbcbcb; */
   color:black;
 
 }
 
 /* unshow grey img */
-div:nth-of-type(1) > img:nth-of-type(1) {
+.lbl-icon-text-light-grey:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-div:nth-of-type(1) > img:nth-of-type(2) {
+.lbl-icon-text-light-grey:hover > img:nth-of-type(2) {
 
   display: flex;
 

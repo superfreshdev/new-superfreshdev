@@ -27,7 +27,8 @@ input[name="name-radio-nav-more-it"] {
 #radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"],
 #radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] {
 
-  background-color: wheat;
+  background-color: rgb(194, 178, 148);
+
   color:rgb(31, 31, 31);
 
 }
@@ -51,6 +52,17 @@ input[name="name-radio-nav-more-it"] {
 #radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] > img:nth-of-type(2) {
 
  display: flex;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Unshown Border Bottom - Nav More IT for Codings, Docs
+/* -------------------------------------------------------------- */
+
+#radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) {
+
+ border-bottom: 0px solid rgb(218, 218, 218);
+ /* border: 3px solid red; */
 
 }
 

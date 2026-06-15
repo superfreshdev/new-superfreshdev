@@ -18,6 +18,8 @@
   display: grid;
   /* row-gap: .6em; */
 
+  background-color: white;
+
   transition: all .4s;
 
 }
@@ -39,6 +41,8 @@
 
   background-color: rgb(255, 240, 202);
 
+  background-color: rgb(255, 245, 219);
+
 }
 
 /* -------------------------------------------------------------- */
@@ -49,6 +53,12 @@
 
   background-color: rgb(237, 237, 237);
 
+  background-color: rgba(237, 237, 237, .6);
+
+  background-color: rgb(247, 247, 247);
+
+
+
 }
 
 /* -------------------------------------------------------------- */
@@ -58,6 +68,10 @@
 .codings-category-task-item-done {
 
   background-color: rgb(199, 255, 199);
+
+  background-color: rgba(199, 255, 199, .6);
+
+  background-color: rgb(228, 255, 228);
 
 }
 
@@ -130,12 +144,41 @@
 
   border-radius: .6em;
 
-  border: 1px solid rgb(194, 194, 194);
+}
 
-  color:rgb(98, 98, 98);
+/* in progress - time info */
+.codings-category-task-item-in-progress .codings-task-time-info {
 
-  opacity: .4;
+  /* background-color: rgb(251, 217, 132); */
+  border: 1px solid rgba(220, 174, 55, .3);
+  color:rgb(177, 144, 34);
+
+  /* opacity: .6; */
+
+}
+
+/* later - time info */
+.codings-category-task-item-later .codings-task-time-info {
+
+  /* background-color: #e3e3e3; */
   /* background-color: rgb(255, 255, 255); */
+  border: 1px solid rgba(107, 107, 107, 0.3);
+  color:rgba(109, 109, 109, 0.6);
+
+  /* opacity: .6; */
+
+
+
+}
+
+/* done - time info */
+.codings-category-task-item-done .codings-task-time-info {
+
+  /* background-color: #88d888; */
+  border: 1px solid rgba(10, 114, 19, 0.3);
+  color: #029502;
+
+  /* opacity: .8; */
 
 }
 
@@ -236,10 +279,15 @@
 
   font-weight: bold;
 
-  border: 1px solid rgb(216, 216, 216);
+  border: 1px solid rgba(164, 164, 164, .4);
 
-  background-color: rgba(239, 239, 239, 0.1);
-  color: rgb(145, 145, 145);
+  /* background-color: rgba(239, 239, 239, 0.9); */
+
+  /* background-color: rgb(159, 159, 159); */
+
+  color: rgb(126, 126, 126);
+
+  /* opacity: .3; */
 
 
   /* opacity: .6; */

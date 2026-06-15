@@ -1,41 +1,40 @@
 /* --------------------------------------------------------------- */
-/* > lbl-only-icon-on-light.css
-/*
-/* : styles label only icon style
-/* : 🟩 100% - Finished
+/* > lbl-only-icon-light-grey.css
+/* : styles label only icon light grey
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Only Icon Style | on light
+/* Label Only Icon | Light Grey
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-light {
+.lbl-only-icon-light-grey {
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  /* background-color: rgb(245, 245, 245); */
 
-  border: 1px solid rgb(212, 212, 212);
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 
-  background-color: rgb(237, 237, 237);
-  color:rgb(137, 137, 137);
+  background-color: rgb(44, 44, 44);
+
+  /* border: 1px solid rgb(186, 186, 186); */
 
 }
 
-.lbl-only-icon-on-light:hover {
+.lbl-only-icon-light-grey:hover {
 
   background-color: wheat;
+  /* background-color: #cbcbcb; */
 
 }
 
 /* --------------------------------------------------------------- */
-/* Default Unshown | Black Img
+/* Img 2 ( Black ) Default Unshown
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-light > img:nth-of-type(2) {
+.lbl-only-icon-light-grey > img:nth-of-type(2) {
 
   display: none;
 
@@ -47,14 +46,14 @@
 /* ------------------------------------------------------------------------- */
 
 /* unshow grey img */
-.lbl-only-icon-on-light:hover > img:nth-of-type(1) {
+.lbl-only-icon-light-grey:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-only-icon-on-light:hover > img:nth-of-type(2) {
+.lbl-only-icon-light-grey:hover > img:nth-of-type(2) {
 
   display: flex;
 
