@@ -65,9 +65,13 @@
 
   background-color: rgb(247, 247, 247); */
 
-  background-color: rgb(240, 240, 240);
+  /* background-color: rgb(240, 240, 240); */
 
   /* background-color: rgb(227, 227, 227); */
+
+  background-color: rgb(227, 227, 227);
+
+  /* background-color: white; */
 
 
 
@@ -189,6 +193,8 @@
 .codings-category-task-item-later .codings-task-time-info {
 
   background-color: rgba(227, 227, 227, .8);
+
+  background-color: rgba(199, 199, 199, .6);
   /* background-color: rgb(255, 255, 255); */
   /* border: 1px solid rgba(107, 107, 107, 0.3); */
   color:rgba(109, 109, 109, 0.6);
@@ -254,6 +260,10 @@
 
   /* color:rgb(177, 177, 177); */
 
+   color:rgb(47, 47, 47);
+
+   color:rgb(77, 77, 77);
+
 }
 
 /* description  - later */
@@ -262,6 +272,10 @@
   color:rgba(61, 61, 61, 0.4);
   /* color:rgb(177, 177, 177); */
 
+   color:rgb(47, 47, 47);
+
+    color:rgb(77, 77, 77);
+
 }
 
 /* description  - done */
@@ -269,7 +283,9 @@
 
   color:rgba(20, 155, 40, 0.6);
 
-  /* color:rgb(177, 177, 177); */
+  color:rgb(47, 47, 47);
+
+   color:rgb(77, 77, 77);
 
 }
 

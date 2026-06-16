@@ -30,7 +30,7 @@
 
 .codings-category-tasks > header {
 
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   padding: 1.3em .8em;
 
   display: flex;
@@ -38,26 +38,17 @@
   justify-content: space-between;
   column-gap: .8em;
 
-  border-radius: 1em;
+  /* border-radius: 1em; */
 
-  /* border-bottom: 1px solid rgba(201, 201, 201, .8);; */
 
-  /* border-top: 1px solid rgba(201, 201, 201, .8);; */
+  border-bottom: 3px solid rgb(99, 99, 99);
+  border-top: 3px solid rgb(99, 99, 99);
 
-/*
-  background-color: #222222;
+  background-color: rgb(49, 49, 49);
 
-  background-color: #2c2c2c;
+  /* background-color: #2b2b2b; */
 
-  background-color: #393939; */
-
-  /* background-color: rgba(44, 44, 44, 1); */
-
-  background-color: rgba(44, 44, 44, 1);
-
-  background-color: rgb(44, 44, 44, 1);
-
-  color: rgb(132, 132, 132);
+  color:rgba(143, 143, 143, 1);
 
 
 
@@ -138,8 +129,11 @@
 
 .codings-category-tasks > main {
 
+  padding-top: 1em;
+
   display: grid;
-  row-gap: .6em;
+  row-gap: .8em;
+
 
   /* padding-left: 1em;
   border-left: 3px dotted rgb(182, 182, 182); */
@@ -153,11 +147,10 @@
 
   border-radius: 1em;
 
-   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  border: 3px dashed rgba(0, 0, 0, .1);
 
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
 
 }
 
@@ -168,5 +161,7 @@
   /* background-color: red; */
 
   border-radius: 1em;
+
+  border: 3px dashed rgba(0, 0, 0, .1);
 
 }

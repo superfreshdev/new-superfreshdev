@@ -63,10 +63,10 @@
   height: 100%;
 
   /* ⭐ */
-  /* background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/wp9274723-4k-desktop-white-wallpapers.jpg); */
+  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/wp9274723-4k-desktop-white-wallpapers.jpg);
 
   /* ⭐ */
-  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/wp6942356-white-minimalist-wallpapers.png);
+  /* background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/wp6942356-white-minimalist-wallpapers.png); */
 
 
   /* background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/sea_horizon_minimalism_127411_3840x2400.jpg); */
@@ -101,6 +101,6 @@
   background-size: cover;
   background-position: center;
 
-  opacity: .4;
+  opacity: .1;
 
 }
