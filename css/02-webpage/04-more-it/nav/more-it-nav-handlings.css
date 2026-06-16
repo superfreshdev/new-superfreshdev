@@ -27,9 +27,13 @@ input[name="name-radio-nav-more-it"] {
 #radio-nav-more-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-docs"],
 #radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] {
 
-  background-color: rgb(194, 178, 148);
+  background-color: rgb(227, 208, 174);
+
+  background-color: wheat;
 
   color:rgb(31, 31, 31);
+
+  color:rgb(82, 82, 82);
 
 }
 
@@ -61,7 +65,7 @@ input[name="name-radio-nav-more-it"] {
 
 #radio-nav-more-it-codings:checked ~ .row-container:nth-of-type(2) {
 
- border-bottom: 0px solid rgb(218, 218, 218);
+ /* border-bottom: 0px solid rgb(218, 218, 218); */
  /* border: 3px solid red; */
 
 }

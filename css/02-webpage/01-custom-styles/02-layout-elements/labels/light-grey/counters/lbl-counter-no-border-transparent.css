@@ -15,12 +15,11 @@
   justify-content: space-between;
   column-gap: .4em;
 
-  /* font-weight: bold; */
-
+  font-weight: bold;
 
   border: 1px solid transparent;
 
-  color: #5b5b5b;
+  color: #565656;
 
 }
 
