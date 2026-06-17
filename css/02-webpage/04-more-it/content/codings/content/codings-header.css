@@ -12,7 +12,8 @@
 
   z-index: 4;
 
-  border-bottom: 3px solid rgb(232, 232, 232);
+  border-top: 3px solid rgb(106, 106, 106);
+  border-bottom: 3px solid rgb(106, 106, 106);
 
   background-color: rgb(238, 238, 238);
 
@@ -85,7 +86,7 @@
 
   font-weight: bold;
 
-  color:rgb(224, 224, 224);
+  color:rgb(215, 198, 164);
 
   opacity: 1;
 
@@ -97,7 +98,7 @@
 #codings-header-content-time-box > img:nth-of-type(1) {
 
   height: .8em;
-  opacity: 1;
+  opacity: .8;
 
 }
 
@@ -105,7 +106,7 @@
 #codings-header-content-time-box > div:nth-of-type(1) {
 
   font-size: 13.5px;
-  opacity: .5;
+  /* opacity: .5; */
 
 
 }
@@ -124,7 +125,7 @@
 
   font-weight: bold;
 
-  color: #c2c2c2;
+  color: #8f8f8f;
 
   /* color:rgb(69, 69, 69); */
 

@@ -11,9 +11,12 @@
 #codings-content {
 
   width: 100%;
+  /* height: 100%; */
+
+  padding-bottom: 2em;
 
   display: grid;
-  grid: auto / 1fr;
+  grid: auto auto / 1fr;
 
   /* background-color: red; */
 

@@ -15,9 +15,6 @@
 
   /* background-color: green; */
 
-
-
-
 }
 
 /* -------------------------------------------------------------- */
@@ -50,7 +47,7 @@
 
   /* background-color: red; */
 
-  border-bottom: 1px solid rgb(214, 214, 214);
+  border-bottom: 1px solid rgb(231, 231, 231);
 
 }
 
@@ -60,7 +57,7 @@
 
 #codings-nav-tech {
 
-  padding-bottom: 1em;
+  padding-bottom: .8em;
   column-gap: .3em;
   row-gap: .6em;
 
