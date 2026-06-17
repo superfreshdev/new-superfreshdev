@@ -15,6 +15,9 @@
 
   /* background-color: green; */
 
+
+
+
 }
 
 /* -------------------------------------------------------------- */
@@ -40,10 +43,14 @@
 
 #codings-nav-primary {
 
+  padding: 1em 0;
+
   column-gap: .6em;
   row-gap: .6em;
 
   /* background-color: red; */
+
+  border-bottom: 1px solid rgb(73, 73, 73);
 
 }
 
@@ -53,6 +60,7 @@
 
 #codings-nav-tech {
 
+  padding-bottom: 1em;
   column-gap: .3em;
   row-gap: .4em;
 

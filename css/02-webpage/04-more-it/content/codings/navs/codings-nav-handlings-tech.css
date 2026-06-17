@@ -23,7 +23,7 @@ input[name="name-radio-nav-codings-tech"] {
 /* Handlings - Stylings
 /* ------------------------------------------------------------- */
 
-/* background color */
+/* text color */
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"],
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"],
 #radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"],
@@ -31,12 +31,6 @@ input[name="name-radio-nav-codings-tech"] {
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"],
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"],
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] {
-
-
-  /* background-color: rgb(44, 44, 44);
-  background-color: rgb(198, 198, 198);
-
-  color:rgb(77, 77, 77); */
 
   color:rgb(200, 181, 146);
 
@@ -68,6 +62,20 @@ input[name="name-radio-nav-codings-tech"] {
 
 }
 
+
+/* counter color */
+#radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:last-child > div,
+#radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"] > div:last-child > div,
+#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:last-child > div,
+#radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:last-child > div,
+#radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"] > div:last-child > div,
+#radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:last-child > div,
+#radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:last-child > div {
+
+  color:rgb(192, 192, 192);
+
+
+}
 
 /* ------------------------------------------------------------- */
 /* Handlings - Content
