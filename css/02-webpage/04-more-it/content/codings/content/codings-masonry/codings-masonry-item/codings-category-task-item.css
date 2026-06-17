@@ -179,7 +179,7 @@
 .codings-category-task-item-in-progress .codings-task-time-info {
 
   background-color: rgb(251, 217, 132);
-
+  border: 1px solid rgba(107, 107, 107, 0.2);
   background-color: rgba(251, 217, 132, .6);
   /* border: 1px solid rgba(220, 174, 55, .3); */
   color:rgb(177, 144, 34);
@@ -193,11 +193,11 @@
 .codings-category-task-item-later .codings-task-time-info {
 
   background-color: rgba(227, 227, 227, .8);
-
+  border: 1px solid rgba(107, 107, 107, 0.2);
   background-color: rgba(199, 199, 199, .6);
   /* background-color: rgb(255, 255, 255); */
   /* border: 1px solid rgba(107, 107, 107, 0.3); */
-  color:rgba(109, 109, 109, 0.6);
+  color:rgba(109, 109, 109, 0.8);
 
   /* opacity: .6; */
 
@@ -209,7 +209,7 @@
 .codings-category-task-item-done .codings-task-time-info {
 
   background-color: rgb(136, 216, 136);
-
+  border: 1px solid rgba(107, 107, 107, 0.2);
   background-color: rgba(136, 216, 136, .4);
   /* border: 1px solid rgba(10, 114, 19, 0.3); */
   color: rgba(2, 149, 2, .8);

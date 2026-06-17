@@ -17,15 +17,30 @@
 
   display: grid;
 
-  /* test */
-  align-items: start;
-  grid: auto / 1fr 1fr;
-  gap:1em;
+   gap:1em;
+
 
   /* background-color: rgb(198, 251, 255); */
 
   /* default unshown, only by checked */
   display: none;
 
+
+}
+
+
+@media (min-width: 600px) {
+
+  #codings-masonry-container  {
+
+  display: grid;
+  grid: auto 1fr / 1fr;
+
+
+  align-items: start;
+  grid: auto / 1fr 1fr;
+
+
+}
 
 }
