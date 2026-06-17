@@ -12,10 +12,13 @@
 
   z-index: 4;
 
-  border-top: 3px solid rgb(206, 206, 206);
+  background-color: rgb(221, 221, 221);
+
+  background-color: rgb(238, 238, 238);
+
   border-bottom: 3px solid rgb(206, 206, 206);
 
-  background-color: rgb(221, 221, 221);
+   border-bottom: 3px solid rgb(232, 232, 232);
 
 }
 
