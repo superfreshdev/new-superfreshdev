@@ -40,7 +40,7 @@
 
 .codings-category-task-item-in-progress {
 
-  background-color: rgb(255, 244, 220);
+  background-color: rgb(255, 242, 214);
 
 }
 
@@ -50,7 +50,7 @@
 
 .codings-category-task-item-later {
 
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(241, 241, 241);
 
 }
 
@@ -60,8 +60,7 @@
 
 .codings-category-task-item-done {
 
-
-  background-color: rgb(199, 255, 199);
+  background-color: rgb(220, 255, 220);
 
 }
 
@@ -98,11 +97,15 @@
 /* header - in progress */
 .codings-category-task-item-in-progress .codings-task-header {
 
-  color:rgb(177, 144, 34);
 
-  color:rgba(177, 144, 34, .8);
+  color:rgba(177, 144, 34, 1);
 
-  color:rgb(114, 114, 114);
+
+  color:rgb(153, 124, 28);
+
+  /* color:rgb(114, 114, 114); */
+
+  /* color: rgb(31, 31, 31); */
 
 }
 
@@ -113,6 +116,8 @@
 
   color:rgb(114, 114, 114);
 
+  color:rgb(161, 161, 161);
+
 }
 
 /* header - done */
@@ -120,9 +125,9 @@
 
   color:rgba(20, 155, 40, 0.8);
 
-  color:rgba(13, 109, 28, 0.5);
+  color:rgb(119, 184, 101);
 
-  color:rgb(114, 114, 114);
+  /* color:rgb(114, 114, 114); */
 
 
 }
@@ -218,9 +223,9 @@
 
   /* color:rgb(177, 177, 177); */
 
-   color:rgb(47, 47, 47);
+   /* color:rgb(47, 47, 47); */
 
-   color:rgb(77, 77, 77);
+   /* color:rgb(145, 145, 145); */
 
 }
 
@@ -232,7 +237,7 @@
 
    color:rgb(47, 47, 47);
 
-    color:rgb(77, 77, 77);
+    color:rgb(145, 145, 145);
 
 }
 
@@ -241,9 +246,9 @@
 
   color:rgba(20, 155, 40, 0.6);
 
-  color:rgb(47, 47, 47);
+  /* color:rgb(47, 47, 47); */
 
-   color:rgb(77, 77, 77);
+   /* color:rgb(143, 143, 143); */
 
 }
 
