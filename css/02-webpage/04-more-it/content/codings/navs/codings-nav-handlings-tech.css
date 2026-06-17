@@ -33,7 +33,10 @@ input[name="name-radio-nav-codings-tech"] {
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] {
 
   background-color: wheat;
-  color:black;
+
+  background-color: rgb(206, 206, 206);
+
+  color:rgb(67, 67, 67);
 
 }
 

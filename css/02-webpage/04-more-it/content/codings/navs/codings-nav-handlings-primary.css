@@ -25,6 +25,9 @@ input[name="name-radio-nav-codings"] {
 #radio-nav-codings-unshown:checked ~ #codings-container label[for="radio-nav-codings-unshown"] {
 
   background-color: wheat;
+
+  background-color: rgb(206, 206, 206);
+
   color:rgb(77, 77, 77);
 
 }
