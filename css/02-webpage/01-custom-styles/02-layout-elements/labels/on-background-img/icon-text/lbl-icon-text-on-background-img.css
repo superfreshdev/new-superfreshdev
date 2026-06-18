@@ -1,0 +1,93 @@
+
+/* --------------------------------------------------------------- */
+/* > lbl-icon-text-on-background-img.css
+/*
+/* : styles lbl clap icon text on dark
+/* --------------------------------------------------------------- */
+
+
+/* lbl-icon-text-on-background-img */
+
+
+/* --------------------------------------------------------------- */
+/* Label Icon Text | on background img
+/* --------------------------------------------------------------- */
+
+.lbl-icon-text-on-background-img {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  border: 2px solid rgb(47, 47, 47);
+
+  background-color: rgb(205, 205, 205);
+
+  border-radius: .8em;
+
+  color:rgb(103, 103, 103);
+
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img - Show / Unshown
+/* --------------------------------------------------------------- */
+
+/* img - white */
+.lbl-icon-text-on-background-img > img:nth-of-type(1) {
+
+  /* opacity: .4; */
+
+}
+
+/* img - black */
+.lbl-icon-text-on-background-img > img:nth-of-type(2)  {
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* title */
+.lbl-icon-text-on-background-img > div:nth-of-type(1) > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show / unshown black/grey img arrow
+/* ------------------------------------------------------------------------- */
+
+.lbl-icon-text-on-background-img:hover {
+
+  background-color: wheat;
+  color:black;
+
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show / unshown black/white img wave
+/* ------------------------------------------------------------------------- */
+
+/* unshown - white img  */
+.lbl-icon-text-on-background-img:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show - black img */
+.lbl-icon-text-on-background-img:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}

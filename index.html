@@ -91,21 +91,44 @@
         <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/lbl-content.css">
 
         <!-- ---------------------------------------- -->
-        <!-- light grey - labels -->
+        <!--  on background img -->
         <!-- ---------------------------------------- -->
 
-          <!-- claps  -->
-          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/light-grey/claps/lbl-clap-light-grey.css">
+          <!-- clap -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-background-img/icon-text/lbl-icon-text-on-background-img.css">
 
-          <!-- counters -->
-          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/light-grey/counters/lbl-counter-light-grey.css">
-          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/light-grey/counters/lbl-counter-no-border-transparent.css">
+        <!-- ---------------------------------------- -->
+        <!--  on dark -->
+        <!-- ---------------------------------------- -->
+
+          <!-- 🟨 claps -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-dark/claps/lbl-clap-icon-text-on-dark.css">
+
+          <!-- 🟩 counter -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-dark/counter/lbl-counter-light-grey-on-dark.css">
 
           <!-- icon text -->
-          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/light-grey/icon-text/lbl-icon-text-light-grey.css">
+          <!-- > actually dont need -->
 
-          <!-- only icon -->
-          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/light-grey/only-icon/lbl-only-icon-light-grey.css">
+          <!-- 🟩 only icon -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-dark/only-icon/lbl-only-icon-on-dark.css">
+
+
+        <!-- ---------------------------------------- -->
+        <!--  on white -->
+        <!-- ---------------------------------------- -->
+
+          <!-- claps -->
+
+          <!-- 🟩 counter -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-white/counter/lbl-counter-no-border-transparent-on-white.css">
+
+          <!-- 🟩 icon text -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-white/icon-text/lbl-icon-text-light-grey-on-white.css">
+
+          <!-- 🟩 only icon -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-white/only-icon/lbl-only-icon-on-white.css">
+
 
       <!-- buttons -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/buttons/button-sfd.css">
@@ -428,8 +451,8 @@
   <!-- ----------------------------------------------------------------------- -->
   <!-- Radios | Nav Header Body -->
   <!-- ----------------------------------------------------------------------- -->
-  <input  type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input type="radio" id="radio-about" name="name-radio-nav-header-body">
+  <input checked  type="radio" id="radio-more-it" name="name-radio-nav-header-body">
   <input  type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ----------------------------------------------------------------------- -->
@@ -709,16 +732,21 @@
                       <!-- --------------------------------------------------------------- -->
                       <!-- Show More | Label  -->
                       <!-- --------------------------------------------------------------- -->
-                      <label for="chk-show-more-about" class="lbl-big lbl-clap-on-dark">
+                      <label for="chk-show-more-about" class="lbl-medium lbl-clap-icon-text-on-dark">
 
                         <!-- ---------------------------- -->
                         <!-- [1/3] | Img + Text -->
                         <!-- ---------------------------- -->
                         <div>
 
-                          <!-- img -->
-                          <img src="media/imgs/content/cliparts/clipart-me.png"
-                              class="img-h-1-8" alt="img">
+
+                          <!-- img - white -->
+                          <img src="media/imgs/icons/02-icon-colors/02-white/white-wave.png"
+                               alt="img">
+
+                          <!-- img - black -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-wave.png"
+                               alt="img" >
 
                           <!-- text -->
                           <div>Explore More</div>
@@ -846,7 +874,7 @@
                       <nav id="nav-about-show-more">
 
                         <!-- IT Skills -->
-                        <label for="radio-show-more-it-skills" class="lbl-medium lbl-icon-text-only-dark">
+                        <label for="radio-show-more-it-skills" class="lbl-medium lbl-icon-text-on-background-img">
 
                           <!-- img white -->
                           <img src="media/imgs/icons/02-icon-colors/02-white/white-binary-small.png"
@@ -859,13 +887,12 @@
                               class="img-h-1">
 
 
-
                           <div>IT Skills</div>
 
                         </label>
 
                         <!-- Story behind sd -->
-                        <label for="radio-show-more-story-behind-sfd" class="lbl-medium lbl-icon-text-only-dark">
+                        <label for="radio-show-more-story-behind-sfd" class="lbl-medium lbl-icon-text-on-background-img">
 
                           <!-- img white -->
                           <img src="media/imgs/icons/02-icon-colors/02-white/white-shower.png"
@@ -882,7 +909,7 @@
                         </label>
 
                         <!-- Mindset -->
-                        <label for="radio-show-more-mindset" class="lbl-medium lbl-icon-text-only-dark">
+                        <label for="radio-show-more-mindset" class="lbl-medium lbl-icon-text-on-background-img">
 
                           <!-- img white -->
                           <img src="media/imgs/icons/02-icon-colors/02-white/white-thunder.png"
@@ -899,7 +926,7 @@
                         </label>
 
                         <!-- Hobbies -->
-                        <label for="radio-show-more-hobbys" class="lbl-medium lbl-icon-text-only-dark">
+                        <label for="radio-show-more-hobbys" class="lbl-medium lbl-icon-text-on-background-img">
 
                           <!-- img white -->
                           <img src="media/imgs/icons/02-icon-colors/02-white/white-4-geometries-1.png"
@@ -4135,7 +4162,7 @@
               <nav id="more-it-nav">
 
                 <!-- Label | Mini It Projects -->
-                <label for="radio-nav-more-it-mini-it-projects" class="lbl-very-small lbl-counter-light-grey">
+                <label for="radio-nav-more-it-mini-it-projects" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4167,7 +4194,7 @@
                 </label>
 
                 <!-- Label | Mini Games -->
-                <label for="radio-nav-more-it-mini-games" class="lbl-very-small lbl-counter-light-grey">
+                <label for="radio-nav-more-it-mini-games" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4200,7 +4227,7 @@
                 </label>
 
                 <!-- Label | Codings -->
-                <label for="radio-nav-more-it-codings" class="lbl-very-small lbl-counter-light-grey">
+                <label for="radio-nav-more-it-codings" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4231,7 +4258,7 @@
                 </label>
 
                 <!-- Label | Docs -->
-                <label for="radio-nav-more-it-docs" class="lbl-very-small lbl-counter-light-grey">
+                <label for="radio-nav-more-it-docs" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4263,7 +4290,7 @@
                 </label>
 
                 <!-- Label | Unshow -->
-                <label for="radio-nav-more-it-unshow" class="lbl-very-small lbl-only-icon-light-grey">
+                <label for="radio-nav-more-it-unshow" class="lbl-very-small lbl-only-icon-on-dark">
 
                   <!-- img grey -->
                   <img src="media/imgs/icons/02-icon-colors/03-grey/grey-eye-unshow.png"
@@ -4355,8 +4382,11 @@
             <!-- Sub Radios - Tech - Coding More IT -->
             <input checked type="radio" id="radio-nav-codings-tech-java" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-spring-boot" name="name-radio-nav-codings-tech">
-            <input  type="radio" id="radio-nav-codings-tech-microservices" name="name-radio-nav-codings-tech">
+            <input  type="radio" id="radio-nav-codings-tech-observability" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-cloud" name="name-radio-nav-codings-tech">
+
+            <input  type="radio" id="radio-nav-codings-tech-ai-ml-llm" name="name-radio-nav-codings-tech">
+
             <input  type="radio" id="radio-nav-codings-tech-pyhton" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-angular" name="name-radio-nav-codings-tech">
             <input  type="radio" id="radio-nav-codings-tech-react-native" name="name-radio-nav-codings-tech">
@@ -4459,7 +4489,7 @@
                       </label>
 
                       <!-- label | unshown -->
-                      <label for="radio-nav-codings-unshown" class="lbl-very-small lbl-only-icon-light-grey">
+                      <label for="radio-nav-codings-unshown" class="lbl-very-small lbl-only-icon-on-white">
 
                         <!-- img grey -->
                         <img src="media/imgs/icons/02-icon-colors/03-grey/grey-eye-unshow.png"
@@ -4481,7 +4511,7 @@
                     <nav id="codings-nav-tech">
 
                       <!-- label | java -->
-                      <label for="radio-nav-codings-tech-java" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <label for="radio-nav-codings-tech-java" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
@@ -4509,7 +4539,7 @@
                       </label>
 
                       <!-- label | spring boot -->
-                      <label for="radio-nav-codings-tech-spring-boot" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <label for="radio-nav-codings-tech-spring-boot" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
@@ -4537,24 +4567,24 @@
 
                       </label>
 
-                      <!-- label | microservices -->
-                      <label for="radio-nav-codings-tech-microservices" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <!-- label | observability -->
+                      <label for="radio-nav-codings-tech-observability" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
 
                           <!-- img grey -->
-                          <img src="media/imgs/icons/04-tech-logos/ms-grey.png"
+                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-graph-3.png"
                               alt="img"
-                              class="img-h-1-1">
+                              class="img-h-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/ms-black.png"
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-graph-3.png"
                               alt="img"
-                              class="img-h-1-1">
+                              class="img-h-1">
 
                           <!-- title -->
-                          <div>Microservices</div>
+                          <div>Observability</div>
 
 
                         </div>
@@ -4567,7 +4597,7 @@
                       </label>
 
                       <!-- label | cloud gcp -->
-                      <label for="radio-nav-codings-tech-cloud" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <label for="radio-nav-codings-tech-cloud" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
@@ -4595,24 +4625,24 @@
 
                       </label>
 
-                      <!-- label | angular -->
-                      <label for="radio-nav-codings-tech-angular" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <!-- label | al-ml-llm -->
+                      <label for="radio-nav-codings-tech-ai-ml-llm" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
 
                           <!-- img grey -->
-                          <img src="media/imgs/icons/04-tech-logos/angular-grey.png"
+                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai.png"
                               alt="img"
                               class="img-h-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/angular-black.png"
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-ai.png"
                               alt="img"
                               class="img-h-1">
 
                           <!-- title -->
-                          <div>Angular</div>
+                          <div>AI-ML-LLM</div>
 
 
                         </div>
@@ -4625,7 +4655,7 @@
                       </label>
 
                       <!-- label | python -->
-                      <label for="radio-nav-codings-tech-pyhton" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <label for="radio-nav-codings-tech-pyhton" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
@@ -4653,8 +4683,37 @@
 
                       </label>
 
+                      <!-- label | angular -->
+                      <label for="radio-nav-codings-tech-angular" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
+
+                        <!-- icon + title box -->
+                        <div>
+
+                          <!-- img grey -->
+                          <img src="media/imgs/icons/04-tech-logos/angular-grey.png"
+                              alt="img"
+                              class="img-h-1">
+
+                          <!-- img black | default unshown -->
+                          <img src="media/imgs/icons/04-tech-logos/angular-black.png"
+                              alt="img"
+                              class="img-h-1">
+
+                          <!-- title -->
+                          <div>Angular</div>
+
+
+                        </div>
+
+                        <!-- counter -->
+                        <div>
+                          <div>03</div>
+                        </div>
+
+                      </label>
+
                       <!-- label | react native -->
-                      <label for="radio-nav-codings-tech-react-native" class="lbl-inline-small lbl-counter-no-border-transparent">
+                      <label for="radio-nav-codings-tech-react-native" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>

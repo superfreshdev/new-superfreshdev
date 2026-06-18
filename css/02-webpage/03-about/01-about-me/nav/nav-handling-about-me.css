@@ -47,7 +47,6 @@ input[id="chk-show-more-about"] {
 
 }
 
-
 /* 🟪 auslagern smooth concept */
 .smooth-open-close-container {
 
@@ -56,7 +55,6 @@ input[id="chk-show-more-about"] {
   display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
-
 
 }
 

@@ -26,8 +26,9 @@ input[name="name-radio-nav-codings-tech"] {
 /* text color */
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"],
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"],
-#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"],
+#radio-nav-codings-tech-observability:checked ~ #codings-container label[for="radio-nav-codings-tech-observability"],
 #radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"],
+#radio-nav-codings-tech-ai-ml-llm:checked ~ #codings-container label[for="radio-nav-codings-tech-ai-ml-llm"],
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"],
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"],
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] {
@@ -45,8 +46,9 @@ input[name="name-radio-nav-codings-tech"] {
 /* unshow grey img */
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"]  > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-observability:checked ~ #codings-container label[for="radio-nav-codings-tech-observability"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-nav-codings-tech-ai-ml-llm:checked ~ #codings-container label[for="radio-nav-codings-tech-ai-ml-llm"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"]  > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"]  > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"]  > div:nth-of-type(1) > img:nth-of-type(1) {
@@ -58,8 +60,9 @@ input[name="name-radio-nav-codings-tech"] {
 /* unshow black img */
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-observability:checked ~ #codings-container label[for="radio-nav-codings-tech-observability"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-nav-codings-tech-ai-ml-llm:checked ~ #codings-container label[for="radio-nav-codings-tech-ai-ml-llm"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:nth-of-type(1) > img:nth-of-type(2),
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:nth-of-type(1) > img:nth-of-type(2) {
@@ -72,8 +75,9 @@ input[name="name-radio-nav-codings-tech"] {
 /* counter color */
 #radio-nav-codings-tech-java:checked ~ #codings-container label[for="radio-nav-codings-tech-java"] > div:last-child > div,
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container label[for="radio-nav-codings-tech-spring-boot"] > div:last-child > div,
-#radio-nav-codings-tech-microservices:checked ~ #codings-container label[for="radio-nav-codings-tech-microservices"] > div:last-child > div,
+#radio-nav-codings-tech-observability:checked ~ #codings-container label[for="radio-nav-codings-tech-observability"] > div:last-child > div,
 #radio-nav-codings-tech-cloud:checked ~ #codings-container label[for="radio-nav-codings-tech-cloud"] > div:last-child > div,
+#radio-nav-codings-tech-ai-ml-llm:checked ~ #codings-container label[for="radio-nav-codings-tech-ai-ml-llm"] > div:last-child > div,
 #radio-nav-codings-tech-angular:checked ~ #codings-container label[for="radio-nav-codings-tech-angular"] > div:last-child > div,
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:last-child > div,
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:last-child > div {
@@ -89,8 +93,9 @@ input[name="name-radio-nav-codings-tech"] {
 
 #radio-nav-codings-tech-java:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-tech-spring-boot:checked ~ #codings-container #codings-masonry-container,
-#radio-nav-codings-tech-microservices:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-observability:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-tech-cloud:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-tech-ai-ml-llm:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-tech-angular:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-tech-react-native:checked ~ #codings-container #codings-masonry-container {
@@ -102,8 +107,9 @@ input[name="name-radio-nav-codings-tech"] {
 /* unshown primary checked + nav tech any is checked -> unshown codings masonry container */
 #radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-java:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-spring-boot:checked ~ #codings-container #codings-masonry-container,
-#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-microservices:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-observability:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-cloud:checked ~ #codings-container #codings-masonry-container,
+#radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-ai-ml-llm:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-angular:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-pyhton:checked ~ #codings-container #codings-masonry-container,
 #radio-nav-codings-unshown:checked ~ #radio-nav-codings-tech-react-native:checked ~ #codings-container #codings-masonry-container {
