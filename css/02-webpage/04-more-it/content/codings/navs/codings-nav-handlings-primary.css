@@ -24,11 +24,8 @@ input[name="name-radio-nav-codings"] {
 #radio-nav-codings-challenges:checked ~ #codings-container label[for="radio-nav-codings-challenges"],
 #radio-nav-codings-unshown:checked ~ #codings-container label[for="radio-nav-codings-unshown"] {
 
-  background-color: wheat;
-
-  /* background-color: rgb(142, 142, 142); */
-
-  color:rgb(0, 0, 0);
+  background-color: rgb(224, 224, 224);
+  color:rgb(48, 48, 48);
 
 }
 

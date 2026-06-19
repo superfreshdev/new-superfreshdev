@@ -136,10 +136,13 @@
       <!-- links -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/links/link-item-sfd.css">
 
-      <!-- 🟩 New | Status Progress Itesm -->
+      <!-- Status Task Items-->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/status-task-items/status-tasks.css">
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/status-task-items/status-tasks-minis.css">
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/status-task-items/status-task-verticals.css">
+
+      <!-- Status Details Items -->
+      <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/status-details-items/status-details-items.css">
 
       <!-- ⚠️ -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/status-task-items/status-progress-text-and-link-items.css">
@@ -4788,16 +4791,130 @@
                         <div id="codings-header-content-status-row">
 
                           <!-- Status Box -->
-                          <div>
-                            <div>Status Info</div>
-                            <div>Status Details</div>
+                          <div id="codings-header-content-status-box">
+
+                            <!-- 🟪 Auslagern - Status Protos -->
+                            <div style="display: none;">
+
+                              <!-- Status Task -->
+                              <div class="status-task-in-progress" style="display: none;">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                    alt="img" class="img-h-0-8">
+
+                                <!-- text -->
+                                <div>in progress</div>
+
+                              </div>
+
+                              <!-- Proto - Later -->
+                              <div class="status-task-later" style="display: none;">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                    alt="img" class="img-h-0-8">
+
+                                <!-- text -->
+                                <div>later</div>
+
+                              </div>
+
+                              <!-- Proto - Done -->
+                              <div class="status-task-done" style="display: none;">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                    alt="img" class="img-h-0-6">
+
+                                <!-- text -->
+                                <div>done</div>
+
+                              </div>
+
+                              <!-- Proto - Future Idea -->
+                              <div class="status-task-future-idea" style="display: none;">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-tornado.png"
+                                    alt="img" class="img-h-0-8">
+
+                                <!-- text -->
+                                <div>future idea</div>
+
+                              </div>
+
+                            </div>
+
+                            <!-- Status Mini Details -->
+                            <div id="codings-header-content-status-details-container">
+
+                              <!-- in progress -->
+                              <div class="status-details-in-progress">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                     alt="img" class="img-h-0-8">
+
+                                <!-- seperator -->
+                                <div>:</div>
+
+                                <!-- nr -->
+                                <div>0</div>
+
+                              </div>
+
+                              <!-- later -->
+                              <div class="status-details-later">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                     alt="img" class="img-h-0-8">
+
+                                <!-- seperator -->
+                                <div>:</div>
+
+                                <!-- nr -->
+                                <div>11</div>
+
+                              </div>
+
+                              <!-- done -->
+                              <div class="status-details-done">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                     alt="img" class="img-h-0-6">
+
+                                <!-- seperator -->
+                                <div>:</div>
+
+                                <!-- nr of dones -->
+                                <div>
+
+                                  <!-- nr -->
+                                  <div>1</div>
+
+                                  <div>/</div>
+
+                                  <!-- dones -->
+                                  <div>12</div>
+
+                                </div>
+
+                              </div>
+
+
+                            </div>
+
+
                           </div>
 
                           <!-- Time Box -->
                           <div id="codings-header-content-time-box">
 
                             <!-- img -->
-                            <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-clock.png"
+                            <img src="media/imgs/icons/02-icon-colors/02-white/white-clock.png"
                                  alt="img">
 
                             <!-- text -->
@@ -4812,8 +4929,11 @@
                         <!-- ---------------------------------------------------- -->
                         <div id="codings-header-content-title">
 
+                          <!-- first title -->
                           <div>Java</div>
+                          <!-- Sub title -->
                           <div>» Basics | Advanced - 3 Parts </div>
+
                           <!-- Coding Header - Titlem, Java | TDD ... XXX - do könnte der Text weiter
                           gehen nur das wir verstehen das dieser Text weiter geht - du liest weiter ?
                           Kann das sein das du doof bist ? -->

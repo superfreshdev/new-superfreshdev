@@ -1,0 +1,86 @@
+/* --------------------------------------------------------------- */
+/* > status-details-items.css
+/*
+/* : styles status details items
+/* : in progress, later,  done
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* All | Status Details
+/* --------------------------------------------------------------- */
+
+.status-details-in-progress,
+.status-details-later,
+.status-details-done {
+
+  height: 1.6em;
+  padding: 0 .6em;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .2em;
+
+  font-weight: bold;
+
+  border-radius: .4em;
+
+}
+
+/* nr */
+.status-details-in-progress > div,
+.status-details-later > div,
+.status-details-done > div {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Status Details
+/* --------------------------------------------------------------- */
+
+.status-details-in-progress {
+
+  background-color: rgb(251, 217, 132);
+  color:rgb(52, 52, 52);
+
+  opacity: .6;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Later | Status Details
+/* --------------------------------------------------------------- */
+
+.status-details-later {
+
+  background-color: #e3e3e3;
+  color:rgb(52, 52, 52);
+
+  opacity: .6;
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Done | Status Details
+/* --------------------------------------------------------------- */
+
+.status-details-done {
+
+  background-color: rgb(136, 216, 136);
+
+  opacity: .6;
+
+}
+
+/* Nr of Dones */
+.status-details-done > div:last-child {
+
+  display: flex;
+  align-items: center;
+
+}
