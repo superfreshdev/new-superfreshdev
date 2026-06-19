@@ -3,84 +3,101 @@
 /* : styles codings category task item
 /* --------------------------------------------------------------- */
 
-/* -------------------------------------------------------------- */
-/* Codings Category Task Item | Bar */
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-bar-in-progress,
-.codings-category-task-item-bar-later,
-.codings-category-task-item-bar-done {
-
-  display: grid;
-  grid: auto / auto 1fr;
-
-  border-radius: .8em;
-
-}
-
-/* in progress - task item */
-.codings-category-task-item-bar-in-progress {
-
-  border: 2px solid rgb(255, 212, 93);
-  background-color: rgb(255, 245, 181);
-
-}
-
-/* done - task item */
-.codings-category-task-item-bar-later {
-
-  border: 2px solid rgb(123, 123, 123);
-  background-color: rgb(214, 214, 214);
-
-}
-
-/* later - task item */
-.codings-category-task-item-bar-done {
-
-  border: 2px solid rgb(4, 135, 26);
-  background-color: rgb(154, 241, 157);
-
-}
-
 
 /* -------------------------------------------------------------- */
-/* Status Bar | Codings Category Task Item | Bar */
+/* All | Codings Category Task Items
 /* -------------------------------------------------------------- */
 
-.codings-category-task-item-status-bar {
-
-  width: 2.3em;
-  padding-top: .4em;
+.codings-category-task-item-in-progress,
+.codings-category-task-item-later,
+.codings-category-task-item-done {
 
   display: grid;
   justify-items: center;
   align-content: flex-start;
 
-  border-radius: .6em 0 0 .6em;
+  grid: auto / auto 1fr;
+
+  border-radius: 1em;
+
+  border: 2px solid rgba(0, 0, 0, .1);
+
+  transition: all .4s;
 
 }
 
-/* in progress - bar */
-.codings-category-task-item-bar-in-progress .codings-category-task-item-status-bar {
+/* hover */
+.codings-category-task-item-in-progress:hover,
+.codings-category-task-item-later:hover,
+.codings-category-task-item-done:hover {
 
-  background-color: rgb(255, 212, 93);
-
-}
-
-/* later - bar */
-.codings-category-task-item-bar-later .codings-category-task-item-status-bar {
-
-  background-color: rgb(141, 141, 141);
+  background-color: white;
 
 }
 
-/* done - bar */
-.codings-category-task-item-bar-done .codings-category-task-item-status-bar {
+/* hover main - in progress */
+.codings-category-task-item-in-progress:hover .codings-category-task-item-content > main {
 
-  background-color: rgb(14, 172, 50);
+  color:rgb(143, 143, 29);
+  color:rgb(174, 174, 174);
 
 }
 
+/* hover main - later */
+.codings-category-task-item-later:hover .codings-category-task-item-content > main {
+
+  color:rgb(174, 174, 174);
+
+}
+
+/* hover main - done */
+.codings-category-task-item-done:hover .codings-category-task-item-content > main {
+
+  color:rgb(81, 143, 45);
+  color:rgb(174, 174, 174);
+
+}
+
+/* task item - in progress */
+.codings-category-task-item-in-progress {
+
+  background-color: rgb(255, 242, 214);
+
+}
+
+/* task item - later */
+.codings-category-task-item-later {
+
+  background-color: rgb(241, 241, 241);
+
+}
+
+/* task item - done */
+.codings-category-task-item-done {
+
+  background-color: rgb(220, 255, 220);
+
+}
+
+/* -------------------------------------------------------------- */
+/* [1/2] | Status Bar
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-status-bar {
+
+  padding-top: .4em;
+  width: 2.3em;
+
+  display: grid;
+  align-items: start;
+
+  grid: auto 1fr / 1fr;
+
+  row-gap: .2em;
+
+  border-radius: .9em 0 0 .9em;
+
+}
 
 /* nr box */
 .codings-category-task-item-status-bar > div:nth-of-type(1) {
@@ -89,22 +106,20 @@
   align-items: center;
   justify-content: center;
 
-
 }
 
-/* nr text */
+/* nr - text */
 .codings-category-task-item-status-bar > div:nth-of-type(1) > div {
 
   font-size: 12.5px;
+  font-weight: bold;
 
   color:rgb(46, 46, 46);
 
-  font-weight: bold;
-
 }
 
-/* img box */
-.codings-category-task-item-status-bar > div:nth-of-type(2) > div {
+/* icon box */
+.codings-category-task-item-status-bar > div:nth-of-type(2) {
 
   display: flex;
   align-items: center;
@@ -115,12 +130,35 @@
 /* img */
 .codings-category-task-item-status-bar > div:nth-of-type(2) > img {
 
- opacity: .6;
+  opacity: .6;
+
+}
+
+/* Status Bar - In Progress */
+.codings-category-task-item-in-progress .codings-category-task-item-status-bar {
+
+  background-color: rgb(255, 212, 93);
+
+}
+
+/* Status Bar - Later */
+.codings-category-task-item-later .codings-category-task-item-status-bar {
+
+  background-color: rgb(192, 192, 192);
+
+}
+
+/* Status Bar - Done */
+.codings-category-task-item-done .codings-category-task-item-status-bar {
+
+  background-color: rgb(14, 172, 50);
+
+  background-color: rgb(0, 180, 6);
 
 }
 
 /* -------------------------------------------------------------- */
-/* Task Content | Codings Category Task Item | Bar */
+/* [2/2] | Task Content
 /* -------------------------------------------------------------- */
 
 .codings-category-task-item-content {
@@ -130,37 +168,112 @@
 }
 
 /* -------------------------------------------------------------- */
-/* Header | Task Content
+/* [1/3] | Header | Task Content
 /* -------------------------------------------------------------- */
 
 .codings-category-task-item-content > header {
-
-  margin-bottom: .4em;
 
   line-height: 1.4em;
 
   font-size: 14.5px;
   font-weight: bold;
 
+  color:rgb(66, 66, 66);
+
 }
 
-/* -------------------------------------------------------------- */
-/* Main | Task Content
-/* -------------------------------------------------------------- */
+/* header - in progress */
+.codings-category-task-item-in-progress .codings-category-task-item-content > header {
 
-.codings-category-task-item-content > main {
+  color:rgb(155, 140, 61);
 
-  margin-bottom: .4em;
+}
 
-  line-height:1.4em;
-  font-size: 14.5px;
+/* header - later */
+.codings-category-task-item-later .codings-category-task-item-content > header {
 
   color:rgb(116, 116, 116);
 
 }
 
+/* header - done */
+.codings-category-task-item-done .codings-category-task-item-content > header  {
+
+  color:rgb(31, 149, 45);
+
+}
+
+/* ----------------------------------------------------- */
+/* Task Time Info
+/* ----------------------------------------------------- */
+
+.codings-category-task-time-info {
+
+  float: right;
+  margin-left: .4em;
+  margin-bottom: .4em;
+
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+  border-radius: .8em;
+
+  border: 1px solid rgba(164, 164, 164, .4);
+
+
+  opacity: .8;
+
+}
+
+/* divs */
+.codings-category-task-time-info > div {
+
+  font-size: 10.5px;
+
+}
+
 /* -------------------------------------------------------------- */
-/* Footer | Task Content
+/*  [2/3] | Main | Task Content
+/* -------------------------------------------------------------- */
+
+.codings-category-task-item-content > main {
+
+  margin-top: .4em;
+  margin-bottom: .3em;
+
+  font-size: 14.5px;
+
+  line-height: 1.5em;
+
+
+}
+
+/* main - in progress */
+.codings-category-task-item-in-progress .codings-category-task-item-content > main {
+
+  color:rgb(185, 166, 3);
+
+}
+
+/* main - later */
+.codings-category-task-item-later .codings-category-task-item-content > main {
+
+  color:rgb(180, 180, 180);
+
+}
+
+/* main - done  */
+.codings-category-task-item-done .codings-category-task-item-content > main {
+
+  color:rgb(78, 180, 23);
+
+}
+
+/* -------------------------------------------------------------- */
+/*  [3/3] | Footer | Task Content
 /* -------------------------------------------------------------- */
 
 .codings-category-task-item-content > footer {
@@ -180,279 +293,6 @@
 
   font-size: 14.5px;
   color:black;
-
-}
-
-
-
-
-/* ❌ old  */
-/* -------------------------------------------------------------- */
-/* Codings Category Task Items
-/* > in progress, later, done
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-in-progress,
-.codings-category-task-item-later,
-.codings-category-task-item-done {
-
-  padding: 1.1em .8em;
-
-  display: grid;
-
-  background-color: white;
-
-  border: 1px dashed rgb(198, 198, 198);
-
-   border-radius: 1em;
-
-  border: 2px solid rgba(0, 0, 0, .1);
-
-  transition: all .4s;
-
-}
-
-/* hover */
-.codings-category-task-item-in-progress:hover,
-.codings-category-task-item-later:hover,
-.codings-category-task-item-done:hover {
-
-  background-color: white;
-
-}
-
-/* -------------------------------------------------------------- */
-/* In Progress | Task Item
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-in-progress {
-
-  background-color: rgb(255, 242, 214);
-
-}
-
-/* -------------------------------------------------------------- */
-/* Later | Task Item
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-later {
-
-  background-color: rgb(241, 241, 241);
-
-}
-
-/* -------------------------------------------------------------- */
-/* Done | Task Item
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-done {
-
-  background-color: rgb(220, 255, 220);
-
-}
-
-/* -------------------------------------------------------------- */
-/* [1/2] Section Content
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-in-progress > section,
-.codings-category-task-item-later > section,
-.codings-category-task-item-done > section {
-
-  width: 100%;
-
-  display: flex;
-  align-items: flex-start;
-  column-gap: 1em;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Header | Div 2 | Content
-/* -------------------------------------------------------------- */
-
-.codings-task-header {
-
-  line-height: 1.3em;
-
-  font-size: 14.5px;
-
-  font-weight: bold;
-
-}
-
-/* header - in progress */
-.codings-category-task-item-in-progress .codings-task-header {
-
-
-  color:rgba(177, 144, 34, 1);
-
-
-  /* color:rgb(153, 124, 28); */
-
-  /* color:rgb(114, 114, 114); */
-
-  /* color: rgb(31, 31, 31); */
-
-}
-
-/* header - later */
-.codings-category-task-item-later .codings-task-header {
-
-  color:rgba(74, 74, 74, 0.5);
-
-  color:rgb(114, 114, 114);
-
-  color:rgb(161, 161, 161);
-
-}
-
-/* header - done */
-.codings-category-task-item-done .codings-task-header {
-
-  color:rgba(20, 155, 40, 0.8);
-
-  color:rgb(112, 183, 93);
-
-  /* color:rgb(114, 114, 114); */
-
-
-}
-
-/* -------------------------------------------------------------- */
-/* Time Info | Div 2 | Content
-/* -------------------------------------------------------------- */
-
-.codings-task-time-info {
-
-  float: right;
-  margin-left: .6em;
-  margin-bottom: .4em;
-
-  height: 1.3em;
-  padding: 0 .4em;
-
-  display: flex;
-  align-items: center;
-  column-gap: .3em;
-
-  border-radius: .6em;
-
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-
-  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
-
-}
-
-/* in progress - time info */
-.codings-category-task-item-in-progress .codings-task-time-info {
-
-  border: 1px solid rgba(107, 107, 107, 0.2);
-  color:rgba(84, 84, 84, 0.6);
-
-}
-
-/* later - time info */
-.codings-category-task-item-later .codings-task-time-info {
-
-  border: 1px solid rgba(107, 107, 107, 0.2);
-  color:rgba(84, 84, 84, 0.6);
-
-
-}
-
-/* done - time info */
-.codings-category-task-item-done .codings-task-time-info {
-
-  border: 1px solid rgba(107, 107, 107, 0.2);
-  color:rgba(84, 84, 84, 0.6);
-
-}
-
-/* img */
-.codings-task-time-info > img:nth-of-type(1) {
-
-  height: .6em;
-  opacity: .6;
-
-}
-
-/* text - div */
-.codings-task-time-info > div:nth-of-type(1) {
-
-  font-size: 11.5px;
-  font-weight: bold;
-
-  display: flex;
-  align-items: center;
-  column-gap: .2em;
-
-}
-
-/* -------------------------------------------------------------- */
-/* Description Text | Div 2 | Content
-/* -------------------------------------------------------------- */
-
-.codings-task-description {
-
-  padding-top: .4em;
-
-  font-size: 14.5px;
-
-  line-height: 1.5em;
-
-}
-
-/* description - in progress */
-.codings-category-task-item-in-progress .codings-task-description {
-
-  color:rgba(159, 129, 32, .6);
-
-  /* color:rgb(177, 177, 177); */
-
-   /* color:rgb(47, 47, 47); */
-
-   /* color:rgb(145, 145, 145); */
-
-}
-
-/* description  - later */
-.codings-category-task-item-later .codings-task-description {
-
-  color:rgba(61, 61, 61, 0.4);
-  /* color:rgb(177, 177, 177); */
-
-   color:rgb(47, 47, 47);
-
-    color:rgb(145, 145, 145);
-
-}
-
-/* description  - done */
-.codings-category-task-item-done .codings-task-description {
-
-  color:rgba(20, 155, 40, 0.6);
-
-  /* color:rgb(47, 47, 47); */
-
-   /* color:rgb(143, 143, 143); */
-
-}
-
-/* -------------------------------------------------------------- */
-/* [2/2] Nav Links
-/* -------------------------------------------------------------- */
-
-.codings-category-task-item-in-progress > nav,
-.codings-category-task-item-later > nav,
-.codings-category-task-item-done > nav {
-
-  padding-top: .8em;
-
-  display: flex;
-  justify-content: flex-end;
-
-  /* background-color: green; */
 
 }
 

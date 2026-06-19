@@ -14,11 +14,9 @@
 
   /* border-top: 3px solid rgb(106, 106, 106);
   border-bottom: 4px solid rgb(106, 106, 106); */
-
   /* background-color: rgb(238, 238, 238); */
 
   background-color: rgb(43, 43, 43);
-
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
@@ -44,7 +42,6 @@
   border-radius: 1em;
 
   /* background-color: rgb(43, 43, 43); */
-
   /* background-color: red; */
 
 }

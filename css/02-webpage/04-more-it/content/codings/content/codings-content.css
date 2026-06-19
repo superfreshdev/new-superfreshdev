@@ -10,14 +10,12 @@
 
 #codings-content {
 
+  /* ❌❌❌ Buggy */
+  padding: 2em 0 4em 0;
   width: 100%;
-  /* height: 100%; */
-  /* margin: 2em 0; */
-
-  /* padding: 2em 0; */
 
   display: grid;
-  grid: auto auto / 1fr;
+  grid: 1fr / 1fr;
 
   /* background-color: red; */
 
