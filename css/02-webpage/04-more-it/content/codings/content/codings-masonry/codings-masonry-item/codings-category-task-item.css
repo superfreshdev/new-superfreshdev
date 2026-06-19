@@ -139,12 +139,15 @@
 
   background-color: rgb(255, 212, 93);
 
+   background-color: rgb(254, 223, 144);
+
 }
 
 /* Status Bar - Later */
 .codings-category-task-item-later .codings-category-task-item-status-bar {
 
   background-color: rgb(192, 192, 192);
+  background-color: #d8d8d8;
 
 }
 
@@ -154,6 +157,8 @@
   background-color: rgb(14, 172, 50);
 
   background-color: rgb(0, 180, 6);
+
+  background-color: rgb(149, 235, 149);
 
 }
 
