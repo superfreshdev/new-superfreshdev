@@ -52,7 +52,7 @@
 
   background-color: #222222;
 
-  border-bottom: 3px solid rgb(106, 106, 106);
+  /* border-bottom: 1px solid rgb(106, 106, 106); */
 
 }
 
@@ -68,7 +68,9 @@
 
   background-color: #343434;
 
-  background-color: white;
+  /* background-color: white; */
+
+   /* border-bottom: 3px solid rgb(106, 106, 106); */
 
 
 }

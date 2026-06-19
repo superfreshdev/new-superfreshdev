@@ -26,11 +26,9 @@ input[name="name-radio-nav-codings"] {
 
   background-color: wheat;
 
-  background-color: rgb(206, 206, 206);
+  /* background-color: rgb(142, 142, 142); */
 
-   background-color: rgb(230, 230, 230);
-
-  color:rgb(77, 77, 77);
+  color:rgb(0, 0, 0);
 
 }
 
