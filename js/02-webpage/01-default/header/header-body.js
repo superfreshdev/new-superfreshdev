@@ -70,7 +70,7 @@ for( let i=0; i < radios_header_body.length; i++ ) {
 
     } else {
 
-      var updateCssStyle = "rgb(134, 134, 134); background-color: rgb(44, 44, 44); border: 2px solid rgb(56, 56, 56);"
+      var updateCssStyle = "rgb(134, 134, 134); border: 2px solid rgb(56, 56, 56);"
       await async_update_cssStyle_to_element( updateCssStyle, divCompanyContainer )
 
     }

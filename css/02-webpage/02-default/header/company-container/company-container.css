@@ -37,9 +37,9 @@
   font-weight: bold;
 
   border: 2px solid rgb(56, 56, 56);
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
 
-  color:rgb(134, 134, 134);
+  color:rgb(83, 83, 83);
 
   /* default small mobile unshown */
   display: none;
