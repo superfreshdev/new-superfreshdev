@@ -88,7 +88,7 @@
 /* Time Box */
 #codings-header-content-time-box {
 
-  height: 1.8em;
+  height: 1.6em;
   padding: 0 .4em;
 
   display: flex;
@@ -99,11 +99,13 @@
 
   font-weight: bold;
 
-  color:rgb(187, 187, 187);
+  color:rgb(92, 92, 92);
 
-  opacity: .4;
+  /* opacity: .4; */
 
-  /* background-color: blue; */
+  background-color: rgb(48, 48, 48);
+
+  border: 1px dashed rgb(89, 89, 89);
 
 }
 
@@ -113,12 +115,19 @@
   height: .8em;
   opacity: .8;
 
+  /* mobile unshown */
+  display: none;
+
 }
 
 /* div (title) - Time Box */
 #codings-header-content-time-box > div:nth-of-type(1) {
 
   font-size: 13.5px;
+  line-height: 1.4em;
+
+  text-align: center;
+
   /* opacity: .5; */
 
 }
@@ -164,11 +173,11 @@
 
   height: 6.5em;
 
-  border-radius: .6em;
+  border-radius: .8em;
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
-  border: 3px solid rgba(62, 62, 62, 0.4);
+  border: 2px dashed rgba(82, 82, 82, 0.4);
 
   /* default mobile - unshown */
   display: none;

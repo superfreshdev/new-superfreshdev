@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > codings-category-tasks.css
+/* > codings-category-task-container.css
 /* : styles codings category task container
 /* --------------------------------------------------------------- */
 
@@ -8,23 +8,82 @@
 /* Codings Category Tasks
 /* -------------------------------------------------------------- */
 
-.codings-category-tasks {
+.codings-category-task-container {
 
   display: grid;
   grid: auto 1fr / 1fr;
 
+  /* row-gap: 1em; */
+
   border-radius: 1.5em;
 
   /* margin-bottom: 24px; */
-
   /* border: 3px solid rgba(31, 31, 31, 0.1); */
-
-
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 
 }
 
+/* -------------------------------------------------------------- */
+/* ⬇️⬆️ Smooth Open Close | Codings Category Task List
+/* -------------------------------------------------------------- */
 
+.smooth-open-close-codings-category-task-list {
+
+  width: 100%;
+  display: grid;
+
+  grid-template-rows: 0fr;
+  transition: all ease-in-out 0.25s;
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Codings Category Task List
+/* -------------------------------------------------------------- */
+
+.codings-category-task-list {
+
+  display: grid;
+  align-items: flex-start;
+  align-content: flex-start;
+
+  /* mobile */
+  grid: auto / 1fr;
+  padding: 1.5em 0em;
+
+  gap: 1em;
+
+  /* default unshown, only by checked */
+  /* display: none; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ❌❌❌ Trash */
 /* -------------------------------------------------------------- */
 /* [1/2] | Header
 /* -------------------------------------------------------------- */
@@ -39,7 +98,7 @@
   justify-content: space-between;
   column-gap: .8em;
 
-  border-radius: 1em;
+  border-radius: .8em;
 
 
   /* border: 3px solid rgb(100, 100, 100); */

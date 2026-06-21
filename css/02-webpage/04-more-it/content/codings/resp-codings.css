@@ -24,6 +24,21 @@
 
   }
 
+  /* -------------------------------------------------------------- */
+  /* Header Coding Category Task List
+  /* -------------------------------------------------------------- */
+
+  .codings-category-task-list {
+
+    /* mobile */
+    grid: auto / 1fr;
+    padding: 1.5em 1em;
+
+    gap: 1em;
+
+  }
+
+
 }
 
 /* --------------------------------------------------------------- */
@@ -51,10 +66,32 @@
   /* Codings - Masonry Container
   /* -------------------------------------------------------------- */
 
-  #codings-masonry-container  {
+  /* #codings-masonry-container  {
 
     align-items: start;
     grid: auto / 1fr 1fr;
+
+  } */
+
+}
+
+/* --------------------------------------------------------------- */
+/* > 800px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+  /* -------------------------------------------------------------- */
+  /* Header Coding Category Task List
+  /* -------------------------------------------------------------- */
+
+  .codings-category-task-list {
+
+    /* mobile */
+    grid: auto / 1fr 1fr;
+    padding: 1.5em 1em;
+
+    gap: 1em;
 
   }
 
@@ -71,7 +108,7 @@
   /* Codings - Masonry Container
   /* -------------------------------------------------------------- */
 
-  #codings-masonry-container  {
+  /* #codings-masonry-container  {
 
     align-items: start;
     grid: auto / 24em 24em;
@@ -80,7 +117,7 @@
 
 
 
-  }
+  } */
 
 }
 
@@ -95,7 +132,7 @@
   /* Codings - Masonry Container
   /* -------------------------------------------------------------- */
 
-  #codings-masonry-container  {
+  /* #codings-masonry-container  {
 
     align-items: start;
     grid: auto / 26em 26em;
@@ -104,6 +141,6 @@
 
 
 
-  }
+  } */
 
 }

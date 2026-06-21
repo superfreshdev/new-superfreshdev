@@ -16,12 +16,13 @@
   width: 100%;
 
   display: grid;
+  align-content: flex-start;
   gap:1em;
 
   /* background-color: rgb(198, 251, 255); */
 
   /* default unshown, only by checked */
-  display: none;
+  /* display: none; */
 
 
 }

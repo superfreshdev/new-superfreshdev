@@ -324,12 +324,26 @@
         <!-- ⭐ -->
         <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/new-codings-content.css">
 
-        <!-- masonry - codings -->
-        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-container.css">
+        <!-- ----------------------------------------- -->
+        <!-- Codings Masonry Container  -->
+        <!-- ----------------------------------------- -->
 
-        <!-- masonry item - category + task item -->
-        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-item/codings-category-tasks.css">
-        <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-item/codings-category-task-item.css">
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-container.css">
+
+          <!-- ------------------------------------------------>
+          <!-- Codings - Masonry Item -->
+          <!-- ------------------------------------------------>
+
+            <!-- Codings Category Task Container -->
+            <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-item/codings-category-task-container/codings-category-task-container.css">
+            <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-item/codings-category-task-container/codings-category-task-header.css">
+            <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-item/codings-category-task-container/codings-category-task-nav-handlings.css">
+
+            <!-- Codings Category Task Item -->
+            <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/codings-masonry-item/codings-category-task-item/codings-category-task-item.css">
+
+          <!-- resp - codings masonry -->
+          <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/content/codings-masonry/resp-codings-masonry.css">
 
         <!-- resp -->
         <link rel="stylesheet" href="css/02-webpage/04-more-it/content/codings/resp-codings.css">
@@ -4868,8 +4882,8 @@
                               <div class="status-details-later">
 
                                 <!-- img -->
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
-                                     alt="img" class="img-h-0-8">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
+                                     alt="img" class="img-h-0-7">
 
                                 <!-- seperator -->
                                 <div>:</div>
@@ -4962,7 +4976,7 @@
                 <div class="row-container">
 
                   <!-- 📐 Resp Medium -->
-                  <div class="resp-content-container-big" style="z-index: 4;">
+                  <div class="resp-content-container-medium" style="z-index: 4;">
 
                     <!-- --------------------------------------------------------------- -->
                     <!-- 🟩 Codings Content -->
@@ -4974,779 +4988,1312 @@
                       <!-- ----------------------------------------------------------- -->
                       <div id="codings-masonry-container">
 
-                        <!-- 💛 js dny. create task items -->
-
-                        <!-- ➡️🟨 1. Codings Category Tasks -->
-                        <div class="codings-category-tasks">
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- 🟨 [1/X] | Codings Category Task Container -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="codings-category-task-container">
 
                           <!-- --------------------------------------------------------- -->
-                          <!-- 🟩 [1/2] | Header -->
+                          <!-- 🟨 [1/2] | Header Category -->
                           <!-- --------------------------------------------------------- -->
-                          <header>
+                          <input type="checkbox" id="chk-codings-category-1" name="name-chk-codings-category-header">
+                          <label for="chk-codings-category-1" class="codings-category-task-header">
 
-                            <!-- ---------------------------------------------------- -->
-                            <!-- 🟩 [1/2] | Icon + Title - Item -->
-                            <!-- ---------------------------------------------------- -->
-                            <div>
+                            <!-- --------------------------------------------- -->
+                            <!-- [1/3] | 🟩 Status -->
+                            <!-- --------------------------------------------- -->
+                            <div class="codings-category-task-header-status-in-progress">
 
-                              <!-- img - icon -->
-                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
                                 alt="img">
 
-                              <!-- title -->
-                              <div>
+                            </div>
 
-                                <!-- Category Title -->
-                                <div> Basics</div>
-                                <!-- Sub Title -->
-                                <div>
-                                  » Collections, Streams, Lamdas, Interface, Wrapper Classes, und so weiter,
-                                  jetzt stellen wir uns das länger vor und so weiter dies ...
-                                </div>
+                            <div class="codings-category-task-header-status-later" style="display: none;">
 
-                              </div>
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                   alt="img">
+
+
+                            </div>
+
+                            <div class="codings-category-task-header-status-done" style="display: none;">
+
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                alt="img">
 
                             </div>
 
                             <!-- ---------------------------------------------------- -->
-                            <!-- 🟩 [2/2] | Task Counter - Item -->
+                            <!-- 🟩 [2/3] | Header Content  -->
                             <!-- ---------------------------------------------------- -->
-                            <div>
-                              <span>6</span>
-                              <span>Tasks</span>
+                            <div class="codings-category-task-header-content">
+
+
+                              <!-- header -->
+                              <header>
+
+                                <!-- task info ( float - right ) -->
+                                <div class="codings-category-task-info">
+
+                                  <div>5</div>
+                                  <div>Tasks</div>
+
+                                </div>
+
+                                <!-- title -->
+                                <div class="codings-category-task-header-title">
+                                  Header - Title und so weiter könnte es gehen
+                                  damit wir einen langen Text haben und so weiter
+                                </div>
+
+
+
+                              </header>
+
+                              <!-- main -->
+                              <main>
+                                » Description und so weiter und so weiter und so weiter könnte der
+                                Text gehen du verstehst eigentlich was ich meine oder ?
+                              </main>
+
                             </div>
 
+                            <!-- ---------------------------------------------------- -->
+                            <!-- 🟩 [3/3] | Header Nav -->
+                            <!-- ---------------------------------------------------- -->
+                            <nav class="codings-category-task-header-nav">
 
-                          </header>
+                              <!-- img grey - arrow close -->
+                              <img src="media/imgs/icons/02-icon-colors/03-grey/grey-arrow-clap-down.png"
+                                   alt="img" >
+
+                              <!-- img white - arrow open -->
+                               <img src="media/imgs/icons/02-icon-colors/03-grey/grey-arrow-clap-down.png"
+                                   alt="img" >
+
+                            </nav>
+
+                          </label>
 
                           <!-- --------------------------------------------------------- -->
-                          <!-- 🟩 [2/2] | Main -->
+                          <!-- 🟨 [2/2] | Task List -->
                           <!-- --------------------------------------------------------- -->
-                          <main>
+                          <div class="smooth-open-close-codings-category-task-list">
 
-                            <!-- Task Item - In Progress-->
-                            <div class="codings-category-task-item-in-progress">
+                            <!-- overflow hidden - for effect -->
+                            <div class="overflow-hidden" style="overflow: hidden;">
 
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
+                              <main class="codings-category-task-list">
 
-                                <!-- nr box -->
-                                <div>
-                                  <div>01.</div>
-                                </div>
+                                <!-- Task Item - In Progress-->
+                                <div class="codings-category-task-item-in-progress">
 
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                    alt="img" class="img-h-1">
-                                </div>
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
 
-                              </div>
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>01.</div>
+                                    </div>
 
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                        alt="img" class="img-h-1">
+                                    </div>
 
                                   </div>
 
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
                                   </div>
 
-                                </header>
 
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
+                                </div>
 
-                                <footer>
+                                <!-- Task Item - Later -->
+                                <div class="codings-category-task-item-later">
 
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
 
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>02.</div>
+                                    </div>
 
-                                    <!-- text -->
-                                    <div>GitHub</div>
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                        alt="img" class="img-h-0-9">
+                                    </div>
 
-                                  </a>
+                                  </div>
 
-                                </footer>
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
 
-                              </div>
+                                    <header>
 
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - done -->
+                                <div class="codings-category-task-item-done">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>03.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                        alt="img" class="img-h-0-7">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - Later -->
+                                <div class="codings-category-task-item-later">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>02.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                        alt="img" class="img-h-0-9">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - done -->
+                                <div class="codings-category-task-item-done">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>03.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                        alt="img" class="img-h-0-7">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                              </main>
 
                             </div>
 
-                            <!-- Task Item - Later -->
-                            <div class="codings-category-task-item-later">
+                          </div>
 
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
-
-                                <!-- nr box -->
-                                <div>
-                                  <div>02.</div>
-                                </div>
-
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
-                                    alt="img" class="img-h-0-9">
-                                </div>
-
-                              </div>
-
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
-
-                                  </div>
-
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
-                                  </div>
-
-                                </header>
-
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
-
-                                <footer>
-
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
-
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
-
-                                    <!-- text -->
-                                    <div>GitHub</div>
-
-                                  </a>
-
-                                </footer>
-
-                              </div>
-
-
-                            </div>
-
-                            <!-- Task Item - done -->
-                            <div class="codings-category-task-item-done">
-
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
-
-                                <!-- nr box -->
-                                <div>
-                                  <div>03.</div>
-                                </div>
-
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                    alt="img" class="img-h-0-7">
-                                </div>
-
-                              </div>
-
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
-
-                                  </div>
-
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
-                                  </div>
-
-                                </header>
-
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
-
-                                <footer>
-
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
-
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
-
-                                    <!-- text -->
-                                    <div>GitHub</div>
-
-                                  </a>
-
-                                </footer>
-
-                              </div>
-
-
-                            </div>
-
-
-                          </main>
 
                         </div>
 
-                        <!-- ➡️🟨 2. Codings Category Tasks -->
-                        <div class="codings-category-tasks">
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- 🟨 [2/X] | Codings Category Task Container -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="codings-category-task-container">
 
                           <!-- --------------------------------------------------------- -->
-                          <!-- 🟩 [1/2] | Header -->
+                          <!-- 🟨 [1/2] | Header Category -->
                           <!-- --------------------------------------------------------- -->
-                          <header>
+                          <input type="checkbox" id="chk-codings-category-2" name="name-chk-codings-category-header">
+                          <label for="chk-codings-category-2" class="codings-category-task-header">
 
-                            <!-- ---------------------------------------------------- -->
-                            <!-- 🟩 [1/2] | Icon + Title - Item -->
-                            <!-- ---------------------------------------------------- -->
-                            <div>
+                            <!-- --------------------------------------------- -->
+                            <!-- [1/3] | 🟩 Status -->
+                            <!-- --------------------------------------------- -->
+                            <div class="codings-category-task-header-status-later">
 
-                              <!-- img - icon -->
-                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
                                 alt="img">
 
-                              <!-- title -->
-                              <div>
+                            </div>
 
-                                <!-- Category Title -->
-                                <div>Advanced - Part 1/3</div>
-                                <!-- Sub Title -->
-                                <div>
-                                  » Collections, Streams, Lamdas, Interface, Wrapper Classes, und so weiter,
-                                  jetzt stellen wir
+
+                            <!-- ---------------------------------------------------- -->
+                            <!-- 🟩 [2/3] | Header Content  -->
+                            <!-- ---------------------------------------------------- -->
+                            <div class="codings-category-task-header-content">
+
+
+                              <!-- header -->
+                              <header>
+
+                                <!-- task info ( float - right ) -->
+                                <div class="codings-category-task-info">
+
+                                  <div>5</div>
+                                  <div>Tasks</div>
+
+                                </div>
+
+                                <!-- title -->
+                                <div class="codings-category-task-header-title">
+                                  Header - Title und so weiter könnte es gehen
+                                  damit wir einen langen Text haben und so weiter
                                 </div>
 
 
-                              </div>
+
+                              </header>
+
+                              <!-- main -->
+                              <main>
+                                » Description und so weiter und so weiter und so weiter könnte der
+                                Text gehen du verstehst eigentlich was ich meine oder ?
+                              </main>
 
                             </div>
 
                             <!-- ---------------------------------------------------- -->
-                            <!-- 🟩 [2/2] | Task Counter - Item -->
+                            <!-- 🟩 [3/3] | Header Nav -->
                             <!-- ---------------------------------------------------- -->
-                            <div>
-                              <span>6</span>
-                              <span>Tasks</span>
-                            </div>
+                            <nav class="codings-category-task-header-nav">
 
+                              <!-- img grey - arrow close -->
+                              <img src="media/imgs/icons/02-icon-colors/03-grey/grey-arrow-clap-down.png"
+                                   alt="img" >
 
-                          </header>
+                              <!-- img white - arrow open -->
+                               <img src="media/imgs/icons/02-icon-colors/03-grey/grey-arrow-clap-down.png"
+                                   alt="img" >
+
+                            </nav>
+
+                          </label>
 
                           <!-- --------------------------------------------------------- -->
-                          <!-- 🟩 [2/2] | Main -->
+                          <!-- 🟨 [2/2] | Task List -->
                           <!-- --------------------------------------------------------- -->
-                          <main>
+                          <div class="smooth-open-close-codings-category-task-list">
 
-                            <!-- Task Item - In Progress-->
-                            <div class="codings-category-task-item-in-progress">
+                            <!-- overflow hidden - for effect -->
+                            <div class="overflow-hidden" style="overflow: hidden;">
 
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
+                              <main class="codings-category-task-list">
 
-                                <!-- nr box -->
-                                <div>
-                                  <div>01.</div>
-                                </div>
+                                <!-- Task Item - In Progress-->
+                                <div class="codings-category-task-item-in-progress">
 
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                    alt="img" class="img-h-1">
-                                </div>
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
 
-                              </div>
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>01.</div>
+                                    </div>
 
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                        alt="img" class="img-h-1">
+                                    </div>
 
                                   </div>
 
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
                                   </div>
 
-                                </header>
 
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
+                                </div>
 
-                                <footer>
+                                <!-- Task Item - Later -->
+                                <div class="codings-category-task-item-later">
 
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
 
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>02.</div>
+                                    </div>
 
-                                    <!-- text -->
-                                    <div>GitHub</div>
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                        alt="img" class="img-h-0-9">
+                                    </div>
 
-                                  </a>
+                                  </div>
 
-                                </footer>
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
 
-                              </div>
+                                    <header>
 
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - done -->
+                                <div class="codings-category-task-item-done">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>03.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                        alt="img" class="img-h-0-7">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - Later -->
+                                <div class="codings-category-task-item-later">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>02.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                        alt="img" class="img-h-0-9">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - done -->
+                                <div class="codings-category-task-item-done">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>03.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                        alt="img" class="img-h-0-7">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                              </main>
 
                             </div>
 
-                            <!-- Task Item - Later -->
-                            <div class="codings-category-task-item-later">
+                          </div>
 
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
-
-                                <!-- nr box -->
-                                <div>
-                                  <div>02.</div>
-                                </div>
-
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
-                                    alt="img" class="img-h-0-9">
-                                </div>
-
-                              </div>
-
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
-
-                                  </div>
-
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
-                                  </div>
-
-                                </header>
-
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
-
-                                <footer>
-
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
-
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
-
-                                    <!-- text -->
-                                    <div>GitHub</div>
-
-                                  </a>
-
-                                </footer>
-
-                              </div>
-
-
-                            </div>
-
-                            <!-- Task Item - done -->
-                            <div class="codings-category-task-item-done">
-
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
-
-                                <!-- nr box -->
-                                <div>
-                                  <div>03.</div>
-                                </div>
-
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                    alt="img" class="img-h-0-7">
-                                </div>
-
-                              </div>
-
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
-
-                                  </div>
-
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
-                                  </div>
-
-                                </header>
-
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
-
-                                <footer>
-
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
-
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
-
-                                    <!-- text -->
-                                    <div>GitHub</div>
-
-                                  </a>
-
-                                </footer>
-
-                              </div>
-
-
-                            </div>
-
-
-                          </main>
 
                         </div>
 
-                        <!-- ➡️🟨 3. Codings Category Tasks -->
-                        <div class="codings-category-tasks">
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- 🟨 [3/X] | Codings Category Task Container -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="codings-category-task-container">
 
                           <!-- --------------------------------------------------------- -->
-                          <!-- 🟩 [1/2] | Header -->
+                          <!-- 🟨 [1/2] | Header Category -->
                           <!-- --------------------------------------------------------- -->
-                          <header>
+                          <input type="checkbox" id="chk-codings-category-3" name="name-chk-codings-category-header">
+                          <label for="chk-codings-category-3" class="codings-category-task-header">
 
-                            <!-- ---------------------------------------------------- -->
-                            <!-- 🟩 [1/2] | Icon + Title - Item -->
-                            <!-- ---------------------------------------------------- -->
-                            <div>
+                            <!-- --------------------------------------------- -->
+                            <!-- [1/3] | 🟩 Status -->
+                            <!-- --------------------------------------------- -->
+                            <div class="codings-category-task-header-status-done">
 
-                              <!-- img - icon -->
-                              <img src="media/imgs/icons/02-icon-colors/02-white/white-puzzle-couple.png"
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
                                 alt="img">
 
-                              <!-- title -->
-                              <div>
-                                 <!-- Category Title -->
-                                <div>Advanced - Part 2/3</div>
-                                <!-- Sub Title -->
-                                <div>
-                                  » Collections, Streams, Lamdas, Interface, Wrapper Classes, und so weiter,
-                                  jetzt stellen wir so könnte das weiter gehen eigentlich wollen wir das
-                                  nicht so lange schrieben aber du weisst
+                            </div>
+
+
+                            <!-- ---------------------------------------------------- -->
+                            <!-- 🟩 [2/3] | Header Content  -->
+                            <!-- ---------------------------------------------------- -->
+                            <div class="codings-category-task-header-content">
+
+
+                              <!-- header -->
+                              <header>
+
+                                <!-- task info ( float - right ) -->
+                                <div class="codings-category-task-info">
+
+                                  <div>5</div>
+                                  <div>Tasks</div>
+
                                 </div>
-                              </div>
+
+                                <!-- title -->
+                                <div class="codings-category-task-header-title">
+                                  Header - Title und so weiter könnte es gehen
+                                  damit wir einen langen Text haben und so weiter
+                                </div>
+
+
+
+                              </header>
+
+                              <!-- main -->
+                              <main>
+                                » Description und so weiter und so weiter und so weiter könnte der
+                                Text gehen du verstehst eigentlich was ich meine oder ?
+                              </main>
 
                             </div>
 
                             <!-- ---------------------------------------------------- -->
-                            <!-- 🟩 [2/2] | Task Counter - Item -->
+                            <!-- 🟩 [3/3] | Header Nav -->
                             <!-- ---------------------------------------------------- -->
-                            <div>
-                              <span>6</span>
-                              <span>Tasks</span>
-                            </div>
+                            <nav class="codings-category-task-header-nav">
 
+                              <!-- img grey - arrow close -->
+                              <img src="media/imgs/icons/02-icon-colors/03-grey/grey-arrow-clap-down.png"
+                                   alt="img" >
 
-                          </header>
+                              <!-- img white - arrow open -->
+                               <img src="media/imgs/icons/02-icon-colors/03-grey/grey-arrow-clap-down.png"
+                                   alt="img" >
+
+                            </nav>
+
+                          </label>
 
                           <!-- --------------------------------------------------------- -->
-                          <!-- 🟩 [2/2] | Main -->
+                          <!-- 🟨 [2/2] | Task List -->
                           <!-- --------------------------------------------------------- -->
-                          <main>
+                          <div class="smooth-open-close-codings-category-task-list">
 
-                            <!-- Task Item - In Progress-->
-                            <div class="codings-category-task-item-in-progress">
+                            <!-- overflow hidden - for effect -->
+                            <div class="overflow-hidden" style="overflow: hidden;">
 
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
+                              <main class="codings-category-task-list">
 
-                                <!-- nr box -->
-                                <div>
-                                  <div>01.</div>
-                                </div>
+                                <!-- Task Item - In Progress-->
+                                <div class="codings-category-task-item-in-progress">
 
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                    alt="img" class="img-h-1">
-                                </div>
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
 
-                              </div>
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>01.</div>
+                                    </div>
 
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                        alt="img" class="img-h-1">
+                                    </div>
 
                                   </div>
 
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
                                   </div>
 
-                                </header>
 
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
+                                </div>
 
-                                <footer>
+                                <!-- Task Item - Later -->
+                                <div class="codings-category-task-item-later">
 
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
 
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>02.</div>
+                                    </div>
 
-                                    <!-- text -->
-                                    <div>GitHub</div>
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                        alt="img" class="img-h-0-9">
+                                    </div>
 
-                                  </a>
+                                  </div>
 
-                                </footer>
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
 
-                              </div>
+                                    <header>
 
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - done -->
+                                <div class="codings-category-task-item-done">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>03.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                        alt="img" class="img-h-0-7">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - Later -->
+                                <div class="codings-category-task-item-later">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>02.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                        alt="img" class="img-h-0-9">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+                                        allerdings weisst du wieder wie es geht oder ?
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+                                      Text sein aber ich weiss es nicht mehr das es ein langer
+                                      Text ist du weisst was ich meine
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                                <!-- Task Item - done -->
+                                <div class="codings-category-task-item-done">
+
+                                  <!-- 🟩 Status Bar -->
+                                  <div class="codings-category-task-item-status-bar">
+
+                                    <!-- nr box -->
+                                    <div>
+                                      <div>03.</div>
+                                    </div>
+
+                                    <!-- icon box -->
+                                    <div>
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                        alt="img" class="img-h-0-7">
+                                    </div>
+
+                                  </div>
+
+                                  <!-- 🟩 Task Content -->
+                                  <div class="codings-category-task-item-content">
+
+                                    <header>
+
+                                      <!-- task time  -->
+                                      <div class="codings-category-task-time-info">
+
+                                        <div>60</div>
+                                        <div>Mins.</div>
+
+                                      </div>
+
+                                      <!-- header title -->
+                                      <div>Header - Task Item + Time und so könnte es länger sein
+
+                                      </div>
+
+                                    </header>
+
+                                    <main>
+                                      Description Text und so weiter und so weiter dies könnte ein langer
+
+                                    </main>
+
+                                    <footer>
+
+                                      <!-- Github - Link -->
+                                      <a href=""
+                                        class="codings-github-link"
+                                        target="_blank">
+
+                                        <!-- img -->
+                                        <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                            alt="img">
+
+                                        <!-- text -->
+                                        <div>GitHub</div>
+
+                                      </a>
+
+                                    </footer>
+
+                                  </div>
+
+
+                                </div>
+
+                              </main>
 
                             </div>
 
-                            <!-- Task Item - Later -->
-                            <div class="codings-category-task-item-later">
+                          </div>
 
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
-
-                                <!-- nr box -->
-                                <div>
-                                  <div>02.</div>
-                                </div>
-
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
-                                    alt="img" class="img-h-0-9">
-                                </div>
-
-                              </div>
-
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
-
-                                  </div>
-
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
-                                  </div>
-
-                                </header>
-
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
-
-                                <footer>
-
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
-
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
-
-                                    <!-- text -->
-                                    <div>GitHub</div>
-
-                                  </a>
-
-                                </footer>
-
-                              </div>
-
-
-                            </div>
-
-                            <!-- Task Item - done -->
-                            <div class="codings-category-task-item-done">
-
-                              <!-- 🟩 Status Bar -->
-                              <div class="codings-category-task-item-status-bar">
-
-                                <!-- nr box -->
-                                <div>
-                                  <div>03.</div>
-                                </div>
-
-                                <!-- icon box -->
-                                <div>
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                    alt="img" class="img-h-0-7">
-                                </div>
-
-                              </div>
-
-                              <!-- 🟩 Task Content -->
-                              <div class="codings-category-task-item-content">
-
-                                <header>
-
-                                  <!-- task time  -->
-                                  <div class="codings-category-task-time-info">
-
-                                    <div>60</div>
-                                    <div>Mins.</div>
-
-                                  </div>
-
-                                  <!-- header title -->
-                                  <div>Header - Task Item + Time und so könnte es länger sein
-                                    allerdings weisst du wieder wie es geht oder ?
-                                  </div>
-
-                                </header>
-
-                                <main>
-                                  Description Text und so weiter und so weiter dies könnte ein langer
-                                  Text sein aber ich weiss es nicht mehr das es ein langer
-                                  Text ist du weisst was ich meine
-                                </main>
-
-                                <footer>
-
-                                  <!-- Github - Link -->
-                                  <a href=""
-                                    class="codings-github-link"
-                                    target="_blank">
-
-                                    <!-- img -->
-                                    <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                        alt="img">
-
-                                    <!-- text -->
-                                    <div>GitHub</div>
-
-                                  </a>
-
-                                </footer>
-
-                              </div>
-
-
-                            </div>
-
-
-                          </main>
 
                         </div>
-
 
 
                       </div>
