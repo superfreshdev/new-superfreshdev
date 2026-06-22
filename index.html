@@ -161,11 +161,11 @@
       <link rel="stylesheet" href="css/02-webpage/02-default/resp-content-containers/row-container.css">
 
       <!-- ➡️🟥 fixed header body -->
-      <link rel="stylesheet" href="css/02-webpage/02-default/header/fixed-header-body.css">
-      <link rel="stylesheet" href="css/02-webpage/02-default/header/company-container/company-container.css">
-      <link rel="stylesheet" href="css/02-webpage/02-default/header/nav/nav-header-body.css">
-      <link rel="stylesheet" href="css/02-webpage/02-default/header/nav/handlings-nav-header-body.css">
-      <link rel="stylesheet" href="css/02-webpage/02-default/header/resp-fixed-header-body.css">
+      <link rel="stylesheet" href="css/02-webpage/02-default/header/body-header-fixed.css">
+      <link rel="stylesheet" href="css/02-webpage/02-default/header/company-item/body-header-company-item.css">
+      <link rel="stylesheet" href="css/02-webpage/02-default/header/nav/body-header-nav.css">
+      <link rel="stylesheet" href="css/02-webpage/02-default/header/nav/body-header-nav-handlings.css">
+      <link rel="stylesheet" href="css/02-webpage/02-default/header/resp-body-header-fixed.css">
 
       <!-- 🟥 main body -->
       <link rel="stylesheet" href="css/02-webpage/02-default/main/main-body.css">
@@ -472,14 +472,14 @@
   <!-- ----------------------------------------------------------------------- -->
   <!-- Radios | Nav Header Body -->
   <!-- ----------------------------------------------------------------------- -->
-  <input type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input checked  type="radio" id="radio-more-it" name="name-radio-nav-header-body">
-  <input  type="radio" id="radio-private" name="name-radio-nav-header-body">
+  <input type="radio" id="radio-about" name="name-radio-body-header-nav">
+  <input checked  type="radio" id="radio-codings" name="name-radio-body-header-nav">
+  <input  type="radio" id="radio-lifestyle" name="name-radio-body-header-nav">
 
   <!-- ----------------------------------------------------------------------- -->
-  <!-- 🟨 Fixed Header ( belongs not to layout ) -->
+  <!-- 🟨 Body - Header Fixed ( belongs not to layout ) -->
   <!-- ----------------------------------------------------------------------- -->
-  <header id="fixed-header-body">
+  <header id="body-header-fixed">
 
     <!-- ---------------------------------------------------------------- -->
     <!-- 📐 Resp | Medium -->
@@ -487,53 +487,28 @@
     <div class="resp-content-container-medium">
 
       <!-- ---------------------------------------------------------------- -->
-      <!-- 🟨 Fixed Header Content Body -->
+      <!-- 🟩 Body - Header Fixed Content -->
       <!-- ---------------------------------------------------------------- -->
-      <div id="fixed-header-content-body">
+      <div id="body-header-fixed-content">
 
         <!-- ------------------------------------------------------------------ -->
-        <!-- 🟨 [1/2] | Info Company Container -->
+        <!-- 🟩 [1/2] | Body Header Company Item -->
         <!-- ------------------------------------------------------------------ -->
-        <div id="info-company-container">
+        <div id="body-header-company-item">
 
-          <!-- ------------------------------------------- -->
-          <!-- [1/2] | Info Company Sticker Title -->
-          <!-- ------------------------------------------- -->
-          <div id="info-company-title" class="active">
-
-            <div>Cloud Software Engineer.</div>
-
-
-          </div>
-
-          <!-- ------------------------------------------- -->
-          <!-- [2/2] | Info Company Sticker Img -->
-          <!-- ------------------------------------------- -->
-          <div id="img-company-container-header-body">
-
-            <!-- img sfd -->
-            <img src="media/imgs/content/01-about/about-me/quick-info/small-square-honey.jpg"
-              alt="img">
-
-            <!-- img arrow right -->
-            <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-double-arrow-right.png"
-              alt="img">
-
-          </div>
-
-
+          <div>Cloud Software Engineer.</div>
 
         </div>
 
         <!-- ------------------------------------------------------------------ -->
-        <!-- 🟨 [2/2] | Nav Header Body -->
+        <!-- 🟩 [2/2] | Body - Header Nav -->
         <!-- ------------------------------------------------------------------ -->
-        <div id="nav-header-body">
+        <div id="body-header-nav">
 
           <!-- ---------------------------------------------------- -->
           <!-- About | Label Radio -->
           <!-- ---------------------------------------------------- -->
-          <label for="radio-about" class="lbl-header-body">
+          <label for="radio-about" class="body-header-label">
 
             <!-- img grey -->
             <img src="media/imgs/icons/02-icon-colors/03-grey/grey-about.png"
@@ -551,12 +526,12 @@
           <!-- Img Seperator -->
           <!-- ---------------------------------------------------- -->
           <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-left-right-tag.png"
-              alt="img" class="img-seperator-nav-header-body">
+              alt="img" class="body-header-nav-img-seperator">
 
           <!-- ---------------------------------------------------- -->
-          <!-- More IT | Label Radio -->
+          <!-- Codings | Label Radio -->
           <!-- ---------------------------------------------------- -->
-          <label for="radio-more-it" class="lbl-header-body">
+          <label for="radio-codings" class="body-header-label">
 
             <!-- img grey | ⚠️ img-h-1-1 | grey-open-close-brackets.png -->
             <img src="media/imgs/icons/02-icon-colors/03-grey/grey-open-close-brackets.png"
@@ -567,7 +542,7 @@
 
 
             <!-- title -->
-            <div>More IT</div>
+            <div>Codings</div>
 
           </label>
 
@@ -575,12 +550,12 @@
           <!-- Img Seperator -->
           <!-- ---------------------------------------------------- -->
           <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-left-right-tag.png"
-              alt="img" class="img-seperator-nav-header-body">
+              alt="img" class="body-header-nav-img-seperator">
 
           <!-- ---------------------------------------------------- -->
-          <!-- Private | Label Radio -->
+          <!-- Lifestyle | Label Radio -->
           <!-- ---------------------------------------------------- -->
-          <label for="radio-private" class="lbl-header-body">
+          <label for="radio-lifestyle" class="body-header-label">
 
             <!-- img grey | ⚠️ img-h-1-2 | grey-3-shining-stars.png -->
             <!-- img grey -->
@@ -4139,6 +4114,16 @@
       <!-- --------------------------------------------------------------------- -->
       <div class="push-content-slide-no-anim">
 
+        <!--
+
+          1. Tech - x
+          2. Algos - x
+          3. Challenges - x
+          4. Docx - x
+
+
+        -->
+
         <div id="more-it-page-container">
 
           <!-- --------------------------------------------------------------- -->
@@ -4153,7 +4138,7 @@
           <!-- --------------------------------------------------------------- -->
           <!-- 🟩 Welcome Header Content Page -->
           <!-- --------------------------------------------------------------- -->
-          <div class="row-container">
+          <div class="row-container" style="display: none;">
 
             <div class="resp-content-container-medium">
 
@@ -4162,7 +4147,7 @@
               <!-- --------------------------------------------------------------- -->
               <header class="welcome-content-header">
 
-                <div> » my coding challenges & dev docs </div>
+                <div> » practice, fun, learnings </div>
 
               </header>
 
@@ -4177,13 +4162,41 @@
 
             <div class="resp-content-container-medium">
 
+              <!--
+
+
+                1. Tech
+
+                  - Java, Spring Boot, Obversability, Cloud GCP, AI-ML-LLM, Python, Angular, Reat Native
+
+                2. Algos
+
+                  - Categories:
+                    2.1 Algos - Basics
+                    2.2 Algos - Advanced
+                    2.3 Leetcode - Easy, Medium, Hard
+
+
+                3. Challenges
+
+                  - Categories:
+                  3.1 Dev
+                  3.2 Bug Fixing
+                  3.3 Mini Games
+
+                4. Docs
+
+                  - Fronted, Backend,
+
+              -->
+
               <!-- --------------------------------------------------------------- -->
               <!-- More IT - Nav -->
               <!-- --------------------------------------------------------------- -->
               <nav id="more-it-nav">
 
-                <!-- Label | Mini It Projects -->
-                <label for="radio-nav-more-it-mini-it-projects" class="lbl-very-small lbl-counter-light-grey-on-white">
+                <!-- Label | Tech -->
+                <label for="radio-nav-more-it-codings" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4200,7 +4213,7 @@
                         alt="img"
                         class="img-h-1-1 margin-t-0-2px">
 
-                    <div> Mini IT Projects</div>
+                    <div> Tech</div>
 
                   </div>
 
@@ -4214,8 +4227,8 @@
 
                 </label>
 
-                <!-- Label | Codings -->
-                <label for="radio-nav-more-it-codings" class="lbl-very-small lbl-counter-light-grey-on-white">
+                <!-- Label | Algos -->
+                <label for="radio-nav-more-it-algos" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4232,7 +4245,7 @@
                         alt="img"
                         class="img-h-1-1">
 
-                    <div> Codings</div>
+                    <div> Algos</div>
 
                   </div>
 
@@ -4245,8 +4258,10 @@
 
                 </label>
 
-                <!-- Label | Mini Games -->
-                <label for="radio-nav-more-it-mini-games" class="lbl-very-small lbl-counter-light-grey-on-white">
+
+
+                <!-- Label | Challenges - Mini Games, Bug Fixings, ... -->
+                <label for="radio-nav-more-it-mini-games" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4263,7 +4278,7 @@
                         alt="img"
                         class="img-h-0-8">
 
-                    <div> Mini Games</div>
+                    <div> Challenges</div>
 
                   </div>
 
@@ -4280,7 +4295,7 @@
 
 
                 <!-- Label | Docs -->
-                <label for="radio-nav-more-it-docs" class="lbl-very-small lbl-counter-light-grey-on-white">
+                <label for="radio-nav-more-it-docs" class="lbl-very-small lbl-counter-light-grey-on-dark">
 
                   <!-- --------------------------------------------- -->
                   <!-- [1/2] | icon + title -->
@@ -4312,7 +4327,7 @@
                 </label>
 
                 <!-- Label | Unshow -->
-                <label for="radio-nav-more-it-unshow" class="lbl-very-small lbl-only-icon-on-white">
+                <label for="radio-nav-more-it-unshow" class="lbl-very-small lbl-only-icon-on-dark">
 
                   <!-- img grey -->
                   <img src="media/imgs/icons/02-icon-colors/03-grey/grey-eye-unshow.png"
@@ -4436,7 +4451,7 @@
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟨 Codings Nav - Primary  -->
                     <!-- ----------------------------------------------------------- -->
-                    <nav id="codings-nav-primary">
+                    <nav id="codings-nav-primary" style="display: none;">
 
                       <!-- label | coding tech -->
                       <label for="radio-nav-codings-tech" class="lbl-very-small lbl-icon-text-light-grey">
@@ -4788,7 +4803,7 @@
                   <!-- ------------------------------------------------------------------------------- -->
                   <!-- 📐 Resp Small -->
                   <!-- ------------------------------------------------------------------------------- -->
-                  <div class="resp-content-container-medium" >
+                  <div class="resp-content-container-small" >
 
 
                     <!-- ------------------------------------------------------------------ -->
@@ -6976,7 +6991,7 @@
       <!-- ------------------------------------------------------------------------ -->
 
         <!-- header ( for push slider ) -->
-        <script src="js/02-webpage/01-default/header/header-body.js"></script>
+        <script src="js/02-webpage/01-default/header/body-header.js"></script>
 
         <!-- footer -->
         <script src="js/02-webpage/01-default/footer/year-footer.js"></script>

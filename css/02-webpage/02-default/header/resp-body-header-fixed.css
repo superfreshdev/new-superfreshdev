@@ -1,0 +1,110 @@
+/* --------------------------------------------------------------- */
+/* > resp-body-header-fixed.css
+/*
+/* : resp styles - header body fixed
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* >= 380px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 380px) {
+
+
+  /* --------------------------------------------------------------- */
+  /* 🟥 Body Header Label | Img
+  /* --------------------------------------------------------------- */
+
+  .body-header-label > img {
+
+    display: flex;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Add Hover Handling | img grey black
+  /* --------------------------------------------------------------- */
+
+  #radio-about:hover ~ #body-header-fixed label[for="radio-about"],
+  #radio-codings:hover ~ #body-header-fixed label[for="radio-codings"],
+  #radio-lifestyle:hover ~ #body-header-fixed label[for="radio-lifestyle"] {
+
+    opacity: 1;
+
+    background-color: wheat;
+    color:black;
+
+  }
+
+  /* unshown grey img */
+  #radio-about:hover ~ #body-header-fixed label[for="radio-about"] > img:nth-of-type(1),
+  #radio-codings:hover ~ #body-header-fixed label[for="radio-codings"] > img:nth-of-type(1),
+  #radio-lifestyle:hover ~ #body-header-fixed label[for="radio-lifestyle"] > img:nth-of-type(1) {
+
+    display: none;
+
+  }
+
+  /* shown black img */
+  #radio-about:hover ~ #body-header-fixed label[for="radio-about"] > img:nth-of-type(2),
+  #radio-codings:hover ~ #body-header-fixed label[for="radio-codings"] > img:nth-of-type(2),
+  #radio-lifestyle:hover ~ #body-header-fixed label[for="radio-lifestyle"] > img:nth-of-type(2) {
+
+    display: flex;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Add Img Handling | img grey black
+  /* --------------------------------------------------------------- */
+
+  /* unshown grey img */
+  #radio-about:checked ~ #body-header-fixed label[for="radio-about"] > img:nth-of-type(1),
+  #radio-codings:checked ~ #body-header-fixed label[for="radio-codings"] > img:nth-of-type(1),
+  #radio-lifestyle:checked ~ #body-header-fixed label[for="radio-lifestyle"] > img:nth-of-type(1) {
+
+    display: none;
+
+  }
+
+  /* shown black img */
+  #radio-about:checked ~ #body-header-fixed label[for="radio-about"] > img:nth-of-type(2),
+  #radio-codings:checked ~ #body-header-fixed label[for="radio-codings"] > img:nth-of-type(2),
+  #radio-lifestyle:checked ~ #body-header-fixed label[for="radio-lifestyle"] > img:nth-of-type(2) {
+
+    display: flex;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 650px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 650px) {
+
+
+  /* --------------------------------------------------------------- */
+  /* Body Header Fixed Content
+  /* --------------------------------------------------------------- */
+
+   #body-header-fixed-content {
+
+    justify-content: space-between;
+
+  }
+
+  /* --------------------------------------------------------------- */
+  /* Body Header Company Item
+  /* --------------------------------------------------------------- */
+
+  #body-header-company-item  {
+
+    display: flex;
+
+  }
+
+
+}

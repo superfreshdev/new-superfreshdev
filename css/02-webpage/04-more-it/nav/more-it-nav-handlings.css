@@ -28,12 +28,11 @@ input[name="name-radio-nav-more-it"] {
 #radio-nav-more-it-unshow:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-unshow"] {
 
   background-color: rgb(227, 208, 174);
+  /* background-color: rgb(219, 219, 219); */
 
   background-color: wheat;
+  background-color: rgb(215, 195, 157);
 
-  background-color: rgb(219, 219, 219);
-
-  color:rgb(31, 31, 31);
 
   color:rgb(82, 82, 82);
 

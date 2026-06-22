@@ -1,29 +1,28 @@
 /* --------------------------------------------------------------- */
-/* > nav-header-body.css
+/* > body-header-nav.css
 /*
 /* : styles nav header of body
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Nav Header Body
+/* Header Nav Body
 /* --------------------------------------------------------------- */
 
-#nav-header-body {
+#body-header-nav {
 
   display: flex;
   align-items: center;
-  /* column-gap: .4em; */
 
 }
 
 /* --------------------------------------------------------------- */
-/* Label | Nav Header Body
+/* Body Header Label
 /* --------------------------------------------------------------- */
 
-.lbl-header-body {
+.body-header-label {
 
-  height: 2.8em;
+  height: 2.4em;
   padding: 0em .8em;
 
   display: flex;
@@ -38,50 +37,57 @@
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
   border: 2px solid rgb(47, 47, 47);
+
   /* background-color: rgb(44, 44, 44); */
 
-  color:grey;
+  color:rgb(209, 188, 151);
+  color:rgb(72, 72, 72);
 
   cursor: pointer;
   user-select: none;
   transition: all .4s;
 
-}
-
-/* div 1 | title */
-.lbl-header-body > div:nth-of-type(1) {
-
-  font-size: 14.5px;
-
-
 
 }
 
-/* default small mobile img unshown */
-.lbl-header-body > img {
-
-  display: none;
-
-}
-
-/* default img black unshown (unset) */
-.lbl-header-body > img:nth-of-type(2) {
-
-  display: none;
-
-}
-
-/* hover */
-.lbl-header-body:hover {
+/* Hover */
+.body-header-label:hover {
 
   background-color: wheat;
 }
 
+/* Div 1 | Title */
+.body-header-label > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+}
+
+/* Imgs | Mobile - Default unshown */
+.body-header-label > img {
+
+  display: none;
+
+}
+
+/* Img Grey - Opacity */
+.body-header-label > img:nth-of-type(1) {
+
+  opacity: .6;
+
+}
+
+/* Default Img Black - Unshown */
+.body-header-label > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
 /* --------------------------------------------------------------- */
-/* Img Seperaotr Nav Header Body
+/* Img Seperator
 /* --------------------------------------------------------------- */
 
-.img-seperator-nav-header-body {
+.body-header-nav-img-seperator {
 
   padding: 0 .3em;
 
@@ -89,6 +95,5 @@
   opacity: .6;
 
   /* display: none; */
-
 
 }

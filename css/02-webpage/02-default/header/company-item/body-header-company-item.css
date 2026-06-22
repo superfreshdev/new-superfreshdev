@@ -1,0 +1,57 @@
+/* --------------------------------------------------------------- */
+/* > body-header-company-item.css
+/*
+/* : styles company item
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Body Header Company Item
+/* --------------------------------------------------------------- */
+
+#body-header-company-item {
+
+  height: 1.8em;
+  padding: 0em .5em 0 .5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 1.4em;
+
+  border-radius: .6em;
+
+  font-weight: bold;
+
+  /* border: 2px solid rgb(56, 56, 56); */
+  /* background-color: rgb(44, 44, 44); */
+
+  color:rgb(83, 83, 83);
+
+  /* default small mobile unshown */
+  display: none;
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+#body-header-company-item:hover {
+
+  background-color: rgb(44, 44, 44);
+  color:grey;
+
+  /* background-color: wheat !important;
+  color:black !important; */
+
+}
+
+/* Div 1 | Title */
+#body-header-company-item > div {
+
+  font-size: 14.5px;
+
+}

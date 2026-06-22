@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > handlings-nav-header-body.css
+/* > body-header-nav-handlings.css
 /*
 /* : styles handlings of nav
 /* --------------------------------------------------------------- */
@@ -10,20 +10,19 @@
 /* --------------------------------------------------------------- */
 
 /* default radios unshown */
-
-input[name="name-radio-nav-header-body"] {
+input[name="name-radio-body-header-nav"] {
 
   display: none;
 
 }
 
 /* ------------------------------------------- */
-/* Set Background Color */
+/* Background Color
 /* ------------------------------------------- */
 
-#radio-about:checked ~ #fixed-header-body label[for="radio-about"],
-#radio-more-it:checked ~ #fixed-header-body label[for="radio-more-it"],
-#radio-private:checked ~ #fixed-header-body label[for="radio-private"] {
+#radio-about:checked ~ #body-header-fixed label[for="radio-about"],
+#radio-codings:checked ~ #body-header-fixed label[for="radio-codings"],
+#radio-lifestyle:checked ~ #body-header-fixed label[for="radio-lifestyle"] {
 
   opacity: 1;
 
