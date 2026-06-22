@@ -108,7 +108,7 @@
           <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-dark/counter/lbl-counter-light-grey-on-dark.css">
 
           <!-- icon text -->
-          <!-- > actually dont need -->
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-dark/icon-text/lbl-icon-text-light-grey-on-dark.css">
 
           <!-- 🟩 only icon -->
           <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/on-dark/only-icon/lbl-only-icon-on-dark.css">
@@ -4117,9 +4117,15 @@
         <!--
 
           1. Tech - x
+            - Java, Spring Boot, Obervability, Cloud GCP, AI-ML-LLM,
+              Python, Angular, React Native
           2. Algos - x
+            - Basics, Advanced, Leetcode
           3. Challenges - x
+            - Devs, Bug Fixing, Mini Games
+
           4. Docx - x
+            - Frontend, Backend, AI
 
 
         -->
@@ -4129,14 +4135,14 @@
           <!-- --------------------------------------------------------------- -->
           <!-- Radios Nav More It -->
           <!-- --------------------------------------------------------------- -->
-          <input  type="radio" id="radio-nav-more-it-mini-it-projects" name="name-radio-nav-more-it">
-          <input  type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
-          <input checked type="radio" id="radio-nav-more-it-codings" name="name-radio-nav-more-it">
-          <input type="radio" id="radio-nav-more-it-docs" name="name-radio-nav-more-it">
-          <input  type="radio" id="radio-nav-more-it-unshow" name="name-radio-nav-more-it">
+          <input checked type="radio" id="radio-more-it-nav-tech" name="name-radio-more-it-nav">
+          <input  type="radio" id="radio-more-it-nav-algos" name="name-radio-more-it-nav">
+          <input  type="radio" id="radio-more-it-nav-challenges" name="name-radio-more-it-nav">
+          <input type="radio" id="radio-more-it-nav-docs" name="name-radio-more-it-nav">
+          <input  type="radio" id="radio-more-it-nav-unshown" name="name-radio-more-it-nav">
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 🟩 Welcome Header Content Page -->
+          <!-- ⁉️ Welcome Header Content Page -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" style="display: none;">
 
@@ -4156,10 +4162,11 @@
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 🟩 More IT - Nav  -->
+          <!-- ➡️🟥 More IT - Nav  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container">
 
+            <!-- 📐 Resp Medium -->
             <div class="resp-content-container-medium">
 
               <!--
@@ -4191,118 +4198,67 @@
               -->
 
               <!-- --------------------------------------------------------------- -->
-              <!-- More IT - Nav -->
+              <!-- ➡️🟥  More IT - Nav -->
               <!-- --------------------------------------------------------------- -->
               <nav id="more-it-nav">
 
                 <!-- Label | Tech -->
-                <label for="radio-nav-more-it-codings" class="lbl-very-small lbl-counter-light-grey-on-dark">
+                <label for="radio-more-it-nav-tech" class="lbl-very-small lbl-icon-text-light-grey-on-dark">
 
-                  <!-- --------------------------------------------- -->
-                  <!-- [1/2] | icon + title -->
-                  <!-- --------------------------------------------- -->
-                  <div>
+                  <!-- img grey -->
+                  <img src="media/imgs/icons/02-icon-colors/03-grey/grey-laptop.png"
+                      alt="img"
+                      class="img-h-0-9">
 
-                    <!-- img grey -->
-                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-rocket.png"
-                        alt="img"
-                        class="img-h-1-1 margin-t-0-2px">
+                  <!-- img black | default unshown -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-laptop.png"
+                      alt="img"
+                      class="img-h-0-9">
 
-                    <!-- img black | default unshown -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-rocket.png"
-                        alt="img"
-                        class="img-h-1-1 margin-t-0-2px">
-
-                    <div> Tech</div>
-
-                  </div>
-
-                  <!-- --------------------------------------------- -->
-                  <!-- [2/2] | Label Content Items Counter -->
-                  <!-- --------------------------------------------- -->
-                  <div class="lbl-content-items-counter-on-dark">
-                    <div>03</div>
-                  </div>
+                  <div> Tech</div>
 
 
                 </label>
 
                 <!-- Label | Algos -->
-                <label for="radio-nav-more-it-algos" class="lbl-very-small lbl-counter-light-grey-on-dark">
+                <label for="radio-more-it-nav-algos" class="lbl-very-small lbl-icon-text-light-grey-on-dark">
 
-                  <!-- --------------------------------------------- -->
-                  <!-- [1/2] | icon + title -->
-                  <!-- --------------------------------------------- -->
-                  <div>
-
-                    <!-- img grey -->
-                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-binary-small.png"
+                  <!-- img grey -->
+                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-algorithmn.png"
                         alt="img"
                         class="img-h-1-1">
 
                     <!-- img black | default unshown -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-binary-small.png"
+                    <img src="media/imgs/icons/02-icon-colors/01-black/black-algorithmn.png"
                         alt="img"
                         class="img-h-1-1">
 
                     <div> Algos</div>
 
-                  </div>
-
-                  <!-- --------------------------------------------- -->
-                  <!-- [2/2] | Label Content Items Counter -->
-                  <!-- --------------------------------------------- -->
-                  <div class="lbl-content-items-counter-on-dark">
-                    <div>~10</div>
-                  </div>
-
                 </label>
-
-
 
                 <!-- Label | Challenges - Mini Games, Bug Fixings, ... -->
-                <label for="radio-nav-more-it-mini-games" class="lbl-very-small lbl-counter-light-grey-on-dark">
+                <label for="radio-more-it-nav-challenges" class="lbl-very-small lbl-icon-text-light-grey-on-dark">
 
-                  <!-- --------------------------------------------- -->
-                  <!-- [1/2] | icon + title -->
-                  <!-- --------------------------------------------- -->
-                  <div>
+                  <!-- img grey -->
+                  <img src="media/imgs/icons/02-icon-colors/03-grey/grey-2-swords.png"
+                      alt="img"
+                      class="img-h-0-9">
 
-                    <!-- img grey -->
-                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-gaming-controller.png"
-                        alt="img"
-                        class="img-h-0-8">
+                  <!-- img black | default unshown -->
+                  <img src="media/imgs/icons/02-icon-colors/01-black/black-2-swords.png"
+                      alt="img"
+                      class="img-h-0-9">
 
-                    <!-- img black | default unshown -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-gaming-controller.png"
-                        alt="img"
-                        class="img-h-0-8">
-
-                    <div> Challenges</div>
-
-                  </div>
-
-                  <!-- --------------------------------------------- -->
-                  <!-- [2/2] | Label Content Items Counter -->
-                  <!-- --------------------------------------------- -->
-                  <div class="lbl-content-items-counter-on-dark">
-                    <div>04</div>
-                  </div>
-
+                  <div> Challenges</div>
 
 
                 </label>
 
-
                 <!-- Label | Docs -->
-                <label for="radio-nav-more-it-docs" class="lbl-very-small lbl-counter-light-grey-on-dark">
+                <label for="radio-more-it-nav-docs" class="lbl-very-small lbl-icon-text-light-grey-on-dark">
 
-                  <!-- --------------------------------------------- -->
-                  <!-- [1/2] | icon + title -->
-                  <!-- --------------------------------------------- -->
-                  <div>
-
-                    <!-- img grey -->
+                  <!-- img grey -->
                     <img src="media/imgs/icons/02-icon-colors/03-grey/grey-three-books.png"
                         alt="img"
                         class="img-h-1-1">
@@ -4314,20 +4270,11 @@
 
                     <div> Docs</div>
 
-                  </div>
-
-                  <!-- --------------------------------------------- -->
-                  <!-- [2/2] | Label Content Items Counter -->
-                  <!-- --------------------------------------------- -->
-                  <div class="lbl-content-items-counter-on-dark">
-                    <div>~20</div>
-                  </div>
-
 
                 </label>
 
                 <!-- Label | Unshow -->
-                <label for="radio-nav-more-it-unshow" class="lbl-very-small lbl-only-icon-on-dark">
+                <label for="radio-more-it-nav-unshown" class="lbl-very-small lbl-icon-text-light-grey-on-dark">
 
                   <!-- img grey -->
                   <img src="media/imgs/icons/02-icon-colors/03-grey/grey-eye-unshow.png"
@@ -4344,13 +4291,12 @@
 
               </nav>
 
-
             </div>
 
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 🟨 [1/5] | Mini IT Projects | Container  -->
+          <!-- 🚮 [1/5] | Mini IT Projects | Container  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" id="row-container-more-it-mini-it-projects">
 
@@ -4378,7 +4324,7 @@
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- 🟨 [2/5] | Mini Games | Container  -->
+          <!-- 🟥 [2/5] | Mini Games | Container  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" id="row-container-more-it-mini-games" >
 
@@ -4405,7 +4351,7 @@
           </div>
 
           <!-- --------------------------------------------------------------- -->
-          <!-- ➡️🟥 [3/5] | Codings | Container  -->
+          <!-- 🟥 [3/5] | Codings | Container  -->
           <!-- --------------------------------------------------------------- -->
           <div class="row-container" id="row-container-more-it-codings">
 
@@ -4548,7 +4494,7 @@
                     <nav id="codings-nav-tech">
 
                       <!-- label | java -->
-                      <label for="radio-nav-codings-tech-java" class="lbl-inline-small lbl-counter-no-border-transparent-on-white">
+                      <label for="radio-nav-codings-tech-java" class="lbl-counter-no-border-transparent-on-white">
 
                         <!-- icon + title box -->
                         <div>
@@ -4559,7 +4505,7 @@
                               class="img-h-1-2">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/java-black.png"
+                          <img src="media/imgs/icons/04-tech-logos/java-light-brown.png"
                               alt="img"
                               class="img-h-1-2">
 
@@ -4587,7 +4533,7 @@
                               class="img-h-0-9">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/spring-boot-black.png"
+                          <img src="media/imgs/icons/04-tech-logos/spring-boot-light-brown.png"
                               alt="img"
                               class="img-h-0-9">
 
@@ -4611,12 +4557,12 @@
                         <div>
 
                           <!-- img grey -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-graph-3.png"
+                          <img src="media/imgs/icons/04-tech-logos/graph-3-grey.png"
                               alt="img"
                               class="img-h-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/02-icon-colors/01-black/black-graph-3.png"
+                          <img src="media/imgs/icons/04-tech-logos/light-brown-graph-3.png"
                               alt="img"
                               class="img-h-1">
 
@@ -4640,12 +4586,12 @@
                         <div>
 
                           <!-- img grey -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-cloud-server.png"
+                          <img src="media/imgs/icons/04-tech-logos/cloud-grey.png"
                               alt="img"
                               class="img-h-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/02-icon-colors/01-black/black-cloud-server.png"
+                          <img src="media/imgs/icons/04-tech-logos/cloud-light-brown.png"
                               alt="img"
                               class="img-h-1">
 
@@ -4669,12 +4615,12 @@
                         <div>
 
                           <!-- img grey -->
-                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai.png"
+                          <img src="media/imgs/icons/04-tech-logos/ai-grey.png"
                               alt="img"
                               class="img-h-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/02-icon-colors/01-black/black-ai.png"
+                          <img src="media/imgs/icons/04-tech-logos/ai-light-brown.png"
                               alt="img"
                               class="img-h-1">
 
@@ -4703,7 +4649,7 @@
                               class="img-h-0-9">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/python-black.png"
+                          <img src="media/imgs/icons/04-tech-logos/python-light-brown.png"
                               alt="img"
                               class="img-h-0-9">
 
@@ -4732,7 +4678,7 @@
                               class="img-h-1">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/angular-black.png"
+                          <img src="media/imgs/icons/04-tech-logos/angular-light-brown.png"
                               alt="img"
                               class="img-h-1">
 
@@ -4761,7 +4707,7 @@
                               class="img-h-0-9">
 
                           <!-- img black | default unshown -->
-                          <img src="media/imgs/icons/04-tech-logos/react-black.png"
+                          <img src="media/imgs/icons/04-tech-logos/react-light-brown.png"
                               alt="img"
                               class="img-h-0-9">
 

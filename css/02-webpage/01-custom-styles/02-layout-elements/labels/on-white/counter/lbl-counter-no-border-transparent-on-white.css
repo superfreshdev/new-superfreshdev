@@ -10,16 +10,23 @@
 
 .lbl-counter-no-border-transparent-on-white {
 
+  height: 1.8em;
+  padding: 0 .4em;
+
+  border-radius: .6em;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: .4em;
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
   border: 1px solid transparent;
 
   color: #898989;
+
+  color:rgb(96, 96, 96);
 
   /* color: #b9b9b9; */
 
