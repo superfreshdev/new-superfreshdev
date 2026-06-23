@@ -35,9 +35,12 @@ input[name="name-radio-nav-codings-tech"] {
 
   /* background-color: rgb(224, 224, 224); */
 
-  color:rgb(48, 48, 48);
+
 
   color:rgb(191, 173, 140);
+
+  background-color: rgb(204, 185, 150);
+  color:rgb(48, 48, 48);
 
 }
 
