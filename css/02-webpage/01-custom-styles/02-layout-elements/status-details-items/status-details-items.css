@@ -24,7 +24,20 @@
 
   font-weight: bold;
 
-  border-radius: .5em;
+  border: 1px solid rgb(200, 200, 200);
+
+  border-radius: .4em;
+
+  opacity: .8;
+
+}
+
+/* img */
+.status-details-in-progress > img,
+.status-details-later > img,
+.status-details-done > img {
+
+  opacity: .6;
 
 }
 
@@ -62,8 +75,8 @@
 
   /* opacity: .6; */
 
-
 }
+
 
 /* --------------------------------------------------------------- */
 /* Done | Status Details

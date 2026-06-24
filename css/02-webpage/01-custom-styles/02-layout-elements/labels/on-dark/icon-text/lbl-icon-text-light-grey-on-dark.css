@@ -10,7 +10,7 @@
 
 .lbl-icon-text-light-grey-on-dark {
 
-  height: 2em;
+  height: 2.3em;
 
   display: flex;
   align-items: center;
@@ -18,9 +18,12 @@
 
   font-weight: bold;
 
-  color: #949494;
+  border-radius: .4em;
+  /* border: 2px solid rgb(47, 47, 47); */
 
-  color:rgb(96, 96, 96);
+  color:rgb(72, 72, 72);
+
+  color:rgb(110, 110, 110);
 
 }
 
@@ -28,6 +31,13 @@
 .lbl-icon-text-light-grey-on-dark > div:last-child  {
 
   font-size: 14.5px;
+
+}
+
+/* img grey */
+.lbl-icon-text-light-grey-on-dark > img:nth-of-type(1) {
+
+  /* opacity: .6; */
 
 }
 

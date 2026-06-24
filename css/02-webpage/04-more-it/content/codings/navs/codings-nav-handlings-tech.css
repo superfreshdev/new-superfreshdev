@@ -35,12 +35,8 @@ input[name="name-radio-nav-codings-tech"] {
 
   /* background-color: rgb(224, 224, 224); */
 
-
-
-  color:rgb(191, 173, 140);
-
-  background-color: rgb(204, 185, 150);
-  color:rgb(48, 48, 48);
+  background-color: rgb(215, 195, 157);
+  color:rgb(30, 30, 30);
 
 }
 
@@ -83,7 +79,7 @@ input[name="name-radio-nav-codings-tech"] {
 #radio-nav-codings-tech-pyhton:checked ~ #codings-container label[for="radio-nav-codings-tech-pyhton"] > div:last-child > div,
 #radio-nav-codings-tech-react-native:checked ~ #codings-container label[for="radio-nav-codings-tech-react-native"] > div:last-child > div {
 
-  color:rgb(131, 131, 131);
+  color:rgb(45, 45, 45);
 
 
 }

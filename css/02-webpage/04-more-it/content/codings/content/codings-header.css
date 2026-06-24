@@ -16,7 +16,7 @@
   border-bottom: 4px solid rgb(106, 106, 106); */
   /* background-color: rgb(238, 238, 238); */
 
-  background-color: rgb(43, 43, 43);
+  /* background-color: rgb(43, 43, 43); */
 
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 
@@ -57,7 +57,7 @@
   display: grid;
   justify-items: flex-start;
 
-  row-gap: .8em;
+  row-gap: 1em;
 
 }
 
@@ -91,21 +91,26 @@
   height: 1.6em;
   padding: 0 .4em;
 
+
   display: flex;
   align-items: center;
   column-gap: .4em;
 
-  border-radius: .6em;
+  border-radius: .4em;
 
   font-weight: bold;
 
-  color:rgb(135, 135, 135);
+  color:rgb(122, 122, 122);
+
+  border: 1px solid rgb(152, 152, 152);
+
+  opacity: .9;
 
   /* opacity: .4; */
 
-  background-color: rgb(48, 48, 48);
+  /* background-color: rgb(48, 48, 48); */
 
-  border: 1px dashed rgb(89, 89, 89);
+  /* border: 1px dashed rgb(89, 89, 89); */
 
 }
 
@@ -122,6 +127,8 @@
 
 /* div (title) - Time Box */
 #codings-header-content-time-box > div:nth-of-type(1) {
+
+  padding-bottom: 1px;
 
   font-size: 13.5px;
   line-height: 1.4em;
@@ -154,7 +161,7 @@
 #codings-header-content-title > div:nth-of-type(1) {
 
   font-size: 20px;
-  color:white;
+  color:rgb(27, 27, 27);
 
 }
 
@@ -173,11 +180,11 @@
 
   height: 6.5em;
 
-  border-radius: .8em;
+  border-radius: .6em;
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-
-  border: 2px dashed rgba(82, 82, 82, 0.4);
+/*
+  border: 2px dashed rgba(82, 82, 82, 0.4); */
 
   /* default mobile - unshown */
   display: none;
