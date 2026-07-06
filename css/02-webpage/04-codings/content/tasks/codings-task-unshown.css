@@ -1,0 +1,81 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-unshown.css
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------- */
+/* Codings Task Unshown Container
+/* ----------------------------------------------------------------- */
+
+#codings-task-unshown-container {
+
+  height: 100%;
+  width: 100%;
+
+  z-index: 3;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  /* background-color: red; */
+
+  /* default unshown - only by checked */
+  display: none;
+
+}
+
+/* ----------------------------------------------------------------- */
+/* Img + Text Block
+/* ----------------------------------------------------------------- */
+
+#codings-task-unshown-container > div:nth-of-type(1) {
+
+  margin-bottom: 7em;
+
+  display: grid;
+  justify-items: center;
+  row-gap: 1em;
+
+  /* background-color: red; */
+
+}
+
+/* ----------------------------------------------------------------- */
+/* [1/2] | Img | Img + Text Block
+/* ----------------------------------------------------------------- */
+
+#codings-task-unshown-container > div:nth-of-type(1) > img {
+
+  height: 6.5em;
+  opacity: .1;
+
+}
+
+/* ----------------------------------------------------------------- */
+/* [2/2] | Div | Img + Text Block
+/* ----------------------------------------------------------------- */
+
+#codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  display: grid;
+  justify-items: center;
+
+  line-height: 1.6em;
+
+}
+
+/* title - unshown mode */
+#codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+/* sub title - unshown mode */
+#codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+
+  font-style: italic;
+
+}

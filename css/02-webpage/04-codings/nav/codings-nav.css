@@ -1,0 +1,53 @@
+/* ---------------------------------------------------------------- */
+/* > codings-nav.css
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------- */
+/* Row Container - Codings Navs
+/* ----------------------------------------------------------------- */
+
+#row-container-codings-navs {
+
+  width: 100%;
+  display: grid;
+  justify-items: center;
+
+}
+
+/* Div 1 | Row Container | Codings Nav ( tech - algos - challenges - docs ) */
+#row-container-codings-navs > .row-container:nth-of-type(1) {
+
+  background-color: rgb(28, 28, 28);
+
+  border-top: 1px solid rgb(44, 44, 44);
+  border-bottom: 1px solid rgb(44, 44, 44);
+
+}
+
+/* Div 1 | Row Container | Codings Tasks Nav ( tech & docs ) */
+#row-container-codings-navs > .row-container:nth-of-type(2) {
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* ----------------------------------------------------------------- */
+/* Codings Nav
+/* ----------------------------------------------------------------- */
+
+#codings-nav {
+
+  padding: 1em .8em;
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: .6em;
+  row-gap: .6em;
+
+}

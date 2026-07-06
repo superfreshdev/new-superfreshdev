@@ -1,0 +1,117 @@
+/* --------------------------------------------------------------- */
+/* > lbl-counter-light-brown-on-dark-on-dark.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label Counter | Light Grey | on dark
+/* --------------------------------------------------------------- */
+
+.lbl-counter-light-brown-on-dark {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+  border-radius: .4em;
+
+  color:rgb(110, 110, 110);
+
+  color: #484848;
+
+  /* background-color: rgb(58, 58, 58); */
+
+}
+
+/* icons + title box */
+.lbl-counter-light-brown-on-dark > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* div 1 - title */
+.lbl-counter-light-brown-on-dark > div:nth-of-type(1) > div:last-child {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Default Unshown | Black Img
+/* --------------------------------------------------------------- */
+
+.lbl-counter-light-brown-on-dark > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Show | Grey Img
+/* --------------------------------------------------------------- */
+
+.lbl-counter-light-brown-on-dark > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: flex;
+  opacity: .6;
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show black img by hover, unshown grey img
+/* ------------------------------------------------------------------------- */
+
+.lbl-counter-light-brown-on-dark:hover {
+
+  background-color: rgb(215, 195, 157);
+  color:rgb(36, 36, 36);
+
+}
+
+/* unshow grey img */
+.lbl-counter-light-brown-on-dark:hover > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show black img */
+.lbl-counter-light-brown-on-dark:hover > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: flex;
+
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div 2 | Label Counter | Light Grey
+/* -------------------------------------------------------------- */
+
+.lbl-counter-light-brown-on-dark > div:nth-of-type(2) {
+
+  height: 1.5em;
+  padding: 0 .2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color:#7d7d7d;
+
+  color:rgb(137, 123, 99);
+
+}
+
+.lbl-counter-light-brown-on-dark > div:nth-of-type(2) > div {
+
+  font-size: 12.5px;
+  /* color: rgb(194, 176, 143); */
+
+}

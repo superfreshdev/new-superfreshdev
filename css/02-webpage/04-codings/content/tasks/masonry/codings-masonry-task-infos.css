@@ -1,0 +1,47 @@
+/* ---------------------------------------------------------------- */
+/* > codings-masonry-task-infos.css
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Codings Masonry Task Infos
+/* ---------------------------------------------------------------- */
+
+#codings-masonry-task-infos {
+
+  width: 100%;
+  padding: 2.5em .8em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+  /* border-bottom: 1px solid rgb(224, 224, 224); */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Icon | Codings Masonry Task Infos
+/* ---------------------------------------------------------------- */
+
+#codings-masonry-task-infos > img {
+
+ height: 1.1em;
+ opacity: .6;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Text | Codings Masonry Task Infos
+/* ---------------------------------------------------------------- */
+
+#codings-masonry-task-infos > div {
+
+  font-size: 14.5px;
+  line-height: 1.5em;
+
+  font-weight: bold;
+
+  color:rgb(109, 109, 109);
+
+}

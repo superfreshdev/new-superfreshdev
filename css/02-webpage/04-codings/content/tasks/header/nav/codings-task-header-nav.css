@@ -1,0 +1,238 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-header-nav.css
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Codings Task Header Nav
+/* ---------------------------------------------------------------- */
+
+
+#codings-task-header-nav {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: .3em;
+  row-gap: .4em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* All | Codings Task Nav Items
+/* -------------------------------------------------------------- */
+
+.codings-task-header-nav-item-in-progress,
+.codings-task-header-nav-item-later,
+.codings-task-header-nav-item-done {
+
+  height: 2.1em;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: .4em;
+
+  /* background-color: rgb(251, 217, 132); */
+
+  border: 1px solid rgb(205, 205, 205);
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+.codings-task-header-nav-item-in-progress {
+
+  --active-bg: rgb(251, 217, 132);
+
+}
+
+.codings-task-header-nav-item-later {
+
+  --active-bg: #e3e3e3;
+
+}
+.codings-task-header-nav-item-done {
+
+  --active-bg: rgb(136, 216, 136);
+
+}
+
+/* hover - in progress */
+.codings-task-header-nav-item-in-progress:hover {
+
+  background-color: rgb(251, 217, 132);
+
+}
+
+/* hover - later */
+.codings-task-header-nav-item-later:hover {
+
+  background-color: #e3e3e3;
+
+}
+
+/* hover - done */
+.codings-task-header-nav-item-done:hover {
+
+  background-color: rgb(136, 216, 136);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Status | Codings Task Nav Items
+/* -------------------------------------------------------------- */
+
+/* Div 1 */
+.codings-task-header-nav-item-in-progress > div:nth-of-type(1),
+.codings-task-header-nav-item-later > div:nth-of-type(1),
+.codings-task-header-nav-item-done > div:nth-of-type(1) {
+
+  height: 100%;
+  padding: 0 .5em 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .35em 0 0 .35em;
+
+}
+
+/* imgs */
+.codings-task-header-nav-item-in-progress > div:nth-of-type(1) > img,
+.codings-task-header-nav-item-later > div:nth-of-type(1) > img,
+.codings-task-header-nav-item-done > div:nth-of-type(1) > img {
+
+  opacity: .6;
+
+}
+
+/* Div 1 - In Progress */
+.codings-task-header-nav-item-in-progress > div:nth-of-type(1) {
+
+  background-color: rgb(251, 217, 132);
+
+
+}
+
+/* Div 2 - Later */
+.codings-task-header-nav-item-later > div:nth-of-type(1) {
+
+  background-color: #e3e3e3;
+
+}
+
+/* Div 3 - Done */
+.codings-task-header-nav-item-done > div:nth-of-type(1) {
+
+  background-color: rgb(136, 216, 136);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Text + Counters | Codings Task Nav Items
+/* -------------------------------------------------------------- */
+
+/* Div 2 */
+.codings-task-header-nav-item-in-progress > div:nth-of-type(2),
+.codings-task-header-nav-item-later > div:nth-of-type(2),
+.codings-task-header-nav-item-done > div:nth-of-type(2) {
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* column-gap: .4em; */
+
+}
+
+/* Div 2 | Div 1 - Text */
+.codings-task-header-nav-item-in-progress > div:nth-of-type(2) > div:nth-of-type(1),
+.codings-task-header-nav-item-later > div:nth-of-type(2) > div:nth-of-type(1),
+.codings-task-header-nav-item-done > div:nth-of-type(2) > div:nth-of-type(1) {
+
+  padding: 0 .4em;
+
+  font-size: 13.5px;
+  font-weight: bold;
+  opacity: .6;
+
+  /* background-color: red; */
+
+}
+
+/* Counters */
+.codings-task-header-nav-item-counters {
+
+  height: 100%;
+  padding: 0 .4em 0 .3em;
+
+  display: flex;
+  align-items: center;
+
+
+  font-weight: bold;
+
+  border-radius: 0 .6em .6em 0;
+
+  border-left: 1px solid rgb(205, 205, 205);
+
+  color:rgb(94, 94, 94);
+
+  /* background-color: grey; */
+
+}
+
+.codings-task-header-nav-item-counters > div {
+
+  font-size: 11px;
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* Codings Task Nav Item Unshown
+/* -------------------------------------------------------------- */
+
+.codings-task-header-nav-item-unshown {
+
+  height: 2.1em;
+  width: 2.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  /* background-color: rgb(251, 217, 132); */
+
+  border: 1px solid rgb(205, 205, 205);
+
+  --active-bg: #e3e3e3;
+  --active-border: 1px solid rgb(171, 171, 171);
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+.codings-task-header-nav-item-unshown:hover {
+
+  background-color: #e3e3e3;
+  border: 1px solid rgb(171, 171, 171);
+
+}
+
+/* default 2nd Img Black Unshown */
+.codings-task-header-nav-item-unshown > img:nth-of-type(1) {
+
+ opacity: .8;
+
+}

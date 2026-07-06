@@ -1,0 +1,86 @@
+/* ---------------------------------------------------------------- */
+/* > codings-content.css
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------- */
+/* Row Container - Codings Content
+/* ----------------------------------------------------------------- */
+
+#row-container-codings-content {
+
+  position: relative;
+  /* z-index: 3; */
+
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+  align-content: start;
+
+  grid: auto 1fr / 1fr;
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* Div 1 | Row Container | Codings Task Header */
+/* ⚠️ dont know why we need 2nth because its the first element but only 2 works */
+#row-container-codings-content > .row-container:nth-of-type(2) {
+
+  /* z-index: 3; */
+  background-color: rgb(245, 245, 245);
+  border-bottom: 1px solid rgb(183, 183, 183);
+
+}
+
+/* Div 2 | Row Container | Codings Content Container */
+#row-container-codings-content > .row-container:nth-of-type(3) {
+
+  /* z-index: 3; */
+
+}
+
+/* ----------------------------------------------------------------- */
+/* 🖼️ Background Img
+/* ----------------------------------------------------------------- */
+
+#background-img-codings {
+
+  z-index: -1;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/wp9274723-4k-desktop-white-wallpapers.jpg);
+  background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/wp6942356-white-minimalist-wallpapers.png);
+  /* background-image: url(../../../../../media/imgs/content/01-about/about-me/show-more/sea_landscape_fog_1126742_3840x2400.jpg); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: .6;
+
+}
+
+
+/* ----------------------------------------------------------------- */
+/* Codings Content
+/* ----------------------------------------------------------------- */
+
+#codings-content {
+
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  justify-content: start;
+
+  grid: auto / 1fr;
+
+  /* background-color: blue; */
+  /* default unshown */
+
+}

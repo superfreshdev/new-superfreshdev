@@ -1,0 +1,159 @@
+/* ---------------------------------------------------------------- */
+/* > codings-nav-handlings.css
+/*
+/* : tech, algos, challenges, docs, unshown
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Default Unshown
+/* -------------------------------------------------------------- */
+
+input[name="name-radio-codings-nav"] {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Styles
+/* -------------------------------------------------------------- */
+
+/* set background color */
+#radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"],
+#radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"],
+#radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"],
+#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"],
+#radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] {
+
+  background-color: rgb(215, 195, 157);
+  color:rgb(36, 36, 36);
+
+}
+
+/* by checked, unshown grey img */
+#radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"] > img:nth-of-type(1),
+#radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"] > img:nth-of-type(1),
+#radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"]  > img:nth-of-type(1),
+#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"] > img:nth-of-type(1),
+#radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] > img:nth-of-type(1) {
+
+ display: none;
+
+}
+
+/* by checked, show black img */
+#radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"] > img:nth-of-type(2),
+#radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"]  img:nth-of-type(2),
+#radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"]  > img:nth-of-type(2),
+#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"] > img:nth-of-type(2),
+#radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] > img:nth-of-type(2) {
+
+ display: flex;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Navs ( tech + docs )
+/* -------------------------------------------------------------- */
+
+#radio-codings-nav-tech:checked ~ #row-container-codings-navs #codings-sub-navs #codings-sub-nav-tech ,
+#radio-codings-nav-docs:checked ~ #row-container-codings-navs #codings-sub-navs #codings-sub-nav-docs {
+
+ display: flex;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content (Default) | Tech, Algos, Challenges, Docs
+/* -------------------------------------------------------------- */
+
+#radio-codings-nav-tech:checked ~ #row-container-codings-content,
+#radio-codings-nav-algos:checked ~ #row-container-codings-content,
+#radio-codings-nav-challenges:checked ~ #row-container-codings-content,
+#radio-codings-nav-docs:checked ~ #row-container-codings-content {
+
+  display: grid;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content | Tech, Algos, Challenges
+/* -------------------------------------------------------------- */
+
+/* 💫 [Clean Up] | First Unshown - Docs  */
+#radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-content #codings-content-docs,
+#radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-content #codings-content-docs,
+#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-content #codings-content-docs {
+
+  display: none;
+
+}
+
+/* 💫 [Clean Up] | First Unshown - Codings Unshown Container  */
+#radio-codings-nav-tech:checked ~ #row-container-codings-unshown #codings-unshown-container,
+#radio-codings-nav-algos:checked ~ #row-container-codings-unshown #codings-unshown-container,
+#radio-codings-nav-challenges:checked ~ #row-container-codings-unshown #codings-unshown-container {
+
+  display: none;
+
+}
+
+/* Show Codings Task Header - Tech, Algos, Challenges */
+#radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-task-header,
+#radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-task-header,
+#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-task-header {
+
+  display: grid;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content | Docs
+/* -------------------------------------------------------------- */
+
+/* 💫 [Clean Up] | First Unshown - Codings Content Tasks  */
+#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-content-tasks {
+
+  display: none;
+
+}
+
+/* 💫 [Clean Up] | First Unshown - Codings Unshown Container  */
+#radio-codings-nav-docs:checked ~ #row-container-codings-unshown #codings-unshown-container {
+
+  display: none;
+
+}
+
+/* docs checked - show docs  */
+#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-content-docs {
+
+  display: grid;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show | Codings Unshown Container
+/* -------------------------------------------------------------- */
+
+/* 💫 [Clean Up] | First Unshown - Tasks  */
+#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-content-tasks {
+
+  display: none;
+
+}
+
+/* 💫 [Clean Up] | First Unshown - Docs  */
+#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-content-docs {
+
+  display: none;
+
+}
+
+/* show - codings unshown container */
+#radio-codings-nav-unshown:checked ~ #row-container-codings-unshown #codings-unshown-container {
+
+  display: flex;
+
+}

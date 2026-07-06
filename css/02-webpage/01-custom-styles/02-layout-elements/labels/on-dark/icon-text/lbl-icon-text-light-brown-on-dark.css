@@ -1,0 +1,73 @@
+/* --------------------------------------------------------------- */
+/* > lbl-icon-text-light-brown-on-dark.css
+/* --------------------------------------------------------------- */
+
+/* --------------------------------------------------------------- */
+/* Label | Icon + Text | Light Brown
+/* --------------------------------------------------------------- */
+
+.lbl-icon-text-light-brown-on-dark {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  border-radius: .4em;
+
+  color:rgb(110, 110, 110);
+
+}
+
+/* div 1 */
+.lbl-icon-text-light-brown-on-dark > div:last-child  {
+
+  font-size: 14.5px;
+
+}
+
+/* img grey */
+.lbl-icon-text-light-brown-on-dark > img:nth-of-type(1) {
+
+  /* opacity: .6; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Default Unshown | Black Img
+/* --------------------------------------------------------------- */
+
+.lbl-icon-text-light-brown-on-dark > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Hover Handlings
+/* > show black img by hover, unshown grey img
+/* --------------------------------------------------------------- */
+
+.lbl-icon-text-light-brown-on-dark:hover {
+
+  background-color: rgb(230, 230, 230);
+
+  background-color: rgb(215, 195, 157);
+  color:rgb(36, 36, 36);
+
+}
+
+/* unshow grey img */
+.lbl-icon-text-light-brown-on-dark:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show black img */
+.lbl-icon-text-light-brown-on-dark:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}

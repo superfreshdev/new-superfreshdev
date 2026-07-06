@@ -1,0 +1,39 @@
+/* ---------------------------------------------------------------- */
+/* > codings-sub-navs.css
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------- */
+/* Codings Sub Navs
+/* ----------------------------------------------------------------- */
+
+#codings-sub-navs {
+
+  width: 100%;
+
+  display: grid;
+  z-index: 3;
+
+}
+
+/* ----------------------------------------------------------------- */
+/* All | Codings Sub Navs
+/* ----------------------------------------------------------------- */
+
+#codings-sub-nav-tech,
+#codings-sub-nav-docs {
+
+  padding: 1em .8em 1.1em .8em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: .4em;
+  row-gap: .6em;
+
+  /* default unshown - only by checked */
+  display: none;
+
+}

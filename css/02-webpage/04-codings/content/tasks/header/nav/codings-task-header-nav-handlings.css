@@ -1,0 +1,59 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-header-nav-handlings.css
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Default Unshown
+/* -------------------------------------------------------------- */
+
+input[name="name-radio-codings-header-nav"] {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Styles
+/* -------------------------------------------------------------- */
+
+/* js - dyn. geneartions for created radios */
+
+/* set - background colors , in progress: yellow, later: grey, done: green */
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"],
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-advanced"],
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"],
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"]  {
+
+  background-color: var(--active-bg);
+
+}
+
+/* Set bg-c + border - unshown */
+#radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-unshown"] {
+
+  background-color: var(--active-bg);
+  border: var(--active-border);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content
+/* -------------------------------------------------------------- */
+
+/* show - codings masonry content */
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(3) #codings-masonry-content {
+
+  display: grid;
+
+}
+
+/* show - task unshown container */
+#radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(3) #codings-task-unshown-container {
+
+  display: grid;
+
+}

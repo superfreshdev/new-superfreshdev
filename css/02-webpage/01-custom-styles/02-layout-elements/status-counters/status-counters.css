@@ -1,0 +1,100 @@
+/* --------------------------------------------------------------- */
+/* > status-counters.css
+/*
+/* : styles status counters
+/* : in progress, later,  done
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* All | Status counter
+/* --------------------------------------------------------------- */
+
+.status-counter-in-progress,
+.status-counter-later,
+.status-counter-done {
+
+  height: 1.6em;
+  padding: 0 .5em;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .2em;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(200, 200, 200);
+
+  border-radius: .4em;
+
+  opacity: .8;
+
+}
+
+/* img */
+.status-counter-in-progress > img,
+.status-counter-later > img,
+.status-counter-done > img {
+
+  opacity: .6;
+
+}
+
+/* nr */
+.status-counter-in-progress > div,
+.status-counter-later > div,
+.status-counter-done > div {
+
+  font-size: 13.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Status counter
+/* --------------------------------------------------------------- */
+
+.status-counter-in-progress {
+
+  background-color: rgb(251, 217, 132);
+  color:rgb(52, 52, 52);
+
+  /* opacity: .6; */
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Later | Status counter
+/* --------------------------------------------------------------- */
+
+.status-counter-later {
+
+  background-color: #e3e3e3;
+  color:rgb(52, 52, 52);
+
+  /* opacity: .6; */
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Done | Status counter
+/* --------------------------------------------------------------- */
+
+.status-counter-done {
+
+  background-color: rgb(136, 216, 136);
+  color:rgb(52, 52, 52);
+
+  /* opacity: .6; */
+
+}
+
+/* Nr of Dones */
+.status-counter-done > div:last-child {
+
+  display: flex;
+  align-items: center;
+
+}

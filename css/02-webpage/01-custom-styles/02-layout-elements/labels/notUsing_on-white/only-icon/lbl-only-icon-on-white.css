@@ -1,26 +1,28 @@
 /* --------------------------------------------------------------- */
-/* > lbl-only-icon-on-dark.css
+/* > lbl-only-icon-on-white.css
+/* : styles label only icon light grey
 /* --------------------------------------------------------------- */
 
+/* ❌ Actually dont in use - maybe can be delete */
 
 /* --------------------------------------------------------------- */
-/* Label Only Icon | Light Brown
+/* Label Only Icon | On White
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-dark {
+.lbl-only-icon-on-white {
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .4em;
-
 }
 
-.lbl-only-icon-on-dark:hover {
+.lbl-only-icon-on-white:hover {
 
-  background-color: wheat;
-  background-color: rgb(215, 195, 157);
+  background-color: rgb(230, 230, 230);
+
+  /* background-color: rgb(197, 197, 197); */
+
   /* background-color: #cbcbcb; */
 
 }
@@ -29,7 +31,7 @@
 /* Img 2 ( Black ) Default Unshown
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-dark > img:nth-of-type(2) {
+.lbl-only-icon-on-white > img:nth-of-type(2) {
 
   display: none;
 
@@ -41,14 +43,14 @@
 /* ------------------------------------------------------------------------- */
 
 /* unshow grey img */
-.lbl-only-icon-on-dark:hover > img:nth-of-type(1) {
+.lbl-only-icon-on-white:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-only-icon-on-dark:hover > img:nth-of-type(2) {
+.lbl-only-icon-on-white:hover > img:nth-of-type(2) {
 
   display: flex;
 
