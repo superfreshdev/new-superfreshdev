@@ -130,7 +130,28 @@
 
   font-weight: bold;
 
-   /* border-bottom: 2px solid rgb(184, 184, 184); */
+   border-bottom: 2px solid rgb(184, 184, 184);
+
+}
+
+/* img box - in progress */
+.codings-masonry-task-status-bar-in-progress > div:nth-of-type(2) {
+
+  border-bottom: 2px solid rgba(225, 196, 121, 1);
+
+}
+
+/* img box  - later */
+.codings-masonry-task-status-bar-later > div:nth-of-type(2) {
+
+  border-bottom: 2px solid  rgba(183, 183, 183, .6);
+
+}
+
+/* img box  - done */
+.codings-masonry-task-status-bar-done > div:nth-of-type(2) {
+
+  border-bottom: 2px solid rgba(68, 150, 68, .4);
 
 }
 
