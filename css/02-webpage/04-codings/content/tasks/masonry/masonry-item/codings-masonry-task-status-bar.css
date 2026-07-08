@@ -12,7 +12,7 @@
 .codings-masonry-task-status-bar-done {
 
   height: 100%;
-  min-width: 2em;
+  min-width: 1em;
 
   display: grid;
   justify-items: center;
@@ -20,7 +20,7 @@
 
   grid: auto auto / 1fr;
 
-  border-radius: .38em 0 0 .38em;
+  border-radius: .98em 0 0 .98em;
 
 }
 

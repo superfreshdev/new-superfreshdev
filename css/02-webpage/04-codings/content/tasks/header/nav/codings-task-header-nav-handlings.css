@@ -27,6 +27,9 @@ input[name="name-radio-codings-header-nav"] {
 
   background-color: var(--active-bg);
 
+  background-color: rgb(45, 45, 45);
+  color:white;
+
 }
 
 /* Set bg-c + border - unshown */
