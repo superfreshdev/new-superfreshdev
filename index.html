@@ -304,7 +304,7 @@
         <!-- ------------------------------------------------------------ -->
 
           <!-- 🟨 default -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/codings-tasks.css">
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/codings-tasks-container.css">
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/codings-task-unshown.css">
 
 
@@ -320,22 +320,24 @@
 
 
           <!-- 🟨 masonry -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/codings-masonry-content.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/codings-masonry-task-infos.css">
 
-          <!-- task items -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/task-items/codings-masonry-task.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/task-items/codings-masonry-task-status-bar.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/task-items/codings-masonry-task-content.css">
+            <!-- container -->
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-container/codings-masonry-container.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-container/codings-masonry-task-infos.css">
 
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/resp-codings-masonry.css">
+            <!-- item -->
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-masonry-task.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-masonry-task-status-bar.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-masonry-task-content.css">
+
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/resp-codings-masonry.css">
 
         <!-- ------------------------------------------------------------ -->
         <!-- 🟥 Docs Content -->
         <!-- ------------------------------------------------------------ -->
 
           <!-- 🟥 default -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/codings-docs.css">
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/codings-docs-container.css">
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/codings-docs-unshown.css">
 
           <!-- 🟥 nav -->
@@ -4245,8 +4247,8 @@
                   <!-- ----------------------------------------------------- -->
 
                     <!-- 🟩 Radios - Codings Sub Nav Tech -->
-                    <input checked type="radio" id="radio-codings-nav-tech-java" name="name-radio-codings-nav-tech">
-                    <input  type="radio" id="radio-codings-nav-tech-spring-boot" name="name-radio-codings-nav-tech">
+                    <input  type="radio" id="radio-codings-nav-tech-java" name="name-radio-codings-nav-tech">
+                    <input checked type="radio" id="radio-codings-nav-tech-spring-boot" name="name-radio-codings-nav-tech">
                     <input  type="radio" id="radio-codings-nav-tech-observability" name="name-radio-codings-nav-tech">
                     <input  type="radio" id="radio-codings-nav-tech-cloud" name="name-radio-codings-nav-tech">
 
@@ -4842,8 +4844,7 @@
                   <!-- -------------------------------------------------------- -->
                   <!-- ➡️🟥 [1/2] | Tasks Container -->
                   <!-- -------------------------------------------------------- -->
-                  <div id="codings-content-tasks">
-
+                  <div id="codings-tasks-container">
 
 
                     <!-- ------------------------------------------------------------------ -->
@@ -5002,7 +5003,10 @@
                                 ArrayList vs LinkedList vs Hashmap - und
                                 so könnte es ruhig länger gehen.
                                 Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst.
+                                länger gehen du weisst. <br><br>
+                                ArrayList vs LinkedList vs Hashmap - und
+                                so könnte es ruhig länger gehen.
+                                Du weisst was ich meine. Allerdings könnte dies noch etwas
                               </div>
 
 
@@ -5181,6 +5185,14 @@
                                 ArrayList vs LinkedList vs Hashmap - und
                                 so könnte es ruhig länger gehen.
                                 Du weisst was ich meine. Allerdings könnte dies noch etwas
+                                länger gehen du weisst. <br>
+                                ArrayList vs LinkedList vs Hashmap - und
+                                so könnte es ruhig länger gehen.
+                                Du weisst was ich meine. Allerdings könnte dies noch etwas
+                                länger gehen du weisst. <br>
+                                ArrayList vs LinkedList vs Hashmap - und
+                                so könnte es ruhig länger gehen.
+                                Du weisst was ich meine. Allerdings könnte dies noch etwas
                                 länger gehen du weisst.
                               </div>
 
@@ -5353,7 +5365,7 @@
                   <!-- -------------------------------------------------------- -->
                   <!-- 🟨 [2/2] | Docs Container -->
                   <!-- -------------------------------------------------------- -->
-                  <div id="codings-content-docs">
+                  <div id="codings-docs-container">
 
                     Codings Content | Docs Container
 
@@ -6019,78 +6031,69 @@
         <script src="js/02-webpage/01-default/footer/year-footer.js"></script>
 
       <!-- ------------------------------------------------------------------------ -->
-      <!-- [2/2] | Webpage -->
+      <!-- 🟥 [2/2] | Webpage -->
       <!-- ------------------------------------------------------------------------ -->
 
 
         <!-- ----------------------------------------------- -->
-        <!-- About -->
+        <!-- 🟥 About -->
         <!-- ----------------------------------------------- -->
 
-          <!-- play audio quick info -->
+          <!-- 🟥 play audio quick info -->
           <script src="js/02-webpage/02-about/quick-info/play-audio-relax.js"></script>
 
-          <!-- snippet sport lifestyle -->
+          <!-- 🟥 snippet sport lifestyle -->
           <script src="js/02-webpage/02-about/snippets-sport/update_random_sport_snippet_video_links.js"></script>
 
-          <!-- mindset video countdown -->
+          <!-- 🟥 mindset video countdown -->
           <script src="js/02-webpage/02-about/mindset/video-mindset-countdown.js"></script>
 
-          <!-- top it project -->
+          <!-- 🟥 top it project -->
           <script src="js/02-webpage/02-about/top-it-projects/img-fullsize-top-it-project.js"></script>
           <script src="js/02-webpage/02-about/top-it-projects/update-top-it-project-cards.js"></script>
 
         <!-- ----------------------------------------------- -->
-        <!-- IT HUB -->
+        <!-- 🟥 Codings -->
         <!-- ----------------------------------------------- -->
 
-          <!-- ----------------------------------------- -->
-          <!-- Generals | IT HUB -->
-          <!-- ----------------------------------------- -->
+          <!-- -------------------------------------------------------------- -->
+          <!-- 🟥 Define & Create Masonry Layout                     -->
+          <!-- -------------------------------------------------------------- -->
 
-            <!-- update more it project cards -->
-            <script src="js/02-webpage/03-more-it/update-more-it-project-cards.js"></script>
+            <!-- 🟥 define masonry container (1-2col | 800px) -->
+            <script src="js/02-webpage/03-codings/codings-tasks/codings-masonry/define-codings-masonry-container.js"></script>
 
-            <!-- update counter -->
-            <script src="js/02-webpage/03-more-it/update-counter-nav-more-it.js"></script>
+            <!-- 🟥 create masonry items -->
+            <script src="js/02-webpage/03-codings/codings-tasks/codings-masonry/create-codings-masonry-items.js"></script>
 
-            <!-- define mansory codings to dos (1col/2col)-->
-            <script src="js/02-webpage/03-more-it/define-mansory-coding-to-dos.js"></script>
+          <!-- ------------------------------------------ -->
+          <!-- 🟥 Nav & Sub Nav -->
+          <!-- ------------------------------------------ -->
 
+            <!-- ➡️🟥 Sub Nav Tech -->
+            <script src="js/02-webpage/03-codings/nav/sub-nav/sub-nav-handlings-tech.js"></script>
 
-          <!-- more it projects -->
-          <script src="js/02-webpage/03-more-it/mini-it-projects/add-mini-it-projects.js"></script>
+            <!-- 🟥 Nav Algos -->
+            <script src="js/02-webpage/03-codings/nav/nav-handlings-algos.js"></script>
 
-          <!-- mini games -->
-          <script src="js/02-webpage/03-more-it/mini-games/add-mini-games.js"></script>
+            <!-- 🟥 Nav Challenges -->
+            <script src="js/02-webpage/03-codings/nav/nav-handlings-challenges.js"></script>
 
-          <!-- --------------------------------------- -->
-          <!-- ➡️🟥 Codings | IT HUB  -->
-          <!-- --------------------------------------- -->
-
-            <!-- ------------------------------------------ -->
-            <!-- ➡️🟥 Masonry Codings -->
-            <!-- ------------------------------------------ -->
-
-              <!-- <script src="js/02-webpage/03-more-it/codings/masonry-codings/create-codingsMasonryItems.js"></script>
-              <script src="js/02-webpage/03-more-it/codings/masonry-codings/handle-update-masonryCodingsItems.js"></script> -->
-              <!-- <script src="js/02-webpage/03-more-it/codings/masonry-codings/init-masonryCodingsContainer.js"></script> -->
-
-            <!-- ------------------------------------------ -->
-            <!-- 🟩 Update - Codings Header -->
-            <!-- ------------------------------------------ -->
-
-              <!-- <script src="js/02-webpage/03-more-it/codings/update-codings-header/update-codings-header.js"></script>
-              <script src="js/02-webpage/03-more-it/codings/update-codings-header/handle-update-coding-header.js"></script> -->
+            <!-- 🟥 Sub Nav Docs -->
+            <script src="js/02-webpage/03-codings/nav/sub-nav/sub-nav-handlings-docs.js"></script>
 
 
-            <!-- ------------------------------------------ -->
-            <!-- 🟨 Navs -->
-            <!-- ------------------------------------------ -->
+          <!-- ------------------------------------------ -->
+          <!-- 🟥 Codings Task Header -->
+          <!-- ------------------------------------------ -->
 
-              <script src="js/02-webpage/03-more-it/codings/navs/nav-codings.js"></script>
-              <script src="js/02-webpage/03-more-it/codings/navs/tech-nav-codings.js"></script>
+            <script src="js/02-webpage/03-codings/codings-tasks/codings-task-header/update-codings-task-header.js"></script>
 
+          <!-- ------------------------------------------ -->
+          <!-- 🟥 Codings Docs Container -->
+          <!-- ------------------------------------------ -->
+
+            <script src="js/02-webpage/03-codings/codings-docs/update-codings-docs-container.js"></script>
 
 
         <!-- ----------------------------------------------- -->

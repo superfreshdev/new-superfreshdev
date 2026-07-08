@@ -1,0 +1,95 @@
+{
+
+  "header": {
+
+    "title": "Java 🍎",
+    "timeLimit": "30-120 Min.🍎",
+    "imgFilename": "coding-java.png",
+
+    "nav": [
+
+      {
+        "statusCssClass": "codings-task-header-nav-item-in-progress",
+        "statusIconFilename": "black-fire-1.png",
+        "statusIconCssClass": "img-h-0-9",
+        "taskCategoryText": "Basics"
+
+      },
+
+      {
+        "statusCssClass": "codings-task-header-nav-item-done",
+        "statusIconFilename": "black-small-correct.png",
+        "statusIconCssClass": "img-h-0-9",
+        "taskCategoryText": "Advanced"
+
+      },
+
+      {
+        "statusCssClass": "codings-task-header-nav-item-later",
+        "statusIconFilename": "black-calendar-2.png",
+        "statusIconCssClass": "img-h-0-7",
+        "taskCategoryText": "Libs"
+
+      },
+
+      {
+        "statusCssClass": "codings-task-header-nav-item-later",
+        "statusIconFilename": "black-calendar-2.png",
+        "statusIconCssClass": "img-h-0-7",
+        "taskCategoryText": "Debugging"
+
+      },
+
+      {
+        "statusCssClass": "codings-task-header-nav-item-unshown",
+        "statusIconFilename": "black-eye-unshow.png",
+        "statusIconCssClass": "img-h-0-9"
+
+      }
+
+    ]
+
+  },
+
+  "taskContent": {
+
+    "info": "» Collections, Streams, Wrapper Classes, Interface, Lamdas, Generics, Arrays 2D,3D, ...",
+
+    "tasks": [
+
+      {
+
+        "statusCssClass": "codings-masonry-task-in-progress",
+        "title": "ArrayList vs LinkedList vs Hashmap - und so könnte es ruhig länger gehen.  Du weisst was ich meine. Allerdings könnte dies noch etwas",
+        "timeLimit": "120 Min.",
+
+        "hashTags": [
+
+          {
+            "item": "#ArrayList-XXX"
+          },
+          {
+            "item": "#ArrayList-XXX"
+          },
+          {
+            "item": "#ArrayList-XXX"
+          },
+          {
+            "item": "#ArrayList-XXX"
+          }
+        ],
+
+        "githubLink": "www.google.de"
+
+
+
+
+
+      }
+
+    ]
+
+  }
+
+
+}

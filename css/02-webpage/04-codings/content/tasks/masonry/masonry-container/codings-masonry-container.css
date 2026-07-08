@@ -1,0 +1,64 @@
+/* ---------------------------------------------------------------- */
+/* > codings-masonry-container.css
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Codings Masonry Content
+/* ---------------------------------------------------------------- */
+
+#codings-masonry-content {
+
+  height: 100%;
+  width: 100%;
+
+  z-index: 3;
+
+  padding-bottom: 6em;
+
+  display: grid;
+  justify-content: flex-start;
+
+  /* justify-items: center; */
+
+  grid: auto 1fr / 1fr;
+
+  /* background-color: lightgrey; */
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Codings Masonry Container
+/* ---------------------------------------------------------------- */
+
+#codings-masonry-container {
+
+  padding: 0em 1em;
+  width: 100%;
+  /* height: 100%; */
+
+  display: grid;
+  align-items: flex-start;
+
+  grid: auto / 1fr;
+
+
+  column-gap: 1.3em;
+  row-gap: .8em;
+
+  /* background-color: rgb(128, 128, 128); */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Divs | Codings Masonry Container
+/* ---------------------------------------------------------------- */
+
+/* #codings-masonry-container > div {
+
+
+
+} */

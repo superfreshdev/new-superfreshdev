@@ -1,0 +1,25 @@
+/* ---------------------------------------------------------------- */
+/* > codings-tasks-container.css
+/* ---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------- */
+/* Codings Tasks Container
+/* ----------------------------------------------------------------- */
+
+#codings-tasks-container {
+
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  justify-content: start;
+
+  grid: auto / 1fr;
+
+  /* default unshown */
+  /* display: none; */
+
+}

@@ -82,9 +82,9 @@ input[name="name-radio-codings-nav"] {
 /* -------------------------------------------------------------- */
 
 /* 💫 [Clean Up] | First Unshown - Docs  */
-#radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-content #codings-content-docs,
-#radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-content #codings-content-docs,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-content #codings-content-docs {
+#radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
+#radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
+#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
@@ -127,7 +127,7 @@ input[name="name-radio-codings-nav"] {
 }
 
 /* docs checked - show docs  */
-#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-content-docs {
+#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: grid;
 
@@ -145,7 +145,7 @@ input[name="name-radio-codings-nav"] {
 }
 
 /* 💫 [Clean Up] | First Unshown - Docs  */
-#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-content-docs {
+#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
