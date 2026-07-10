@@ -46,6 +46,7 @@
 
   opacity: .8;
 
+
 }
 
 /* Nr Text */
@@ -59,6 +60,7 @@
 .codings-task-card-in-progress .codings-task-card-nr-box {
 
   background-color: rgb(251, 217, 132);
+  color:rgb(133, 104, 30);
   /* border: 1px solid rgb(230, 192, 96); */
 
 }
@@ -67,6 +69,7 @@
 .codings-task-card-later .codings-task-card-nr-box {
 
   background-color: #e3e3e3;
+  color:#727272;
   /* border: 1px solid #c3c3c3; */
 
 }
@@ -75,6 +78,7 @@
 .codings-task-card-done .codings-task-card-nr-box {
 
   background-color: rgb(136, 216, 136);
+  color:rgb(46, 106, 46);
   /* border: 1px solid rgb(113, 185, 113); */
 
 }

@@ -23,12 +23,22 @@
 
   font-weight: bold;
 
+  opacity: .8;
+
 }
 
 /* Img  */
 .codings-task-card-status-stickers-in-progress > img,
-.codings-task-card-status-stickers-later > img,
+.codings-task-card-status-stickers-later > img {
+
+  opacity: .6;
+
+}
+
 .codings-task-card-status-stickers-done > img {
+
+  /* layout optimal fix */
+  margin-top: 1px;
 
   opacity: .6;
 
@@ -37,7 +47,7 @@
 /* Status Text */
 .codings-task-card-status-stickers-in-progress > div,
 .codings-task-card-status-stickers-later > div,
-.codings-task-card-status-stickers-done> div {
+.codings-task-card-status-stickers-done > div {
 
   font-size: 12.5px;
 
