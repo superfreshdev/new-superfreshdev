@@ -11,12 +11,10 @@
 
   width: 100%;
 
-  margin: 1.3em 0;
+  padding: 2.5em .8em;
 
-  padding: 1em .8em;
-
-  border-left: .3em solid rgb(121, 121, 121);
-  border-right: .3em solid rgb(121, 121, 121);
+  /* border-left: .3em solid rgb(121, 121, 121);
+  border-right: .3em solid rgb(121, 121, 121); */
 
   border-radius: .4em;
 
