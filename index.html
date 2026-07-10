@@ -326,9 +326,11 @@
             <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-container/codings-masonry-task-infos.css">
 
             <!-- item -->
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-masonry-task.css">
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-masonry-task-status-bar.css">
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-masonry-task-content.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-cards.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-headers.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-status-stickers.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-mains.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-footer.css">
 
             <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/resp-codings-masonry.css">
 
@@ -4852,6 +4854,7 @@
                     <!-- ------------------------------------------------------------------ -->
                     <div id="codings-masonry-content">
 
+
                       <!-- ------------------------------------------------------------------ -->
                       <!-- 🟩 [1/2] | Info About Tasks Categories -->
                       <!-- ------------------------------------------------------------------ -->
@@ -4872,466 +4875,428 @@
                       <div id="codings-masonry-container">
 
                         <!-- 1 | Task Item - In Progress -->
-                        <div class="codings-masonry-task-in-progress">
+                        <div class="codings-task-card-in-progress">
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [1/2] | Status Bar -->
+                          <!-- 🟨 [1/3] | Header              -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-status-bar-in-progress">
+                          <header class="codings-task-card-header">
 
-                            <!-- nr box -->
+                            <!-- left box -->
                             <div>
-                              <div>01.</div>
-                            </div>
 
-                            <!-- status img box -->
-                            <div>
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                   alt="img" class="img-h-1">
-                            </div>
-
-                          </div>
-
-                          <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [2/2] | Task Content -->
-                          <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-content">
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [1/3] | Header -->
-                            <!-- -------------------------------------------------------- -->
-                            <header>
-
-                              <div>01.</div>
-                              <div>in progress</div>
-
-                              <!-- time box -->
-                              <div class="codings-masonry-task-content-time-box">
-                                <div>160 Min.</div>
+                              <!-- nr box -->
+                              <div class="codings-task-card-nr-box">
+                                <div>01</div>
                               </div>
 
-                              <!-- title -->
-                              <div class="codings-masonry-task-content-title">
-                                1. | ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst. Das könnte natürlich deutlich
-                                länger sein du verstehst doch was ich meine oder ?
-                              </div>
+                              <!-- status sticker -->
+                              <div class="codings-task-card-status-stickers-in-progress">
 
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                    alt="img" class="img-h-0-8">
 
-                            </header>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [2/3] | Main ( Hashtag List) -->
-                            <!-- -------------------------------------------------------- -->
-                            <main>
-
-                              <div>#ArrayList</div>
-                              <div>#LinkedList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-
-                            </main>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [3/3] | Footer ( Github Link) -->
-                            <!-- -------------------------------------------------------- -->
-                            <footer>
-
-                              <!-- status text -->
-                              <div>
                                 <div>in progress</div>
+
+
                               </div>
 
-                              <!-- github link -->
-                              <a href=""
-                                 target="_blank" class="codings-masonry-task-github-link">
+                            </div>
 
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                      alt="img"
-                                      class="img-h-0-8">
+                            <!-- time limit (right box) -->
+                            <div class="codings-task-card-time-limit-box">
+                              <div>120 Min.</div>
+                            </div>
 
-                                <div>GitHub</div>
+                          </header>
+
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [2/3] | Main            -->
+                          <!-- ----------------------------------------- -->
+                          <main class="codings-task-card-main">
+
+                            <!-- Title -->
+                            <div>ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+                              here come the sun and little bit more Text
+                            </div>
+
+                            <!-- Hash Tag List -->
+                            <div class="codings-task-card-hashtag-list">
+
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+
+                            </div>
+
+                          </main>
+
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [3/3] | Footer              -->
+                          <!-- ----------------------------------------- -->
+                          <footer class="codings-task-card-footer">
+
+                            <!-- github link -->
+                            <a href=""
+                                target="_blank" class="codings-masonry-task-github-link">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img"
+                                    class="img-h-0-8">
+
+                              <div>GitHub</div>
 
 
-                              </a>
+                            </a>
 
-                            </footer>
-
-                          </div>
-
+                          </footer>
 
                         </div>
 
                         <!-- 2 | Task Item - Later -->
-                        <div class="codings-masonry-task-later">
+                        <div class="codings-task-card-later">
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [1/2] | Status Bar -->
+                          <!-- 🟨 [1/3] | Header              -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-status-bar-later">
+                          <header class="codings-task-card-header">
 
-                            <!-- nr box -->
+                            <!-- left box -->
                             <div>
-                              <div>02.</div>
-                            </div>
 
-                            <!-- status img box -->
-                            <div>
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
-                                   alt="img" class="img-h-0-8">
-                            </div>
-
-                          </div>
-
-                          <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [2/2] | Task Content -->
-                          <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-content">
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [1/3] | Header -->
-                            <!-- -------------------------------------------------------- -->
-                            <header>
-
-                              <!-- time box -->
-                              <div class="codings-masonry-task-content-time-box">
-                                <div>160 Min.</div>
+                              <!-- nr box -->
+                              <div class="codings-task-card-nr-box">
+                                <div>02</div>
                               </div>
 
-                              <!-- title -->
-                              <div class="codings-masonry-task-content-title">
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst. <br><br>
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                              </div>
+                              <!-- status sticker -->
+                              <div class="codings-task-card-status-stickers-later">
 
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
+                                    alt="img" class="img-h-0-7">
 
-                            </header>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [2/3] | Main ( Hashtag List) -->
-                            <!-- -------------------------------------------------------- -->
-                            <main>
-
-                              <div>#ArrayList</div>
-                              <div>#LinkedList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-
-                            </main>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [3/3] | Footer ( Github Link) -->
-                            <!-- -------------------------------------------------------- -->
-                            <footer>
-
-                              <!-- status text -->
-                              <div>
                                 <div>later</div>
+
+
                               </div>
 
-                              <!-- github link -->
-                              <a href=""
-                                 target="_blank" class="codings-masonry-task-github-link">
+                            </div>
 
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                      alt="img"
-                                      class="img-h-0-8">
+                            <!-- time limit (right box) -->
+                            <div class="codings-task-card-time-limit-box">
+                              <div>60 Min.</div>
+                            </div>
 
-                                <div>GitHub</div>
+                          </header>
+
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [2/3] | Main            -->
+                          <!-- ----------------------------------------- -->
+                          <main class="codings-task-card-main">
+
+                            <!-- Title -->
+                            <div>ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+                              here come the sun and little bit more Text
+                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+                              here come the sun and little bit more Text
+                            </div>
+
+                            <!-- Hash Tag List -->
+                            <div class="codings-task-card-hashtag-list">
+
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
 
 
-                              </a>
+                            </div>
 
-                            </footer>
+                          </main>
 
-                          </div>
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [3/3] | Footer              -->
+                          <!-- ----------------------------------------- -->
+                          <footer class="codings-task-card-footer">
 
+                            <!-- github link -->
+                            <a href=""
+                                target="_blank" class="codings-masonry-task-github-link">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img"
+                                    class="img-h-0-8">
+
+                              <div>GitHub</div>
+
+
+                            </a>
+
+                          </footer>
 
                         </div>
 
                         <!-- 3 | Task Item - Done -->
-                        <div class="codings-masonry-task-done">
+                        <div class="codings-task-card-done">
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [1/2] | Status Bar -->
+                          <!-- 🟨 [1/3] | Header              -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-status-bar-done">
+                          <header class="codings-task-card-header">
 
-                            <!-- nr box -->
+                            <!-- left box -->
                             <div>
-                              <div>03.</div>
-                            </div>
 
-                            <!-- status img box -->
-                            <div>
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                   alt="img" class="img-h-0-7">
-                            </div>
-
-                          </div>
-
-                          <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [2/2] | Task Content -->
-                          <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-content">
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [1/3] | Header -->
-                            <!-- -------------------------------------------------------- -->
-                            <header>
-
-                              <!-- time box -->
-                              <div class="codings-masonry-task-content-time-box">
-                                <div>160 Min.</div>
+                              <!-- nr box -->
+                              <div class="codings-task-card-nr-box">
+                                <div>03</div>
                               </div>
 
-                              <!-- title -->
-                              <div class="codings-masonry-task-content-title">
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst.
-                              </div>
+                              <!-- status sticker -->
+                              <div class="codings-task-card-status-stickers-done">
 
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
+                                    alt="img" class="img-h-0-6">
 
-                            </header>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [2/3] | Main ( Hashtag List) -->
-                            <!-- -------------------------------------------------------- -->
-                            <main>
-
-                              <div>#ArrayList</div>
-                              <div>#LinkedList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-
-                            </main>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [3/3] | Footer ( Github Link) -->
-                            <!-- -------------------------------------------------------- -->
-                            <footer>
-
-                              <!-- status text -->
-                              <div>
                                 <div>done</div>
+
+
                               </div>
 
-                              <a href=""
-                                 target="_blank" class="codings-masonry-task-github-link">
+                            </div>
 
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                      alt="img"
-                                      class="img-h-0-8">
+                            <!-- time limit (right box) -->
+                            <div class="codings-task-card-time-limit-box">
+                              <div>60 Min.</div>
+                            </div>
 
-                                <div>GitHub</div>
+                          </header>
+
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [2/3] | Main            -->
+                          <!-- ----------------------------------------- -->
+                          <main class="codings-task-card-main">
+
+                            <!-- Title -->
+                            <div>ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+
+                            </div>
+
+                            <!-- Hash Tag List -->
+                            <div class="codings-task-card-hashtag-list">
+
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
 
 
-                              </a>
+                            </div>
 
-                            </footer>
+                          </main>
 
-                          </div>
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [3/3] | Footer              -->
+                          <!-- ----------------------------------------- -->
+                          <footer class="codings-task-card-footer">
 
+                            <!-- github link -->
+                            <a href=""
+                                target="_blank" class="codings-masonry-task-github-link">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img"
+                                    class="img-h-0-8">
+
+                              <div>GitHub</div>
+
+
+                            </a>
+
+                          </footer>
 
                         </div>
 
-                        <!-- 4 | Task Item - Done -->
-                        <div class="codings-masonry-task-done">
+                        <!-- 4 | Task Item - In Progress -->
+                        <div class="codings-task-card-in-progress">
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [1/2] | Status Bar -->
+                          <!-- 🟨 [1/3] | Header              -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-status-bar-done">
+                          <header class="codings-task-card-header">
 
-                            <!-- nr box -->
+                            <!-- left box -->
                             <div>
-                              <div>04.</div>
+
+                              <!-- nr box -->
+                              <div class="codings-task-card-nr-box">
+                                <div>04</div>
+                              </div>
+
+                              <!-- status sticker -->
+                              <div class="codings-task-card-status-stickers-in-progress">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                    alt="img" class="img-h-0-8">
+
+                                <div>in progress</div>
+
+
+                              </div>
+
                             </div>
 
-                            <!-- status img box -->
-                            <div>
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                   alt="img" class="img-h-0-7">
+                            <!-- time limit (right box) -->
+                            <div class="codings-task-card-time-limit-box">
+                              <div>120 Min.</div>
                             </div>
 
-                          </div>
+                          </header>
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [2/2] | Task Content -->
+                          <!-- 🟨 [2/3] | Main            -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-content">
+                          <main class="codings-task-card-main">
 
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [1/3] | Header -->
-                            <!-- -------------------------------------------------------- -->
-                            <header>
+                            <!-- Title -->
+                            <div>ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+                              here come the sun and little bit more Text
+                            </div>
 
-                              <!-- time box -->
-                              <div class="codings-masonry-task-content-time-box">
-                                <div>160 Min.</div>
-                              </div>
+                            <!-- Hash Tag List -->
+                            <div class="codings-task-card-hashtag-list">
 
-                              <!-- title -->
-                              <div class="codings-masonry-task-content-title">
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst. <br>
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst. <br>
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst.
-                              </div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
 
+                            </div>
 
-                            </header>
+                          </main>
 
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [2/3] | Main ( Hashtag List) -->
-                            <!-- -------------------------------------------------------- -->
-                            <main>
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [3/3] | Footer              -->
+                          <!-- ----------------------------------------- -->
+                          <footer class="codings-task-card-footer">
 
-                              <div>#ArrayList</div>
-                              <div>#LinkedList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
+                            <!-- github link -->
+                            <a href=""
+                                target="_blank" class="codings-masonry-task-github-link">
 
-                            </main>
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img"
+                                    class="img-h-0-8">
 
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [3/3] | Footer ( Github Link) -->
-                            <!-- -------------------------------------------------------- -->
-                            <footer>
-
-                              <!-- status text -->
-                              <div>
-                                <div>done</div>
-                              </div>
-
-                              <a href=""
-                                 target="_blank" class="codings-masonry-task-github-link">
-
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                      alt="img"
-                                      class="img-h-0-8">
-
-                                <div>GitHub</div>
+                              <div>GitHub</div>
 
 
-                              </a>
+                            </a>
 
-                            </footer>
-
-                          </div>
-
+                          </footer>
 
                         </div>
 
-                        <!-- 5 | Task Item - Done -->
-                        <div class="codings-masonry-task-done">
+                        <!-- 5 | Task Item - Later -->
+                        <div class="codings-task-card-later">
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [1/2] | Status Bar -->
+                          <!-- 🟨 [1/3] | Header              -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-status-bar-done">
+                          <header class="codings-task-card-header">
 
-                            <!-- nr box -->
+                            <!-- left box -->
                             <div>
-                              <div>05.</div>
+
+                              <!-- nr box -->
+                              <div class="codings-task-card-nr-box">
+                                <div>05</div>
+                              </div>
+
+                              <!-- status sticker -->
+                              <div class="codings-task-card-status-stickers-later">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
+                                    alt="img" class="img-h-0-7">
+
+                                <div>later</div>
+
+
+                              </div>
+
                             </div>
 
-                            <!-- status img box -->
-                            <div>
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
-                                   alt="img" class="img-h-0-7">
+                            <!-- time limit (right box) -->
+                            <div class="codings-task-card-time-limit-box">
+                              <div>60 Min.</div>
                             </div>
 
-                          </div>
+                          </header>
 
                           <!-- ----------------------------------------- -->
-                          <!-- ➡️🟥 [2/2] | Task Content -->
+                          <!-- 🟨 [2/3] | Main            -->
                           <!-- ----------------------------------------- -->
-                          <div class="codings-masonry-task-content">
+                          <main class="codings-task-card-main">
 
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [1/3] | Header -->
-                            <!-- -------------------------------------------------------- -->
-                            <header>
+                            <!-- Title -->
+                            <div>ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+                              here come the sun and little bit more Text
+                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
+                              little bit more description as u think haah so its just a text -
+                              here come the sun and little bit more Text
+                            </div>
 
-                              <!-- time box -->
-                              <div class="codings-masonry-task-content-time-box">
-                                <div>160 Min.</div>
-                              </div>
+                            <!-- Hash Tag List -->
+                            <div class="codings-task-card-hashtag-list">
 
-                              <!-- title -->
-                              <div class="codings-masonry-task-content-title">
-                                ArrayList vs LinkedList vs Hashmap - und
-                                so könnte es ruhig länger gehen.
-                                Du weisst was ich meine. Allerdings könnte dies noch etwas
-                                länger gehen du weisst.
-                              </div>
-
-
-                            </header>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [2/3] | Main ( Hashtag List) -->
-                            <!-- -------------------------------------------------------- -->
-                            <main>
-
-                              <div>#ArrayList</div>
-                              <div>#LinkedList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-                              <div>#ArrayList</div>
-
-                            </main>
-
-                            <!-- -------------------------------------------------------- -->
-                            <!-- [3/3] | Footer ( Github Link) -->
-                            <!-- -------------------------------------------------------- -->
-                            <footer>
-
-                              <!-- status text -->
-                              <div>
-                                <div>done</div>
-                              </div>
-
-                              <a href=""
-                                 target="_blank" class="codings-masonry-task-github-link">
-
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                      alt="img"
-                                      class="img-h-0-8">
-
-                                <div>GitHub</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
+                              <div>HashTag 1</div>
 
 
-                              </a>
+                            </div>
 
-                            </footer>
+                          </main>
 
-                          </div>
+                          <!-- ----------------------------------------- -->
+                          <!-- 🟨 [3/3] | Footer              -->
+                          <!-- ----------------------------------------- -->
+                          <footer class="codings-task-card-footer">
 
+                            <!-- github link -->
+                            <a href=""
+                                target="_blank" class="codings-masonry-task-github-link">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img"
+                                    class="img-h-0-8">
+
+                              <div>GitHub</div>
+
+
+                            </a>
+
+                          </footer>
 
                         </div>
+
+
 
                       </div>
 

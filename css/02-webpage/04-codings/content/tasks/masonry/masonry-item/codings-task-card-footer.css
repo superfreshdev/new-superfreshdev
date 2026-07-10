@@ -1,0 +1,64 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-card-footer.css
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Codings Task Card Footer
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-footer {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* GitHub Link
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-footer > a {
+
+  text-decoration: none;
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .5em;
+
+  font-weight: bold;
+  border: 1px solid rgba(164, 164, 164, .4);
+
+  color: rgb(88, 88, 88);
+
+  transition: all .4s;
+
+}
+
+/* text - Github */
+.codings-task-card-footer > a > img {
+
+  opacity: .6;
+
+}
+
+
+/* text - Github */
+.codings-task-card-footer > a > div {
+
+  font-size: 12.5px;
+
+}
+
+/* hover */
+.codings-task-card-footer > a:hover {
+
+  background-color: rgb(227, 227, 227);
+
+}

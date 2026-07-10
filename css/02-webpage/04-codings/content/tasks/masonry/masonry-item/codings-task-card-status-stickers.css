@@ -1,0 +1,84 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-card-status-stickers.css
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------ */
+/* All | Codings task Card Status Stickers
+/* ------------------------------------------------------------ */
+
+.codings-task-card-status-stickers-in-progress,
+.codings-task-card-status-stickers-later,
+.codings-task-card-status-stickers-done {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+}
+
+/* Img  */
+.codings-task-card-status-stickers-in-progress > img,
+.codings-task-card-status-stickers-later > img,
+.codings-task-card-status-stickers-done > img {
+
+  opacity: .6;
+
+}
+
+/* Status Text */
+.codings-task-card-status-stickers-in-progress > div,
+.codings-task-card-status-stickers-later > div,
+.codings-task-card-status-stickers-done> div {
+
+  font-size: 12.5px;
+
+}
+
+
+/* ------------------------------------------------------------ */
+/* In Progress | Codings task Card Status Stickers
+/* ------------------------------------------------------------ */
+
+.codings-task-card-status-stickers-in-progress {
+
+  background-color: rgb(251, 217, 132);
+  border: 1px solid rgb(230, 192, 96);
+
+  color:rgb(108, 91, 48);
+
+}
+
+/* ------------------------------------------------------------ */
+/* Later | Codings task Card Status Stickers
+/* ------------------------------------------------------------ */
+
+.codings-task-card-status-stickers-later {
+
+  background-color: #e3e3e3;
+  border: 1px solid #c3c3c3;
+
+  color:#545454;
+
+}
+
+/* ------------------------------------------------------------ */
+/* Done | Codings task Card Status Stickers
+/* ------------------------------------------------------------ */
+
+.codings-task-card-status-stickers-done {
+
+  background-color: rgb(136, 216, 136);
+  border: 1px solid rgb(113, 185, 113);
+
+  color:rgb(53, 92, 53);
+
+}

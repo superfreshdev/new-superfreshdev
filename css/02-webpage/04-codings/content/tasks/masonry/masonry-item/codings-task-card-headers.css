@@ -1,0 +1,100 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-card-headers.css
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------ */
+/* Codings Task Card Header
+/* ------------------------------------------------------------ */
+
+.codings-task-card-header {
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+/* Div 1 | nr box + status sticker */
+.codings-task-card-header > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* ------------------------------------------------------------ */
+/* All | Nr Box
+/* ------------------------------------------------------------ */
+
+.codings-task-card-nr-box {
+
+  min-width: 2em;
+  height: 1.8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+  opacity: .8;
+
+}
+
+/* Nr Text */
+.codings-task-card-nr-box > div {
+
+  font-size: 12.5px;
+
+}
+
+/* Nr Box - In Progress */
+.codings-task-card-in-progress .codings-task-card-nr-box {
+
+  background-color: rgb(251, 217, 132);
+  border: 1px solid rgb(230, 192, 96);
+
+}
+
+/* Nr Box - Later */
+.codings-task-card-later .codings-task-card-nr-box {
+
+  background-color: #e3e3e3;
+  border: 1px solid #c3c3c3;
+
+}
+
+/* Nr Box - Done */
+.codings-task-card-done .codings-task-card-nr-box {
+
+  border: 1px solid rgb(113, 185, 113);
+  background-color: rgb(136, 216, 136);
+
+}
+
+
+/* ------------------------------------------------------------ */
+/* Time Limit Box
+/* ------------------------------------------------------------ */
+
+.codings-task-card-time-limit-box {
+
+  font-weight: bold;
+
+  opacity: .6;
+
+}
+
+/* Time Text */
+.codings-task-card-time-limit-box > div {
+
+  font-size: 12.5px;
+
+}
