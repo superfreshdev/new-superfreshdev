@@ -18,10 +18,11 @@ console.log("🟨 supdate-codings-task-header.js")
 /* Functions
 /* -------------------------------------------------------------------- */
 
-  async function updateCodingsTaskHeader( jsonData, headerElement ) {
+
+  async function updateCodingsTaskHeader( jsonHeaderDefaults, jsonHeaderData, headerElement ) {
 
     console.log("🟨 updateCodingsTaskHeader() ")
-    console.log("🛠️ Update & Create Codings Header")
+    console.log("🛠️ Update & Create Navs")
 
     /* ---------------------------------------------------------- */
     /* Step 1:
@@ -29,8 +30,8 @@ console.log("🟨 supdate-codings-task-header.js")
     /* ---------------------------------------------------------- */
 
       // Try to get default json
-      var jsonFileDefaultPaths = "data/json/codings/tasks/codings-tech-content-default-sets.json";
-      dataDefaultPaths = await async_getJsonFile( jsonFileDefaultPaths )
+
+      dataDefaultPaths = await async_getJsonFile( jsonHeaderDefaults )
 
       console.log("---------------------------------------------")
       console.log("📐 Json Default Paths:  ")

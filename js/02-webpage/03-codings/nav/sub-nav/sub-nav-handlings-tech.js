@@ -1,6 +1,8 @@
 console.log("🟨 sub-nav-handlings-tech.js")
 
 
+// codings-sub-nav-tech.js
+
 /* -------------------------------------------------------------------- */
 /* 🏠 DOM Elements
 /* -------------------------------------------------------------------- */
@@ -46,7 +48,8 @@ console.log("🟨 sub-nav-handlings-tech.js")
         var cssIdCategory = techCodingsRadios[i].getAttribute("id")
         // console.log("Actually Changed Radio ID = " + cssIdCategory )
 
-        var jsonFile = "";
+        var jsonDataDefault = "data/json/codings/tasks/codings-tech-content-default-sets.json";
+        var jsonDataContent = "";
 
         // decide which json should read by css id
         switch( cssIdCategory ) {
@@ -57,10 +60,33 @@ console.log("🟨 sub-nav-handlings-tech.js")
           case "radio-codings-nav-tech-java":
 
             console.log("➡️📄 Read Json File - Java")
-            jsonFile = "data/json/codings/tasks/tech/codings-tech-content-java.json";
+
+            /*
+
+              1. Update - Codings Task Header
+              2. Update & New Create - Codings Task Cards
+
+              #### 4h - Plan #####
+
+              1. Sauber JSONs - defaults in einer ( besser wartbar )
+              2. clean code + saubere header info ausgaben
+
+              3. update - header daten ohne nav + kontrolle auf 2 events ( dom loaded + change radio )
+              4. uppate / create - nav radios / create labels
+
+              Fokus:
+              >> Reload + Radio Change - Codings Task Header 100%
+
+
+
+
+            */
 
             // Update - Codings Task Header
-            await updateCodingsTaskHeader( jsonFile, codingsTaksHeader );
+            jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-java.json";
+            await updateCodingsTaskHeader( jsonDataDefault, jsonDataContent, codingsTaksHeader );
+
+            // Update - Codings Masonry
 
             break;
 
@@ -70,10 +96,12 @@ console.log("🟨 sub-nav-handlings-tech.js")
           case "radio-codings-nav-tech-spring-boot":
 
             console.log("➡️📄 Read Json File - Spring Boot")
-            jsonFile = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
 
             // Update - Codings Task Header
-            await updateCodingsTaskHeader( jsonFile, codingsTaksHeader );
+            jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
+            await updateCodingsTaskHeader( jsonDataDefault, jsonDataContent, codingsTaksHeader );
+
+            // Update - Codings Masonry
 
             break;
 
