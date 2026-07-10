@@ -39,7 +39,7 @@
 
 .codings-task-card-in-progress {
 
-  border-left: 1em solid rgb(251, 217, 132);
+  border-left: .8em solid rgb(251, 217, 132);
 
   background-color: rgb(255, 243, 216);
   /* background-color: white; */
@@ -52,7 +52,7 @@
 
 .codings-task-card-later {
 
-  border-left: 1em solid #e3e3e3;;
+  border-left: .8em solid #e3e3e3;;
   background-color: #f7f7f7;
 
 }
@@ -64,7 +64,7 @@
 
 .codings-task-card-done {
 
-  border-left: 1em solid rgb(136, 216, 136);
+  border-left: .8em solid rgb(136, 216, 136);
   background-color: rgb(219, 253, 219);
 
 }
