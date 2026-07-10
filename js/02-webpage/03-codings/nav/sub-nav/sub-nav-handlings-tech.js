@@ -108,28 +108,57 @@ console.log("🟨 sub-nav-handlings-tech.js")
           /* AI
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-ai-ml-llm":
+
             console.log("➡️📄 Read Json File - AI")
+
+            jsonFile = "data/json/codings/tasks/tech/codings-tech-content-ai.json";
+
+            // Update - Codings Task Header
+            await updateCodingsTaskHeader( jsonFile, codingsTaksHeader );
+
+
             break;
 
           /* ------------------------------------------ */
           /* Python
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-pyhton":
+
             console.log("➡️📄 Read Json File - Python")
+
+            jsonFile = "data/json/codings/tasks/tech/codings-tech-content-python.json";
+
+            // Update - Codings Task Header
+            await updateCodingsTaskHeader( jsonFile, codingsTaksHeader );
+
             break;
 
           /* ------------------------------------------ */
           /* Angular
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-angular":
+
             console.log("➡️📄 Read Json File - Angular")
+
+            jsonFile = "data/json/codings/tasks/tech/codings-tech-content-angular.json";
+
+            // Update - Codings Task Header
+            await updateCodingsTaskHeader( jsonFile, codingsTaksHeader );
+
             break;
 
           /* ------------------------------------------ */
           /* React Native
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-react-native":
+
             console.log("➡️📄 Read Json File - React Native")
+
+            jsonFile = "data/json/codings/tasks/tech/codings-tech-content-react-native.json";
+
+            // Update - Codings Task Header
+            await updateCodingsTaskHeader( jsonFile, codingsTaksHeader );
+
             break;
 
           default:

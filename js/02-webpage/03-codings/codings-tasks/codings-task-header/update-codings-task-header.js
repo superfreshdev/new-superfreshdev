@@ -6,33 +6,75 @@ console.log("🟨 supdate-codings-task-header.js")
 /* DOM Elements
 /* -------------------------------------------------------------------- */
 
-
-var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
-console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
+  var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
+  console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
 
 /* -------------------------------------------------------------------- */
 /* Variables
 /* -------------------------------------------------------------------- */
 
-  var jsonFileDefaultSets = "";
 
 /* -------------------------------------------------------------------- */
 /* Functions
 /* -------------------------------------------------------------------- */
 
-  async function updateCodingsTaskHeader( jsonFile, headerElement ) {
+  async function updateCodingsTaskHeader( jsonData, headerElement ) {
 
     console.log("🟨 updateCodingsTaskHeader() ")
     console.log("🛠️ Update & Create Codings Header")
-    console.log("---------------------------------------------")
-    console.log("📐 Defaults: ")
-    console.log("➡️ jsonFile: " + jsonFile )
-    console.log("➡️ headerElement: " + headerElement )
 
-    // Check to get json file
-    var data = await async_getJsonFile( jsonFile )
-    console.log("➡️ data : " + data  )
+    /* ---------------------------------------------------------- */
+    /* Step 1:
+    /* > Get Default Paths
+    /* ---------------------------------------------------------- */
 
+      // Try to get default json
+      var jsonFileDefaultPaths = "data/json/codings/tasks/codings-tech-content-default-sets.json";
+      dataDefaultPaths = await async_getJsonFile( jsonFileDefaultPaths )
+
+      console.log("---------------------------------------------")
+      console.log("📐 Json Default Paths:  ")
+      console.log("➡️ jsonDefaultPaths(local): " + dataDefaultPaths )
+
+      var defaultPaths = dataDefaultPaths.paths;
+      var defaultImgFiles = dataDefaultPaths.imgFiles;
+
+      // create default var paths
+      var pathIconGrey = defaultPaths.iconGrey;
+      var pathIconBlack = defaultPaths.iconBlack;
+      var pathImgHeader = defaultPaths.imgCodingTaskHeader;
+
+      var imgFileClock = defaultImgFiles.imgFilenameClock;
+      var imgFileInfo = defaultImgFiles.imgFilenameInfo;
+      var imgFileBullet = defaultImgFiles.imgFilenameBullet;
+
+    /* ---------------------------------------------------------- */
+    /* Step 2:
+    /* > Get Default Data
+    /* ---------------------------------------------------------- */
+
+      // Try to get Data
+      var data = await async_getJsonFile( jsonData )
+
+      console.log("---------------------------------------------")
+      console.log("📐 Json Data: ")
+      console.log("➡️ jsonData(given): " + data  )
+      console.log("➡️ headerElement: " + headerElement )
+
+      var dataHeader = data.header;
+      var dataHeaderNav = data.nav;
+
+      // Create header datas
+      var headerTitle = dataHeader.title;
+      var headerTimeLimit = dataHeader.timeLimit;
+      var headerFilename = dataHeader.imgFilename;
+
+      console.log("💫header title: " + headerTitle )
+      console.log("💫header time limit: " + headerTimeLimit )
+      console.log("💫header filename: " + headerFilename )
+
+
+      // ➡️🟥 Create nav datas ( if radios exist only update labels )
 
 
     console.log("---------------------------------------------")
@@ -42,27 +84,12 @@ console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length 
     /* > Get Json Data Arrays for easy common operations
     /* --------------------------------------------------------------- */
 
-      // data - header
-      var dataHeader = data.header;
-
-      // data - header nav
-      var dataHeaderNav = dataHeader.nav;
 
 
     /* --------------------------------------------------------------- */
     /* 🟥 Step 2/?
     /* > Update - Header Title
     /* --------------------------------------------------------------- */
-
-      // Get Data
-      var headerTitle = dataHeader.title;
-      var headerTimeLimit = dataHeader.timeLimit;
-      var headerImg = dataHeader.imgFilename;
-
-      // Test Prints
-      console.log("headerTitle = " + headerTitle )
-      console.log("headerTimeLimit = " + headerTimeLimit )
-      console.log("headerImg = " + headerImg)
 
     /* --------------------------------------------------------------- */
     /* 🟥 Step 3/?
@@ -79,8 +106,6 @@ console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length 
     /* > Update - Header Nav
     /* --------------------------------------------------------------- */
 
-
-    console.log("---------------------------------------------")
     console.log("❇️ Finished Update & Create")
 
 
