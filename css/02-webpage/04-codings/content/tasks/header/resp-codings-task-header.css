@@ -21,6 +21,8 @@
 
   #codings-task-header {
 
+    padding: 1.5em 0em;
+
     /* desktop */
     grid-template-areas:
       'cth-meta cth-img'

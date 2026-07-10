@@ -26,6 +26,8 @@ input[name="name-radio-codings-header-nav"] {
 #radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"]  {
 
   background-color: rgb(204, 204, 204);
+  background-color: rgb(223, 223, 223);
+
   color:rgb(84, 84, 84);
 
 }
@@ -43,7 +45,7 @@ input[name="name-radio-codings-header-nav"] {
 /* Set bg-c + border - unshown */
 #radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-unshown"] {
 
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(223, 223, 223);
   color:rgb(84, 84, 84);
 
 }
