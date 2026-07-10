@@ -61,7 +61,7 @@
 .codings-task-card-status-stickers-in-progress {
 
   background-color: rgb(251, 217, 132);
-  /* border: 1px solid rgb(230, 192, 96); */
+  border: 1px solid rgb(230, 192, 96);
 
   color:rgb(108, 91, 48);
 
@@ -74,7 +74,7 @@
 .codings-task-card-status-stickers-later {
 
   background-color: #e3e3e3;
-  /* border: 1px solid #c3c3c3; */
+  border: 1px solid #c3c3c3;
 
   color:#545454;
 
@@ -87,7 +87,7 @@
 .codings-task-card-status-stickers-done {
 
   background-color: rgb(136, 216, 136);
-  /* border: 1px solid rgb(113, 185, 113); */
+  border: 1px solid rgb(113, 185, 113);
 
   color:rgb(53, 92, 53);
 
