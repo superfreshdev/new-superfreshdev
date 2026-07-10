@@ -33,9 +33,9 @@
 
   border-radius: .4em;
 
-  /* background-color: rgb(251, 217, 132); */
-
   border: 1px solid rgb(205, 205, 205);
+
+  color:grey;
 
   user-select: none;
   cursor: pointer;
@@ -43,43 +43,29 @@
 
 }
 
-.codings-task-header-nav-item-in-progress {
+/* -------------------------------------------------------------- */
+/* Hover | Codings Task Nav Items
+/* -------------------------------------------------------------- */
 
-  --active-bg: rgb(251, 217, 132);
-
-}
-
-.codings-task-header-nav-item-later {
-
-  --active-bg: #e3e3e3;
-
-}
-.codings-task-header-nav-item-done {
-
-  --active-bg: rgb(136, 216, 136);
-
-}
-
-/* hover - in progress */
-.codings-task-header-nav-item-in-progress:hover {
-
-  background-color: rgb(251, 217, 132);
-
-}
-
-/* hover - later */
-.codings-task-header-nav-item-later:hover {
-
-  background-color: #e3e3e3;
-
-}
-
-/* hover - done */
+/* hover - default */
+.codings-task-header-nav-item-in-progress:hover,
+.codings-task-header-nav-item-later:hover,
 .codings-task-header-nav-item-done:hover {
 
-  background-color: rgb(136, 216, 136);
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
 
 }
+
+/* hover - border left - counters */
+.codings-task-header-nav-item-in-progress:hover .codings-task-header-nav-item-counters,
+.codings-task-header-nav-item-later:hover .codings-task-header-nav-item-counters,
+.codings-task-header-nav-item-done:hover .codings-task-header-nav-item-counters {
+
+  border-left: 1px solid rgb(183, 183, 183);
+
+}
+
 
 /* -------------------------------------------------------------- */
 /* Status | Codings Task Nav Items
@@ -97,7 +83,7 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .35em 0 0 .35em;
+  border-radius: .3em 0 0 .3em;
 
 }
 
@@ -114,7 +100,6 @@
 .codings-task-header-nav-item-in-progress > div:nth-of-type(1) {
 
   background-color: rgb(251, 217, 132);
-
 
 }
 
@@ -136,6 +121,7 @@
 /* Text + Counters | Codings Task Nav Items
 /* -------------------------------------------------------------- */
 
+
 /* Div 2 */
 .codings-task-header-nav-item-in-progress > div:nth-of-type(2),
 .codings-task-header-nav-item-later > div:nth-of-type(2),
@@ -145,8 +131,6 @@
 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  /* column-gap: .4em; */
 
 }
 
@@ -155,21 +139,23 @@
 .codings-task-header-nav-item-later > div:nth-of-type(2) > div:nth-of-type(1),
 .codings-task-header-nav-item-done > div:nth-of-type(2) > div:nth-of-type(1) {
 
-  padding: 0 .4em;
+  padding: 0 .6em;
 
   font-size: 13.5px;
   font-weight: bold;
-  opacity: .6;
 
   /* background-color: red; */
 
 }
 
-/* Counters */
+/* -------------------------------------------------------------- */
+/*  Counters | Codings Task Nav Items
+/* -------------------------------------------------------------- */
+
 .codings-task-header-nav-item-counters {
 
   height: 100%;
-  padding: 0 .4em 0 .3em;
+  padding: 0 .5em 0 .4em;
 
   display: flex;
   align-items: center;
@@ -180,9 +166,6 @@
   border-radius: 0 .6em .6em 0;
 
   border-left: 1px solid rgb(205, 205, 205);
-
-  color:rgb(94, 94, 94);
-
   /* background-color: grey; */
 
 }
@@ -192,7 +175,6 @@
   font-size: 11px;
 
 }
-
 
 /* -------------------------------------------------------------- */
 /* Codings Task Nav Item Unshown
@@ -213,9 +195,6 @@
 
   border: 1px solid rgb(205, 205, 205);
 
-  --active-bg: #e3e3e3;
-  --active-border: 1px solid rgb(171, 171, 171);
-
   user-select: none;
   cursor: pointer;
   transition: all .4s;
@@ -225,8 +204,8 @@
 /* hover */
 .codings-task-header-nav-item-unshown:hover {
 
-  background-color: #e3e3e3;
-  border: 1px solid rgb(171, 171, 171);
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
 
 }
 

@@ -90,9 +90,9 @@
 
   font-weight: bold;
 
-  border: 1px dashed rgb(162, 162, 162);
+  /* border: 1px dashed rgb(162, 162, 162); */
 
-  color:rgb(113, 113, 113);
+  color:rgb(148, 148, 148);
 
   border-radius: .5em;
 
@@ -100,7 +100,7 @@
 
 #codings-task-header-time-block > img {
 
-  opacity: .8;
+  opacity: .5;
 
 }
 

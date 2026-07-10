@@ -25,18 +25,26 @@ input[name="name-radio-codings-header-nav"] {
 #radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"],
 #radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"]  {
 
-  background-color: var(--active-bg);
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
 
-  background-color: rgb(45, 45, 45);
-  color:white;
+}
+
+/* border left - counters */
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"] .codings-task-header-nav-item-counters,
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-advanced"] .codings-task-header-nav-item-counters,
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"] .codings-task-header-nav-item-counters,
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"] .codings-task-header-nav-item-counters {
+
+  border-left: 1px solid rgb(183, 183, 183);
 
 }
 
 /* Set bg-c + border - unshown */
 #radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-unshown"] {
 
-  background-color: var(--active-bg);
-  border: var(--active-border);
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
 
 }
 
