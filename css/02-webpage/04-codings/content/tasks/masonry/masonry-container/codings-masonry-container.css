@@ -36,22 +36,13 @@
 
 #codings-masonry-container {
 
-  /* padding: 0em 1em; */
   width: 100%;
   /* height: 100%; */
-
-  /* border-top: 1px solid rgb(219, 219, 219);
-  border-bottom: 1px solid rgb(219, 219, 219);; */
-
-  /* padding-top: 1em; */
-
-  /* border-left: 3px dotted rgb(187, 187, 187); */
 
   display: grid;
   align-items: flex-start;
 
   grid: auto / 1fr;
-
 
   column-gap: 1em;
   row-gap: .6em;

@@ -11,15 +11,71 @@
 
   width: 100%;
   display: grid;
-  row-gap: .6em;
+  row-gap: .3em;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 1 | Title | Codings Task Card Main
+/* Category List | Codings Task Card Main
 /* ---------------------------------------------------------------- */
 
-.codings-task-card-main > div:nth-of-type(1) {
+.codings-task-card-category-list {
+
+  line-height: 1.3em;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  column-gap: .3em;
+  row-gap: .2em;
+
+  font-weight: bold;
+
+}
+
+/* Category List - In Progress */
+.codings-task-card-in-progress .codings-task-card-category-list {
+
+  color: rgb(168, 140, 62);
+
+}
+
+/* Category List - Later */
+.codings-task-card-later .codings-task-card-category-list  {
+
+  color: rgb(146, 146, 146);
+
+}
+
+/* Category List - Done */
+.codings-task-card-done .codings-task-card-category-list {
+
+  color: rgb(14, 150, 12);
+
+}
+
+/* Div | Text */
+.codings-task-card-category-list > div {
+
+  font-size: 12.5px;
+
+
+}
+
+/* Img | Bullet Points */
+.codings-task-card-category-list > img {
+
+  height: .28em;
+  opacity: .4;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Title | Codings Task Card Main
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-title {
 
   font-size: 15.5px;
   line-height: 1.5em;
@@ -31,29 +87,23 @@
 }
 
 /* header title - in progress */
-.codings-task-card-in-progress .codings-task-card-main > div:nth-of-type(1) {
+.codings-task-card-in-progress .codings-task-card-title {
 
   color: rgb(91, 75, 32);
-
-  /* color:black; */
 
 }
 
 /* header title - later */
-.codings-task-card-later .codings-task-card-main > div:nth-of-type(1) {
+.codings-task-card-later .codings-task-card-title {
 
   color: rgb(86, 86, 86);
-
-  /* color:black; */
 
 }
 
 /* header title - done */
-.codings-task-card-done .codings-task-card-main > div:nth-of-type(1) {
+.codings-task-card-done .codings-task-card-title {
 
   color: rgb(10, 96, 9);
-
-  /* color:black; */
 
 }
 
@@ -63,6 +113,7 @@
 
 .codings-task-card-hashtag-list {
 
+  margin-top: .3em;
   display: flex;
   flex-wrap: wrap;
 
@@ -92,26 +143,15 @@
 /* HashTag - In Progress */
 .codings-task-card-in-progress .codings-task-card-hashtag-list > div  {
 
-  /* background-color: rgb(251, 217, 132);
-  background-color: rgb(255, 236, 184); */
-
   border: 1px dashed rgb(48, 48, 48);
-  color: rgb(124, 104, 52);
-
   color:black;
-
 
 }
 
 /* HashTag - Later */
 .codings-task-card-later .codings-task-card-hashtag-list > div  {
 
-  /* background-color: #e3e3e3;
-  background-color: #efefef; */
-
-   border: 1px dashed rgb(48, 48, 48);
-  color:rgb(56, 56, 56);
-
+  border: 1px dashed rgb(48, 48, 48);
   color:black;
 
 }
@@ -119,12 +159,7 @@
 /* HashTag - Done */
 .codings-task-card-done .codings-task-card-hashtag-list > div  {
 
-  /* background-color: rgb(136, 216, 136);
-  background-color: rgb(198, 253, 198); */
-
-   border: 1px dashed rgb(48, 48, 48);
-  color:rgb(3, 83, 3);
-
+  border: 1px dashed rgb(48, 48, 48);
   color:black;
 
 }
