@@ -116,7 +116,7 @@ console.log("🟨 supdate-codings-task-header.js")
           */
 
         /* ---------------------------------------------------------- */
-        /* 👷 New Dummy Radio Array ( dont exist)
+        /* 👷 Static | New Dummy Radio Array ( dont exist)
         /* ---------------------------------------------------------- */
 
           const radioArray = [
@@ -132,12 +132,36 @@ console.log("🟨 supdate-codings-task-header.js")
 
           });
 
+
           // console.log("radioArray = " + radioArray.length )
+
+        /* ---------------------------------------------------------- */
+        /* 👷 Dynamic | New Dummy Radio Array ( dont exist)
+        /* ---------------------------------------------------------- */
+
+          var newRadios = [];
+
+          for( let i=0; i < 3; i++) {
+
+
+            if( i != 2) {
+
+              newRadios.push( await asyncCreateRadio( "id-"+i, "Name-X", false ) );
+
+            } else {
+
+              newRadios.push( await asyncCreateRadio( "id-"+i, "Name-X", true ) );
+
+            }
+
+          }
+
+          console.log("newRadios Length = " + newRadios.length )
 
 
           // exist yes = dont create radios , no = create radios
           var existRadios = "";
-          existRadios = await asyncExistRadiosInElement( radioArray, rowContainerCodingsContent );
+          existRadios = await asyncExistRadiosInElement( newRadios, rowContainerCodingsContent );
 
 
           if( !existRadios ) {
@@ -146,8 +170,19 @@ console.log("🟨 supdate-codings-task-header.js")
 
             // 1. Create New Radios
 
+            newRadios.forEach(element => {
+
+              console.log(element.getAttribute("id"))
+
+            });
+
             // 2. Prepend New Radios To Element
-            await asyncPrependRadiosToElement( radioArray, rowContainerCodingsContent );
+            await asyncPrependRadiosToElement( newRadios, rowContainerCodingsContent );
+
+            // Test Append
+            // await asyncAppendRadiosToElement( newRadios, rowContainerCodingsContent );
+
+
 
 
           } else {

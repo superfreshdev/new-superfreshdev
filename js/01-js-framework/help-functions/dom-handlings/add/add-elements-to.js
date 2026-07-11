@@ -11,9 +11,32 @@ console.log("🟨 add-elements-to.js")
     // console.log("🟪 asyncCreateRadiosPrepandTo()")
     console.log("➡️ radios = " +  radios.length );
 
+    // Spread-Operator - radios[0],[1],...
+    toElement.prepend( ...radios )
+
+    console.log("💫 Adding " + radios.length + " to toElement ")
+
+
+  return new Promise(resolve => {
+      resolve();
+    })
+
+ }
+
+/* ---------------------------------------------------------------- */
+/* Async Function
+/* > Append Radios to Element
+/* ---------------------------------------------------------------- */
+
+// ❌ bugy
+ async function asyncAppendRadiosToElement( radios, toElement ) {
+
+    // console.log("🟪 asyncCreateRadiosPrepandTo()")
+    console.log("➡️ radios = " +  radios.length );
+
     for( let i=0; i < radios.length; i++ ) {
 
-      toElement.prepend( radios[i] )
+      toElement.append( radios[i] )
 
     }
 
