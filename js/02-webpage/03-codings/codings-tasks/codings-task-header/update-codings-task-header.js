@@ -21,7 +21,7 @@ console.log("🟨 supdate-codings-task-header.js")
   /* Header Navs
   /* --------------------------------------- */
 
-    var addPointCodingsHeaderNavRadios = document.getElementById("row-container-codings-content");
+    var rowContainerCodingsContent = document.getElementById("row-container-codings-content");
 
     var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
     console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
@@ -137,21 +137,18 @@ console.log("🟨 supdate-codings-task-header.js")
 
           // exist yes = dont create radios , no = create radios
           var existRadios = "";
-          existRadios = await asyncExistRadiosInElement( radioArray, addPointCodingsHeaderNavRadios );
+          existRadios = await asyncExistRadiosInElement( radioArray, rowContainerCodingsContent );
 
 
           if( !existRadios ) {
 
             console.log("🟩🔩 Create Radios")
 
-            // create new radios prepend to addPoint
-            await asyncCreateRadiosPrependTo( radioArray, addPointCodingsHeaderNavRadios );
+            // 1. Create New Radios
 
-            /*
+            // 2. Prepend New Radios To Element
+            await asyncPrependRadiosToElement( radioArray, rowContainerCodingsContent );
 
-              1. Create Radios Prepeand to Element
-
-            */
 
           } else {
             console.log("❌🔩 Dont Create Radios")

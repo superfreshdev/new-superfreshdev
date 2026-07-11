@@ -1,23 +1,23 @@
-console.log("🟨 create-elements-to.js")
+console.log("🟨 add-elements-to.js")
 
 
 /* ---------------------------------------------------------------- */
 /* Async Function
-/* > Create Radios Prepend To
+/* > Prepend Radios to Element
 /* ---------------------------------------------------------------- */
 
- async function asyncCreateRadiosPrependTo( radios, addPoint ) {
+ async function asyncPrependRadiosToElement( radios, toElement ) {
 
     // console.log("🟪 asyncCreateRadiosPrepandTo()")
     console.log("➡️ radios = " +  radios.length );
 
     for( let i=0; i < radios.length; i++ ) {
 
-      addPoint.prepend( radios[i] )
+      toElement.prepend( radios[i] )
 
     }
 
-    console.log("💫 Adding " + radios.length + " to addPoint ")
+    console.log("💫 Adding " + radios.length + " to toElement ")
 
 
   return new Promise(resolve => {
@@ -25,14 +25,3 @@ console.log("🟨 create-elements-to.js")
     })
 
  }
-
-
-
- /*
-
-
-  input, checked , type=radio , id=radio-codings-header-nav-java-basics | java-ad | ... , name-radio-cdoings-nav
-
-
-
- */
