@@ -1,5 +1,13 @@
 {
 
+  "paths": {
+
+    "iconBlack": "media/imgs/icons/02-icon-colors/01-black/",
+    "iconGrey": "media/imgs/icons/02-icon-colors/03-grey/",
+    "imgCodingTaskHeader": "media/imgs/content/02-codings/codings-header/"
+
+  },
+
   "header": {
 
     "title": "Angular 🍎",
@@ -51,45 +59,221 @@
 
   },
 
-  "taskContent": {
+  "taskCategories": [
 
-    "info": "» Collections, Streams, Wrapper Classes, Interface, Lamdas, Generics, Arrays 2D,3D, ...",
+    {
 
-    "tasks": [
+      "info": "» Collections, Streams, Wrapper Classes, Interface, Lamdas, Generics, Arrays 2D,3D, ...",
 
-      {
+      "tasks": [
 
-        "statusCssClass": "codings-masonry-task-in-progress",
-        "title": "ArrayList vs LinkedList vs Hashmap - und so könnte es ruhig länger gehen.  Du weisst was ich meine. Allerdings könnte dies noch etwas",
-        "timeLimit": "120 Min.",
+        {
 
-        "hashTags": [
+          "header": {
 
-          {
-            "item": "#ArrayList-XXX"
+            "statusStickerCssClass": "codings-task-card-status-sticker-in-progress",
+            "statusStickerIcon": "black-fire-1.png",
+            "statusStickerIconCssClass": "img-h-0-8",
+            "statusStickerText": "in progress",
+            "timeLimit": "120 Min."
+
           },
-          {
-            "item": "#ArrayList-XXX"
+
+          "main": {
+
+
+            "categoryList": {
+
+              "categoryIconSeperator": "black-bullet.png",
+              "items": [
+
+                {
+                  "item": "Bank 🏠"
+                },
+                {
+                  "item": "Insurance 💫"
+                }
+              ]
+
+            },
+
+            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+            "hashTagList": [
+
+              {
+                "item": "HashTag-1"
+              },
+               {
+                "item": "HashTag-2"
+              },
+              {
+                "item": "HashTag-3"
+              }
+            ]
+
+
           },
-          {
-            "item": "#ArrayList-XXX"
-          },
-          {
-            "item": "#ArrayList-XXX"
+
+          "footer": {
+
+            "githubLink": {
+
+              "href": "www.google.de",
+              "githubIcon": "black-github.png",
+              "githubIconCssClass": "img-h-0-8",
+              "text": "GitHub"
+
+            }
+
           }
-        ],
-
-        "githubLink": "www.google.de"
 
 
+        },
+
+        {
+
+          "header": {
+
+            "statusStickerCssClass": "codings-task-card-status-sticker-in-progress",
+            "statusStickerIcon": "black-fire-1.png",
+            "statusStickerIconCssClass": "img-h-0-8",
+            "statusStickerText": "in progress",
+            "timeLimit": "120 Min."
+
+          },
+
+          "main": {
 
 
+            "categoryList": {
 
-      }
+              "categoryIconSeperator": "black-bullet.png",
+              "items": [
 
-    ]
+                {
+                  "item": "Bank 🏠"
+                },
+                {
+                  "item": "Insurance 💫"
+                }
+              ]
 
-  }
+            },
 
+            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+            "hashTagList": [
+
+              {
+                "item": "HashTag-1"
+              },
+               {
+                "item": "HashTag-2"
+              },
+              {
+                "item": "HashTag-3"
+              }
+            ]
+
+
+          },
+
+          "footer": {
+
+            "githubLink": {
+
+              "href": "www.google.de",
+              "githubIcon": "black-github.png",
+              "githubIconCssClass": "img-h-0-8",
+              "text": "GitHub"
+
+            }
+
+          }
+
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "info": "» Threading, Exceptions, Validations, ... ",
+
+      "tasks": [
+
+        {
+
+          "header": {
+
+            "statusStickerCssClass": "codings-task-card-status-sticker-in-progress",
+            "statusStickerIcon": "black-fire-1.png",
+            "statusStickerIconCssClass": "img-h-0-8",
+            "statusStickerText": "in progress",
+            "timeLimit": "120 Min."
+
+          },
+
+          "main": {
+
+
+            "categoryList": {
+
+              "categoryIconSeperator": "black-bullet.png",
+              "items": [
+
+                {
+                  "item": "Bank 🏠"
+                },
+                {
+                  "item": "Insurance 💫"
+                }
+              ]
+
+            },
+
+            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+            "hashTagList": [
+
+              {
+                "item": "HashTag-1"
+              },
+               {
+                "item": "HashTag-2"
+              },
+              {
+                "item": "HashTag-3"
+              }
+            ]
+
+
+          },
+
+          "footer": {
+
+            "githubLink": {
+
+              "href": "www.google.de",
+              "githubIcon": "black-github.png",
+              "githubIconCssClass": "img-h-0-8",
+              "text": "GitHub"
+
+            }
+
+          }
+
+
+        }
+
+      ]
+
+    }
+
+
+  ]
 
 }

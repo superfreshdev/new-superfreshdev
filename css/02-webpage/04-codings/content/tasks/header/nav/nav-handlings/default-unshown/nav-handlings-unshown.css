@@ -1,0 +1,21 @@
+/* ---------------------------------------------------------------- */
+/* > nav-handlings-unshown.css
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Default Unshown
+/* -------------------------------------------------------------- */
+
+input[name="name-radio-codings-header-nav"] {
+
+  display: none;
+
+}
+
+/* show - task unshown container */
+#radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(3) #codings-task-unshown-container {
+
+  display: grid;
+
+}

@@ -1,8 +1,8 @@
-// console.log("🟨 update-value-attribute.js")
+// console.log("🟨 update-value-elements.js")
 
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update "src" from "id-element"
 /* ---------------------------------------------------------------- */
 
@@ -20,8 +20,28 @@
 
  }
 
+ /* ---------------------------------------------------------------- */
+/* 🟥 Async Function
+/* > Update Css Style to Element
 /* ---------------------------------------------------------------- */
-/* Async Function
+
+async function async_update_cssStyle_to_element( cssStyle, element ) {
+
+  // console.log("🟪 async_update_cssStyle_to_element()")
+
+  element.style.cssText = cssStyle;
+
+  return new Promise(resolve => {
+   resolve(  );
+
+  })
+
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* 🟥 Async Function
 /* > Update "src" from "query-element"
 /* ---------------------------------------------------------------- */
 
@@ -40,7 +60,7 @@
  }
 
  /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update "href" from "query-element"
 /* ---------------------------------------------------------------- */
 
@@ -60,7 +80,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update "CSS Class" from "id-element"
 /* ---------------------------------------------------------------- */
 
@@ -82,7 +102,7 @@
  }
 
  /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update Css Class to Element
 /* ---------------------------------------------------------------- */
 
@@ -107,7 +127,7 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update x2 Css Class to Element
 /* ---------------------------------------------------------------- */
 
@@ -134,7 +154,7 @@
  }
 
  /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update Text from Element
 /* ---------------------------------------------------------------- */
 
@@ -158,10 +178,13 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update Img - Src & CSS Class
 /* ---------------------------------------------------------------- */
 
+
+
+// ❌
  async function async_update_img_src_cssClass( srcPath, cssClass, img ) {
 
     // console.log("🟪 async_update_img_src_cssClass_from_element()")
@@ -180,10 +203,26 @@
  }
 
  /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟥 Async Function
 /* > Update Img - Src & CSS Class
 /* ---------------------------------------------------------------- */
 
+ //🟩
+ async function asyncUpdateImgSrc( srcPath, img ) {
+
+    // console.log("🟪 asyncUpdateImgSrc()")
+
+    // update src
+    img.setAttribute( "src", srcPath )
+
+   return new Promise(resolve => {
+        resolve( );
+      })
+
+ }
+
+
+ // ❌
  async function async_update_img_src( srcPath, img ) {
 
     // console.log("🟪 async_update_img_src()")

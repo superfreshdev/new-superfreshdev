@@ -307,13 +307,29 @@
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/codings-tasks-container.css">
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/codings-task-unshown.css">
 
-
           <!-- 🟨 header -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/codings-task-header.css">
 
+            <!-- --------------------------- -->
             <!-- 🟨 header - nav  -->
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/codings-task-header-nav.css">
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/codings-task-header-nav-handlings.css">
+            <!-- --------------------------- -->
+
+              <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/codings-task-header-nav.css">
+
+              <!-- ----------------------------------------- -->
+              <!-- Handlings -->
+              <!-- ----------------------------------------- -->
+
+                <!-- handlings - default & unshown  -->
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/default-unshown/nav-handlings-unshown.css">
+
+                <!-- handlings - tech -->
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-java.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-spring-boot.css">
+
+                <!-- handlings - algos -->
+
+                <!-- handlings - challenges -->
 
           <!-- 🟨 resp header -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/resp-codings-task-header.css">
@@ -4891,7 +4907,7 @@
                               </div>
 
                               <!-- status sticker -->
-                              <div class="codings-task-card-status-stickers-in-progress">
+                              <div class="codings-task-card-status-sticker-in-progress">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
                                     alt="img" class="img-h-0-8">
@@ -5004,7 +5020,7 @@
                               </div>
 
                               <!-- status sticker -->
-                              <div class="codings-task-card-status-stickers-later">
+                              <div class="codings-task-card-status-sticker-later">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
                                     alt="img" class="img-h-0-7">
@@ -5104,7 +5120,7 @@
                               </div>
 
                               <!-- status sticker -->
-                              <div class="codings-task-card-status-stickers-done">
+                              <div class="codings-task-card-status-sticker-done">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
                                     alt="img" class="img-h-0-6">
@@ -5198,7 +5214,7 @@
                               </div>
 
                               <!-- status sticker -->
-                              <div class="codings-task-card-status-stickers-in-progress">
+                              <div class="codings-task-card-status-sticker-in-progress">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
                                     alt="img" class="img-h-0-8">
@@ -5291,7 +5307,7 @@
                               </div>
 
                               <!-- status sticker -->
-                              <div class="codings-task-card-status-stickers-later">
+                              <div class="codings-task-card-status-sticker-later">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-calendar-2.png"
                                     alt="img" class="img-h-0-7">
@@ -6002,6 +6018,13 @@
       <!-- ------------------------------------------------------------------------ -->
 
         <!-- ---------------------------------- -->
+        <!-- Checkers -->
+        <!-- ---------------------------------- -->
+
+        <!-- exist -->
+        <script src="js/01-js-framework/help-functions/checkers/element-exist-checkers.js"></script>
+
+        <!-- ---------------------------------- -->
         <!-- Data Handlings -->
         <!-- ---------------------------------- -->
 
@@ -6017,6 +6040,9 @@
         <!-- Dom Handlings -->
         <!-- ---------------------------------- -->
 
+          <!-- create -->
+          <script src="js/01-js-framework/help-functions/dom-handlings/create/create-elements-to.js"></script>
+
           <!-- delete -->
           <script src="js/01-js-framework/help-functions/dom-handlings/delete/delete-domElements.js"></script>
 
@@ -6029,8 +6055,8 @@
           <script src="js/01-js-framework/help-functions/dom-handlings/set/set-text.js"></script>
 
           <!-- update -->
-          <script src="js/01-js-framework/help-functions/dom-handlings/update/update-value-attributes.js"></script>
-          <script src="js/01-js-framework/help-functions/dom-handlings/update/update-cssStyle-to-element.js"></script>
+          <script src="js/01-js-framework/help-functions/dom-handlings/update/update-content-elements.js"></script>
+          <script src="js/01-js-framework/help-functions/dom-handlings/update/update-value-elements.js"></script>
 
 
         <!-- ---------------------------------- -->
@@ -6096,43 +6122,30 @@
         <!-- ----------------------------------------------- -->
 
           <!-- -------------------------------------------------------------- -->
-          <!-- 🟥 Define & Create Masonry Layout                     -->
+          <!-- 🟥 [1/2] Codings Tasks                                         -->
           <!-- -------------------------------------------------------------- -->
 
-            <!-- 🟥 define masonry container (1-2col | 800px) -->
-            <script src="js/02-webpage/03-codings/codings-tasks/codings-masonry/define-codings-masonry-container.js"></script>
 
-            <!-- 🟥 create masonry items -->
+            <!-- Codings Masonry -->
+            <script src="js/02-webpage/03-codings/codings-tasks/codings-masonry/define-codings-masonry-container.js"></script>
             <script src="js/02-webpage/03-codings/codings-tasks/codings-masonry/create-codings-masonry-items.js"></script>
 
-          <!-- ------------------------------------------ -->
-          <!-- 🟥 Nav & Sub Nav -->
-          <!-- ------------------------------------------ -->
-
-            <!-- ➡️🟥 Sub Nav Tech -->
-            <script src="js/02-webpage/03-codings/nav/sub-nav/sub-nav-handlings-tech.js"></script>
-
-            <!-- 🟥 Nav Algos -->
-            <script src="js/02-webpage/03-codings/nav/nav-handlings-algos.js"></script>
-
-            <!-- 🟥 Nav Challenges -->
-            <script src="js/02-webpage/03-codings/nav/nav-handlings-challenges.js"></script>
-
-            <!-- 🟥 Sub Nav Docs -->
-            <script src="js/02-webpage/03-codings/nav/sub-nav/sub-nav-handlings-docs.js"></script>
-
-
-          <!-- ------------------------------------------ -->
-          <!-- 🟥 Codings Task Header -->
-          <!-- ------------------------------------------ -->
-
+            <!-- Codings - Task Header -->
             <script src="js/02-webpage/03-codings/codings-tasks/codings-task-header/update-codings-task-header.js"></script>
 
-          <!-- ------------------------------------------ -->
-          <!-- 🟥 Codings Docs Container -->
-          <!-- ------------------------------------------ -->
+            <!-- Codings - Navs -->
+            <script src="js/02-webpage/03-codings/codings-tasks/nav/codings-tech-nav.js"></script>
+            <script src="js/02-webpage/03-codings/codings-tasks/nav/codings-docs-nav.js"></script>
 
-            <script src="js/02-webpage/03-codings/codings-docs/update-codings-docs-container.js"></script>
+
+          <!-- -------------------------------------------------------------- -->
+          <!-- 🟥 [2/2] Codings Docs                                          -->
+          <!-- -------------------------------------------------------------- -->
+
+            <!-- Default -->
+            <!-- <script src="js/02-webpage/03-codings/codings-docs/update-codings-docs-container.js"></script> -->
+
+
 
 
         <!-- ----------------------------------------------- -->

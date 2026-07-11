@@ -1,23 +1,13 @@
 /* ---------------------------------------------------------------- */
-/* > codings-task-header-nav-handlings.css
+/* > nav-handlings-spring-boot.css
 /* ---------------------------------------------------------------- */
 
 
-/* -------------------------------------------------------------- */
-/* Default Unshown
-/* -------------------------------------------------------------- */
-
-input[name="name-radio-codings-header-nav"] {
-
-  display: none;
-
-}
+/* ❌ Spring Boot */
 
 /* -------------------------------------------------------------- */
 /* Styles
 /* -------------------------------------------------------------- */
-
-/* js - dyn. geneartions for created radios */
 
 /* set - background colors , in progress: yellow, later: grey, done: green */
 #radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"],
@@ -57,13 +47,6 @@ input[name="name-radio-codings-header-nav"] {
 #radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
 #radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
 #radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(3) #codings-masonry-content {
-
-  display: grid;
-
-}
-
-/* show - task unshown container */
-#radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(3) #codings-task-unshown-container {
 
   display: grid;
 

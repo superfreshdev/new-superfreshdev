@@ -1,0 +1,51 @@
+/* ---------------------------------------------------------------- */
+/* > nav-handlings-java.css
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Styles
+/* -------------------------------------------------------------- */
+
+/* set - background colors , in progress: yellow, later: grey, done: green */
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"],
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-advanced"],
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"],
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"]  {
+
+  background-color: rgb(204, 204, 204);
+  color:rgb(91, 91, 91);
+
+}
+
+/* border left - counters */
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"] .codings-task-header-nav-item-counters,
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-advanced"] .codings-task-header-nav-item-counters,
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"] .codings-task-header-nav-item-counters,
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"] .codings-task-header-nav-item-counters {
+
+  border-left: 1px solid rgb(173, 173, 173);
+
+}
+
+/* Set bg-c + border - unshown */
+#radio-codings-header-nav-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-unshown"] {
+
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content
+/* -------------------------------------------------------------- */
+
+/* show - codings masonry content */
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(3) #codings-masonry-content {
+
+  display: grid;
+
+}

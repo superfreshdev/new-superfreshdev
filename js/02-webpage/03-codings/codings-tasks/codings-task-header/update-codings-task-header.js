@@ -3,111 +3,182 @@ console.log("🟨 supdate-codings-task-header.js")
 // ⚠️ Reminder: Create First than Add Change Listener
 
 /* -------------------------------------------------------------------- */
-/* DOM Elements
+/* 🏠 DOM Elements
 /* -------------------------------------------------------------------- */
 
-  var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
-  console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
+  /* --------------------------------------- */
+  /* Header
+  /* --------------------------------------- */
+
+    // header - title
+    var domCodingsHeaderTitle = document.getElementById("codings-task-header-title");
+    // header - time block
+    var domCodingsHeaderTimeBlock = document.querySelector("#codings-task-header-time-block > div:nth-of-type(1)");
+    // header - img
+    var domCodingsHeaderImg = document.getElementById("codings-header-img");
+
+  /* --------------------------------------- */
+  /* Header Navs
+  /* --------------------------------------- */
+
+    var addPointCodingsHeaderNavRadios = document.getElementById("row-container-codings-content");
+
+    var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
+    console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
+
 
 /* -------------------------------------------------------------------- */
-/* Variables
+/* 👾 Variables
 /* -------------------------------------------------------------------- */
 
 
 /* -------------------------------------------------------------------- */
-/* Functions
+/* 🔩 Functions
 /* -------------------------------------------------------------------- */
 
-
-  async function updateCodingsTaskHeader( jsonHeaderDefaults, jsonHeaderData, headerElement ) {
+  // Update - Codings Task Header
+  async function updateCodingsTaskHeader( jsonTasksContent, headerElement ) {
 
     console.log("🟨 updateCodingsTaskHeader() ")
-    console.log("🛠️ Update & Create Navs")
 
     /* ---------------------------------------------------------- */
-    /* Step 1:
+    /* 🟩 Step 1:
+    /* > Try to get json
+    /* ---------------------------------------------------------- */
+
+      var jsonTasksContent = await async_getJsonFile( jsonTasksContent )
+
+    /* ---------------------------------------------------------- */
+    /* 🟨 Step 2:
     /* > Get Default Paths
     /* ---------------------------------------------------------- */
 
-      // Try to get default json
-
-      dataDefaultPaths = await async_getJsonFile( jsonHeaderDefaults )
-
-      console.log("---------------------------------------------")
-      console.log("📐 Json Default Paths:  ")
-      console.log("➡️ jsonDefaultPaths(local): " + dataDefaultPaths )
-
-      var defaultPaths = dataDefaultPaths.paths;
-      var defaultImgFiles = dataDefaultPaths.imgFiles;
-
-      // create default var paths
-      var pathIconGrey = defaultPaths.iconGrey;
-      var pathIconBlack = defaultPaths.iconBlack;
-      var pathImgHeader = defaultPaths.imgCodingTaskHeader;
-
-      var imgFileClock = defaultImgFiles.imgFilenameClock;
-      var imgFileInfo = defaultImgFiles.imgFilenameInfo;
-      var imgFileBullet = defaultImgFiles.imgFilenameBullet;
-
-    /* ---------------------------------------------------------- */
-    /* Step 2:
-    /* > Get Default Data
-    /* ---------------------------------------------------------- */
-
-      // Try to get Data
-      var data = await async_getJsonFile( jsonData )
+      var pathIconBlack = jsonTasksContent.paths.iconBlack;
+      var pathIconGrey = jsonTasksContent.paths.iconGrey;
+      var pathImgHeader = jsonTasksContent.paths.imgCodingTaskHeader;
 
       console.log("---------------------------------------------")
-      console.log("📐 Json Data: ")
-      console.log("➡️ jsonData(given): " + data  )
-      console.log("➡️ headerElement: " + headerElement )
-
-      var dataHeader = data.header;
-      var dataHeaderNav = data.nav;
-
-      // Create header datas
-      var headerTitle = dataHeader.title;
-      var headerTimeLimit = dataHeader.timeLimit;
-      var headerFilename = dataHeader.imgFilename;
-
-      console.log("💫header title: " + headerTitle )
-      console.log("💫header time limit: " + headerTimeLimit )
-      console.log("💫header filename: " + headerFilename )
+      console.log("📃 Default Paths:  ")
+      console.log("➡️ jsonTaskContent(file): " + jsonTasksContent )
+      console.log("➡️ path - iconBlack: " +  pathIconBlack )
+      console.log("➡️ path - iconGrey: " + pathIconGrey )
+      console.log("➡️ path - imgHeader: " + pathImgHeader )
+      console.log("---------------------------------------------")
 
 
-      // ➡️🟥 Create nav datas ( if radios exist only update labels )
+    /* ---------------------------------------------------------- */
+    /* 🟩 Step 3:
+    /* > Update Header Codings Tasks - Meta
+    /* ---------------------------------------------------------- */
+
+      // Var - Data
+      var headerTitle = jsonTasksContent.header.title;
+      var headerTimeLimit = jsonTasksContent.header.timeLimit;
+      var fullPathImgHeader = pathImgHeader + jsonTasksContent.header.imgFilename;
+
+      console.log("📃 Header Data:  ")
+      console.log("➡️ headerTitle: " + headerTitle )
+      console.log("➡️ headerTimeLimit: " + headerTimeLimit )
+      console.log("➡️ fullPathImgHeader: " +  fullPathImgHeader )
+      console.log("---------------------------------------------")
+
+      // Update - Header Title
+      await asyncUpdateTextFromElement( headerTitle, domCodingsHeaderTitle );
+
+      // Update - Header Time Block
+      await asyncUpdateTextFromElement( headerTimeLimit, domCodingsHeaderTimeBlock );
+
+      // Update - Header Img
+      await asyncUpdateImgSrc( fullPathImgHeader, domCodingsHeaderImg );
 
 
-    console.log("---------------------------------------------")
-
-    /* --------------------------------------------------------------- */
-    /* 🟥 Step 1/?
-    /* > Get Json Data Arrays for easy common operations
-    /* --------------------------------------------------------------- */
+    /* ---------------------------------------------------------- */
+    /* ➡️🟥 Step 4:
+    /* > Update / Create - Header Codings Tasks - Nav
+    /* ---------------------------------------------------------- */
 
 
+      /* ----------------------------------------------------- */
+      /* ➡️🟥 [1/2] | Check Exist Radios on Add Point ?
+      /* ----------------------------------------------------- */
 
-    /* --------------------------------------------------------------- */
-    /* 🟥 Step 2/?
-    /* > Update - Header Title
-    /* --------------------------------------------------------------- */
+        /* ---------------------------------------------------------- */
+        /* 🟩 Radio Array Exist ( java - basics, ad, libs, debug )
+        /* ---------------------------------------------------------- */
 
-    /* --------------------------------------------------------------- */
-    /* 🟥 Step 3/?
-    /* > Update - Header Time Limit
-    /* --------------------------------------------------------------- */
+          // codingsHeaderNavRadios
 
-    /* --------------------------------------------------------------- */
-    /* 🟥 Step 4/?
-    /* > Update - Header Img
-    /* --------------------------------------------------------------- */
+          /*
 
-    /* --------------------------------------------------------------- */
-    /* 🟥 Step 5/?
-    /* > Update - Header Nav
-    /* --------------------------------------------------------------- */
+            1. hole radios aus json
+            2. schaue ob die existieren in addPoint - falls ja, erstelle nur labels
 
-    console.log("❇️ Finished Update & Create")
+          */
+
+        /* ---------------------------------------------------------- */
+        /* 👷 New Dummy Radio Array ( dont exist)
+        /* ---------------------------------------------------------- */
+
+          const radioArray = [
+            document.createElement('input'),
+            document.createElement('input'),
+            document.createElement('input')
+          ];
+
+          radioArray.forEach((radio, index) => {
+            radio.type = 'radio';         // Macht es zu einem Radio-Button
+            radio.name = 'gruppe1';       // Gleicher Name verknüpft sie als Gruppe
+            radio.value = 'wert' + index; // Eindeutiger Wert für jeden Button
+
+          });
+
+          // console.log("radioArray = " + radioArray.length )
+
+
+          // exist yes = dont create radios , no = create radios
+          var existRadios = "";
+          existRadios = await asyncExistRadiosInElement( radioArray, addPointCodingsHeaderNavRadios );
+
+
+          if( !existRadios ) {
+
+            console.log("🟩🔩 Create Radios")
+
+            // create new radios prepend to addPoint
+            await asyncCreateRadiosPrependTo( radioArray, addPointCodingsHeaderNavRadios );
+
+            /*
+
+              1. Create Radios Prepeand to Element
+
+            */
+
+          } else {
+            console.log("❌🔩 Dont Create Radios")
+          }
+
+
+        /*
+
+
+          0. Check if Create Radio dont exist
+          1. Create Radio Prepend To
+
+            + css styles extra für diese element machen
+            name= name-radio-codings-header-nav:checked | radio-codings-header-nav-java-basics | java-advanced | ...
+
+        */
+
+
+
+      // 🟥 2. Create Nav Labels from Codings Header Tasks
+      /* ----------------------------------------------------- */
+      /* 🟥 [2/2] | Check Exist Radios on Add Point ?
+      /* ----------------------------------------------------- */
+
+
+
+
 
 
 
@@ -122,7 +193,13 @@ console.log("🟨 supdate-codings-task-header.js")
 /* Events
 /* -------------------------------------------------------------------- */
 
-  // Dom Documented Loaded | First Load Check
+  /* ---------------------------------------------------------------- */
+  /* [1/2] | Dom Documented Loaded | First Load Check
+  /* ---------------------------------------------------------------- */
+
+  /* ---------------------------------------------------------------- */
+  /* [2/2] | Radio Change - Codings Task Header Nav
+  /* ---------------------------------------------------------------- */
 
   // Radio Change Listener
   for( let i=0; i < codingsHeaderNavRadios.length; i++ ) {
@@ -132,7 +209,6 @@ console.log("🟨 supdate-codings-task-header.js")
     codingsHeaderNavRadios[i].addEventListener( "change", async() => {
 
       window.alert(codingsHeaderNavRadios[i].getAttribute("id"))
-
 
     }
 
