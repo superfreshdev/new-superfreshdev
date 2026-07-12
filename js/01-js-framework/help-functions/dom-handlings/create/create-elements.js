@@ -1,4 +1,4 @@
-console.log("🟨 create-elements.js")
+// console.log("🟨 create-elements.js")
 
 
 /* ---------------------------------------------------------------- */
@@ -9,9 +9,9 @@ console.log("🟨 create-elements.js")
  async function asyncCreateRadio( id, name, checked ) {
 
     // console.log("🟪 asyncCreateRadio()")
-    console.log("id: " + id)
-    console.log("name: " + name)
-    console.log("checked: " + checked)
+    // console.log("id: " + id)
+    // console.log("name: " + name)
+    // console.log("checked: " + checked)
 
     // Create Radio Element
     var newRadio = document.createElement("input");

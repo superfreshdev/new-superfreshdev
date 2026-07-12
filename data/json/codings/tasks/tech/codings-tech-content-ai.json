@@ -17,43 +17,85 @@
     "nav": [
 
       {
-        "statusCssClass": "codings-task-header-nav-item-in-progress",
-        "statusIconFilename": "black-fire-1.png",
-        "statusIconCssClass": "img-h-0-9",
-        "taskCategoryText": "Basics"
+        "radio": {
+
+          "id": "radio-codings-ai-basics",
+          "name": "name-radio-codings-header-nav-tech-algos-challenges",
+          "checked": "false"
+        },
+
+        "label": {
+
+          "cssClass": "codings-task-header-nav-item-in-progress",
+          "statusIconFilename": "black-fire-1.png",
+          "cssClassStatusIcon": "img-h-0-9",
+          "categoryText": "Basics",
+          "cssClassCounters": "codings-task-header-nav-item-counters"
+
+        }
 
       },
 
       {
-        "statusCssClass": "codings-task-header-nav-item-done",
-        "statusIconFilename": "black-small-correct.png",
-        "statusIconCssClass": "img-h-0-9",
-        "taskCategoryText": "Advanced"
+        "radio": {
+
+          "id": "radio-codings-ai-rag-vectordbs",
+          "name": "name-radio-codings-header-nav-tech-algos-challenges",
+          "checked": "false"
+        },
+
+        "label": {
+
+          "cssClass": "codings-task-header-nav-item-later",
+          "statusIconFilename": "black-fire-1.png",
+          "cssClassStatusIcon": "img-h-0-9",
+          "categoryText": "Rag & Vector DBs",
+          "cssClassCounters": "codings-task-header-nav-item-counters"
+
+        }
 
       },
 
       {
-        "statusCssClass": "codings-task-header-nav-item-later",
-        "statusIconFilename": "black-calendar-2.png",
-        "statusIconCssClass": "img-h-0-7",
-        "taskCategoryText": "Libs"
+        "radio": {
+
+          "id": "radio-codings-ai-spring-ai-langchain4j",
+          "name": "name-radio-codings-header-nav-tech-algos-challenges",
+          "checked": "false"
+        },
+
+        "label": {
+
+          "cssClass": "codings-task-header-nav-item-later",
+          "statusIconFilename": "black-fire-1.png",
+          "cssClassStatusIcon": "img-h-0-9",
+          "categoryText": "Spring AI & LangChain4j",
+          "cssClassCounters": "codings-task-header-nav-item-counters"
+
+        }
 
       },
 
       {
-        "statusCssClass": "codings-task-header-nav-item-later",
-        "statusIconFilename": "black-calendar-2.png",
-        "statusIconCssClass": "img-h-0-7",
-        "taskCategoryText": "Debugging"
+        "radio": {
 
-      },
+          "id": "radio-codings-ai-advanced",
+          "name": "name-radio-codings-header-nav-tech-algos-challenges",
+          "checked": "false"
+        },
 
-      {
-        "statusCssClass": "codings-task-header-nav-item-unshown",
-        "statusIconFilename": "black-eye-unshow.png",
-        "statusIconCssClass": "img-h-0-9"
+        "label": {
+
+          "cssClass": "codings-task-header-nav-item-later",
+          "statusIconFilename": "black-fire-1.png",
+          "cssClassStatusIcon": "img-h-0-9",
+          "categoryText": "Advanced",
+          "cssClassCounters": "codings-task-header-nav-item-counters"
+
+        }
 
       }
+
 
     ]
 
@@ -71,10 +113,15 @@
 
           "header": {
 
-            "statusStickerCssClass": "codings-task-card-status-sticker-in-progress",
-            "statusStickerIcon": "black-fire-1.png",
-            "statusStickerIconCssClass": "img-h-0-8",
-            "statusStickerText": "in progress",
+            "status": {
+
+              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "filenameIcon": "black-fire-1.png",
+              "cssClassIcon": "img-h-0-8",
+              "statusText": "in progress"
+
+            },
+
             "timeLimit": "120 Min."
 
           },
@@ -85,32 +132,12 @@
             "categoryList": {
 
               "categoryIconSeperator": "black-bullet.png",
-              "items": [
-
-                {
-                  "item": "Bank 🏠"
-                },
-                {
-                  "item": "Insurance 💫"
-                }
-              ]
-
+              "items": ["Bank 🏠","Insurance 💫"]
             },
 
             "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
 
-            "hashTagList": [
-
-              {
-                "item": "HashTag-1"
-              },
-               {
-                "item": "HashTag-2"
-              },
-              {
-                "item": "HashTag-3"
-              }
-            ]
+            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
 
 
           },
@@ -120,8 +147,8 @@
             "githubLink": {
 
               "href": "www.google.de",
-              "githubIcon": "black-github.png",
-              "githubIconCssClass": "img-h-0-8",
+              "filenameIcon": "black-github.png",
+              "cssClassIcon": "img-h-0-8",
               "text": "GitHub"
 
             }
@@ -135,10 +162,15 @@
 
           "header": {
 
-            "statusStickerCssClass": "codings-task-card-status-sticker-in-progress",
-            "statusStickerIcon": "black-fire-1.png",
-            "statusStickerIconCssClass": "img-h-0-8",
-            "statusStickerText": "in progress",
+            "status": {
+
+              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "filenameIcon": "black-fire-1.png",
+              "cssClassIcon": "img-h-0-8",
+              "statusText": "in progress"
+
+            },
+
             "timeLimit": "120 Min."
 
           },
@@ -149,32 +181,12 @@
             "categoryList": {
 
               "categoryIconSeperator": "black-bullet.png",
-              "items": [
-
-                {
-                  "item": "Bank 🏠"
-                },
-                {
-                  "item": "Insurance 💫"
-                }
-              ]
-
+              "items": ["Bank 🏠","Insurance 💫"]
             },
 
             "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
 
-            "hashTagList": [
-
-              {
-                "item": "HashTag-1"
-              },
-               {
-                "item": "HashTag-2"
-              },
-              {
-                "item": "HashTag-3"
-              }
-            ]
+            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
 
 
           },
@@ -184,14 +196,13 @@
             "githubLink": {
 
               "href": "www.google.de",
-              "githubIcon": "black-github.png",
-              "githubIconCssClass": "img-h-0-8",
+              "filenameIcon": "black-github.png",
+              "cssClassIcon": "img-h-0-8",
               "text": "GitHub"
 
             }
 
           }
-
 
         }
 
@@ -209,10 +220,15 @@
 
           "header": {
 
-            "statusStickerCssClass": "codings-task-card-status-sticker-in-progress",
-            "statusStickerIcon": "black-fire-1.png",
-            "statusStickerIconCssClass": "img-h-0-8",
-            "statusStickerText": "in progress",
+            "status": {
+
+              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "filenameIcon": "black-fire-1.png",
+              "cssClassIcon": "img-h-0-8",
+              "statusText": "in progress"
+
+            },
+
             "timeLimit": "120 Min."
 
           },
@@ -223,32 +239,12 @@
             "categoryList": {
 
               "categoryIconSeperator": "black-bullet.png",
-              "items": [
-
-                {
-                  "item": "Bank 🏠"
-                },
-                {
-                  "item": "Insurance 💫"
-                }
-              ]
-
+              "items": ["Bank 🏠","Insurance 💫"]
             },
 
             "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
 
-            "hashTagList": [
-
-              {
-                "item": "HashTag-1"
-              },
-               {
-                "item": "HashTag-2"
-              },
-              {
-                "item": "HashTag-3"
-              }
-            ]
+            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
 
 
           },
@@ -258,14 +254,62 @@
             "githubLink": {
 
               "href": "www.google.de",
-              "githubIcon": "black-github.png",
-              "githubIconCssClass": "img-h-0-8",
+              "filenameIcon": "black-github.png",
+              "cssClassIcon": "img-h-0-8",
               "text": "GitHub"
 
             }
 
           }
 
+
+        },
+
+        {
+
+          "header": {
+
+            "status": {
+
+              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "filenameIcon": "black-fire-1.png",
+              "cssClassIcon": "img-h-0-8",
+              "statusText": "in progress"
+
+            },
+
+            "timeLimit": "120 Min."
+
+          },
+
+          "main": {
+
+
+            "categoryList": {
+
+              "categoryIconSeperator": "black-bullet.png",
+              "items": ["Bank 🏠","Insurance 💫"]
+            },
+
+            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+
+
+          },
+
+          "footer": {
+
+            "githubLink": {
+
+              "href": "www.google.de",
+              "filenameIcon": "black-github.png",
+              "cssClassIcon": "img-h-0-8",
+              "text": "GitHub"
+
+            }
+
+          }
 
         }
 

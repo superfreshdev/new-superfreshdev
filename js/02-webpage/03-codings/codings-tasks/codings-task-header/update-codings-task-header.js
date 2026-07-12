@@ -1,4 +1,4 @@
-console.log("🟨 supdate-codings-task-header.js")
+// console.log("🟨 supdate-codings-task-header.js")
 
 // ⚠️ Reminder: Create First than Add Change Listener
 
@@ -24,7 +24,7 @@ console.log("🟨 supdate-codings-task-header.js")
     var rowContainerCodingsContent = document.getElementById("row-container-codings-content");
 
     var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
-    console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
+    // console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
 
 
 /* -------------------------------------------------------------------- */
@@ -57,18 +57,18 @@ console.log("🟨 supdate-codings-task-header.js")
       var pathIconGrey = jsonTasksContent.paths.iconGrey;
       var pathImgHeader = jsonTasksContent.paths.imgCodingTaskHeader;
 
-      console.log("---------------------------------------------")
-      console.log("📃 Default Paths:  ")
-      console.log("➡️ jsonTaskContent(file): " + jsonTasksContent )
-      console.log("➡️ path - iconBlack: " +  pathIconBlack )
-      console.log("➡️ path - iconGrey: " + pathIconGrey )
-      console.log("➡️ path - imgHeader: " + pathImgHeader )
-      console.log("---------------------------------------------")
+      // console.log("----------------------------")
+      // console.log("📃 Default Paths:  ")
+      // console.log("➡️ jsonTaskContent(file): " + jsonTasksContent )
+      // console.log("➡️ path - iconBlack: " +  pathIconBlack )
+      // console.log("➡️ path - iconGrey: " + pathIconGrey )
+      // console.log("➡️ path - imgHeader: " + pathImgHeader )
+      // console.log("----------------------------")
 
 
     /* ---------------------------------------------------------- */
     /* 🟩 Step 3:
-    /* > Update Header Codings Tasks - Meta
+    /* > Update | Header Codings Tasks - Meta
     /* ---------------------------------------------------------- */
 
       // Var - Data
@@ -76,11 +76,11 @@ console.log("🟨 supdate-codings-task-header.js")
       var headerTimeLimit = jsonTasksContent.header.timeLimit;
       var fullPathImgHeader = pathImgHeader + jsonTasksContent.header.imgFilename;
 
-      console.log("📃 Header Data:  ")
-      console.log("➡️ headerTitle: " + headerTitle )
-      console.log("➡️ headerTimeLimit: " + headerTimeLimit )
-      console.log("➡️ fullPathImgHeader: " +  fullPathImgHeader )
-      console.log("---------------------------------------------")
+      // console.log("📃 Header Data:  ")
+      // console.log("➡️ headerTitle: " + headerTitle )
+      // console.log("➡️ headerTimeLimit: " + headerTimeLimit )
+      // console.log("➡️ fullPathImgHeader: " +  fullPathImgHeader )
+      // console.log("----------------------------")
 
       // Update - Header Title
       await asyncUpdateTextFromElement( headerTitle, domCodingsHeaderTitle );
@@ -94,121 +94,91 @@ console.log("🟨 supdate-codings-task-header.js")
 
     /* ---------------------------------------------------------- */
     /* ➡️🟥 Step 4:
-    /* > Update / Create - Header Codings Tasks - Nav
+    /* > Update / Create | Header Codings Tasks - Nav
     /* ---------------------------------------------------------- */
 
-
       /* ----------------------------------------------------- */
-      /* ➡️🟥 [1/2] | Check Exist Radios on Add Point ?
+      /* ➡️🟥 [1/2] | Create New Radios to Element
       /* ----------------------------------------------------- */
 
-        /* ---------------------------------------------------------- */
-        /* 🟩 Radio Array Exist ( java - basics, ad, libs, debug )
-        /* ---------------------------------------------------------- */
+        /* --------------------------------------------- */
+        /* ➡️🟥 Step 1
+        /* > Get Data - Header Nav
+        /* --------------------------------------------- */
 
-          // codingsHeaderNavRadios
+          // Var - Data
+          var dataNavContent = jsonTasksContent.header.nav;
 
-          /*
+        /* --------------------------------------------- */
+        /* ➡️🟥 Step 2
+        /* > Get New Radio Ids from json
+        /* --------------------------------------------- */
 
-            1. hole radios aus json
-            2. schaue ob die existieren in addPoint - falls ja, erstelle nur labels
+          // New Radio Ids
+          var newRadioIds = [];
 
-          */
+          // Get New Radio Ids
+          for( let i=0; i < dataNavContent.length; i++ ) {
 
-        /* ---------------------------------------------------------- */
-        /* 👷 Static | New Dummy Radio Array ( dont exist)
-        /* ---------------------------------------------------------- */
-
-          const radioArray = [
-            document.createElement('input'),
-            document.createElement('input'),
-            document.createElement('input')
-          ];
-
-          radioArray.forEach((radio, index) => {
-            radio.type = 'radio';         // Macht es zu einem Radio-Button
-            radio.name = 'gruppe1';       // Gleicher Name verknüpft sie als Gruppe
-            radio.value = 'wert' + index; // Eindeutiger Wert für jeden Button
-
-          });
-
-
-          // console.log("radioArray = " + radioArray.length )
-
-        /* ---------------------------------------------------------- */
-        /* 👷 Dynamic | New Dummy Radio Array ( dont exist)
-        /* ---------------------------------------------------------- */
-
-          var newRadios = [];
-
-          for( let i=0; i < 3; i++) {
-
-
-            if( i != 2) {
-
-              newRadios.push( await asyncCreateRadio( "id-"+i, "Name-X", false ) );
-
-            } else {
-
-              newRadios.push( await asyncCreateRadio( "id-"+i, "Name-X", true ) );
-
-            }
+            newRadioIds.push( dataNavContent[i].radio.id )
+            console.log("RadioIDs: " + newRadioIds[i])
 
           }
 
-          console.log("newRadios Length = " + newRadios.length )
+        /* --------------------------------------------------------- */
+        /* ➡️🟥 Step 3
+        /* > Check & Create New Radios "Prepend" to Element
+        /* --------------------------------------------------------- */
 
+          var existRadioIds = "";
 
-          // exist yes = dont create radios , no = create radios
-          var existRadios = "";
-          existRadios = await asyncExistRadiosInElement( newRadios, rowContainerCodingsContent );
+          existRadioIds= await asyncExistIdStringsInElement( newRadioIds, rowContainerCodingsContent );
+          console.log("👷 existRadioIds: " + existRadioIds)
 
+          // Check
+          if( !existRadioIds ) {
 
-          if( !existRadios ) {
+            console.log("✳️🔩 Create Radios")
 
-            console.log("🟩🔩 Create Radios")
+            // Test Print
+            console.log("### Following Radios will be added:")
+            newRadioIds.forEach(element => {
 
-            // 1. Create New Radios
-
-            newRadios.forEach(element => {
-
-              console.log(element.getAttribute("id"))
+              console.log(element)
 
             });
 
-            // 2. Prepend New Radios To Element
+
+            // New Radio Ids
+            var newRadios = [];
+
+            // Create New Radios from Json
+            for( let i=0; i < dataNavContent.length; i++ ) {
+
+              newRadios.push( await asyncCreateRadio( dataNavContent[i].radio.id,
+                                                      dataNavContent[i].radio.name,
+                                                      dataNavContent[i].radio.checked ) )
+
+            }
+
+            console.log("🏁 New Radios Created = " + newRadios.length )
+
+            // Add All New Radios to Element
             await asyncPrependRadiosToElement( newRadios, rowContainerCodingsContent );
-
-            // Test Append
-            // await asyncAppendRadiosToElement( newRadios, rowContainerCodingsContent );
-
-
 
 
           } else {
+
             console.log("❌🔩 Dont Create Radios")
+
           }
 
 
-        /*
 
-
-          0. Check if Create Radio dont exist
-          1. Create Radio Prepend To
-
-            + css styles extra für diese element machen
-            name= name-radio-codings-header-nav:checked | radio-codings-header-nav-java-basics | java-advanced | ...
-
-        */
-
-
-
-      // 🟥 2. Create Nav Labels from Codings Header Tasks
-      /* ----------------------------------------------------- */
-      /* 🟥 [2/2] | Check Exist Radios on Add Point ?
-      /* ----------------------------------------------------- */
-
-
+        /* --------------------------------------------- */
+        /* 🟥 Step 3
+        /* > Add New Radios if dont exist
+        /* --------------------------------------------- */
 
 
 
