@@ -30,7 +30,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -51,7 +51,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Communications",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -71,7 +71,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Data & Security",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -91,7 +91,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -111,7 +111,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Debugging",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 

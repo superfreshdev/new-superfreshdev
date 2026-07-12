@@ -30,7 +30,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -50,7 +50,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Rag & Vector DBs",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -70,7 +70,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Spring AI & LangChain4j",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 
@@ -90,7 +90,7 @@
           "statusIconFilename": "black-fire-1.png",
           "cssClassStatusIcon": "img-h-0-9",
           "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counters"
+          "cssClassCounters": "codings-task-header-nav-item-counter-box"
 
         }
 

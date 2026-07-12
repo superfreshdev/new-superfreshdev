@@ -1,4 +1,4 @@
-// console.log("🟨 supdate-codings-task-header.js")
+// console.log("🟨 update-codings-task-header.js")
 
 // ⚠️ Reminder: Create First than Add Change Listener
 
@@ -10,6 +10,9 @@
   /* Header
   /* --------------------------------------- */
 
+    // add point - radios
+    var rowContainerCodingsContent = document.getElementById("row-container-codings-content");
+
     // header - title
     var domCodingsHeaderTitle = document.getElementById("codings-task-header-title");
     // header - time block
@@ -18,13 +21,11 @@
     var domCodingsHeaderImg = document.getElementById("codings-header-img");
 
   /* --------------------------------------- */
-  /* Header Navs
+  /* Header Nav
   /* --------------------------------------- */
 
-    var rowContainerCodingsContent = document.getElementById("row-container-codings-content");
-
-    var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
-    // console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
+    // add point - radio labels
+    var codingsTaskHeaderNav = document.getElementById("codings-task-header-nav")
 
 
 /* -------------------------------------------------------------------- */
@@ -93,94 +94,20 @@
 
 
     /* ---------------------------------------------------------- */
-    /* ➡️🟥 Step 4:
-    /* > Update / Create | Header Codings Tasks - Nav
+    /* 🟩 Step 4:
+    /* > Create New Codings Task Header Nav - Radios
     /* ---------------------------------------------------------- */
 
-      /* ----------------------------------------------------- */
-      /* ➡️🟥 [1/2] | Create New Radios to Element
-      /* ----------------------------------------------------- */
+      var dataHeaderNav = jsonTasksContent.header.nav;
+      await asyncPrependNewRadiosToCodingsTaskHeaderContent( dataHeaderNav, rowContainerCodingsContent )
 
-        /* --------------------------------------------- */
-        /* ➡️🟥 Step 1
-        /* > Get Data - Header Nav
-        /* --------------------------------------------- */
+    /* ---------------------------------------------------------- */
+    /* ➡️🟥 Step 5:
+    /* > Replace New Codings Task Header Nav Labels
+    /* ---------------------------------------------------------- */
 
-          // Var - Data
-          var dataNavContent = jsonTasksContent.header.nav;
-
-        /* --------------------------------------------- */
-        /* ➡️🟥 Step 2
-        /* > Get New Radio Ids from json
-        /* --------------------------------------------- */
-
-          // New Radio Ids
-          var newRadioIds = [];
-
-          // Get New Radio Ids
-          for( let i=0; i < dataNavContent.length; i++ ) {
-
-            newRadioIds.push( dataNavContent[i].radio.id )
-            console.log("RadioIDs: " + newRadioIds[i])
-
-          }
-
-        /* --------------------------------------------------------- */
-        /* ➡️🟥 Step 3
-        /* > Check & Create New Radios "Prepend" to Element
-        /* --------------------------------------------------------- */
-
-          var existRadioIds = "";
-
-          existRadioIds= await asyncExistIdStringsInElement( newRadioIds, rowContainerCodingsContent );
-          console.log("👷 existRadioIds: " + existRadioIds)
-
-          // Check
-          if( !existRadioIds ) {
-
-            console.log("✳️🔩 Create Radios")
-
-            // Test Print
-            console.log("### Following Radios will be added:")
-            newRadioIds.forEach(element => {
-
-              console.log(element)
-
-            });
-
-
-            // New Radio Ids
-            var newRadios = [];
-
-            // Create New Radios from Json
-            for( let i=0; i < dataNavContent.length; i++ ) {
-
-              newRadios.push( await asyncCreateRadio( dataNavContent[i].radio.id,
-                                                      dataNavContent[i].radio.name,
-                                                      dataNavContent[i].radio.checked ) )
-
-            }
-
-            console.log("🏁 New Radios Created = " + newRadios.length )
-
-            // Add All New Radios to Element
-            await asyncPrependRadiosToElement( newRadios, rowContainerCodingsContent );
-
-
-          } else {
-
-            console.log("❌🔩 Dont Create Radios")
-
-          }
-
-
-
-        /* --------------------------------------------- */
-        /* 🟥 Step 3
-        /* > Add New Radios if dont exist
-        /* --------------------------------------------- */
-
-
+      var dataTaskCategories = jsonTasksContent.taskCategories;
+      await asyncReplaceNewLabelsFromCodingsTaskHeaderNav( dataHeaderNav, dataTaskCategories, codingsTaskHeaderNav )
 
 
 
@@ -202,6 +129,9 @@
   /* ---------------------------------------------------------------- */
   /* [2/2] | Radio Change - Codings Task Header Nav
   /* ---------------------------------------------------------------- */
+
+  var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
+  // console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
 
   // Radio Change Listener
   for( let i=0; i < codingsHeaderNavRadios.length; i++ ) {

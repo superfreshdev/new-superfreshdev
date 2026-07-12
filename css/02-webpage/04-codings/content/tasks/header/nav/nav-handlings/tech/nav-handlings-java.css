@@ -19,10 +19,10 @@
 }
 
 /* border left - counters */
-#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"] .codings-task-header-nav-item-counters,
-#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-advanced"] .codings-task-header-nav-item-counters,
-#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"] .codings-task-header-nav-item-counters,
-#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"] .codings-task-header-nav-item-counters {
+#radio-codings-header-nav-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-basics"] .codings-task-header-nav-item-counter-box,
+#radio-codings-header-nav-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-advanced"] .codings-task-header-nav-item-counter-box,
+#radio-codings-header-nav-libs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-libs"] .codings-task-header-nav-item-counter-box,
+#radio-codings-header-nav-debugging:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-header-nav-debugging"] .codings-task-header-nav-item-counter-box {
 
   border-left: 1px solid rgb(173, 173, 173);
 
