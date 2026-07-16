@@ -16,12 +16,26 @@
 }
 
 /* ---------------------------------------------------------------- */
+/* Category List Container | Codings Task Card Main
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-category-list-container {
+
+  display: flex;
+  column-gap: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
 /* Category List | Codings Task Card Main
 /* ---------------------------------------------------------------- */
 
 .codings-task-card-category-list {
 
-  line-height: 1.3em;
+  /* layout pos fix - one line feels not in the middle of context */
+  padding-bottom: .17em;
+
+  line-height: 1em;
 
   display: flex;
   align-items: center;
@@ -56,7 +70,7 @@
 }
 
 /* Div | Text */
-.codings-task-card-category-list > div {
+.codings-task-card-category-list > div > span {
 
   font-size: 12.5px;
 
@@ -66,12 +80,65 @@
 /* Img | Bullet Points */
 .codings-task-card-category-list > img {
 
+  /* layout pos fix */
+  margin-top: 3px;
+
   height: .28em;
   opacity: .4;
 
 }
 
 /* ---------------------------------------------------------------- */
+/* Icon Info Box | Category List
+/* ---------------------------------------------------------------- */
+
+.task-category-icon-info-box {
+
+  min-width: 2em;
+  height: 1.7em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+
+}
+
+.task-category-icon-info-box > img {
+
+  opacity: .5;
+
+}
+
+/* In Progress */
+.codings-task-card-in-progress .task-category-icon-info-box  {
+
+  border: 1px solid rgb(230, 192, 96);
+  background-color: rgb(251, 217, 132);
+
+}
+
+/* Later */
+.codings-task-card-later .task-category-icon-info-box  {
+
+  border: 1px solid #c3c3c3;
+  background-color: #e3e3e3;
+
+}
+
+/* Done */
+.codings-task-card-done .task-category-icon-info-box  {
+
+  border: 1px solid rgb(113, 185, 113);
+  background-color: rgb(136, 216, 136);
+
+}
+
+
+
+/*-------------------------------------------------------------- */
 /* Title | Codings Task Card Main
 /* ---------------------------------------------------------------- */
 
