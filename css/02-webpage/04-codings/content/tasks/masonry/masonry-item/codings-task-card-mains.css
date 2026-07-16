@@ -94,8 +94,8 @@
 
 .task-category-icon-info-box {
 
-  min-width: 2em;
-  height: 1.7em;
+  min-width: 1.8em;
+  height: 1.8em;
 
   display: flex;
   align-items: center;
@@ -108,7 +108,7 @@
 
 .task-category-icon-info-box > img {
 
-  opacity: .5;
+  opacity: .3;
 
 }
 

@@ -14,90 +14,68 @@
     "timeLimit": "30-120 Min.🍎",
     "imgFilename": "coding-java.png",
 
-    "nav": [
+    "nav": {
 
-      {
-        "radio": {
+      "radios": [
 
+        {
           "id": "radio-codings-java-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
+        {
           "id": "radio-codings-java-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
+        {
           "id": "radio-codings-java-libs",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
-        },
-
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Libs",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
         }
 
-      },
+      ],
 
-      {
-        "radio": {
+      "labels": {
 
-          "id": "radio-codings-java-debugging",
-          "name": "name-radio-codings-header-nav-tech-algos-challenges",
-          "checked": "false"
+        "status": {
+
+          "inProgress": {
+
+            "cssClass": "codings-task-header-nav-item-in-progress",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "later": {
+
+            "cssClass": "codings-task-header-nav-item-later",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "done": {
+
+            "cssClass": "codings-task-header-nav-item-done",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          }
+
         },
 
-        "label": {
+        "textCategories": [ "Basics", "Advanced", "Libs" ],
 
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Debugging",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
+        "counterBoxCssClass": "codings-task-header-nav-item-counter-box"
 
-        }
 
       }
 
-
-    ]
+    }
 
   },
 

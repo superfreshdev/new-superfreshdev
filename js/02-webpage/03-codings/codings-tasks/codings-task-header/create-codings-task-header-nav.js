@@ -1,5 +1,13 @@
+/* -------------------------------------------------------------------- */
 // console.log("🟨 create-codings-task-header-nav.js")
+/* -------------------------------------------------------------------- */
+/* > Create Nav Elements - Radios + Labels
+/* -------------------------------------------------------------------- */
 
+
+/* -------------------------------------------------------------------- */
+/* 🏠 DOM Elements
+/* -------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------- */
 /* 🔩 Functions
@@ -9,7 +17,7 @@
   // 🟩 1. Creat Radios
   /* --------------------------------------------------------- */
 
-    async function asyncPrependNewRadiosToCodingsTaskHeaderContent( jsonHeaderNav, addPoint ) {
+    async function asyncPrependNewRadiosToCodingsTaskHeaderContent( jsonHeaderNavRadios, addPoint ) {
 
 
       /* --------------------------------------------- */
@@ -21,9 +29,9 @@
         var newRadioIds = [];
 
         // Get New Radio Ids
-        for( let i=0; i < jsonHeaderNav.length; i++ ) {
+        for( let i=0; i < jsonHeaderNavRadios.length; i++ ) {
 
-          newRadioIds.push( jsonHeaderNav[i].radio.id )
+          newRadioIds.push( jsonHeaderNavRadios[i].id )
           console.log("RadioIDs: " + newRadioIds[i])
 
         }
@@ -57,11 +65,11 @@
           var newRadios = [];
 
           // Create New Radios from Json
-          for( let i=0; i < jsonHeaderNav.length; i++ ) {
+          for( let i=0; i < jsonHeaderNavRadios.length; i++ ) {
 
-            newRadios.push( await asyncCreateRadio( jsonHeaderNav[i].radio.id,
-                                                    jsonHeaderNav[i].radio.name,
-                                                    jsonHeaderNav[i].radio.checked ) )
+            newRadios.push( await asyncCreateRadio( jsonHeaderNavRadios[i].id,
+                                                    jsonHeaderNavRadios[i].name,
+                                                    jsonHeaderNavRadios[i].checked ) )
 
           }
 
@@ -77,6 +85,25 @@
 
         }
 
+      return new Promise(resolve => {
+        resolve( );
+      })
+
+    }
+
+
+  /* --------------------------------------------------------- */
+  // ➡️🟥 Create Label | Codings Task Header Nav
+  /* --------------------------------------------------------- */
+
+    async function asyncCreateCodingsTaskHeaderNavLabel( defaultIconPath, dataNav, dataTaskCategories ) {
+
+      console.log("⚒️ Create Label - Codings Task Header Nav")
+      console.log("➡️ def.iconPath: " + defaultIconPath )
+      console.log("➡️ dataNav: " + dataNav )
+      console.log("➡️ dataTaskCategories: " + dataTaskCategories )
+
+
 
       return new Promise(resolve => {
         resolve( );
@@ -85,73 +112,69 @@
     }
 
   /* --------------------------------------------------------- */
-  /* 🔩 Help Function
-  /* 🟩 Get Finished Task Number by Category
+  /* 🟥 Update - Codings Task Header Nav
   /* --------------------------------------------------------- */
 
-    async function asyncGetFinishedTasksNumber( dataTasks ) {
+    async function asyncUpdateCodingsTaskHeaderNav( jsonTaskContent, navAddPoint ) {
 
-      var finishedTasks = 0;
+      console.log("❇️ Update - Codings Task Header Nav")
+      console.log("➡️ jsonTaskContent: " + jsonTaskContent)
+      console.log("➡️ navAddPoint: " + navAddPoint)
 
-      // only count if status done found
-      for( let i=0; i < dataTasks.length; i++ ) {
+      /* ---------------------------------------------------- */
+      /* 🟩 Step 1/4
+      /* > Get Default Icon Path
+      /* ---------------------------------------------------- */
 
-        // counter found
-        if( dataTasks[i].header.status.cssClassSticker == "codings-task-card-status-sticker-done") {
+        var iconPathBlack = jsonTaskContent.paths.iconBlack;
 
-          finishedTasks++;
+      /* ---------------------------------------------------- */
+      /* 🟩 Step 2/4
+      /* > Get Data Nav
+      /* ---------------------------------------------------- */
+
+        var dataNav = jsonTaskContent.header.nav;
+        var maxNavItems = dataNav.length;
+
+      /* ---------------------------------------------------- */
+      /* 🟩 Step 3/4
+      /* > Get Data Task Categories ( finished & max tasks )
+      /* ---------------------------------------------------- */
+
+        var dataTaskCategories = jsonTaskContent.taskCategories;
+
+      /* ---------------------------------------------------- */
+      /* ➡️🟥 Step 4/4
+      /* > Create All "Special Labels" to "navAddPoint"
+      /* ---------------------------------------------------- */
+
+        var newLabels = [];
+
+        for( let i=0; i < maxNavItems; i++ ) {
+
+          // Create "New Label"
+          console.log("dataNav = " + i);
+
+          newLabels.push( await asyncCreateCodingsTaskHeaderNavLabel( iconPathBlack, dataNav[i], dataTaskCategories )  )
+
+          // Add "New Label" to "navAddPoint"
 
         }
 
-      }
-
-      return new Promise(resolve => {
-        resolve( finishedTasks );
-      })
-
-    }
-
-  /* --------------------------------------------------------- */
-  /* 🔩 Help Function
-  /* 🟩 Get Max Task Numbers by Category
-  /* --------------------------------------------------------- */
-
-    async function asyncGetMaxTasksNumber( dataTasks ) {
-
-      var maxTaskNr = dataTasks.length;
-
-      return new Promise(resolve => {
-        resolve( maxTaskNr );
-      })
-
-    }
-
-
-  /* --------------------------------------------------------- */
-  /* 🔩 Help Function
-  /* ➡️🟥 Create Codings Task Header Nav Label
-  /* --------------------------------------------------------- */
-
-    async function asyncCreateCodingsTaskHeaderNavLabel( idString, dataLabel, finishedNr, maxNr) {
-
-      console.log("-------------")
-      console.log("⚒️ Build - Label")
-      console.log("idString: " + idString);
-      console.log("dataLabel: " + dataLabel);
-      console.log("finishedNr: " + finishedNr);
-      console.log("maxNr: " + maxNr);
-
-
       return new Promise(resolve => {
         resolve( );
       })
 
     }
 
+
+
+
   /* --------------------------------------------------------- */
-  // ➡️🟥 3. Create Labels
+  // ➡️🟥 2. Create Labels
   /* --------------------------------------------------------- */
 
+    // ❌
     async function asyncReplaceNewLabelsFromCodingsTaskHeaderNav( jsonHeaderNav, jsonTaskCategories, addPoint ) {
 
       console.log("🟨asyncReplaceNewLabelsFromCodingsTaskHeaderNav()");
@@ -207,7 +230,9 @@
             radioId = jsonHeaderNav[i].radio.id;
 
             // create new labels
-            newLabels.push ( await asyncCreateCodingsTaskHeaderNavLabel( radioId, jsonHeaderNav[i], finishedTasks[i], maxTasks[i]) )
+            newLabels.push ( await asyncCreateCodingsTaskHeaderNavLabel( radioId, jsonHeaderNav[i].label, finishedTasks[i], maxTasks[i]) )
+
+            await asyncPrependElementTo( newLabels[i], codingsTaskHeaderNav )
 
           }
 

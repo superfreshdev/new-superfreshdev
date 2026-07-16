@@ -25,23 +25,15 @@
 
 /* ---------------------------------------------------------------- */
 /* Async Function
-/* > Append Radios to Element
+/* > General | Append Element to Add Point
 /* ---------------------------------------------------------------- */
 
- // ❌ bugy
- async function asyncAppendRadiosToElement( radios, toElement ) {
+ async function asyncPrependElementTo( element, addPoint ) {
 
     // console.log("🟪 asyncCreateRadiosPrepandTo()")
-    console.log("➡️ radios = " +  radios.length );
+    console.log("➡️ element = " + element );
 
-    for( let i=0; i < radios.length; i++ ) {
-
-      toElement.append( radios[i] )
-
-    }
-
-    console.log("💫 Adding " + radios.length + " to toElement ")
-
+    addPoint.prepend( element )
 
   return new Promise(resolve => {
       resolve();

@@ -28,6 +28,8 @@
     var codingsTaskHeaderNav = document.getElementById("codings-task-header-nav")
 
 
+
+
 /* -------------------------------------------------------------------- */
 /* 👾 Variables
 /* -------------------------------------------------------------------- */
@@ -38,7 +40,7 @@
 /* -------------------------------------------------------------------- */
 
   // Update - Codings Task Header
-  async function updateCodingsTaskHeader( jsonTasksContent, headerElement ) {
+  async function updateCodingsTaskHeader( jsonTaskContent, headerElement ) {
 
     console.log("🟨 updateCodingsTaskHeader() ")
 
@@ -47,16 +49,16 @@
     /* > Try to get json
     /* ---------------------------------------------------------- */
 
-      var jsonTasksContent = await async_getJsonFile( jsonTasksContent )
+      var jsonTaskContent = await async_getJsonFile( jsonTaskContent )
 
     /* ---------------------------------------------------------- */
     /* 🟨 Step 2:
     /* > Get Default Paths
     /* ---------------------------------------------------------- */
 
-      var pathIconBlack = jsonTasksContent.paths.iconBlack;
-      var pathIconGrey = jsonTasksContent.paths.iconGrey;
-      var pathImgHeader = jsonTasksContent.paths.imgCodingTaskHeader;
+      // var pathIconBlack = jsonTaskContent.paths.iconBlack;
+      // var pathIconGrey = jsonTaskContent.paths.iconGrey;
+      var pathImgHeader = jsonTaskContent.paths.imgCodingTaskHeader;
 
       // console.log("----------------------------")
       // console.log("📃 Default Paths:  ")
@@ -73,9 +75,9 @@
     /* ---------------------------------------------------------- */
 
       // Var - Data
-      var headerTitle = jsonTasksContent.header.title;
-      var headerTimeLimit = jsonTasksContent.header.timeLimit;
-      var fullPathImgHeader = pathImgHeader + jsonTasksContent.header.imgFilename;
+      var headerTitle = jsonTaskContent.header.title;
+      var headerTimeLimit = jsonTaskContent.header.timeLimit;
+      var fullPathImgHeader = pathImgHeader + jsonTaskContent.header.imgFilename;
 
       // console.log("📃 Header Data:  ")
       // console.log("➡️ headerTitle: " + headerTitle )
@@ -94,22 +96,19 @@
 
 
     /* ---------------------------------------------------------- */
-    /* 🟩 Step 4:
-    /* > Create New Codings Task Header Nav - Radios
+    /* ➡️🟥 Step 4:
+    /* > Create Once | New Codings Task Header | Nav - Radios
     /* ---------------------------------------------------------- */
 
-      var dataHeaderNav = jsonTasksContent.header.nav;
-      await asyncPrependNewRadiosToCodingsTaskHeaderContent( dataHeaderNav, rowContainerCodingsContent )
+      var dataHeaderNavRadios = jsonTaskContent.header.nav.radios;
+      await asyncPrependNewRadiosToCodingsTaskHeaderContent( dataHeaderNavRadios, rowContainerCodingsContent )
 
     /* ---------------------------------------------------------- */
-    /* ➡️🟥 Step 5:
-    /* > Replace New Codings Task Header Nav Labels
+    /* 🟥 Step 5:
+    /* > Update | Codings Task Header | Nav
     /* ---------------------------------------------------------- */
 
-      var dataTaskCategories = jsonTasksContent.taskCategories;
-      await asyncReplaceNewLabelsFromCodingsTaskHeaderNav( dataHeaderNav, dataTaskCategories, codingsTaskHeaderNav )
-
-
+      // await asyncUpdateCodingsTaskHeaderNav( jsonTaskContent, codingsTaskHeaderNav )
 
 
     return new Promise(resolve => {

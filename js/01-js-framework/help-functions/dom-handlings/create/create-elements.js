@@ -34,3 +34,58 @@
     })
 
  }
+
+/* ---------------------------------------------------------------- */
+/* ➡️🟥 Async Function
+/* > Create Label
+/* ---------------------------------------------------------------- */
+
+  async function asyncCreateLabel( strFor, strCssClass ) {
+
+    console.log("⭐ strFor: " + strFor )
+    console.log("⭐ strCssClass : " + strCssClass  )
+
+    // Create Radio Element
+    var newLabel = document.createElement("label");
+
+    return new Promise(resolve => {
+      resolve( newLabel );
+    })
+
+ }
+
+/* ---------------------------------------------------------------- */
+/* 🟩 Async Function
+/* > Create Div
+/* ---------------------------------------------------------------- */
+
+ async function asyncCreateDiv() {
+
+  // Create Radio Element
+  var newDiv = document.createElement("div");
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+ }
+
+/* ---------------------------------------------------------------- */
+/* 🟥 Async Function
+/* > Create Div Css Class
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* 🟥 Async Function
+/* > Create Div with DivText
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* 🟥 Async Function
+/* > Create Div with SpanText
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* 🟥 Async Function
+/* > Create Div with Img
+/* ---------------------------------------------------------------- */

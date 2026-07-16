@@ -14,90 +14,73 @@
     "timeLimit": "30-120 Min.🍎",
     "imgFilename": "coding-ai.png",
 
-    "nav": [
+    "nav": {
 
-      {
-        "radio": {
+      "radios": [
 
+        {
           "id": "radio-codings-ai-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
+        {
           "id": "radio-codings-ai-rag-vectordbs",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
-
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Rag & Vector DBs",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
-          "id": "radio-codings-ai-spring-ai-langchain4j",
+        {
+          "id": "radio-codings-ai-langchain4j",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
-
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Spring AI & LangChain4j",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
+        {
           "id": "radio-codings-ai-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
+        }
+
+      ],
+
+      "labels": {
+
+        "status": {
+
+          "inProgress": {
+
+            "cssClass": "codings-task-header-nav-item-in-progress",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "later": {
+
+            "cssClass": "codings-task-header-nav-item-later",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "done": {
+
+            "cssClass": "codings-task-header-nav-item-done",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          }
+
         },
 
-        "label": {
+        "textCategories": [ "Basics", "Rag-VectorDbs", "LangChain4j", "Advanced" ],
 
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
+        "counterBoxCssClass": "codings-task-header-nav-item-counter-box"
 
-        }
 
       }
 
+    }
 
-    ]
 
   },
 

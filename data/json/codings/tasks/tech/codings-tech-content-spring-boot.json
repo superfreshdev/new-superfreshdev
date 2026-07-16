@@ -14,111 +14,74 @@
     "timeLimit": "30-120 Min.🍎",
     "imgFilename": "coding-spring-boot.png",
 
-    "nav": [
+    "nav": {
 
-      {
-        "radio": {
+      "radios": [
 
+        {
           "id": "radio-codings-spring-boot-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-
-      {
-        "radio": {
-
-          "id": "radio-codings-spring-boot-comunications",
+        {
+          "id": "radio-codings-spring-boot-communications",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Communications",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
+        {
           "id": "radio-codings-spring-boot-data-security",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Data & Security",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
-          "id": "radio-codings-spring-boot-advanced",
+        {
+          "id": "radio-codings-spring-boot-ai-cloud",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
-        },
-
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
         }
 
-      },
+      ],
 
-      {
-        "radio": {
+      "labels": {
 
-          "id": "radio-codings-spring-boot-debugging",
-          "name": "name-radio-codings-header-nav-tech-algos-challenges",
-          "checked": "false"
+        "status": {
+
+          "inProgress": {
+
+            "cssClass": "codings-task-header-nav-item-in-progress",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "later": {
+
+            "cssClass": "codings-task-header-nav-item-later",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "done": {
+
+            "cssClass": "codings-task-header-nav-item-done",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          }
+
         },
 
-        "label": {
+        "textCategories": [ "Basics", "Communications", "Data-Security", "Cloud-AI" ],
 
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Debugging",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
+        "counterBoxCssClass": "codings-task-header-nav-item-counter-box"
 
-        }
 
       }
 
-
-    ]
+    }
 
   },
 

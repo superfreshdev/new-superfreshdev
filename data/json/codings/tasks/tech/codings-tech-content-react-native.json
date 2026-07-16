@@ -14,70 +14,74 @@
     "timeLimit": "30-120 Min.🍎",
     "imgFilename": "coding-react-native.png",
 
-    "nav": [
+     "nav": {
 
-      {
-        "radio": {
+      "radios": [
 
+        {
           "id": "radio-codings-react-native-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
-          "id": "radio-codings-react-native-features",
+        {
+          "id": "radio-codings-react-native-native-features",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Native Features",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
-          "id": "radio-codings-react-native-advanced",
+        {
+          "id": "radio-codings-react-native-data-storange",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
+        {
+          "id": "radio-codings-react-native-stylings",
+          "name": "name-radio-codings-header-nav-tech-algos-challenges",
+          "checked": "false"
         }
+
+      ],
+
+      "labels": {
+
+        "status": {
+
+          "inProgress": {
+
+            "cssClass": "codings-task-header-nav-item-in-progress",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "later": {
+
+            "cssClass": "codings-task-header-nav-item-later",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "done": {
+
+            "cssClass": "codings-task-header-nav-item-done",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          }
+
+        },
+
+        "textCategories": [ "Basics", "Native Features", "Data & Storage", "Stylings" ],
+
+        "counterBoxCssClass": "codings-task-header-nav-item-counter-box"
+
 
       }
 
-
-    ]
+    }
 
   },
 

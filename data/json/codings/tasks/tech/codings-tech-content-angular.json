@@ -14,70 +14,76 @@
     "timeLimit": "30-120 Min.🍎",
     "imgFilename": "coding-angular.png",
 
-    "nav": [
+    "nav": {
 
-      {
-        "radio": {
+      "radios": [
 
+        {
           "id": "radio-codings-angular-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-in-progress",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Basics",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
+        {
           "id": "radio-codings-angular-state-routing",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "State & Routing",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
-        }
-
-      },
-
-      {
-        "radio": {
-
-          "id": "radio-codings-angular-advanced",
+        {
+          "id": "radio-codings-angular-rgxjs-ngrx",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
-        "label": {
-
-          "cssClass": "codings-task-header-nav-item-later",
-          "statusIconFilename": "black-fire-1.png",
-          "cssClassStatusIcon": "img-h-0-9",
-          "categoryText": "Advanced",
-          "cssClassCounters": "codings-task-header-nav-item-counter-box"
-
+        {
+          "id": "radio-codings-python-advanced",
+          "name": "name-radio-codings-header-nav-tech-algos-challenges",
+          "checked": "false"
         }
+
+      ],
+
+      "labels": {
+
+        "status": {
+
+          "inProgress": {
+
+            "cssClass": "codings-task-header-nav-item-in-progress",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "later": {
+
+            "cssClass": "codings-task-header-nav-item-later",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          },
+
+          "done": {
+
+            "cssClass": "codings-task-header-nav-item-done",
+            "iconFilename": "black-fire-1.png",
+            "iconCssClass": "img-h-0-9"
+
+          }
+
+        },
+
+        "textCategories": [ "Basics", "State Routing", "RxJS & NgRX", "Advanced" ],
+
+        "counterBoxCssClass": "codings-task-header-nav-item-counter-box"
+
 
       }
 
+    }
 
-    ]
+
 
   },
 
