@@ -40,25 +40,25 @@
 
           "inProgress": {
 
-            "cssClass": "codings-task-header-nav-item-in-progress",
-            "iconFilename": "black-fire-1.png",
-            "iconCssClass": "img-h-0-9"
+          "cssClass": "codings-task-header-nav-item-in-progress",
+          "iconFilename": "black-fire-1.png",
+          "iconCssClass": "img-h-0-9"
 
           },
 
           "later": {
 
             "cssClass": "codings-task-header-nav-item-later",
-            "iconFilename": "black-fire-1.png",
-            "iconCssClass": "img-h-0-9"
+            "iconFilename": "black-arrow-right.png",
+            "iconCssClass": "img-h-0-8"
 
           },
 
           "done": {
 
             "cssClass": "codings-task-header-nav-item-done",
-            "iconFilename": "black-fire-1.png",
-            "iconCssClass": "img-h-0-9"
+            "iconFilename": "black-small-correct.png",
+            "iconCssClass": "img-h-0-6"
 
           }
 
@@ -89,10 +89,10 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "cssClassSticker": "codings-task-card-status-sticker-later",
+              "filenameIcon": "black-arrow-right.png",
+              "cssClassIcon": "img-h-0-7",
+              "statusText": "later"
 
             },
 
@@ -138,10 +138,10 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "cssClassSticker": "codings-task-card-status-sticker-later",
+              "filenameIcon": "black-arrow-right.png",
+              "cssClassIcon": "img-h-0-7",
+              "statusText": "later"
 
             },
 
@@ -196,10 +196,10 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "cssClassSticker": "codings-task-card-status-sticker-later",
+              "filenameIcon": "black-arrow-right.png",
+              "cssClassIcon": "img-h-0-7",
+              "statusText": "later"
 
             },
 
@@ -245,10 +245,58 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
+              "cssClassSticker": "codings-task-card-status-sticker-later",
+              "filenameIcon": "black-arrow-right.png",
+              "cssClassIcon": "img-h-0-7",
+              "statusText": "later"
+
+            },
+
+            "timeLimit": "120 Min."
+
+          },
+
+          "main": {
+
+
+            "categoryList": {
+
+              "categoryIconSeperator": "black-bullet.png",
+              "items": ["Bank 🏠","Insurance 💫"]
+            },
+
+            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+
+
+          },
+
+          "footer": {
+
+            "githubLink": {
+
+              "href": "www.google.de",
+              "filenameIcon": "black-github.png",
               "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "text": "GitHub"
+
+            }
+
+          }
+
+        },
+
+        {
+
+          "header": {
+
+            "status": {
+
+              "cssClassSticker": "codings-task-card-status-sticker-later",
+              "filenameIcon": "black-arrow-right.png",
+              "cssClassIcon": "img-h-0-7",
+              "statusText": "later"
 
             },
 

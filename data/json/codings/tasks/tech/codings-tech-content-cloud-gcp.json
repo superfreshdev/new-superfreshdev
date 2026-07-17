@@ -49,25 +49,25 @@
 
           "inProgress": {
 
-            "cssClass": "codings-task-header-nav-item-in-progress",
-            "iconFilename": "black-fire-1.png",
-            "iconCssClass": "img-h-0-9"
+          "cssClass": "codings-task-header-nav-item-in-progress",
+          "iconFilename": "black-fire-1.png",
+          "iconCssClass": "img-h-0-9"
 
           },
 
           "later": {
 
             "cssClass": "codings-task-header-nav-item-later",
-            "iconFilename": "black-fire-1.png",
-            "iconCssClass": "img-h-0-9"
+            "iconFilename": "black-arrow-right.png",
+            "iconCssClass": "img-h-0-8"
 
           },
 
           "done": {
 
             "cssClass": "codings-task-header-nav-item-done",
-            "iconFilename": "black-fire-1.png",
-            "iconCssClass": "img-h-0-9"
+            "iconFilename": "black-small-correct.png",
+            "iconCssClass": "img-h-0-6"
 
           }
 
@@ -313,10 +313,10 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "cssClassSticker": "codings-task-card-status-sticker-done",
               "filenameIcon": "black-fire-1.png",
               "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "statusText": "done"
 
             },
 
@@ -362,7 +362,7 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "cssClassSticker": "codings-task-card-status-sticker-done",
               "filenameIcon": "black-fire-1.png",
               "cssClassIcon": "img-h-0-8",
               "statusText": "in progress"
