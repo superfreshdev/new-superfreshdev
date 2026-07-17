@@ -48,6 +48,12 @@
     // Create Radio Element
     var newLabel = document.createElement("label");
 
+    // Set Attribut for
+    newLabel.setAttribute( "for", strFor )
+
+    // Set Attribut class
+    newLabel.setAttribute( "class", strCssClass )
+
     return new Promise(resolve => {
       resolve( newLabel );
     })
@@ -71,14 +77,67 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* 🟥 Async Function
+/* 🟩 Async Function
 /* > Create Div Css Class
 /* ---------------------------------------------------------------- */
 
+  async function asyncCreateDivWithCssClass( cssClass) {
+
+    // Create Radio Element
+    var newDiv = document.createElement("div");
+
+    // Set Attribut - class
+    newDiv.setAttribute( "class", cssClass )
+
+    return new Promise(resolve => {
+      resolve( newDiv );
+    })
+
+ }
+
+
 /* ---------------------------------------------------------------- */
-/* 🟥 Async Function
+/* 🟩 Async Function
 /* > Create Div with DivText
 /* ---------------------------------------------------------------- */
+
+ async function asyncCreateDivWithDivText( text ) {
+
+  // Create Radio Element
+  var newDiv = document.createElement("div");
+
+  var newDivText = document.createElement("div");
+
+  // Add Text to newDivText
+  newDivText.innerText = text;
+
+  // Add "newDivText" to "newDiv"
+  newDiv.appendChild(newDivText);
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+  }
+
+/* ---------------------------------------------------------------- */
+/* 🟩 Async Function
+/* > Create Div with Text
+/* ---------------------------------------------------------------- */
+
+  async function asyncCreateDivWithText( text ) {
+
+  // Create Radio Element
+  var newDiv = document.createElement("div");
+
+  // Add Text to Div
+  newDiv.innerText = text;
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+  }
 
 /* ---------------------------------------------------------------- */
 /* 🟥 Async Function
@@ -86,6 +145,41 @@
 /* ---------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------- */
-/* 🟥 Async Function
+/* 🟩 Async Function
 /* > Create Div with Img
+/* ---------------------------------------------------------------- */
+
+  async function asyncCreateDivWithImg( imgPath, cssClass ) {
+
+    // Create Radio Element
+    var newDiv = document.createElement("div");
+
+    // Create Img Element
+    var newImg = document.createElement("img");
+
+    // Add Attribute - src
+    newImg.setAttribute( "src", imgPath );
+
+    // Add Attribute - alt
+    newImg.setAttribute( "alt", "img" );
+
+    // Add Attribute - class
+    newImg.setAttribute( "class", cssClass );
+
+
+    // Final: Combine Div & Img
+    newDiv.appendChild( newImg );
+
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+ }
+
+
+
+/* ---------------------------------------------------------------- */
+/* 🟥 Async Function
+/* > Create Img
 /* ---------------------------------------------------------------- */

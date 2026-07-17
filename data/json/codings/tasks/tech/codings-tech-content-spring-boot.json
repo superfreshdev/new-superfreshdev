@@ -99,10 +99,10 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "cssClassSticker": "codings-task-card-status-sticker-later",
               "filenameIcon": "black-fire-1.png",
               "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "statusText": "later"
 
             },
 
@@ -148,10 +148,10 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
+              "cssClassSticker": "codings-task-card-status-sticker-later",
               "filenameIcon": "black-fire-1.png",
               "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "statusText": "later"
 
             },
 

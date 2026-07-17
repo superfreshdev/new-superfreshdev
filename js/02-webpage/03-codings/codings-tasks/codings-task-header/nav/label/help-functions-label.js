@@ -4,129 +4,94 @@
 
   /* --------------------------------------------------------- */
   /* 🔩 Help Function
-  /* ➡️🟥 Define Data Status fo
+  /* 🟩 Get Label Status Style from Tasks
   /* --------------------------------------------------------- */
 
-    async function asyncGetStatusDataFromCodingsTaskHeaderNavLabels( dataNav, dataTaskCategories ) {
+    async function asyncGetLabelStatusStyleFromTasks( dataLabelStatusStyles, dataTasks ) {
 
-      console.log("🔩 Find all Correct Status for Labels: ")
-      console.log("dataNav: " + dataNav );
-      console.log("dataTaskCategories: " + dataTaskCategories  );
+      // console.log("dataLabelStatusStyles: " + dataLabelStatusStyles )
+      // console.log("dataTasks(length): " + dataTasks.length )
 
-      // Final Status Datas
-      var finalStatusDatas = [];
+      var labelStatusStyle = "";
+      var statusTask = "";
 
-      /* ------------------------------------------------------------------------------------------ */
-      /* ➡️🟥 Step 1/1:
-      /* > Decide Data Status by status css class ( in progress, later, done )
-      /* ------------------------------------------------------------------------------------------ */
+      var counterInProgress = 0;
+      var counterLater = 0;
+      var counterDone = 0;
 
-        // Data Json & Var
-        var maxTasksCategories = dataTaskCategories.length;
+      // Count Status Arts
+      for( let i=0; i < dataTasks.length; i++ ) {
 
-        var dataTasks = "";
-        var maxTasks = "";
+          statusTask = dataTasks[i].header.status.cssClassSticker;
+          // console.log(i + ": " + statusTask )
 
-        // tmp status for making decisions
-        var statusCssClass = "";
+          // count status tasks
+          switch( statusTask ) {
 
-        // counters to decide
-        var counterInProgress = 0;
-        var counterLater = 0;
-        var counterDone = 0;
+            case "codings-task-card-status-sticker-in-progress":
+              counterInProgress++;
+              break;
 
-        // datas of status label arts
-        var dataStatusLabelArts = dataNav.labels.status;
+            case "codings-task-card-status-sticker-later":
+              counterLater++;
+              break;
 
-
-        // Run each Category and check tasks
-        for( let i=0; i < maxTasksCategories; i++ ) {
-
-          dataTasks = dataTaskCategories[i].tasks;
-          maxTasks = dataTasks.length;
-
-          console.log("🌳🌳 TaskCategory = " + (i+1))
-
-          // run tasks each categories
-          for( let k=0; k < maxTasks; k++ ) {
-
-            statusCssClasses = dataTasks[k].header.status.cssClassSticker;
-
-            /* Check Defintions:
-
-              In Progress: Minimum 1
-              Later: Minimum 1 & Not Any in progress
-              Done: Only if all tasks = done
-
-            */
-            switch( statusCssClasses ) {
-
-              case "codings-task-card-status-sticker-in-progress":
-                counterInProgress++;
-                break;
-
-              case "codings-task-card-status-sticker-later":
-                counterLater++;
-                break;
-
-              case "codings-task-card-status-sticker-done":
-                counterDone++;
-                break;
-
-              default:
-                return;
-            }
+            case "codings-task-card-status-sticker-done":
+              counterDone++;
+              break;
 
           }
 
-          // set status data
-          console.log("➡️ Return Final Status Data: ")
-          if( counterInProgress > 0 ) {
 
-            console.log("🌳 Status Data: In Progress")
-            finalStatusDatas.push( dataStatusLabelArts.inProgress )
+      }
+
+      // Get Status Style
+      if( counterInProgress == 0 && counterLater == 0 && counterDone == 0 ) {
+
+        // not correct json status found
+        // Default: Get Status Style - Later
+        labelStatusStyle = dataLabelStatusStyles.later;
+        // console.log("➡️🟪 labelStatusStyle(0-0-0): " + labelStatusStyle.cssClass )
+
+      } else {
+
+        if( counterInProgress > 0 ) {
+
+          // Get Status Style - In Progress
+          labelStatusStyle = dataLabelStatusStyles.inProgress;
+          // console.log("➡️🟨 labelStatusStyle(inProgress): " + labelStatusStyle.cssClass )
+
+        }
+        else {
+
+          if( counterLater > 0 ) {
+
+            // Get Status Style - Later
+            labelStatusStyle = dataLabelStatusStyles.later;
+            // console.log("➡️🟪 labelStatusStyle(later): " + labelStatusStyle.cssClass )
 
           } else {
 
-            if( counterDone != maxTasks ) {
-
-              console.log("🌳 Status Data: Later")
-              finalStatusDatas.push( dataStatusLabelArts.later )
-
-            } else {
-
-              console.log("🌳 Status Data: Done")
-              finalStatusDatas.push( dataStatusLabelArts.done )
-
-            }
-
+            // Get Status Style - Done
+            labelStatusStyle = dataLabelStatusStyles.done;
+            // console.log("➡️🟩 labelStatusStyle(done): " + labelStatusStyle.cssClass )
 
           }
 
-          console.log("counterInProgress: " + counterInProgress)
-          console.log("counterLater: " + counterLater)
-          console.log("counterDone: " + counterDone)
-          console.log("---------------------")
-
-          // Reset Status for next Category
-          counterInProgress = 0;
-          counterLater = 0;
-          counterDone = 0;
-
-
         }
 
+      }
 
-        console.log("finalStatusData(l): " + finalStatusDatas.length )
-
-
+      // Reset Counters
+      counterInProgress = 0;
+      counterLater = 0;
+      counterDone = 0;
 
       return new Promise(resolve => {
-        resolve( finalStatusDatas );
+        resolve( labelStatusStyle );
       })
 
     }
-
 
   /* --------------------------------------------------------- */
   /* 🔩 Help Function

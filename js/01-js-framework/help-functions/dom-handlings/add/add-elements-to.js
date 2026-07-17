@@ -31,7 +31,7 @@
  async function asyncPrependElementTo( element, addPoint ) {
 
     // console.log("🟪 asyncCreateRadiosPrepandTo()")
-    console.log("➡️ element = " + element );
+    // console.log("➡️ element = " + element );
 
     addPoint.prepend( element )
 
@@ -49,8 +49,8 @@
 
  async function asyncEnsureRadiosPrependTo( dataRadios, addPoint ) {
 
-    console.log("dataRadios(length): " + dataRadios.length )
-    console.log("addPoint: " + addPoint)
+    // console.log("dataRadios(length): " + dataRadios.length )
+    // console.log("addPoint: " + addPoint)
 
     /* -------------------------------------------------- */
     /* 🟩 Step 1/3:
@@ -77,7 +77,7 @@
 
         // atomar check
         existRadioIds = await asyncExistIdStringsInElement( newRadioIds, addPoint );
-        console.log("⁉️ existRadioIds: " + existRadioIds)
+        // console.log("⁉️ existRadioIds: " + existRadioIds)
 
       /* -------------------------------------------------- */
       /* 🟩 Step 3/3:

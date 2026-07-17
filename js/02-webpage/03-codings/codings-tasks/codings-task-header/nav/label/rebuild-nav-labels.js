@@ -10,6 +10,7 @@
 
     async function asyncRebuildCodingsTaskHeaderNavLabels( jsonTaskContent, navAddPoint ) {
 
+      console.log("-------------------")
       console.log("❇️⚒️ Rebuild - Codings Task Header Nav")
       console.log("➡️ jsonTaskContent: " + jsonTaskContent)
       console.log("➡️ navAddPoint: " + navAddPoint)
@@ -40,7 +41,7 @@
         var dataTasks = "";
 
         /* ---------------------------------------------------- */
-        /* 🟥 Step 2/4
+        /* 🟥 Step 1/4
         /* > Clean Up - Delete old Labels from Element
         /* ---------------------------------------------------- */
 
@@ -65,14 +66,19 @@
                                                         dataLabelCategories[i],
                                                         dataTasks ) )
 
+
+            navAddPoint.append( newLabels[i] )
+
           }
 
           console.log("🏁 Final New Labels(length): " + newLabels.length )
 
         /* ---------------------------------------------------- */
-        /* 🟥 Step 4/4:
+        /* ➡️🟥 Step 4/4:
         /* > Add all "New Labels" to "navAddPoint"
         /* ---------------------------------------------------- */
+
+          // await asyncPrependElementTo( newLabels, navAddPoint )
 
 
 

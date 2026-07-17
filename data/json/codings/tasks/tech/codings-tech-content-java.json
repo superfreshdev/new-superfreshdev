@@ -57,7 +57,7 @@
 
             "cssClass": "codings-task-header-nav-item-later",
             "iconFilename": "black-arrow-right.png",
-            "iconCssClass": "img-h-0-6"
+            "iconCssClass": "img-h-0-8"
 
           },
 
@@ -65,7 +65,7 @@
 
             "cssClass": "codings-task-header-nav-item-done",
             "iconFilename": "black-small-correct.png",
-            "iconCssClass": "img-h-0-9"
+            "iconCssClass": "img-h-0-6"
 
           }
 
@@ -551,10 +551,58 @@
 
             "status": {
 
-              "cssClassSticker": "codings-task-card-status-sticker-done",
+              "cssClassSticker": "codings-task-card-status-sticker-later",
               "filenameIcon": "black-fire-1.png",
               "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+              "statusText": "later"
+
+            },
+
+            "timeLimit": "120 Min."
+
+          },
+
+          "main": {
+
+
+            "categoryList": {
+
+              "categoryIconSeperator": "black-bullet.png",
+              "items": ["Bank 🏠","Insurance 💫"]
+            },
+
+            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+
+
+          },
+
+          "footer": {
+
+            "githubLink": {
+
+              "href": "www.google.de",
+              "filenameIcon": "black-github.png",
+              "cssClassIcon": "img-h-0-8",
+              "text": "GitHub"
+
+            }
+
+          }
+
+        },
+
+        {
+
+          "header": {
+
+            "status": {
+
+              "cssClassSticker": "codings-task-card-status-sticker-later",
+              "filenameIcon": "black-fire-1.png",
+              "cssClassIcon": "img-h-0-8",
+              "statusText": "later"
 
             },
 
