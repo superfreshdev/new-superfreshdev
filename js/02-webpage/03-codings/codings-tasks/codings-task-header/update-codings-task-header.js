@@ -39,7 +39,10 @@
 /* 🔩 Functions
 /* -------------------------------------------------------------------- */
 
-  // Update - Codings Task Header
+  /* -------------------------------------------------- */
+  /* Update - Codings Task Header
+  /* -------------------------------------------------- */
+
   async function updateCodingsTaskHeader( jsonTaskContent, headerElement ) {
 
     console.log("🟨 updateCodingsTaskHeader() ")
@@ -97,18 +100,18 @@
 
     /* ---------------------------------------------------------- */
     /* 🟩 Step 4:
-    /* > Create Once | New Codings Task Header | Nav - Radios
+    /* > Create New Radios to Element
     /* ---------------------------------------------------------- */
 
-      var dataHeaderNavRadios = jsonTaskContent.header.nav.radios;
-      await asyncPrependNewRadiosToCodingsTaskHeaderContent( dataHeaderNavRadios, rowContainerCodingsContent )
+      var dataRadios = jsonTaskContent.header.nav.radios;
+      await asyncEnsureRadiosPrependTo( dataRadios, rowContainerCodingsContent );
 
     /* ---------------------------------------------------------- */
     /* ➡️🟥 Step 5:
-    /* > Update | Codings Task Header | Nav
+    /* > Rebuild New Labels to Nav
     /* ---------------------------------------------------------- */
 
-      // await asyncUpdateCodingsTaskHeaderNav( jsonTaskContent, codingsTaskHeaderNav )
+      await asyncRebuildCodingsTaskHeaderNavLabels( jsonTaskContent, codingsTaskHeaderNav )
 
 
     return new Promise(resolve => {
@@ -116,34 +119,3 @@
     })
 
   }
-
-/* -------------------------------------------------------------------- */
-/* Events
-/* -------------------------------------------------------------------- */
-
-  /* ---------------------------------------------------------------- */
-  /* [1/2] | Dom Documented Loaded | First Load Check
-  /* ---------------------------------------------------------------- */
-
-  /* ---------------------------------------------------------------- */
-  /* [2/2] | Radio Change - Codings Task Header Nav
-  /* ---------------------------------------------------------------- */
-
-  var codingsHeaderNavRadios = document.querySelectorAll("input[name='name-radio-codings-header-nav'")
-  // console.log("codingsHeaderNavRadios(length) = " + codingsHeaderNavRadios.length )
-
-  // Radio Change Listener
-  for( let i=0; i < codingsHeaderNavRadios.length; i++ ) {
-
-
-    // Add Radios Change Listeners
-    codingsHeaderNavRadios[i].addEventListener( "change", async() => {
-
-      window.alert(codingsHeaderNavRadios[i].getAttribute("id"))
-
-    }
-
-
-
-
-  )}

@@ -34,7 +34,7 @@
 
       ],
 
-      "labels": {
+      "labelContent": {
 
         "status": {
 
@@ -64,7 +64,7 @@
 
         },
 
-        "textCategories": [ "Basics", "Advanced" ],
+        "categories": [ "Basics", "Advanced" ],
 
         "counterBoxCssClass": "codings-task-header-nav-item-counter-box"
 
