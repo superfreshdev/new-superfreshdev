@@ -17,7 +17,12 @@
       console.log("-------------------")
 
       // default label unshown - dont rebuild
-      var labelUnshownId = "radio-codings-header-nav-unshown";
+      var labelUnshownId = "radio-codings-task-header-unshown";
+
+      // set default - unshown label checked
+      var codingsTaskHeaderLabelUnshown = document.getElementById("radio-codings-task-header-unshown");
+      codingsTaskHeaderLabelUnshown.checked = "true";
+
 
       /* ---------------------------------------------------- */
       /* 🟩 Step 1/4

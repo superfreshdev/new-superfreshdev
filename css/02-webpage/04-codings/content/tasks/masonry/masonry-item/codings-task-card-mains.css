@@ -94,8 +94,8 @@
 
 .task-category-icon-info-box {
 
-  min-width: 1.8em;
-  height: 1.8em;
+  min-width: 1em;
+  /* height: 1.8em; */
 
   display: flex;
   align-items: center;
@@ -108,31 +108,31 @@
 
 .task-category-icon-info-box > img {
 
-  opacity: .3;
+  opacity: .4;
 
 }
 
 /* In Progress */
 .codings-task-card-in-progress .task-category-icon-info-box  {
 
-  border: 1px solid rgb(230, 192, 96);
-  background-color: rgb(251, 217, 132);
+  /* border: 1px solid rgb(230, 192, 96);
+  background-color: rgb(251, 217, 132); */
 
 }
 
 /* Later */
 .codings-task-card-later .task-category-icon-info-box  {
 
-  border: 1px solid #c3c3c3;
-  background-color: #e3e3e3;
+  /* border: 1px solid #c3c3c3;
+  background-color: #e3e3e3; */
 
 }
 
 /* Done */
 .codings-task-card-done .task-category-icon-info-box  {
 
-  border: 1px solid rgb(113, 185, 113);
-  background-color: rgb(136, 216, 136);
+  /* border: 1px solid rgb(113, 185, 113);
+  background-color: rgb(136, 216, 136); */
 
 }
 

@@ -25,7 +25,7 @@
 /* -------------------------------------------------------------------- */
 
   /* ---------------------------------------------------- */
-  /* 🟥 Step 1/2:
+  /* ➡️🟥 Step 1/2:
   /* Dom Documented Loaded | First Load Check
   /* ---------------------------------------------------- */
 
@@ -33,8 +33,28 @@
 
     // Dom Documented Loaded | First Load Check
 
+    document.addEventListener("DOMContentLoaded", async() => {
+
+      // window.alert("(js) - tech-nav-handler: dom-content-loaded")
+
+      /*
+
+        1. count all tasks from each category - java 14, ...
+        2. check which radio (java, sb, ..) is checked, default radio 1 checked
+
+        3. Do Routine - Update Codings Task Header
+
+      */
+
+      return new Promise(resolve => {
+        resolve( );
+      })
+
+
+    })
+
   /* ---------------------------------------------------- */
-  /* ➡️🟥 Step 2/2:
+  /* 🟨 Step 2/2:
   /* Radio Tech - Change Listener
   /* ---------------------------------------------------- */
 
@@ -54,7 +74,7 @@
         switch( cssIdCategory ) {
 
           /* ------------------------------------------ */
-          /* ➡️🟥 Java
+          /* ➡️🟨 Java
           /* ------------------------------------------ */
 
           case "radio-codings-nav-tech-java":
@@ -72,7 +92,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* ➡️🟥 Spring Boot
+          /* ➡️🟨 Spring Boot
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-spring-boot":
 
@@ -89,7 +109,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* 🟥 Obervability
+          /* 🟨 Obervability
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-observability":
 
@@ -106,7 +126,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* 🟥 Cloud
+          /* 🟨 Cloud
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-cloud":
 
@@ -123,7 +143,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* 🟥 AI
+          /* 🟨 AI
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-ai-ml-llm":
 
@@ -141,7 +161,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* 🟥 Python
+          /* 🟨 Python
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-pyhton":
 
@@ -158,7 +178,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* 🟥 Angular
+          /* 🟨 Angular
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-angular":
 
@@ -175,7 +195,7 @@
             break;
 
           /* ------------------------------------------ */
-          /* 🟥 React Native
+          /* 🟨 React Native
           /* ------------------------------------------ */
           case "radio-codings-nav-tech-react-native":
 

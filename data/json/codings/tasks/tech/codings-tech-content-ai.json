@@ -19,23 +19,23 @@
       "radios": [
 
         {
-          "id": "radio-codings-ai-basics",
+          "id": "radio-codings-task-header-ai-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-ai-rag-vectordbs",
+          "id": "radio-codings-task-header-ai-rag-vectordbs",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
         {
-          "id": "radio-codings-ai-langchain4j",
+          "id": "radio-codings-task-header-ai-langchain4j",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
         {
-          "id": "radio-codings-ai-advanced",
+          "id": "radio-codings-task-header-ai-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         }

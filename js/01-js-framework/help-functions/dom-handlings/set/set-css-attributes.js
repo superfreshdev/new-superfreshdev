@@ -3,6 +3,31 @@
 
 /* ---------------------------------------------------------------- */
 /* Async Function
+/* > Set "Display None" to all Elements
+/* ---------------------------------------------------------------- */
+
+ async function asyncSetDisplayNoneToElements( elements ) {
+
+     // console.log("🟪 asyncSetDisplayNoneToElements()")
+
+     // set display none
+     elements.forEach(element => {
+
+          // console.log("⭐ element = " + element.getAttribute("id") )
+          element.style.display = "none";
+     });
+
+     return new Promise(resolve => {
+     resolve();
+     })
+
+ }
+
+
+
+
+/* ---------------------------------------------------------------- */
+/* ⁉️ Async Function
 /* > Set Css Class to Element
 /* ---------------------------------------------------------------- */
 
@@ -24,7 +49,7 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/* ⁉️ Async Function
 /* > Set CSS "Display:none" to ID
 /* ---------------------------------------------------------------- */
 
@@ -42,7 +67,7 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/*⁉️  Async Function
 /* > Set CSS "Display:..." to ID
 /* ---------------------------------------------------------------- */
 
@@ -62,7 +87,7 @@
 
 
  /* ---------------------------------------------------------------- */
-/* Async Function
+/* ⁉️ Async Function
 /* > Set Radio Checked
 /* ---------------------------------------------------------------- */
 

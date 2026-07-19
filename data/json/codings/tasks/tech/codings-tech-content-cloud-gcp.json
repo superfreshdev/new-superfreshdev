@@ -20,23 +20,23 @@
       "radios": [
 
         {
-          "id": "radio-codings-cloud-gcp-basics",
+          "id": "radio-codings-task-header-cloud-gcp-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-cloud-gcp-compute-data",
+          "id": "radio-codings-task-header-cloud-gcp-compute-data",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
         {
-          "id": "radio-codings-cloud-gcp-cicd-iac",
+          "id": "radio-codings-task-header-cloud-gcp-cicd-iac",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
         {
-          "id": "radio-codings-cloud-gcp-advanced",
+          "id": "radio-codings-task-header-cloud-gcp-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         }

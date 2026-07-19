@@ -19,13 +19,13 @@
       "radios": [
 
         {
-          "id": "radio-codings-java-basics",
+          "id": "radio-codings-task-header-java-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-java-advanced",
+          "id": "radio-codings-task-header-java-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
 
@@ -33,7 +33,7 @@
 
         {
 
-          "id": "radio-codings-java-libs",
+          "id": "radio-codings-task-header-java-libs",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
 

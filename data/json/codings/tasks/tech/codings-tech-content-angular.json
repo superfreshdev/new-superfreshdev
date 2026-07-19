@@ -19,25 +19,25 @@
       "radios": [
 
         {
-          "id": "radio-codings-angular-basics",
+          "id": "radio-codings-task-header-angular-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-angular-state-routing",
+          "id": "radio-codings-task-header-angular-state-routing",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-angular-rgxjs-ngrx",
+          "id": "radio-codings-task-header-angular-rgxjs-ngrx",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-python-advanced",
+          "id": "radio-codings-task-header-angular-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         }

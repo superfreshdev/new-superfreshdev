@@ -19,13 +19,13 @@
       "radios": [
 
         {
-          "id": "radio-codings-observability-basics",
+          "id": "radio-codings-task-header-observability-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-observability-advanced",
+          "id": "radio-codings-task-header-observability-advanced",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         }

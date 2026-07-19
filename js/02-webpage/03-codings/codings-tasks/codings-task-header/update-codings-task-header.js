@@ -104,10 +104,8 @@
     /* ---------------------------------------------------------- */
 
       // Unshown Radios - define local css handlings
-
       var dataRadios = jsonTaskContent.header.nav.radios;
-      await asyncPrepentNewRadiosTo( dataRadios, rowContainerCodingsContent );
-
+      await asyncPrependNewRadiosFromDataTo( dataRadios, rowContainerCodingsContent );
 
 
     /* ---------------------------------------------------------- */

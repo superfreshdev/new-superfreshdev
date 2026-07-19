@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------------- */
+/* > nav-handlings-react-native.css
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Styles
+/* -------------------------------------------------------------- */
+
+
+/* set - background colors , in progress: yellow, later: grey, done: green */
+#radio-codings-task-header-react-native-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-basics"],
+#radio-codings-task-header-react-native-native-features:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-native-features"],
+#radio-codings-task-header-react-native-data-storage:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-data-storage"],
+#radio-codings-task-header-react-native-stylings:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-stylings"] {
+
+  background-color: rgb(204, 204, 204);
+  color:rgb(91, 91, 91);
+
+}
+
+/* border left - counters */
+#radio-codings-task-header-react-native-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-basics"] .codings-task-header-nav-item-counter-box,
+#radio-codings-task-header-react-native-native-features:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-native-features"] .codings-task-header-nav-item-counter-box,
+#radio-codings-task-header-react-native-data-storage:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-data-storage"] .codings-task-header-nav-item-counter-box,
+#radio-codings-task-header-react-native-stylings:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-react-native-stylings"] .codings-task-header-nav-item-counter-box {
+
+  border-left: 1px solid rgb(173, 173, 173);
+
+}
+
+/* Set bg-c + border - unshown */
+#radio-codings-task-header-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-unshown"] {
+
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content
+/* -------------------------------------------------------------- */
+
+/* show - codings masonry content */
+#radio-codings-task-header-react-native-basics:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-task-header-react-native-native-features:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-task-header-react-native-data-storage:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-task-header-react-native-stylings:checked ~ .row-container:nth-of-type(3) #codings-masonry-content {
+
+  display: grid;
+
+}

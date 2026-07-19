@@ -19,25 +19,25 @@
       "radios": [
 
         {
-          "id": "radio-codings-spring-boot-basics",
+          "id": "radio-codings-task-header-spring-boot-basics",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-spring-boot-communications",
+          "id": "radio-codings-task-header-spring-boot-communications",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-spring-boot-data-security",
+          "id": "radio-codings-task-header-spring-boot-data-security",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
 
         {
-          "id": "radio-codings-spring-boot-ai-cloud",
+          "id": "radio-codings-task-header-spring-boot-ai-cloud",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         }

@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------------- */
+/* > nav-handlings-ai.css
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Styles
+/* -------------------------------------------------------------- */
+
+
+/* set - background colors , in progress: yellow, later: grey, done: green */
+#radio-codings-task-header-ai-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-basics"],
+#radio-codings-task-header-ai-rag-vectordbs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-rag-vectordbs"],
+#radio-codings-task-header-ai-langchain4j:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-langchain4j"],
+#radio-codings-task-header-ai-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-advanced"]  {
+
+  background-color: rgb(204, 204, 204);
+  color:rgb(91, 91, 91);
+
+}
+
+/* border left - counters */
+#radio-codings-task-header-ai-basics:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-basics"] .codings-task-header-nav-item-counter-box,
+#radio-codings-task-header-ai-rag-vectordbs:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-rag-vectordbs"] .codings-task-header-nav-item-counter-box,
+#radio-codings-task-header-ai-langchain4j:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-langchain4j"] .codings-task-header-nav-item-counter-box,
+#radio-codings-task-header-ai-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-ai-advanced"] .codings-task-header-nav-item-counter-box {
+
+  border-left: 1px solid rgb(173, 173, 173);
+
+}
+
+/* Set bg-c + border - unshown */
+#radio-codings-task-header-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-codings-task-header-unshown"] {
+
+  background-color: rgb(204, 204, 204);
+  color:rgb(84, 84, 84);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Show Content
+/* -------------------------------------------------------------- */
+
+/* show - codings masonry content */
+#radio-codings-task-header-ai-basics:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-task-header-ai-rag-vectordbs:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-task-header-ai-langchain4j:checked ~ .row-container:nth-of-type(3) #codings-masonry-content,
+#radio-codings-task-header-ai-advanced:checked ~ .row-container:nth-of-type(3) #codings-masonry-content {
+
+  display: grid;
+
+}

@@ -74,7 +74,7 @@
 /* > only if zero radio ids exist
 /* ---------------------------------------------------------------- */
 
- async function asyncPrepentNewRadiosTo( dataRadios, addPoint ) {
+ async function asyncPrependNewRadiosFromDataTo( dataRadios, addPoint ) {
 
     // console.log("dataRadios(length): " + dataRadios.length )
     // console.log("addPoint: " + addPoint)
@@ -140,6 +140,11 @@
 
           // Add All New Radios to Element
           await asyncPrependElementsTo( newRadios, addPoint );
+
+          // Set Display None To New Radios
+          // Set Css Style - Unshown Radios
+          await asyncSetDisplayNoneToElements( newRadios )
+
 
 
         } else {

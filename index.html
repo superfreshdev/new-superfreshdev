@@ -326,6 +326,12 @@
                 <!-- handlings - tech -->
                 <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-java.css">
                 <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-spring-boot.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-observability.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-cloud-gcp.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-ai.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-python.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-angular.css">
+                <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/header/nav/nav-handlings/tech/nav-handlings-react-native.css">
 
                 <!-- handlings - algos -->
 
@@ -4669,11 +4675,16 @@
             <!-- ----------------------------------------------------------- -->
             <!-- 🟨 Radios | Codings Task Header Nav (js dyn) -->
             <!-- ----------------------------------------------------------- -->
-            <input checked type="radio" id="radio-codings-header-nav-basics" name="name-radio-codings-header-nav">
+
+            <!-- radios will be dyn. create by json file  -->
+
+            <!-- <input checked type="radio" id="radio-codings-header-nav-basics" name="name-radio-codings-header-nav">
             <input type="radio" id="radio-codings-header-nav-advanced" name="name-radio-codings-header-nav">
             <input type="radio" id="radio-codings-header-nav-libs" name="name-radio-codings-header-nav">
-            <input type="radio" id="radio-codings-header-nav-debugging" name="name-radio-codings-header-nav">
-            <input  type="radio" id="radio-codings-header-nav-unshown" name="name-radio-codings-header-nav">
+            <input type="radio" id="radio-codings-header-nav-debugging" name="name-radio-codings-header-nav"> -->
+
+            <!-- default label unshown - no dyn. rebuild -->
+            <input  type="radio" id="radio-codings-task-header-unshown" name="name-radio-codings-header-nav-tech-algos-challenges">
 
             <!-- ----------------------------------------------------------- -->
             <!-- 🟨 [1/2] | Codings Task Header | 📐 Resp Medium   -->
@@ -4829,7 +4840,7 @@
                       </label>
 
                       <!-- Label - Unshown -->
-                      <label for="radio-codings-header-nav-unshown" class="codings-task-header-nav-item-unshown">
+                      <label for="radio-codings-task-header-unshown" class="codings-task-header-nav-item-unshown">
 
                         <!-- img black -->
                         <img src="media/imgs/icons/02-icon-colors/01-black/black-eye-unshow.png"
