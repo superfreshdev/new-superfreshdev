@@ -58,8 +58,8 @@
           "later": {
 
             "cssClass": "codings-task-header-nav-item-later",
-            "iconFilename": "black-arrow-right.png",
-            "iconCssClass": "img-h-0-8"
+            "iconFilename": "black-stop-hand.png",
+            "iconCssClass": "img-h-0-9"
 
           },
 

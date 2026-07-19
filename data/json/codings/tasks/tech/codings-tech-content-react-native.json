@@ -31,7 +31,7 @@
         },
 
         {
-          "id": "radio-codings-react-native-data-storange",
+          "id": "radio-codings-react-native-data-storage",
           "name": "name-radio-codings-header-nav-tech-algos-challenges",
           "checked": "false"
         },
@@ -59,8 +59,8 @@
           "later": {
 
             "cssClass": "codings-task-header-nav-item-later",
-            "iconFilename": "black-arrow-right.png",
-            "iconCssClass": "img-h-0-8"
+            "iconFilename": "black-stop-hand.png",
+            "iconCssClass": "img-h-0-9"
 
           },
 
@@ -414,102 +414,7 @@
 
       "tasks": [
 
-        {
 
-          "header": {
-
-            "status": {
-
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
-
-            },
-
-            "timeLimit": "120 Min."
-
-          },
-
-          "main": {
-
-
-            "categoryList": {
-
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
-            },
-
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
-
-
-          },
-
-          "footer": {
-
-            "githubLink": {
-
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
-
-            }
-
-          }
-
-
-        },
-
-        {
-
-          "header": {
-
-            "status": {
-
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
-
-            },
-
-            "timeLimit": "120 Min."
-
-          },
-
-          "main": {
-
-
-            "categoryList": {
-
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
-            },
-
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
-
-
-          },
-
-          "footer": {
-
-            "githubLink": {
-
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
-
-            }
-
-          }
-
-        }
 
       ]
 

@@ -5,7 +5,7 @@
 
   /* --------------------------------------------------------- */
   /* Async Function
-  /* ➡️🟥 Rebuild Labels To Nav
+  /* 🟨 Rebuild Labels To Nav
   /* --------------------------------------------------------- */
 
     async function asyncRebuildCodingsTaskHeaderNavLabels( jsonTaskContent, navAddPoint ) {
@@ -15,6 +15,9 @@
       console.log("➡️ jsonTaskContent: " + jsonTaskContent)
       console.log("➡️ navAddPoint: " + navAddPoint)
       console.log("-------------------")
+
+      // default label unshown - dont rebuild
+      var labelUnshownId = "radio-codings-header-nav-unshown";
 
       /* ---------------------------------------------------- */
       /* 🟩 Step 1/4
@@ -41,13 +44,18 @@
         var dataTasks = "";
 
         /* ---------------------------------------------------- */
-        /* 🟥 Step 1/4
+        /* 🟩 Step 1/4
         /* > Clean Up - Delete old Labels from Element
+        /* > dont delete unshown label (default exist)
         /* ---------------------------------------------------- */
+
+          var oldLabels = navAddPoint.querySelectorAll("label");
+          // console.log("⁉️⁉️⁉️⁉️oldLabels(length): " + oldLabels.length + " || " + labelUnshownId)
+          await removeLabelsExceptId( oldLabels, navAddPoint, labelUnshownId )
 
 
         /* ---------------------------------------------------- */
-        /* ➡️🟥 Step 3/4:
+        /* 🟩 Step 3/4:
         /* > Create Array "New Labels"
         /* ---------------------------------------------------- */
 
@@ -66,20 +74,16 @@
                                                         dataLabelCategories[i],
                                                         dataTasks ) )
 
-
-            navAddPoint.append( newLabels[i] )
-
           }
 
           console.log("🏁 Final New Labels(length): " + newLabels.length )
 
         /* ---------------------------------------------------- */
-        /* ➡️🟥 Step 4/4:
+        /* 🟩 Step 4/4:
         /* > Add all "New Labels" to "navAddPoint"
         /* ---------------------------------------------------- */
 
-          // await asyncPrependElementTo( newLabels, navAddPoint )
-
+          await asyncPrependElementsTo( newLabels, navAddPoint )
 
 
 

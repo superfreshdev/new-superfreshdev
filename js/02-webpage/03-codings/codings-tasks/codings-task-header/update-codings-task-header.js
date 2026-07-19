@@ -104,7 +104,7 @@
     /* ---------------------------------------------------------- */
 
       var dataRadios = jsonTaskContent.header.nav.radios;
-      await asyncEnsureRadiosPrependTo( dataRadios, rowContainerCodingsContent );
+      await asyncPrepentNewRadiosTo( dataRadios, rowContainerCodingsContent );
 
     /* ---------------------------------------------------------- */
     /* ➡️🟥 Step 5:

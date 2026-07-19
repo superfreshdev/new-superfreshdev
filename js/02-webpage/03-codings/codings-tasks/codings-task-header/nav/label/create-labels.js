@@ -4,7 +4,7 @@
 
 
   /* --------------------------------------------------------- */
-  /*  ➡️🟥 Create Label | Codings Task Header Nav
+  /* 🟩 Create Label | Codings Task Header Nav
   /* --------------------------------------------------------- */
 
     async function asyncCreateCodingsTaskHeaderNavLabel( iconPath, radioId, dataLabelContent,
@@ -21,8 +21,8 @@
 
 
       /* ---------------------------------------------------- */
-      /* Help Function
-      /* 🟨 Step 1/4
+      /* Using - Help Function
+      /* 🟩 Step 1/4
       /* > Get Label Status Styles
       /* > In Progress: Minimum x1 Task
       /* > Later: 0 - In Progress & Minimum x1 Task Later
@@ -42,8 +42,8 @@
 
 
       /* ---------------------------------------------------- */
-      /* Help Function
-      /* 🟨 Step 3/4
+      /* Using - Help Function
+      /* 🟩 Step 2/4
       /* > Get Finished & Max Tasks of Category
       /* ---------------------------------------------------- */
 
@@ -59,91 +59,83 @@
 
         console.log("⭐ Finished Tasks: " + finishedTasks )
         console.log("⭐ Max Tasks: " + maxTasks )
-
-
-      /* ---------------------------------------------------- */
-      /* ➡️🟥 Step 4/4
-      /* > Create New Label
-      /* ---------------------------------------------------- */
-
-        var labelCounterBoxCssClass = dataLabelContent.counterBoxCssClass;
-
-        console.log("⭐ label(counterBox-cssClass): " + labelCounterBoxCssClass )
         console.log("----------------");
 
-        var newLabel = "1";
 
-        /*
+      /* ---------------------------------------------------- */
+      /* 🟩 Step 3/4
+      /* > Create New - Label
+      /* ---------------------------------------------------- */
 
+        var newLabel = "";
 
-          ### Create
-          1. Label , for, class
-            1.1 Div + Img Status ( img black path + fire )
-            1.2 Div Text + Counters
+        var labelStatusCssClass = dataLabelStatusStyle.cssClass;
+        newLabel = await asyncCreateLabel( radioId, labelStatusCssClass )
 
-              1.2.1 - Div - Basics
-              1.2.2 - Div - Counters ( .codings-task-header-nav-item-counter-box )
-                  - Div - Finished Task
-                  - Div - /
-                  - Div - Max Tasks
-
-
-
-        */
 
         /* -------------------------------------------------------- */
-        /*➡️🟥 Step 4.1
-        /* > Create - Label + Status
-        /* -------------------------------------------------------- */
-
-          var labelStatusCssClass = dataLabelStatusStyle.cssClass;
-          newLabel = await asyncCreateLabel( radioId, labelStatusCssClass )
-
-        /* -------------------------------------------------------- */
-        /*➡️🟥 Step 4.2
+        /* 🟩 Step 3.1
         /* > Create & Add - Div Status
         /* -------------------------------------------------------- */
 
-          // Create - Div Status
           var divStatus = "";
 
           var iconFullPath = iconPath + dataLabelStatusStyle.iconFilename;
           var iconCssClass = dataLabelStatusStyle.iconCssClass;
 
           divStatus = await asyncCreateDivWithImg( iconFullPath, iconCssClass )
-
           // console.log("🔥 divStatus = " + divStatus )
 
           // Add "divStatus" to "newLabel"
           newLabel.appendChild( divStatus )
 
         /* -------------------------------------------------------- */
-        /*➡️🟥 Step 4.3
-        /* > Create & Add - Div Text & Counters
+        /* 🟩 Step 3.2
+        /* > Create & Add - Div "Text & Counters"
         /* -------------------------------------------------------- */
 
           var divTextCounters = await asyncCreateDiv();
 
-          // Add - Div Text
-          var divCategoryText = await asyncCreateDivWithText( labelCategory )
+          /* ------------------------------------------------------- */
+          /* 🟩 Step 3.2.1
+          /* > Create & Add - Div "Label Category Text"
+          /* ------------------------------------------------------- */
 
-          // Add "divCategoryText" to "divTextCounters"
-          divTextCounters.appendChild( divCategoryText )
+            // Add - Div Text
+            var divCategoryText = await asyncCreateDivWithText( labelCategory )
 
-          // Add - Div Counters
-          var divCounterBox = await asyncCreateDivWithCssClass( labelCounterBoxCssClass )
+            // Add "divCategoryText" to "divTextCounters"
+            divTextCounters.appendChild( divCategoryText )
 
-          var divFinishedTasks = await asyncCreateDivWithDivText( finishedTasks )
-          var divSeperator = await asyncCreateDivWithDivText( "/" )
-          var divMaxTasks = await asyncCreateDivWithDivText( maxTasks )
 
-          // Add "x3" to "divCounterBox"
-          divCounterBox.appendChild( divFinishedTasks )
-          divCounterBox.appendChild( divSeperator )
-          divCounterBox.appendChild( divMaxTasks )
+          /* ------------------------------------------------------- */
+          /* 🟩 Step 3.2.2
+          /* > Create & Add - Div "counter box"
+          /* ------------------------------------------------------- */
 
-          // Add "divCounterBox" to "divTextCounters"
-          divTextCounters.appendChild( divCounterBox )
+            var labelCounterBoxCssClass = dataLabelContent.counterBoxCssClass;
+
+            // Create Div "counter box"
+            var divCounterBox = await asyncCreateDivWithCssClass( labelCounterBoxCssClass )
+
+            // Create x3 Sub Divs from "counter box"
+            var divFinishedTasks = await asyncCreateDivWithDivText( finishedTasks )
+            var divSeperator = await asyncCreateDivWithDivText( "/" )
+            var divMaxTasks = await asyncCreateDivWithDivText( maxTasks )
+
+            // Add "x3" to "divCounterBox"
+            divCounterBox.appendChild( divFinishedTasks )
+            divCounterBox.appendChild( divSeperator )
+            divCounterBox.appendChild( divMaxTasks )
+
+
+            // Add "divCounterBox" to "divTextCounters"
+            divTextCounters.appendChild( divCounterBox )
+
+        /* -------------------------------------------------------- */
+        /* 🟩 Step 4
+        /* > Final Add "divTextCounters" to "newLabel"
+        /* -------------------------------------------------------- */
 
           // Add "divTextCounters" to "newLabel"
           newLabel.appendChild( divTextCounters )

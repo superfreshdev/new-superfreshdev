@@ -3,16 +3,17 @@
 
 /* ---------------------------------------------------------------- */
 /* 🟩 Async Function
-/* > Prepend Radios to Element
+/* > Adding Element/s to "addPoint"
 /* ---------------------------------------------------------------- */
 
- async function asyncPrependRadiosToElement( radios, toElement ) {
+  // Prepend - Elements(n) to "addPoint"
+  async function asyncPrependElementsTo( elements, addPoint ) {
 
     // console.log("🟪 asyncCreateRadiosPrepandTo()")
     // console.log("➡️ radios = " +  radios.length );
 
     // Spread-Operator - radios[0],[1],...
-    toElement.prepend( ...radios )
+    addPoint.prepend( ...elements )
 
     // console.log("💫 Adding " + radios.length + " to toElement ")
 
@@ -21,16 +22,12 @@
       resolve();
     })
 
- }
+  }
 
-/* ---------------------------------------------------------------- */
-/* 🟩 Async Function
-/* > General | Append Element to Add Point
-/* ---------------------------------------------------------------- */
+  // Prepend - Element(x1) to "addPoint"
+  async function asyncPrependElementTo( element, addPoint ) {
 
- async function asyncPrependElementTo( element, addPoint ) {
-
-    // console.log("🟪 asyncCreateRadiosPrepandTo()")
+    // console.log("🟪 asyncPrependElementTo()")
     // console.log("➡️ element = " + element );
 
     addPoint.prepend( element )
@@ -39,15 +36,45 @@
         resolve();
       })
 
- }
+  }
+
+  // Append - Elements(n) to "addPoint"
+  async function asyncAppendElementsTo( elements, addPoint ) {
+
+    // console.log("🟪 asyncAppendElementTo()")
+    // console.log("➡️ element = " + element );
+
+     // Spread-Operator - radios[0],[1],...
+    addPoint.append( ...elements )
+
+    return new Promise(resolve => {
+        resolve();
+      })
+
+  }
+
+  // Append - Element(x1) to "addPoint"
+  async function asyncAppendElementTo( element, addPoint ) {
+
+    // console.log("🟪 asyncAppendElementTo()")
+    // console.log("➡️ element = " + element );
+
+    addPoint.append( element )
+
+    return new Promise(resolve => {
+        resolve();
+      })
+
+  }
+
 
 /* ---------------------------------------------------------------- */
 /* 🟩 Async Function
-/* > Exnure Prepend Radios to Element
+/* > Prepend New Radios to Element
 /* > only if zero radio ids exist
 /* ---------------------------------------------------------------- */
 
- async function asyncEnsureRadiosPrependTo( dataRadios, addPoint ) {
+ async function asyncPrepentNewRadiosTo( dataRadios, addPoint ) {
 
     // console.log("dataRadios(length): " + dataRadios.length )
     // console.log("addPoint: " + addPoint)
@@ -112,7 +139,7 @@
           console.log("🏁 New Radios Created = " + newRadios.length )
 
           // Add All New Radios to Element
-          await asyncPrependRadiosToElement( newRadios, addPoint );
+          await asyncPrependElementsTo( newRadios, addPoint );
 
 
         } else {
