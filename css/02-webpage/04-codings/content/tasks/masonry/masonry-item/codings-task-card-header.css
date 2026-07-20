@@ -18,7 +18,10 @@
 
 }
 
-/* Div 1 | nr box + status sticker */
+/* ------------------------------------------------------------ */
+/* Left Box | Nr Box & Status Sticker
+/* ------------------------------------------------------------ */
+
 .codings-task-card-header > div:nth-of-type(1) {
 
   display: flex;
@@ -34,7 +37,7 @@
 .codings-task-card-nr-box {
 
   min-width: 1.8em;
-  height: 1.8em;
+  height: 1.7em;
 
   display: flex;
   align-items: center;
@@ -86,19 +89,58 @@
 }
 
 /* ------------------------------------------------------------ */
-/* Time Limit Box
+/* Right Box | Task Tech Category Sticker
 /* ------------------------------------------------------------ */
 
-.codings-task-card-time-limit-box {
+.codings-task-card-tech-category-sticker {
 
-  font-weight: bold;
-  opacity: .6;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .5em;
 
 }
 
-/* Time Text */
-.codings-task-card-time-limit-box > div {
+/* Img */
+.codings-task-card-tech-category-sticker > img {
+
+  opacity: .4;
+
+}
+
+/* Text */
+.codings-task-card-tech-category-sticker > div {
 
   font-size: 12.5px;
+  font-weight: bold;
+
+}
+
+/* In Progress - tech category sticker */
+.codings-task-card-in-progress .codings-task-card-tech-category-sticker  {
+
+  /* background-color: rgb(251, 217, 132); */
+  border: 1px dashed rgb(230, 192, 96);
+  border: 1px solid rgb(230, 192, 96);
+  color: rgb(168, 140, 62);
+
+}
+
+/* Later - tech category sticker */
+.codings-task-card-later .codings-task-card-tech-category-sticker  {
+
+  border: 1px solid #c3c3c3;
+  color: #919191;
+
+}
+
+/* Done - tech category sticker */
+.codings-task-card-done .codings-task-card-tech-category-sticker  {
+
+  border: 1px solid rgb(113, 185, 113);
+  color: rgb(83, 162, 83);
 
 }
