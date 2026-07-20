@@ -349,9 +349,15 @@
 
             <!-- item -->
             <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-cards.css">
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-header.css">
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-status-stickers.css">
-            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-main.css">
+            <!-- header -->
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/header/codings-task-card-header.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/header/codings-task-card-status-stickers.css">
+            <!-- main -->
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/main/codings-task-card-main.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/main/codings-task-card-main-context.css">
+            <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/main/codings-task-card-main-content.css">
+
+            <!-- footer -->
             <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/masonry-item/codings-task-card-footer.css">
 
             <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/masonry/resp-codings-masonry.css">
@@ -4916,7 +4922,7 @@
                           <!-- ----------------------------------------- -->
                           <header class="codings-task-card-header">
 
-                            <!-- left box - nr & status sticker -->
+                            <!-- Left Block - Nr & Task Tech Category -->
                             <div>
 
                               <!-- nr box -->
@@ -4924,26 +4930,25 @@
                                 <div>01</div>
                               </div>
 
-                              <!-- status sticker -->
-                              <div class="codings-task-card-status-sticker-in-progress">
+                              <!-- task tech category ( e.g debugging, codings, ... ) -->
+                              <div class="codings-task-card-tech-category-sticker">
 
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                    alt="img" class="img-h-0-8">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bug.png"
+                                     alt="img" class="img-h-0-8">
 
-                                <div>in progress</div>
-
+                                <div>Debugging</div>
 
                               </div>
 
                             </div>
 
-                            <!-- right box - task tech category sticker -->
-                            <div class="codings-task-card-tech-category-sticker">
+                            <!-- Right Block - Status Sticker -->
+                            <div class="codings-task-card-status-sticker-in-progress">
 
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-bug.png"
-                                   alt="img" class="img-h-0-8">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                    alt="img" class="img-h-0-8">
 
-                              <div>Debugging</div>
+                                <div>in progress</div>
 
                             </div>
 
@@ -4954,52 +4959,93 @@
                           <!-- ----------------------------------------- -->
                           <main class="codings-task-card-main">
 
-                            <!-- Category List Container-->
-                            <div class="codings-task-card-category-list-container">
+                            <!-- Context List Container -->
+                            <div class="codings-task-card-context-list-container">
 
-                              <!-- list -->
+                              <!-- Context List -->
                               <div class="codings-task-card-category-list">
 
-
                                 <div>
-                                  <span>Bank</span>
+                                  Bank
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
+                                <div>
+                                  Payments
+                                </div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                    alt="img">
 
                                 <div>
-                                  <span>Payments</span>
+                                  Authentification
                                 </div>
+
+                                <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                    alt="img">
+
+                                <div>
+                                  <span>Registration</span>
+                                </div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                    alt="img">
+
+                                <div>
+                                  <span>Hacking</span>
+                                </div> -->
+
+
 
                               </div>
 
-                              <!-- time box -->
+                              <!-- Time Box -->
                               <div class="codings-task-card-time-box">
                                 <div>60 Min.</div>
                               </div>
 
                             </div>
 
-                            <!-- Title -->
-                            <div class="codings-task-card-title">
-                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
-                              here come the sun and little bit more Text
-                            </div>
+                            <!-- Content -->
+                            <div class="codings-task-card-content">
 
-                            <!-- Hash Tag List -->
-                            <div class="codings-task-card-hashtag-list">
+                              <!-- title -->
+                              <div class="codings-task-card-title">
+                                ArrayList vs LinkedList vs Hashmap - so here come the
+                                sun and little bit more description as u think haah so
+                                its just a text - here come the sun and little bit more.
+                              </div>
 
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
+                              <!-- hashtag list (optional) -->
+                              <div class="codings-task-card-hashtag-list">
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                              </div>
 
                             </div>
 
@@ -5010,20 +5056,20 @@
                           <!-- ----------------------------------------- -->
                           <footer class="codings-task-card-footer">
 
-                            <!-- github link -->
-                            <a href=""
+                            <!-- GitHub Link -->
+                           <a href=""
                                 target="_blank" class="codings-masonry-task-github-link">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                     alt="img"
                                     class="img-h-0-8">
 
-                              <div>GitHub</div>
+                                <div>GitHub</div>
 
-
-                            </a>
+                           </a>
 
                           </footer>
+
 
                         </div>
 
@@ -5035,7 +5081,7 @@
                           <!-- ----------------------------------------- -->
                           <header class="codings-task-card-header">
 
-                            <!-- left box -->
+                            <!-- Left Block - Nr & Task Tech Category -->
                             <div>
 
                               <!-- nr box -->
@@ -5043,29 +5089,27 @@
                                 <div>02</div>
                               </div>
 
-                              <!-- status sticker -->
-                              <div class="codings-task-card-status-sticker-later">
+                              <!-- task tech category ( e.g debugging, codings, ... ) -->
+                              <div class="codings-task-card-tech-category-sticker">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
+                                     alt="img" class="img-h-0-8">
+
+                                <div>Coding</div>
+
+                              </div>
+
+                            </div>
+
+                            <!-- Right Block - Status Sticker -->
+                            <div class="codings-task-card-status-sticker-later">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
                                     alt="img" class="img-h-0-8">
 
                                 <div>later</div>
 
-
-                              </div>
-
                             </div>
-
-                            <!-- right box - task tech category sticker -->
-                            <div class="codings-task-card-tech-category-sticker">
-
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
-                                   alt="img" class="img-h-0-8">
-
-                              <div>Coding</div>
-
-                            </div>
-
 
                           </header>
 
@@ -5074,88 +5118,111 @@
                           <!-- ----------------------------------------- -->
                           <main class="codings-task-card-main">
 
-                            <!-- Category List Container-->
-                            <div class="codings-task-card-category-list-container">
+                            <!-- Context List Container -->
+                            <div class="codings-task-card-context-list-container">
 
-                              <!-- list -->
+                              <!-- Context List -->
                               <div class="codings-task-card-category-list">
 
                                 <div>
-                                  <span>Coding</span>
+                                  Bank
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
                                 <div>
-                                  <span>Bank</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-
-                                <div>
-                                  <span>Payments</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-
-                                <div>
-                                  <span>Authentification</span>
+                                  Payments
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
                                 <div>
-                                  <span>GUI - Review</span>
+                                  Authentification
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
                                 <div>
-                                  <span>Rollback</span>
+                                  <span>Registration</span>
                                 </div>
 
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
                                 <div>
-                                  <span>Observability</span>
+                                  <span>Hacking</span>
                                 </div>
+
 
 
                               </div>
 
-                               <!-- time box -->
+                              <!-- Time Box -->
                               <div class="codings-task-card-time-box">
                                 <div>60 Min.</div>
                               </div>
 
                             </div>
 
-                            <!-- Title -->
-                            <div class="codings-task-card-title">
-                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
-                              here come the sun and little bit more Text
-                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
-                              here come the sun and little bit more Text
-                            </div>
+                            <!-- Content -->
+                            <div class="codings-task-card-content">
 
-                            <!-- Hash Tag List -->
-                            <div class="codings-task-card-hashtag-list">
+                              <!-- title -->
+                              <div class="codings-task-card-title">
+                                ArrayList vs LinkedList vs Hashmap - so here come the
+                                sun and little bit more description as u think haah so
+                                its just a text - here come the sun and little bit more.
+                                Here is just a little bit more text so you can understand
+                                what i mean.
+                              </div>
 
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
+                              <!-- hashtag list (optional) -->
+                              <div class="codings-task-card-hashtag-list">
 
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                              </div>
 
                             </div>
 
@@ -5166,20 +5233,20 @@
                           <!-- ----------------------------------------- -->
                           <footer class="codings-task-card-footer">
 
-                            <!-- github link -->
-                            <a href=""
+                            <!-- GitHub Link -->
+                           <a href=""
                                 target="_blank" class="codings-masonry-task-github-link">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                     alt="img"
                                     class="img-h-0-8">
 
-                              <div>GitHub</div>
+                                <div>GitHub</div>
 
-
-                            </a>
+                           </a>
 
                           </footer>
+
 
                         </div>
 
@@ -5191,7 +5258,7 @@
                           <!-- ----------------------------------------- -->
                           <header class="codings-task-card-header">
 
-                            <!-- left box -->
+                            <!-- Left Block - Nr & Task Tech Category -->
                             <div>
 
                               <!-- nr box -->
@@ -5199,29 +5266,27 @@
                                 <div>03</div>
                               </div>
 
-                              <!-- status sticker -->
-                              <div class="codings-task-card-status-sticker-done">
+                              <!-- task tech category ( e.g debugging, codings, ... ) -->
+                              <div class="codings-task-card-tech-category-sticker">
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
+                                     alt="img" class="img-h-0-8">
+
+                                <div>Coding</div>
+
+                              </div>
+
+                            </div>
+
+                            <!-- Right Block - Status Sticker -->
+                            <div class="codings-task-card-status-sticker-done">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-small-correct.png"
                                     alt="img" class="img-h-0-6">
 
                                 <div>done</div>
 
-
-                              </div>
-
                             </div>
-
-                            <!-- right box - task tech category sticker -->
-                            <div class="codings-task-card-tech-category-sticker">
-
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
-                                   alt="img" class="img-h-0-8">
-
-                              <div>Coding</div>
-
-                            </div>
-
 
                           </header>
 
@@ -5230,79 +5295,70 @@
                           <!-- ----------------------------------------- -->
                           <main class="codings-task-card-main">
 
-                            <!-- Category List Container -->
-                            <div class="codings-task-card-category-list-container">
+                            <!-- Context List Container -->
+                            <div class="codings-task-card-context-list-container">
 
-                              <!-- list -->
+                              <!-- Context List -->
                               <div class="codings-task-card-category-list">
 
-
                                 <div>
-                                  <span>Bank</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-
-                                <div>
-                                  <span>Payments</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-
-                                <div>
-                                  <span>Authentification</span>
+                                  Insurance
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
                                 <div>
-                                  <span>GUI - Review</span>
+                                  Invoice
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
                                 <div>
-                                  <span>Rollback</span>
+                                  PDF Analytics
                                 </div>
 
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
 
-                                <div>
-                                  <span>Observability</span>
-                                </div>
 
 
                               </div>
 
-                              <!-- time limit (right box) -->
+                              <!-- Time Box -->
                               <div class="codings-task-card-time-box">
-                                <div>60 Min.</div>
+                                <div>120 Min.</div>
                               </div>
 
-
                             </div>
 
-                            <!-- Title -->
-                            <div class="codings-task-card-title">ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
+                            <!-- Content -->
+                            <div class="codings-task-card-content">
 
-                            </div>
+                              <!-- title -->
+                              <div class="codings-task-card-title">
+                                ArrayList vs LinkedList vs Hashmap - so here come the
+                                sun and little bit more description as u think haah so
+                                its just a text
+                              </div>
 
-                            <!-- Hash Tag List -->
-                            <div class="codings-task-card-hashtag-list">
+                              <!-- hashtag list (optional) -->
+                              <div class="codings-task-card-hashtag-list">
 
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
+                                <div>
+                                  <div>LLM</div>
+                                </div>
 
+                                <div>
+                                  <div>RAG</div>
+                                </div>
+
+                                <div>
+                                  <div>Executor Service</div>
+                                </div>
+
+
+
+                              </div>
 
                             </div>
 
@@ -5313,180 +5369,24 @@
                           <!-- ----------------------------------------- -->
                           <footer class="codings-task-card-footer">
 
-                            <!-- github link -->
-                            <a href=""
+                            <!-- GitHub Link -->
+                           <a href=""
                                 target="_blank" class="codings-masonry-task-github-link">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                     alt="img"
                                     class="img-h-0-8">
 
-                              <div>GitHub</div>
+                                <div>GitHub</div>
 
-
-                            </a>
+                           </a>
 
                           </footer>
+
 
                         </div>
 
                         <!-- 4 | Task Item - In Progress -->
-                        <div class="codings-task-card-later">
-
-                          <!-- ----------------------------------------- -->
-                          <!-- 🟨 [1/3] | Header              -->
-                          <!-- ----------------------------------------- -->
-                          <header class="codings-task-card-header">
-
-                            <!-- left box -->
-                            <div>
-
-                              <!-- nr box -->
-                              <div class="codings-task-card-nr-box">
-                                <div>04</div>
-                              </div>
-
-                              <!-- status sticker -->
-                              <div class="codings-task-card-status-sticker-later">
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
-                                    alt="img" class="img-h-0-8">
-
-                                <div>later</div>
-
-
-                              </div>
-
-                            </div>
-
-                            <!-- right box - task tech category sticker -->
-                            <div class="codings-task-card-tech-category-sticker">
-
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
-                                   alt="img" class="img-h-0-8">
-
-                              <div>Coding</div>
-
-                            </div>
-
-
-                          </header>
-
-                          <!-- ----------------------------------------- -->
-                          <!-- 🟨 [2/3] | Main            -->
-                          <!-- ----------------------------------------- -->
-                          <main class="codings-task-card-main">
-
-                            <!-- Category List Container-->
-                            <div class="codings-task-card-category-list-container">
-
-                              <!-- list -->
-                              <div class="codings-task-card-category-list">
-
-                                <div>
-                                  <span>Coding</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-                                <div>
-                                  <span>Bank</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-
-                                <div>
-                                  <span>Payments</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-
-                                <div>
-                                  <span>Authentification</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-                                <div>
-                                  <span>GUI - Review</span>
-                                </div>
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-                                <div>
-                                  <span>Rollback</span>
-                                </div>
-
-                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
-                                    alt="img">
-
-                                <div>
-                                  <span>Observability</span>
-                                </div>
-
-
-                              </div>
-
-                               <!-- time box -->
-                              <div class="codings-task-card-time-box">
-                                <div>60 Min.</div>
-                              </div>
-
-                            </div>
-
-                            <!-- Title -->
-                            <div class="codings-task-card-title">
-                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
-                              here come the sun and little bit more Text
-                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
-                              here come the sun and little bit more Text
-                            </div>
-
-                            <!-- Hash Tag List -->
-                            <div class="codings-task-card-hashtag-list">
-
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-
-
-                            </div>
-
-                          </main>
-
-                          <!-- ----------------------------------------- -->
-                          <!-- 🟨 [3/3] | Footer              -->
-                          <!-- ----------------------------------------- -->
-                          <footer class="codings-task-card-footer">
-
-                            <!-- github link -->
-                            <a href=""
-                                target="_blank" class="codings-masonry-task-github-link">
-
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
-                                    alt="img"
-                                    class="img-h-0-8">
-
-                              <div>GitHub</div>
-
-
-                            </a>
-
-                          </footer>
-
-                        </div>
-
-                        <!-- 5 | Task Item - Later -->
                         <div class="codings-task-card-in-progress">
 
                           <!-- ----------------------------------------- -->
@@ -5494,34 +5394,33 @@
                           <!-- ----------------------------------------- -->
                           <header class="codings-task-card-header">
 
-                            <!-- left box - nr & status sticker -->
+                            <!-- Left Block - Nr & Task Tech Category -->
                             <div>
 
                               <!-- nr box -->
                               <div class="codings-task-card-nr-box">
-                                <div>05</div>
+                                <div>04</div>
                               </div>
 
-                              <!-- status sticker -->
-                              <div class="codings-task-card-status-sticker-in-progress">
+                              <!-- task tech category ( e.g debugging, codings, ... ) -->
+                              <div class="codings-task-card-tech-category-sticker">
 
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
-                                    alt="img" class="img-h-0-8">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
+                                     alt="img" class="img-h-0-8">
 
-                                <div>in progress</div>
-
+                                <div>Coding</div>
 
                               </div>
 
                             </div>
 
-                            <!-- right box - task tech category sticker -->
-                            <div class="codings-task-card-tech-category-sticker">
+                            <!-- Right Block - Status Sticker -->
+                            <div class="codings-task-card-status-sticker-in-progress">
 
-                              <img src="media/imgs/icons/02-icon-colors/01-black/black-bug.png"
-                                   alt="img" class="img-h-0-8">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                    alt="img" class="img-h-0-8">
 
-                              <div>Debugging</div>
+                                <div>in progress</div>
 
                             </div>
 
@@ -5532,52 +5431,93 @@
                           <!-- ----------------------------------------- -->
                           <main class="codings-task-card-main">
 
-                            <!-- Category List Container-->
-                            <div class="codings-task-card-category-list-container">
+                            <!-- Context List Container -->
+                            <div class="codings-task-card-context-list-container">
 
-                              <!-- list -->
+                              <!-- Context List -->
                               <div class="codings-task-card-category-list">
 
-
                                 <div>
-                                  <span>Bank</span>
+                                  Bank
                                 </div>
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
                                     alt="img">
 
+                                <div>
+                                  Payments
+                                </div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                    alt="img">
 
                                 <div>
-                                  <span>Payments</span>
+                                  Authentification
                                 </div>
+
+                                <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                    alt="img">
+
+                                <div>
+                                  <span>Registration</span>
+                                </div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-bullet.png"
+                                    alt="img">
+
+                                <div>
+                                  <span>Hacking</span>
+                                </div> -->
+
+
 
                               </div>
 
-                              <!-- time box -->
+                              <!-- Time Box -->
                               <div class="codings-task-card-time-box">
                                 <div>60 Min.</div>
                               </div>
 
                             </div>
 
-                            <!-- Title -->
-                            <div class="codings-task-card-title">
-                              ArrayList vs LinkedList vs Hashmap - so here come the sun and
-                              little bit more description as u think haah so its just a text -
-                              here come the sun and little bit more Text
-                            </div>
+                            <!-- Content -->
+                            <div class="codings-task-card-content">
 
-                            <!-- Hash Tag List -->
-                            <div class="codings-task-card-hashtag-list">
+                              <!-- title -->
+                              <div class="codings-task-card-title">
+                                ArrayList vs LinkedList vs Hashmap - so here come the
+                                sun and little bit more description as u think haah so
+                                its just a text - here come the sun and little bit more.
+                              </div>
 
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
-                              <div>HashTag 1</div>
+                              <!-- hashtag list (optional) -->
+                              <div class="codings-task-card-hashtag-list">
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                                <div>
+                                  <div>HashTag 1</div>
+                                </div>
+
+                              </div>
 
                             </div>
 
@@ -5588,22 +5528,25 @@
                           <!-- ----------------------------------------- -->
                           <footer class="codings-task-card-footer">
 
-                            <!-- github link -->
-                            <a href=""
+                            <!-- GitHub Link -->
+                           <a href=""
                                 target="_blank" class="codings-masonry-task-github-link">
 
                                 <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                     alt="img"
                                     class="img-h-0-8">
 
-                              <div>GitHub</div>
+                                <div>GitHub</div>
 
-
-                            </a>
+                           </a>
 
                           </footer>
 
+
                         </div>
+
+
+
 
 
 

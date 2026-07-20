@@ -19,7 +19,7 @@
 }
 
 /* ------------------------------------------------------------ */
-/* Left Box | Nr Box & Status Sticker
+/* Div 1 | Left Box | Nr Box & Status Sticker
 /* ------------------------------------------------------------ */
 
 .codings-task-card-header > div:nth-of-type(1) {
@@ -31,7 +31,7 @@
 }
 
 /* ------------------------------------------------------------ */
-/* All | Nr Box
+/* Nr Box
 /* ------------------------------------------------------------ */
 
 .codings-task-card-nr-box {
@@ -46,8 +46,7 @@
   border-radius: .4em;
 
   font-weight: bold;
-
-  opacity: .8;
+  /* opacity: .8; */
 
 }
 
@@ -61,46 +60,55 @@
 /* Nr Box - In Progress */
 .codings-task-card-in-progress .codings-task-card-nr-box {
 
-  border: 1px solid rgb(230, 192, 96);
-  background-color: rgb(251, 217, 132);
+  /* background-color: rgb(251, 217, 132); */
 
-  color:rgb(133, 104, 30);
+  border: 1px solid rgba(224, 175, 50, .8);
+  color:rgb(186, 145, 43);
+
+  color:rgb(172, 135, 39);
+
+  opacity: .8;
 
 }
 
 /* Nr Box - Later */
 .codings-task-card-later .codings-task-card-nr-box {
 
-  border: 1px solid #c3c3c3;
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3; */
 
+  border: 1px solid #c3c3c3;
   color:#727272;
+
+  opacity: .8;
 
 }
 
 /* Nr Box - Done */
 .codings-task-card-done .codings-task-card-nr-box {
 
-  border: 1px solid rgb(113, 185, 113);
-  background-color: rgb(136, 216, 136);
+  /* background-color: rgb(136, 216, 136); */
 
-  color:rgb(46, 106, 46);
+  border: 1px solid rgb(113, 185, 113);
+  color: rgb(46, 132, 46);
+
+   opacity: .8;
 
 }
 
 /* ------------------------------------------------------------ */
-/* Right Box | Task Tech Category Sticker
+/* Tech Category Sticker
 /* ------------------------------------------------------------ */
 
 .codings-task-card-tech-category-sticker {
 
-  padding: 0 .4em;
+  height: 1.7em;
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
   column-gap: .3em;
 
-  border-radius: .5em;
+  border-radius: .4em;
 
 }
 
@@ -123,24 +131,38 @@
 .codings-task-card-in-progress .codings-task-card-tech-category-sticker  {
 
   /* background-color: rgb(251, 217, 132); */
-  border: 1px dashed rgb(230, 192, 96);
-  border: 1px solid rgb(230, 192, 96);
-  color: rgb(168, 140, 62);
+
+  border: 1px solid rgba(224, 175, 50, .8);
+  color:rgb(186, 145, 43);
+
+  color:rgb(172, 135, 39);
+
+  opacity: .8;
+
+
 
 }
 
 /* Later - tech category sticker */
 .codings-task-card-later .codings-task-card-tech-category-sticker  {
 
+  /* background-color: #e3e3e3; */
+
   border: 1px solid #c3c3c3;
-  color: #919191;
+  color: #6c6c6c;
+
+  opacity: .8;
 
 }
 
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-tech-category-sticker  {
 
+  /* background-color: rgb(136, 216, 136); */
+
   border: 1px solid rgb(113, 185, 113);
-  color: rgb(83, 162, 83);
+  color: rgb(46, 132, 46);
+
+  opacity: .8;
 
 }

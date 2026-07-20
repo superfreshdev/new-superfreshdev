@@ -18,12 +18,10 @@
   align-items: center;
   column-gap: .4em;
 
-
   border-radius: .4em;
 
   font-weight: bold;
 
-  opacity: .8;
 
 }
 
@@ -63,7 +61,9 @@
   background-color: rgb(251, 217, 132);
   border: 1px solid rgb(230, 192, 96);
 
-  color:rgb(108, 91, 48);
+  color:rgb(144, 112, 30);
+
+  /* opacity: .8; */
 
 }
 

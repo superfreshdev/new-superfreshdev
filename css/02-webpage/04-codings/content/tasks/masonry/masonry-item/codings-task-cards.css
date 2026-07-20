@@ -14,7 +14,7 @@
   padding: .8em;
   display: grid;
 
-  row-gap: .8em;
+  /* row-gap: .1em; */
 
   border-radius: .8em;
 
@@ -42,7 +42,6 @@
   border-left: .8em solid rgb(251, 217, 132);
   background-color: rgb(255, 243, 216);
 
-
 }
 
 /* ---------------------------------------------------------------- */
@@ -55,7 +54,6 @@
   background-color: #f7f7f7;
 
 }
-
 
 /* ---------------------------------------------------------------- */
 /* Done | Codings Task Card

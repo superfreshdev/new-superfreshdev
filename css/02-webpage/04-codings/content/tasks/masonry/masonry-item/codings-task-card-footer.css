@@ -9,33 +9,12 @@
 
 .codings-task-card-footer {
 
-  padding-top: .8em;
-
+  margin-top: .8em;
   width: 100%;
+
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
-}
-
-/* In Progress - Footer */
-.codings-task-card-in-progress .codings-task-card-footer  {
-
-  border-top: 1px solid rgba(121, 99, 41, 0.3);
-
-}
-
-/* Later - Footer  */
-.codings-task-card-later .codings-task-card-footer  {
-
-  border-top: 1px solid rgba(62, 62, 62, .3);
-
-}
-
-/* Done - Footer  */
-.codings-task-card-done .codings-task-card-footer {
-
-  border-top: 1px solid rgb(14, 150, 12);
 
 }
 

@@ -1,0 +1,135 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-card-main-context.css
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Context List Container
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-context-list-container {
+
+  padding-bottom: .3em;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  column-gap: 1em;
+
+  /* background-color: red; */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Category List
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-category-list {
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  column-gap: 0em;
+  row-gap: .3em;
+
+  font-weight: bold;
+
+  /* background-color: rgb(192, 192, 192); */
+
+}
+
+/* Div */
+.codings-task-card-category-list > div  {
+
+  font-size: 12.5px;
+
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+/* Img | Bullet Points */
+.codings-task-card-category-list > img {
+
+  /* layout pos fix */
+  margin-top: 1px;
+
+  height: .26em;
+  opacity: .4;
+
+}
+
+
+/* Category List - In Progress */
+.codings-task-card-in-progress .codings-task-card-category-list {
+
+  color: rgb(168, 140, 62);
+
+}
+
+/* Category List - Later */
+.codings-task-card-later .codings-task-card-category-list  {
+
+  color: rgb(146, 146, 146);
+
+}
+
+/* Category List - Done */
+.codings-task-card-done .codings-task-card-category-list {
+
+  color: rgb(14, 150, 12);
+
+}
+
+/* ------------------------------------------------------------ */
+/* Time Box
+/* ------------------------------------------------------------ */
+
+.codings-task-card-time-box {
+
+  /* padding-top: .7em; */
+
+  min-width: 3.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  /* opacity: .6; */
+
+}
+
+/* Time Text */
+.codings-task-card-time-box > div {
+
+  font-size: 12.5px;
+
+}
+
+/* Time Box - In Progress */
+.codings-task-card-in-progress .codings-task-card-time-box {
+
+  color: rgb(168, 140, 62);
+
+}
+
+/* Time Box - Later */
+.codings-task-card-later .codings-task-card-time-box  {
+
+  color: rgb(146, 146, 146);
+
+}
+
+/* Time Box - Done */
+.codings-task-card-done .codings-task-card-time-box {
+
+  color: rgb(14, 150, 12);
+
+}

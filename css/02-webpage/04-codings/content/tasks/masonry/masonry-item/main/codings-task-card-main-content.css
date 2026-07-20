@@ -1,0 +1,139 @@
+/* ---------------------------------------------------------------- */
+/* > codings-task-card-main-content.css
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Content
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-content {
+
+  /* margin: .3em 0; */
+  padding: .6em 0em 1em 0em;
+
+  width: 100%;
+  display: grid;
+  row-gap: .3em;
+
+}
+
+/* Content - In Progress */
+.codings-task-card-in-progress .codings-task-card-content  {
+
+  border-top: 1px solid rgba(168, 140, 62, .4);
+  border-bottom: 1px solid rgba(168, 140, 62, .4);
+
+}
+
+/* Content - Later */
+.codings-task-card-later .codings-task-card-content  {
+
+  border-top: 1px solid rgba(114, 114, 114, 0.4);
+  border-bottom: 1px solid rgba(114, 114, 114, 0.4);
+
+}
+
+/* Content - Done */
+.codings-task-card-done .codings-task-card-content  {
+
+  border-top: 1px solid rgba(21, 133, 1, 0.4);
+  border-bottom: 1px solid rgba(21, 133, 1, 0.4);
+
+}
+
+/*-------------------------------------------------------------- */
+/* Title
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-title {
+
+  padding: 0 .2em;
+
+  font-size: 14.5px;
+  line-height: 1.7em;
+
+  /* font-weight: bold; */
+  /* font-style: italic; */
+
+}
+
+/* header title - in progress */
+.codings-task-card-in-progress .codings-task-card-title {
+  color:rgb(186, 145, 43);
+
+}
+
+/* header title - later */
+.codings-task-card-later .codings-task-card-title {
+
+  color: rgb(146, 146, 146);
+
+}
+
+/* header title - done */
+.codings-task-card-done .codings-task-card-title {
+
+  color: rgb(30, 159, 28);
+
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Hashtag List | Codings Task Card Main
+/* ---------------------------------------------------------------- */
+
+.codings-task-card-hashtag-list {
+
+  padding-top: .2em;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: .2em;
+  row-gap: .3em;
+
+}
+
+/* Divs | Items */
+.codings-task-card-hashtag-list > div {
+
+  font-size: 12px;
+
+  height: 2em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .5em;
+
+  opacity: .6;
+
+}
+
+/* HashTag - In Progress */
+.codings-task-card-in-progress .codings-task-card-hashtag-list > div  {
+
+  border: 1px dashed rgb(143, 119, 53);
+  color: rgb(86, 71, 29);
+
+}
+
+/* HashTag - Later */
+.codings-task-card-later .codings-task-card-hashtag-list > div  {
+
+  border: 1px dashed rgb(113, 113, 113);
+  color:rgb(85, 85, 85);
+
+}
+
+/* HashTag - Done */
+.codings-task-card-done .codings-task-card-hashtag-list > div  {
+
+  border: 1px dashed rgb(14, 71, 0);
+  color:rgb(14, 71, 0);
+
+}
