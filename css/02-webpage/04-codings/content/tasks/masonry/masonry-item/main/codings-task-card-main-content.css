@@ -22,7 +22,7 @@
 .codings-task-card-in-progress .codings-task-card-content  {
 
   border-top: 1px solid rgba(168, 140, 62, .4);
-  border-bottom: 1px solid rgba(168, 140, 62, .4);
+  /* border-bottom: 1px solid rgba(245, 219, 147, 1); */
 
 }
 
@@ -30,7 +30,7 @@
 .codings-task-card-later .codings-task-card-content  {
 
   border-top: 1px solid rgba(114, 114, 114, 0.4);
-  border-bottom: 1px solid rgba(114, 114, 114, 0.4);
+  /* border-bottom: 1px solid rgba(114, 114, 114, 0.4); */
 
 }
 
@@ -38,7 +38,7 @@
 .codings-task-card-done .codings-task-card-content  {
 
   border-top: 1px solid rgba(21, 133, 1, 0.4);
-  border-bottom: 1px solid rgba(21, 133, 1, 0.4);
+  /* border-bottom: 1px solid rgba(21, 133, 1, 0.4); */
 
 }
 
@@ -102,14 +102,14 @@
 
   font-size: 12px;
 
-  height: 2em;
+  height: 1.8em;
   padding: 0 .6em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .5em;
+  border-radius: .8em;
 
   opacity: .6;
 
@@ -135,6 +135,6 @@
 .codings-task-card-done .codings-task-card-hashtag-list > div  {
 
   border: 1px dashed rgb(14, 71, 0);
-  color:rgb(14, 71, 0);
+  color:rgb(27, 125, 3);
 
 }
