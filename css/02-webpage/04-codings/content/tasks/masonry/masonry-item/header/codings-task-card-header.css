@@ -130,14 +130,14 @@
 /* In Progress - tech category sticker */
 .codings-task-card-in-progress .codings-task-card-tech-category-sticker  {
 
-  background-color: rgb(251, 217, 132);
+  /* background-color: rgb(251, 217, 132); */
 
   border: 1px solid rgba(224, 175, 50, .8);
   color:rgb(186, 145, 43);
 
   color:rgb(143, 111, 30);
 
-  opacity: .8;
+  opacity: .6;
 
 
 
@@ -146,23 +146,23 @@
 /* Later - tech category sticker */
 .codings-task-card-later .codings-task-card-tech-category-sticker  {
 
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3; */
 
   border: 1px solid #c3c3c3;
   color: #6c6c6c;
 
-  opacity: .8;
+  opacity: .6;
 
 }
 
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-tech-category-sticker  {
 
-  background-color: rgb(136, 216, 136);
+  /* background-color: rgb(136, 216, 136); */
 
   border: 1px solid rgb(113, 185, 113);
   color: rgb(38, 109, 38);
 
-  opacity: .8;
+  opacity: .6;
 
 }

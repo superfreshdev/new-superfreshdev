@@ -86,7 +86,7 @@
 
     {
 
-      "info": "» Collections, Streams, Wrapper Classes, Interface, Lamdas, Generics, Arrays 2D,3D, ...",
+      "info": "🍌 » Collections, Streams, Wrapper Classes, Interface, Lamdas, Generics, Arrays 2D,3D, ...",
 
       "tasks": [
 
@@ -94,45 +94,92 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
 
@@ -143,47 +190,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-in-progress",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         },
 
@@ -191,47 +286,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-later",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         },
 
@@ -239,47 +382,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-later",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         },
 
@@ -287,47 +478,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-done",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         },
 
@@ -335,47 +574,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-done",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         }
 
@@ -393,45 +680,92 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-done",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
 
@@ -442,47 +776,191 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-done",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
+
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
 
             }
 
+          },
+
+          "main": {
+
+            "mainCssClass": "codings-task-card-main",
+
+            "contextListContainer": {
+
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "contentCssClass": "codings-task-card-content",
+
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+            "footerCssClass": "codings-task-card-footer",
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
           }
+
 
         }
 
@@ -492,7 +970,7 @@
 
     {
 
-      "info": "» Libs - Jackson, MapStruct, Flyway, Lombock, ... ",
+      "info": "» Libs - Lombock, Jackson, MapStruct, Flyway, Liquidbase",
 
       "tasks": [
 
@@ -500,45 +978,92 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-done",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "in progress"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
 
@@ -549,47 +1074,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-later",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "later"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         },
 
@@ -597,47 +1170,95 @@
 
           "header": {
 
-            "status": {
+            "headerCssClass": "codings-task-card-header",
+            "nrBoxCssClass": "codings-task-card-nr-box",
 
-              "cssClassSticker": "codings-task-card-status-sticker-later",
-              "filenameIcon": "black-fire-1.png",
-              "cssClassIcon": "img-h-0-8",
-              "statusText": "later"
+            "techCategory": {
+
+              "stickerCssClass": "codings-task-card-tech-category-sticker",
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debugging || Coding || Addon || Migrate "
 
             },
 
-            "timeLimit": "120 Min."
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "🍌later"
+
+            }
 
           },
 
           "main": {
 
+            "mainCssClass": "codings-task-card-main",
 
-            "categoryList": {
+            "contextListContainer": {
 
-              "categoryIconSeperator": "black-bullet.png",
-              "items": ["Bank 🏠","Insurance 💫"]
+              "listContainerCssClass": "codings-task-card-context-list-container",
+
+              "listCssClass": "codings-task-card-category-list",
+              "iconBulletFilename": "black-bullet.png",
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+
+              "timeBoxCssClass": "codings-task-card-time-box",
+              "timeLimit": "60 Min."
+
             },
 
-            "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+            "content": {
 
-            "hashTagList": ["#HashTag-1","#HashTag-2","#HashTag-3","#HashTag-4","#HashTag-5","#HashTag-6"]
+              "contentCssClass": "codings-task-card-content",
 
+              "taskTitleCssClass": "codings-task-card-title",
+              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+
+              "hashTagListCssClass": "codings-task-card-hashtag-list",
+              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
 
           },
 
           "footer": {
 
-            "githubLink": {
+            "footerCssClass": "codings-task-card-footer",
 
-              "href": "www.google.de",
-              "filenameIcon": "black-github.png",
-              "cssClassIcon": "img-h-0-8",
-              "text": "GitHub"
+            "links": [
 
-            }
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
 
           }
+
 
         }
 
