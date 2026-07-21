@@ -29,22 +29,40 @@
   /* Dom Documented Loaded | First Load Check
   /* ---------------------------------------------------- */
 
-    // only if first nav is checked - than look deeper
 
-    // Dom Documented Loaded | First Load Check
+    // 1. Beim Laden einmalig ausführen
+    // - Für Masonry muss load - Event weil das komplette DOM erst geladen werden
+    // muss, damit 100% korrekt die Abtsände berechnetwerden können beim domContentLoaded
+    // können Seiteneffekte passieren, das dies mal klappt und manchmal nicht - d.h
+    // kaputte Layout Effekte
+    window.addEventListener("load", async() => {
 
-    document.addEventListener("DOMContentLoaded", async() => {
+      // window.alert("➡️ Create: Masonry 2-Col-Layout(resp:800px) ")
 
-      // window.alert("(js) - tech-nav-handler: dom-content-loaded")
+      // layout, items, "columns=max columns = 2", ctx
+      // var codingsMasonryTasksLayout = document.getElementById("codings-masonry-container");
+      // var codingsMasonryTasks = codingsMasonryTasksLayout.children;
+      // console.log("codingsMasonryTasks.l= " + codingsMasonryTasks.length )
+      // var maxColumns = 2;
 
-      /*
+      var ctxMasonryTasksLayout = {
 
-        1. count all tasks from each category - java 14, ...
-        2. check which radio (java, sb, ..) is checked, default radio 1 checked
+        container: document.getElementById("codings-masonry-container"),
+        itemSelector: ".m-item",
+        gap: 16,
 
-        3. Do Routine - Update Codings Task Header
+        breakpoints: [
+          { minWidth: 0, columns: 1 }, // < 800px -> 1 col
+          { minWidth: 768, columns: 2 }, // >= 800px -> 2 col
+          { minWidth: 1200, columns: 3 }, // >= 1400px -> 3 col
+        ]
 
-      */
+      }
+
+      // Create Masonry Layout with context data object of Masonry
+      await initResponsiveMasonry( ctxMasonryTasksLayout );
+
+
 
       return new Promise(resolve => {
         resolve( );
@@ -53,11 +71,10 @@
 
     })
 
-  /* ---------------------------------------------------- */
-  /* 🟨 Step 2/2:
-  /* Radio Tech - Change Listener
-  /* ---------------------------------------------------- */
 
+
+
+    // 3. Radio Change Listener -
     for( let i=0; i < techCodingsRadios.length; i++ ) {
 
 

@@ -36,19 +36,26 @@
 
 #codings-masonry-container {
 
-  width: 100%;
+  position: relative;
+
+  /* width: 100%; */
   /* height: 100%; */
 
   display: grid;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 
-  grid: auto / 1fr;
+  /* grid: auto / 1fr; */
 
-  column-gap: 1em;
-  row-gap: .6em;
+  /* column-gap: 1em;
+  row-gap: 1em; */
 
   /* background-color: rgb(128, 128, 128); */
 
+}
+
+.m-item {
+
+  transition: none !important;
 }
 
 /* ---------------------------------------------------------------- */
