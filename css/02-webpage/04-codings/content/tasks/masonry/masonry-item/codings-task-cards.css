@@ -25,14 +25,10 @@
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
 
+  border: 1px solid rgb(191, 191, 191);
 
-  border: 1px solid rgb(209, 208, 208);
-
-  /* border: 1px solid rgb(174, 174, 174); */
-
-  transition: all .4s;
+  transition: all .4s ease-in-out;
 
   background-color: white;
 

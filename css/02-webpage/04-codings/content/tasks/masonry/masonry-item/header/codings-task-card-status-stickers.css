@@ -18,7 +18,7 @@
   align-items: center;
   column-gap: .4em;
 
-  border-radius: .4em;
+  border-radius: .5em;
 
   font-weight: bold;
 
@@ -62,6 +62,7 @@
   border: 1px solid rgb(230, 192, 96);
 
   color:rgb(144, 112, 30);
+
 
   opacity: .8;
 

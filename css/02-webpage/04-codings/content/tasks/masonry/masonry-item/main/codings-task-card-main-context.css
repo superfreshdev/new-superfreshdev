@@ -70,17 +70,7 @@
 /* Category List - In Progress */
 .codings-task-card-in-progress .codings-task-card-category-list {
 
-  color: rgb(168, 140, 62);
-
-  /* color:rgb(176, 134, 27); */
-
-/*
-  color:rgb(111, 111, 111);
-
-  color:rgb(150, 150, 150);
-
-  color:rgb(57, 57, 57); */
-
+  color:rgb(176, 134, 27);
 
 }
 
@@ -139,7 +129,7 @@
 /* Time Box - In Progress */
 .codings-task-card-in-progress .codings-task-card-time-box {
 
-  color: rgb(168, 140, 62);
+  color:rgb(176, 134, 27);
 
   /* color:rgb(176, 134, 27); */
 
@@ -159,7 +149,7 @@
 /* Time Box - Done */
 .codings-task-card-done .codings-task-card-time-box {
 
-  color: rgb(14, 150, 12);
+  color: rgb(72, 152, 71);
 
   /* color:rgb(150, 150, 150); */
 

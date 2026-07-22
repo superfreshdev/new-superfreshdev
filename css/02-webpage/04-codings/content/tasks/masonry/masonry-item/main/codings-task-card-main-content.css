@@ -23,7 +23,7 @@
 
   border-top: 1px solid rgba(168, 140, 62, .4);
 
-  border-top: 1px solid rgb(210, 209, 209);
+  /* border-top: 1px solid rgb(210, 209, 209); */
   /* border-bottom: 1px solid rgb(210, 209, 209); */
 
 
@@ -35,7 +35,7 @@
 
   border-top: 1px solid rgba(114, 114, 114, 0.4);
 
-  border-top: 1px solid rgb(210, 209, 209);
+  /* border-top: 1px solid rgb(210, 209, 209); */
   /* border-bottom: 1px solid rgb(210, 209, 209); */
 
 }
@@ -46,7 +46,7 @@
   border-top: 1px solid rgba(21, 133, 1, 0.4);
 
 
-  border-top: 1px solid rgb(210, 209, 209);
+  /* border-top: 1px solid rgb(210, 209, 209); */
   /* border-bottom: 1px solid rgb(210, 209, 209); */
 
 }
@@ -99,10 +99,7 @@
 
   color: rgb(27, 142, 25);
 
-   /* color:rgb(95, 95, 95); */
-
-    /* color:rgb(151, 151, 151); */
-
+  color: rgb(72, 152, 71);
 
 
 }
@@ -135,7 +132,7 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .5em;
+  border-radius: .8em;
 
   opacity: .6;
 
@@ -144,11 +141,11 @@
 /* HashTag - In Progress */
 .codings-task-card-in-progress .codings-task-card-hashtag-list > div  {
 
-  border: 1px solid rgb(143, 119, 53);
-  color: rgb(86, 71, 29);
+  border: 1px dashed rgb(143, 119, 53);
+  color: rgb(114, 85, 11);
 
-  border: 1px dashed rgb(173, 173, 173);
-  color:rgb(40, 40, 40);
+  /* border: 1px dashed rgb(173, 173, 173);
+  color:rgb(40, 40, 40); */
 
 }
 
@@ -163,10 +160,10 @@
 /* HashTag - Done */
 .codings-task-card-done .codings-task-card-hashtag-list > div  {
 
-  border: 1px solid rgb(14, 71, 0);
+  border: 1px dashed rgb(27, 125, 3);
   color:rgb(27, 125, 3);
 
-  border: 1px dashed rgb(173, 173, 173);
-  color:rgb(40, 40, 40);
+  /* border: 1px dashed rgb(173, 173, 173);
+  color:rgb(40, 40, 40); */
 
 }
