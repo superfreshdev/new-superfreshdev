@@ -16,11 +16,26 @@
 
   /* row-gap: .1em; */
 
+  border-radius: .6em .6em .6em .6em;
+
   border-radius: .6em;
 
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  /* border-radius: 1-3em; */
+
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+
+
+  border: 1px solid rgb(209, 208, 208);
+
+  /* border: 1px solid rgb(174, 174, 174); */
 
   transition: all .4s;
+
+  background-color: white;
+
 
 }
 
@@ -33,13 +48,34 @@
 
 }
 
+/* .codings-task-card-in-progress:hover {
+
+  background-color: rgb(254, 246, 226);
+
+}
+
+.codings-task-card-later:hover {
+
+  background-color: #f7f7f7;
+
+}
+
+.codings-task-card-done:hover {
+
+  background-color: rgb(238, 255, 238);
+
+} */
+
 /* ---------------------------------------------------------------- */
 /* In Progress | Codings Task Card
 /* ---------------------------------------------------------------- */
 
 .codings-task-card-in-progress {
 
-  border-left: .8em solid rgb(251, 217, 132);
+  border-left: .7em solid rgb(251, 217, 132);
+
+  background-color: rgb(254, 246, 226);
+
   background-color: rgb(255, 243, 216);
 
 }
@@ -50,7 +86,8 @@
 
 .codings-task-card-later {
 
-  border-left: .8em solid #e3e3e3;;
+  border-left: .7em solid #bcbcbc;;
+
   background-color: #f7f7f7;
 
 }
@@ -61,7 +98,10 @@
 
 .codings-task-card-done {
 
-  border-left: .8em solid rgb(136, 216, 136);
+  border-left: .7em solid rgb(136, 216, 136);
+
+  background-color: rgb(238, 255, 238);
+
   background-color: rgb(219, 253, 219);
 
 }

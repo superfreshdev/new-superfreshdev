@@ -9,7 +9,7 @@
 
 .codings-task-card-context-list-container {
 
-  padding-bottom: .5em;
+  padding-bottom: .4em;
 
   display: flex;
   justify-content: space-between;
@@ -34,6 +34,8 @@
   row-gap: .3em;
 
   font-weight: bold;
+
+  /* line-height: .8em; */
 
   /* background-color: rgb(192, 192, 192); */
 
@@ -69,6 +71,13 @@
 .codings-task-card-in-progress .codings-task-card-category-list {
 
   color: rgb(168, 140, 62);
+/*
+  color:rgb(111, 111, 111);
+
+  color:rgb(150, 150, 150);
+
+  color:rgb(57, 57, 57); */
+
 
 }
 
@@ -77,12 +86,24 @@
 
   color: rgb(146, 146, 146);
 
+  /* color:rgb(111, 111, 111);
+
+  color:rgb(150, 150, 150);
+
+  color:rgb(57, 57, 57); */
+
 }
 
 /* Category List - Done */
 .codings-task-card-done .codings-task-card-category-list {
 
-  color: rgb(14, 150, 12);
+  color: rgb(72, 152, 71);
+
+  /* color:rgb(111, 111, 111);
+
+  color:rgb(150, 150, 150);
+
+  color:rgb(57, 57, 57); */
 
 }
 
@@ -117,6 +138,8 @@
 
   color: rgb(168, 140, 62);
 
+  /* color:rgb(150, 150, 150); */
+
 }
 
 /* Time Box - Later */
@@ -124,11 +147,15 @@
 
   color: rgb(146, 146, 146);
 
+  /* color:rgb(150, 150, 150); */
+
 }
 
 /* Time Box - Done */
 .codings-task-card-done .codings-task-card-time-box {
 
   color: rgb(14, 150, 12);
+
+  /* color:rgb(150, 150, 150); */
 
 }

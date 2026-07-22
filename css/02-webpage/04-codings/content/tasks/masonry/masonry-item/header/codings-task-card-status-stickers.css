@@ -12,7 +12,7 @@
 .codings-task-card-status-sticker-done {
 
   height: 1.7em;
-  padding: 0 .6em;
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
 .codings-task-card-status-sticker-later > div,
 .codings-task-card-status-sticker-done > div {
 
-  font-size: 12.5px;
+  font-size: 12px;
 
 }
 

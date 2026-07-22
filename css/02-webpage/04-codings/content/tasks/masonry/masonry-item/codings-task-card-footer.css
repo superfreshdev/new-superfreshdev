@@ -9,6 +9,8 @@
 
 .codings-task-card-footer {
 
+  /* padding-top: .8em; */
+
   width: 100%;
 
   display: flex;
@@ -27,13 +29,13 @@
   text-decoration: none;
 
   height: 1.8em;
-  padding: 0 .4em;
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
   column-gap: .3em;
 
-  border-radius: .6em;
+  border-radius: .4em;
 
   font-weight: bold;
   border: 1px solid rgba(164, 164, 164, .4);
@@ -57,7 +59,7 @@
 /* text - Github */
 .codings-task-card-footer > a > div {
 
-  font-size: 12.5px;
+  font-size: 12px;
 
 }
 
