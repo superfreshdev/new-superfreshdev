@@ -18,7 +18,7 @@
 
   border-radius: .6em .6em .6em .6em;
 
-  border-radius: .6em;
+  border-radius: .8em;
 
   /* border-radius: 1-3em; */
 
@@ -68,11 +68,13 @@
 
 .codings-task-card-in-progress {
 
-  border-left: .7em solid rgb(251, 217, 132);
+  border-left: .8em solid rgb(251, 217, 132);
 
-  background-color: rgb(254, 246, 226);
+  background-color: rgb(247, 247, 247);
 
   background-color: rgb(255, 243, 216);
+
+  background-color: rgb(254, 246, 226);
 
 }
 
@@ -82,9 +84,11 @@
 
 .codings-task-card-later {
 
-  border-left: .7em solid #bcbcbc;;
+  border-left: .8em solid #bcbcbc;;
 
   background-color: #f7f7f7;
+
+  background-color: rgb(247, 247, 247);
 
 }
 
@@ -94,9 +98,9 @@
 
 .codings-task-card-done {
 
-  border-left: .7em solid rgb(136, 216, 136);
+  border-left: .8em solid rgb(136, 216, 136);
 
-  background-color: rgb(238, 255, 238);
+  background-color: rgb(247, 247, 247);
 
   background-color: rgb(219, 253, 219);
 
