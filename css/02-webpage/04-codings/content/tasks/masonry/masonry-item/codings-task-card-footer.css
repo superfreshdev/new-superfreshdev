@@ -9,7 +9,7 @@
 
 .codings-task-card-footer {
 
-  /* padding-top: .8em; */
+  padding-top: .8em;
 
   width: 100%;
 
@@ -42,9 +42,11 @@
 
   color: rgb(88, 88, 88);
 
+  /* background-color: rgb(237, 237, 237); */
+
   transition: all .4s;
 
-  opacity: .9;
+  opacity: .8;
 
 }
 

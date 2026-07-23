@@ -16,14 +16,13 @@
 
   /* row-gap: .1em; */
 
-  border-radius: .6em .6em .6em .6em;
 
-  border-radius: .8em;
+  border-radius: .6em;
 
   /* border-radius: 1-3em; */
 
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 
 
   border: 1px solid rgb(191, 191, 191);

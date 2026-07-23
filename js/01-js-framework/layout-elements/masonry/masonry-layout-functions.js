@@ -3,7 +3,7 @@
 
 /* -------------------------------------------------------------------------- */
 /* 🔩 Help Function
-/* > Get Breakpoint Value from List by Screen Width
+/* > Get Column Number by Comparing Breakpoints With Screen Width
 /* -------------------------------------------------------------------------- */
 
   function getColumnsForCurrentWidth(breakpoints) {
@@ -33,13 +33,13 @@
       // Eine innere Funktion, die das Layout berechnet
       const appLayout = () => {
 
-          let currentColumns = 1;
-          const screenWidth = window.innerWidth;
+        let currentColumns = 1;
+        const screenWidth = window.innerWidth;
 
-          // 1. Breakpoint ermiiteln und Spalten Anzahl festlegen
-          let breakpoints = ctx.breakpoints;
-          currentColumns = getColumnsForCurrentWidth(breakpoints)
-          console.log("🔥🔥🔥 Current Columns = " + currentColumns )
+        // 1. Breakpoints ermitteln und Spalten Anzahl festlegen
+        let breakpoints = ctx.breakpoints;
+        currentColumns = getColumnsForCurrentWidth(breakpoints)
+        console.log("🔥🔥🔥 Current Columns = " + currentColumns )
 
           // 2. Elemente holen
           const container = ctx.container;
@@ -78,6 +78,8 @@
       const instance = appLayout();
 
       // 2. Bei jeder Fensergrößenänderung (Resize) dynamisch anpassen
+      // Vorteil: Resize Event ist direkt im Context der Methode und
+      // wird überall registriert, wenn diese Methode augerufen wird
       window.addEventListener("resize", () => {
         window.requestAnimationFrame(() => {
 
@@ -93,132 +95,3 @@
     })
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* -------------------------------------------------------------------------- */
-/* ❌❌❌ Trash
-/* -------------------------------------------------------------------------- */
-
-
-
-
-/* -------------------------------------------------------------------------- */
-/* Function
-/* > Rebuild resp Masonry | 2 col layout
-/* -------------------------------------------------------------------------- */
-
-  async function rebuild_respMasonry_2col_layout( layout, items, columns, ctx ) {
-
-    // console.log("⭐columns: " + columns);
-    // console.log("⭐ctx: " + ctx);
-    // console.log("⭐layout: " + layout);
-    // console.log("⭐items: " + items);
-
-    return new Promise( resolve => {
-
-      // Gib dem Browser kurz Luft, falls Elemente gerade erst gerendert wurden
-      setTimeout( () => {
-
-        const gutterSize = ctx && ctx.gap !== undefined ? ctx.gap : 16;
-
-
-        // 1. Hole alle direkten Kind-Elemente über den Container im Layout
-        const masonryItems = layout.querySelectorAll(":scope > .m-item");
-        console.log("masonryItems(l) = " + masonryItems.length );
-
-        // 2. Setze die Breite für jedes Element (Schleife nur für Styles)
-        masonryItems.forEach(item => {
-
-          item.style.width = columns === 1
-            ? '100%'
-            : `calc(50% - ${gutterSize / 2}px)`;
-
-          // Falls Masonry den vertikalen Abstand nicht automatisch berechnet,
-          // dann geben wir sicherheitshalber dies mit margin-bottom an
-          item.style.marginBottom = `${gutterSize}px`;
-
-        });
-
-        // 3. ERST HIER: Erstelle die Masonry-Instanz EINMALIG für den Container
-        // (Nicht in der forEach-Schleife)
-        const masonryInstance = new Masonry(layout, {
-
-          itemSelector: '.m-item',
-          columnWidth: '.m-item',
-          percentPosition: true,
-          gutter: gutterSize // Das steuert den horizontalen Abstand zwischen den Spalten
-
-        })
-
-        // 4. Gib die fertige Instanz zurück
-        resolve(masonryInstance);
-
-
-      }, 50);
-
-    })
-
-  }
-
-
-
-
-  // ❌ alte Lösung - löschen
-    // return new Promise( resolve => {
-
-    //   setTimeout( () => {
-
-    //     const gutter = 24;
-    //     // const domItems = document.querySelectorAll( items );
-    //     const domItems = ctx.container.querySelectorAll( ":scope > div" );
-
-    //     console.log("domItems(l) = " + domItems.length )
-
-    //     domItems.forEach( item => {
-
-    //       // console.log("🥒item = " + item)
-
-    //       item.style.width = columns === 1
-    //         ? '100%'
-    //         : `calc(50% - ${gutter / 2}px)`;
-
-    //     })
-
-    //     // create new masonry
-    //     ctx.container = new Masonry( layout, {
-
-    //       itemSelector: 'div',
-    //       columnWidth:  'div',
-    //       percentPosition: true,
-    //       gutter: gutter
-
-    //     })
-
-    //     resolve( ctx.container )
-
-    //   }, 50);
-
-    // })

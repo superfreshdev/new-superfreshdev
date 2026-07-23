@@ -94,15 +94,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -119,30 +115,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -150,7 +133,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -190,15 +172,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -215,30 +193,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -246,7 +211,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -286,15 +250,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -311,30 +271,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -342,7 +289,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -382,15 +328,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -407,30 +349,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -438,7 +367,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -478,15 +406,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -503,30 +427,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -534,7 +445,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -574,15 +484,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -599,30 +505,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -630,7 +523,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -680,15 +572,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -705,30 +593,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -736,7 +611,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -776,15 +650,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -801,30 +671,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -832,7 +689,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -872,15 +728,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -897,30 +749,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -928,7 +767,240 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debuggiutng || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debuggiutng || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debuggiutng || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
 
             "links": [
 
@@ -972,21 +1044,17 @@
 
       "info": "» Libs - Lombock, Jackson, MapStruct, Flyway, Liquidbase",
 
-      "tasks": [
+     "tasks": [
 
         {
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -1003,30 +1071,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -1034,7 +1089,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -1074,15 +1128,11 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
@@ -1099,30 +1149,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -1130,7 +1167,6 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
 
             "links": [
 
@@ -1170,24 +1206,20 @@
 
           "header": {
 
-            "headerCssClass": "codings-task-card-header",
-            "nrBoxCssClass": "codings-task-card-nr-box",
-
             "techCategory": {
 
-              "stickerCssClass": "codings-task-card-tech-category-sticker",
               "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debugging || Coding || Addon || Migrate "
+              "title": "Debuggiutng || Coding || Addon || Migrate "
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
               "iconFilename": "black-fire-1.png",
               "iconCssClass": "img-h-0-8",
-              "title": "🍌later"
+              "title": "in progress"
 
             }
 
@@ -1195,30 +1227,17 @@
 
           "main": {
 
-            "mainCssClass": "codings-task-card-main",
+            "context": {
 
-            "contextListContainer": {
-
-              "listContainerCssClass": "codings-task-card-context-list-container",
-
-              "listCssClass": "codings-task-card-category-list",
-              "iconBulletFilename": "black-bullet.png",
               "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-
-              "timeBoxCssClass": "codings-task-card-time-box",
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "contentCssClass": "codings-task-card-content",
-
-              "taskTitleCssClass": "codings-task-card-title",
-              "taskTitle": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-
-              "hashTagListCssClass": "codings-task-card-hashtag-list",
-              "hashTagList": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
 
@@ -1226,7 +1245,240 @@
 
           "footer": {
 
-            "footerCssClass": "codings-task-card-footer",
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debuggiutng || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debuggiutng || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-8",
+              "title": "Debuggiutng || Coding || Addon || Migrate "
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
 
             "links": [
 
@@ -1265,7 +1517,6 @@
       ]
 
     }
-
 
   ]
 

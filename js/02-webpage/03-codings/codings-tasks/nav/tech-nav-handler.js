@@ -1,4 +1,5 @@
-// console.log("🟨 codings-tech-nav.js")
+// console.log("🟨 tech-nav-handler.js")
+
 
 
 /* -------------------------------------------------------------------- */
@@ -24,44 +25,67 @@
 /* 🎉 Events
 /* -------------------------------------------------------------------- */
 
-  /* ---------------------------------------------------- */
-  /* ➡️🟥 Step 1/2:
-  /* Dom Documented Loaded | First Load Check
-  /* ---------------------------------------------------- */
 
+  /* ---------------------------------------------------------------------- */
+  /* ➡️🟥 Step 1/2:
+  /* Load | First Complete Webpage Load
+  /* ---------------------------------------------------------------------- */
 
     // 1. Beim Laden einmalig ausführen
     // - Für Masonry muss load - Event weil das komplette DOM erst geladen werden
     // muss, damit 100% korrekt die Abtsände berechnetwerden können beim domContentLoaded
     // können Seiteneffekte passieren, das dies mal klappt und manchmal nicht - d.h
     // kaputte Layout Effekte
+
     window.addEventListener("load", async() => {
 
       // window.alert("➡️ Create: Masonry 2-Col-Layout(resp:800px) ")
 
-      // layout, items, "columns=max columns = 2", ctx
-      // var codingsMasonryTasksLayout = document.getElementById("codings-masonry-container");
-      // var codingsMasonryTasks = codingsMasonryTasksLayout.children;
-      // console.log("codingsMasonryTasks.l= " + codingsMasonryTasks.length )
-      // var maxColumns = 2;
+      /* ----------------------------------------------------------- */
+      /* ➡️🟥 Step ?/?
+      /* > Create Coding Tasks by Category
+      /* ----------------------------------------------------------- */
 
-      var ctxMasonryTasksLayout = {
+        /*
 
-        container: document.getElementById("codings-masonry-container"),
-        itemSelector: ".m-item",
-        gap: 16,
+          🟥1. Read - json tasks
 
-        breakpoints: [
-          { minWidth: 0, columns: 1 }, // < 800px -> 1 col
-          { minWidth: 768, columns: 2 }, // >= 800px -> 2 col
-          { minWidth: 1200, columns: 3 }, // >= 1400px -> 3 col
-        ]
+          🟥2. Build Process
 
-      }
+              - buildTaskCard
+                  - buildTaskCardHeader
+                  - buildTaskCardMain
+                  -buildTaskCardFooter
 
-      // Create Masonry Layout with context data object of Masonry
-      await initResponsiveMasonry( ctxMasonryTasksLayout );
+          🟥2.1 Filter TaskList - Prio-Later-Done
 
+
+        */
+
+      /* ----------------------------------------------------------- */
+      /* 🟥 Step ?/?
+      /* > Create Masonry Layout - Codings Tasks
+      /* ----------------------------------------------------------- */
+
+        // Define Masonry Layout
+        // Reminder: only first items from parent use e.g :scope > div
+        var ctxMasonryTasksLayout = {
+
+          container: document.getElementById("codings-masonry-container"),
+          itemSelector: "#codings-masonry-container > div",
+          gap: 16,
+
+          breakpoints: [
+            { minWidth: 0, columns: 1 }, // < 768px -> 1 col
+            { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
+            { minWidth: 1200, columns: 3 }, // >= 1200px -> 3 col
+
+          ]
+
+        }
+
+        // Create Masonry Layout with Masonry Context Object ( all datas )
+        await initResponsiveMasonry( ctxMasonryTasksLayout );
 
 
       return new Promise(resolve => {
@@ -72,9 +96,11 @@
     })
 
 
+  /* ------------------------------------------------------------------------------- */
+  /* ➡️🟥 Step 2/2:
+  /* Radio Change Listener | Tech Nav Radios
+  /* ------------------------------------------------------------------------------- */
 
-
-    // 3. Radio Change Listener -
     for( let i=0; i < techCodingsRadios.length; i++ ) {
 
 
