@@ -70,9 +70,13 @@
 /* Category List - In Progress */
 .codings-task-card-in-progress .codings-task-card-category-list {
 
-  color:rgb(176, 134, 27);
+  color:rgb(185, 144, 40);
 
-  color: rgb(154, 154, 154);
+  color:rgb(182, 141, 39);
+
+  /* color: rgb(154, 154, 154);
+
+  color:rgb(113, 113, 113); */
 
 }
 
@@ -81,7 +85,9 @@
 
   color: rgb(146, 146, 146);
 
-  color: rgb(154, 154, 154);
+  /* color: rgb(154, 154, 154);
+
+   color:rgb(113, 113, 113); */
 
 }
 
@@ -90,7 +96,9 @@
 
   color: rgb(72, 152, 71);
 
-  color: rgb(154, 154, 154);
+  /* color: rgb(154, 154, 154);
+
+   color:rgb(113, 113, 113); */
 
 }
 
@@ -123,9 +131,9 @@
 /* Time Box - In Progress */
 .codings-task-card-in-progress .codings-task-card-time-box {
 
-  color:rgb(176, 134, 27);
+  color:rgb(182, 141, 39);
 
-  color: rgb(154, 154, 154);
+  /* color: rgb(154, 154, 154); */
 
   /* color:rgb(176, 134, 27); */
 
@@ -138,7 +146,7 @@
 
   color: rgb(146, 146, 146);
 
-  color: rgb(154, 154, 154);
+  /* color: rgb(154, 154, 154); */
 
   /* color:rgb(150, 150, 150); */
 
@@ -149,7 +157,7 @@
 
   color: rgb(72, 152, 71);
 
-  color: rgb(154, 154, 154);
+  /* color: rgb(154, 154, 154); */
 
   /* color:rgb(150, 150, 150); */
 

@@ -84,11 +84,10 @@
 
   color:rgb(176, 134, 27);
 
-  color:rgb(192, 192, 192);
 
-  /* color:rgb(95, 95, 95); */
+  color:rgb(65, 65, 65);
 
-  /* color:rgb(151, 151, 151); */
+
 
 
 }
@@ -100,9 +99,9 @@
 
   color:rgb(192, 192, 192);
 
-  /* color:rgb(95, 95, 95); */
+  color:rgb(181, 181, 181);
 
-   /* color:rgb(151, 151, 151); */
+  color:rgb(65, 65, 65);
 
 }
 
@@ -114,6 +113,10 @@
   color: rgb(72, 152, 71);
 
   color:rgb(192, 192, 192);
+
+  color:rgb(181, 181, 181);
+
+  color:rgb(65, 65, 65);
 
 }
 
@@ -157,8 +160,8 @@
   border: 1px dashed rgb(143, 119, 53);
   color: rgb(114, 85, 11);
 
-  border: 1px dashed rgb(173, 173, 173);
-  color:rgb(118, 118, 118);
+  /* border: 1px dashed rgb(173, 173, 173);
+  color:rgb(118, 118, 118); */
 
 }
 
@@ -176,8 +179,8 @@
   border: 1px dashed rgb(27, 125, 3);
   color:rgb(27, 125, 3);
 
-  border: 1px dashed rgb(173, 173, 173);
-  color:rgb(118, 118, 118);
+  /* border: 1px dashed rgb(173, 173, 173);
+  color:rgb(118, 118, 118); */
 
   /* border: 1px dashed rgb(173, 173, 173);
   color:rgb(40, 40, 40); */

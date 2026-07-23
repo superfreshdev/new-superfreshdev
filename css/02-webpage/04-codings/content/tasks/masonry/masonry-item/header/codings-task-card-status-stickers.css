@@ -18,7 +18,7 @@
   align-items: center;
   column-gap: .4em;
 
-  border-radius: .5em;
+  border-radius: .8em;
 
   font-weight: bold;
 
@@ -65,7 +65,7 @@
   color:rgb(144, 112, 30);
 
 
-  opacity: .8;
+  /* opacity: .8; */
 
 }
 
@@ -81,7 +81,7 @@
 
   color:#545454;
 
-  opacity: .8;
+  /* opacity: .8; */
 
 }
 
@@ -97,6 +97,6 @@
 
   color:rgb(53, 92, 53);
 
-  opacity: .8;
+  /* opacity: .8; */
 
 }
