@@ -25,8 +25,8 @@
 
   border-bottom: 1px solid rgba(168, 140, 62, .4);
 
-  /* border-top: 1px solid rgb(210, 209, 209); */
-  /* border-bottom: 1px solid rgb(210, 209, 209); */
+  border-top: 1px solid rgba(155, 155, 155, 0.4);
+  border-bottom: 1px solid rgba(155, 155, 155, 0.4);
 
 
 
@@ -39,8 +39,8 @@
 
   border-bottom: 1px solid rgba(114, 114, 114, 0.4);
 
-  /* border-top: 1px solid rgb(210, 209, 209); */
-  /* border-bottom: 1px solid rgb(210, 209, 209); */
+  border-top: 1px solid rgba(155, 155, 155, 0.4);
+  border-bottom: 1px solid rgba(155, 155, 155, 0.4);
 
 }
 
@@ -52,8 +52,8 @@
   border-bottom: 1px solid rgba(21, 133, 1, 0.4);
 
 
-  /* border-top: 1px solid rgb(210, 209, 209); */
-  /* border-bottom: 1px solid rgb(210, 209, 209); */
+  border-top: 1px solid rgba(155, 155, 155, 0.4);
+  border-bottom: 1px solid rgba(155, 155, 155, 0.4);
 
 }
 
@@ -82,9 +82,9 @@
 
   color:rgb(176, 134, 27);
 
-   color:rgb(176, 134, 27);
+  color:rgb(176, 134, 27);
 
-   color:grey;
+  color:rgb(192, 192, 192);
 
   /* color:rgb(95, 95, 95); */
 
@@ -98,7 +98,7 @@
 
   color: rgb(146, 146, 146);
 
-  color:grey;
+  color:rgb(192, 192, 192);
 
   /* color:rgb(95, 95, 95); */
 
@@ -113,8 +113,7 @@
 
   color: rgb(72, 152, 71);
 
-  color:grey;
-
+  color:rgb(192, 192, 192);
 
 }
 
@@ -146,7 +145,7 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .8em;
+  border-radius: .6em;
 
   opacity: .6;
 
@@ -158,8 +157,8 @@
   border: 1px dashed rgb(143, 119, 53);
   color: rgb(114, 85, 11);
 
-   border: 1px dashed rgb(173, 173, 173);
-  color:rgb(40, 40, 40);
+  border: 1px dashed rgb(173, 173, 173);
+  color:rgb(118, 118, 118);
 
 }
 
@@ -167,7 +166,7 @@
 .codings-task-card-later .codings-task-card-hashtag-list > div  {
 
   border: 1px dashed rgb(173, 173, 173);
-  color:rgb(40, 40, 40);
+  color:rgb(118, 118, 118);
 
 }
 
@@ -177,8 +176,8 @@
   border: 1px dashed rgb(27, 125, 3);
   color:rgb(27, 125, 3);
 
-   border: 1px dashed rgb(173, 173, 173);
-  color:rgb(40, 40, 40);
+  border: 1px dashed rgb(173, 173, 173);
+  color:rgb(118, 118, 118);
 
   /* border: 1px dashed rgb(173, 173, 173);
   color:rgb(40, 40, 40); */

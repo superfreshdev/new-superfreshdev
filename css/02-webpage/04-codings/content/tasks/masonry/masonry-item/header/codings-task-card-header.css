@@ -14,7 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: .8em;
+
+  column-gap: .6em;
 
   /* background-color: rgb(251, 217, 132); */
 
@@ -30,7 +31,7 @@
   display: flex;
   align-items: center;
 
-  column-gap: .3em;
+  column-gap: .6em;
 
 }
 
@@ -66,7 +67,8 @@
 
   background-color: rgb(251, 217, 132);
 
-  border: 1px solid rgba(224, 175, 50, .8);
+  /* border: 1px solid rgba(224, 175, 50, .8); */
+
   color:rgb(186, 145, 43);
 
   color:rgb(143, 111, 30);
@@ -80,7 +82,8 @@
 
   background-color: #e3e3e3;
 
-  border: 1px solid #c3c3c3;
+  /* border: 1px solid #c3c3c3; */
+
   color:#727272;
 
   opacity: .8;
@@ -92,10 +95,13 @@
 
   background-color: rgb(136, 216, 136);
 
-  border: 1px solid rgb(113, 185, 113);
+  /* border: 1px solid rgb(113, 185, 113); */
+
   color: rgb(46, 132, 46);
 
-   opacity: .8;
+
+
+  opacity: .8;
 
 }
 
@@ -106,7 +112,7 @@
 .codings-task-card-tech-category-sticker {
 
   height: 1.7em;
-  padding: 0 .5em;
+  /* padding: 0 .5em; */
 
   display: flex;
   align-items: center;
@@ -134,21 +140,19 @@
 /* In Progress - tech category sticker */
 .codings-task-card-in-progress .codings-task-card-tech-category-sticker  {
 
-  background-color: rgb(251, 217, 132);
+  /* background-color: rgb(251, 217, 132); */
 
-  border: 1px solid rgba(224, 175, 50, .8);
-
+  /* border: 1px solid rgba(224, 175, 50, .8); */
 
   color:rgb(143, 111, 30);
 
+  color: #6c6c6c;
+  /* color:black; */
+
   /* color:rgb(176, 134, 27); */
-
-
-
   /* color:black; */
 
   opacity: .8;
-
 
 
 }
@@ -156,9 +160,9 @@
 /* Later - tech category sticker */
 .codings-task-card-later .codings-task-card-tech-category-sticker  {
 
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3; */
 
-  border: 1px solid #c3c3c3;
+  /* border: 1px solid #c3c3c3; */
   color: #6c6c6c;
 
   /* color:black; */
@@ -170,10 +174,13 @@
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-tech-category-sticker  {
 
-  background-color: rgb(136, 216, 136);
+  /* background-color: rgb(136, 216, 136); */
 
-  border: 1px solid rgb(113, 185, 113);
+  /* border: 1px solid rgb(113, 185, 113); */
+
   color: rgb(38, 109, 38);
+
+  color: #6c6c6c;
 
 
 

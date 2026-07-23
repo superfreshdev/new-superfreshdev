@@ -16,18 +16,15 @@
 
   /* row-gap: .1em; */
 
+  border-radius: .3em .6em .6em .3em;
 
-  border-radius: .7em;
+  border-radius: .8em;
 
-  /* border-radius: 1-3em; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
+  border: 1px solid rgb(205, 205, 205);
 
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-
-
-  border: 1px solid rgb(222, 222, 222);
-
-  transition: all .4s ease-in-out;
+  transition: all .4s;
 
   background-color: white;
 
@@ -39,7 +36,7 @@
 .codings-task-card-later:hover,
 .codings-task-card-done:hover {
 
-  background-color: white;
+  background-color: rgb(250, 250, 250);
 
 }
 
@@ -69,11 +66,7 @@
 
   border-left: .8em solid rgb(251, 217, 132);
 
-  background-color: rgb(247, 247, 247);
-
-  background-color: rgb(255, 243, 216);
-
-  background-color: rgb(254, 246, 226);
+  /* background-color: rgb(254, 246, 226); */
 
 }
 
@@ -83,11 +76,13 @@
 
 .codings-task-card-later {
 
-  border-left: .8em solid #bcbcbc;;
+  border-left: .8em solid #bcbcbc;
 
-  background-color: #f7f7f7;
+   border-left: .8em solid #e1e1e1;
 
   background-color: rgb(247, 247, 247);
+
+  background-color: white;
 
 }
 
@@ -99,8 +94,8 @@
 
   border-left: .8em solid rgb(136, 216, 136);
 
-  background-color: rgb(247, 247, 247);
-
   background-color: rgb(219, 253, 219);
+
+  background-color: white;
 
 }
