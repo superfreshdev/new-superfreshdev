@@ -2,7 +2,26 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Async Function
+/* 🟩 Async Function
+/* > Create Dom Element Css Class
+/* ---------------------------------------------------------------- */
+
+  async function createDomElementCssClass( domTagName, cssClass ) {
+
+    // Create Dom Element
+    var newDomElement = document.createElement( domTagName );
+
+    // Set Attribut - class
+    newDomElement.setAttribute( "class", cssClass )
+
+    return new Promise(resolve => {
+      resolve( newDomElement );
+    })
+
+  }
+
+/* ---------------------------------------------------------------- */
+/* 🟨 Async Function
 /* > Create Radio
 /* ---------------------------------------------------------------- */
 
@@ -36,7 +55,7 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* ➡️🟥 Async Function
+/* ➡️🟨🟥 Async Function
 /* > Create Label
 /* ---------------------------------------------------------------- */
 
@@ -61,10 +80,11 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* 🟩 Async Function
+/* 🟨🟩 Async Function
 /* > Create Div
 /* ---------------------------------------------------------------- */
 
+ // ❌
  async function asyncCreateDiv() {
 
   // Create Radio Element
@@ -76,12 +96,25 @@
 
  }
 
+ // 🟩
+ async function createDiv() {
+
+  // Create Radio Element
+  var newDiv = document.createElement("div");
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+ }
+
 /* ---------------------------------------------------------------- */
-/* 🟩 Async Function
+/* 🟨🟩 Async Function
 /* > Create Div Css Class
 /* ---------------------------------------------------------------- */
 
-  async function asyncCreateDivWithCssClass( cssClass) {
+ // ❌
+ async function asyncCreateDivWithCssClass( cssClass) {
 
     // Create Radio Element
     var newDiv = document.createElement("div");
@@ -95,12 +128,46 @@
 
  }
 
+ // 🟩
+ async function createDivClass( cssClass) {
+
+    // Create Radio Element
+    var newDiv = document.createElement("div");
+
+    // Set Attribut - class
+    newDiv.setAttribute( "class", cssClass )
+
+    return new Promise(resolve => {
+      resolve( newDiv );
+    })
+
+ }
+
+ // 🟩
+ async function createDivClassText( cssClass, text) {
+
+    // Create Radio Element
+    var newDiv = document.createElement("div");
+
+    // Set Attribut - class
+    newDiv.setAttribute( "class", cssClass )
+
+    // Set Text
+    newDiv.innerText = text;
+
+    return new Promise(resolve => {
+      resolve( newDiv );
+    })
+
+ }
+
 
 /* ---------------------------------------------------------------- */
-/* 🟩 Async Function
+/* 🟨🟩 Async Function
 /* > Create Div with DivText
 /* ---------------------------------------------------------------- */
 
+ // ❌
  async function asyncCreateDivWithDivText( text ) {
 
   // Create Radio Element
@@ -118,14 +185,102 @@
     resolve( newDiv );
   })
 
-  }
+ }
+
+ // 🟩
+ async function createDivDivText( text ) {
+
+  // Create Radio Element
+  var newDiv = document.createElement("div");
+
+  var newDivText = document.createElement("div");
+
+  // Add Text to newDivText
+  newDivText.innerText = text;
+
+  // Add "newDivText" to "newDiv"
+  newDiv.appendChild(newDivText);
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+ }
+
+ // 🟩
+ async function createDivCssClassDivText( cssClass, text ) {
+
+  // Create Div
+  var newDiv = document.createElement("div");
+
+  // Add css class
+  newDiv.setAttribute( "class", cssClass )
+
+  // 2nd Div (inside with text)
+  var newDivText = document.createElement("div");
+
+  // Add Text to newDivText
+  newDivText.innerText = text;
+
+  // Add "newDivText" to "newDiv"
+  newDiv.appendChild(newDivText);
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+ }
+
+ // 🟩
+ async function createDivCssClassWithImgAndDivText( cssClass, imgSrc, imgCssClass, divText ) {
+
+    // Create Div
+    var newDiv = document.createElement("div");
+    newDiv.setAttribute( "class", cssClass )
+
+    // Create Img
+    var newImg = document.createElement("img");
+    newImg.setAttribute( "src" , imgSrc )
+    newImg.setAttribute( "class" , imgCssClass )
+    newImg.setAttribute( "alt" , "img" )
+
+    // Add "img" to "newDiv"
+    newDiv.appendChild( newImg );
+
+    // 2nd Div (inside with text)
+    var newDivText = document.createElement("div");
+    newDivText.innerText = divText;
+
+    // Add "newDivText" to "newDiv"
+    newDiv.appendChild( newDivText );
+
+    return new Promise(resolve => {
+      resolve( newDiv );
+    })
+
+ }
 
 /* ---------------------------------------------------------------- */
 /* 🟩 Async Function
 /* > Create Div with Text
 /* ---------------------------------------------------------------- */
 
+  // ❌
   async function asyncCreateDivWithText( text ) {
+
+  // Create Radio Element
+  var newDiv = document.createElement("div");
+
+  // Add Text to Div
+  newDiv.innerText = text;
+
+  return new Promise(resolve => {
+    resolve( newDiv );
+  })
+
+  }
+
+  async function createDivText( text ) {
 
   // Create Radio Element
   var newDiv = document.createElement("div");
@@ -149,7 +304,8 @@
 /* > Create Div with Img
 /* ---------------------------------------------------------------- */
 
-  async function asyncCreateDivWithImg( imgPath, cssClass ) {
+ // ❌
+ async function asyncCreateDivWithImg( imgPath, cssClass ) {
 
     // Create Radio Element
     var newDiv = document.createElement("div");
@@ -176,8 +332,6 @@
   })
 
  }
-
-
 
 /* ---------------------------------------------------------------- */
 /* 🟥 Async Function

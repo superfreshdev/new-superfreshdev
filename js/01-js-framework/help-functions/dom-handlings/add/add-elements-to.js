@@ -6,6 +6,7 @@
 /* > Adding Element/s to "addPoint"
 /* ---------------------------------------------------------------- */
 
+  // ❌
   // Prepend - Elements(n) to "addPoint"
   async function asyncPrependElementsTo( elements, addPoint ) {
 
@@ -24,6 +25,7 @@
 
   }
 
+  // ❌
   // Prepend - Element(x1) to "addPoint"
   async function asyncPrependElementTo( element, addPoint ) {
 
@@ -38,6 +40,21 @@
 
   }
 
+  // 🟩
+  async function prependElementTo( element, addPoint ) {
+
+    // console.log("🟪 asyncPrependElementTo()")
+    // console.log("➡️ element = " + element );
+
+    addPoint.prepend( element )
+
+    return new Promise(resolve => {
+        resolve();
+      })
+
+  }
+
+  // ❌
   // Append - Elements(n) to "addPoint"
   async function asyncAppendElementsTo( elements, addPoint ) {
 
@@ -53,6 +70,7 @@
 
   }
 
+  // ❌
   // Append - Element(x1) to "addPoint"
   async function asyncAppendElementTo( element, addPoint ) {
 

@@ -48,6 +48,13 @@
 
         /*
 
+          🟥 1.Ist Codings Nav != unshown, dann Codings Tech Nav
+
+             2. Create
+
+          -----
+
+
           🟥1. Read - json tasks
 
           🟥2. Build Process
@@ -61,6 +68,13 @@
 
 
         */
+
+        // Create Single Task Card - jsonConfigStyle, jsonTaskContent
+
+        var jsonConfigStyle = "data/json/codings/tasks/config-styles/config-style-task-content.json";
+        var jsonTaskContent = "data/json/codings/tasks/tech/codings-tech-content-java.json";
+
+        await createCodingTaskCard( jsonConfigStyle, jsonTaskContent );
 
       /* ----------------------------------------------------------- */
       /* 🟥 Step ?/?

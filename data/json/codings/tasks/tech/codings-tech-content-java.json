@@ -83,6 +83,7 @@
   },
 
   "taskCategories": [
+
     {
 
       "info": "🍌 » Collections, Streams, Wrapper Classes, Interface, Lamdas, Generics, Arrays 2D,3D, ...",
@@ -95,9 +96,9 @@
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-bug.png",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
+              "title": "Debugging🍎"
 
             },
 
@@ -106,7 +107,7 @@
               "stickerCssClass": "codings-task-card-status-sticker-in-progress",
               "iconFilename": "black-fire-1.png",
               "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "title": "in progress🍎"
 
             }
 
