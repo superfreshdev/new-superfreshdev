@@ -334,6 +334,47 @@
  }
 
 /* ---------------------------------------------------------------- */
-/* 🟥 Async Function
+/*  Async Function
 /* > Create Img
 /* ---------------------------------------------------------------- */
+
+ // 🟩 - Create - Img Css Class
+ async function createImgCssClass( imgPath, cssClass ) {
+
+  // Create Img Element
+  var newImg = document.createElement("img");
+
+  // Add Attribute - src
+  newImg.setAttribute( "src", imgPath );
+
+  // Add Attribute - alt
+  newImg.setAttribute( "alt", "img" );
+
+  // Add Attribute - class
+  newImg.setAttribute( "class", cssClass );
+
+
+  return new Promise(resolve => {
+    resolve( newImg );
+  })
+
+ }
+
+ // 🟩 - Create - Img
+ async function createImg( imgPath ) {
+
+  // Create Img Element
+  var newImg = document.createElement("img");
+
+  // Add Attribute - src
+  newImg.setAttribute( "src", imgPath );
+
+  // Add Attribute - alt
+  newImg.setAttribute( "alt", "img" );
+
+
+  return new Promise(resolve => {
+    resolve( newImg );
+  })
+
+ }
