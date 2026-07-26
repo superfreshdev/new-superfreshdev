@@ -65,7 +65,7 @@
 
   padding: 0 .2em;
 
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 1.7em;
 
   /* font-weight: bold; */
@@ -82,13 +82,7 @@
 
   color:rgb(176, 134, 27);
 
-  /* color:rgb(176, 134, 27);
-
-
-  color:rgb(65, 65, 65); */
-
-
-
+  color:grey;
 
 }
 
@@ -97,11 +91,7 @@
 
   color: rgb(146, 146, 146);
 
-  /* color:rgb(192, 192, 192);
-
-  color:rgb(181, 181, 181);
-
-  color:rgb(65, 65, 65); */
+  color:grey;
 
 }
 
@@ -110,13 +100,7 @@
 
   color: rgb(60, 142, 58);
 
-  /* color: rgb(72, 152, 71);
-
-  color:rgb(192, 192, 192);
-
-  color:rgb(181, 181, 181);
-
-  color:rgb(65, 65, 65); */
+  color:grey;
 
 }
 
@@ -139,7 +123,7 @@
 /* Divs | Items */
 .codings-task-card-hashtag-list > div {
 
-  font-size: 12px;
+  font-size: 12.5px;
 
   height: 1.8em;
   padding: 0 .6em;
@@ -160,8 +144,8 @@
   border: 1px dashed rgb(143, 119, 53);
   color: rgb(114, 85, 11);
 
-  /* border: 1px dashed rgb(173, 173, 173);
-  color:rgb(118, 118, 118); */
+  border: 1px dashed rgb(173, 173, 173);
+  color:rgb(97, 97, 97);
 
 }
 
@@ -169,7 +153,7 @@
 .codings-task-card-later .codings-task-card-hashtag-list > div  {
 
   border: 1px dashed rgb(173, 173, 173);
-  color:rgb(118, 118, 118);
+  color:rgb(97, 97, 97);
 
 }
 
@@ -179,10 +163,6 @@
   border: 1px dashed rgb(27, 125, 3);
   color:rgb(27, 125, 3);
 
-  /* border: 1px dashed rgb(173, 173, 173);
-  color:rgb(118, 118, 118); */
-
-  /* border: 1px dashed rgb(173, 173, 173);
-  color:rgb(40, 40, 40); */
-
+  border: 1px dashed rgb(173, 173, 173);
+  color:rgb(97, 97, 97);
 }

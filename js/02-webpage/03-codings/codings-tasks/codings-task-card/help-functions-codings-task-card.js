@@ -7,69 +7,68 @@
 /* -------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------- */
-/* 🔩⛑️ Help Functions
+/* 🟩 | 🔩⛑️ Help Functions
 /* -------------------------------------------------------------------- */
 
-  // 🟨 1. Create - Header
-  async function createCodingTaskCardHeader( cardNr, jsonConfigStyle, jsonTaskCardHeader ) {
+  // 🟩 1. Create - Header
+  async function createCodingTaskCardHeader( cardNr, cardStyleConfig, dataHeader ) {
 
     console.log("🔩⛑️ - createCodingTaskCardHeader()")
 
     // Test Prints
-    console.log("➡️ jsonConfigStyle: " + jsonConfigStyle )
-    console.log("➡️ jsonTaskCardHeader: " + jsonTaskCardHeader )
-    console.log("➡️ cardNr: " + cardNr )
-    console.log("------")
-    console.log("💢: " + jsonConfigStyle.paths.iconBlack )
+    // console.log("➡️ cardStyleConfig: " + cardStyleConfig )
+    // console.log("➡️ dataHeader: " + dataHeader )
+    // console.log("➡️ cardNr: " + cardNr )
+    // console.log("------")
+    // console.log("💢: " + cardStyleConfig.paths.iconBlack )
 
-    console.log("💢: " + jsonConfigStyle.taskCard.header.headerCssClass )
-    console.log("💢: " + jsonConfigStyle.taskCard.header.nrBoxCssClass )
-    console.log("💢: " + jsonConfigStyle.taskCard.header.categoryStickerCssClass )
-    console.log("------")
-    console.log("💫c: " + jsonTaskCardHeader.techCategory.iconCssClass )
-    console.log("💫c: " + jsonTaskCardHeader.techCategory.iconFilename )
-    console.log("💫c: " + jsonTaskCardHeader.techCategory.title )
-    console.log("###")
-    console.log("💫s: " + jsonTaskCardHeader.status.stickerCssClass )
-    console.log("💫s: " + jsonTaskCardHeader.status.iconFilename )
-    console.log("💫s: " + jsonTaskCardHeader.status.iconCssClass )
-    console.log("💫s: " + jsonTaskCardHeader.status.title )
-    console.log("------")
-
+    // console.log("💢: " + cardStyleConfig.taskCard.header.headerCssClass )
+    // console.log("💢: " + cardStyleConfig.taskCard.header.nrBoxCssClass )
+    // console.log("💢: " + cardStyleConfig.taskCard.header.categoryStickerCssClass )
+    // console.log("------")
+    // console.log("💫c: " + dataHeader.techCategory.iconCssClass )
+    // console.log("💫c: " + dataHeader.techCategory.iconFilename )
+    // console.log("💫c: " + dataHeader.techCategory.title )
+    // console.log("###")
+    // console.log("💫s: " + dataHeader.status.stickerCssClass )
+    // console.log("💫s: " + dataHeader.status.iconFilename )
+    // console.log("💫s: " + dataHeader.status.iconCssClass )
+    // console.log("💫s: " + dataHeader.status.title )
+    // console.log("------")
 
     // Default Var
-    var pathIconBlack = jsonConfigStyle.paths.iconBlack;
+    var pathIconBlack = cardStyleConfig.paths.iconBlack;
 
     /* ------------------------------------------ */
     /* Step 1/?
     /* > Create - Header
     /* ------------------------------------------ */
 
+      var headerCssClass = cardStyleConfig.taskCard.header.headerCssClass
+
       // new header
       var newHeader = "";
-
-      var headerCssClass = jsonConfigStyle.taskCard.header.headerCssClass
       newHeader = await createDomElementCssClass( "header", headerCssClass );
 
       /* ----------------------------------------------------------- */
       // 1.1 Create - Left Block ( nr box & tech category )
       /* ----------------------------------------------------------- */
+
       var divLeftBlock = await createDiv();
 
         // 1.1.1 Create - Nr Box
-        var headerNrBoxCssClass = jsonConfigStyle.taskCard.header.nrBoxCssClass;
-        // ⚠️ Schleifen Durchlauf mit geben
+        var headerNrBoxCssClass = cardStyleConfig.taskCard.header.nrBoxCssClass;
         var nrText = cardNr;
         var divNrBox = await createDivCssClassDivText( headerNrBoxCssClass, nrText )
         divLeftBlock.appendChild( divNrBox )
 
         // 1.1.2 Create - Category Sticker
-        var headerCategoryCssClass = jsonConfigStyle.taskCard.header.categoryStickerCssClass;
+        var headerCategoryCssClass = cardStyleConfig.taskCard.header.categoryStickerCssClass;
 
-        var iconCategoryFilename = jsonTaskCardHeader.techCategory.iconFilename;
+        var iconCategoryFilename = dataHeader.techCategory.iconFilename;
         var iconCategoryFullPath = pathIconBlack + iconCategoryFilename;
-        var iconCategoryCssClass = jsonTaskCardHeader.techCategory.iconCssClass;
-        var iconCategoryText = jsonTaskCardHeader.techCategory.title;
+        var iconCategoryCssClass = dataHeader.techCategory.iconCssClass;
+        var iconCategoryText = dataHeader.techCategory.title;
         var divCategory = await createDivCssClassWithImgAndDivText( headerCategoryCssClass, iconCategoryFullPath,
                                                                     iconCategoryCssClass, iconCategoryText )
         divLeftBlock.appendChild( divCategory )
@@ -83,13 +82,13 @@
       /* ----------------------------------------------------------- */
 
         // 1.2.1 Create - Right Block
-        var statusStickerCssClass = jsonTaskCardHeader.status.stickerCssClass;
+        var statusStickerCssClass = dataHeader.status.stickerCssClass;
 
-        var iconStatusFilename = jsonTaskCardHeader.status.iconFilename;
+        var iconStatusFilename = dataHeader.status.iconFilename;
         var fullPathIconStatus = pathIconBlack + iconStatusFilename;
 
-        var iconStatusCssClass = jsonTaskCardHeader.status.iconCssClass;
-        var statusText = jsonTaskCardHeader.status.title;
+        var iconStatusCssClass = dataHeader.status.iconCssClass;
+        var statusText = dataHeader.status.title;
 
         var divRightBlock = await createDivCssClassWithImgAndDivText( statusStickerCssClass , fullPathIconStatus,
                                                                       iconStatusCssClass, statusText )
@@ -104,93 +103,28 @@
 
   }
 
-  // ➡️🟥 2. Create - Main
-  async function createCodingTaskCardMain() {
+  // 🟩 2. Create - Main
+  async function createCodingTaskCardMain( cardStyleConfig, dataMain ) {
 
-    console.log("createCodingTaskCardMain()")
+    console.log("🔩⛑️ - createCodingTaskCardMain()")
 
+    // Default Var
+    var pathIconBlack = cardStyleConfig.paths.iconBlack;
 
-
-    return new Promise(resolve => {
-      resolve( );
-    })
-
-  }
-
-  // 🟥 3. Create - Footer
-  async function createCodingTaskCardFooter() {
-
-    console.log("createCodingTaskCardFooter()")
+    // Default Config Style - Main
+    var styleConfigMain = cardStyleConfig.taskCard.main;
 
 
-
-    return new Promise(resolve => {
-      resolve( );
-    })
-
-  }
-
-/* -------------------------------------------------------------------- */
-/* 🔩 Functions
-/* -------------------------------------------------------------------- */
-
-  // jsonTaskContent = category x task n of x
-  async function createCodingTaskCard( jsonConfigStyle, jsonTaskContent ) {
-
-    console.log("🔩createCodingTaskCard()")
-    console.log("➡️ jsonConfigStyle: " + jsonConfigStyle )
-    console.log("➡️ jsonTaskContent: " + jsonTaskContent )
-
-    // Create Data Obj from Json
-    var dataConfigStyle = await async_getJsonFile( jsonConfigStyle )
-    var dataTaskContent = await async_getJsonFile( jsonTaskContent )
-
-    // addPoint ⚠️ | add Point muss in der Hauptfunktion
-    var codingsMasonryContainer = document.getElementById("codings-masonry-container");
-
-    // new task card
-    var newTaskCard = "";
-
-    /* ---------------------------------------------------------- */
-    /* 🟩 Step 0/4
-    /* > Create - Task Card
-    /* ---------------------------------------------------------- */
-
-      // var taskCardCssClass = jsonTaskContent.taskCardCssClass;
-      var taskCardCssClass = "codings-task-card-in-progress"
-       // console.log("⭐1 taskCardCssClass = " + taskCardCssClass)
-      newTaskCard = await createDivClass( taskCardCssClass );
-
-
-    /* ---------------------------------------------------------- */
-    /* ➡️🟨 Step 1/4
-    /* > Create & Add - Header
-    /* ---------------------------------------------------------- */
-
-      // Get Expliczit Data Header
-      var dataTaskCardHeader = dataTaskContent.taskCategories[0].tasks[0].header;
-
-      // ⚠️ Schleifen Durchlauf, wird von außen angegeben - task card nr
-      var cardNr = "01🍎";
-
-      var newHeader = await createCodingTaskCardHeader( cardNr, dataConfigStyle, dataTaskCardHeader );
-      newTaskCard.appendChild( newHeader )
-
-    /* ---------------------------------------------------------- */
-    /* ➡️🟥 Step 2/4
+    /* ----------------------------------------------- */
+    /* 🟨 Step 1/?
     /* > Create - Main
-    /* ---------------------------------------------------------- */
+    /* ----------------------------------------------- */
+
+      var mainCssClass = styleConfigMain.mainCssClass;
+      var newMain = await createDomElementCssClass( "main", mainCssClass )
 
       /* ----------------------------------------------- */
-      /* 🟨 Step 1/?
-      /* > Create - Main
-      /* ----------------------------------------------- */
-
-        var newMainCssClass = "codings-task-card-main";
-        var newMain = await createDomElementCssClass( "main", newMainCssClass )
-
-      /* ----------------------------------------------- */
-      /* ➡️🟥 Step 2/?
+      /* 🟨 Step 2/?
       /* > Create - Main - Context
       /* ----------------------------------------------- */
 
@@ -198,66 +132,65 @@
         // 🟨 2.1 - Create - Context List Container
         /* ----------------------------------------------------- */
 
-        var contextListContainerCssClass = "codings-task-card-context-list-container";
-        var divContextListContainer = await createDivClass( contextListContainerCssClass )
+          var contextListContainerCssClass = styleConfigMain.context.listContainerCssClass;
+          var divContextListContainer = await createDivClass( contextListContainerCssClass )
 
           /* ------------------------------------------------------------------------------- */
           // 🟨 2.1.1 - Create - Context List
           /* ------------------------------------------------------------------------------- */
 
-          var contextListCssClass = "codings-task-card-category-list";
-          var divContextList = await createDivClass( contextListCssClass )
+            var contextListCssClass =  styleConfigMain.context.categoryListCssClass;
+            var divContextList = await createDivClass( contextListCssClass )
 
-            // 2.1.1.1 - Create - Context Items ( divs & imgs )
-            var divContextItems = [];
-            var iconContextItems = [];
+              // 2.1.1.1 - Create - Context Items ( divs & imgs )
+              var divContextItems = [];
+              var iconContextItems = [];
 
-            // get default img bullet style
-            var iconPathBlack = dataConfigStyle.paths.iconBlack;
-            var iconContextFilename = dataConfigStyle.iconFilenames.iconBullet;
-            var iconContextFullPath = iconPathBlack + iconContextFilename;
-            console.log("Main-Context: icon-path: " + iconContextFullPath )
+              // get default img bullet style
+              var iconContextFilename = cardStyleConfig.iconFilenames.iconBullet;
+              var iconContextFullPath = pathIconBlack + iconContextFilename;
+              console.log("Main-Context: icon-path: " + iconContextFullPath )
 
-            // get context items
-            var dataContextItems = dataTaskContent.taskCategories[0].tasks[0].main.context.items;
-            var maxContextItems = dataContextItems.length;
-            console.log("maxContextItems= " + maxContextItems )
+              // get context items
+              var dataContextItems = dataMain.context.items;
+              var maxContextItems = dataContextItems.length;
+              console.log("maxContextItems= " + maxContextItems )
 
-            // Add Context Items ( text & imgs ) to "divContextList"
-            for( let i=0; i < maxContextItems; i++ ) {
+              // Add Context Items ( text & imgs ) to "divContextList"
+              for( let i=0; i < maxContextItems; i++ ) {
 
-              console.log("Addings: " + (i+1))
+                console.log("Addings: " + (i+1))
 
-              // Create Div Context Items
-              console.log("🍎 d-c-i-" + dataContextItems[i] )
-              divContextItems.push( await createDivText( dataContextItems[i]) )
+                // Create Div Context Items
+                console.log("🍎 d-c-i-" + dataContextItems[i] )
+                divContextItems.push( await createDivText( dataContextItems[i]) )
 
-              // Add "divContextItems[x]" to "divContextList"
-              divContextList.appendChild( divContextItems[i] )
+                // Add "divContextItems[x]" to "divContextList"
+                divContextList.appendChild( divContextItems[i] )
 
-              // not allow to create last icon bullet
-              if( (i+1) != maxContextItems ) {
+                // not allow to create last icon bullet
+                if( (i+1) != maxContextItems ) {
 
-                // Create Icon Bullet
-                iconContextItems.push( await createImg( iconContextFullPath ) )
+                  // Create Icon Bullet
+                  iconContextItems.push( await createImg( iconContextFullPath ) )
 
-                // Add "iconContextItems[x] to "divContextList"
-                divContextList.appendChild( iconContextItems[i] )
+                  // Add "iconContextItems[x] to "divContextList"
+                  divContextList.appendChild( iconContextItems[i] )
+
+                }
 
               }
 
-            }
-
-            // Add "divContextList" to "divContextListContainer"
-            divContextListContainer.appendChild( divContextList );
+              // Add "divContextList" to "divContextListContainer"
+              divContextListContainer.appendChild( divContextList );
 
 
           /* ------------------------------------------------------------------------------- */
           // 🟨 2.1.2 - Create - Time Box
           /* ------------------------------------------------------------------------------- */
 
-            var timeBoxCssClass = "codings-task-card-time-box";
-            var timeBoxText = "120 Min."
+            var timeBoxCssClass = styleConfigMain.context.timeBoxCssClass;
+            var timeBoxText = dataMain.context.timeLimit;
             var divTimeBox = await createDivCssClassDivText( timeBoxCssClass, timeBoxText )
 
             // Add "divTimeBox" to "divContextListContainer"
@@ -275,7 +208,7 @@
         // 🟨 2.2 - Create - Content
         /* ----------------------------------------------------- */
 
-          var contentCssClass = "codings-task-card-content";
+          var contentCssClass = styleConfigMain.content.contentCssClass;
           var divContent = await createDivClass( contentCssClass );
 
 
@@ -283,8 +216,8 @@
           // 🟨 2.2.1 - Create - Content - Title
           /* ------------------------------------------------------------------------------- */
 
-            var titleCssClass = "codings-task-card-title";
-            var titleText = "ArrayList vs LinkedList vs Hashmap - so here comes the sun and so on 🍎🍎🍎"
+            var titleCssClass = styleConfigMain.content.titleCssClass;
+            var titleText = dataMain.content.title;
             var divTitle = await createDivClassText( titleCssClass, titleText );
 
             // Add "divTitle" tp "divContent"
@@ -294,11 +227,11 @@
           // 🟨 2.2.1 - Create - Content - Hashtag List
           /* ------------------------------------------------------------------------------- */
 
-            var hashTagListCssClass = "codings-task-card-hashtag-list";
+            var hashTagListCssClass = styleConfigMain.content.hashtagListCssClass;
             var divHashTagList = await createDivClass( hashTagListCssClass );
 
             // Get Data Hashtag Items
-            var dataHashTagItems = dataTaskContent.taskCategories[0].tasks[0].main.content.hashTags;
+            var dataHashTagItems = dataMain.content.hashTags;
             var maxHashTags = dataHashTagItems.length;
             console.log("maxHashTags(length)= " + maxHashTags )
 
@@ -314,7 +247,6 @@
 
             }
 
-
           /* ------------------------------------------------------------------------------- */
           // 🟨 2.2.2 - Adds
           /* ------------------------------------------------------------------------------- */
@@ -325,27 +257,141 @@
             newMain.appendChild( divContent )
 
 
+    return new Promise(resolve => {
+      resolve( newMain );
+    })
+
+  }
+
+  // 🟩 3. Create - Footer
+  async function createCodingTaskCardFooter( cardStyleConfig, dataFooter ) {
+
+    console.log("🔩⛑️ - createCodingTaskCardFooter()")
+
+    // Default Var
+    var iconPathBlack = cardStyleConfig.paths.iconBlack;
+
+
+    /* ----------------------------------------------------- */
+    // 🟨 3.1 - Create - Footer
+    /* ----------------------------------------------------- */
+
+      // cardStyleConfig.taskCard.footerCssClass;
+      var footerCssClass = cardStyleConfig.taskCard.footerCssClass;
+      var newFooter = await createDomElementCssClass( "footer", footerCssClass )
+
+
+      /* ----------------------------------------------------- */
+      // 🟨 3.2 - Create & Add - Links to Footer
+      /* ----------------------------------------------------- */
+
+        // Get Link Datas
+        var dataFooterLinks = dataFooter.links;
+        var maxFooterLinks = dataFooterLinks.length;
+
+        // New Links
+        var newFooterLinks = [];
+
+        // Link Datas
+        var linkHref = "";
+        var iconFullPath = "";
+        var iconCssClass = "";
+        var linkText = "";
+
+
+        // Create & Add
+        for( let i=0; i < maxFooterLinks; i++ ) {
+
+          // Get Link Datas
+          linkHref = dataFooterLinks[i].href;
+          iconFullPath = iconPathBlack + dataFooterLinks[i].filenameIcon;
+          iconCssClass = dataFooterLinks[i].cssClassIcon;
+          linkText = dataFooterLinks[i].text;
+
+          // Create Link
+          newFooterLinks.push( await createLinkImgDivText( linkHref, iconFullPath, iconCssClass, linkText ) )
+
+          // Add "newFooterLinks[x] to "newFooter" "
+          newFooter.appendChild( newFooterLinks[i] )
+
+        }
+
+
+
+    return new Promise(resolve => {
+      resolve( newFooter );
+    })
+
+  }
+
+/* -------------------------------------------------------------------- */
+/* 🟩 | 🔩 Functions
+/* -------------------------------------------------------------------- */
+
+  // Create - Task Card ( Header, Main, Footer )
+  async function createCodingTaskCard( cardNr, cardStyleConfig, taskContent ) {
+
+    console.log("🔩 - createCodingTaskCard()")
+    console.log("➡️ cardNr: " + cardNr )
+    console.log("➡️ cardStyleConfig: " + cardStyleConfig )
+    console.log("➡️ taskContent: " + taskContent )
+
+
+    /* ---------------------------------------------------------- */
+    /* 🟩 Step 1/4
+    /* > Create - Task Card
+    /* ---------------------------------------------------------- */
+
+      // Get Css Class of New Task Card
+      var taskCardCssClass = taskContent.taskCardCssClass;
+
+      // Create - New Task Card
+      var newTaskCard = "";
+      newTaskCard = await createDivClass( taskCardCssClass );
+
+    /* ---------------------------------------------------------- */
+    /* 🟩 Step 2/4
+    /* > Create & Add - Header
+    /* ---------------------------------------------------------- */
+
+      // Get Expliczit Data Header
+      var dataHeader = taskContent.header;
+
+      // Create - New Header
+      var newHeader = await createCodingTaskCardHeader( cardNr, cardStyleConfig, dataHeader );
+      // Add "newHeader" to "newTaskCard"
+      newTaskCard.appendChild( newHeader )
+
+    /* ---------------------------------------------------------- */
+    /* 🟩 Step 3/4
+    /* > Create - Main
+    /* ---------------------------------------------------------- */
+
+      // Get Expliczit Data Main
+      var dataMain = taskContent.main;
+
+      // Create - New Main
+      var newMain = await createCodingTaskCardMain( cardStyleConfig, dataMain );
       // Add "newMain" to "newTaskCard"
       newTaskCard.appendChild( newMain )
 
 
     /* ---------------------------------------------------------- */
-    /* 🟥 Step 3/4
+    /* 🟩 Step 4/4
     /* > Create - Footer
     /* ---------------------------------------------------------- */
 
+      // Get Expliczit Data Footer
+      var dataFooter = taskContent.footer;
 
-    /* ---------------------------------------------------------- */
-    /* 🟩 Step 4/4
-    /* > Final Add - Add "newTaskCard" to "addPoint"
-    /* ---------------------------------------------------------- */
-
-      await prependElementTo( newTaskCard, codingsMasonryContainer )
-
+      // Create - New Footer
+      var newFooter = await createCodingTaskCardFooter( cardStyleConfig, dataFooter )
+      // Add "newFooter" to "newTaskCard"
+      newTaskCard.appendChild( newFooter )
 
 
     return new Promise(resolve => {
-      resolve( );
+      resolve( newTaskCard );
     })
 
   }

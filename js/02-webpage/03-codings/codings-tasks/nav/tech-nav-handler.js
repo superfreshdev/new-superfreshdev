@@ -13,9 +13,14 @@
   var techCodingsRadios = document.querySelectorAll("input[name='name-radio-codings-nav-tech']")
   // console.log("techCodingsRadios(length) = " + techCodingsRadios.length )
 
+  // addPoint ⚠️ | add Point muss in der Hauptfunktion
+  var codingsMasonryContainer = document.getElementById("codings-masonry-container");
+
 /* -------------------------------------------------------------------- */
 /* 👾 Variables
 /* -------------------------------------------------------------------- */
+
+  var cardStyleConfig = "data/json/codings/tasks/config-styles/config-style-task-content.json";
 
 /* -------------------------------------------------------------------- */
 /* 🔩 Functions
@@ -46,35 +51,49 @@
       /* > Create Coding Tasks by Category
       /* ----------------------------------------------------------- */
 
-        /*
+        // Get Default Data - cardStyleConfig
+        var dataConfigStyle = await async_getJsonFile( cardStyleConfig )
 
-          🟥 1.Ist Codings Nav != unshown, dann Codings Tech Nav
-
-             2. Create
-
-          -----
-
-
-          🟥1. Read - json tasks
-
-          🟥2. Build Process
-
-              - buildTaskCard
-                  - buildTaskCardHeader
-                  - buildTaskCardMain
-                  -buildTaskCardFooter
-
-          🟥2.1 Filter TaskList - Prio-Later-Done
-
-
-        */
-
-        // Create Single Task Card - jsonConfigStyle, jsonTaskContent
-
-        var jsonConfigStyle = "data/json/codings/tasks/config-styles/config-style-task-content.json";
+        // Get Data - Task Content
         var jsonTaskContent = "data/json/codings/tasks/tech/codings-tech-content-java.json";
+        var dataTaskContent =  await async_getJsonFile( jsonTaskContent )
 
-        await createCodingTaskCard( jsonConfigStyle, jsonTaskContent );
+        // Get Explicit Index Task Data
+        // e.g category 0 - all tasks
+        var categoryTasks = dataTaskContent.taskCategories[0].tasks;
+        var maxTasks = categoryTasks.length;
+
+
+        console.log("🎆 Category: " + 0 + " - max Tasks = " + maxTasks )
+
+        // New Task Cards
+        var newTaskCard = [];
+        var taskContent = "";
+        // get category 0 - task 0
+        // var taskContent = categoryTasks[0];
+        // var taskContent = categoryTasks[1];
+        // var taskContent = categoryTasks[2];
+        // var taskContent = categoryTasks[3];
+
+        // Create all Tasks from given Category X
+        for( let i=0; i < maxTasks; i++ ) {
+
+          // Get Actually Task Content by Index
+          taskContent = categoryTasks[i];
+          // Create "newTaskCard[x]"
+          newTaskCard.push( await createCodingTaskCard( (i+1), dataConfigStyle, taskContent ) );
+
+        }
+
+        // Fragement Concept because better performance of many dom creations
+        // Use Fragement Concept to create in correct direction
+        var fragement = document.createDocumentFragment();
+        newTaskCard.forEach(card => fragement.appendChild(card))
+
+        // Add sorted "fragement" to "addPoint" in one way
+        codingsMasonryContainer.prepend(fragement)
+        // await prependElementTo( newTaskCard[i], codingsMasonryContainer )
+
 
       /* ----------------------------------------------------------- */
       /* 🟥 Step ?/?

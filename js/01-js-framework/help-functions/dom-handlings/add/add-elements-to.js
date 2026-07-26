@@ -32,6 +32,7 @@
     // console.log("🟪 asyncPrependElementTo()")
     // console.log("➡️ element = " + element );
 
+    // addPoint.prepend( ...elements )
     addPoint.prepend( element )
 
     return new Promise(resolve => {
@@ -46,6 +47,7 @@
     // console.log("🟪 asyncPrependElementTo()")
     // console.log("➡️ element = " + element );
 
+    // addPoint.prepend( ...elements )
     addPoint.prepend( element )
 
     return new Promise(resolve => {
@@ -77,6 +79,21 @@
     // console.log("🟪 asyncAppendElementTo()")
     // console.log("➡️ element = " + element );
 
+    addPoint.append( element )
+
+    return new Promise(resolve => {
+        resolve();
+      })
+
+  }
+
+  // 🟩 - Append - Element(x1) to "addPoint"
+  async function appendElementTo( element, addPoint ) {
+
+    // console.log("🟪 appendElementTo()")
+    // console.log("➡️ element = " + element );
+
+    // addPoint.prepend( ...elements )
     addPoint.append( element )
 
     return new Promise(resolve => {

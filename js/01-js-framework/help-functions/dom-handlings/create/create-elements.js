@@ -334,7 +334,7 @@
  }
 
 /* ---------------------------------------------------------------- */
-/*  Async Function
+/* 🟩 Async Function
 /* > Create Img
 /* ---------------------------------------------------------------- */
 
@@ -375,6 +375,95 @@
 
   return new Promise(resolve => {
     resolve( newImg );
+  })
+
+ }
+
+
+/* ---------------------------------------------------------------- */
+/* 🟩 Async Function
+/* > Create Links
+/* ---------------------------------------------------------------- */
+
+ // 🟩 - Create - Link
+ async function createLink( href, text ) {
+
+  // Create Link Element
+  var newLink = document.createElement("a");
+
+  // Add Attribute - href
+  newLink.setAttribute( "href", href );
+
+  // Add Attribute - target
+  newLink.setAttribute( "target", "_blank" );
+
+  // Set Text
+  newLink.innerText = text;
+
+
+  return new Promise(resolve => {
+    resolve( newLink );
+  })
+
+ }
+
+
+ // 🟩 - Create - Link Css Class
+ async function createLink( href, cssClass, text ) {
+
+  // Create Link Element
+  var newLink = document.createElement("a");
+
+  // Add Attribute - href
+  newLink.setAttribute( "href", href );
+
+  // Add Attribute - target
+  newLink.setAttribute( "target", "_blank" );
+
+  // Add Attribute - class
+  newLink.setAttribute( "class", cssClass );
+
+  // Set Text
+  newLink.innerText = text;
+
+
+  return new Promise(resolve => {
+    resolve( newLink );
+  })
+
+ }
+
+
+ // 🟩 - Create - Link Img Div Text
+ async function createLinkImgDivText( href, imgSrc, imgCssClass, divText ) {
+
+  // Create Link Element
+  var newLink = document.createElement("a");
+
+  // Add Attribute - href
+  newLink.setAttribute( "href", href );
+
+  // Add Attribute - target
+  newLink.setAttribute( "target", "_blank" );
+
+  // Add New Img
+  var newImg = document.createElement("img");
+  newImg.setAttribute("src", imgSrc );
+  newImg.setAttribute("alt", "img");
+  newImg.setAttribute("class", imgCssClass );
+
+  // Add "newImg" to "newLink"
+  newLink.appendChild(newImg);
+
+  // Add New Div Text
+  var newDivText = document.createElement("div");
+  newDivText.innerText = divText;
+
+  // Add "newDivText" to "newLink"
+  newLink.appendChild(newDivText)
+
+  return new Promise(resolve => {
+    resolve( newLink );
   })
 
  }
