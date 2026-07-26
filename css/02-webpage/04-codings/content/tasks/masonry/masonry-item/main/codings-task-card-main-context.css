@@ -9,7 +9,7 @@
 
 .codings-task-card-context-list-container {
 
-  padding-bottom: .6em;
+  padding-bottom: 0em;
 
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@
 
   font-weight: bold;
 
-  line-height: .9em;
+  line-height: 1em;
 
   /* background-color: rgb(192, 192, 192); */
 
@@ -44,7 +44,7 @@
 /* Div */
 .codings-task-card-category-list > div  {
 
-  font-size: 12.5px;
+  font-size: 13px;
 
   padding: 0 .4em;
 
@@ -70,13 +70,13 @@
 /* Category List - In Progress */
 .codings-task-card-in-progress .codings-task-card-category-list {
 
-  color:rgb(185, 144, 40);
-
   color:rgb(182, 141, 39);
 
-  /* color: rgb(154, 154, 154);
+  /* color:rgb(71, 71, 71);
+  color:rgb(131, 131, 131); */
 
-  color:rgb(113, 113, 113); */
+  /* color:black; */
+
 
 }
 
@@ -85,9 +85,10 @@
 
   color: rgb(146, 146, 146);
 
-  /* color: rgb(154, 154, 154);
+  color:rgb(71, 71, 71);
+  color:rgb(131, 131, 131);
 
-   color:rgb(113, 113, 113); */
+  /* color:black; */
 
 }
 
@@ -96,9 +97,11 @@
 
   color: rgb(72, 152, 71);
 
-  /* color: rgb(154, 154, 154);
+  /* color:rgb(71, 71, 71);
+  color:rgb(131, 131, 131);; */
 
-   color:rgb(113, 113, 113); */
+  /* color:black; */
+
 
 }
 
@@ -119,6 +122,8 @@
   font-weight: bold;
   /* opacity: .6; */
 
+
+
 }
 
 /* Time Text */
@@ -133,11 +138,11 @@
 
   color:rgb(182, 141, 39);
 
-  /* color: rgb(154, 154, 154); */
+  /* color:rgb(71, 71, 71);
 
-  /* color:rgb(176, 134, 27); */
+  color:rgb(164, 164, 164);
 
-  /* color:rgb(150, 150, 150); */
+  color:rgb(131, 131, 131); */
 
 }
 
@@ -146,10 +151,11 @@
 
   color: rgb(146, 146, 146);
 
-  /* color: rgb(154, 154, 154); */
+  /* color:rgb(71, 71, 71);
 
-  /* color:rgb(150, 150, 150); */
+  color:rgb(164, 164, 164);
 
+  color:rgb(131, 131, 131); */
 }
 
 /* Time Box - Done */
@@ -157,8 +163,10 @@
 
   color: rgb(72, 152, 71);
 
-  /* color: rgb(154, 154, 154); */
+  /* color:rgb(71, 71, 71);
 
-  /* color:rgb(150, 150, 150); */
+  color:rgb(164, 164, 164);
+
+  color:rgb(131, 131, 131); */
 
 }

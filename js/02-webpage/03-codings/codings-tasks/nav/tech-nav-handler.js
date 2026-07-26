@@ -91,7 +91,7 @@
         newTaskCard.forEach(card => fragement.appendChild(card))
 
         // Add sorted "fragement" to "addPoint" in one way
-        codingsMasonryContainer.prepend(fragement)
+        codingsMasonryContainer.appendChild(fragement)
         // await prependElementTo( newTaskCard[i], codingsMasonryContainer )
 
 
