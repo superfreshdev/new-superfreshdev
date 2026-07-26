@@ -20,7 +20,7 @@
 /* 👾 Variables
 /* -------------------------------------------------------------------- */
 
-  var cardStyleConfig = "data/json/codings/tasks/config-styles/config-style-task-content.json";
+
 
 /* -------------------------------------------------------------------- */
 /* 🔩 Functions
@@ -46,62 +46,37 @@
 
       // window.alert("➡️ Create: Masonry 2-Col-Layout(resp:800px) ")
 
+
       /* ----------------------------------------------------------- */
-      /* ➡️🟥 Step ?/?
-      /* > Create Coding Tasks by Category
+      /* 🟨 Step 1/3
+      /* > Get Task Configs to Create Task Cards from Category X
       /* ----------------------------------------------------------- */
 
-        // Get Default Data - cardStyleConfig
-        var dataConfigStyle = await async_getJsonFile( cardStyleConfig )
+        // updateTaskConfig()
 
-        // Get Data - Task Content
-        var jsonTaskContent = "data/json/codings/tasks/tech/codings-tech-content-java.json";
-        var dataTaskContent =  await async_getJsonFile( jsonTaskContent )
+        // Dyn. Task Config
+        var taskConfig = {
 
-        // Get Explicit Index Task Data
-        // e.g category 0 - all tasks
-        var categoryTasks = dataTaskContent.taskCategories[0].tasks;
-        var maxTasks = categoryTasks.length;
-
-
-        console.log("🎆 Category: " + 0 + " - max Tasks = " + maxTasks )
-
-        // New Task Cards
-        var newTaskCard = [];
-        var taskContent = "";
-        // get category 0 - task 0
-        // var taskContent = categoryTasks[0];
-        // var taskContent = categoryTasks[1];
-        // var taskContent = categoryTasks[2];
-        // var taskContent = categoryTasks[3];
-
-        // Create all Tasks from given Category X
-        for( let i=0; i < maxTasks; i++ ) {
-
-          // Get Actually Task Content by Index
-          taskContent = categoryTasks[i];
-          // Create "newTaskCard[x]"
-          newTaskCard.push( await createCodingTaskCard( (i+1), dataConfigStyle, taskContent ) );
+          "categoryIndex": 2,
+          "pathCardStyleConfig": "data/json/codings/tasks/config-styles/config-style-task-content.json",
+          "pathContentTasks": "data/json/codings/tasks/tech/codings-tech-content-java.json",
 
         }
 
-        // Fragement Concept because better performance of many dom creations
-        // Use Fragement Concept to create in correct direction
-        var fragement = document.createDocumentFragment();
-        newTaskCard.forEach(card => fragement.appendChild(card))
+        /* ---------------------------------------------- */
+        /* ↗️ Update Process
+        /* ---------------------------------------------- */
 
-        // Add sorted "fragement" to "addPoint" in one way
-        codingsMasonryContainer.appendChild(fragement)
-        // await prependElementTo( newTaskCard[i], codingsMasonryContainer )
-
+          // taskConfig.categoryIndex = 0;
+          // taskConfig.pathContentTasks = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
 
       /* ----------------------------------------------------------- */
-      /* 🟥 Step ?/?
-      /* > Create Masonry Layout - Codings Tasks
+      /* 🟨 Step 2/3
+      /* > Get Context Resp Masonry Codings ( Resp Msn Layout )
       /* ----------------------------------------------------------- */
 
-        // Define Masonry Layout
-        // Reminder: only first items from parent use e.g :scope > div
+        // Final Context Masonry Layout
+        // define "addPoint"
         var ctxMasonryTasksLayout = {
 
           container: document.getElementById("codings-masonry-container"),
@@ -117,8 +92,13 @@
 
         }
 
-        // Create Masonry Layout with Masonry Context Object ( all datas )
-        await initResponsiveMasonry( ctxMasonryTasksLayout );
+      /* ----------------------------------------------------------- */
+      /* 🟨 Step 3/3
+      /* > Create Taks Cards from Category X
+      /* > and Create resp Masonry Codings
+      /* ----------------------------------------------------------- */
+
+        await initCodingsTasksView( taskConfig, ctxMasonryTasksLayout );
 
 
       return new Promise(resolve => {
@@ -127,6 +107,8 @@
 
 
     })
+
+
 
 
   /* ------------------------------------------------------------------------------- */

@@ -104,11 +104,12 @@
 
 
 /* ---------------------------------------------------------------- */
-/* 🟩 Async Function
+/* 🟥 Async Function
 /* > Prepend New Radios to Element
 /* > only if zero radio ids exist
 /* ---------------------------------------------------------------- */
 
+ // ❌
  async function asyncPrependNewRadiosFromDataTo( dataRadios, addPoint ) {
 
     // console.log("dataRadios(length): " + dataRadios.length )
@@ -194,3 +195,51 @@
       })
 
  }
+
+
+/* ---------------------------------------------------------------- */
+/* 🟩 Async Function
+/* > Prepend Elements by Fragment Concept
+/* > Fragement Concept only useful by collecting many dom elements
+/* > to adding on prepend or appendChuild
+/* ---------------------------------------------------------------- */
+
+  // 🟩 - Prepend Elements to "addPoint" by Fragement Concept ( Collect Container )
+  async function prependByFragement( elements, addPoint ) {
+
+    // console.log("🟪 prependByFragement()")
+    // console.log("➡️ element = " + element );
+
+    // Fragement Concept because better performance of many dom creations
+    // Use Fragement Concept to create in correct direction
+    var fragement = document.createDocumentFragment();
+    elements.forEach(domItem => fragement.appendChild(domItem))
+
+    // Add sorted "fragement" to "addPoint" in one way
+    addPoint.prepend(fragement)
+
+    return new Promise(resolve => {
+        resolve();
+      })
+
+  }
+
+  // 🟩 - AppendChild Elements to "addPoint" by Fragement Concept ( Collect Container )
+  async function appendChildByFragement( elements, addPoint ) {
+
+   // console.log("🟪 appendChildByFragement()")
+   // console.log("➡️ element = " + element );
+
+    // Fragement Concept because better performance of many dom creations
+    // Use Fragement Concept to create in correct direction
+    var fragement = document.createDocumentFragment();
+    elements.forEach(domItem => fragement.appendChild(domItem))
+
+    // Add sorted "fragement" to "addPoint" in one way
+    addPoint.appendChild(fragement)
+
+    return new Promise(resolve => {
+        resolve();
+      })
+
+  }
