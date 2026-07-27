@@ -19,8 +19,6 @@
 
   /* background-color: rgb(251, 217, 132); */
 
-  opacity: .8;
-
 
 }
 
@@ -33,7 +31,7 @@
   display: flex;
   align-items: center;
 
-  column-gap: .4em;
+  column-gap: .3em;
 
 }
 
@@ -68,12 +66,7 @@
 .codings-task-card-in-progress .codings-task-card-nr-box {
 
   background-color: rgb(251, 217, 132);
-
-  /* border: 1px solid rgba(224, 175, 50, .8); */
-
-  color:rgb(186, 145, 43);
-
-  color:rgb(143, 111, 30);
+  color:rgb(180, 142, 43);
 
   /* opacity: .8; */
 
@@ -83,12 +76,7 @@
 .codings-task-card-later .codings-task-card-nr-box {
 
   background-color: #e3e3e3;
-
-  /* border: 1px solid #c3c3c3; */
-
-  color:#727272;
-
-  /* opacity: .8; */
+  color:#949494;
 
 }
 
@@ -96,13 +84,7 @@
 .codings-task-card-done .codings-task-card-nr-box {
 
   background-color: rgb(136, 216, 136);
-
-  /* border: 1px solid rgb(113, 185, 113); */
-
-  color: rgb(46, 132, 46);
-
-
-
+  color:rgb(86, 151, 86);
   /* opacity: .8; */
 
 }
@@ -127,7 +109,7 @@
 /* Img */
 .codings-task-card-tech-category-sticker > img {
 
-  opacity: .4;
+  opacity: .3;
 
 }
 
@@ -142,36 +124,35 @@
 /* In Progress - tech category sticker */
 .codings-task-card-in-progress .codings-task-card-tech-category-sticker  {
 
-  background-color: rgb(251, 217, 132);
+  /* background-color: rgb(251, 217, 132); */
 
-  color:rgba(144, 112, 30, .9);
+  border: 1px dashed rgb(182, 141, 39);
+
+  border: 1px solid rgb(213, 198, 158);
+
+  color:rgb(182, 141, 39);
 
 }
 
 /* Later - tech category sticker */
 .codings-task-card-later .codings-task-card-tech-category-sticker  {
 
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3; */
 
-  color: #6c6c6c;
+  border: 1px solid #d1d1d1;
 
-  /* color:black; */
-
-  /* opacity: .8; */
+  color: #929292;
 
 }
 
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-tech-category-sticker  {
 
-  background-color: rgb(136, 216, 136);
+  /* background-color: rgb(136, 216, 136); */
 
-  color: rgba(19, 109, 19, 1);
+  border: 1px solid rgb(160, 192, 160);;
 
-  /* color: #6c6c6c; */
+  color: rgb(94, 163, 94);
 
-  /* color:black; */
-
-  /* opacity: .8; */
 
 }

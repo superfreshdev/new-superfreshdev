@@ -26,7 +26,6 @@
 
   transition: all .4s;
 
-  background-color: rgb(248, 248, 248);
 
   background-color: white;
 
@@ -48,15 +47,16 @@
 
  .codings-task-card-in-progress:hover {
 
-  background-color: rgb(254, 249, 237);
+  /* background-color: rgb(254, 249, 237);
+  background-color: white; */
 
+  background-color: rgb(255, 248, 232);
   background-color: white;
+
 
 }
 
 .codings-task-card-later:hover {
-
-  background-color: rgb(252, 252, 252);
 
   background-color: white;
 
@@ -64,9 +64,10 @@
 
 .codings-task-card-done:hover {
 
-  background-color: rgb(238, 255, 238);
-
+  /* background-color: rgb(238, 255, 238);
+  background-color: white; */
   background-color: white;
+
 
 }
 
@@ -75,7 +76,6 @@
 /* ---------------------------------------------------------------- */
 
 .codings-task-card-in-progress {
-
 
   border-left: .6em solid rgb(251, 217, 132);
   background-color: rgb(254, 246, 226);
@@ -89,9 +89,7 @@
 .codings-task-card-later {
 
   border-left: .6em solid #e1e1e1;
-  background-color: rgb(247, 247, 247);
-
-  /* background-color: white; */
+  background-color: rgb(250, 250, 250);
 
 }
 

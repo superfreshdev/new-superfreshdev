@@ -411,6 +411,7 @@
       var maxTasks = categoryTasks.length;
       // console.log("maxTasks ---- " + maxTasks )
       var taskContent = "";
+      var cardNr = "";
 
       var newTaskCards = [];
 
@@ -418,7 +419,8 @@
       for( let i=0; i < maxTasks; i++ ) {
 
         taskContent = categoryTasks[i];
-        newTaskCards.push( await createCodingTaskCard( (i+1), cardStyleConfig, taskContent ) )
+        cardNr = await formatCountingNumberZeroPadded( (i+1) );
+        newTaskCards.push( await createCodingTaskCard( cardNr, cardStyleConfig, taskContent ) )
 
       }
 
@@ -498,7 +500,9 @@
     /* > Final Add "newTaskCards" to "addPoint" by fragment concept
     /* -------------------------------------------------------------- */
 
-      await prependByFragement( newTaskCards, addPoint )
+      // await prependByFragement( newTaskCards, addPoint )
+
+      await appendChildByFragement( newTaskCards, addPoint )
 
 
     return new Promise(resolve => {

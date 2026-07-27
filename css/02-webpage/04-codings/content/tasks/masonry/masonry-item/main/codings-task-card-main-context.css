@@ -9,7 +9,7 @@
 
 .codings-task-card-context-list-container {
 
-  padding-bottom: 0em;
+  /* padding-bottom: .6em; */
 
   display: flex;
   justify-content: space-between;
@@ -70,12 +70,9 @@
 /* Category List - In Progress */
 .codings-task-card-in-progress .codings-task-card-category-list {
 
-  color:rgb(182, 141, 39);
 
-  /* color:rgb(71, 71, 71);
-  color:rgb(131, 131, 131); */
+  color:rgb(192, 145, 27);
 
-  /* color:black; */
 
 
 }
@@ -83,25 +80,15 @@
 /* Category List - Later */
 .codings-task-card-later .codings-task-card-category-list  {
 
-  color: rgb(146, 146, 146);
+  color: rgb(156, 156, 156);
 
-  color:rgb(71, 71, 71);
-  color:rgb(131, 131, 131);
-
-  /* color:black; */
 
 }
 
 /* Category List - Done */
 .codings-task-card-done .codings-task-card-category-list {
 
-  color: rgb(72, 152, 71);
-
-  /* color:rgb(71, 71, 71);
-  color:rgb(131, 131, 131);; */
-
-  /* color:black; */
-
+  color: rgb(75, 160, 72);
 
 }
 
@@ -122,8 +109,6 @@
   font-weight: bold;
   /* opacity: .6; */
 
-
-
 }
 
 /* Time Text */
@@ -136,37 +121,20 @@
 /* Time Box - In Progress */
 .codings-task-card-in-progress .codings-task-card-time-box {
 
-  color:rgb(182, 141, 39);
-
-  /* color:rgb(71, 71, 71);
-
-  color:rgb(164, 164, 164);
-
-  color:rgb(131, 131, 131); */
+  color:rgb(192, 145, 27);
 
 }
 
 /* Time Box - Later */
 .codings-task-card-later .codings-task-card-time-box  {
 
-  color: rgb(146, 146, 146);
+  color: rgb(156, 156, 156);
 
-  /* color:rgb(71, 71, 71);
-
-  color:rgb(164, 164, 164);
-
-  color:rgb(131, 131, 131); */
 }
 
 /* Time Box - Done */
 .codings-task-card-done .codings-task-card-time-box {
 
-  color: rgb(72, 152, 71);
-
-  /* color:rgb(71, 71, 71);
-
-  color:rgb(164, 164, 164);
-
-  color:rgb(131, 131, 131); */
+  color: rgb(75, 160, 72);
 
 }
