@@ -2,7 +2,7 @@
 
 
 /* -------------------------------------------------------------------------- */
-/* 🔩 Help Function
+/* 🟩 | 🔩⛑️ Help Function
 /* > Get Column Number by Comparing Breakpoints With Screen Width
 /* -------------------------------------------------------------------------- */
 
@@ -21,7 +21,7 @@
   }
 
 /* -------------------------------------------------------------------------- */
-/* Function
+/* 🟩 | 🔩 Function
 /* > Init Responsive Masonry
 /* -------------------------------------------------------------------------- */
 
@@ -39,7 +39,7 @@
         // 1. Breakpoints ermitteln und Spalten Anzahl festlegen
         let breakpoints = ctx.breakpoints;
         currentColumns = getColumnsForCurrentWidth(breakpoints)
-        console.log("🔥🔥🔥 Current Columns = " + currentColumns )
+        console.log("📐 [Resp - Masonry Layout ] - Set Columns = " + currentColumns )
 
           // 2. Elemente holen
           const container = ctx.container;

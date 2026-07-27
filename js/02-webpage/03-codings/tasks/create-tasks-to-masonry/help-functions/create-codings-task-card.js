@@ -1,10 +1,5 @@
-// console.log("🟨 help-functions-codings-task-card.js")
+// console.log("🟨 create-codings-task-card.js")
 
-
-
-/* -------------------------------------------------------------------- */
-/* 🏠 DOM Elements
-/* -------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------- */
 /* 🟩 | 🔩⛑️ Help Functions
@@ -44,10 +39,9 @@
     /* > Create - Header
     /* ------------------------------------------ */
 
-      var headerCssClass = cardStyleConfig.taskCard.header.headerCssClass
-
       // new header
       var newHeader = "";
+      var headerCssClass = cardStyleConfig.taskCard.header.cssClass;
       newHeader = await createDomElementCssClass( "header", headerCssClass );
 
       /* ----------------------------------------------------------- */
@@ -63,7 +57,7 @@
         divLeftBlock.appendChild( divNrBox )
 
         // 1.1.2 Create - Category Sticker
-        var headerCategoryCssClass = cardStyleConfig.taskCard.header.categoryStickerCssClass;
+        var headerCategoryCssClass = cardStyleConfig.taskCard.header.categoryCssClass;
 
         var iconCategoryFilename = dataHeader.techCategory.iconFilename;
         var iconCategoryFullPath = pathIconBlack + iconCategoryFilename;
@@ -120,7 +114,7 @@
     /* > Create - Main
     /* ----------------------------------------------- */
 
-      var mainCssClass = styleConfigMain.mainCssClass;
+      var mainCssClass = styleConfigMain.cssClass;
       var newMain = await createDomElementCssClass( "main", mainCssClass )
 
       /* ----------------------------------------------- */
@@ -147,19 +141,19 @@
               var iconContextItems = [];
 
               // get default img bullet style
-              var iconContextFilename = cardStyleConfig.iconFilenames.iconBullet;
+              var iconContextFilename = cardStyleConfig.iconFilenames.bulletPoint;
               var iconContextFullPath = pathIconBlack + iconContextFilename;
-              console.log("Main-Context: icon-path: " + iconContextFullPath )
+              // console.log("Main-Context: icon-path: " + iconContextFullPath )
 
               // get context items
               var dataContextItems = dataMain.context.items;
               var maxContextItems = dataContextItems.length;
-              console.log("maxContextItems= " + maxContextItems )
+              // console.log("maxContextItems= " + maxContextItems )
 
               // Add Context Items ( text & imgs ) to "divContextList"
               for( let i=0; i < maxContextItems; i++ ) {
 
-                console.log("Addings: " + (i+1))
+                // console.log("Addings: " + (i+1))
 
                 // Create Div Context Items
                 console.log("🍎 d-c-i-" + dataContextItems[i] )
@@ -208,7 +202,7 @@
         // 🟨 2.2 - Create - Content
         /* ----------------------------------------------------- */
 
-          var contentCssClass = styleConfigMain.content.contentCssClass;
+          var contentCssClass = styleConfigMain.content.cssClass;
           var divContent = await createDivClass( contentCssClass );
 
 
@@ -277,7 +271,7 @@
     /* ----------------------------------------------------- */
 
       // cardStyleConfig.taskCard.footerCssClass;
-      var footerCssClass = cardStyleConfig.taskCard.footerCssClass;
+      var footerCssClass = cardStyleConfig.taskCard.footer.cssClass;
       var newFooter = await createDomElementCssClass( "footer", footerCssClass )
 
 
@@ -324,11 +318,7 @@
 
   }
 
-/* -------------------------------------------------------------------- */
-/* 🟩 | 🔩 Functions
-/* -------------------------------------------------------------------- */
-
-  // 🟨 Create - Task Card ( Header, Main, Footer )
+  // 🟩 Create - Task Card ( Header, Main, Footer )
   async function createCodingTaskCard( cardNr, cardStyleConfig, taskContent ) {
 
     console.log("🔩 - createCodingTaskCard()")
@@ -392,162 +382,6 @@
 
     return new Promise(resolve => {
       resolve( newTaskCard );
-    })
-
-  }
-
-  // 🟩 Create - Task Cards from Category
-  async function createTaskCardsFromCategory( cardStyleConfig, categoryTasks ) {
-
-    console.log("🔩 - createTaskCardsFromCategory()")
-    console.log("➡️ cardStyleConfig: " + cardStyleConfig )
-    console.log("➡️ categoryTasks: " + categoryTasks )
-
-    /* ---------------------------------------------------------- */
-    /* 🟩 Step 1/1
-    /* > Create - Task Cards by Category
-    /* ---------------------------------------------------------- */
-
-      var maxTasks = categoryTasks.length;
-      // console.log("maxTasks ---- " + maxTasks )
-      var taskContent = "";
-      var cardNr = "";
-
-      var newTaskCards = [];
-
-      // Read & Create all Tasks from Category
-      for( let i=0; i < maxTasks; i++ ) {
-
-        taskContent = categoryTasks[i];
-        cardNr = await formatCountingNumberZeroPadded( (i+1) );
-        newTaskCards.push( await createCodingTaskCard( cardNr, cardStyleConfig, taskContent ) )
-
-      }
-
-      console.log("😶‍🌫️ newTaskCards(length) = " + newTaskCards.length )
-
-
-    return new Promise(resolve => {
-      resolve( newTaskCards );
-    })
-
-  }
-
-  // 🟩 Get - Tasks From Category
-  async function getTasksFromCategory( categoryIndex, pathTaskContent ) {
-
-      console.log("🔩 - getTasksFromCategory()")
-      console.log("➡️ categoryIndex: " + categoryIndex )
-      console.log("➡️ pathTaskContent: " + pathTaskContent )
-
-
-      /* ---------------------------------------------------------------- */
-      /* Step 1/2
-      /* > Try to open & create JSON Object
-      /* ---------------------------------------------------------------- */
-
-        var contentTasks = await async_getJsonFile( pathTaskContent )
-
-      /* ---------------------------------------------------------------- */
-      /* Step 2/2
-      /* > Try to get Tasks from Category X
-      /* ---------------------------------------------------------------- */
-
-        var categoryTasks = contentTasks.taskCategories[ categoryIndex ].tasks;
-        console.log("🚀🚀🚀 categoryTasks(length) = " + categoryTasks.length )
-
-
-      return new Promise(resolve => {
-        resolve( categoryTasks );
-      })
-
-
-  }
-
-  // 🟩 Build - Codings Tasks By Category
-  async function buildCodingsTasksByCategory( categoryIndex, pathCardStyleConfig, pathContentTasks, addPoint ) {
-
-    console.log("🔩 - renderCodingsTasksByCategory()")
-    console.log("➡️ categoryIndex: " + categoryIndex )
-    console.log("➡️ pathCardStyleConfig: " + pathCardStyleConfig )
-    console.log("➡️ pathContentTasks: " + pathContentTasks )
-    console.log("➡️ addPoint: " + addPoint )
-
-    /* -------------------------------------------------------------- */
-    /* Step 1/4
-    /* > Get Default Data - cardConfigStyle
-    /* -------------------------------------------------------------- */
-
-      var cardStyleConfig = await async_getJsonFile( pathCardStyleConfig );
-
-    /* -------------------------------------------------------------- */
-    /* Step 2/4
-    /* > Get Data Tasks from Category X
-    /* -------------------------------------------------------------- */
-
-      var categoryTasks = await getTasksFromCategory( categoryIndex, pathContentTasks )
-
-    /* -------------------------------------------------------------- */
-    /* Step 3/4
-    /* > Create "New Tasks" from Data
-    /* -------------------------------------------------------------- */
-
-      var newTaskCards = "";
-      newTaskCards = await createTaskCardsFromCategory( cardStyleConfig, categoryTasks );
-
-    /* -------------------------------------------------------------- */
-    /* Step 4/4
-    /* > Final Add "newTaskCards" to "addPoint" by fragment concept
-    /* -------------------------------------------------------------- */
-
-      // await prependByFragement( newTaskCards, addPoint )
-
-      await appendChildByFragement( newTaskCards, addPoint )
-
-
-    return new Promise(resolve => {
-      resolve( );
-    })
-
-  }
-
-  // 🚀🟩 Init - CodingsTasksView
-  async function initCodingsTasksView( taskConfig, ctxMasonry ) {
-
-    console.log("🔩 - initCodingsTasksView()")
-    console.log("➡️ taskConfig: " + taskConfig )
-    console.log("➡️ taskConfig|CategoryIndex: " + taskConfig.categoryIndex )
-    console.log("➡️ taskConfig|CategoryIndex: " + taskConfig.pathContentTasks )
-    console.log("➡️ ctxMasonry: " + ctxMasonry )
-    console.log("➡️ ctxMasonry(addPoint): " + ctxMasonry.container.getAttribute("id") )
-
-
-    /* ----------------------------------------------------------- */
-    /* 🟩 Step 1/2
-    /* > Create Coding Tasks by Category
-    /* ----------------------------------------------------------- */
-
-      // Create Tasks from Category X to "addPoint"
-      var categoryIndex = taskConfig.categoryIndex;
-      var pathCardStyleConfig = taskConfig.pathCardStyleConfig;
-      var pathContentTasks = taskConfig.pathContentTasks;
-      var codingsMasonryContainer = ctxMasonry.container;
-
-      await buildCodingsTasksByCategory( categoryIndex, pathCardStyleConfig, pathContentTasks, codingsMasonryContainer )
-
-
-    /* ----------------------------------------------------------- */
-    /* 🟩 Step 2/2
-    /* > Create Masonry Layout - Codings Tasks
-    /* ----------------------------------------------------------- */
-
-      // Use given resp masonry layout object ( addPoint & co )
-      // Create Masonry Layout with Masonry Context Object ( all datas )
-      await initResponsiveMasonry( ctxMasonry );
-
-
-    return new Promise(resolve => {
-      resolve( );
     })
 
   }

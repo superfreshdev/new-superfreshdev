@@ -1,4 +1,4 @@
-// console.log("🟨 tech-nav-handler.js")
+// console.log("🟨 tech-nav-tasks-handler.js")
 
 
 
@@ -20,8 +20,6 @@
 /* 👾 Variables
 /* -------------------------------------------------------------------- */
 
-
-
 /* -------------------------------------------------------------------- */
 /* 🔩 Functions
 /* -------------------------------------------------------------------- */
@@ -38,7 +36,7 @@
 
     // 1. Beim Laden einmalig ausführen
     // - Für Masonry muss load - Event weil das komplette DOM erst geladen werden
-    // muss, damit 100% korrekt die Abtsände berechnetwerden können beim domContentLoaded
+    // muss, damit 100% korrekt die Abtsände berechnet werden können beim domContentLoaded
     // können Seiteneffekte passieren, das dies mal klappt und manchmal nicht - d.h
     // kaputte Layout Effekte
 
@@ -54,11 +52,11 @@
 
         // updateTaskConfig()
 
-        // Dyn. Task Config
-        var taskConfig = {
+        // Dyn. Codings Task Config
+        var codingsTaskConfig = {
 
           "categoryIndex": 2,
-          "pathCardStyleConfig": "data/json/codings/tasks/config-styles/config-style-task-content.json",
+          "pathTaskCardStyle": "data/json/codings/tasks/config-styles/config-task-card-style.json",
           "pathContentTasks": "data/json/codings/tasks/tech/codings-tech-content-java.json",
 
         }
@@ -98,7 +96,7 @@
       /* > and Create resp Masonry Codings
       /* ----------------------------------------------------------- */
 
-        await initCodingsTasksView( taskConfig, ctxMasonryTasksLayout );
+        await initCodingsTasksView( codingsTaskConfig, ctxMasonryTasksLayout );
 
 
       return new Promise(resolve => {
@@ -107,9 +105,6 @@
 
 
     })
-
-
-
 
   /* ------------------------------------------------------------------------------- */
   /* ➡️🟥 Step 2/2:

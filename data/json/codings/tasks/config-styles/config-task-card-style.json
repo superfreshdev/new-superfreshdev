@@ -2,15 +2,13 @@
 
   "paths": {
 
-    "iconBlack": "media/imgs/icons/02-icon-colors/01-black/",
-    "iconGrey": "media/imgs/icons/02-icon-colors/03-grey/",
-    "imgCodingTaskHeader": "media/imgs/content/02-codings/codings-header/"
+    "iconBlack": "media/imgs/icons/02-icon-colors/01-black/"
 
   },
 
   "iconFilenames": {
 
-    "iconBullet": "black-bullet.png"
+    "bulletPoint": "black-bullet.png"
 
   },
 
@@ -18,35 +16,39 @@
 
     "header": {
 
-      "headerCssClass": "codings-task-card-header",
+      "cssClass": "codings-task-card-header",
       "nrBoxCssClass": "codings-task-card-nr-box",
-      "categoryStickerCssClass": "codings-task-card-tech-category-sticker"
+      "categoryCssClass": "codings-task-card-tech-category-sticker"
 
     },
 
     "main": {
 
-      "mainCssClass": "codings-task-card-main",
+      "cssClass": "codings-task-card-main",
 
       "context": {
 
         "listContainerCssClass": "codings-task-card-context-list-container",
         "categoryListCssClass": "codings-task-card-category-list",
         "timeBoxCssClass": "codings-task-card-time-box"
+
       },
 
       "content": {
 
-        "contentCssClass": "codings-task-card-content",
+        "cssClass": "codings-task-card-content",
         "titleCssClass": "codings-task-card-title",
         "hashtagListCssClass": "codings-task-card-hashtag-list"
 
       }
 
-
     },
 
-    "footerCssClass": "codings-task-card-footer"
+    "footer": {
+
+      "cssClass": "codings-task-card-footer"
+
+    }
 
   }
 
