@@ -22,24 +22,24 @@
 /* Content - In Progress */
 .codings-task-card-in-progress .codings-task-card-content  {
 
-  /* border-top: 1px solid rgba(155, 155, 155, 0.4);
-  border-bottom: 1px solid rgba(155, 155, 155, 0.4); */
+  border-top: 1px solid rgba(155, 155, 155, 0.4);
+  /* border-bottom: 1px solid rgba(155, 155, 155, 0.4); */
 
 }
 
 /* Content - Later */
 .codings-task-card-later .codings-task-card-content  {
 
-  /* border-top: 1px solid rgba(155, 155, 155, 0.4);
-  border-bottom: 1px solid rgba(155, 155, 155, 0.4); */
+  border-top: 1px solid rgba(155, 155, 155, 0.4);
+  /* border-bottom: 1px solid rgba(155, 155, 155, 0.4); */
 
 }
 
 /* Content - Done */
 .codings-task-card-done .codings-task-card-content  {
 
-  /* border-top: 1px solid rgba(155, 155, 155, 0.4);
-  border-bottom: 1px solid rgba(155, 155, 155, 0.4); */
+  border-top: 1px solid rgba(155, 155, 155, 0.4);
+  /* border-bottom: 1px solid rgba(155, 155, 155, 0.4); */
 
 }
 
@@ -66,16 +66,21 @@
 
   color:rgb(182, 149, 64);
 
-  /* color:rgb(143, 143, 143); */
+  color: rgb(156, 156, 156);
+
+  color: rgba(156, 156, 156, .8);
+
 
 }
 
 /* header title - later */
 .codings-task-card-later .codings-task-card-title {
 
-  color:rgb(154, 154, 154);
 
-  /* color:rgb(143, 143, 143); */
+  color: rgb(156, 156, 156);
+
+  color: rgba(156, 156, 156, .8);
+
 
 }
 
@@ -84,7 +89,9 @@
 
   color:rgb(82, 154, 63);
 
-  /* color:rgb(143, 143, 143); */
+  color: rgb(156, 156, 156);
+
+  color: rgba(156, 156, 156, .8);
 
 }
 
@@ -107,31 +114,27 @@
 /* Divs | Items */
 .codings-task-card-hashtag-list > div {
 
-  font-size: 12.5px;
+  font-size: 12px;
 
   /* height: 1.8em; */
-  padding: .1em .3em .2em .3em;
+  padding: .1em .4em .2em .4em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .6em;
+  border-radius: .5em;
 
 }
 
 /* HashTag - In Progress */
 .codings-task-card-in-progress .codings-task-card-hashtag-list > div  {
 
-
-  border: 1px dashed rgb(173, 173, 173);
-  color:rgba(143, 143, 143, .8);
-
   border: 1px dashed rgb(189, 171, 120);
   color:rgb(174, 154, 101);
 
-
-
+  border: 1px dashed rgb(218, 218, 218);
+  color: rgba(156, 156, 156, .8);
 
 }
 
@@ -141,16 +144,19 @@
   border: 1px dashed rgb(163, 163, 163);
   color:rgb(164, 164, 164);
 
+  border: 1px dashed rgb(218, 218, 218);
+  color: rgba(156, 156, 156, .8);
+
 }
 
 /* HashTag - Done */
 .codings-task-card-done .codings-task-card-hashtag-list > div  {
 
-  border: 1px dashed rgb(173, 173, 173);
-  color:rgba(143, 143, 143, .8);
-
   border: 1px dashed rgb(84, 176, 61);
   color:rgb(113, 173, 97);
+
+  border: 1px dashed rgb(218, 218, 218);
+  color: rgba(156, 156, 156, .8);
 
 
 }

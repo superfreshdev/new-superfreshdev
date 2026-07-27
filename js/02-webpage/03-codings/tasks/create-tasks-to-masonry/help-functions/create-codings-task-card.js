@@ -51,21 +51,35 @@
       var divLeftBlock = await createDiv();
 
         // 1.1.1 Create - Nr Box
-        var headerNrBoxCssClass = cardStyleConfig.taskCard.header.nrBoxCssClass;
+        var nrBoxCssClass = cardStyleConfig.taskCard.header.nrBoxCssClass;
         var nrText = cardNr;
-        var divNrBox = await createDivCssClassDivText( headerNrBoxCssClass, nrText )
+        var divNrBox = await createDivCssClassDivText( nrBoxCssClass, nrText )
         divLeftBlock.appendChild( divNrBox )
 
-        // 1.1.2 Create - Category Sticker
-        var headerCategoryCssClass = cardStyleConfig.taskCard.header.categoryCssClass;
+        // 1.1.2 Create - Category Box ( Technical Context | Business Context )
+        var categoryBoxCssClass = cardStyleConfig.taskCard.header.categoryBoxCssClass;
 
-        var iconCategoryFilename = dataHeader.techCategory.iconFilename;
-        var iconCategoryFullPath = pathIconBlack + iconCategoryFilename;
-        var iconCategoryCssClass = dataHeader.techCategory.iconCssClass;
-        var iconCategoryText = dataHeader.techCategory.title;
-        var divCategory = await createDivCssClassWithImgAndDivText( headerCategoryCssClass, iconCategoryFullPath,
-                                                                    iconCategoryCssClass, iconCategoryText )
-        divLeftBlock.appendChild( divCategory )
+        var iconCategoryBoxFilename = dataHeader.categoryBox.iconFilename;
+        var iconCategoryBoxFullPath = pathIconBlack + iconCategoryBoxFilename;
+        var iconCategoryBoxCssClass = dataHeader.categoryBox.iconCssClass;
+
+        var categoryBoxAttributeTitle = dataHeader.categoryBox.attributeTitle;
+
+        var divCategoryBox = await createDivCssClassAttributeWithImg( categoryBoxCssClass, categoryBoxAttributeTitle,
+                                                                      iconCategoryBoxFullPath, iconCategoryBoxCssClass )
+
+        divLeftBlock.appendChild ( divCategoryBox )
+
+
+        // 1.1.3 Create - Type Box ( coding, migrate, addon, debugging )
+        var typeBoxCssClass = cardStyleConfig.taskCard.header.typeBoxCssClass;
+        var iconTypeBoxFilename = dataHeader.typeBox.iconFilename;
+        var iconTypeBoxFullPath = pathIconBlack + iconTypeBoxFilename;
+        var iconTypeBoxCssClass = dataHeader.typeBox.iconCssClass;
+        var iconTypeBoxText = dataHeader.typeBox.title;
+        var divTypeBox = await createDivCssClassWithImgAndDivText( typeBoxCssClass, iconTypeBoxFullPath,
+                                                                    iconTypeBoxCssClass, iconTypeBoxText )
+        divLeftBlock.appendChild( divTypeBox )
 
 
         // 1.1.3 Add "divLeftBlock" to "newHeader"

@@ -50,23 +50,25 @@
       /* > Get Task Configs to Create Task Cards from Category X
       /* ----------------------------------------------------------- */
 
-        /* ---------------------------------------------- */
-        /* ↗️ Update Process
-        /* ---------------------------------------------- */
-        // 🟥 updateTaskConfig()
-
-        // taskConfig.categoryIndex = 0;
-        // taskConfig.pathContentTasks = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
-
 
         // Dyn. Codings Task Config
         var codingsTaskConfig = {
 
-          "categoryIndex": 2,
+          "categoryIndex": 0,
           "pathTaskCardStyle": "data/json/codings/tasks/config-styles/config-task-card-style.json",
           "pathContentTasks": "data/json/codings/tasks/tech/codings-tech-content-java.json",
 
         }
+
+        /* ---------------------------------------------- */
+        /* ↗️ Update Process
+        /* ---------------------------------------------- */
+
+        // 🟥 updateTaskConfig()
+        // 🟥 updateTaskCategoryInfo()
+
+        // codingsTaskConfig.categoryIndex = 0;
+        // codingsTaskConfig.pathContentTasks = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
 
       /* ----------------------------------------------------------- */
       /* 🟨 Step 2/3

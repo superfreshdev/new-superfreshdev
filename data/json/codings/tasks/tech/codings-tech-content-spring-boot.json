@@ -121,15 +121,15 @@
 
             "context": {
 
-              "items": [ "Bank 🏠","Payment 💫", "Authentification🍌" ],
+              "items": [ "Insurance","Claim Processing", "Validation" ],
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot", "React Native", "Claude"]
+              "title": "Develop a Spring Boot Test endpoint from scratch to process and validate incoming car insurance claims. Implement a clean service layer to check claims against policy coverage limits and valid contract dates. Use bean validation and a global exception handler to gracefully handle invalid data inputs. Finally write a comprehensive unit test to verify your core business logic",
+              "hashTags": ["Task by Gemini", "Spring Boot", "Rest API", "Bean Validation", "JUnit 5", "Exception Handling"]
 
             }
 
@@ -151,7 +151,7 @@
               {
                 "href": "www.google.de",
                 "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
+                "cssClassIcon": "img-h-0-6",
                 "text": "Show Me"
 
               },
@@ -180,18 +180,18 @@
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-open-close-brackets.png",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate"
+              "title": "Coding"
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "iconFilename": "black-stop-hand.png",
+              "iconCssClass": "img-h-0-75",
+              "title": "later"
 
             }
 
@@ -201,15 +201,15 @@
 
             "context": {
 
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "items": [ "Insurance","Tariff", "Calculation" ],
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "Development of a Spring Boot service for automated and validated calculation of insurance premiums within the service layer. The implementation covers the processing of application data, dynamic premium determination, and structured error handling via global exception handling. The task is rounded off by a targeted JUnit integration test to secure the core business logic",
+              "hashTags": ["Task by Gemini", "Spring Boot", "Rest API", "Business Logic", "Validation", "JUnit 5"]
 
             }
 
@@ -220,21 +220,7 @@
 
             "links": [
 
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
 
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
 
               {
                 "href": "www.google.de",
@@ -254,24 +240,24 @@
 
         {
 
-          "taskCardCssClass": "codings-task-card-in-progress",
+          "taskCardCssClass": "codings-task-card-later",
 
           "header": {
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-open-close-brackets.png",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
+              "title": "Coding"
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "iconFilename": "black-stop-hand.png",
+              "iconCssClass": "img-h-0-75",
+              "title": "later"
 
             }
 
@@ -281,15 +267,15 @@
 
             "context": {
 
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "items": [ "Insurance","Portfolio", "Migration" ],
               "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+              "title": "Development of a Spring Boot service for migrating and transforming legacy customer portfolio JSON payloads into a normalized target data model. The implementation covers mapping complex relational hierarchies, filtering out invalid or expired contracts, and bulk-processing records safely within a transactional service layer. The task is rounded off by unit tests validating data integrity and transformation rules",
+              "hashTags": ["Task by Gemini", "Spring Boot", "Data Mapping", "JSON", "Transactions", "JUnit 5"]
 
             }
 
@@ -300,21 +286,7 @@
 
             "links": [
 
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
 
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
 
               {
                 "href": "www.google.de",
@@ -334,24 +306,24 @@
 
         {
 
-          "taskCardCssClass": "codings-task-card-in-progress",
+          "taskCardCssClass": "codings-task-card-done",
 
           "header": {
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
+              "iconFilename": "black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-7",
+              "title": "Addon"
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
 
             }
 
@@ -361,167 +333,7 @@
 
             "context": {
 
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "items": [ "???","???", "???" ],
               "timeLimit": "60 Min."
 
             },
@@ -572,6 +384,7 @@
 
         }
 
+
       ]
     },
 
@@ -610,13 +423,13 @@
             "context": {
 
               "items": [ "Bank 🏠","Payment 💫", "Authentification🍌" ],
-              "timeLimit": "60 Min."
+              "timeLimit": "X60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "ArrayList vs LinkedList vscome the sun and little bit more de come the sun and little bit more de come the sun and little bit more de Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot", "React Native", "Claude"]
 
             }
@@ -639,7 +452,7 @@
               {
                 "href": "www.google.de",
                 "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
+                "cssClassIcon": "img-h-0-6",
                 "text": "Show Me"
 
               },
@@ -668,9 +481,235 @@
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-open-close-brackets.png",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate"
+              "title": "Coding"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "iconFilename": "black-stop-hand.png",
+              "iconCssClass": "img-h-0-75",
+              "title": "later"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Insurance🏥","Documentation", "Management" ],
+              "timeLimit": "120 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hasht more Text",
+              "hashTags": ["Rag", "AI-Agents", "A*-Algo", "Python", "Security", "Keycloak"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-done",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-7",
+              "title": "Addon"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-in-progress",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-2-arrow-circle.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "Migrate"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Social Media","User-Storage", "User-Score" ],
+              "timeLimit": "90 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-in-progress",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-open-close-brackets.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "Coding"
 
             },
 
@@ -742,24 +781,24 @@
 
         {
 
-          "taskCardCssClass": "codings-task-card-in-progress",
+          "taskCardCssClass": "codings-task-card-done",
 
           "header": {
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
+              "title": "Addon"
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
 
             }
 
@@ -776,247 +815,7 @@
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "ArrayList vs LinkedList vs Hashmap - come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more deso here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
@@ -1099,13 +898,13 @@
             "context": {
 
               "items": [ "Bank 🏠","Payment 💫", "Authentification🍌" ],
-              "timeLimit": "60 Min."
+              "timeLimit": "X60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "ArrayList vs LinkedList vscome the sun and little bit more de come the sun and little bit more de come the sun and little bit more de Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot", "React Native", "Claude"]
 
             }
@@ -1128,7 +927,7 @@
               {
                 "href": "www.google.de",
                 "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
+                "cssClassIcon": "img-h-0-6",
                 "text": "Show Me"
 
               },
@@ -1157,9 +956,235 @@
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-open-close-brackets.png",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate"
+              "title": "Coding"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "iconFilename": "black-stop-hand.png",
+              "iconCssClass": "img-h-0-75",
+              "title": "later"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Insurance🏥","Documentation", "Management" ],
+              "timeLimit": "120 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hasht more Text",
+              "hashTags": ["Rag", "AI-Agents", "A*-Algo", "Python", "Security", "Keycloak"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-done",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-7",
+              "title": "Addon"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-in-progress",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-2-arrow-circle.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "Migrate"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Social Media","User-Storage", "User-Score" ],
+              "timeLimit": "90 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-in-progress",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-open-close-brackets.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "Coding"
 
             },
 
@@ -1231,24 +1256,24 @@
 
         {
 
-          "taskCardCssClass": "codings-task-card-in-progress",
+          "taskCardCssClass": "codings-task-card-done",
 
           "header": {
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
+              "title": "Addon"
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
 
             }
 
@@ -1265,247 +1290,7 @@
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "ArrayList vs LinkedList vs Hashmap - come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more deso here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }
@@ -1588,13 +1373,13 @@
             "context": {
 
               "items": [ "Bank 🏠","Payment 💫", "Authentification🍌" ],
-              "timeLimit": "60 Min."
+              "timeLimit": "X60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "ArrayList vs LinkedList vscome the sun and little bit more de come the sun and little bit more de come the sun and little bit more de Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot", "React Native", "Claude"]
 
             }
@@ -1617,7 +1402,7 @@
               {
                 "href": "www.google.de",
                 "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
+                "cssClassIcon": "img-h-0-6",
                 "text": "Show Me"
 
               },
@@ -1646,9 +1431,235 @@
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-open-close-brackets.png",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate"
+              "title": "Coding"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-later",
+              "iconFilename": "black-stop-hand.png",
+              "iconCssClass": "img-h-0-75",
+              "title": "later"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Insurance🏥","Documentation", "Management" ],
+              "timeLimit": "120 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hasht more Text",
+              "hashTags": ["Rag", "AI-Agents", "A*-Algo", "Python", "Security", "Keycloak"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-done",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-puzzle-2.png ",
+              "iconCssClass": "img-h-0-7",
+              "title": "Addon"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
+              "timeLimit": "60 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-in-progress",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-2-arrow-circle.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "Migrate"
+
+            },
+
+            "status": {
+
+              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
+              "iconFilename": "black-fire-1.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "in progress"
+
+            }
+
+          },
+
+          "main": {
+
+            "context": {
+
+              "items": [ "Social Media","User-Storage", "User-Score" ],
+              "timeLimit": "90 Min."
+
+            },
+
+            "content": {
+
+              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
+
+            }
+
+          },
+
+          "footer": {
+
+
+            "links": [
+
+               {
+                "href": "www.google.de",
+                "filenameIcon": "black-gaming-controller.png",
+                "cssClassIcon": "img-h-0-6",
+                "text": "Play"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-eye.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "Show Me"
+
+              },
+
+              {
+                "href": "www.google.de",
+                "filenameIcon": "black-github.png",
+                "cssClassIcon": "img-h-0-8",
+                "text": "GitHub"
+
+              }
+
+
+            ]
+
+          }
+
+
+        },
+
+        {
+
+          "taskCardCssClass": "codings-task-card-in-progress",
+
+          "header": {
+
+            "techCategory": {
+
+              "iconFilename": "black-open-close-brackets.png",
+              "iconCssClass": "img-h-0-8",
+              "title": "Coding"
 
             },
 
@@ -1720,24 +1731,24 @@
 
         {
 
-          "taskCardCssClass": "codings-task-card-in-progress",
+          "taskCardCssClass": "codings-task-card-done",
 
           "header": {
 
             "techCategory": {
 
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
+              "iconFilename": "black-puzzle-2.png ",
               "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
+              "title": "Addon"
 
             },
 
             "status": {
 
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
+              "stickerCssClass": "codings-task-card-status-sticker-done",
+              "iconFilename": "black-small-correct.png",
+              "iconCssClass": "img-h-0-6",
+              "title": "done"
 
             }
 
@@ -1754,247 +1765,7 @@
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
-
-            }
-
-          },
-
-          "footer": {
-
-
-            "links": [
-
-               {
-                "href": "www.google.de",
-                "filenameIcon": "black-gaming-controller.png",
-                "cssClassIcon": "img-h-0-6",
-                "text": "Play"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-eye.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "Show Me"
-
-              },
-
-              {
-                "href": "www.google.de",
-                "filenameIcon": "black-github.png",
-                "cssClassIcon": "img-h-0-8",
-                "text": "GitHub"
-
-              }
-
-
-            ]
-
-          }
-
-
-        },
-
-        {
-
-          "taskCardCssClass": "codings-task-card-in-progress",
-
-          "header": {
-
-            "techCategory": {
-
-              "iconFilename": "black-bug.png || black-open-close-brackets.png || black-2-arrow-circle.png || black-puzzle-2.png ",
-              "iconCssClass": "img-h-0-8",
-              "title": "Debuggiutng || Coding || Addon || Migrate "
-
-            },
-
-            "status": {
-
-              "stickerCssClass": "codings-task-card-status-sticker-in-progress",
-              "iconFilename": "black-fire-1.png",
-              "iconCssClass": "img-h-0-8",
-              "title": "in progress"
-
-            }
-
-          },
-
-          "main": {
-
-            "context": {
-
-              "items": [ "Bank 🏠","Payment 💫", "Authentification" ],
-              "timeLimit": "60 Min."
-
-            },
-
-            "content": {
-
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "ArrayList vs LinkedList vs Hashmap - come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more de come the sun and little bit more deso here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }

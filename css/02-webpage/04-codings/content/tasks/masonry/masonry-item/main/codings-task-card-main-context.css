@@ -9,7 +9,7 @@
 
 .codings-task-card-context-list-container {
 
-  /* padding-bottom: .6em; */
+  padding-bottom: .6em;
 
   display: flex;
   justify-content: space-between;
@@ -70,8 +70,9 @@
 /* Category List - In Progress */
 .codings-task-card-in-progress .codings-task-card-category-list {
 
-
   color:rgb(192, 145, 27);
+
+  color: rgb(156, 156, 156);
 
 
 
@@ -89,6 +90,9 @@
 .codings-task-card-done .codings-task-card-category-list {
 
   color: rgb(75, 160, 72);
+
+  color: rgb(156, 156, 156);
+
 
 }
 
@@ -123,6 +127,9 @@
 
   color:rgb(192, 145, 27);
 
+  color: rgb(156, 156, 156);
+
+
 }
 
 /* Time Box - Later */
@@ -136,5 +143,8 @@
 .codings-task-card-done .codings-task-card-time-box {
 
   color: rgb(75, 160, 72);
+
+  color: rgb(156, 156, 156);
+
 
 }

@@ -260,6 +260,32 @@
 
  }
 
+ // 🟩 - Create Div with CSS Class & Attribute + IMG
+  async function createDivCssClassAttributeWithImg( cssClass, attrTitle, imgSrc, imgCssClass ) {
+
+    // Create Div
+    var newDiv = document.createElement("div");
+    newDiv.setAttribute( "class", cssClass )
+
+    // Set Attribute Title
+    newDiv.setAttribute( "title", attrTitle )
+
+    // Create Img
+    var newImg = document.createElement("img");
+    newImg.setAttribute( "src" , imgSrc )
+    newImg.setAttribute( "class" , imgCssClass )
+    newImg.setAttribute( "alt" , "img" )
+
+    // Add "img" to "newDiv"
+    newDiv.appendChild( newImg );
+
+    return new Promise(resolve => {
+      resolve( newDiv );
+    })
+
+ }
+
+
 /* ---------------------------------------------------------------- */
 /* 🟩 Async Function
 /* > Create Div with Text

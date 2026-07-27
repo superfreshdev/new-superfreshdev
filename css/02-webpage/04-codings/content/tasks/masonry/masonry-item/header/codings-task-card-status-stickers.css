@@ -25,6 +25,28 @@
 
 }
 
+/* default img unshown */
+.codings-task-card-status-sticker-in-progress > img,
+.codings-task-card-status-sticker-later > img,
+.codings-task-card-status-sticker-done > img {
+
+  display: none;
+
+}
+
+/* img media queries - 340px */
+@media (min-width: 340px) {
+
+  .codings-task-card-status-sticker-in-progress > img,
+  .codings-task-card-status-sticker-later > img,
+  .codings-task-card-status-sticker-done > img {
+
+    display: flex;
+
+  }
+
+}
+
 /* Img  */
 .codings-task-card-status-sticker-in-progress > img,
 .codings-task-card-status-sticker-later > img {
