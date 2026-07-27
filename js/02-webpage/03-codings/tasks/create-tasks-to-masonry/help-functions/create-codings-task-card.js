@@ -57,18 +57,18 @@
         divLeftBlock.appendChild( divNrBox )
 
         // 1.1.2 Create - Category Box ( Technical Context | Business Context )
-        var categoryBoxCssClass = cardStyleConfig.taskCard.header.categoryBoxCssClass;
+        // var categoryBoxCssClass = cardStyleConfig.taskCard.header.categoryBoxCssClass;
 
-        var iconCategoryBoxFilename = dataHeader.categoryBox.iconFilename;
-        var iconCategoryBoxFullPath = pathIconBlack + iconCategoryBoxFilename;
-        var iconCategoryBoxCssClass = dataHeader.categoryBox.iconCssClass;
+        // var iconCategoryBoxFilename = dataHeader.categoryBox.iconFilename;
+        // var iconCategoryBoxFullPath = pathIconBlack + iconCategoryBoxFilename;
+        // var iconCategoryBoxCssClass = dataHeader.categoryBox.iconCssClass;
 
-        var categoryBoxAttributeTitle = dataHeader.categoryBox.attributeTitle;
+        // var categoryBoxAttributeTitle = dataHeader.categoryBox.attributeTitle;
 
-        var divCategoryBox = await createDivCssClassAttributeWithImg( categoryBoxCssClass, categoryBoxAttributeTitle,
-                                                                      iconCategoryBoxFullPath, iconCategoryBoxCssClass )
+        // var divCategoryBox = await createDivCssClassAttributeWithImg( categoryBoxCssClass, categoryBoxAttributeTitle,
+        //                                                               iconCategoryBoxFullPath, iconCategoryBoxCssClass )
 
-        divLeftBlock.appendChild ( divCategoryBox )
+        // divLeftBlock.appendChild ( divCategoryBox )
 
 
         // 1.1.3 Create - Type Box ( coding, migrate, addon, debugging )
