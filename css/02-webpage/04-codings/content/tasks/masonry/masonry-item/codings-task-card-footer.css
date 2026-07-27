@@ -21,7 +21,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* GitHub Link
+/* Footer Links
 /* ---------------------------------------------------------------- */
 
 .codings-task-card-footer > a {
@@ -38,9 +38,7 @@
   border-radius: .6em;
 
   font-weight: bold;
-  border: 1px solid rgba(164, 164, 164, .4);
 
-  color: rgb(88, 88, 88);
 
   /* background-color: rgb(237, 237, 237); */
 
@@ -53,7 +51,7 @@
 /* text - Github */
 .codings-task-card-footer > a > img {
 
-  opacity: .6;
+  opacity: .4;
 
 }
 
@@ -65,9 +63,51 @@
 
 }
 
-/* hover */
-.codings-task-card-footer > a:hover {
 
-  background-color: rgb(227, 227, 227);
+
+/* In Progress - Link */
+.codings-task-card-in-progress .codings-task-card-footer > a {
+
+  border: 1px solid rgb(202, 183, 134);
+  color:rgb(165, 126, 29);
+
+}
+
+/* hover */
+.codings-task-card-in-progress .codings-task-card-footer > a:hover {
+
+  background-color: rgb(255, 231, 163);
+
+}
+
+
+/* Later - Link */
+.codings-task-card-later .codings-task-card-footer > a {
+
+  border: 1px solid rgba(164, 164, 164, .4);
+  color: rgb(133, 133, 133);
+
+}
+
+/* hover */
+.codings-task-card-later .codings-task-card-footer > a:hover {
+
+  background-color: rgb(224, 224, 224);
+
+}
+
+
+/* Done - Link */
+.codings-task-card-done .codings-task-card-footer > a {
+
+  border: 1px solid rgb(155, 203, 142);
+  color:rgb(77, 149, 59);
+
+}
+
+/* hover */
+.codings-task-card-done .codings-task-card-footer > a:hover {
+
+  background-color: rgb(190, 250, 174);
 
 }
