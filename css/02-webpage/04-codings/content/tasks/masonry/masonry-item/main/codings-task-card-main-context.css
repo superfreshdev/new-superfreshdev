@@ -2,6 +2,51 @@
 /* > codings-task-card-main-context.css
 /* ---------------------------------------------------------------- */
 
+/* ---------------------------------------------------------------- */
+/* X-Header
+/* ---------------------------------------------------------------- */
+
+.x-header {
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+.real-context {
+
+
+  justify-self: flex-start;
+
+  /* height: 1.4em; */
+  padding: .0em 0em;
+  padding-left: .4em;
+
+  display: inline-flex;
+  align-items: center;
+  column-gap: .4em;
+
+  border-radius: .4em;
+
+  /* background-color: rgb(239, 237, 237); */
+
+  /* border: 1px solid rgb(210, 210, 210);; */
+
+}
+
+.real-context > img {
+
+  opacity: .4;
+
+
+}
+
+.text-context {
+
+  font-size: 12.5px;
+  color:rgb(150, 150, 150);
+
+}
 
 /* ---------------------------------------------------------------- */
 /* Context List Container

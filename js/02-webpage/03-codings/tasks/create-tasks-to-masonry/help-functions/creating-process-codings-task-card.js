@@ -109,9 +109,9 @@
     /* > Final Add "newTaskCards" to "addPoint" by fragment concept
     /* -------------------------------------------------------------- */
 
-      await prependByFragement( newTaskCards, addPoint )
+      // await prependByFragement( newTaskCards, addPoint )
 
-      // await appendChildByFragement( newTaskCards, addPoint )
+      await appendChildByFragement( newTaskCards, addPoint )
 
 
     return new Promise(resolve => {
