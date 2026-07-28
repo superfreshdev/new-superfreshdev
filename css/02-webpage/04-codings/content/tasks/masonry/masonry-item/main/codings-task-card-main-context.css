@@ -9,7 +9,7 @@
 .x-header {
 
   display: grid;
-  row-gap: .4em;
+  row-gap: .3em;
 
 }
 
@@ -28,6 +28,8 @@
 
   border-radius: .4em;
 
+  /* opacity: .8; */
+
   /* background-color: rgb(239, 237, 237); */
 
   /* border: 1px solid rgb(210, 210, 210);; */
@@ -43,8 +45,12 @@
 
 .text-context {
 
-  font-size: 12.5px;
+  font-size: 12px;
   color:rgb(150, 150, 150);
+
+  color: #8e8e8e;
+
+  font-weight: bold;
 
 }
 
@@ -117,7 +123,7 @@
 
   color:rgb(192, 145, 27);
 
-  color: rgb(156, 156, 156);
+  /* color: rgb(156, 156, 156); */
 
 
 
@@ -136,7 +142,7 @@
 
   color: rgb(75, 160, 72);
 
-  color: rgb(156, 156, 156);
+  /* color: rgb(156, 156, 156); */
 
 
 }
