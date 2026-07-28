@@ -86,7 +86,7 @@
 
   font-weight: bold;
 
-  line-height: 1em;
+  line-height: .95em;
 
   /* background-color: rgb(192, 192, 192); */
 
@@ -95,7 +95,7 @@
 /* Div */
 .codings-task-card-category-list > div  {
 
-  font-size: 13px;
+  font-size: 13.5px;
 
   padding: 0 .4em;
 
@@ -123,7 +123,7 @@
 
   color:rgba(192, 145, 27, 1);
 
-  /* color: rgba(171, 129, 24, 0.8); */
+  color: rgba(171, 129, 24, 0.8);
 
   /* color: #9a9a9a; */
 
