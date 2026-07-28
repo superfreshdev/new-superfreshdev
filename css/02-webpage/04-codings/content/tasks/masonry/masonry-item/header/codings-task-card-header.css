@@ -102,7 +102,7 @@
 
   border-radius: .5em;
 
-  /* opacity: .9; */
+  opacity: .9;
 
 }
 
@@ -125,11 +125,13 @@
 .codings-task-card-in-progress .codings-task-card-type-box  {
 
   color: #9c9c9c;
-
-   border: 1px dashed rgb(206, 206, 206);
+  border: 1px dashed rgb(206, 206, 206);
 
   /* background-color: rgb(251, 217, 132);
-  color: rgba(182, 141, 39, 1); */
+  /* border: 1px dashed  rgb(251, 217, 132);
+  color: rgba(182, 141, 39, 1);
+  */
+
 
 }
 
@@ -138,9 +140,9 @@
 
   /* background-color: #e3e3e3; */
 
-  border: 1px dashed rgb(206, 206, 206);
-
+  /* border: 1px dashed rgb(206, 206, 206); */
   color: #9c9c9c;
+   border: 1px dashed rgb(206, 206, 206);
 
 
 }
@@ -148,10 +150,13 @@
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-type-box  {
 
-  /* background-color: rgb(136, 216, 136);
-  color: rgb(86, 151, 86); */
-
   border: 1px dashed rgb(206, 206, 206);
-
   color: #9c9c9c;
+
+  /* background-color: rgb(136, 216, 136);
+  color: rgb(86, 151, 86);
+
+  border: 1px dashed  rgb(136, 216, 136);; */
+
+
 }

@@ -66,7 +66,9 @@
 
   color:rgb(182, 149, 64);
 
-  color: rgba(156, 156, 156, .9);
+  color: rgba(156, 156, 156, .8);
+
+  /* color: rgba(171, 129, 24, 0.6); */
 
 
 }
@@ -76,7 +78,7 @@
 
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, .9);
+  color: rgba(156, 156, 156, .8);
 
 
 }
@@ -84,12 +86,14 @@
 /* header title - done */
 .codings-task-card-done .codings-task-card-title {
 
-  color:rgb(82, 154, 63);
+  /* color:rgba(59, 114, 43, 0.6); */
 
-  color: rgb(156, 156, 156);
+  /* color: rgb(156, 156, 156);
 
 
-  color: rgba(156, 156, 156, .9);
+   */
+
+   color: rgba(156, 156, 156, .8);
 
 }
 
@@ -130,8 +134,8 @@
 /* HashTag - In Progress */
 .codings-task-card-in-progress .codings-task-card-hashtag-list > div  {
 
-  border: 1px dashed rgb(189, 171, 120);
-  color:rgb(174, 154, 101);
+  /* border: 1px dashed rgb(189, 171, 120);
+  color:rgba(174, 154, 101, .8); */
 
   border: 1px dashed rgba(200, 200, 200, 1);
   color: rgba(145, 145, 145, 0.8);
