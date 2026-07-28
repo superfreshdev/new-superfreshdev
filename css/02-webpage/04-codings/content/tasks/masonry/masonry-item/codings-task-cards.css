@@ -76,7 +76,7 @@
 
 .codings-task-card-in-progress {
 
-  border-left: .8em solid rgba(251, 217, 132, 1);
+  border-left: .6em solid rgba(251, 217, 132, .9);
 
   /* background-color: rgb(249, 249, 249);
    */
@@ -91,7 +91,7 @@
 
 .codings-task-card-later {
 
-  border-left: .8em solid rgba(225, 225, 225, 1);
+  border-left: .6em solid rgba(225, 225, 225, 1);
 
   /* background-color: rgb(249, 249, 249);
    */
@@ -106,7 +106,7 @@
 
 .codings-task-card-done {
 
-  border-left: .8em solid rgba(136, 216, 136, 1);
+  border-left: .6em solid rgba(136, 216, 136, .9);
   /* background-color: rgb(230, 255, 230); */
 
   /* background-color: rgb(249, 249, 249);
