@@ -18,6 +18,7 @@
   column-gap: .6em;
 
   /* background-color: rgb(251, 217, 132); */
+  /* border-radius: .8em; */
 
 }
 
@@ -30,7 +31,7 @@
   display: flex;
   align-items: center;
 
-  column-gap: .6em;
+  column-gap: .3em;
 
 }
 
@@ -89,68 +90,13 @@
 }
 
 /* ------------------------------------------------------------ */
-/* ➡️🟥 Category Box
-/* ------------------------------------------------------------ */
-
-.codings-task-card-category-box {
-
-  min-width: 1.8em;
-  height: 1.7em;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: .5em;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-/* img */
-.codings-task-card-category-box > img {
-
-  opacity: .3;
-
-}
-
-
-/* In Progress - Category Box */
-.codings-task-card-in-progress .codings-task-card-category-box {
-
-  /* background-color: rgb(251, 217, 132); */
-  border: 1px solid rgb(206, 206, 206);
-
-}
-
-/* Later - Category Box */
-.codings-task-card-later .codings-task-card-category-box {
-
-  /* background-color: #e3e3e3; */
-  border: 1px solid rgb(206, 206, 206);
-
-
-}
-
-/* Done - Category Box */
-.codings-task-card-done .codings-task-card-category-box {
-
-  /* background-color: rgb(136, 216, 136); */
-  border: 1px solid rgb(206, 206, 206);
-
-
-}
-
-/* ------------------------------------------------------------ */
 /* Tech Type Box - Debugging, Codings, Migrate, Addon
 /* ------------------------------------------------------------ */
 
 .codings-task-card-type-box {
 
   height: 1.7em;
-  /* padding: 0 .5em; */
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
@@ -181,8 +127,10 @@
   /* background-color: rgb(251, 217, 132);
   color:rgb(182, 141, 39); */
 
+  border: 1px dashed rgb(206, 206, 206);
   /* border: 1px solid rgb(206, 206, 206); */
   color: #8e8e8e;
+  color: #9c9c9c;
 
 }
 
@@ -191,8 +139,10 @@
 
   /* background-color: #e3e3e3; */
 
+  border: 1px dashed rgb(206, 206, 206);
   /* border: 1px solid rgb(206, 206, 206); */
    color: #8e8e8e;
+   color: #9c9c9c;
 
 }
 
@@ -202,8 +152,10 @@
   /* background-color: rgb(136, 216, 136);
   color: rgb(63, 139, 63); */
 
+  border: 1px dashed rgb(206, 206, 206);
   /* border: 1px solid rgb(206, 206, 206); */
-   color: #8e8e8e;
+  color: #8e8e8e;
+  color: #9c9c9c;
 
 
 }

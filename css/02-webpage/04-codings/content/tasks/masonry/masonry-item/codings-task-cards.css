@@ -27,7 +27,7 @@
   transition: all .4s;
 
 
-  background-color: white;
+  background-color: rgb(245, 245, 245);
 
 
 }
@@ -38,6 +38,8 @@
 .codings-task-card-done:hover {
 
   background-color: rgb(250, 250,250);
+
+  background-color: white;
 
   /* border-top: 1px solid rgb(171, 171, 171);
   border-right: 1px solid rgb(171, 171, 171);

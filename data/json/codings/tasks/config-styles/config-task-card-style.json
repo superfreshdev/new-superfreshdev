@@ -18,7 +18,6 @@
 
       "cssClass": "codings-task-card-header",
       "nrBoxCssClass": "codings-task-card-nr-box",
-      "categoryBoxCssClass": "codings-task-card-category-box",
       "typeBoxCssClass": "codings-task-card-type-box"
 
     },

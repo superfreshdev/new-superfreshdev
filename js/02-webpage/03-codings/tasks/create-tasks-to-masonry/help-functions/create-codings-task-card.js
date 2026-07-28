@@ -56,22 +56,8 @@
         var divNrBox = await createDivCssClassDivText( nrBoxCssClass, nrText )
         divLeftBlock.appendChild( divNrBox )
 
-        // 1.1.2 Create - Category Box ( Technical Context | Business Context )
-        // var categoryBoxCssClass = cardStyleConfig.taskCard.header.categoryBoxCssClass;
 
-        // var iconCategoryBoxFilename = dataHeader.categoryBox.iconFilename;
-        // var iconCategoryBoxFullPath = pathIconBlack + iconCategoryBoxFilename;
-        // var iconCategoryBoxCssClass = dataHeader.categoryBox.iconCssClass;
-
-        // var categoryBoxAttributeTitle = dataHeader.categoryBox.attributeTitle;
-
-        // var divCategoryBox = await createDivCssClassAttributeWithImg( categoryBoxCssClass, categoryBoxAttributeTitle,
-        //                                                               iconCategoryBoxFullPath, iconCategoryBoxCssClass )
-
-        // divLeftBlock.appendChild ( divCategoryBox )
-
-
-        // 1.1.3 Create - Type Box ( coding, migrate, addon, debugging )
+        // 1.1.2 Create - Type Box ( coding, migrate, addon, debugging )
         var typeBoxCssClass = cardStyleConfig.taskCard.header.typeBoxCssClass;
         var iconTypeBoxFilename = dataHeader.typeBox.iconFilename;
         var iconTypeBoxFullPath = pathIconBlack + iconTypeBoxFilename;
