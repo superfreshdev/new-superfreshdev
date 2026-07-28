@@ -125,6 +125,8 @@
 
   color: rgba(171, 129, 24, 0.8);
 
+  color: #9a9a9a;
+
 
 }
 
@@ -135,12 +137,16 @@
 
   color: rgb(156, 156, 156);
 
+  color: #9a9a9a;
+
 }
 
 /* Category List - Done */
 .codings-task-card-done .codings-task-card-category-list {
 
   color:rgba(86, 151, 86, .8);
+
+  color: #9a9a9a;
 
 
 
@@ -180,7 +186,11 @@
 
   color:rgb(192, 145, 27);
 
-  color: rgb(156, 156, 156);
+  color: #9c9c9c;
+
+  color: #6c6c6c;
+
+   color: #9a9a9a;
 
 
 }
@@ -190,6 +200,10 @@
 
   color: rgb(156, 156, 156);
 
+  color: #6c6c6c;
+
+  color: #9a9a9a;
+
 }
 
 /* Time Box - Done */
@@ -198,6 +212,10 @@
   color: rgb(75, 160, 72);
 
   color: rgb(156, 156, 156);
+
+  color: #6c6c6c;
+
+  color: #9a9a9a;
 
 
 }

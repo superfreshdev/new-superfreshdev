@@ -51,7 +51,7 @@
 
   padding: 0 .3em;
 
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 1.7em;
 
   /* font-weight: bold; */
@@ -68,7 +68,7 @@
 
   color: rgba(156, 156, 156, .8);
 
-  /* color: rgba(171, 129, 24, 0.6); */
+ color: #c0c0c0;
 
 
 }
@@ -79,6 +79,10 @@
   color: rgb(156, 156, 156);
 
   color: rgba(156, 156, 156, .8);
+
+  color: #9a9a9a;
+
+  color: #c0c0c0;
 
 
 }
@@ -94,6 +98,8 @@
    */
 
    color: rgba(156, 156, 156, .8);
+
+   color: #c0c0c0;
 
 }
 
@@ -119,7 +125,7 @@
   font-size: 12.5px;
 
   /* height: 1.8em; */
-  padding: .1em .4em .2em .4em;
+  padding: .2em .4em .3em .4em;
 
   display: flex;
   align-items: center;
