@@ -132,7 +132,7 @@
 
             "content": {
 
-              "title": "Your task is to design a high-performance inventory tracking system for a multi-warehouse logistics provider using advanced Java collections. You need to implement custom data structures to effienctly handle concurrent stock updates, fast lookups by item ID, and sorted category listings. Pay special attention to choosing the right collection types based on their time complexities for insertions, deletions, and random access. Ensure your implmentation handles edge cases like duplicate entries and out-of-order stock adjustments gracefully. Finally, write comprehensive unit test to verfiy the performance and thread-safety constraints of your solution.",
+              "title": "Goal: Design a high-performance inventory trackig system for a mulit-warehouse logistics provider using advanced Java collections. Choose the right collection types bases on their time complexity for insertions, lookups, and sorted access. Handle edge cases like duplicate entries and out-of-order stock updates gracefully. Verify performance and thread-safety with comphrensive unit tests.",
               "hashTags": [ "Task by Gemini", "MidLevel", "DataStructures", "JUnit", "Performance" ]
 
             }
