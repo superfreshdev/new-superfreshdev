@@ -27,7 +27,9 @@
   transition: all .4s;
 
 
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(250, 250, 245);
+
+  background-color: rgb(250, 250, 250);
 
 
 }
@@ -81,7 +83,7 @@
 
 .codings-task-card-in-progress {
 
-  border-left: .8em solid rgb(251, 217, 132);
+  border-left: .6em solid rgb(251, 217, 132);
 
   /* background-color: rgb(249, 249, 249);
   background-color: rgb(254, 246, 226); */
@@ -94,7 +96,7 @@
 
 .codings-task-card-later {
 
-  border-left: .8em solid #e1e1e1;
+  border-left: .6em solid #e1e1e1;
 
   /* background-color: rgb(249, 249, 249);
   background-color: rgb(250, 250, 250); */
@@ -107,7 +109,7 @@
 
 .codings-task-card-done {
 
-  border-left: .8em solid rgb(136, 216, 136);
+  border-left: .6em solid rgb(136, 216, 136);
   /* background-color: rgb(230, 255, 230); */
 
   /* background-color: rgb(249, 249, 249);
