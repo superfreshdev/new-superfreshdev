@@ -53,6 +53,9 @@
 .codings-task-header-nav-item-done:hover {
 
   background-color: rgb(204, 204, 204);
+
+  background-color: rgb(227, 227, 227);
+
   color:rgb(88, 88, 88);
 
 }
@@ -203,6 +206,8 @@
 .codings-task-header-nav-item-unshown:hover {
 
   background-color: rgb(204, 204, 204);
+  background-color: rgb(227, 227, 227);
+
   color:rgb(152, 152, 152);
 
 }
