@@ -35,7 +35,14 @@
 .codings-task-card-later:hover,
 .codings-task-card-done:hover {
 
-  background-color: rgb(245, 245,245);
+  background-color: rgb(245, 245, 245);
+
+  /* background-color: white; */
+
+  border-right: 1px solid rgb(203, 203, 203);
+  border-top: 1px solid rgb(203, 203, 203);
+  border-bottom: 1px solid rgb(203, 203, 203);
+
 
   /* background-color: white; */
 
@@ -47,9 +54,9 @@
 
  .codings-task-card-in-progress:hover {
 
-   background-color: rgba(253, 249, 240, .3);
+   /* background-color: rgba(253, 249, 240, .3);
 
-  background-color: rgba(239, 239, 239, 0.4);
+  background-color: rgba(239, 239, 239, 0.4); */
 
 
 
@@ -57,15 +64,15 @@
 
 .codings-task-card-later:hover {
 
-   background-color: rgba(239, 239, 239, 0.4);
+   /* background-color: rgba(239, 239, 239, 0.4); */
 
 }
 
 .codings-task-card-done:hover {
 
-  background-color: rgba(245, 255, 245, .4);
+  /* background-color: rgba(245, 255, 245, .4);
 
-  background-color: rgba(239, 239, 239, 0.4);
+  background-color: rgba(239, 239, 239, 0.4); */
 
 
 }
@@ -81,7 +88,9 @@
   /* background-color: rgb(249, 249, 249);
    */
 
-   /* background-color: rgb(254, 246, 226); */
+   /* background-color: rgb(255, 253, 247);
+
+   background-color: rgb(250, 250, 250); */
 
 }
 
@@ -112,6 +121,10 @@
   /* background-color: rgb(249, 249, 249);
   */
 
-   /* background-color: rgb(230, 255, 230); */
+   /* background-color: rgb(240, 255, 240);
+
+   background-color: rgb(250, 250, 250); */
+
+
 
 }

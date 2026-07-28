@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
 
-  column-gap: .6em;
+  column-gap: .3em;
 
 }
 
@@ -94,7 +94,7 @@
 .codings-task-card-type-box {
 
   height: 1.7em;
-  /* padding: 0 .5em; */
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
@@ -126,6 +126,8 @@
 
   color: #9c9c9c;
 
+   border: 1px dashed rgb(206, 206, 206);
+
   /* background-color: rgb(251, 217, 132);
   color: rgba(182, 141, 39, 1); */
 
@@ -136,11 +138,7 @@
 
   /* background-color: #e3e3e3; */
 
-  /* border: 1px dashed rgb(206, 206, 206); */
-  /* color: rgba(108, 108, 108, .8); */
-  color: rgb(143, 143, 143);
-
-  color: rgba(86, 86, 86, 0.8);
+  border: 1px dashed rgb(206, 206, 206);
 
   color: #9c9c9c;
 
@@ -153,7 +151,7 @@
   /* background-color: rgb(136, 216, 136);
   color: rgb(86, 151, 86); */
 
-  color: rgba(86, 86, 86, 0.8);
+  border: 1px dashed rgb(206, 206, 206);
 
   color: #9c9c9c;
 }
