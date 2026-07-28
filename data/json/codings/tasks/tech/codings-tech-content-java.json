@@ -220,7 +220,7 @@
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hasht more Text",
+              "title": "Design an inventory tracking system for a logistics provider using Java Collections. Choose efficient data structures for last lookups, stock updates, and category management. Handle common edge cases while keeping your implementation clean and maintainable.",
               "hashTags": ["Rag", "AI-Agents", "A*-Algo", "Python", "Security", "Keycloak"]
 
             }
@@ -294,7 +294,7 @@
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vs Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
+              "title": "Implement a secure authentification service for an online banking platfrom. Desing the solution to handle high login volumes while protecting sensitive customer data.",
               "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot"]
 
             }

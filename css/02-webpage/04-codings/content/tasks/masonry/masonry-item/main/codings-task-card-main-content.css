@@ -49,7 +49,7 @@
 
 .codings-task-card-title {
 
-  padding: 0 .2em;
+  padding: 0 .3em;
 
   font-size: 14px;
   line-height: 1.7em;
@@ -66,7 +66,7 @@
 
   color:rgb(182, 149, 64);
 
-  color: rgba(156, 156, 156, 1);
+  color: rgba(156, 156, 156, .8);
 
 
 }
@@ -76,7 +76,7 @@
 
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, 1);
+  color: rgba(156, 156, 156, .8);
 
 
 }
@@ -88,7 +88,8 @@
 
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, 1);
+
+  color: rgba(156, 156, 156, .8);
 
 }
 
@@ -114,7 +115,7 @@
   font-size: 12.5px;
 
   /* height: 1.8em; */
-  padding: .2em .4em .3em .4em;
+  padding: .1em .4em .2em .4em;
 
   display: flex;
   align-items: center;
