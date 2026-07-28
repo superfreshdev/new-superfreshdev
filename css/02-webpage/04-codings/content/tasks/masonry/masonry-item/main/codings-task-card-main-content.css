@@ -70,6 +70,8 @@
 
   color: #b9b9b9;
 
+  color:rgb(121, 121, 121);
+
 
 }
 
@@ -83,6 +85,8 @@
   color: #9a9a9a;
 
   color: #b9b9b9;
+
+  color:rgb(121, 121, 121);
 
 
 }
@@ -100,6 +104,8 @@
    color: rgba(156, 156, 156, .8);
 
    color: #b9b9b9;
+
+   color:rgb(121, 121, 121);
 
 }
 
@@ -131,9 +137,11 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .6em;
+  border-radius: .8em;
 
-  opacity: .9;
+  opacity: .7;
+
+  /* font-style: italic; */
 
 }
 
@@ -145,28 +153,32 @@
 
   border: 1px dashed rgba(200, 200, 200, 1);
   color: rgba(145, 145, 145, 0.8);
+  color:rgb(121, 121, 121);
 
 }
 
 /* HashTag - Later */
 .codings-task-card-later .codings-task-card-hashtag-list > div  {
 
-  border: 1px dashed rgb(163, 163, 163);
-  color:rgb(164, 164, 164);
+  /* border: 1px dashed rgb(163, 163, 163);
+  color:rgb(164, 164, 164); */
 
-   border: 1px dashed rgba(200, 200, 200, 1);
+ border: 1px dashed rgba(200, 200, 200, 1);
   color: rgba(145, 145, 145, 0.8);
+  color:rgb(121, 121, 121);
 
 }
 
 /* HashTag - Done */
 .codings-task-card-done .codings-task-card-hashtag-list > div  {
 
-  border: 1px dashed rgb(84, 176, 61);
-  color:rgb(113, 173, 97);
+  /* border: 1px dashed rgb(84, 176, 61);
+  color:rgb(113, 173, 97); */
 
+  /* border: 1px dashed rgba(200, 200, 200, 1); */
   border: 1px dashed rgba(200, 200, 200, 1);
   color: rgba(145, 145, 145, 0.8);
+  color:rgb(121, 121, 121);
 
 
 }
