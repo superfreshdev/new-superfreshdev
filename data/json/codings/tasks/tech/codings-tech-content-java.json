@@ -125,15 +125,15 @@
 
             "context": {
 
-              "items": [ "Bank 🏠","Payment 💫", "Authentification🍌" ],
-              "timeLimit": "X60 Min."
+              "items": [ "Collections", "ArrayList", "LinkedList", "HashMap", "HashSet", "PriorityQueue", "TreeMap" ],
+              "timeLimit": "60 Min."
 
             },
 
             "content": {
 
-              "title": "ArrayList vs LinkedList vscome the sun and little bit more de come the sun and little bit more de come the sun and little bit more de Hashmap - so here come the sun and little bit more description as u think haah so its just a text -here come the sun and little bit more Text",
-              "hashTags": ["Executore Service", "Runable", "TDD", "DDD", "Spring Boot", "React Native", "Claude"]
+              "title": "Your task is to design a high-performance inventory tracking system for a multi-warehouse logistics provider using advanced Java collections. You need to implement custom data structures to effienctly handle concurrent stock updates, fast lookups by item ID, and sorted category listings. Pay special attention to choosing the right collection types based on their time complexities for insertions, deletions, and random access. Ensure your implmentation handles edge cases like duplicate entries and out-of-order stock adjustments gracefully. Finally, write comprehensive unit test to verfiy the performance and thread-safety constraints of your solution.",
+              "hashTags": [ "Task by Gemini", "MidLevel", "DataStructures", "JUnit", "Performance" ]
 
             }
 
