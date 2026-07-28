@@ -66,11 +66,7 @@
 
   color:rgb(182, 149, 64);
 
-  color: rgb(156, 156, 156);
-
-  color: rgba(182, 141, 39, 1);
-
-  color: rgba(156, 156, 156, .8);
+  color: rgba(156, 156, 156, .9);
 
 
 }
@@ -78,10 +74,9 @@
 /* header title - later */
 .codings-task-card-later .codings-task-card-title {
 
-
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, .8);
+  color: rgba(156, 156, 156, .9);
 
 
 }
@@ -93,7 +88,7 @@
 
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, .8);
+  color: rgba(156, 156, 156, .9);
 
 }
 

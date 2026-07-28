@@ -87,7 +87,9 @@
 
   background-color: rgb(136, 216, 136);
   color: rgb(86, 151, 86);
-  /* opacity: .8; */
+
+
+
 
 }
 
@@ -155,9 +157,10 @@
 .codings-task-card-done .codings-task-card-type-box  {
 
   background-color: rgb(136, 216, 136);
-  color: rgb(63, 139, 63);
+  color: rgb(86, 151, 86);
 
 
+  color: rgb(82, 140, 82);
 
   /* border: 1px dashed rgb(206, 206, 206); */
   /* border: 1px solid rgb(206, 206, 206); */
