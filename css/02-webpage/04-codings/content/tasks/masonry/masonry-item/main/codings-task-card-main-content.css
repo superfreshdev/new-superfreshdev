@@ -66,7 +66,7 @@
 
   color:rgb(182, 149, 64);
 
-  color: rgba(156, 156, 156, .9);
+  color: rgba(156, 156, 156, 1);
 
 
 }
@@ -76,7 +76,7 @@
 
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, .9);
+  color: rgba(156, 156, 156, 1);
 
 
 }
@@ -88,7 +88,7 @@
 
   color: rgb(156, 156, 156);
 
-  color: rgba(156, 156, 156, .9);
+  color: rgba(156, 156, 156, 1);
 
 }
 
@@ -114,7 +114,7 @@
   font-size: 12.5px;
 
   /* height: 1.8em; */
-  padding: .1em .4em .2em .4em;
+  padding: .2em .4em .3em .4em;
 
   display: flex;
   align-items: center;
@@ -131,7 +131,7 @@
   color:rgb(174, 154, 101);
 
   border: 1px dashed rgb(200, 200, 200);
-  color: rgba(156, 156, 156, 0.8);
+  color: rgba(156, 156, 156, 0.9);
 
 }
 
@@ -142,7 +142,7 @@
   color:rgb(164, 164, 164);
 
   border: 1px dashed rgb(200, 200, 200);
-  color: rgba(156, 156, 156, 0.8);
+  color: rgba(156, 156, 156, 0.9);
 
 }
 
@@ -153,7 +153,7 @@
   color:rgb(113, 173, 97);
 
   border: 1px dashed rgb(200, 200, 200);
-  color: rgba(156, 156, 156, 0.8);
+  color: rgba(156, 156, 156, 0.9);
 
 
 }

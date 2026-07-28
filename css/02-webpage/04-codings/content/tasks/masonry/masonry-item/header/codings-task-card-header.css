@@ -52,7 +52,7 @@
 
   font-weight: bold;
 
-  opacity: .9;
+  /* opacity: .9; */
 
 }
 
@@ -108,7 +108,7 @@
 
   border-radius: .5em;
 
-  opacity: .9;
+  /* opacity: .9; */
 
 }
 
@@ -130,24 +130,22 @@
 /* In Progress - tech category sticker */
 .codings-task-card-in-progress .codings-task-card-type-box  {
 
-  background-color: rgb(251, 217, 132);
+  /* background-color: rgb(251, 217, 132);
   color:rgb(152, 115, 21);
 
-  color: rgb(182, 141, 39);
+  color: rgb(182, 141, 39); */
 
-  /* border: 1px dashed rgb(206, 206, 206);
-
-  color: #8e8e8e;
-  color: #9c9c9c; */
+  border: 1px dashed rgb(206, 206, 206);
+  color: #9c9c9c;
 
 }
 
 /* Later - tech category sticker */
 .codings-task-card-later .codings-task-card-type-box  {
 
-  background-color: #e3e3e3;
+  /* background-color: #e3e3e3; */
 
-  /* border: 1px dashed rgb(206, 206, 206); */
+  border: 1px dashed rgb(206, 206, 206);
   color: rgb(143, 143, 143);
   /* color: #9c9c9c; */
 
@@ -156,16 +154,15 @@
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-type-box  {
 
-  background-color: rgb(136, 216, 136);
+  /* background-color: rgb(136, 216, 136);
   color: rgb(86, 151, 86);
 
 
-  color: rgb(82, 140, 82);
+  color: rgb(82, 140, 82); */
 
   /* border: 1px dashed rgb(206, 206, 206); */
-  /* border: 1px solid rgb(206, 206, 206); */
-  /* color: #8e8e8e;
-  color: #9c9c9c; */
+  border: 1px dashed rgb(206, 206, 206);
+  color: #9c9c9c;
 
 
 }
