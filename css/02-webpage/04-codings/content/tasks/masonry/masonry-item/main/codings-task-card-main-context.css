@@ -86,7 +86,7 @@
 
   font-weight: bold;
 
-  line-height: 1em;
+  line-height: .9em;
 
   /* background-color: rgb(192, 192, 192); */
 
@@ -123,6 +123,8 @@
 
   color:rgb(192, 145, 27);
 
+  color: rgba(182, 141, 39, .8);
+
   color: rgb(156, 156, 156);
 
 
@@ -134,13 +136,15 @@
 
   color: rgb(156, 156, 156);
 
+  color: rgb(156, 156, 156);
+
 
 }
 
 /* Category List - Done */
 .codings-task-card-done .codings-task-card-category-list {
 
-  color: rgb(75, 160, 72);
+  color:rgba(86, 151, 86, .8);
 
   color: rgb(156, 156, 156);
 

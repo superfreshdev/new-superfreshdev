@@ -18,9 +18,11 @@
   align-items: center;
   column-gap: .4em;
 
-  border-radius: .5em;
+  border-radius: .8em;
 
   font-weight: bold;
+
+  opacity: .8;
 
 
 }
@@ -81,10 +83,7 @@
 .codings-task-card-status-sticker-in-progress {
 
   background-color: rgb(251, 217, 132);
-
-  /* border: 1px solid rgb(230, 192, 96); */
-
-  color:rgb(182, 141, 39);
+  color:rgb(152, 115, 21);
 
 
   /* opacity: .8; */
@@ -98,7 +97,7 @@
 .codings-task-card-status-sticker-later {
 
   background-color: #e3e3e3;
-  color: #929292;
+  color: #787878;
 
 }
 
@@ -109,6 +108,7 @@
 .codings-task-card-status-sticker-done {
 
   background-color: rgb(136, 216, 136);
-  color: rgb(25, 141, 25);
+
+  color: rgb(59, 128, 59);
 
 }

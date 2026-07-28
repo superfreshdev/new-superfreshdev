@@ -51,7 +51,8 @@
   border-radius: .5em;
 
   font-weight: bold;
-  /* opacity: .8; */
+
+  opacity: .8;
 
 }
 
@@ -66,7 +67,7 @@
 .codings-task-card-in-progress .codings-task-card-nr-box {
 
   background-color: rgb(251, 217, 132);
-  color:rgb(180, 142, 43);
+  color:rgb(152, 115, 21);
 
   /* opacity: .8; */
 
@@ -76,7 +77,7 @@
 .codings-task-card-later .codings-task-card-nr-box {
 
   background-color: #e3e3e3;
-  color:#949494;
+   color: #787878
 
 }
 
@@ -84,7 +85,7 @@
 .codings-task-card-done .codings-task-card-nr-box {
 
   background-color: rgb(136, 216, 136);
-  color:rgb(86, 151, 86);
+  color: rgb(59, 128, 59);
   /* opacity: .8; */
 
 }
@@ -104,12 +105,14 @@
 
   border-radius: .5em;
 
+  opacity: .8;
+
 }
 
 /* Img */
 .codings-task-card-type-box > img {
 
-  opacity: .3;
+  opacity: .4;
 
 }
 
@@ -124,38 +127,37 @@
 /* In Progress - tech category sticker */
 .codings-task-card-in-progress .codings-task-card-type-box  {
 
-  /* background-color: rgb(251, 217, 132);
-  color:rgb(182, 141, 39); */
+  background-color: rgb(251, 217, 132);
+  color:rgb(152, 115, 21);
 
-  border: 1px dashed rgb(206, 206, 206);
-  /* border: 1px solid rgb(206, 206, 206); */
+  /* border: 1px dashed rgb(206, 206, 206);
+
   color: #8e8e8e;
-  color: #9c9c9c;
+  color: #9c9c9c; */
 
 }
 
 /* Later - tech category sticker */
 .codings-task-card-later .codings-task-card-type-box  {
 
-  /* background-color: #e3e3e3; */
+  background-color: #e3e3e3;
 
-  border: 1px dashed rgb(206, 206, 206);
-  /* border: 1px solid rgb(206, 206, 206); */
-   color: #8e8e8e;
-   color: #9c9c9c;
+  /* border: 1px dashed rgb(206, 206, 206); */
+  color: #787878;
+  /* color: #9c9c9c; */
 
 }
 
 /* Done - tech category sticker */
 .codings-task-card-done .codings-task-card-type-box  {
 
-  /* background-color: rgb(136, 216, 136);
-  color: rgb(63, 139, 63); */
+  background-color: rgb(136, 216, 136);
+  color: rgb(59, 128, 59);
 
-  border: 1px dashed rgb(206, 206, 206);
+  /* border: 1px dashed rgb(206, 206, 206); */
   /* border: 1px solid rgb(206, 206, 206); */
-  color: #8e8e8e;
-  color: #9c9c9c;
+  /* color: #8e8e8e;
+  color: #9c9c9c; */
 
 
 }
