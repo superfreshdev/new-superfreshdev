@@ -1,0 +1,184 @@
+{
+
+  "defaults": {
+
+    "paths": {
+
+      "iconBlack": "media/imgs/icons/02-icon-colors/01-black/"
+
+    }
+
+  },
+
+  "taskCard": {
+
+    "status": {
+
+      "inProgress": {
+
+        "cssClass": "codings-task-card-in-progress"
+
+      },
+
+      "later": {
+
+        "cssClass": "codings-task-card-later"
+
+      },
+
+      "done": {
+
+        "cssClass": "codings-task-card-done"
+
+      }
+
+    },
+
+    "header": {
+
+      "cssClass": "codings-task-card-header",
+
+      "leftBlock": {
+
+        "nrBox": {
+          "cssClass": "codings-task-card-nr-box"
+        },
+
+        "typeBox": {
+
+          "cssClass": "codings-task-card-type-box",
+
+          "types": {
+
+            "coding": {
+              "iconFilename": "black-open-close-brackets.png",
+              "iconCssClass": "img-h-0-8"
+
+            },
+            "addon": {
+              "iconFilename": "black-puzzle-2.png",
+              "iconCssClass": "img-h-0-7"
+            },
+            "debugging": {
+              "iconFilename": "black-bug.png",
+              "iconCssClass": "img-h-0-8"
+            },
+            "migrate": {
+              "iconFilename": "black-2-arrow-circle.png",
+              "iconCssClass": "img-h-0-8"
+            }
+
+
+          }
+
+        }
+
+
+
+      },
+
+      "rightBlock": {
+
+        "inProgress": {
+
+          "cssClass": "codings-task-card-status-sticker-in-progress",
+          "iconFilename": "black-fire-1.png",
+          "iconCssClass": "img-h-0-8",
+          "title": "in progress"
+
+        },
+
+        "later": {
+
+          "cssClass": "codings-task-card-status-sticker-later",
+          "iconFilename": "black-stop-hand.png",
+          "iconCssClass": "img-h-0-75",
+          "title": "later"
+
+        },
+
+        "done": {
+
+          "cssClass": "codings-task-card-status-sticker-done",
+          "iconFilename": "black-small-correct.png",
+          "iconCssClass": "img-h-0-6",
+          "title": "done"
+
+        }
+
+      }
+
+    },
+
+    "main": {
+
+      "cssClass": "codings-task-card-main",
+
+      "contextListContainer": {
+
+        "cssClass": "codings-task-card-context-list-container",
+
+        "contextList": {
+
+          "cssClass":"codings-task-card-context-list",
+          "iconSeperatorFilename": "black-bullet.png"
+
+        },
+
+        "timeBox": {
+          "cssClass": "codings-task-card-time-box"
+        }
+
+
+      },
+
+      "content": {
+
+        "cssClass": "codings-task-card-content",
+
+        "title": {
+
+          "cssClass": "codings-task-card-title",
+          "indicatorCssClass": "codings-task-card-title-indicator"
+
+        },
+
+        "hashtagList": {
+          "cssClass": "codings-task-card-hashtag-list"
+        }
+
+      }
+
+
+    },
+
+    "footer": {
+
+      "cssClass": "codings-task-card-footer",
+
+      "links": {
+
+        "github": {
+          "iconFilename": "black-github.png",
+          "iconCssClass": "img-h-0-8",
+          "title": "GitHub"
+        },
+
+        "showme": {
+          "iconFilename": "black-eye.png",
+          "iconCssClass": "img-h-0-6",
+          "title": "Show Me"
+        },
+
+        "play": {
+          "iconFilename": "black-gaming-controller.png",
+          "iconCssClass": "img-h-0-6",
+          "title": "Play"
+        }
+      }
+
+    }
+
+  }
+
+}

@@ -4914,6 +4914,9 @@
                       <!-- ------------------------------------------------------------------ -->
                       <div id="codings-masonry-container">
 
+                        <!-- ⚠️ -->
+                        <br>
+
                         <!-- 1 | Task Item - In Progress -->
                         <div class="codings-task-card-in-progress">
 
@@ -4930,15 +4933,6 @@
                                 <div>01</div>
                               </div>
 
-                              <!-- 🟥 task category box ( tech - business ) -->
-                              <div class="codings-task-card-category-box" title="Business Context | Technical Context" style="display: none;">
-                                <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-business.png"
-                                     alt="img" class="img-h-0-8"> -->
-
-                                <!-- black-settings.png || black-build-tool.png | black-tool.png |  black-bit-byte-monster.png || black-binary-small.png || black-hammer.png -->
-                                <img src="media/imgs/icons/02-icon-colors/01-black/black-tool.png"
-                                     alt="img" class="img-h-0-9">
-                              </div>
 
                               <!-- task type ( e.g debugging, codings, ... ) -->
                               <!-- 🟥 task type box - codings-task-card-type-box  -->
@@ -4974,8 +4968,8 @@
                             <div class="codings-task-card-context-list-container">
 
 
-                              <!-- Context List -->
-                              <div class="codings-task-card-category-list">
+                              <!-- ⚠️ Context List -->
+                              <div class="codings-task-card-context-list">
 
                                 <div>
                                   Bank
@@ -5027,17 +5021,13 @@
                               <!-- title -->
                               <div class="codings-task-card-title">
 
-                                <!-- Problem -->
-                                <!-- <div>
-                                <b>Problem:</b> Here come the Problem description and so on - these is a
-                                short descriptin
-                                </div> -->
-
                                 <!-- Goal -->
-                                <b>Goal: </b>Develop a collection benchmark that compares ArrayList, LinkedList and HashMap in
+                                <span class="codings-task-card-title-indicator">
+                                  Goal:
+                                </span>
+                                Develop a collection benchmark that compares ArrayList, LinkedList and HashMap in
                                 realistic scenarios. Demonstrate when each data structure should be preferred.
                                 Here comes the sun and just remember not more thant 4 sentences.<br>
-                                » More Details on GitHub.
 
                               </div>
 
@@ -5169,7 +5159,7 @@
                             <div class="codings-task-card-context-list-container">
 
                               <!-- Context List -->
-                              <div class="codings-task-card-category-list">
+                              <div class="codings-task-card-context-list">
 
                                 <div>
                                   Bank
@@ -5346,7 +5336,7 @@
                             <div class="codings-task-card-context-list-container">
 
                               <!-- Context List -->
-                              <div class="codings-task-card-category-list">
+                              <div class="codings-task-card-context-list">
 
                                 <div>
                                   Insurance
@@ -5481,7 +5471,7 @@
                             <div class="codings-task-card-context-list-container">
 
                               <!-- Context List -->
-                              <div class="codings-task-card-category-list">
+                              <div class="codings-task-card-context-list">
 
                                 <div>
                                   Insurance
@@ -5640,7 +5630,7 @@
                             <div class="codings-task-card-context-list-container">
 
                               <!-- Context List -->
-                              <div class="codings-task-card-category-list">
+                              <div class="codings-task-card-context-list">
 
                                 <div>
                                   Bank
@@ -5817,7 +5807,7 @@
                             <div class="codings-task-card-context-list-container">
 
                               <!-- Context List -->
-                              <div class="codings-task-card-category-list">
+                              <div class="codings-task-card-context-list">
 
                                 <div>
                                   Insurance
@@ -6669,32 +6659,55 @@
             <script src="js/02-webpage/03-codings/tasks/nav-tasks/tech-nav-tasks-handler.js"></script>
 
             <!-- ---------------------------------------- -->
-            <!-- Create - Task Header -->
+            <!-- 🟥 Create - Task Header -->
             <!-- ---------------------------------------- -->
 
-              <!-- Create Labels  -->
+              <!-- 🟥 Create Labels  -->
               <script src="js/02-webpage/03-codings/tasks/create-task-header/nav/label/help-functions-label.js"></script>
               <script src="js/02-webpage/03-codings/tasks/create-task-header/nav/label/create-labels.js"></script>
               <script src="js/02-webpage/03-codings/tasks/create-task-header/nav/label/rebuild-nav-labels.js"></script>
 
-              <!-- Nav -->
+              <!-- 🟥 Nav -->
               <script src="js/02-webpage/03-codings/tasks/create-task-header/nav/rebuild-nav.js"></script>
 
-              <!-- Update -->
+              <!-- 🟥 Update -->
               <script src="js/02-webpage/03-codings/tasks/create-task-header/update-codings-task-header.js"></script>
 
 
             <!-- ---------------------------------------- -->
-            <!-- Create - Tasks to Masonry -->
+            <!-- ➡️🟥 Create - Tasks to Masonry -->
             <!-- ---------------------------------------- -->
 
-              <!-- Helpful Functions -->
-              <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/help-functions/create-codings-task-category-info.js"></script>
-              <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/help-functions/create-codings-task-card.js"></script>
-              <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/help-functions/creating-process-codings-task-card.js"></script>
+              <!-- ---------------------------------------------------- -->
+              <!-- ❇️ New -->
+              <!-- ---------------------------------------------------- -->
 
-              <!-- Init - Codings Tasks View -->
-              <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/initCodingsTasksView.js"></script>
+                <!-- ------------------------------------------- -->
+                <!-- ➡️🟥 Update - Coding Category Info -->
+                <!-- ------------------------------------------- -->
+                <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/update-coding-category-info/update-coding-category-info.js"></script>
+
+
+                <!-- ------------------------------------------- -->
+                <!-- 🟥 Create - Coding Task Card -->
+                <!-- ------------------------------------------- -->
+
+                  <!-- 🟥 help functions  -->
+                  <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/create-coding-task-card/help-functions/get-styles-coding-task-card.js"></script>
+                  <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/create-coding-task-card/help-functions/help-functions-create-coding-task-card.js"></script>
+
+                  <!-- 🟥 Create - Coding Task Card -->
+                  <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/create-coding-task-card/create-coding-task-card.js"></script>
+                  <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/create-coding-task-card/creating-process-codings-task-card.js"></script>
+                  <script src="js/02-webpage/03-codings/tasks/create-tasks-to-masonry/create-coding-task-card/initCodingTasksInMasonry.js"></script>
+
+
+
+
+
+
+
+
 
 
           <!-- -------------------------------------------------------------- -->

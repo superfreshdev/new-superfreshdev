@@ -61,6 +61,16 @@
 
 }
 
+/* Title Task Indicator | Goal: || Problem: || ... */
+.codings-task-card-title-indicator {
+
+  font-weight: bold;
+  color:rgba(91, 91, 91, .6);
+  text-decoration: underline;
+  /* font-size: 14.5px; */
+
+}
+
 /* header title - in progress */
 .codings-task-card-in-progress .codings-task-card-title {
 

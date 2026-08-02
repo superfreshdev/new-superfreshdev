@@ -306,6 +306,7 @@
 
   }
 
+  // 🟩 - Create Div with CSS Class & Attribute + IMG
   async function createDivText( text ) {
 
   // Create Radio Element
@@ -321,9 +322,45 @@
   }
 
 /* ---------------------------------------------------------------- */
-/* 🟥 Async Function
+/* 🟩 Async Function
 /* > Create Div with SpanText
 /* ---------------------------------------------------------------- */
+
+  // 🟩 - Create Span With CSS Class + Text
+  async function createSpanCssClassText( cssClass, text ) {
+
+  // Create Element
+  var newSpan = document.createElement("span");
+
+  // Add CSS Class
+  newSpan.setAttribute( "class", cssClass );
+
+  // Add Text to Div
+  newSpan.innerText = text;
+
+  return new Promise(resolve => {
+    resolve( newSpan );
+  })
+
+  }
+
+/* ---------------------------------------------------------------- */
+/* 🟩 Async Function
+/* > Create Text Node
+/* ---------------------------------------------------------------- */
+
+  // 🟩 - Create Text Node Text
+  async function createTextNode( text ) {
+
+  // Create Element
+  var newTextNode = document.createTextNode( text )
+
+  return new Promise(resolve => {
+    resolve( newTextNode );
+  })
+
+  }
+
 
 /* ---------------------------------------------------------------- */
 /* 🟩 Async Function
@@ -459,8 +496,7 @@
 
  }
 
-
- // 🟩 - Create - Link Img Div Text
+ // 🟩 - Create - Link with Img and Div Text
  async function createLinkImgDivText( href, imgSrc, imgCssClass, divText ) {
 
   // Create Link Element

@@ -72,10 +72,10 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Category List
+/* Context List
 /* ---------------------------------------------------------------- */
 
-.codings-task-card-category-list {
+.codings-task-card-context-list {
 
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@
 }
 
 /* Div */
-.codings-task-card-category-list > div  {
+.codings-task-card-context-list > div  {
 
   font-size: 13.5px;
 
@@ -107,7 +107,7 @@
 
 
 /* Img | Bullet Points */
-.codings-task-card-category-list > img {
+.codings-task-card-context-list > img {
 
   /* layout pos fix */
   margin-top: 1px;
@@ -119,7 +119,7 @@
 
 
 /* Category List - In Progress */
-.codings-task-card-in-progress .codings-task-card-category-list {
+.codings-task-card-in-progress .codings-task-card-context-list {
 
   color:rgba(192, 145, 27, 1);
 
@@ -134,7 +134,7 @@
 }
 
 /* Category List - Later */
-.codings-task-card-later .codings-task-card-category-list  {
+.codings-task-card-later .codings-task-card-context-list  {
 
   color: rgb(156, 156, 156);
 
@@ -145,13 +145,11 @@
 }
 
 /* Category List - Done */
-.codings-task-card-done .codings-task-card-category-list {
+.codings-task-card-done .codings-task-card-context-list {
 
   color:rgba(86, 151, 86, .8);
 
   /* color: #9a9a9a; */
-
-
 
   /* color: rgb(156, 156, 156); */
 

@@ -46,17 +46,16 @@
 
 
       /* ----------------------------------------------------------- */
-      /* 🟨 Step 1/3
-      /* > Get Task Configs to Create Task Cards from Category X
+      /* ➡️🟨 Step 1/3
+      /* > Update - Config Data - Coding Task Content
       /* ----------------------------------------------------------- */
 
+        // Dyn. Update Config Data for Codings Task Content
+        var configCodingTaskContent = {
 
-        // Dyn. Codings Task Config
-        var codingsTaskConfig = {
-
-          "categoryIndex": 0,
-          "pathTaskCardStyle": "data/json/codings/tasks/config-styles/config-task-card-style.json",
-          "pathContentTasks": "data/json/codings/tasks/tech/codings-tech-content-java.json",
+          "pathStyleTaskCard": "data/json/codings/tasks/config-styles/style-coding-task-card.json",
+          "pathTaskContent": "data/json/codings/tasks/tech/codings-task-content-java.json",
+          "categoryTaskName": "basics",
 
         }
 
@@ -64,41 +63,63 @@
         /* ↗️ Update Process
         /* ---------------------------------------------- */
 
-        // 🟥 updateTaskConfig()
-        // 🟥 updateTaskCategoryInfo()
+          // 🟥 updateTaskConfig()
+          // 🟥 updateTaskCategoryInfo()
 
-        // codingsTaskConfig.categoryIndex = 0;
-        // codingsTaskConfig.pathContentTasks = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
+          configCodingTaskContent.categoryTaskName = "basics";
+          // configCodingTaskContent.pathTaskContent = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
 
-      /* ----------------------------------------------------------- */
-      /* 🟨 Step 2/3
-      /* > Get Context Resp Masonry Codings ( Resp Msn Layout )
-      /* ----------------------------------------------------------- */
+          /*
 
-        // Final Context Masonry Layout
-        // define "addPoint"
-        var ctxMasonryTasksLayout = {
+              to-do's
 
-          container: document.getElementById("codings-masonry-container"),
-          itemSelector: "#codings-masonry-container > div",
-          gap: 16,
+              1. json - content pflege
+              2. Methode - info content update
+              3. radio change listener richtiger category übergeben - conig json wo alles definiert ist
 
-          breakpoints: [
-            { minWidth: 0, columns: 1 }, // < 768px -> 1 col
-            { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
-            { minWidth: 1200, columns: 3 }, // >= 1200px -> 3 col
+              1. header neu task updaten + nav counters
+              2. tech nav counters
+              3. tech - algos - challenges fertigstellen + beispiel aufgaben
 
-          ]
+              offen:
+              - kits, docs
 
-        }
 
-      /* ----------------------------------------------------------- */
-      /* 🟨 Step 3/3
-      /* > Create Taks Cards from Category X
-      /* > and Create resp Masonry Codings
-      /* ----------------------------------------------------------- */
 
-        await initCodingsTasksView( codingsTaskConfig, ctxMasonryTasksLayout );
+          */
+
+
+        /* ----------------------------------------------------------- */
+        /* 🟩 Step 2/3
+        /* > Create - Context Coding Masonry
+        /* > ( to create coding task cards in it )
+        /* > it defines resp masonry container layout
+        /* > & dom add point
+        /* > important: it must be defined only here to be flexible
+        /* ----------------------------------------------------------- */
+
+          // Defintion Context - Resp Codings Masonry Container ( max 3 cols )
+          var ctxMasonryTasksLayout = {
+
+            container: document.getElementById("codings-masonry-container"),
+            itemSelector: "#codings-masonry-container > div",
+            gap: 16,
+
+            breakpoints: [
+              { minWidth: 0, columns: 1 }, // < 768px -> 1 col
+              { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
+              { minWidth: 1200, columns: 3 }, // >= 1200px -> 3 col
+
+            ]
+
+          }
+
+        /* ----------------------------------------------------------- */
+        /* 🟩 Step 3/3
+        /* > Initialiaze - Coding Tasks in Masonry
+        /* ----------------------------------------------------------- */
+
+          await initCodingTasksInMasonry( configCodingTaskContent, ctxMasonryTasksLayout );
 
 
       return new Promise(resolve => {
