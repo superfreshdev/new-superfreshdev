@@ -24,6 +24,7 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"],
 #radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"],
 #radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"],
+#radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"],
 #radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] {
 
   background-color: rgb(215, 195, 157);
@@ -35,6 +36,7 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"] > img:nth-of-type(1),
 #radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"] > img:nth-of-type(1),
 #radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"]  > img:nth-of-type(1),
+#radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"] > img:nth-of-type(1),
 #radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"] > img:nth-of-type(1),
 #radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] > img:nth-of-type(1) {
 
@@ -46,6 +48,7 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"] > img:nth-of-type(2),
 #radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"]  img:nth-of-type(2),
 #radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"]  > img:nth-of-type(2),
+#radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"] > img:nth-of-type(2),
 #radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"] > img:nth-of-type(2),
 #radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] > img:nth-of-type(2) {
 
@@ -71,6 +74,7 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-nav-tech:checked ~ #row-container-codings-content,
 #radio-codings-nav-algos:checked ~ #row-container-codings-content,
 #radio-codings-nav-challenges:checked ~ #row-container-codings-content,
+#radio-codings-nav-docs:checked ~ #row-container-codings-content,
 #radio-codings-nav-docs:checked ~ #row-container-codings-content {
 
   display: grid;

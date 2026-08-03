@@ -6,19 +6,85 @@
 /* 🏠 DOM Elements
 /* -------------------------------------------------------------------- */
 
-  // Update - Header Element
-  var codingsTaksHeader = document.getElementById("codings-task-header");
+  /* ---------------------------------- */
+  /* Header Task Category
+  /* ---------------------------------- */
 
-  // All Tech Radios
-  var techCodingsRadios = document.querySelectorAll("input[name='name-radio-codings-nav-tech']")
-  // console.log("techCodingsRadios(length) = " + techCodingsRadios.length )
+    // Update - Header Element
+    var codingsTaksHeader = document.getElementById("codings-task-header");
 
-  // addPoint ⚠️ | add Point muss in der Hauptfunktion
-  var codingsMasonryContainer = document.getElementById("codings-masonry-container");
+    // All Tech Radios
+    var techCodingsRadios = document.querySelectorAll("input[name='name-radio-codings-nav-tech']")
+    // console.log("techCodingsRadios(length) = " + techCodingsRadios.length )
+
+  /* ---------------------------------- */
+  /* Content Task Category
+  /* ---------------------------------- */
+
+    // Add Point - Coding Masonry Container
+    var codingsMasonryContainer = document.getElementById("codings-masonry-container");
+
+    // Update Category Task Info Element
+    var categoryTaskInfoElement = document.querySelector("#codings-masonry-task-infos > div");
+
 
 /* -------------------------------------------------------------------- */
 /* 👾 Variables
 /* -------------------------------------------------------------------- */
+
+  // Dyn. Update Config Data for Codings Task Content
+  var configCodingTaskContent = {
+
+    "pathStyleTaskCard": "data/json/codings/tasks/config-styles/style-coding-task-card.json",
+    "pathTaskContent": "data/json/codings/tasks/tech/codings-task-content-java.json",
+    "categoryTaskName": "basics",
+
+  }
+
+  // Data - Resp Coding Masonry
+  // Dom Add Point
+  // Important: it must be defined only here to be flexible
+  // Defintion Context - Resp Codings Masonry Container ( max 3 cols )
+  var ctxMasonryTasksLayout = {
+
+    container: document.getElementById("codings-masonry-container"),
+    itemSelector: "#codings-masonry-container > div",
+    gap: 16,
+
+    breakpoints: [
+      { minWidth: 0, columns: 1 }, // < 768px -> 1 col
+      { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
+      { minWidth: 1200, columns: 3 }, // >= 1200px -> 3 col
+
+    ]
+
+  }
+
+/* -------------------------------------------------------------------- */
+/* 🔩⛑️ Help Functions
+/* -------------------------------------------------------------------- */
+
+  // 🟩 Update Config - Coding Task Content
+  async function updateConfigCodingTaskContent( pathStyleTaskCard, pathTaskContent, categoryTaskName, updateConfig )
+  {
+
+    console.log("updateCodingTaskConfig()")
+    // console.log("🔺 pathStyleConfig: " + pathStyleConfig )
+    // console.log("🔺 pathTaskContent: " + pathTaskContent )
+    // console.log("🔺 categoryName: " + categoryName )
+    // console.log("🔺 updateConfig: " + updateConfig )
+
+    // Update Process
+    updateConfig.pathStyleTaskCard = pathStyleTaskCard;
+    updateConfig.pathTaskContent = pathTaskContent;
+    updateConfig.categoryTaskName = categoryTaskName;
+
+
+    return new Promise(resolve => {
+      resolve( );
+    })
+
+  }
 
 /* -------------------------------------------------------------------- */
 /* 🔩 Functions
@@ -28,6 +94,30 @@
 /* 🎉 Events
 /* -------------------------------------------------------------------- */
 
+  /*
+
+
+
+      ------------------------------------------------------------------------------
+
+      To DO !!!
+      🟥 1. Reload:
+          - Codings checked ?
+            - Tech checked | Docs Checked ? if yes, update counters e.g tech - java (max-tasks), spring boot
+
+
+      🟥 1. Reload:
+          1.1 - Create - Codings Task Header
+          1.2 - Create Process ( Info + Codings Masonry with Cards )
+
+          - First Radios: Tech, Algos, Challenges -> checked ? yes, then
+            - Which Sub Radios is Checked ? - Java, Spring Boot ? get correct configStyleTaskCard + dataJson
+              - Look is unshown radio checked, if yes ? dont create, if is checked, than look which radio of it
+
+
+      🟥 Change Listener - Codings Task Header Radios, e.g Java - Basics, Advanced ... from json and check if is not unshown
+
+  */
 
   /* ---------------------------------------------------------------------- */
   /* ➡️🟥 Step 1/2:
@@ -50,76 +140,67 @@
       /* > Update - Config Data - Coding Task Content
       /* ----------------------------------------------------------- */
 
-        // Dyn. Update Config Data for Codings Task Content
-        var configCodingTaskContent = {
-
-          "pathStyleTaskCard": "data/json/codings/tasks/config-styles/style-coding-task-card.json",
-          "pathTaskContent": "data/json/codings/tasks/tech/codings-task-content-java.json",
-          "categoryTaskName": "basics",
-
-        }
-
         /* ---------------------------------------------- */
-        /* ↗️ Update Process
+        /* ↗️ Manually - Update Process
         /* ---------------------------------------------- */
 
-          // 🟥 updateTaskConfig()
-          // 🟥 updateTaskCategoryInfo()
+          // default
+          var defineJsonFileStyleTaskCard = "data/json/codings/tasks/config-styles/style-coding-task-card.json";
+          var updateJsonFileTaskContent = "";
+          var updateCategoryTaskName = "";
 
-          configCodingTaskContent.categoryTaskName = "basics";
-          // configCodingTaskContent.pathTaskContent = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
+          /* ---------------------------------------------------- */
+          /* 🟩 Set - New Content Category Tasks
+          /* ---------------------------------------------------- */
 
-          /*
+            //➡️ Update - Content Tasks - Java
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-java.json";
+            updateCategoryTaskName = "basics";
 
-              to-do's
+            //➡️ Update - Content Tasks - Spring Boot
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-spring-boot.json";
+            updateCategoryTaskName = "basics";
 
-              1. json - content pflege
-              2. Methode - info content update
-              3. radio change listener richtiger category übergeben - conig json wo alles definiert ist
+            //➡️ Update - Content Tasks - Observability
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-observability.json";
+            updateCategoryTaskName = "mixery";
 
-              1. header neu task updaten + nav counters
-              2. tech nav counters
-              3. tech - algos - challenges fertigstellen + beispiel aufgaben
+            //➡️ Update - Content Tasks - Cloud
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-cloud.json";
+            updateCategoryTaskName = "basics";
 
-              offen:
-              - kits, docs
+            //➡️ Update - Content Tasks - AI ( Python, )
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-ai.json";
+            updateCategoryTaskName = "python";
+
+            //➡️ Update - Content Tasks - Angular
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-angular.json";
+            updateCategoryTaskName = "basics";
+
+            //➡️ Update - Content Tasks - React Native
+            updateJsonFileTaskContent = "data/json/codings/tasks/tech/codings-task-content-react-native.json";
+            updateCategoryTaskName = "basics";
 
 
+          /* ---------------------------------------------------- */
+          /* 🟩 Update - Category Task Info
+          /* ---------------------------------------------------- */
 
-          */
+            // await updateContentTaskCategoryInfo( updateCategoryTaskName, updateJsonFileTaskContent, categoryTaskInfoElement );
 
+          /* ---------------------------------------------------- */
+          /* Update - Category Tasks
+          /* ---------------------------------------------------- */
 
-        /* ----------------------------------------------------------- */
-        /* 🟩 Step 2/3
-        /* > Create - Context Coding Masonry
-        /* > ( to create coding task cards in it )
-        /* > it defines resp masonry container layout
-        /* > & dom add point
-        /* > important: it must be defined only here to be flexible
-        /* ----------------------------------------------------------- */
+            // await updateConfigCodingTaskContent( defineJsonFileStyleTaskCard, updateJsonFileTaskContent, updateCategoryTaskName, configCodingTaskContent )
 
-          // Defintion Context - Resp Codings Masonry Container ( max 3 cols )
-          var ctxMasonryTasksLayout = {
-
-            container: document.getElementById("codings-masonry-container"),
-            itemSelector: "#codings-masonry-container > div",
-            gap: 16,
-
-            breakpoints: [
-              { minWidth: 0, columns: 1 }, // < 768px -> 1 col
-              { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
-              { minWidth: 1200, columns: 3 }, // >= 1200px -> 3 col
-
-            ]
-
-          }
 
         /* ----------------------------------------------------------- */
         /* 🟩 Step 3/3
         /* > Initialiaze - Coding Tasks in Masonry
         /* ----------------------------------------------------------- */
 
-          await initCodingTasksInMasonry( configCodingTaskContent, ctxMasonryTasksLayout );
+          // await initCodingTasksInMasonry( configCodingTaskContent, ctxMasonryTasksLayout );
 
 
       return new Promise(resolve => {
@@ -135,7 +216,6 @@
   /* ------------------------------------------------------------------------------- */
 
     for( let i=0; i < techCodingsRadios.length; i++ ) {
-
 
       // Add Radios Change Listeners
       techCodingsRadios[i].addEventListener( "change", async() => {

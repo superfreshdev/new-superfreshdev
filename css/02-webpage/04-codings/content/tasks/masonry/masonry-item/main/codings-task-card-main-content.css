@@ -51,7 +51,7 @@
 
   padding: 0 .3em;
 
-  font-size: 14.5px;
+  font-size: 13.5px;
   line-height: 1.7em;
 
   /* font-weight: bold; */
@@ -80,7 +80,9 @@
 
   color: #b9b9b9;
 
-  color:rgb(121, 121, 121);
+  color:#797979;
+
+
 
 
 }
@@ -96,7 +98,9 @@
 
   color: #b9b9b9;
 
-  color:rgb(121, 121, 121);
+  color:#797979;
+
+   color:#bdbbbb;
 
 
 }
@@ -107,8 +111,6 @@
   /* color:rgba(59, 114, 43, 0.6); */
 
   /* color: rgb(156, 156, 156);
-
-
    */
 
    color: rgba(156, 156, 156, .8);
