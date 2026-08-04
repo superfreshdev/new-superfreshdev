@@ -25,6 +25,7 @@
   background-color: rgb(28, 28, 28);
 
   border-top: 1px solid rgb(44, 44, 44);
+
   border-bottom: 1px solid rgb(44, 44, 44);
 
 }
@@ -37,6 +38,10 @@
 #row-container-codings-navs > .row-container:nth-of-type(2) {
 
   background-color: rgb(28, 28, 28);
+
+  /* background-color: rgb(45, 45, 45); */
+
+  /* background-color: white; */
 
 }
 

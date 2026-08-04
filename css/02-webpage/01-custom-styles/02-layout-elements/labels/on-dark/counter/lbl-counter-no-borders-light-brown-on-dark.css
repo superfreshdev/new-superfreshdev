@@ -9,7 +9,8 @@
 
 .lbl-counter-no-border-light-brown-on-dark {
 
-  padding: 0 .4em;
+  height: 1.6em;
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
@@ -25,7 +26,9 @@
   /* color - body header nav */
   color: #6e6e6e;
 
-  color: #5c5c5c;
+  color: #525151;
+
+  border-radius: .4em;
 
 
 
@@ -80,6 +83,9 @@
   /* body header company color */
   color: rgb(179, 161, 131);
 
+
+
+
   /* border-bottom: 2px solid rgb(215, 195, 157); */
 
 }
@@ -104,16 +110,14 @@
 
 .lbl-counter-no-border-light-brown-on-dark > div:nth-of-type(2) {
 
-  /* height: 1.3em; */
-  padding: .1em .3em;
+  /* height: 1em; */
+  padding: 0px .2em;
 
-  /* background-color: rgb(42, 42, 42); */
 
-  border: 1px solid #5c5c5c;
+  border: 1px solid rgb(82, 82, 82);
 
-  border: 1px dashed #464646;
 
-  border-radius: .3em;
+  border-radius: .2em;
 
   display: flex;
   align-items: center;
@@ -131,6 +135,7 @@
   color: #6e6e6e;
 
   color: #5c5c5c;
+
 
 }
 
