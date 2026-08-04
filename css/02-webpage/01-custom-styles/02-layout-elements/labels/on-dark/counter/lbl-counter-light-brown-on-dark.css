@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: .4em;
+  column-gap: .3em;
 
   font-weight: bold;
 
@@ -31,7 +31,7 @@
 
   display: flex;
   align-items: center;
-  column-gap: .6em;
+  column-gap: .4em;
 
 }
 
@@ -70,8 +70,9 @@
 
 .lbl-counter-light-brown-on-dark:hover {
 
-  background-color: rgb(215, 195, 157);
+  background-color: rgb(210, 195, 164);
   color:rgb(36, 36, 36);
+
 
 }
 
@@ -103,9 +104,9 @@
   align-items: center;
   justify-content: center;
 
-  color:#7d7d7d;
+  color:#585858;
 
-  color:rgb(137, 123, 99);
+  /* color: rgb(45, 42, 37); */
 
 }
 

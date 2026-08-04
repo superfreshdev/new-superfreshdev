@@ -2,6 +2,7 @@
 /* > lbl-icon-text-light-brown-on-dark.css
 /* --------------------------------------------------------------- */
 
+
 /* --------------------------------------------------------------- */
 /* Label | Icon + Text | Light Brown
 /* --------------------------------------------------------------- */
@@ -18,6 +19,9 @@
 
   color:rgb(110, 110, 110);
 
+  /* color - body header nav */
+  color: #6e6e6e;
+
 }
 
 /* div 1 */
@@ -30,7 +34,7 @@
 /* img grey */
 .lbl-icon-text-light-brown-on-dark > img:nth-of-type(1) {
 
-  /* opacity: .6; */
+  opacity: .6;
 
 }
 
@@ -51,9 +55,7 @@
 
 .lbl-icon-text-light-brown-on-dark:hover {
 
-  background-color: rgb(230, 230, 230);
-
-  background-color: rgb(215, 195, 157);
+  background-color: rgb(210, 195, 164);
   color:rgb(36, 36, 36);
 
 }
