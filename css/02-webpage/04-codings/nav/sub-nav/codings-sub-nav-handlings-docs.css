@@ -27,7 +27,10 @@ input[name="name-radio-codings-nav-docs"] {
   /* background-color: rgb(210, 195, 164);
   color:rgb(36, 36, 36); */
 
-   color: rgb(179, 161, 131);
+   /* color: rgb(179, 161, 131); */
+
+   background-color: rgb(210, 195, 164);
+
 
 }
 
@@ -62,6 +65,8 @@ input[name="name-radio-codings-nav-docs"] {
   color: rgb(122, 121, 121);
 
   color: rgb(179, 161, 131);
+
+   color:rgb(36, 36, 36);
 
 }
 
