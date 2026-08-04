@@ -89,7 +89,7 @@ console.log("🟨 codings-nav-handler.js")
         console.log("🔥 Max Category Tasks: " + maxCategoryTasks )
 
         // Update Max Category Tasks each Coding Nav Element
-        techNavMaxCounters[i].innerText = maxCategoryTasks;
+        techNavMaxCounters[i].innerText = "x"+maxCategoryTasks;
 
       }
 

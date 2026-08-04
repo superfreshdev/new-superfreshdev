@@ -110,17 +110,16 @@
 
 .lbl-counter-no-border-light-brown-on-dark > div:nth-of-type(2) {
 
-  height: 1.1em;
-  padding: 0em .2em;
+  height: 1.3em;
+  padding: 0em .3em;
 
   /* width: 1.3em; */
 
-
   border: 1px dashed rgb(69, 69, 69);
 
-  background-color: rgb(47, 47, 47);
+  /* background-color: rgb(47, 47, 47); */
 
-  border-radius: .2em;
+  border-radius: .3em;
 
   display: flex;
   align-items: center;
