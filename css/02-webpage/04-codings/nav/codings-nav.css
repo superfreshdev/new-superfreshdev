@@ -2,6 +2,20 @@
 /* > codings-nav.css
 /* ---------------------------------------------------------------- */
 
+/*
+
+  🟥 Body Header Nav -
+
+
+  🟥
+  1. Codings Nav -
+  2. Codings Sub Nav
+      - Codings Tech Nav
+      - Codings Kits Nav
+      - Codings Docs Nav
+
+
+*/
 
 /* ----------------------------------------------------------------- */
 /* Row Container - Codings Navs
@@ -45,7 +59,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+
+  justify-content: flex-end;
+
+  /* justify-content: center; */
 
   column-gap: .6em;
   row-gap: .6em;

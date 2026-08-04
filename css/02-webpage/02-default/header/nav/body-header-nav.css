@@ -22,23 +22,20 @@
 
 .body-header-label {
 
-  height: 2.6em;
-  padding: 0em .8em;
+  height: 2.3em;
+  padding: 0em .6em;
 
   display: flex;
   align-items: center;
-
   column-gap: .6em;
-
-  border-radius: .5em;
 
   font-weight: bold;
 
+  border-radius: .5em;
+
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
-  /* border: 2px solid rgb(47, 47, 47); */
-
-  color:rgb(72, 72, 72);
+  color: #6e6e6e;
 
   cursor: pointer;
   user-select: none;
@@ -50,6 +47,7 @@
 .body-header-label:hover {
 
   background-color: wheat;
+
 }
 
 /* Div 1 | Title */

@@ -1,0 +1,259 @@
+{
+
+  "taskHeader": {
+
+    "infos": {
+
+      "title": "Challenges ⛈️",
+      "timeLimit": "30-120 Min 🌳",
+      "imgFilename": "coding-challenges.png"
+
+    },
+
+    "nav": {
+
+      "radios": {
+
+        "miniGames": {
+          "id": "radio-codings-task-header-challenges-mini-games",
+          "name": "name-radio-codings-task-header-nav-tech-algos-challenges",
+          "checked": "false"
+        },
+
+        "twoAndHalf": {
+          "id": "radio-codings-task-header-challenges-two-and-half",
+          "name": "name-radio-codings-task-header-nav-tech-algos-challenges",
+          "checked": "false"
+        },
+
+        "fourAndHalf": {
+          "id": "radio-codings-task-header-challenges-four-and-half",
+          "name": "name-radio-codings-task-header-nav-tech-algos-challenges",
+          "checked": "false"
+        }
+
+      },
+
+      "labelTitles":  [ "Mini Games", "2,5h", "4,5h"]
+
+    }
+
+  },
+
+  "taskCategories": {
+
+    "miniGames": {
+
+      "info": "🍌 » Challenges - Mini Games ",
+
+      "taskCards": [
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Python", "Python"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        },
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Python", "Python"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        },
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Python", "Python"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        }
+
+      ]
+
+    },
+
+    "twoAndHalf": {
+
+      "info": "🍌 »  Challenges - 2,5h ",
+
+      "taskCards": [
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Cloud-Basics", "Cloud--Basics"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        },
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Cloud-Basics", "Cloud--Basics"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        },
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Cloud-Basics", "Cloud--Basics"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        }
+
+      ]
+
+    },
+
+    "fourAndHalf": {
+
+      "info": "🦍 »  Challenges - 4,5h ",
+
+      "taskCards": [
+
+        {
+          "status": "later",
+          "category":"Coding",
+          "contextTypes": ["Cloud-Advanced", "Cloud-Advanced"],
+          "timeLimit": "60 Min.",
+          "taskIndicator": "Goal: || Problem || Fix || ... ||",
+          "taskText": [
+
+            "1. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "2. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "3. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences könnte länger gehen.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences.",
+            "4. Sentences one here comes the Sun and so on and we like to have maximum 6 Sentences."
+
+          ],
+          "techHashTags": ["Task by Gemini", "MidLevel", "Data Structures", "JUnit", "Mockito", "MockMVC", "Kafka Testcontainer"],
+          "links": {
+
+            "githubHref": "www-github-href",
+            "showmeHref": "www-showme-href",
+            "playHref": "www-play-href"
+
+          }
+        }
+
+      ]
+
+    }
+
+  }
+
+}
