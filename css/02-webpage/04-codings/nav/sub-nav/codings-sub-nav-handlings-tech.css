@@ -27,11 +27,11 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-nav-tech-pyhton:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-pyhton"],
 #radio-codings-nav-tech-react-native:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-react-native"] {
 
+
+  color: rgb(179, 161, 131);
+
   background-color: rgb(210, 195, 164);
-
-
-  /* color: rgb(179, 161, 131); */
-   /* color: rgb(179, 161, 131); */
+  color:rgb(36, 36, 36);
 
 }
 
@@ -63,8 +63,26 @@ input[name="name-radio-codings-nav-tech"] {
 
 }
 
+/* counter box */
+#radio-codings-nav-tech-java:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-java"] > div:last-child,
+#radio-codings-nav-tech-spring-boot:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-spring-boot"] > div:last-child,
+#radio-codings-nav-tech-observability:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-observability"] > div:last-child,
+#radio-codings-nav-tech-cloud:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-cloud"] > div:last-child,
+#radio-codings-nav-tech-ai-ml-llm:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-ai-ml-llm"] > div:last-child,
+#radio-codings-nav-tech-angular:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-angular"] > div:last-child,
+#radio-codings-nav-tech-pyhton:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-pyhton"] > div:last-child,
+#radio-codings-nav-tech-react-native:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-react-native"] > div:last-child {
 
-/* counter color */
+
+  /* background-color: rgb(210, 195, 164);
+
+  background-color: rgb(179, 161, 131);
+  color:rgb(36, 36, 36); */
+
+
+}
+
+/* counter color text */
 #radio-codings-nav-tech-java:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-java"] > div:last-child > div,
 #radio-codings-nav-tech-spring-boot:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-spring-boot"] > div:last-child > div,
 #radio-codings-nav-tech-observability:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-observability"] > div:last-child > div,
@@ -74,13 +92,12 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-nav-tech-pyhton:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-pyhton"] > div:last-child > div,
 #radio-codings-nav-tech-react-native:checked ~ #codings-sub-nav-tech label[for="radio-codings-nav-tech-react-native"] > div:last-child > div {
 
-  color: rgb(45, 42, 37);
-
+  /* color: rgb(45, 42, 37);
   color: rgb(122, 121, 121);
 
   color: rgb(179, 161, 131);
-
-   color:rgb(36, 36, 36);
+  */
+  color:rgb(36, 36, 36);
 
 
 }
