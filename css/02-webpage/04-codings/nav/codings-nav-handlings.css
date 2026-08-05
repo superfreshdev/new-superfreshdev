@@ -27,9 +27,11 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"],
 #radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] {
 
+  height: 2em;
+
   background-color: rgb(210, 195, 164);
 
-  background-color: rgba(210, 195, 164, .9);
+  /* background-color: rgba(210, 195, 164, .9); */
 
   color:rgb(36, 36, 36);
 
