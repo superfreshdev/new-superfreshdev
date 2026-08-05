@@ -59,10 +59,6 @@
     /* > Get Default Paths
     /* ---------------------------------------------------------- */
 
-      // var pathIconBlack = jsonTaskContent.paths.iconBlack;
-      // var pathIconGrey = jsonTaskContent.paths.iconGrey;
-      var pathImgHeader = jsonTaskContent.paths.imgCodingTaskHeader;
-
       // console.log("----------------------------")
       // console.log("📃 Default Paths:  ")
       // console.log("➡️ jsonTaskContent(file): " + jsonTasksContent )
@@ -77,10 +73,18 @@
     /* > Update | Header Codings Tasks - Meta
     /* ---------------------------------------------------------- */
 
+      var headerImgFilename = jsonTaskContent.taskHeader.infos.imgFilename;
+      var startPathHeaderImg = "media/imgs/content/02-codings/codings-header/"
+
+      var fullPathHeaderImg = startPathHeaderImg + headerImgFilename;
+
+
+      var styleHeader =  "data/json/codings/tech-algos-challenges/tech/codings-task-content-ai.json";
+
       // Var - Data
-      var headerTitle = jsonTaskContent.header.title;
-      var headerTimeLimit = jsonTaskContent.header.timeLimit;
-      var fullPathImgHeader = pathImgHeader + jsonTaskContent.header.imgFilename;
+      var headerTitle = jsonTaskContent.taskHeader.infos.title;
+      var headerTimeLimit = jsonTaskContent.taskHeader.infos.timeLimit;
+      var fullPathImgHeader = fullPathHeaderImg;
 
       // console.log("📃 Header Data:  ")
       // console.log("➡️ headerTitle: " + headerTitle )
@@ -104,7 +108,8 @@
     /* ---------------------------------------------------------- */
 
       // Unshown Radios - define local css handlings
-      var dataRadios = jsonTaskContent.header.nav.radios;
+      // 🟥🟥 anderes Konzept - nicht array sondern key-value
+      var dataRadios = jsonTaskContent.taskHeader.nav.radios;
       await asyncPrependNewRadiosFromDataTo( dataRadios, rowContainerCodingsContent );
 
 
