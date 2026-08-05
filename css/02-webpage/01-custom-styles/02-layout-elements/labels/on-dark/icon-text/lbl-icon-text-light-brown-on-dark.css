@@ -15,7 +15,7 @@
 
   font-weight: bold;
 
-  border-radius: .4em;
+  border-radius: .8em;
 
   color:rgb(110, 110, 110);
 
@@ -29,7 +29,7 @@
 /* div 1 */
 .lbl-icon-text-light-brown-on-dark > div:last-child  {
 
-  font-size: 14.5px;
+  font-size: 13.5px;
 
 }
 

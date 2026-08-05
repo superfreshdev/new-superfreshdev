@@ -27,9 +27,16 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-nav-tech-pyhton:checked ~ #codings-tech-nav label[for="radio-codings-nav-tech-pyhton"],
 #radio-codings-nav-tech-react-native:checked ~ #codings-tech-nav label[for="radio-codings-nav-tech-react-native"] {
 
-  color: rgb(179, 161, 131);
+  /* background-color: rgb(210, 195, 164); */
 
-  background-color: rgba(210, 195, 164, 1);
+  /* background-color: rgb(225, 225, 225); */
+  /* border: 1px dashed black; */
+
+  background-color: rgba(245, 222, 179, .6);
+
+  background-color: lightgrey;
+  opacity: .6;
+
   color:rgb(36, 36, 36);
 
 }
