@@ -1,0 +1,103 @@
+/* ---------------------------------------------------------------- */
+/* > kits-nav-handlings.css
+/* ---------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Default Unshown
+/* -------------------------------------------------------------- */
+
+input[name="name-radio-codings-nav-kits"] {
+
+  display: none;
+
+}
+
+/* ------------------------------------------------------------- */
+/* Handlings - Stylings
+/* ------------------------------------------------------------- */
+
+/* text color */
+#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"],
+#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"],
+#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"],
+#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] {
+
+  color: rgb(179, 161, 131);
+
+  background-color: rgba(210, 195, 164, 1);
+  color:rgb(36, 36, 36);
+
+}
+
+/* unshow grey img */
+#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* unshow black img */
+#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: flex;
+
+}
+
+/* counter box */
+#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:last-child,
+#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:last-child,
+#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:last-child,
+#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:last-child {
+
+  /* background-color: rgb(210, 195, 164);
+
+  background-color: rgb(179, 161, 131);
+  color:rgb(36, 36, 36); */
+
+}
+
+/* counter color text */
+#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:last-child > div,
+#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:last-child > div,
+#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:last-child > div,
+#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:last-child > div {
+
+  /* color: rgb(45, 42, 37);
+  color: rgb(122, 121, 121);
+
+  color: rgb(179, 161, 131);
+  */
+  color:rgb(36, 36, 36);
+
+}
+
+/* ------------------------------------------------------------- */
+/* 🟥 Handlings - Content
+/* ------------------------------------------------------------- */
+
+/* #radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:last-child > div,
+#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:last-child > div,
+#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:last-child > div,
+#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:last-child > div   */
+
+
+/* unshown primary checked + nav tech any is checked -> unshown codings masonry container */
+/* #radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-java:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-spring-boot:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-observability:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-cloud:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-ai-ml-llm:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-angular:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-pyhton:checked ~ #codings-kits-nav #codings-masonry-container,
+#radio-codings-nav-unshown:checked ~ #radio-codings-nav-tech-react-native:checked ~ #codings-kits-nav #codings-masonry-container {
+
+  display: none;
+
+} */

@@ -35,8 +35,8 @@
   // Dyn. Update Config Data for Codings Task Content
   var configCodingTaskContent = {
 
-    "pathStyleTaskCard": "data/json/codings/tasks/config-styles/style-coding-task-card.json",
-    "pathTaskContent": "data/json/codings/tasks/tech/codings-task-content-java.json",
+    "pathStyleTaskCard": "data/json/codings/tech-algos-challenges/config-styles/style-coding-task-card.json",
+    "pathTaskContent": "data/json/codings/tech-algos-challenges/tech/codings-task-content-java.json",
     "categoryTaskName": "basics",
 
   }
@@ -238,7 +238,7 @@
             console.log("❇️📄 Read Json File - Java")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-java.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-java.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
@@ -255,7 +255,7 @@
             console.log("❇️📄 Read Json File - Spring Boot")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-spring-boot.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-spring-boot.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
@@ -272,7 +272,7 @@
             console.log("❇️📄 Read Json File - Observability")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-observability.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-observability.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
@@ -289,7 +289,7 @@
             console.log("❇️📄 Read Json File - Cloud")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-cloud-gcp.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-cloud.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
@@ -306,7 +306,7 @@
             console.log("❇️📄 Read Json File - AI")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-ai.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-ai.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
@@ -316,22 +316,6 @@
 
             break;
 
-          /* ------------------------------------------ */
-          /* 🟨 Python
-          /* ------------------------------------------ */
-          case "radio-codings-nav-tech-pyhton":
-
-            console.log("❇️📄 Read Json File - Python")
-
-              // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-python.json";
-
-              // Update - Codings Task Header
-              await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
-
-              // Update - Codings Masonry
-
-            break;
 
           /* ------------------------------------------ */
           /* 🟨 Angular
@@ -341,7 +325,7 @@
             console.log("❇️📄 Read Json File - Angular")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-angular.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-angular.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );
@@ -358,7 +342,7 @@
             console.log("❇️📄 Read Json File - React Native")
 
               // Get Data
-              jsonDataContent = "data/json/codings/tasks/tech/codings-tech-content-react-native.json";
+              jsonDataContent = "data/json/codings/tech-algos-challenges/tech/codings-task-content-react-native.json";
 
               // Update - Codings Task Header
               await updateCodingsTaskHeader( jsonDataContent, codingsTaksHeader );

@@ -23,16 +23,13 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"],
 #radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"],
 #radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"],
-#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"],
 #radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"],
+#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"],
 #radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] {
 
-  height: 2em;
 
   background-color: rgb(210, 195, 164);
-
   /* background-color: rgba(210, 195, 164, .9); */
-
   color:rgb(36, 36, 36);
 
 }
@@ -62,24 +59,25 @@ input[name="name-radio-codings-nav"] {
 }
 
 /* -------------------------------------------------------------- */
-/* Show Navs ( tech + docs )
+/* Show Navs ( tech + kits + docs )
 /* -------------------------------------------------------------- */
 
-#radio-codings-nav-tech:checked ~ #row-container-codings-navs #codings-sub-navs #codings-sub-nav-tech ,
-#radio-codings-nav-docs:checked ~ #row-container-codings-navs #codings-sub-navs #codings-sub-nav-docs {
+#radio-codings-nav-tech:checked ~ #row-container-codings-navs #codings-sub-navs #codings-tech-nav,
+#radio-codings-nav-kits:checked ~ #row-container-codings-navs #codings-sub-navs #codings-kits-nav,
+#radio-codings-nav-docs:checked ~ #row-container-codings-navs #codings-sub-navs #codings-docs-nav {
 
  display: flex;
 
 }
 
 /* -------------------------------------------------------------- */
-/* Show Content (Default) | Tech, Algos, Challenges, Docs
+/* Show Content (Default) | Tech, Algos, Challenges, Kits, Docs
 /* -------------------------------------------------------------- */
 
 #radio-codings-nav-tech:checked ~ #row-container-codings-content,
 #radio-codings-nav-algos:checked ~ #row-container-codings-content,
 #radio-codings-nav-challenges:checked ~ #row-container-codings-content,
-#radio-codings-nav-docs:checked ~ #row-container-codings-content,
+#radio-codings-nav-kits:checked ~ #row-container-codings-content,
 #radio-codings-nav-docs:checked ~ #row-container-codings-content {
 
   display: grid;
@@ -87,28 +85,38 @@ input[name="name-radio-codings-nav"] {
 }
 
 /* -------------------------------------------------------------- */
-/* Show Content | Tech, Algos, Challenges
+/* Unshown "Docs Content" if
+/* > Tech,Algos,Challenges,Kits = checked
 /* -------------------------------------------------------------- */
 
-/* 💫 [Clean Up] | First Unshown - Docs  */
 #radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
 #radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
+#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
+#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
 }
 
-/* 💫 [Clean Up] | First Unshown - Codings Unshown Container  */
+/* -------------------------------------------------------------- */
+/* Unshown "Unshown Content" if
+/* > Tech,Algos,Challenges,Kits = checked
+/* -------------------------------------------------------------- */
+
 #radio-codings-nav-tech:checked ~ #row-container-codings-unshown #codings-unshown-container,
 #radio-codings-nav-algos:checked ~ #row-container-codings-unshown #codings-unshown-container,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-unshown #codings-unshown-container {
+#radio-codings-nav-challenges:checked ~ #row-container-codings-unshown #codings-unshown-container,
+#radio-codings-nav-kits:checked ~ #row-container-codings-unshown #codings-unshown-container {
 
   display: none;
 
 }
 
-/* Show Codings Task Header - Tech, Algos, Challenges */
+/* -------------------------------------------------------------- */
+/* Show "Coding Task Header" only by
+/* > Tech,Algos,Challenges = checked
+/* -------------------------------------------------------------- */
+
 #radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-task-header,
 #radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-task-header,
 #radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-task-header {
@@ -118,24 +126,43 @@ input[name="name-radio-codings-nav"] {
 }
 
 /* -------------------------------------------------------------- */
+/* ➡️🟥 Show Content | Kits
+/* -------------------------------------------------------------- */
+
+/* First - Unshown Content - Codings Task Container */
+#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
+
+  display: none;
+
+}
+
+/* Unshown Content - Docs Container */
+#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
+
+  display: none;
+
+}
+
+/* Show Content - Kits Container */
+#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-kits-container {
+
+  display: grid;
+
+}
+
+
+/* -------------------------------------------------------------- */
 /* Show Content | Docs
 /* -------------------------------------------------------------- */
 
-/* 💫 [Clean Up] | First Unshown - Codings Content Tasks  */
-#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-content-tasks {
+/* First - Unshown Codings Tasks Container */
+#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
 
   display: none;
 
 }
 
-/* 💫 [Clean Up] | First Unshown - Codings Unshown Container  */
-#radio-codings-nav-docs:checked ~ #row-container-codings-unshown #codings-unshown-container {
-
-  display: none;
-
-}
-
-/* docs checked - show docs  */
+/* Show - Codings Docs Container  */
 #radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: grid;
@@ -143,24 +170,24 @@ input[name="name-radio-codings-nav"] {
 }
 
 /* -------------------------------------------------------------- */
-/* Show | Codings Unshown Container
+/* Show Unshown Container (choose topic)
 /* -------------------------------------------------------------- */
 
-/* 💫 [Clean Up] | First Unshown - Tasks  */
-#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-content-tasks {
+/* First Unshown - Codings Tasks Container */
+#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
 
   display: none;
 
 }
 
-/* 💫 [Clean Up] | First Unshown - Docs  */
+/* Unshown - Codings Docs Container */
 #radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
 }
 
-/* show - codings unshown container */
+/* Show - Unshown Container */
 #radio-codings-nav-unshown:checked ~ #row-container-codings-unshown #codings-unshown-container {
 
   display: flex;

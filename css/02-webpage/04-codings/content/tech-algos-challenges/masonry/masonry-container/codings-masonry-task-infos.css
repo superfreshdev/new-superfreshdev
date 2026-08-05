@@ -34,16 +34,27 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Text | Codings Masonry Task Infos
+/* Text Container  | Codings Masonry Task Infos
 /* ---------------------------------------------------------------- */
 
 #codings-masonry-task-infos > div {
 
-  font-size: 14.5px;
-  line-height: 1.5em;
+  display: grid;
+  row-gap: .3em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Text | Codings Masonry Task Infos
+/* ---------------------------------------------------------------- */
+
+#codings-masonry-task-infos > div > div {
+
+  font-size: 14px;
+  /* line-height: 1.5em; */
 
   font-weight: bold;
 
-  color:rgb(109, 109, 109);
+  color:rgb(150, 150, 150);
 
 }

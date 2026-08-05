@@ -6,7 +6,7 @@ console.log("🟨 codings-nav-handler.js")
 /* 🏠 DOM Elements
 /* -------------------------------------------------------------------- */
 
-  var techNav = document.getElementById("codings-sub-nav-tech");
+  var techNav = document.getElementById("codings-tech-nav");
   var techNavMaxCounters = techNav.querySelectorAll("label > div:last-child > div")
   // console.log("techNavMaxCounters = " + techNavMaxCounters.length );
 
@@ -178,21 +178,21 @@ console.log("🟨 codings-nav-handler.js")
 
             "tech": {
 
-              "java": "data/json/codings/tasks/tech/codings-task-content-java.json",
-              "springBoot": "data/json/codings/tasks/tech/codings-task-content-spring-boot.json",
-              "observability": "data/json/codings/tasks/tech/codings-task-content-observability.json",
-              "cloud": "data/json/codings/tasks/tech/codings-task-content-cloud.json",
-              "ai": "data/json/codings/tasks/tech/codings-task-content-ai.json",
-              "angular": "data/json/codings/tasks/tech/codings-task-content-angular.json",
-              "reactNative": "data/json/codings/tasks/tech/codings-task-content-react-native.json"
+              "java": "data/json/codings/tech-algos-challenges/tech/codings-task-content-java.json",
+              "springBoot": "data/json/codings/tech-algos-challenges/tech/codings-task-content-spring-boot.json",
+              "observability": "data/json/codings/tech-algos-challenges/tech/codings-task-content-observability.json",
+              "cloud": "data/json/codings/tech-algos-challenges/tech/codings-task-content-cloud.json",
+              "ai": "data/json/codings/tech-algos-challenges/tech/codings-task-content-ai.json",
+              "angular": "data/json/codings/tech-algos-challenges/tech/codings-task-content-angular.json",
+              "reactNative": "data/json/codings/tech-algos-challenges/tech/codings-task-content-react-native.json"
 
             },
 
             "algos": {
 
-              "basics": "data/json/codings/tasks/tech/codings-task-content-java.json",
-              "leetCode": "data/json/codings/tasks/tech/codings-task-content-spring-boot.json",
-              "advanced": "data/json/codings/tasks/tech/codings-task-content-observability.json",
+              "basics": "data/json/codings/tech-algos-challenges/tech/codings-task-content-java.json",
+              "leetCode": "data/json/codings/tech-algos-challenges/tech/codings-task-content-spring-boot.json",
+              "advanced": "data/json/codings/tech-algos-challenges/tech/codings-task-content-observability.json",
 
             },
 
