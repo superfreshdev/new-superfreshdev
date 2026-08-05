@@ -4673,16 +4673,16 @@
                   <!-- ----------------------------------------------------- -->
 
                     <!-- 🟩 Radios - Codings Sub Nav Docs  -->
-                    <input type="radio" id="radio-codings-nav-docs-frontend" name="name-radio-codings-nav-docs">
-                    <input type="radio" id="radio-codings-nav-docs-backend" name="name-radio-codings-nav-docs">
-                    <input type="radio" id="radio-codings-nav-docs-cloud-devops" name="name-radio-codings-nav-docs">
-                    <input type="radio" id="radio-codings-nav-docs-ai-llm" name="name-radio-codings-nav-docs">
+                    <input type="radio" id="radio-codings-docs-nav-frontend" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-backend" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-cloud-devops" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-ai" name="name-radio-codings-docs-nav">
 
                     <!-- 🟥 Docs - Sub Nav -->
                     <nav id="codings-docs-nav">
 
                       <!-- label | frontend -->
-                      <label for="radio-codings-nav-docs-frontend" class="lbl-little lbl-counter-light-brown-on-dark">
+                      <label for="radio-codings-docs-nav-frontend" class="lbl-little lbl-counter-light-brown-on-dark">
 
                         <!-- icon + title box -->
                         <div>
@@ -4710,7 +4710,7 @@
                       </label>
 
                       <!-- label | backend -->
-                      <label for="radio-codings-nav-docs-backend" class="lbl-little lbl-counter-light-brown-on-dark">
+                      <label for="radio-codings-docs-nav-backend" class="lbl-little lbl-counter-light-brown-on-dark">
 
                         <!-- icon + title box -->
                         <div>
@@ -4739,7 +4739,7 @@
                       </label>
 
                       <!-- label | cloud - devops -->
-                      <label for="radio-codings-nav-docs-cloud-devops" class="lbl-little lbl-counter-light-brown-on-dark">
+                      <label for="radio-codings-docs-nav-cloud-devops" class="lbl-little lbl-counter-light-brown-on-dark">
 
                         <!-- icon + title box -->
                         <div>
@@ -4767,8 +4767,8 @@
 
                       </label>
 
-                      <!-- label | ai llm -->
-                      <label for="radio-codings-nav-docs-ai-llm" class="lbl-little lbl-counter-light-brown-on-dark">
+                      <!-- label | ai -->
+                      <label for="radio-codings-docs-nav-ai" class="lbl-little lbl-counter-light-brown-on-dark">
 
                         <!-- icon + title box -->
                         <div>
@@ -6072,19 +6072,21 @@
                     <!-- ------------------------------------------------------------------ -->
                     <!-- ➡️🟥 [1/2] | Codings Kits Header -->
                     <!-- ------------------------------------------------------------------ -->
-                    <header>
+                    <header id="codings-kits-content-header">
 
                       <!-- Info Block -->
-                      <div id="codings-kits-header-info-block">
+                      <div>
 
                         <!-- topic box -->
-                        <div>
+                        <div id="codings-kits-header-topic-box">
+
                           <!-- img -->
-                          <img src=""
-                              alt="img">
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-web-coding.png"
+                              alt="img" class="img-h-0-8">
 
                           <!-- title -->
                           <div>Web</div>
+
                         </div>
 
                         <!-- Seperator -->
