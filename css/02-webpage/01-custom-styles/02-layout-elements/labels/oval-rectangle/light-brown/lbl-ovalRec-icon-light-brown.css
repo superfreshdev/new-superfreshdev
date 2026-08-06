@@ -1,13 +1,13 @@
 /* --------------------------------------------------------------- */
-/* > lbl-only-icon-on-dark.css
+/* > lbl-ovalRec-icon-light-brown.css
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Label Only Icon | Light Brown
+/* Label | Icon | Light Brown
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-dark {
+.lbl-ovalRec-icon-light-brown {
 
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@
 
 }
 
-.lbl-only-icon-on-dark:hover {
+.lbl-ovalRec-icon-light-brown:hover {
 
   background-color: wheat;
   background-color: rgb(215, 195, 157);
@@ -29,7 +29,7 @@
 /* Default Img Show Grey
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-dark > img:nth-of-type(1) {
+.lbl-ovalRec-icon-light-brown > img:nth-of-type(1) {
 
   opacity: .8;
 
@@ -39,7 +39,7 @@
 /* Default Img Black Unshown
 /* --------------------------------------------------------------- */
 
-.lbl-only-icon-on-dark > img:nth-of-type(2) {
+.lbl-ovalRec-icon-light-brown > img:nth-of-type(2) {
 
   display: none;
 
@@ -51,14 +51,14 @@
 /* ------------------------------------------------------------------------- */
 
 /* unshow grey img */
-.lbl-only-icon-on-dark:hover > img:nth-of-type(1) {
+.lbl-ovalRec-icon-light-brown:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-only-icon-on-dark:hover > img:nth-of-type(2) {
+.lbl-ovalRec-icon-light-brown:hover > img:nth-of-type(2) {
 
   display: flex;
 

@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > lbl-icon-text-light-brown-on-dark.css
+/* > lbl-pill-icon-text-light-brown.css
 /* --------------------------------------------------------------- */
 
 
@@ -7,7 +7,7 @@
 /* Label | Icon + Text | Light Brown
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-light-brown-on-dark {
+.lbl-icon-text-light-brown {
 
   display: flex;
   align-items: center;
@@ -27,14 +27,14 @@
 }
 
 /* div 1 */
-.lbl-icon-text-light-brown-on-dark > div:last-child  {
+.lbl-icon-text-light-brown > div:last-child  {
 
   font-size: 13.5px;
 
 }
 
 /* img grey */
-.lbl-icon-text-light-brown-on-dark > img:nth-of-type(1) {
+.lbl-icon-text-light-brown > img:nth-of-type(1) {
 
   opacity: .6;
 
@@ -44,7 +44,7 @@
 /* Default Unshown | Black Img
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-light-brown-on-dark > img:nth-of-type(2) {
+.lbl-icon-text-light-brown > img:nth-of-type(2) {
 
   display: none;
 
@@ -55,7 +55,7 @@
 /* > show black img by hover, unshown grey img
 /* --------------------------------------------------------------- */
 
-.lbl-icon-text-light-brown-on-dark:hover {
+.lbl-icon-text-light-brown:hover {
 
   background-color: rgb(210, 195, 164);
   color:rgb(36, 36, 36);
@@ -63,14 +63,14 @@
 }
 
 /* unshow grey img */
-.lbl-icon-text-light-brown-on-dark:hover > img:nth-of-type(1) {
+.lbl-icon-text-light-brown:hover > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* show black img */
-.lbl-icon-text-light-brown-on-dark:hover > img:nth-of-type(2) {
+.lbl-icon-text-light-brown:hover > img:nth-of-type(2) {
 
   display: flex;
 
