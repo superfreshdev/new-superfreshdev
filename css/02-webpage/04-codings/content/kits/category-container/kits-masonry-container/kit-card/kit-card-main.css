@@ -1,0 +1,105 @@
+/* ---------------------------------------------------------------- */
+/* > kit-card.css
+/* : kits card - main
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Main | Kit Card
+/* --------------------------------------------------------------- */
+
+.kit-card > main {
+
+  padding: 1em .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Nr Box | Main
+/* --------------------------------------------------------------- */
+
+.kit-card-nr-box {
+
+  width: 1.8em;
+  height: 1.8em;
+
+  border-radius: .5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  float: left;
+
+  margin-right: 1em;
+  margin-bottom: .4em;
+
+  font-weight: bold;
+
+  background-color: rgb(229, 214, 185);
+  color:rgb(179, 149, 95);
+
+
+}
+
+/* nr text */
+.kit-card-nr-box > div {
+
+  font-size: 13.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Title | Main
+/* --------------------------------------------------------------- */
+
+.kit-card-title {
+
+  font-size: 14px;
+
+  line-height: 1.5em;
+
+  font-weight: bold;
+
+  color:rgba(136, 136, 136, 0.6);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Hashtags | Main
+/* --------------------------------------------------------------- */
+
+.kit-card-hashtag-list {
+
+  padding-top: .8em;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: .3em;
+  row-gap: .3em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Items | Hashtags | Main
+/* --------------------------------------------------------------- */
+
+.kit-card-hashtag-list > div {
+
+  font-size: 13.5px;
+
+  height: 1.8em;
+  padding: 0 .4em .1em .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .6em;
+
+  color:rgb(184, 184, 184);
+
+  border: 1px dashed rgb(212, 212, 212);
+
+}

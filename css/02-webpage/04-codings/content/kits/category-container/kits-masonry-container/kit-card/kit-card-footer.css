@@ -1,0 +1,76 @@
+/* ---------------------------------------------------------------- */
+/* > kit-card.css
+/* : kits card - footer
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Footer | Kit Card
+/* --------------------------------------------------------------- */
+
+.kit-card > footer {
+
+  width: 100%;
+  padding: .3em .8em .8em .8em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+
+  column-gap: .3em;
+  row-gap: .3em;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Links | Footer | Kit Card
+/* --------------------------------------------------------------- */
+
+.kit-card > footer > a {
+
+  text-decoration: none;
+
+  height: 1.7em;
+  padding: 0 .5em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+
+  font-weight: bold;
+
+  border: 1px solid rgba(164, 164, 164, .4);
+  color: rgb(133, 133, 133);
+
+  transition: all .4s;
+
+  opacity: .8;
+
+}
+
+/* text - Link */
+.kit-card > footer > a > img {
+
+  opacity: .4;
+
+}
+
+
+/* text - Link */
+.kit-card > footer > a > div {
+
+  font-size: 12px;
+
+}
+
+/* hover */
+.kit-card > footer > a:hover {
+
+  background-color: rgb(225, 225, 225);
+  opacity: 1;
+
+}

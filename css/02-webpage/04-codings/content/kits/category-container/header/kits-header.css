@@ -1,0 +1,72 @@
+/* ---------------------------------------------------------------- */
+/* > kits-header.css
+/* : kits header
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Header | Category Container
+/* --------------------------------------------------------------- */
+
+.codings-kits-header {
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Category Box | Header
+/* --------------------------------------------------------------- */
+
+.codings-kits-header-category-box {
+
+  display: flex;
+  align-items: center;
+  column-gap: .1em;
+
+  font-weight: bold;
+
+  /* opacity: .3; */
+
+  font-size: 18px;
+
+}
+
+/* Category Info */
+.codings-kits-header-category-box > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* Img - Category Info */
+.codings-kits-header-category-box > div:nth-of-type(1) > img {
+
+  opacity: .6;
+
+}
+
+/* Text - Category Info  */
+.codings-kits-header-category-box > div:nth-of-type(1) > div {
+
+  opacity: .6;
+
+}
+
+/* Text Seperator */
+.codings-kits-header-category-box > div:nth-of-type(2) {
+
+  opacity: .6;
+
+}
+
+/* Text Kits  */
+.codings-kits-header-category-box > div:nth-of-type(3) {
+
+  opacity: .3;
+
+}
