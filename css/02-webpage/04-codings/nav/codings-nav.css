@@ -16,8 +16,7 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Row Container #1 - Codings Nav
-/* > Tech, Algos, Challenges, Kits, Docs, Unshwon
+/* [1/2] | Row Container - Codings Nav
 /* ----------------------------------------------------------------- */
 
 #row-container-codings-navs > .row-container:nth-of-type(1) {
@@ -31,24 +30,8 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Row Container #2 - Codings Sub Nav
-/* > Tech -> Sub Nav & Docs -> Sub Nav
-/* ----------------------------------------------------------------- */
-
-#row-container-codings-navs > .row-container:nth-of-type(2) {
-
-  background-color: rgb(245, 245, 245);
-
-  /* background-color: rgb(28, 28, 28); */
-
-  /* background-color: rgb(45, 45, 45); */
-
-  /* background-color: white; */
-
-}
-
-/* ----------------------------------------------------------------- */
 /* Codings Nav
+/* > Tech, Algos, Challenges, Kits, Docs, Unshown
 /* ----------------------------------------------------------------- */
 
 #codings-nav {
@@ -67,5 +50,16 @@
 
   column-gap: .4em;
   row-gap: .6em;
+
+}
+
+/* ----------------------------------------------------------------- */
+/* [2/2] | Row Container - Codings Sub Nav
+/* > Tech, Kits, Docs -> Sub Navs
+/* ----------------------------------------------------------------- */
+
+#row-container-codings-navs > .row-container:nth-of-type(2) {
+
+  background-color: rgb(245, 245, 245);
 
 }

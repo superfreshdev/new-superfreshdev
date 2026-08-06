@@ -1,7 +1,6 @@
 /* ---------------------------------------------------------------- */
 /* > codings-nav-handlings.css
-/*
-/* : tech, algos, challenges, docs, unshown
+/* : tech, algos, challenges, kits, docs, unshown
 /* ---------------------------------------------------------------- */
 
 
@@ -20,39 +19,37 @@ input[name="name-radio-codings-nav"] {
 /* -------------------------------------------------------------- */
 
 /* set background color */
-#radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"],
-#radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"],
-#radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"],
-#radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"],
-#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"],
-#radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] {
-
+#radio-codings-tech-nav:checked ~ #row-container-codings-navs label[for="radio-codings-tech-nav"],
+#radio-codings-algos-nav:checked ~ #row-container-codings-navs label[for="radio-codings-algos-nav"],
+#radio-codings-challenges-nav:checked ~ #row-container-codings-navs label[for="radio-codings-challenges-nav"],
+#radio-codings-kits-nav:checked ~ #row-container-codings-navs label[for="radio-codings-kits-nav"],
+#radio-codings-docs-nav:checked ~ #row-container-codings-navs label[for="radio-codings-docs-nav"],
+#radio-codings-unshwon-nav:checked ~ #row-container-codings-navs label[for="radio-codings-unshwon-nav"] {
 
   background-color: rgb(210, 195, 164);
-  /* background-color: rgba(210, 195, 164, .9); */
   color:rgb(36, 36, 36);
 
 }
 
 /* by checked, unshown grey img */
-#radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"] > img:nth-of-type(1),
-#radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"] > img:nth-of-type(1),
-#radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"]  > img:nth-of-type(1),
-#radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"] > img:nth-of-type(1),
-#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"] > img:nth-of-type(1),
-#radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] > img:nth-of-type(1) {
+#radio-codings-tech-nav:checked ~ #row-container-codings-navs label[for="radio-codings-tech-nav"] > img:nth-of-type(1),
+#radio-codings-algos-nav:checked ~ #row-container-codings-navs label[for="radio-codings-algos-nav"] > img:nth-of-type(1),
+#radio-codings-challenges-nav:checked ~ #row-container-codings-navs label[for="radio-codings-challenges-nav"]  > img:nth-of-type(1),
+#radio-codings-kits-nav:checked ~ #row-container-codings-navs label[for="radio-codings-kits-nav"] > img:nth-of-type(1),
+#radio-codings-docs-nav:checked ~ #row-container-codings-navs label[for="radio-codings-docs-nav"] > img:nth-of-type(1),
+#radio-codings-unshwon-nav:checked ~ #row-container-codings-navs label[for="radio-codings-unshwon-nav"] > img:nth-of-type(1) {
 
  display: none;
 
 }
 
 /* by checked, show black img */
-#radio-codings-nav-tech:checked ~ #row-container-codings-navs label[for="radio-codings-nav-tech"] > img:nth-of-type(2),
-#radio-codings-nav-algos:checked ~ #row-container-codings-navs label[for="radio-codings-nav-algos"]  img:nth-of-type(2),
-#radio-codings-nav-challenges:checked ~ #row-container-codings-navs label[for="radio-codings-nav-challenges"]  > img:nth-of-type(2),
-#radio-codings-nav-kits:checked ~ #row-container-codings-navs label[for="radio-codings-nav-kits"] > img:nth-of-type(2),
-#radio-codings-nav-docs:checked ~ #row-container-codings-navs label[for="radio-codings-nav-docs"] > img:nth-of-type(2),
-#radio-codings-nav-unshown:checked ~ #row-container-codings-navs label[for="radio-codings-nav-unshown"] > img:nth-of-type(2) {
+#radio-codings-tech-nav:checked ~ #row-container-codings-navs label[for="radio-codings-tech-nav"] > img:nth-of-type(2),
+#radio-codings-algos-nav:checked ~ #row-container-codings-navs label[for="radio-codings-algos-nav"]  img:nth-of-type(2),
+#radio-codings-challenges-nav:checked ~ #row-container-codings-navs label[for="radio-codings-challenges-nav"]  > img:nth-of-type(2),
+#radio-codings-kits-nav:checked ~ #row-container-codings-navs label[for="radio-codings-kits-nav"] > img:nth-of-type(2),
+#radio-codings-docs-nav:checked ~ #row-container-codings-navs label[for="radio-codings-docs-nav"] > img:nth-of-type(2),
+#radio-codings-unshwon-nav:checked ~ #row-container-codings-navs label[for="radio-codings-unshwon-nav"] > img:nth-of-type(2) {
 
  display: flex;
 
@@ -62,23 +59,23 @@ input[name="name-radio-codings-nav"] {
 /* Show Navs ( tech + kits + docs )
 /* -------------------------------------------------------------- */
 
-#radio-codings-nav-tech:checked ~ #row-container-codings-navs #codings-sub-navs #codings-tech-nav,
-#radio-codings-nav-kits:checked ~ #row-container-codings-navs #codings-sub-navs #codings-kits-nav,
-#radio-codings-nav-docs:checked ~ #row-container-codings-navs #codings-sub-navs #codings-docs-nav {
+#radio-codings-tech-nav:checked ~ #row-container-codings-navs #codings-sub-navs #codings-tech-nav,
+#radio-codings-kits-nav:checked ~ #row-container-codings-navs #codings-sub-navs #codings-kits-nav,
+#radio-codings-docs-nav:checked ~ #row-container-codings-navs #codings-sub-navs #codings-docs-nav {
 
  display: flex;
 
 }
 
 /* -------------------------------------------------------------- */
-/* Show Content (Default) | Tech, Algos, Challenges, Kits, Docs
+/* [1/4] | Show Content (Default) | Tech, Algos, Challenges, Kits, Docs
 /* -------------------------------------------------------------- */
 
-#radio-codings-nav-tech:checked ~ #row-container-codings-content,
-#radio-codings-nav-algos:checked ~ #row-container-codings-content,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-content,
-#radio-codings-nav-kits:checked ~ #row-container-codings-content,
-#radio-codings-nav-docs:checked ~ #row-container-codings-content {
+#radio-codings-tech-nav:checked ~ #row-container-codings-content,
+#radio-codings-algos-nav:checked ~ #row-container-codings-content,
+#radio-codings-challenges-nav:checked ~ #row-container-codings-content,
+#radio-codings-kits-nav:checked ~ #row-container-codings-content,
+#radio-codings-docs-nav:checked ~ #row-container-codings-content {
 
   display: grid;
 
@@ -89,10 +86,10 @@ input[name="name-radio-codings-nav"] {
 /* > Tech,Algos,Challenges,Kits = checked
 /* -------------------------------------------------------------- */
 
-#radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
-#radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
-#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
+#radio-codings-tech-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
+#radio-codings-algos-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
+#radio-codings-challenges-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container,
+#radio-codings-kits-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
@@ -103,10 +100,10 @@ input[name="name-radio-codings-nav"] {
 /* > Tech,Algos,Challenges,Kits = checked
 /* -------------------------------------------------------------- */
 
-#radio-codings-nav-tech:checked ~ #row-container-codings-unshown #codings-unshown-container,
-#radio-codings-nav-algos:checked ~ #row-container-codings-unshown #codings-unshown-container,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-unshown #codings-unshown-container,
-#radio-codings-nav-kits:checked ~ #row-container-codings-unshown #codings-unshown-container {
+#radio-codings-tech-nav:checked ~ #row-container-codings-unshown #codings-unshown-container,
+#radio-codings-algos-nav:checked ~ #row-container-codings-unshown #codings-unshown-container,
+#radio-codings-challenges-nav:checked ~ #row-container-codings-unshown #codings-unshown-container,
+#radio-codings-kits-nav:checked ~ #row-container-codings-unshown #codings-unshown-container {
 
   display: none;
 
@@ -117,34 +114,41 @@ input[name="name-radio-codings-nav"] {
 /* > Tech,Algos,Challenges = checked
 /* -------------------------------------------------------------- */
 
-#radio-codings-nav-tech:checked ~ #row-container-codings-content #codings-task-header,
-#radio-codings-nav-algos:checked ~ #row-container-codings-content #codings-task-header,
-#radio-codings-nav-challenges:checked ~ #row-container-codings-content #codings-task-header {
+#radio-codings-tech-nav:checked ~ #row-container-codings-content #codings-task-header,
+#radio-codings-algos-nav:checked ~ #row-container-codings-content #codings-task-header,
+#radio-codings-challenges-nav:checked ~ #row-container-codings-content #codings-task-header {
 
   display: grid;
 
 }
 
 /* -------------------------------------------------------------- */
-/* ➡️🟥 Show Content | Kits
+/* [2/4] | Unshown "Tasks Container" - tech,algos,challenges if
+/* kits is checked
 /* -------------------------------------------------------------- */
 
-/* First - Unshown Content - Codings Task Container */
-#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
+#radio-codings-kits-nav:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
 
   display: none;
 
 }
 
-/* Unshown Content - Docs Container */
-#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
+/* -------------------------------------------------------- */
+/* Unshown "Docs Content" if
+/* Kits is checked
+/* -------------------------------------------------------- */
+
+#radio-codings-kits-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
 }
 
-/* Show Content - Kits Container */
-#radio-codings-nav-kits:checked ~ #row-container-codings-content #codings-content #codings-kits-container {
+/* -------------------------------------------------------- */
+/* Show "Kits Content"
+/* -------------------------------------------------------- */
+
+#radio-codings-kits-nav:checked ~ #row-container-codings-content #codings-content #codings-kits-container {
 
   display: grid;
 
@@ -152,43 +156,53 @@ input[name="name-radio-codings-nav"] {
 
 
 /* -------------------------------------------------------------- */
-/* Show Content | Docs
+/* [3/4] | Unshown "Tasks Container" - tech,algos,challenges if
+/* docs is checked
 /* -------------------------------------------------------------- */
 
-/* First - Unshown Codings Tasks Container */
-#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
+#radio-codings-docs-nav:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
 
   display: none;
 
 }
 
-/* Show - Codings Docs Container  */
-#radio-codings-nav-docs:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
+/* -------------------------------------------------------- */
+/* Show "Docs Content"
+/* -------------------------------------------------------- */
+
+#radio-codings-docs-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: grid;
 
 }
 
 /* -------------------------------------------------------------- */
-/* Show Unshown Container (choose topic)
+/* [4/4] | Unshown "Tasks Container" - tech,algos,challenges if
+/* unshown (choose topic) is checked
 /* -------------------------------------------------------------- */
 
-/* First Unshown - Codings Tasks Container */
-#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
+#radio-codings-unshwon-nav:checked ~ #row-container-codings-content #codings-content #codings-tasks-container {
 
   display: none;
 
 }
 
-/* Unshown - Codings Docs Container */
-#radio-codings-nav-unshown:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
+/* -------------------------------------------------------------- */
+/* Unshown "Docs Container" if
+/* unshown (choose topic) is checked
+/* -------------------------------------------------------------- */
+
+#radio-codings-unshwon-nav:checked ~ #row-container-codings-content #codings-content #codings-docs-container {
 
   display: none;
 
 }
 
-/* Show - Unshown Container */
-#radio-codings-nav-unshown:checked ~ #row-container-codings-unshown #codings-unshown-container {
+/* -------------------------------------------------------- */
+/* Show "Unshown Content - Choose Topic"
+/* -------------------------------------------------------- */
+
+#radio-codings-unshwon-nav:checked ~ #row-container-codings-unshown #codings-unshown-container {
 
   display: flex;
 
