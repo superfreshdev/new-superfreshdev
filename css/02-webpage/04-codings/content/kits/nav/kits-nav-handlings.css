@@ -7,7 +7,7 @@
 /* Default Unshown
 /* -------------------------------------------------------------- */
 
-input[name="name-radio-codings-nav-kits"] {
+input[name="name-radio-codings-kits-nav"] {
 
   display: none;
 
@@ -18,44 +18,43 @@ input[name="name-radio-codings-nav-kits"] {
 /* ------------------------------------------------------------- */
 
 /* text color */
-#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"],
-#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"],
-#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"],
-#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] {
+#radio-codings-kits-nav-web:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-web"],
+#radio-codings-kits-nav-software:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-software"],
+#radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"],
+#radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] {
 
   background-color: lightgrey;
   opacity: .6;
 
   color:rgb(36, 36, 36);
 
-
 }
 
 /* unshow grey img */
-#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:nth-of-type(1) > img:nth-of-type(1) {
+#radio-codings-kits-nav-web:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-web"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-kits-nav-software:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-software"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] > div:nth-of-type(1) > img:nth-of-type(1) {
 
   display: none;
 
 }
 
 /* unshow black img */
-#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:nth-of-type(1) > img:nth-of-type(2) {
+#radio-codings-kits-nav-web:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-web"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-kits-nav-software:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-software"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] > div:nth-of-type(1) > img:nth-of-type(2) {
 
   display: flex;
 
 }
 
 /* counter box */
-#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:last-child,
-#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:last-child,
-#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:last-child,
-#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:last-child {
+#radio-codings-kits-nav-web:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-web"] > div:last-child,
+#radio-codings-kits-nav-software:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-software"] > div:last-child,
+#radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"] > div:last-child,
+#radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] > div:last-child {
 
   /* background-color: rgb(210, 195, 164);
 
@@ -65,16 +64,11 @@ input[name="name-radio-codings-nav-kits"] {
 }
 
 /* counter color text */
-#radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:last-child > div,
-#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:last-child > div,
-#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:last-child > div,
-#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:last-child > div {
+#radio-codings-kits-nav-web:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-web"] > div:last-child > div,
+#radio-codings-kits-nav-software:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-software"] > div:last-child > div,
+#radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"] > div:last-child > div,
+#radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] > div:last-child > div {
 
-  /* color: rgb(45, 42, 37);
-  color: rgb(122, 121, 121);
-
-  color: rgb(179, 161, 131);
-  */
   color:rgb(36, 36, 36);
 
 }
@@ -83,10 +77,10 @@ input[name="name-radio-codings-nav-kits"] {
 /* 🟥 Handlings - Content
 /* ------------------------------------------------------------- */
 
-/* #radio-codings-nav-kits-web:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-web"] > div:last-child > div,
-#radio-codings-nav-kits-software:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-software"] > div:last-child > div,
-#radio-codings-nav-kits-backend:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-backend"] > div:last-child > div,
-#radio-codings-nav-kits-others:checked ~ #codings-kits-nav label[for="radio-codings-nav-kits-others"] > div:last-child > div   */
+/* #radio-codings-kits-nav-web:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-web"] > div:last-child > div,
+#radio-codings-kits-nav-software:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-software"] > div:last-child > div,
+#radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"] > div:last-child > div,
+#radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] > div:last-child > div   */
 
 
 /* unshown primary checked + nav tech any is checked -> unshown codings masonry container */
