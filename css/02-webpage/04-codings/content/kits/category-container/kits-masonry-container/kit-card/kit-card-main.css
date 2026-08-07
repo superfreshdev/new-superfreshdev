@@ -41,7 +41,12 @@
   color:rgb(155, 136, 97); */
 
   background-color: rgba(28, 28, 28, .1);
-  color: rgba(28, 28, 28, .4);
+
+  background-color: rgba(46, 46, 46, 0.1);
+
+  background-color: rgba(215, 183, 120, .3);
+
+  color: rgba(28, 28, 28, .3);
 
 }
 
@@ -94,17 +99,17 @@
 
   font-size: 13.5px;
 
-  height: 1.8em;
+  height: 1.7em;
   padding: 0 .4em .1em .4em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .6em;
+  border-radius: .8em;
 
   color:rgb(184, 184, 184);
 
-  border: 1px dashed rgb(212, 212, 212);
+  border: 1px solid rgb(212, 212, 212);
 
 }
