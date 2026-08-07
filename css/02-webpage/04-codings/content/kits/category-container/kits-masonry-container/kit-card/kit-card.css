@@ -10,16 +10,16 @@
 
 .kit-card {
 
-  border-radius: .5em .8em .8em .5em;
+  border-radius: .5em .6em .6em .5em;
 
-  border-radius: .5em;
+  background-color: rgb(250, 250, 250);
 
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-left: .4em solid rgb(229, 214, 185);
 
-  background-color: rgb(253, 253, 253);
+  border-left: .4em solid rgba(28, 28, 28, .3);
 
-
-  border-left: .6em solid rgb(229, 214, 185);
+  /* border-left: .4em solid rgb(201, 201, 201); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
   transition: all .4s;
 

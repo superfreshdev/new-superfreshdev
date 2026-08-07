@@ -11,16 +11,16 @@
 #codings-kits-container {
 
   width: 100%;
-  padding: 1.3em;
+  padding: 2.3em 0em;
 
   display: grid;
   justify-items: center;
   align-content: flex-start;
 
-  row-gap: 1.3em;
+  row-gap: 3.3em;
 
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  /* border-left: 1px solid grey;
+  border-right: 1px solid grey; */
 
   /* defualt unshown, only by nav checked */
   display: none;
@@ -37,5 +37,7 @@
 
   display: grid;
   row-gap: 1.3em;
+
+  /* background-color: red; */
 
 }

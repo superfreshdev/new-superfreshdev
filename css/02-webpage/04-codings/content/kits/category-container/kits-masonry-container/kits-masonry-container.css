@@ -10,8 +10,11 @@
 
 .codings-kits-masonry-container {
 
-  display: flex;
-  flex-wrap: wrap;
+  padding: 0 0em;
+
+  display: grid;
+  align-items: flex-start;
+  grid: auto / 1fr 1fr;
 
   column-gap: 1.3em;
   row-gap: 1.3em;

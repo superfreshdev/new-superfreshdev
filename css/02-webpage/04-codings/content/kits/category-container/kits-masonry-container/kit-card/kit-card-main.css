@@ -36,9 +36,12 @@
 
   font-weight: bold;
 
+  /* background-color: rgb(201, 201, 201);
   background-color: rgb(229, 214, 185);
-  color:rgb(179, 149, 95);
+  color:rgb(155, 136, 97); */
 
+  background-color: rgba(28, 28, 28, .1);
+  color: rgba(28, 28, 28, .4);
 
 }
 
@@ -57,11 +60,13 @@
 
   font-size: 14px;
 
-  line-height: 1.5em;
+  line-height: 1.6em;
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
-  color:rgba(136, 136, 136, 0.6);
+  color:rgba(136, 136, 136, 1);
+
+  color:rgba(136, 136, 136, .8);
 
 }
 
