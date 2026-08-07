@@ -1,0 +1,83 @@
+/* ---------------------------------------------------------------- */
+/* > docs-category-header.css
+/* : doc category header
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Header | Category Container
+/* --------------------------------------------------------------- */
+
+.docs-category-header {
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Category Box | Header
+/* --------------------------------------------------------------- */
+
+.docs-header-category-box {
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .1em;
+
+  font-weight: bold;
+
+  /* opacity: .3; */
+
+  font-size: 14.5px;
+
+  border-radius: .8em;
+
+  background-color: rgba(28, 28, 28, .2);
+  color:rgb(63, 63, 63);
+
+  background-color: rgba(28, 28, 28, .1);
+  color:rgb(87, 87, 87);
+
+}
+
+/* Category Info */
+.docs-header-category-box > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* Img - Category Info */
+.docs-header-category-box > div:nth-of-type(1) > img {
+
+  opacity: .7;
+
+}
+
+/* Text - Category Info  */
+.docs-header-category-box > div:nth-of-type(1) > div {
+
+  opacity: .9;
+
+}
+
+/* Text Seperator */
+.docs-header-category-box > div:nth-of-type(2) {
+
+  opacity: .6;
+
+}
+
+/* Text Kits  */
+.docs-header-category-box > div:nth-of-type(3) {
+
+  opacity: .6;
+
+}

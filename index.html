@@ -382,10 +382,18 @@
           <!-- 🟨 kits container -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/kits/kits-container.css">
 
-          <!-- 🟨 kits header -->
+
+          <!-- ----------------------------------------- -->
+          <!-- 🟨 Kits - Category Container -->
+          <!-- ----------------------------------------- -->
+
+          <!-- 🟨 Kits - Category Container -->
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/kits/category-container/kits-category-container.css">
+
+          <!-- 🟨 Kits - Header -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/kits/category-container/header/kits-header.css">
 
-          <!-- 🟨 kits masonry container -->
+          <!-- 🟨 Kits - masonry container -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/kits/category-container/kits-masonry-container/kits-masonry-container.css">
 
           <!-- 🟨 kit card -->
@@ -399,22 +407,29 @@
         <!-- ------------------------------------------------------------ -->
 
           <!-- 🟩 default -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/codings-docs-container.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/codings-docs-unshown.css">
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/docs-container.css">
 
           <!-- 🟩 nav -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/nav/docs-nav.css">
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/nav/docs-nav-handlings.css">
           <!-- <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/nav/resp-codings-docs-nav.css"> -->
 
-          <!-- 🟩 docs rows item -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/docs-row-items/docs-row-item.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/docs-row-items/doc-item.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/docs-row-items/resp-docs-row-item.css">
+          <!-- 🟩 doc category container -->
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/docs-category-container.css">
+
+          <!-- category header -->
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/category-header/docs-category-header.css">
+
+          <!-- category card list -->
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/category-card-list/docs-category-card-list.css">
+
+          <!-- 🟩 doc card -->
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/docs-card/docs-card.css">
+
 
 
         <!-- 🟩 resp default content -->
-        <link rel="stylesheet" href="css/02-webpage/04-codings/content/resp-codings-content.css">
+        <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/resp-docs-container.css">
 
 
       <!-- ------------------------------------------------------------ -->
@@ -4186,8 +4201,8 @@
           <input type="radio" id="radio-codings-tech-nav" name="name-radio-codings-nav">
           <input  type="radio" id="radio-codings-algos-nav" name="name-radio-codings-nav">
           <input  type="radio" id="radio-codings-challenges-nav" name="name-radio-codings-nav">
-          <input checked  type="radio" id="radio-codings-kits-nav" name="name-radio-codings-nav">
-          <input type="radio" id="radio-codings-docs-nav" name="name-radio-codings-nav">
+          <input   type="radio" id="radio-codings-kits-nav" name="name-radio-codings-nav">
+          <input checked type="radio" id="radio-codings-docs-nav" name="name-radio-codings-nav">
           <input  type="radio" id="radio-codings-unshwon-nav" name="name-radio-codings-nav">
 
 
@@ -5037,7 +5052,7 @@
                 <div id="codings-content">
 
                   <!-- -------------------------------------------------------- -->
-                  <!-- ➡️🟨 [1/3] | Tasks Container -->
+                  <!-- 🟨 [1/3] | Tasks Container -->
                   <!-- -------------------------------------------------------- -->
                   <div id="codings-tasks-container">
 
@@ -6080,7 +6095,7 @@
                   </div>
 
                   <!-- -------------------------------------------------------- -->
-                  <!-- ➡️🟥 [2/3] | Kits Container -->
+                  <!-- 🟨 [2/3] | Kits Container -->
                   <!-- -------------------------------------------------------- -->
                   <div id="codings-kits-container">
 
@@ -6089,7 +6104,7 @@
                     <!-- ------------------------------------------------------------------ -->
                     <!-- ➡️🟥 1/x | Category Container -->
                     <!-- ------------------------------------------------------------------ -->
-                    <div class="codings-kits-category-container">
+                    <div class="kits-category-container">
 
                       <!-- ------------------------------------------------------------------ -->
                       <!-- 🟨 [1/2] | Header -->
@@ -6394,7 +6409,7 @@
                     <!-- ------------------------------------------------------------------ -->
                     <!-- 🟥 2/x | Category Container -->
                     <!-- ------------------------------------------------------------------ -->
-                    <div class="codings-kits-category-container">
+                    <div class="kits-category-container">
 
                       <!-- ------------------------------------------------------------------ -->
                       <!-- 🟨 [1/2] | Header -->
@@ -6699,7 +6714,7 @@
                     <!-- ------------------------------------------------------------------ -->
                     <!-- 🟥 3/x | Category Container -->
                     <!-- ------------------------------------------------------------------ -->
-                    <div class="codings-kits-category-container">
+                    <div class="kits-category-container">
 
                       <!-- ------------------------------------------------------------------ -->
                       <!-- 🟨 [1/2] | Header -->
@@ -7002,15 +7017,78 @@
                     </div>
 
 
-
                   </div>
 
                   <!-- -------------------------------------------------------- -->
-                  <!-- 🟥 [3/3] | Docs Container -->
+                  <!-- ➡️🟥 [3/3] | Docs Container -->
                   <!-- -------------------------------------------------------- -->
                   <div id="codings-docs-container">
 
-                    Codings Content | Docs Container
+                    <!-- ------------------------------------------------------------------------ -->
+                    <!-- ➡️🟥 Docs Category Container -->
+                    <!-- ------------------------------------------------------------------------ -->
+                    <div class="docs-category-container">
+
+                      <!-- ---------------------------------------------------------------- -->
+                      <!-- 🟨 Header  -->
+                      <!-- ---------------------------------------------------------------- -->
+                      <header class="docs-category-header">
+
+                        <!-- Info Box -->
+                        <div class="docs-header-category-box">
+
+                          <!-- [1/3] | Kits Category Box -->
+                          <div>
+
+                            <!-- img -->
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-web-coding.png"
+                                alt="img" class="img-h-0-8">
+
+                            <!-- title -->
+                            <div>CSS,JS</div>
+
+                          </div>
+
+                          <!-- [2/3] | Seperator -->
+                          <div>-</div>
+
+                          <!-- [3/3] | kits info box -->
+                          <div>PDFs</div>
+
+                        </div>
+
+
+                      </header>
+
+                      <!-- ---------------------------------------------------------------- -->
+                      <!-- ➡️🟥 Main - Docs Category Card List -->
+                      <!-- ---------------------------------------------------------------- -->
+                      <main class="docs-category-card-list">
+
+                        <!-- ➡️🟥 Doc Card - PDF -->
+                        <div class="docs-card">
+
+                          <!-- 1. Basic-Dev | Web-Dev | Software-Dev | Backend | AI | Others  -->
+
+                          <!-- ---------------------------------------------------- -->
+                          <!-- Main - Img -->
+                          <!-- ---------------------------------------------------- -->
+                          <main>
+
+                            <img src="media/imgs/content/02-codings/docs/frontend/"
+                                 alt="img">
+
+                          </main>
+
+                          <!-- ---------------------------------------------------- -->
+                          <!-- Footer - Img -->
+                          <!-- ---------------------------------------------------- -->
+
+                        </div>
+
+                      </main>
+
+                    </div>
 
                   </div>
 

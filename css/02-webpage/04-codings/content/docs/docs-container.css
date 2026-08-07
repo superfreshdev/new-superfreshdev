@@ -9,17 +9,21 @@
 
 #codings-docs-container {
 
-  padding: 1.3em;
-
   width: 100%;
-  height: 100%;
+  padding: 2.3em 0em;
 
   display: grid;
-  grid: 1fr / 1fr;
+  justify-items: center;
+  align-content: flex-start;
 
-  background-color: rgb(181, 181, 255);
+  row-gap: 3.3em;
 
-  /* default unshown */
-  display: none;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+  /* background-color: grey; */
+
+  /* defualt unshown, only by nav checked */
+  /* display: none; */
 
 }
