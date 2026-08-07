@@ -20,9 +20,9 @@
   background-color: rgba(250, 250, 250, .1);
 
 
-  border-left: .4em solid rgba(28, 28, 28, .2);
+  border-left: .4em solid rgba(28, 28, 28, .4);
 
-  border-left: .4em solid rgba(215, 183, 120, .6);
+  /* border-left: .4em solid rgba(215, 183, 120, .6); */
 
   /* border-left: .4em solid rgb(201, 201, 201); */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
