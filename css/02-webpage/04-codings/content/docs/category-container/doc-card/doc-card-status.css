@@ -1,0 +1,116 @@
+/* ---------------------------------------------------------------- */
+/* > doc-card-status.css
+/* : doc card status info
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Doc Card | In Progress, Later
+/* --------------------------------------------------------------- */
+
+.doc-card-status-in-progress,
+.doc-card-status-later {
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  padding-bottom: 1em;
+
+  display: grid;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+
+  row-gap: .4em;
+
+  border-radius: .6em;
+
+  background-color: rgba(128, 128, 128, .6);
+
+}
+
+/* Status Text */
+.doc-card-status-in-progress > div,
+.doc-card-status-later > div {
+
+  font-size: 13.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Status Box | In Progress | Later
+/* --------------------------------------------------------------- */
+
+.doc-card-status-box {
+
+  height: 6em;
+  min-width: 7em;
+
+  padding: 1.1em .6em;
+
+  display: grid;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+
+  row-gap: .4em;
+
+  font-weight: bold;
+
+  border-radius: 1em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Doc Card
+/* --------------------------------------------------------------- */
+
+.doc-card-status-in-progress  {
+
+
+}
+
+/* status box - in progress */
+.doc-card-status-in-progress .doc-card-status-box {
+
+  background-color: rgb(253, 212, 109);
+  color: rgb(182, 141, 39);
+
+}
+
+/* img */
+.doc-card-status-in-progress > .doc-card-status-box > img {
+
+  height: 1.7em;
+  opacity: .7;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Later | Doc Card
+/* --------------------------------------------------------------- */
+
+.doc-card-status-later {
+
+
+}
+
+/* status box - later */
+.doc-card-status-later .doc-card-status-box {
+
+  background-color: rgb(186, 186, 186);
+  color: rgb(72, 72, 72);
+
+}
+
+/* img */
+.doc-card-status-later > .doc-card-status-box > img {
+
+  height: 1.5em;
+  opacity: .6;
+
+}

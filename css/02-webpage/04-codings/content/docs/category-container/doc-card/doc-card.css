@@ -1,0 +1,191 @@
+/* ---------------------------------------------------------------- */
+/* > doc-card.css
+/* : doc card
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Docs Card
+/* --------------------------------------------------------------- */
+
+.doc-card,
+.doc-card-in-progress,
+.doc-card-later {
+
+  position: relative;
+
+  width: 100%;
+
+  display: grid;
+  grid: 1fr auto / 1fr;
+
+  border-radius: .6em;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  transition: all .4s;
+
+}
+
+/* hover - img */
+.doc-card:hover > main > img {
+
+  opacity: 1;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Doc Card
+/* --------------------------------------------------------------- */
+
+.doc-card > main,
+.doc-card-in-progress > main,
+.doc-card-later > main {
+
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img | Docs Card
+/* --------------------------------------------------------------- */
+
+.doc-card > main > img {
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: .8em;
+
+  opacity: .5;
+
+}
+
+/* Extra - in progress, later - img */
+.doc-card-in-progress  > main > img,
+.doc-card-later  > main > img {
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: .8em;
+
+  opacity: .5;
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Footer | Docs Card
+/* --------------------------------------------------------------- */
+
+.doc-card > footer,
+.doc-card-in-progress > footer,
+.doc-card-later > footer {
+
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 2.5em;
+
+  display: grid;
+  grid: auto / 1fr 1fr;
+
+  border-radius: 0 0 .6em .6em;
+
+
+  background-color: rgba(44, 44, 44, .4);
+
+}
+
+.doc-card > footer > a:nth-of-type(1),
+.doc-card-in-progress > footer > a:nth-of-type(1),
+.doc-card-later > footer > a:nth-of-type(1) {
+
+  border-right: 1px solid rgb(126, 126, 126);
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Link | Footer | Docs Card
+/* --------------------------------------------------------------- */
+
+.doc-card > footer > a,
+.doc-card-in-progress > footer > a,
+.doc-card-later > footer > a {
+
+  width: 100%;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+  color:rgb(206, 206, 206);
+  opacity: .3;
+
+  transition: all .4s;
+
+}
+
+.doc-card > footer > a > div,
+.doc-card-in-progress > footer > a > div,
+.doc-card-later > footer > a > div {
+
+  font-size: 13.5px;
+
+}
+
+/* link 1 */
+.doc-card > footer > a:nth-of-type(1),
+.doc-card-in-progress > footer > a:nth-of-type(1),
+.doc-card-later > footer > a:nth-of-type(1) {
+
+  border-radius: 0 0 0em .5em;
+
+}
+/* img download link - special layout fix */
+.doc-card > footer > a:nth-of-type(1) > img,
+.doc-card-in-progress > footer > a:nth-of-type(1) > img,
+.doc-card-later > footer > a:nth-of-type(1) > img {
+
+  margin-top: 1px;
+
+}
+
+/* link 2 */
+.doc-card > footer > a:nth-of-type(2),
+.doc-card-in-progress > footer > a:nth-of-type(2),
+.doc-card-later > footer > a:nth-of-type(2) {
+
+  border-radius: 0 0 .5em 0em;
+
+}
+
+/* img external link - special layout fix */
+.doc-card > footer > a:nth-of-type(2) > img,
+.doc-card-in-progress > footer > a:nth-of-type(2) > img,
+.doc-card-later > footer > a:nth-of-type(2) > img {
+
+  margin-top: 2px;
+
+}
+
+/* hover */
+.doc-card > footer > a:hover,
+.doc-card-in-progress > footer > a:hover,
+.doc-card-later > footer > a:hover  {
+
+  background-color: rgb(66, 66, 66);
+  opacity: 1;
+
+}

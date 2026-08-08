@@ -13,6 +13,8 @@
   width: 100%;
 
   display: grid;
+  justify-content: center;
+
   row-gap: 1.3em;
 
   /* background-color: red; */

@@ -9,10 +9,15 @@
 
 .docs-category-card-list {
 
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 
-  justify-content: center;
+  display: grid;
+
+  /* small mobile */
+  grid: auto / 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
 
   column-gap: 1em;
   row-gap: 1em;

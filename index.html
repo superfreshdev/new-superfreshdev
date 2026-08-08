@@ -424,7 +424,8 @@
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/category-card-list/docs-category-card-list.css">
 
           <!-- 🟩 doc card -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/docs-card/docs-card.css">
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/doc-card/doc-card.css">
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/docs/category-container/doc-card/doc-card-status.css">
 
 
 
@@ -7019,6 +7020,17 @@
 
                   </div>
 
+                  <!--
+
+
+                    #codings-docs-container
+
+                      - docs-category-container
+                        -docs-category-header
+                        -docs-category-card-list
+
+                  -->
+
                   <!-- -------------------------------------------------------- -->
                   <!-- ➡️🟥 [3/3] | Docs Container -->
                   <!-- -------------------------------------------------------- -->
@@ -7027,60 +7039,74 @@
                     <!-- 1. Basic-Dev | Web-Dev | Software-Dev | Backend | AI | Others  -->
 
                     <!-- ------------------------------------------------------------------------ -->
-                    <!-- ➡️🟥 1 | Docs Category Container -->
+                    <!-- 🟩 1 | Docs Category Container -->
                     <!-- ------------------------------------------------------------------------ -->
                     <div class="docs-category-container">
 
                       <!-- ---------------------------------------------------------------- -->
-                      <!-- 🟨 Header  -->
+                      <!-- 🟩 Header  -->
                       <!-- ---------------------------------------------------------------- -->
                       <header class="docs-category-header">
 
                         <!-- Info Box -->
-                        <div class="docs-header-category-box">
+                        <div class="docs-category-info-box">
 
-                          <!-- [1/3] | Kits Category Box -->
-                          <div>
+                          <!-- title -->
+                          <div>Angular 17</div>
 
-                            <!-- img -->
-                            <img src="media/imgs/icons/02-icon-colors/01-black/black-web-coding.png"
-                                alt="img" class="img-h-0-8">
+                          <!-- optional - sub title -->
+                          <div style="display: none;">
 
-                            <!-- title -->
-                            <div>CSS,JS</div>
+                            <!-- Seperator -->
+                            <div>-</div>
+
+                            <!-- Sub - Title -->
+                            <div>Basics</div>
 
                           </div>
 
-                          <!-- [2/3] | Seperator -->
-                          <div>-</div>
-
-                          <!-- [3/3] | kits info box -->
-                          <div>PDFs</div>
-
                         </div>
-
 
                       </header>
 
                       <!-- ---------------------------------------------------------------- -->
-                      <!-- ➡️🟥 Main - Docs Category Card List -->
+                      <!-- 🟩 Main - Docs Category Card List -->
                       <!-- ---------------------------------------------------------------- -->
                       <main class="docs-category-card-list">
 
-                        <!-- ➡️🟥 Angular - 17 - Oeko -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Angular - 17 - Oeko -->
+                        <div class="doc-card-in-progress">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-oekosystem.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-oekosystem.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-in-progress">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-fire-1.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>in progress</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7103,7 +7129,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7114,20 +7140,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Angular - 17 - CLI -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Angular - 17 - CLI -->
+                        <div class="doc-card-later">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-cli.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-cli.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7150,7 +7195,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7161,20 +7206,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Angular - 17 - DI -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Angular - 17 - DI -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-di.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-di.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7197,7 +7261,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7208,20 +7272,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Angular - 17 - Erweiterte Komp -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Angular - 17 - Erweiterte Komp -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/Ang17-Erweiterte-Komponenten.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/Ang17-Erweiterte-Komponenten.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7244,7 +7327,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7255,19 +7338,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Angular - 17 - Routing -->
-                        <div class="docs-card">
-
-
-                          <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
-                          <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-routing.png"
-                                alt="img">
-
+                        <!-- 🟩 Angular - 17 - Routing -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Main - Img-->
+                          <!-- ---------------------------------------------------- -->
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-routing.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
+
+
+                            </div>
+
+                          </main>
+
+                          <!-- ---------------------------------------------------- -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7290,7 +7393,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7301,20 +7404,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Angular - 17 - Formulare -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Angular - 17 - Formulare -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-formulare.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/web-dev/angular/17/ang17-formulare.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7337,7 +7459,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7353,7 +7475,7 @@
                     </div>
 
                     <!-- ------------------------------------------------------------------------ -->
-                    <!-- ➡️🟥 2 | Docs Category Container -->
+                    <!-- 🟩 2 | Docs Category Container -->
                     <!-- ------------------------------------------------------------------------ -->
                     <div class="docs-category-container">
 
@@ -7363,50 +7485,64 @@
                       <header class="docs-category-header">
 
                         <!-- Info Box -->
-                        <div class="docs-header-category-box">
+                        <div class="docs-category-info-box">
 
-                          <!-- [1/3] | Kits Category Box -->
-                          <div>
+                          <!-- title -->
+                          <div>Java World</div>
 
-                            <!-- img -->
-                            <img src="media/imgs/icons/02-icon-colors/01-black/black-web-coding.png"
-                                alt="img" class="img-h-0-8">
+                          <!-- optional - sub title -->
+                          <div style="display: none;">
 
-                            <!-- title -->
-                            <div>CSS,JS</div>
+                            <!-- Seperator -->
+                            <div>-</div>
+
+                            <!-- Sub - Title -->
+                            <div>Basics</div>
 
                           </div>
 
-                          <!-- [2/3] | Seperator -->
-                          <div>-</div>
-
-                          <!-- [3/3] | kits info box -->
-                          <div>PDFs</div>
-
                         </div>
-
 
                       </header>
 
                       <!-- ---------------------------------------------------------------- -->
-                      <!-- ➡️🟥 Main - Docs Category Card List -->
+                      <!-- 🟩 Main - Docs Category Card List -->
                       <!-- ---------------------------------------------------------------- -->
                       <main class="docs-category-card-list">
 
-                        <!-- ➡️🟥 Java - 1/3 - Grundlagen -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Java - 1/3 - Grundlagen -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/java/java-1-3-grundlagen.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/java/java-1-3-grundlagen.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7429,7 +7565,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7440,20 +7576,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Java - 2/3 - OOP,... -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Java - 2/3 - OOP,... -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/java/java-2-3-grundlagen.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/java/java-2-3-grundlagen.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7476,7 +7631,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7487,20 +7642,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Java - 3/3 - Generics, ... -->
-                         <div class="docs-card">
-
-
+                        <!-- 🟩 Java - 3/3 - Generics, ... -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/java/java-3-3-grundlagen.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/java/java-3-3-grundlagen.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7523,7 +7697,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7541,7 +7715,7 @@
                     </div>
 
                     <!-- ------------------------------------------------------------------------ -->
-                    <!-- ➡️🟥 3 | Docs Category Container -->
+                    <!-- 🟩 3 | Docs Category Container -->
                     <!-- ------------------------------------------------------------------------ -->
                     <div class="docs-category-container">
 
@@ -7551,97 +7725,64 @@
                       <header class="docs-category-header">
 
                         <!-- Info Box -->
-                        <div class="docs-header-category-box">
+                        <div class="docs-category-info-box">
 
-                          <!-- [1/3] | Kits Category Box -->
+                          <!-- title -->
+                          <div>Spring Boot</div>
+
+                          <!-- optional - sub title -->
                           <div>
 
-                            <!-- img -->
-                            <img src="media/imgs/icons/02-icon-colors/01-black/black-web-coding.png"
-                                alt="img" class="img-h-0-8">
+                            <!-- Seperator -->
+                            <div>-</div>
 
-                            <!-- title -->
-                            <div>Spring Boot - Basics</div>
+                            <!-- Sub - Title -->
+                            <div>Basics</div>
 
                           </div>
 
-                          <!-- [2/3] | Seperator -->
-                          <div>-</div>
-
-                          <!-- [3/3] | kits info box -->
-                          <div>PDFs</div>
-
                         </div>
-
 
                       </header>
 
                       <!-- ---------------------------------------------------------------- -->
-                      <!-- ➡️🟥 Main - Docs Category Card List -->
+                      <!-- 🟩 Main - Docs Category Card List -->
                       <!-- ---------------------------------------------------------------- -->
                       <main class="docs-category-card-list">
 
-                        <!-- ➡️🟥 Spring Boot - Basics -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Spring Boot - Basics -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/basics/spring-boot-grundlagen.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/basics/spring-boot-grundlagen.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
-                          <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
-                          <!-- ---------------------------------------------------- -->
-                          <footer>
+                            </div>
 
-                            <!-- ODT - Link -->
-                            <a href=""
-                                target="_blank">
-
-                              <!-- img -->
-                              <img src="media/imgs/icons/02-icon-colors/02-white/white-download-arrow.png"
-                                    alt="img" class="img-h-0-8">
-
-                              <!-- text -->
-                              <div>.odt</div>
-
-                            </a>
-
-                            <!-- PDF - Link -->
-                            <a href=""
-                                target="_blank">
-
-                              <!-- img -->
-                              <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
-
-                              <!-- text -->
-                              <div>pdf</div>
-
-                            </a>
-
-                          </footer>
-
-                        </div>
-
-                        <!-- ➡️🟥 Spring Boot - MS -->
-                        <div class="docs-card">
-
-
+                          </main>
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
-                          <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/basics/spring-boot-microservices.png"
-                                alt="img">
-
-
-                          <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7664,7 +7805,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7675,20 +7816,39 @@
 
                         </div>
 
-                        <!-- ➡️🟥 Spring Boot - Amigocode - 1/2 -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Spring Boot - MS -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/amigocode/01-Amigocode-MS-Spring-Cloud-1.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/basics/spring-boot-microservices.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7711,7 +7871,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7722,20 +7882,39 @@
 
                         </div>
 
-                         <!-- ➡️🟥 Spring Boot - Amigocode - 2/2 -->
-                        <div class="docs-card">
-
-
+                        <!-- 🟩 Spring Boot - Amigocode - 1/2 -->
+                        <div class="doc-card">
 
                           <!-- ---------------------------------------------------- -->
-                          <!-- Img -->
+                          <!-- Main - Img-->
                           <!-- ---------------------------------------------------- -->
-                          <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/amigocode/01-Amigocode-MS-Spring-Cloud-2.png"
-                                alt="img">
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/amigocode/01-Amigocode-MS-Spring-Cloud-1.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
 
 
+                            </div>
+
+                          </main>
+
                           <!-- ---------------------------------------------------- -->
-                          <!-- Footer - Img -->
+                          <!-- Footer - Links ( .odt, pdf )-->
                           <!-- ---------------------------------------------------- -->
                           <footer>
 
@@ -7758,7 +7937,7 @@
 
                               <!-- img -->
                               <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
-                                   alt="img" class="img-h-0-8">
+                                   alt="img" class="img-h-0-9">
 
                               <!-- text -->
                               <div>pdf</div>
@@ -7769,7 +7948,71 @@
 
                         </div>
 
+                        <!-- 🟩 Spring Boot - Amigocode - 2/2 -->
+                        <div class="doc-card">
 
+                          <!-- ---------------------------------------------------- -->
+                          <!-- Main - Img-->
+                          <!-- ---------------------------------------------------- -->
+                          <main>
+
+                            <!-- IMG -->
+                            <img src="media/imgs/content/02-codings/docs/software-dev/spring-boot/amigocode/01-Amigocode-MS-Spring-Cloud-2.png"
+                                  alt="img">
+
+                            <!-- Optional | Status Info | In Progress, Later -->
+                            <div class="doc-card-status-later" style="display: none;">
+
+                              <div class="doc-card-status-box">
+
+                                <!-- IMG -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-stop-hand.png"
+                                      alt="img">
+
+                                <!-- Status Text -->
+                                <div>later</div>
+
+                              </div>
+
+
+                            </div>
+
+                          </main>
+
+                          <!-- ---------------------------------------------------- -->
+                          <!-- Footer - Links ( .odt, pdf )-->
+                          <!-- ---------------------------------------------------- -->
+                          <footer>
+
+                            <!-- ODT - Link -->
+                            <a href=""
+                                target="_blank">
+
+                              <!-- img -->
+                              <img src="media/imgs/icons/02-icon-colors/02-white/white-download-arrow.png"
+                                    alt="img" class="img-h-0-8">
+
+                              <!-- text -->
+                              <div>.odt</div>
+
+                            </a>
+
+                            <!-- PDF - Link -->
+                            <a href=""
+                                target="_blank">
+
+                              <!-- img -->
+                              <img src="media/imgs/icons/02-icon-colors/02-white/white-external-link.png"
+                                   alt="img" class="img-h-0-9">
+
+                              <!-- text -->
+                              <div>pdf</div>
+
+                            </a>
+
+                          </footer>
+
+                        </div>
 
                       </main>
 
