@@ -10,74 +10,75 @@
 
 .codings-kits-header {
 
+  padding-right: .6em;
+
+  height: 6em;
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
-
-}
-
-/* --------------------------------------------------------------- */
-/* Category Box | Header
-/* --------------------------------------------------------------- */
-
-.codings-kits-header-category-box {
-
-  height: 2.3em;
-  padding: 0 .6em;
 
   display: flex;
   align-items: center;
-  column-gap: .1em;
+  justify-content: center;
 
-  font-weight: bold;
 
-  /* opacity: .3; */
-
-  font-size: 14.5px;
-
-  border-radius: .8em;
-
-  background-color: rgba(28, 28, 28, .2);
-  color:rgb(63, 63, 63);
-
-  background-color: rgba(28, 28, 28, .1);
-  color:rgb(87, 87, 87);
+  /* background-color: red; */
 
 }
 
-/* Category Info */
-.codings-kits-header-category-box > div:nth-of-type(1) {
+/* --------------------------------------------------------------- */
+/* Category Info Box | Header
+/* --------------------------------------------------------------- */
+
+.kits-category-info-box {
+
+  font-size: 16px;
+
+  padding: .6em 1em;
 
   display: flex;
   align-items: center;
   column-gap: .3em;
 
-}
+  font-weight: bold;
 
-/* Img - Category Info */
-.codings-kits-header-category-box > div:nth-of-type(1) > img {
+  /* opacity: .3; */
 
-  opacity: .7;
+  border-radius: .6em;
 
-}
+  background-color: rgba(28, 28, 28, .1);
 
-/* Text - Category Info  */
-.codings-kits-header-category-box > div:nth-of-type(1) > div {
 
-  opacity: .9;
 
-}
+  /* background-color: rgba(28, 28, 28, .8); */
 
-/* Text Seperator */
-.codings-kits-header-category-box > div:nth-of-type(2) {
-
-  opacity: .6;
+  opacity: .8;
 
 }
 
-/* Text Kits  */
-.codings-kits-header-category-box > div:nth-of-type(3) {
+/* --------------------------------------------------------------- */
+/* Title | Category Box
+/* --------------------------------------------------------------- */
 
-  opacity: .6;
+.kits-category-info-box > div:nth-of-type(1) {
+
+  color:rgb(114, 114, 114)
+
+}
+
+/* --------------------------------------------------------------- */
+/* Sub Title | Category Box
+/* --------------------------------------------------------------- */
+
+.kits-category-info-box > div:nth-of-type(2) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+}
+
+/* Sub Title */
+.kits-category-info-box > div:nth-of-type(2) > div {
+
+  color:rgb(173, 173, 173)
 
 }

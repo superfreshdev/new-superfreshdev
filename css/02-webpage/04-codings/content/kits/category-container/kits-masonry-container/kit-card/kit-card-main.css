@@ -44,7 +44,7 @@
 
   background-color: rgba(46, 46, 46, .1);
 
-  /* background-color: rgba(215, 183, 120, .3); */
+  background-color: rgb(242, 216, 170);
 
   color: rgba(28, 28, 28, .3);
 
@@ -71,7 +71,7 @@
 
   color:rgba(136, 136, 136, 1);
 
-  color:rgba(136, 136, 136, .8);
+  color:rgba(136, 136, 136, .7);
 
 }
 
@@ -106,10 +106,12 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .8em;
+  border-radius: .5em;
 
   color:rgb(184, 184, 184);
 
   border: 1px solid rgb(212, 212, 212);
+
+  opacity: .7;
 
 }
