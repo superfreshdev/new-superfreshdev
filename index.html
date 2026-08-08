@@ -4706,16 +4706,18 @@
                   <!-- ----------------------------------------------------- -->
 
                     <!-- 🟩 Radios - Codings Sub Nav Docs  -->
-                    <input type="radio" id="radio-codings-docs-nav-frontend" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-dev-basic" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-web" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-software" name="name-radio-codings-docs-nav">
                     <input type="radio" id="radio-codings-docs-nav-backend" name="name-radio-codings-docs-nav">
-                    <input type="radio" id="radio-codings-docs-nav-cloud-devops" name="name-radio-codings-docs-nav">
                     <input type="radio" id="radio-codings-docs-nav-ai" name="name-radio-codings-docs-nav">
+                    <input type="radio" id="radio-codings-docs-nav-others" name="name-radio-codings-docs-nav">
 
                     <!-- 🟩 Docs - Sub Nav -->
                     <nav id="codings-docs-nav">
 
-                      <!-- label | frontend -->
-                      <label for="radio-codings-docs-nav-frontend" class="lbl-little lbl-pill-icon-text-counter-light-grey">
+                      <!-- label | dev basic -->
+                      <label for="radio-codings-docs-nav-dev-basic" class="lbl-little lbl-pill-icon-text-counter-light-grey">
 
                         <!-- icon + title box -->
                         <div>
@@ -4731,7 +4733,7 @@
                               class="img-h-0-9">
 
                           <!-- title -->
-                          <div>Frontend</div>
+                          <div>Dev Basic</div>
 
                         </div>
 
@@ -4742,8 +4744,8 @@
 
                       </label>
 
-                      <!-- label | backend -->
-                      <label for="radio-codings-docs-nav-backend" class="lbl-little lbl-pill-icon-text-counter-light-grey">
+                      <!-- label | web dev -->
+                      <label for="radio-codings-docs-nav-web" class="lbl-little lbl-pill-icon-text-counter-light-grey">
 
                         <!-- icon + title box -->
                         <div>
@@ -4759,7 +4761,7 @@
                               class="img-h-1-1">
 
                           <!-- title -->
-                          <div>Backend</div>
+                          <div>Web</div>
 
 
                         </div>
@@ -4771,8 +4773,8 @@
 
                       </label>
 
-                      <!-- label | cloud - devops -->
-                      <label for="radio-codings-docs-nav-cloud-devops" class="lbl-little lbl-pill-icon-text-counter-light-grey">
+                      <!-- label | software dev -->
+                      <label for="radio-codings-docs-nav-software" class="lbl-little lbl-pill-icon-text-counter-light-grey">
 
                         <!-- icon + title box -->
                         <div>
@@ -4788,7 +4790,36 @@
                               class="img-h-1">
 
                           <!-- title -->
-                          <div>Cloud & DevOps</div>
+                          <div>Software</div>
+
+
+                        </div>
+
+                        <!-- counter -->
+                        <div>
+                          <div>x3</div>
+                        </div>
+
+                      </label>
+
+                      <!-- label | backend -->
+                      <label for="radio-codings-docs-nav-backend" class="lbl-little lbl-pill-icon-text-counter-light-grey">
+
+                        <!-- icon + title box -->
+                        <div>
+
+                          <!-- img grey -->
+                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai.png"
+                              alt="img"
+                              class="img-h-0-9">
+
+                          <!-- img black | default unshown -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-ai.png"
+                              alt="img"
+                              class="img-h-0-9">
+
+                          <!-- title -->
+                          <div>Backend</div>
 
 
                         </div>
@@ -4818,6 +4849,35 @@
 
                           <!-- title -->
                           <div>AI</div>
+
+
+                        </div>
+
+                        <!-- counter -->
+                        <div>
+                          <div>x3</div>
+                        </div>
+
+                      </label>
+
+                      <!-- label | others -->
+                      <label for="radio-codings-docs-nav-others" class="lbl-little lbl-pill-icon-text-counter-light-grey">
+
+                        <!-- icon + title box -->
+                        <div>
+
+                          <!-- img grey -->
+                          <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai.png"
+                              alt="img"
+                              class="img-h-0-9">
+
+                          <!-- img black | default unshown -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-ai.png"
+                              alt="img"
+                              class="img-h-0-9">
+
+                          <!-- title -->
+                          <div>Others</div>
 
 
                         </div>
@@ -7020,23 +7080,12 @@
 
                   </div>
 
-                  <!--
-
-
-                    #codings-docs-container
-
-                      - docs-category-container
-                        -docs-category-header
-                        -docs-category-card-list
-
-                  -->
 
                   <!-- -------------------------------------------------------- -->
                   <!-- ➡️🟥 [3/3] | Docs Container -->
                   <!-- -------------------------------------------------------- -->
                   <div id="codings-docs-container">
 
-                    <!-- 1. Basic-Dev | Web-Dev | Software-Dev | Backend | AI | Others  -->
 
                     <!-- ------------------------------------------------------------------------ -->
                     <!-- 🟩 1 | Docs Category Container -->

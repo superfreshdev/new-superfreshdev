@@ -18,10 +18,12 @@ input[name="name-radio-codings-docs-nav"] {
 /* ------------------------------------------------------------- */
 
 /* text color */
-#radio-codings-docs-nav-frontend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-frontend"],
+#radio-codings-docs-nav-dev-basic:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-dev-basic"],
+#radio-codings-docs-nav-web:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-web"],
+#radio-codings-docs-nav-software:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-software"],
 #radio-codings-docs-nav-backend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-backend"],
-#radio-codings-docs-nav-cloud-devops:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-cloud-devops"],
-#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"] {
+#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"],
+#radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"] {
 
   /* background-color: rgb(210, 195, 164);
   color:rgb(36, 36, 36); */
@@ -34,34 +36,41 @@ input[name="name-radio-codings-docs-nav"] {
 }
 
 /* unshow grey img */
-#radio-codings-docs-nav-frontend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-frontend"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-docs-nav-backend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-backend"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-docs-nav-cloud-devops:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-cloud-devops"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"] > div:nth-of-type(1) > img:nth-of-type(1) {
+#radio-codings-docs-nav-dev-basic:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-dev-basic"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-docs-nav-web:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-web"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-docs-nav-software:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-software"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-docs-nav-backend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-backend"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"]  > div:nth-of-type(1) > img:nth-of-type(1) {
 
-   display: none;
+  display: none;
 
 }
 
 /* unshow black img */
-#radio-codings-docs-nav-frontend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-frontend"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-codings-docs-nav-backend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-backend"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-codings-docs-nav-cloud-devops:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-cloud-devops"] > div:nth-of-type(1) > img:nth-of-type(2),
-#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"] > div:nth-of-type(1) > img:nth-of-type(2) {
+#radio-codings-docs-nav-dev-basic:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-dev-basic"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-docs-nav-web:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-web"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-docs-nav-software:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-software"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-docs-nav-backend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-backend"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"]  > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"]  > div:nth-of-type(1) > img:nth-of-type(2) {
 
-   display: flex;
+  display: flex;
 
 }
 
 /* counter color */
-#radio-codings-docs-nav-frontend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-frontend"] > div:last-child > div,
+#radio-codings-docs-nav-dev-basic:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-dev-basic"] > div:last-child > div,
+#radio-codings-docs-nav-web:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-web"] > div:last-child > div,
+#radio-codings-docs-nav-software:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-software"] > div:last-child > div,
 #radio-codings-docs-nav-backend:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-backend"] > div:last-child > div,
-#radio-codings-docs-nav-cloud-devops:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-cloud-devops"] > div:last-child > div,
-#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"] > div:last-child > div {
+#radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"] > div:last-child > div,
+#radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"] > div:last-child > div {
 
   color:rgb(36, 36, 36);
 
 }
+
 
 /* ------------------------------------------------------------- */
 /* Handlings - Content
