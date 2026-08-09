@@ -9,24 +9,18 @@
 /* 🏠 DOM Elements
 /* -------------------------------------------------------------------- */
 
+  // Body Nav - Codings Radio
+  var bodyNavCodingRadio = document.getElementById("radio-codings");
+  // Docs Nav - Radios
+  var docsNavRadios = document.querySelectorAll('input[name="name-radio-codings-docs-nav"]');
+
   // Final Content Add Point
   var docsContainer = document.getElementById("codings-docs-container");
-
-  // Radios - Docs Nav
-  var docsNavRadios = document.querySelectorAll('input[name="name-radio-codings-docs-nav"]');
 
 
 /* -------------------------------------------------------------------- */
 /* 👾 Variables
 /* -------------------------------------------------------------------- */
-
-  /*
-
-      🟩 100 % - Perfekte Wartbarkeit
-
-        - category + doc cards hinzufügen in json und zack update iss da
-
-  */
 
   var styleDocCategoryContainer = "data/json/codings/docs/config-styles/style-docs-category-container.json";
 
@@ -59,14 +53,48 @@
     console.log("docsNavRadios(length): " + docsNavRadios.length )
 
     /* ------------------------------------------------------------------ */
-    /* Step 1/?
-    /* > Create New Docs Category Containers by checked conditions
-    /* > codings + docs must be checked
+    /* ➡️🟥 Step 1/1
+    /* > Try to Create - New Doc Category Containers
+    /* > if codings & docs is checked
     /* ------------------------------------------------------------------ */
 
-      // Step 1.1 - Delete Old Doc Category Containers
+      var updateDocsContent = false;
 
-      // Step 1.2 - Create New Doc Category Containers from Checked Docs Nav State
+      console.log("➡️ Step 1/1 - Delete Old Doc Category Containers")
+
+        // Body Nav - Codings - must be checked
+        updateDocsContent = await getCheckedStatus( bodyNavCodingRadio );
+        console.log("🔺Body-Nav-Codings(checked)(1/2): " + updateDocsContent )
+
+        // Docs Nav - andy Radio must be checked
+        updateDocsContent = await isAnyRadioChecked( docsNavRadios );
+        console.log("🔺Docs-Nav-(checked)(2/2): " + updateDocsContent )
+
+      // Should Create New Doc Category Containers ?!
+      if( updateDocsContent ) {
+
+        console.log("❇️ Start Clean Create Process - Doc Category Containers")
+
+        /* ---------------------------------------------------------------------- */
+        /* ➡️🟥 Step 1.1 - Delete Old Doc Category Containers
+        /* ---------------------------------------------------------------------- */
+
+        /* ---------------------------------------------------------------------- */
+        /* 🟥 Step 1.2 - Create New Doc Category Containers
+        /* ---------------------------------------------------------------------- */
+
+          // console.log("➡️ Step 2 - Create New Doc Category Containers")
+
+
+      } else {
+
+        console.log("🛑 Stop Creating Process - Doc Category Containers")
+
+
+      }
+
+
+
 
 
   });
