@@ -44,11 +44,10 @@
 
   border-radius: .6em;
 
-  background-color: rgba(28, 28, 28, .1);
+  background-color: rgba(31, 31, 31, 0.8);
+  color: rgb(238, 238, 238);
 
-  /* background-color: rgba(28, 28, 28, .8); */
 
-  opacity: .8;
 
 }
 
@@ -58,8 +57,7 @@
 
 .docs-category-info-box > div:nth-of-type(1) {
 
-  color:rgb(114, 114, 114)
-
+  color:rgb(220, 220, 220)
 }
 
 /* --------------------------------------------------------------- */
@@ -77,6 +75,6 @@
 /* Sub Title */
 .docs-category-info-box > div:nth-of-type(2) > div {
 
-  color:rgb(173, 173, 173)
+  color:rgb(134, 134, 134);
 
 }

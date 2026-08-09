@@ -10,17 +10,15 @@
 
 .kit-card {
 
-  border-radius: .4em;
-
-  background-color: rgba(250, 250, 250, .1);
-
-  border-left: .4em solid rgba(28, 28, 28, .4);
-
-  border-left: .4em solid rgb(242, 216, 170);
+  border-radius: .6em;
 
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
-  background-color: rgb(255, 252, 247);
+  border: 1px solid rgb(207, 207, 207);
+
+  background-color: rgb(250, 250, 250);
+
+  /* background-color: rgb(255, 252, 247); */
 
   transition: all .4s;
 
@@ -29,5 +27,9 @@
 .kit-card:hover {
 
   background-color: rgb(249, 249, 249);
+
+  background-color: white;
+
+  border: 1px solid rgb(196, 196, 196);
 
 }

@@ -36,17 +36,8 @@
 
   font-weight: bold;
 
-  /* background-color: rgb(201, 201, 201);
-  background-color: rgb(229, 214, 185);
-  color:rgb(155, 136, 97); */
-
-  background-color: rgba(28, 28, 28, .1);
-
-  background-color: rgba(46, 46, 46, .1);
-
-  background-color: rgb(242, 216, 170);
-
-  color: rgba(28, 28, 28, .3);
+  background-color: rgba(58, 58, 58, 0.3);
+  color: rgb(145, 145, 145);
 
 }
 
@@ -110,8 +101,8 @@
 
   color:rgb(184, 184, 184);
 
-  border: 1px solid rgb(212, 212, 212);
+  border: 1px dashed rgb(212, 212, 212);
 
-  opacity: .7;
+  opacity: .9;
 
 }

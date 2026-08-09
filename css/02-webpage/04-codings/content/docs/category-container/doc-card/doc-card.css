@@ -34,6 +34,20 @@
 
 }
 
+/* in progress - light yellow transparent */
+.doc-card-in-progress > main .doc-card-status-in-progress {
+
+  background-color: rgba(253, 212, 109, .3);
+
+}
+
+/* later - light grey transparent */
+.doc-card-later > main .doc-card-status-later {
+
+  background-color: rgba(186, 186, 186, .3);
+
+}
+
 /* --------------------------------------------------------------- */
 /* Main | Doc Card
 /* --------------------------------------------------------------- */
