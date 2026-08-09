@@ -1,4 +1,4 @@
-console.log("🟨 codings-nav-handler.js")
+// console.log("🟨 codings-nav-handler.js")
 
 //
 
@@ -120,7 +120,7 @@ console.log("🟨 codings-nav-handler.js")
 */
 
   var radioCodingsNavs = document.querySelectorAll('input[name="name-radio-codings-nav"]');
-  console.log("🔺 radioCodingsNavs(length) = " + radioCodingsNavs.length )
+  // console.log("🔺 radioCodingsNavs(length) = " + radioCodingsNavs.length )
 
   // configLoadTaskContent
 

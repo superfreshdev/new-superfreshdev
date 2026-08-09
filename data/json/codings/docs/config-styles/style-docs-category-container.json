@@ -1,0 +1,82 @@
+{
+
+  "paths": {
+
+    "pathImgDocCard": "media/imgs/content/02-codings/docs/",
+    "pathIconWhite": "media/imgs/icons/02-icon-colors/02-white/",
+    "pathIconBlack": "media/imgs/icons/02-icon-colors/01-black/"
+
+  },
+
+  "docsCategoryContainer": {
+
+    "cssClass": "docs-category-container",
+
+    "header": {
+
+      "cssClass": "docs-category-header",
+      "infoBoxCssClass": "docs-category-info-box"
+
+    },
+
+    "main": {
+
+      "cssClass": "docs-category-card-list",
+
+      "docCard": {
+
+        "status": {
+
+          "finishedCssClass": "doc-card",
+          "inProgressCssClass": "doc-card-in-progress",
+          "laterCssClass": "doc-card-later"
+
+        },
+
+        "statusInfo": {
+
+          "inProgressCssClass": "doc-card-status-in-progress",
+          "laterCssClass": "doc-card-status-later",
+
+          "statusBox": {
+
+            "cssClass": "doc-card-status-box",
+
+            "iconFilenameInProgress": "black-fire-1.png",
+            "inProgressText": "in progress",
+            "iconFilenameLater": "black-stop-hand.png",
+            "laterText": "later"
+
+          }
+
+
+        },
+
+        "footerLinks": {
+
+          "iconOdt": {
+
+            "cssClass": "img-h-0-8",
+            "filename": "white-download-arrow.png",
+            "text": ".odt"
+
+          },
+
+          "iconExternalLink": {
+
+            "cssClass": "img-h-0-8",
+            "filename": "white-external-link.png",
+            "text": ".pdf"
+
+          }
+
+        }
+
+
+      }
+
+    }
+
+  }
+
+}
