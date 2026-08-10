@@ -78,6 +78,9 @@
 .doc-card-status-in-progress .doc-card-status-box {
 
   background-color: rgb(253, 212, 109);
+
+  /* background-color: rgb(253, 227, 81); */
+
   color: rgb(182, 141, 39);
 
 }
@@ -103,6 +106,7 @@
 .doc-card-status-later .doc-card-status-box {
 
   background-color: rgb(151, 151, 151);
+  background-color: rgb(208, 208, 208);
   color: rgb(72, 72, 72);
 
 }
