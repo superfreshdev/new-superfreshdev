@@ -90,7 +90,7 @@
 
 /* ---------------------------------------------------------------- */
 /* Async Function
-/* > isOneRadioChecked( radios)
+/* > Status - Is Any Radio Checked
 /* ---------------------------------------------------------------- */
 
   // 🟩
@@ -114,6 +114,36 @@
 
     return new Promise(resolve => {
       resolve( checked );
+    })
+
+  }
+
+/* ---------------------------------------------------------------- */
+/* Async Function
+/* > Get - Checked Radio Element from Radios
+/* ---------------------------------------------------------------- */
+
+  // 🟩
+  async function getCheckedRadioElement( radios ) {
+
+    // console.log("getCheckedRadioElement()")
+    // console.log( "radios: " + radios )
+
+    var checkedRadioElement = "-1";
+
+    for( let i=0; i < radios.length; i++ ) {
+
+      if( radios[i].checked == true ) {
+
+        checkedRadioElement = radios[i]
+        i = radios.length;
+
+      }
+
+    }
+
+    return new Promise(resolve => {
+      resolve( checkedRadioElement );
     })
 
   }
