@@ -168,14 +168,14 @@
         /* ----------------------------------------------------- */
 
           var imgDocCardPath = data.imgPath;
-          console.log("🌵imgDocCardPath: " + imgDocCardPath )
-          // var imgDocCardFullPath = imgDefaultPathDocCards + imgDocCardPath;
-          // console.log("imgDocCardFullPath: " + imgDocCardFullPath )
 
-          // var imgDoc = await createImg( imgDocCardFullPath )
+          var imgDocCardFullPath = imgDefaultPathDocCards + imgDocCardPath;
+          console.log("🌵 imgDocCardFullPath: " + imgDocCardFullPath )
+
+          var imgDoc = await createImg( imgDocCardFullPath )
 
           // add "imgDoc" to "main"
-          // main.appendChild(imgDoc)
+          main.appendChild(imgDoc)
 
         /* ----------------------------------------------------- */
         /* 🟨 Step 1.1.2
