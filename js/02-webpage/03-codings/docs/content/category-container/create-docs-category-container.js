@@ -97,14 +97,46 @@
 
   }
 
-  // 🟥 Create - Doc Category Container - Main
-  async function createDocCategoryMain( style, data ) {
+  // ➡️🟥 Create - Doc Category Container - Main
+  async function createDocCategoryMain( style, dataDocCards ) {
 
     console.log("🔩⛑️ - createDocCategoryMain()")
 
+    // Get Data
+    var styleMain = style.docCategoryContainer.main;
+
+    /* ----------------------------------------------------------------------------- */
+    /* 🟩 Step 1/2
+    /* > Create - Main
+    /* ----------------------------------------------------------------------------- */
+
+      var mainCssClass = styleMain.cssClass;
+      var main = await createDivClass(mainCssClass);
+
+    /* ----------------------------------------------------------------------------- */
+    /* ➡️🟥 Step 2/2
+    /* > Create - All Doc Cards
+    /* ----------------------------------------------------------------------------- */
+
+      var docCard = "";
+
+      // Run throw all data doc cards
+      for( var [docCategory, docData] of Object.entries(dataDocCards)) {
+
+        console.log("➕ Create Doc Card:" + docCategory)
+        console.log("> Data Doc Card:" + docData )
+
+        docCard = await createDocCard( style, docData );
+
+        // Add "docCards" to "main"
+        main.appendChild(docCard);
+
+      }
+
+
 
     return new Promise(resolve => {
-      resolve(  );
+      resolve( main  );
     })
 
   }
@@ -149,7 +181,10 @@
     /* Create Doc Category - Main
     /* ----------------------------------------------------- */
 
-      var main = await createDocCategoryMain( style, data );
+      var dataDocCards = data.docCards;
+      console.log("dataDocCards: " + dataDocCards.typeScript.status)
+
+      var main = await createDocCategoryMain( style, dataDocCards );
       // Add "main" to "docCategoryContainer"
       // docCategoryContainer.appendChild(main);
 

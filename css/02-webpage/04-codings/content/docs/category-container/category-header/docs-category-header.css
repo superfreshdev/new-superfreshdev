@@ -10,7 +10,7 @@
 
 .docs-category-header {
 
-  padding-right: .6em;
+  padding: 0 1em;
 
   height: 6em;
   width: 100%;
@@ -35,8 +35,11 @@
   padding: .4em 1em;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+
   column-gap: .3em;
+  row-gap: .2em;
 
   font-weight: bold;
 

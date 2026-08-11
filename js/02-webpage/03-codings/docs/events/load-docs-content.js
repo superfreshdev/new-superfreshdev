@@ -216,13 +216,19 @@
                 console.log("categoryKey: " + categoryKey )
                 console.log("categoryData: " + categoryData )
 
+                /* -------------------------------------------------------------- */
                 // 1. Create - Doc Category Containers
-                var docCategoryContainer = "";
-                docCategoryContainer = await createDocCategoryContainer( styleDocCategoryContainer, categoryData );
-                console.log("docCategoryContainer = " + docCategoryContainer )
+                /* -------------------------------------------------------------- */
 
+                  var docCategoryContainer = "";
+                  docCategoryContainer = await createDocCategoryContainer( styleDocCategoryContainer, categoryData );
+                  console.log("docCategoryContainer = " + docCategoryContainer )
+
+                /* -------------------------------------------------------------- */
                 // 2. Add step by step "docCategoryContainer" to "docsContainer""
-                docsContainer.appendChild( docCategoryContainer )
+                /* -------------------------------------------------------------- */
+
+                  docsContainer.appendChild( docCategoryContainer )
 
               }
 
