@@ -9,7 +9,7 @@
   async function getDocCardStatusCssClass( style, statusDocCard ) {
 
     // console.log("🔩⛑️ - getDocCardStatusCssClass()")
-    console.log("💫 statusDocCard: " + statusDocCard)
+    // console.log("💫 statusDocCard: " + statusDocCard)
 
     var styleDocCardStatus = style.docCategoryContainer.main.docCard.status;
 
@@ -136,6 +136,7 @@
     var iconWhiteDefaultPath = style.paths.pathIconWhite;
     var iconBlackDefaultPath = style.paths.pathIconBlack;
 
+
     /* ------------------------------------------------------------------ */
     /* 🟩 Step 0
     /* > Get Status CSS Class - Doc Card
@@ -145,7 +146,7 @@
 
       var docCardCssClass = "";
       docCardCssClass = await getDocCardStatusCssClass( style, statusDocCard );
-      console.log("💫docCardCssClass: " +  docCardCssClass)
+      console.log("🎴:docCard_CssClass: " +  docCardCssClass)
 
     /* ------------------------------------------------------------------ */
     /* 🟩 Step 1/1
@@ -156,21 +157,24 @@
       var docCard = await createDivClass( docCardCssClass )
 
       /* ---------------------------------------------------------- */
-      /* ➡️🟥 Step 1.1
+      /* 🟩 Step 1.1
       /* > Create Doc Card - Main
       /* ---------------------------------------------------------- */
 
-        var main = await createDomElementCssClass( "main", docCardCssClass )
+        console.log("🎴:docCard_main" )
+        var main = await createDomElement( "main" )
 
         /* ----------------------------------------------------- */
-        /* ➡️🟥 Step 1.1.1
+        /* 🟩 Step 1.1.1
         /* Create - Img
         /* ----------------------------------------------------- */
+
+          console.log("🎴:docCard_main -> img" )
 
           var imgDocCardPath = data.imgPath;
 
           var imgDocCardFullPath = imgDefaultPathDocCards + imgDocCardPath;
-          console.log("🌵 imgDocCardFullPath: " + imgDocCardFullPath )
+          console.log("> imgDocCardFullPath: " + imgDocCardFullPath )
 
           var imgDoc = await createImg( imgDocCardFullPath )
 
@@ -178,7 +182,7 @@
           main.appendChild(imgDoc)
 
         /* ----------------------------------------------------- */
-        /* 🟨 Step 1.1.2
+        /* 🟩 Step 1.1.2
         /* Optional Create - Status Info
         /* ----------------------------------------------------- */
 
@@ -193,7 +197,7 @@
             /* ---------------------------------------------------------- */
 
               var statusInfoCssClass = getDocCardStatusInfoCssClass( style, statusDocCard );
-              console.log("💫 statusInfoCssClass: " + statusInfoCssClass )
+              console.log("💫statusInfoCssClass: " + statusInfoCssClass )
 
             /* ---------------------------------------------------------- */
             /* 🟩 Step 2/:
@@ -214,7 +218,7 @@
               var divStatusBox = await createDivClass(statusBoxCssClass)
 
                 /* -------------------------------------------- */
-                // ➡️🟥 Create - Img from Status Info
+                // 🟩 Create - Img from Status Info
                 /* -------------------------------------------- */
 
                   // Get Status Icon Full Path
@@ -229,12 +233,12 @@
                   divStatusBox.appendChild(imgIconStatusBox);
 
                 /* -------------------------------------------- */
-                // 🟥 Create - Text from Status Info
+                // 🟩 Create - Text from Status Info
                 /* -------------------------------------------- */
 
                   // Get Status Title
                   var statusBoxTitle = getStatusBoxTitle( styleStatusBox, statusDocCard )
-                  console.log("💫statusBoxTitle  : " + statusBoxTitle )
+                  console.log("💫statusBoxTitle: " + statusBoxTitle )
 
                   // divStatusTitle ⚠️ besser | statusTitle
                   var divStatusBoxTitle = await createDivText( statusBoxTitle )
@@ -260,7 +264,7 @@
         docCard.appendChild(main)
 
       /* ---------------------------------------------------------- */
-      /* 🟥 Step 1.2
+      /* ➡️🟥 Step 1.2
       /* > Create Doc Card - Footer
       /* ---------------------------------------------------------- */
 

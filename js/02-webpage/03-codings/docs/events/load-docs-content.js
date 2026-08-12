@@ -157,7 +157,6 @@
 
     /* ------------------------------------------------------------------ */
     /* ➡️🟥 Step 1/1
-    /* > Check Update Condtion
     /* > Update - New Doc Category Containers
     /* > Condition: CodingsNav & Docs Nav = checked
     /* ------------------------------------------------------------------ */
@@ -168,20 +167,18 @@
       // Should Create New Doc Category Containers ?!
       if( updateDocsContent ) {
 
-        console.log("❇️ Start Clean Create Process - Doc Category Containers")
-
         /* ---------------------------------------------------------------------- */
         /* 🟥 Step 1.1 - Delete Old Doc Category Containers
         /* ---------------------------------------------------------------------- */
 
-         console.log("➡️ Step 1/1 - Delete Old Doc Category Containers")
+         console.log("➡️ Step 1/2 - Delete Old Doc Category Containers")
          console.log("⚠️ Coming Soon")
 
         /* ---------------------------------------------------------------------- */
         /* ➡️🟥 Step 1.2 - Create New Doc Category Containers
         /* ---------------------------------------------------------------------- */
 
-          console.log("➡️ Step 2 - Create New Doc Category Containers")
+          console.log("➡️ Step 2/2 - Create New Doc Category Containers")
 
           /* ----------------------------------------------------------------- */
           /* 🟩 Step 1.2.1 - Get File Path
@@ -189,8 +186,7 @@
 
             var docsContentFilePath = "";
             docsContentFilePath = await getDocsContentFilePath( docsNavRadios, docsContentFilePaths );
-            console.log("-> " + docsContentFilePath)
-            console.log("-------------------------------------")
+            console.log("-> (use): " + docsContentFilePath)
 
           /* ----------------------------------------------------------------- */
           /* 🟩 Step 1.2.2 - Get Data Docs Content
@@ -213,8 +209,11 @@
 
               for( var [categoryKey, categoryData] of Object.entries(dataDocsContent)) {
 
+                console.log("-------------------------------------")
+                console.log("📚 Doc Content:")
                 console.log("categoryKey: " + categoryKey )
                 console.log("categoryData: " + categoryData )
+                console.log("-------------------------------------")
 
                 /* -------------------------------------------------------------- */
                 // 1. Create - Doc Category Containers

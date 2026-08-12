@@ -20,6 +20,18 @@
 
   }
 
+  // 🟩 Create - Dom Element by tagName
+  async function createDomElement( domTagName ) {
+
+    // Create Dom Element
+    var newDomElement = document.createElement( domTagName );
+
+    return new Promise(resolve => {
+      resolve( newDomElement );
+    })
+
+  }
+
 /* ---------------------------------------------------------------- */
 /* 🟨 Async Function
 /* > Create Radio

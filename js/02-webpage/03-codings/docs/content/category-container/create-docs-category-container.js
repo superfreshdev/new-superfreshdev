@@ -123,10 +123,12 @@
       // Run throw all data doc cards
       for( var [docCategory, docData] of Object.entries(dataDocCards)) {
 
-        console.log("➕ Create Doc Card:" + docCategory)
-        console.log("> Data Doc Card:" + docData )
+        console.log("-------")
+        console.log("➕ Create Doc Card: " + docCategory)
+        console.log("> Data Doc Card: " + docData )
 
         docCard = await createDocCard( style, docData );
+
 
         // Add "docCards" to "main"
         main.appendChild(docCard);
@@ -154,9 +156,7 @@
     // console.log("style:" +  style)
     // console.log("data :" + data)
 
-    console.log("-------------------------------------")
     console.log("❇️ Create - Doc Category Container")
-    console.log("-------------------------------------")
 
     /* ----------------------------------------------------- */
     /* 🟩 Step 1/4
@@ -182,8 +182,6 @@
     /* ----------------------------------------------------- */
 
       var dataDocCards = data.docCards;
-      console.log("dataDocCards: " + dataDocCards.typeScript.status)
-
       var main = await createDocCategoryMain( style, dataDocCards );
       // Add "main" to "docCategoryContainer"
       // docCategoryContainer.appendChild(main);
