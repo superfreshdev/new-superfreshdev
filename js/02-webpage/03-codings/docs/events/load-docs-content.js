@@ -23,7 +23,9 @@
 /* -------------------------------------------------------------------- */
 
   // styleDocCategoryContainerFilePath
-  var styleDocCategoryContainerFilePath = "data/json/codings/docs/styles/style-doc-category-container.json";
+  var stylePathDocCategoryContainer = "data/json/codings/docs/styles/style-doc-category-container.json";
+
+
 
   var docsContentFilePaths = {
 
@@ -138,6 +140,83 @@
 
   }
 
+  // ➡️🟥 Create Docs Content
+  async function createDocsContent( stylePath, contentPath, docsContainer ) {
+
+    console.log("🔔createDocsContent()");
+    console.log("🔔stylePath:" + stylePath);
+    console.log("🔔contentPath:" + contentPath);
+    console.log("🔔docsContainer:" + docsContainer);
+
+
+    // ⚠️ Delete Template HTML to, so comment if u want testing template
+    /* ----------------------------------------------------------------- */
+    /* 🟩 Step 1/2
+    /* > Delete Old Doc Category Containers
+    /* ----------------------------------------------------------------- */
+
+      console.log("➡️ Step 1/2 - Delete Old Doc Category Containers")
+      await deleteTagElements("div", docsContainer)
+
+
+    /* ----------------------------------------------------------------- */
+    /* 🟨 Step 2/2
+    /* > Create New Doc Category Containers to "docContainer"
+    /* ----------------------------------------------------------------- */
+
+      console.log("➡️ Step 2/2 - Create New Doc Category Containers")
+
+      /* ----------------------------------------------------------------- */
+      /* 🟩 Step 1.2.2 - Get Data Docs Content
+      /* ----------------------------------------------------------------- */
+
+        var dataDocsContent = await getJsonObjectFromFile( contentPath );
+        // console.log("dataDocsContent:" + dataDocsContent)
+
+      /* ----------------------------------------------------------------- */
+      /* ➡️🟨 Step 1.2.3 - Create All Doc Category Containers
+      /* ----------------------------------------------------------------- */
+
+        // Get Style - Doc Category Container
+        var styleDocCategoryContainer = await getJsonObjectFromFile( stylePath );
+        // console.log("styleDocCategoryContainer:" + styleDocCategoryContainer)
+
+        /* ----------------------------------------------------------------- */
+        // Run all throw all Doc Categories by key value
+        /* ----------------------------------------------------------------- */
+
+          for( var [categoryKey, categoryData] of Object.entries(dataDocsContent)) {
+
+            console.log("-------------------------------------")
+            console.log("📚 Doc Content:")
+            console.log("categoryKey: " + categoryKey )
+            console.log("categoryData: " + categoryData )
+            console.log("-------------------------------------")
+
+            /* -------------------------------------------------------------- */
+            // 1. Create - Doc Category Containers
+            /* -------------------------------------------------------------- */
+
+              var docCategoryContainer = "";
+              docCategoryContainer = await createDocCategoryContainer( styleDocCategoryContainer, categoryData );
+              console.log("docCategoryContainer = " + docCategoryContainer )
+
+            /* -------------------------------------------------------------- */
+            // 2. Add step by step "docCategoryContainer" to "docsContainer""
+            /* -------------------------------------------------------------- */
+
+              docsContainer.appendChild( docCategoryContainer )
+
+          }
+
+
+    return new Promise(resolve => {
+      resolve( );
+    })
+
+  }
+
+
 
 /* -------------------------------------------------------------------- */
 /* 🎉 Events
@@ -156,7 +235,16 @@
     console.log("docsNavRadios(length): " + docsNavRadios.length )
 
     /* ------------------------------------------------------------------ */
-    /* ➡️🟥 Step 1/1
+    /* 🟩 Step 1/2
+    /* > Register - Docs Nav Listener
+    /* > to Update Docs Content by changing radios
+    /* ------------------------------------------------------------------ */
+
+      await registerDocsNavListener( docsNavRadios, stylePathDocCategoryContainer,
+                                     docsContentFilePaths, docsContainer);
+
+    /* ------------------------------------------------------------------ */
+    /* ➡️🟥 Step 2/2
     /* > Update - New Doc Category Containers
     /* > Condition: CodingsNav & Docs Nav = checked
     /* ------------------------------------------------------------------ */
@@ -167,69 +255,24 @@
       // Should Create New Doc Category Containers ?!
       if( updateDocsContent ) {
 
-        /* ---------------------------------------------------------------------- */
-        /* 🟥 Step 1.1 - Delete Old Doc Category Containers
-        /* ---------------------------------------------------------------------- */
 
-         console.log("➡️ Step 1/2 - Delete Old Doc Category Containers")
-         console.log("⚠️ Coming Soon")
+        /* -------------------------------------------------------- */
+        // 🟩 Step 1.1
+        // > Get doc content file path
+        /* -------------------------------------------------------- */
 
-        /* ---------------------------------------------------------------------- */
-        /* ➡️🟥 Step 1.2 - Create New Doc Category Containers
-        /* ---------------------------------------------------------------------- */
+          var docsContentPath = "";
+          docsContentPath = await getDocsContentFilePath( docsNavRadios, docsContentFilePaths );
+          console.log("-> (use): " + docsContentPath )
 
-          console.log("➡️ Step 2/2 - Create New Doc Category Containers")
 
-          /* ----------------------------------------------------------------- */
-          /* 🟩 Step 1.2.1 - Get File Path
-          /* ----------------------------------------------------------------- */
+        /* ----------------------------------------------------------------------- */
+        // ➡️🟥 Step 1.2
+        // > Create All Doc Category Container from Doc Content to "docsContaner"
+        /* ----------------------------------------------------------------------- */
 
-            var docsContentFilePath = "";
-            docsContentFilePath = await getDocsContentFilePath( docsNavRadios, docsContentFilePaths );
-            console.log("-> (use): " + docsContentFilePath)
+          await createDocsContent( stylePathDocCategoryContainer, docsContentPath, docsContainer )
 
-          /* ----------------------------------------------------------------- */
-          /* 🟩 Step 1.2.2 - Get Data Docs Content
-          /* ----------------------------------------------------------------- */
-
-            var dataDocsContent = await getJsonObjectFromFile( docsContentFilePath );
-            // console.log("dataDocsContent:" + dataDocsContent)
-
-          /* ----------------------------------------------------------------- */
-          /* ➡️🟥 Step 1.2.3 - Create All Doc Category Containers
-          /* ----------------------------------------------------------------- */
-
-            // Get Style - Doc Category Container
-            var styleDocCategoryContainer = await getJsonObjectFromFile( styleDocCategoryContainerFilePath );
-            // console.log("styleDocCategoryContainer:" + styleDocCategoryContainer)
-
-            /* ----------------------------------------------------------------- */
-            // Run all throw all Doc Categories by key value
-            /* ----------------------------------------------------------------- */
-
-              for( var [categoryKey, categoryData] of Object.entries(dataDocsContent)) {
-
-                console.log("-------------------------------------")
-                console.log("📚 Doc Content:")
-                console.log("categoryKey: " + categoryKey )
-                console.log("categoryData: " + categoryData )
-                console.log("-------------------------------------")
-
-                /* -------------------------------------------------------------- */
-                // 1. Create - Doc Category Containers
-                /* -------------------------------------------------------------- */
-
-                  var docCategoryContainer = "";
-                  docCategoryContainer = await createDocCategoryContainer( styleDocCategoryContainer, categoryData );
-                  console.log("docCategoryContainer = " + docCategoryContainer )
-
-                /* -------------------------------------------------------------- */
-                // 2. Add step by step "docCategoryContainer" to "docsContainer""
-                /* -------------------------------------------------------------- */
-
-                  docsContainer.appendChild( docCategoryContainer )
-
-              }
 
 
       } else {
@@ -237,8 +280,6 @@
         console.log("🛑 Stop Creating Process - Doc Category Containers")
 
       }
-
-
 
 
 
