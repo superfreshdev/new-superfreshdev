@@ -172,11 +172,12 @@
           console.log("🎴:docCard_main -> img" )
 
           var imgDocCardPath = data.imgPath;
+          var imgDoc = "";
 
           var imgDocCardFullPath = imgDefaultPathDocCards + imgDocCardPath;
           console.log("> imgDocCardFullPath: " + imgDocCardFullPath )
 
-          var imgDoc = await createImg( imgDocCardFullPath )
+          imgDoc = await createImg( imgDocCardFullPath )
 
           // add "imgDoc" to "main"
           main.appendChild(imgDoc)

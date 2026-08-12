@@ -56,7 +56,7 @@
       "routing": {
 
         "status": "finished",
-        "imgPath": "web/angular/ts-grundlagen.png/ang17-routing.png",
+        "imgPath": "web/angular/ang17-routing.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -151,33 +151,6 @@
 
         "status": "finished",
         "imgPath": "web/js/js-debugging.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -279,7 +252,7 @@
   "webTools": {
 
     "title":"Web Tools🍎",
-    "subTitle": "Dont forget - CSS, SASS, Tailwind, CDK - Angular",
+    "subTitle": "",
 
     "docCards": {
 
@@ -297,15 +270,6 @@
 
         "status": "in-progress",
         "imgPath": "web/tools/storybook-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
-
-        "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
         "odtHref": "",
         "pdfHref": ""
 

@@ -184,7 +184,7 @@
       var dataDocCards = data.docCards;
       var main = await createDocCategoryMain( style, dataDocCards );
       // Add "main" to "docCategoryContainer"
-      // docCategoryContainer.appendChild(main);
+      docCategoryContainer.appendChild(main);
 
 
     /* ----------------------------------------------------- */

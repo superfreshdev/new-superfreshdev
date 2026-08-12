@@ -103,19 +103,25 @@
 
   .docs-category-card-list {
 
-    width: 100%;
+    /* width: 100%; */
 
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 
-    /* small mobile */
-    grid: auto / 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
 
 
     column-gap: 1.5em;
     row-gap: 1.5em;
 
   }
+
+  .docs-category-card-list > div {
+
+    width: 13em;
+
+  }
+
 
 }
