@@ -10,7 +10,7 @@
       "agileDev": {
 
         "status": "in-progress",
-        "imgPath ": "dev-basic/dev-concepts/agile-software-entwicklung-grundlagen.png",
+        "imgPath": "dev-basic/dev-concepts/agile-software-entwicklung-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -19,7 +19,7 @@
       "ddd": {
 
         "status": "in-progress",
-        "imgPath ": "dev-basic/dev-concepts/ddd-grundlagen.png",
+        "imgPath": "dev-basic/dev-concepts/ddd-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -28,7 +28,7 @@
       "oop": {
 
         "status": "later",
-        "imgPath ": "dev-basic/dev-concepts/oop-grundlagen.png",
+        "imgPath": "dev-basic/dev-concepts/oop-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -37,7 +37,7 @@
       "uml": {
 
         "status": "finished",
-        "imgPath ": "dev-basic/dev-concepts/uml-grundlagen.png",
+        "imgPath": "dev-basic/dev-concepts/uml-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 

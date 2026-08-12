@@ -29,6 +29,7 @@
       docRadio.addEventListener("change", async() => {
 
         window.alert("docRadio - changed" + docRadio.getAttribute("id"))
+        console.log("docRadio - changed" + docRadio.getAttribute("id"))
 
         /* -------------------------------------------------------- */
         // 🟩 Step 1.1
@@ -36,8 +37,8 @@
         /* -------------------------------------------------------- */
 
           var docsContentPath = "";
-          docsContentPath = await getDocsContentFilePath( docsNavRadios, docsContentFilePaths );
-          console.log("-> (use): " + docsContentPath )
+          docsContentPath = await getDocsContentFilePath( docsNavRadios, docsContentPathList );
+          console.log("🌵-> (use): " + docsContentPath )
 
 
         /* ----------------------------------------------------------------------- */

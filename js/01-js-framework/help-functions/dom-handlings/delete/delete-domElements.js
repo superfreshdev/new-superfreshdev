@@ -37,10 +37,10 @@
 
   }
 
-  // ❇️ Delete Tag Elements
+  // 🟩 Delete Tag Elements
   async function deleteTagElements( tagName, container ) {
 
-    console.log("deleteTagElements()")
+    // console.log("deleteTagElements()")
     // console.log("➡️ tagName: " + tagName )
     // console.log("➡️ container: " + container )
 
