@@ -202,25 +202,16 @@
 
   "cssSassCo": {
 
-    "title":"CSS, SASS & Co 🍎",
+    "title":"SASS,Tailwind & Co 🍎",
     "subTitle": "",
 
     "docCards": {
 
 
-      "css": {
-
-        "status": "finished",
-        "imgPath": "web/css-sass-co/sass-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
       "sass": {
 
-        "status": "later",
-        "imgPath": "web/css-sass-co/sass-grundlagen.png",
+        "status": "finished",
+        "imgPath": "web/sass-co/sass-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -229,7 +220,7 @@
       "tailwind": {
 
         "status": "later",
-        "imgPath": "web/css-sass-co/sass-grundlagen.png",
+        "imgPath": "web/sass-co/tailwind-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -238,7 +229,7 @@
       "angularCdk": {
 
         "status": "later",
-        "imgPath": "web/css-sass-co/sass-grundlagen.png",
+        "imgPath": "web/sass-co/angular-cdk.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -260,7 +251,7 @@
       "npm": {
 
         "status": "later",
-        "imgPath": "web/tools/npm-coder-codeer.png",
+        "imgPath": "web/tools/yt-npm.png",
         "odtHref": "",
         "pdfHref": ""
 
