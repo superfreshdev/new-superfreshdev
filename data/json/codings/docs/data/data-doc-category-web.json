@@ -2,8 +2,8 @@
 
   "angular": {
 
-    "title":"Angular🍎",
-    "subTitle": "Könnte etwas sein",
+    "title":"Angular",
+    "subTitle": "World",
 
     "docCards": {
 
@@ -202,7 +202,7 @@
 
   "cssSassCo": {
 
-    "title":"SASS,Tailwind & Co 🍎",
+    "title":"SASS,Tailwind & Co",
     "subTitle": "",
 
     "docCards": {
@@ -242,7 +242,7 @@
 
   "webTools": {
 
-    "title":"Web Tools🍎",
+    "title":"Web Tools",
     "subTitle": "",
 
     "docCards": {

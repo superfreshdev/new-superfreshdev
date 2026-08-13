@@ -136,7 +136,7 @@
 
   "database": {
 
-    "title":"Databases 🍎",
+    "title":"Databases",
     "subTitle": "",
 
     "docCards": {
@@ -176,7 +176,7 @@
 
   "apiMessages": {
 
-    "title":"APIs & Messages🍎",
+    "title":"APIs & Messages",
     "subTitle": "",
 
     "docCards": {
@@ -259,7 +259,7 @@
 
   "systemDesigns": {
 
-    "title":"Software Architecture 🍎",
+    "title":"Software Architecture",
     "subTitle": "",
 
     "docCards": {
@@ -298,7 +298,7 @@
 
   "devOps": {
 
-    "title":"Dev Ops🍎",
+    "title":"Dev Ops",
     "subTitle": "",
 
     "docCards": {
@@ -346,7 +346,7 @@
 
   "cloud": {
 
-    "title":"Cloud 🍎",
+    "title":"Cloud ",
     "subTitle": "",
 
     "docCards": {
@@ -368,8 +368,8 @@
 
   "jsBackend": {
 
-    "title":"JS Backend🍎",
-    "subTitle": "Dont forget - CSS, SASS, Tailwind, CDK - Angular",
+    "title":"JS Backend",
+    "subTitle": "",
 
     "docCards": {
 
