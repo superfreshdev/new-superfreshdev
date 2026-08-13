@@ -1,71 +1,26 @@
 {
 
-  "angular": {
+  "springBoot": {
 
-    "title":"Backend 🍎",
-    "subTitle": "Könnte etwas sein",
+    "title":"Spring Boot 🍎",
+    "subTitle": "",
 
     "docCards": {
 
 
-      "typeScript": {
-
-        "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "oekosystem": {
-
-        "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
-
-        "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
+      "basics": {
 
         "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
+        "imgPath": "backend/spring-boot/linkedin/spring-boot-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "extendComp": {
+      "ms": {
 
         "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/spring-boot/linkedin/spring-boot-microservices.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -76,10 +31,10 @@
 
   },
 
-  "javaScriptBackends": {
+  "database": {
 
-    "title":"JS - Backends 🍎",
-    "subTitle": "Haha",
+    "title":"Databases 🍎",
+    "subTitle": "",
 
     "docCards": {
 
@@ -151,9 +106,309 @@
 
   },
 
-  "webTools": {
+  "apiMessages": {
 
-    "title":"Web Tools🍎",
+    "title":"APIs & Messages🍎",
+    "subTitle": "",
+
+    "docCards": {
+
+
+      "typeScript": {
+
+        "status": "in-progress",
+        "imgPath": "ts/ts-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "oekosystem": {
+
+        "status": "in-progress",
+        "imgPath": "angular/17/ang17-oekosystem.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "cli": {
+
+        "status": "later",
+        "imgPath": "angular/17/ang17-cli.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "di": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-di.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "extendComp": {
+
+        "status": "finished",
+        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "routing": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-routing.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "formular": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-formulare.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      }
+
+    }
+
+  },
+
+  "softwareArchicture": {
+
+    "title":"Software Architecture 🍎",
+    "subTitle": "",
+
+    "docCards": {
+
+
+      "typeScript": {
+
+        "status": "in-progress",
+        "imgPath": "ts/ts-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "oekosystem": {
+
+        "status": "in-progress",
+        "imgPath": "angular/17/ang17-oekosystem.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "cli": {
+
+        "status": "later",
+        "imgPath": "angular/17/ang17-cli.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "di": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-di.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "extendComp": {
+
+        "status": "finished",
+        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "routing": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-routing.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "formular": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-formulare.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      }
+
+    }
+
+  },
+
+  "devOps": {
+
+    "title":"Dev Ops🍎",
+    "subTitle": "",
+
+    "docCards": {
+
+
+      "typeScript": {
+
+        "status": "in-progress",
+        "imgPath": "ts/ts-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "oekosystem": {
+
+        "status": "in-progress",
+        "imgPath": "angular/17/ang17-oekosystem.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "cli": {
+
+        "status": "later",
+        "imgPath": "angular/17/ang17-cli.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "di": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-di.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "extendComp": {
+
+        "status": "finished",
+        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "routing": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-routing.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "formular": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-formulare.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      }
+
+    }
+
+  },
+
+  "cloud": {
+
+    "title":"Cloud 🍎",
+    "subTitle": "",
+
+    "docCards": {
+
+
+      "typeScript": {
+
+        "status": "in-progress",
+        "imgPath": "ts/ts-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "oekosystem": {
+
+        "status": "in-progress",
+        "imgPath": "angular/17/ang17-oekosystem.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "cli": {
+
+        "status": "later",
+        "imgPath": "angular/17/ang17-cli.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "di": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-di.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "extendComp": {
+
+        "status": "finished",
+        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "routing": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-routing.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "formular": {
+
+        "status": "finished",
+        "imgPath": "angular/17/ang17-formulare.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      }
+
+    }
+
+  },
+
+  "jsBackend": {
+
+    "title":"JS Backend🍎",
     "subTitle": "Dont forget - CSS, SASS, Tailwind, CDK - Angular",
 
     "docCards": {
