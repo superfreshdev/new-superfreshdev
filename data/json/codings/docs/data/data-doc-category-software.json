@@ -2,7 +2,7 @@
 
   "java": {
 
-    "title":"Java 🍎",
+    "title":"Java",
     "subTitle": "",
 
     "docCards": {
@@ -69,25 +69,34 @@
 
   "testing": {
 
-    "title":"Testing 🍎",
+    "title":"Testing",
     "subTitle": "",
 
     "docCards": {
 
 
-      "junitMockito": {
+      "junitJavaInder": {
 
-        "status": "in-progress",
-        "imgPath": "software/testing/01-yt-junit-mockito-spring-boot-testing.png",
+        "status": "finished",
+        "imgPath": "software/testing/yt-junit-java-inder.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "junitIntegration": {
+      "junitSbMockitoTeddy": {
 
-        "status": "in-progress",
-        "imgPath": "software/testing/02-yt-unit-integration-testing-amigocode.png",
+        "status": "finished",
+        "imgPath": "software/testing/yt-junit-sb-mockito-teddy.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "unitIntegrationAmigo": {
+
+        "status": "finished",
+        "imgPath": "software/testing/yt-unit-integration-amigo.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -100,7 +109,7 @@
 
   "softwareQuality": {
 
-    "title":"Software Quality🍎",
+    "title":"Software Quality",
     "subTitle": "",
 
     "docCards": {
@@ -131,7 +140,7 @@
 
   "aud": {
 
-    "title":"Algorithmn & Datastructure🍎",
+    "title":"Algorithmn & Datastructure",
     "subTitle": "",
 
     "docCards": {
