@@ -39,68 +39,33 @@
     "docCards": {
 
 
-      "typeScript": {
+      "dbConcept": {
 
         "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
+        "imgPath": "backend/database/db-normalformen-er.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "oekosystem": {
+      "postgreSql": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
+        "imgPath": "backend/database/postgresql-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "cli": {
+      "mongodb": {
 
         "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/database/mongodb-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       }
+
 
     }
 
@@ -114,74 +79,82 @@
     "docCards": {
 
 
-      "typeScript": {
+      "restapi": {
 
         "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
+        "imgPath": "backend/api-messages/apis/rest-api-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "oekosystem": {
+      "graphql": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
+        "imgPath": "backend/api-messages/apis/graphql-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "cli": {
+      "chartjs": {
 
         "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
+        "imgPath": "backend/api-messages/apis/chartjs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "di": {
+      "stripe": {
 
         "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
+        "imgPath": "backend/api-messages/apis/stripe-api-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "extendComp": {
+      "swagger": {
 
         "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "imgPath": "backend/api-messages/apis/swagger/01-swagger-doku-expressjs-crud.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "routing": {
+       "kafka1": {
 
         "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
+        "imgPath": "backend/api-messages/apis/apache-kafka/linkedin/kafka-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "formular": {
+       "kafka2": {
 
         "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/api-messages/apis/apache-kafka/linkedin/kafka-erweiterte-konzepte.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "kafka3": {
+
+        "status": "finished",
+        "imgPath": "backend/api-messages/apis/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
         "odtHref": "",
         "pdfHref": ""
 
       }
-
     }
 
   },
 
-  "softwareArchicture": {
+  "systemDesigns": {
 
     "title":"Software Architecture 🍎",
     "subTitle": "",
@@ -189,64 +162,10 @@
     "docCards": {
 
 
-      "typeScript": {
-
-        "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "oekosystem": {
-
-        "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
-
-        "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
+      "ms": {
 
         "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/system-designs/ms-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -264,64 +183,19 @@
     "docCards": {
 
 
-      "typeScript": {
+      "grundlagen": {
 
         "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
+        "imgPath": "backend/devops/devops-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "oekosystem": {
+      "jenkins": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
-
-        "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/devops/jenkins-ci-cd-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -339,68 +213,15 @@
     "docCards": {
 
 
-      "typeScript": {
+      "grundlagen": {
 
         "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "oekosystem": {
-
-        "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
-
-        "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/cloud/cloud-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       }
+
 
     }
 
@@ -414,64 +235,28 @@
     "docCards": {
 
 
-      "typeScript": {
+      "nodejs": {
 
         "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
+        "imgPath": "backend/js-backend/nodejs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "oekosystem": {
+      "nestjs": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
+        "imgPath": "backend/js-backend/nextjs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "cli": {
+      "nextjs": {
 
         "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "backend/js-backend/nestjs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
