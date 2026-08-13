@@ -9,7 +9,7 @@
 
       "agileDev": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "dev-basic/dev-concepts/agile-software-entwicklung-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -18,7 +18,7 @@
 
       "ddd": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "dev-basic/dev-concepts/ddd-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -27,7 +27,7 @@
 
       "oop": {
 
-        "status": "later",
+        "status": "finished",
         "imgPath": "dev-basic/dev-concepts/oop-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""

@@ -10,7 +10,7 @@
 
       "javaSprachkonzepte": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "software/java/java-1-3-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -19,7 +19,7 @@
 
       "javaFehlerStream": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "software/java/java-2-3-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -28,7 +28,7 @@
 
       "javaGenerics": {
 
-        "status": "later",
+        "status": "finished",
         "imgPath": "software/java/java-3-3-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -37,7 +37,7 @@
 
       "javaBasics": {
 
-        "status": "finished",
+        "status": "in-progress",
         "imgPath": "angular/17/ang17-di.png",
         "odtHref": "",
         "pdfHref": ""
@@ -46,7 +46,7 @@
 
       "javaAdvanced": {
 
-        "status": "finished",
+        "status": "in-progress",
         "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
         "odtHref": "",
         "pdfHref": ""
@@ -55,7 +55,7 @@
 
       "javaAufgaben": {
 
-        "status": "finished",
+        "status": "in-progress",
         "imgPath": "angular/17/ang17-routing.png",
         "odtHref": "",
         "pdfHref": ""
@@ -108,7 +108,7 @@
 
       "cleanCode": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "software/software-quality/01-clean-code-solid-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -153,6 +153,24 @@
         "odtHref": "",
         "pdfHref": ""
 
+      },
+
+      "audBasicTop9": {
+
+        "status": "later",
+        "imgPath": "software/aud/mathematik-fuer-programmierer-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "audAdvacnedTop9": {
+
+        "status": "later",
+        "imgPath": "software/aud/mathematik-fuer-programmierer-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
       }
 
 
@@ -170,7 +188,7 @@
 
       "git": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "software/tools/git/git-github-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -179,7 +197,7 @@
 
       "vsCode": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "software/tools/ide/vscode-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -188,7 +206,7 @@
 
       "intellij": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "software/tools/ide/intellij-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -197,7 +215,7 @@
 
       "wta": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "software/tools/ide/windows-terminal-app-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""

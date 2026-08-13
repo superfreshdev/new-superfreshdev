@@ -10,7 +10,7 @@
 
       "typeScript": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "web/angular/ts-grundlagen.png",
         "odtHref": "🔥🍎",
         "pdfHref": ""
@@ -19,7 +19,7 @@
 
       "oekosystem": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "web/angular/ang17-oekosystem.png",
         "odtHref": "",
         "pdfHref": ""
@@ -28,7 +28,7 @@
 
       "cli": {
 
-        "status": "later",
+        "status": "finished",
         "imgPath": "web/angular/ang17-cli.png",
         "odtHref": "",
         "pdfHref": ""
@@ -114,7 +114,7 @@
 
    "javaScript": {
 
-    "title":"JS 🍎",
+    "title":"Java Script",
     "subTitle": "",
 
     "docCards": {
@@ -122,7 +122,7 @@
 
       "spracheGrundlagen": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/js/js-sprachgrundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -131,7 +131,7 @@
 
       "programmierTechniken": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/js/js-programmiertechniken.png",
         "odtHref": "",
         "pdfHref": ""
@@ -149,7 +149,7 @@
 
       "debugging": {
 
-        "status": "finished",
+        "status": "later",
         "imgPath": "web/js/js-debugging.png",
         "odtHref": "",
         "pdfHref": ""
@@ -162,7 +162,7 @@
 
   "javaScriptBackends": {
 
-    "title":"JS - Backends 🍎",
+    "title":"JS - Backends",
     "subTitle": "",
 
     "docCards": {
@@ -170,7 +170,7 @@
 
       "nodeJs": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/js-backend/nodejs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -179,7 +179,7 @@
 
       "nestJs": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/js-backend/nestjs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -210,7 +210,7 @@
 
       "css": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "web/css-sass-co/sass-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -219,7 +219,7 @@
 
       "sass": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/css-sass-co/sass-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -259,7 +259,7 @@
 
       "npm": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/tools/npm-coder-codeer.png",
         "odtHref": "",
         "pdfHref": ""
@@ -268,7 +268,7 @@
 
       "storybook": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "web/tools/storybook-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""

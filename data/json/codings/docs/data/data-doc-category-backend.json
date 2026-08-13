@@ -50,7 +50,7 @@
 
       "postgreSql": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "backend/database/postgresql-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -81,7 +81,7 @@
 
       "restapi": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "backend/apis-messages/apis/rest-api-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -90,7 +90,7 @@
 
       "graphql": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "backend/apis-messages/apis/graphql-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -108,7 +108,7 @@
 
       "stripe": {
 
-        "status": "finished",
+        "status": "later",
         "imgPath": "backend/apis-messages/apis/stripe-api-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -127,7 +127,7 @@
        "kafka1": {
 
         "status": "finished",
-        "imgPath": "backend/apis-messages/apis/apache-kafka/linkedin/kafka-grundlagen.png",
+        "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -136,7 +136,7 @@
        "kafka2": {
 
         "status": "finished",
-        "imgPath": "backend/apis-messages/apis/apache-kafka/linkedin/kafka-erweiterte-konzepte.png",
+        "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-erweiterte-konzepte.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -145,7 +145,7 @@
        "kafka3": {
 
         "status": "finished",
-        "imgPath": "backend/apis-messages/apis/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
+        "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -169,6 +169,24 @@
         "odtHref": "",
         "pdfHref": ""
 
+      },
+
+      "c4": {
+
+        "status": "finished",
+        "imgPath": "backend/system-designs/ms-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "c4SystemDesigns6": {
+
+        "status": "finished",
+        "imgPath": "backend/system-designs/ms-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
       }
 
     }
@@ -185,8 +203,26 @@
 
       "grundlagen": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "backend/devops/devops-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "docker": {
+
+        "status": "finished",
+        "imgPath": "backend/devops/docker-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "kubernetes": {
+
+        "status": "finished",
+        "imgPath": "backend/devops/kubernetes-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -194,7 +230,7 @@
 
       "jenkins": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "backend/devops/jenkins-ci-cd-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""

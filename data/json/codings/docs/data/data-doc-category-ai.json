@@ -1,71 +1,44 @@
 {
 
-  "angular": {
+  "math": {
 
-    "title":"AIIIII🍎",
-    "subTitle": "Könnte etwas sein",
+    "title":"Math",
+    "subTitle": "",
 
     "docCards": {
 
 
-      "typeScript": {
-
-        "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "oekosystem": {
-
-        "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
+      "stat1": {
 
         "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
+        "imgPath": "ai/math/statistic/01-Statistik.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "di": {
+      "stat2": {
 
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
+        "status": "later",
+        "imgPath": "ai/math/statistic/02-Statistik.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "extendComp": {
+      "stat3": {
 
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "status": "later",
+        "imgPath": "ai/math/statistic/03-Statistik.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "routing": {
+      "stat4": {
 
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "status": "later",
+        "imgPath": "ai/math/statistic/04-Statistik.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -76,72 +49,27 @@
 
   },
 
-  "javaScriptBackends": {
+  "concepts": {
 
-    "title":"JS - Backends 🍎",
-    "subTitle": "Haha",
+    "title":"Concepts",
+    "subTitle": "",
 
     "docCards": {
 
 
-      "typeScript": {
-
-        "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "oekosystem": {
-
-        "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
+      "dataScience": {
 
         "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
+        "imgPath": "ai/concepts/data-science-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       },
 
-      "di": {
+      "machineLearning": {
 
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "status": "later",
+        "imgPath": "ai/concepts/machine-learning-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -151,76 +79,22 @@
 
   },
 
-  "webTools": {
+  "language": {
 
-    "title":"Web Tools🍎",
-    "subTitle": "Dont forget - CSS, SASS, Tailwind, CDK - Angular",
+    "title":"Language",
+    "subTitle": "",
 
     "docCards": {
 
-
-      "typeScript": {
-
-        "status": "in-progress",
-        "imgPath": "ts/ts-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "oekosystem": {
-
-        "status": "in-progress",
-        "imgPath": "angular/17/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "cli": {
+      "pythonBasic": {
 
         "status": "later",
-        "imgPath": "angular/17/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "di": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "extendComp": {
-
-        "status": "finished",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "routing": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "formular": {
-
-        "status": "finished",
-        "imgPath": "angular/17/ang17-formulare.png",
+        "imgPath": "ai/language/python-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
       }
+
 
     }
 
