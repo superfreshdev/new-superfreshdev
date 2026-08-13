@@ -2,8 +2,8 @@
 
   "springBoot": {
 
-    "title":"Spring Boot 🍎",
-    "subTitle": "",
+    "title":"Spring Boot",
+    "subTitle": "Linkedin Learning",
 
     "docCards": {
 
@@ -21,6 +21,109 @@
 
         "status": "finished",
         "imgPath": "backend/spring-boot/linkedin/spring-boot-microservices.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      }
+
+    }
+
+
+  },
+
+  "springBootYoutube": {
+
+    "title":"Spring Boot",
+    "subTitle": "Youtube",
+
+    "docCards": {
+
+
+      "amigo1von1": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-1-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigo1von2": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-2-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigo1von3": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-3-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "amigo1von4": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-4-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigo2von1": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-mistakes-1-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigo2von2": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-exceptions-2-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigo2von3": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-json-web-token-3-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigo2von4": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-jwt-auth-4-4.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "amigoSbAngular": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/3/yt-amigo-sb-angular-fullstack.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "ericSbSecEmail": {
+
+        "status": "later",
+        "imgPath": "backend/spring-boot/youtube/amigo/3/yt-eric-sb-security-login-email.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -251,7 +354,7 @@
 
       "grundlagen": {
 
-        "status": "in-progress",
+        "status": "finished",
         "imgPath": "backend/cloud/cloud-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
