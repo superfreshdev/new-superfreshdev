@@ -133,8 +133,8 @@
 
     // Get Datas
     var imgDefaultPathDocCards = style.paths.pathImgDocCard;
-    var iconWhiteDefaultPath = style.paths.pathIconWhite;
-    var iconBlackDefaultPath = style.paths.pathIconBlack;
+    var iconWhitePath = style.paths.pathIconWhite;
+    var iconBlackPath = style.paths.pathIconBlack;
 
 
     /* ------------------------------------------------------------------ */
@@ -224,7 +224,7 @@
 
                   // Get Status Icon Full Path
                   var iconStatusFile = getStatusBoxIconFilename( styleStatusBox, statusDocCard )
-                  var iconStatusFullPath = iconBlackDefaultPath + iconStatusFile;
+                  var iconStatusFullPath = iconBlackPath + iconStatusFile;
                   console.log("💫iconStatus-fullPath: " + iconStatusFullPath )
 
                   // Create Img
@@ -269,10 +269,61 @@
       /* > Create Doc Card - Footer
       /* ---------------------------------------------------------- */
 
-        var footer = "";
+        /* ------------------------------------------------ */
+        // 🟩 Step 1.2.1
+        // > Create - Footer
+        /* ------------------------------------------------ */
+
+          var footer = await createDomElement( "footer" );
+
+          // Get Style Data footerLinks
+          var styleFooter = style.docCategoryContainer.main.docCard.footerLinks;
+          // console.log("styleFooter.iconOdt = " + styleFooter.iconOdt.filename)
+
+        /* ------------------------------------------------ */
+        // 🟩 Step 1.2.1
+        // > Create - Link - odt
+        /* ------------------------------------------------ */
+
+          var linkOdt = "";
+          var linkOdtHref = data.odtHref;
+
+          var iconOdtFilename = styleFooter.iconOdt.filename;
+          var iconOdtCssClass = styleFooter.iconOdt.cssClass;
+          var textOdt = styleFooter.iconOdt.text;
+          // combine icon full path
+          var iconOdtFullPath = iconWhitePath + iconOdtFilename;
+
+          linkOdt = await createLinkImgDivText( linkOdtHref, iconOdtFullPath, iconOdtCssClass, textOdt);
+
+          // add "linkOdt" to "footer"
+          footer.appendChild(linkOdt)
+
+        /* ------------------------------------------------ */
+        // ➡️🟥 Step 1.2.1
+        // > Create - Link - External Link
+        /* ------------------------------------------------ */
+
+          var linkPdf = "";
+
+          var linkPdfHref = data.pdfHref;
+
+          var iconPdfFilename = styleFooter.iconExternalLink.filename;
+          var iconPdfCssClass = styleFooter.iconExternalLink.cssClass;
+          var textPdf = styleFooter.iconExternalLink.text;
+          // combine icon full path
+          var iconPdfFullPath = iconWhitePath + iconPdfFilename;
+
+          linkPdf = await createLinkImgDivText( linkPdfHref, iconPdfFullPath, iconPdfCssClass, textPdf );
+
+
+          // add "linkPdf" to "footer"
+          footer.appendChild(linkPdf)
+
+
 
         // Add "footer" to "docCard"
-        // docCard.appendChild(footer)
+        docCard.appendChild(footer)
 
 
     return new Promise(resolve => {
