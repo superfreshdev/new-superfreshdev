@@ -38,7 +38,7 @@
       "javaBasics": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/ang17-di.png",
+        "imgPath": "software/java/java-basics-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -47,7 +47,7 @@
       "javaAdvanced": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/Ang17-Erweiterte-Komponenten.png",
+        "imgPath": "software/java/java-advanced-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -56,7 +56,7 @@
       "javaAufgaben": {
 
         "status": "in-progress",
-        "imgPath": "angular/17/ang17-routing.png",
+        "imgPath": "software/java/java-aufgaben-challenges.png",
         "odtHref": "",
         "pdfHref": ""
 
