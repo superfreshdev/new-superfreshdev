@@ -82,7 +82,7 @@
       "restapi": {
 
         "status": "in-progress",
-        "imgPath": "backend/api-messages/apis/rest-api-grundlagen.png",
+        "imgPath": "backend/apis-messages/apis/rest-api-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -91,7 +91,7 @@
       "graphql": {
 
         "status": "in-progress",
-        "imgPath": "backend/api-messages/apis/graphql-grundlagen.png",
+        "imgPath": "backend/apis-messages/apis/graphql-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -100,7 +100,7 @@
       "chartjs": {
 
         "status": "later",
-        "imgPath": "backend/api-messages/apis/chartjs-grundlagen.png",
+        "imgPath": "backend/apis-messages/apis/chartjs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -109,7 +109,7 @@
       "stripe": {
 
         "status": "finished",
-        "imgPath": "backend/api-messages/apis/stripe-api-grundlagen.png",
+        "imgPath": "backend/apis-messages/apis/stripe-api-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -118,7 +118,7 @@
       "swagger": {
 
         "status": "finished",
-        "imgPath": "backend/api-messages/apis/swagger/01-swagger-doku-expressjs-crud.png",
+        "imgPath": "backend/apis-messages/apis/swagger/01-swagger-doku-expressjs-crud.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -127,7 +127,7 @@
        "kafka1": {
 
         "status": "finished",
-        "imgPath": "backend/api-messages/apis/apache-kafka/linkedin/kafka-grundlagen.png",
+        "imgPath": "backend/apis-messages/apis/apache-kafka/linkedin/kafka-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -136,7 +136,7 @@
        "kafka2": {
 
         "status": "finished",
-        "imgPath": "backend/api-messages/apis/apache-kafka/linkedin/kafka-erweiterte-konzepte.png",
+        "imgPath": "backend/apis-messages/apis/apache-kafka/linkedin/kafka-erweiterte-konzepte.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -145,7 +145,7 @@
        "kafka3": {
 
         "status": "finished",
-        "imgPath": "backend/api-messages/apis/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
+        "imgPath": "backend/apis-messages/apis/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
         "odtHref": "",
         "pdfHref": ""
 
