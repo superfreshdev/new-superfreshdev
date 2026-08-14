@@ -1,0 +1,57 @@
+/* ---------------------------------------------------------------- */
+/* > no-content-docs-category-container.css
+/* : no content docs category container
+/* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* No Content - Docs Category Container
+/* --------------------------------------------------------------- */
+
+#docs-category-container-no-content {
+
+  width: 100%;
+  /* height: 100%; */
+
+  display: grid;
+  /* justify-items: center; */
+  /* justify-content: center; */
+
+  align-items: center;
+
+  /* background-color: rgb(176, 176, 176); */
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img + Text - Box
+/* --------------------------------------------------------------- */
+
+#docs-category-container-no-content > div {
+
+  padding-bottom: 6em;
+
+  display: grid;
+  row-gap: .6em;
+  justify-items: center;
+
+}
+
+/* img */
+#docs-category-container-no-content > div > img {
+
+  height: 9em;
+
+}
+
+/* Text */
+#docs-category-container-no-content > div > div {
+
+  font-size: 18px;
+  font-weight: bold;
+  opacity: .6;
+
+}

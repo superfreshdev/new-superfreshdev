@@ -14,6 +14,9 @@
   // Docs Nav - Radios
   var docsNavRadios = document.querySelectorAll('input[name="name-radio-codings-docs-nav"]');
 
+  // No Content - Docs Category Container
+  var docsNoContentContainer = document.getElementById("docs-category-container-no-content");
+
   // Final Content Add Point
   var docsContainer = document.getElementById("codings-docs-container");
 
@@ -140,7 +143,7 @@
 
   }
 
-  // ➡️🟥 Create Docs Content
+  // ➡️🟨 Create Docs Content
   async function createDocsContent( stylePath, contentPath, docsContainer ) {
 
     console.log("🔔createDocsContent()");
@@ -156,8 +159,7 @@
     /* ----------------------------------------------------------------- */
 
       console.log("➡️ Step 1/2 - Delete Old Doc Category Containers")
-      await deleteTagElements("div", docsContainer)
-
+      await deleteTagElementsByCssClass("docs-category-container", docsContainer)
 
     /* ----------------------------------------------------------------- */
     /* 🟨 Step 2/2
@@ -216,6 +218,88 @@
 
   }
 
+  // 🟩 Create Docs Content
+  async function isDocsContentEmpty( docsContentPath ) {
+
+    console.log("🔔isDocsContentEmpty()");
+    console.log("🔔docsContentPath:" + docsContentPath);
+
+    /* ---------------------------------------------------------------- */
+    /* 🟩 Step 1/2
+    /* > Create Object from filePath
+    /* ---------------------------------------------------------------- */
+
+      var docsContent = await getJsonObjectFromFile( docsContentPath )
+      console.log("docsContent: " + docsContent)
+
+    /* ---------------------------------------------------------------- */
+    /* ➡️🟥 Step 2/2
+    /* > Check if all title = "", then no content view is active
+    /* ---------------------------------------------------------------- */
+
+      var isContentEmpty = true;
+
+      var foundCategoryTitle = 0;
+      var categoryKeys = Object.keys(docsContent);
+
+      for( const key of categoryKeys) {
+
+        var title = docsContent[key].title;
+
+        // if not empty, jump out - minimum 1 found to create
+        if( title != "" ) {
+          foundCategoryTitle = 1;
+          break;
+        }
+
+      }
+
+      if( foundCategoryTitle != 0 ) {
+
+        isContentEmpty = false;
+
+      }
+
+      console.log("isContentEmpty = " + isContentEmpty )
+
+
+    return new Promise(resolve => {
+      resolve( isContentEmpty );
+    })
+
+  }
+
+  // 🟩 Set Docs No Content View
+  async function setDocsNoContentView( cssDisplay, noContentContainer ) {
+
+    console.log("🔔setDocsNoContentView()");
+    console.log("🔔cssDisplay:" + cssDisplay);
+    console.log("🔔noContentContainer:" + noContentContainer);
+
+
+    switch( cssDisplay ) {
+
+      case "grid":
+        noContentContainer.style.display = "grid";
+        break;
+
+      case "none":
+        noContentContainer.style.display = "none";
+        break;
+
+      default:
+        noContentContainer.style.display = "none";
+        break;
+
+    }
+
+
+    return new Promise(resolve => {
+      resolve( );
+    })
+
+  }
+
 
 
 /* -------------------------------------------------------------------- */
@@ -252,6 +336,10 @@
       var updateDocsContent = false;
       updateDocsContent = await isActiveCodingsDocsNav( codingsNavRadio, docsNavRadios )
 
+      // ⚠️ not show - style no content
+      // updateDocsContent = false;
+
+
       // Should Create New Doc Category Containers ?!
       if( updateDocsContent ) {
 
@@ -266,13 +354,42 @@
           console.log("-> (use): " + docsContentPath )
 
 
-        /* ----------------------------------------------------------------------- */
-        // ➡️🟥 Step 1.2
-        // > Create All Doc Category Container from Doc Content to "docsContaner"
-        /* ----------------------------------------------------------------------- */
+        /* -------------------------------------------------------- */
+        // 🟥 Step 1.2
+        // > Show - No Content Container, if Content is empty
+        // > check if all title = ""
+        /* -------------------------------------------------------- */
 
-          await createDocsContent( stylePathDocCategoryContainer, docsContentPath, docsContainer )
+          var isNoContentViewActive = false;
+          isNoContentViewActive = await isDocsContentEmpty( docsContentPath );
 
+          if( isNoContentViewActive == false ) {
+
+            /* ----------------------------------------------------------------------- */
+            // 🟩 Step 1.3
+            // > Unshown - No Content View, if last time was active
+            /* ----------------------------------------------------------------------- */
+
+              await setDocsNoContentView( "none", docsNoContentContainer )
+
+            /* ----------------------------------------------------------------------- */
+            // ➡️🟨 Step 1.4
+            // > Create All Doc Category Container from Doc Content to "docsContaner"
+            /* ----------------------------------------------------------------------- */
+
+            await createDocsContent( stylePathDocCategoryContainer, docsContentPath, docsContainer )
+
+
+          } else {
+
+            console.log("🤡 No Content View is Active - no data found")
+
+            // delete first old created docs content
+            await deleteTagElementsByCssClass("docs-category-container", docsContainer)
+
+            await setDocsNoContentView( "grid", docsNoContentContainer )
+
+          }
 
 
       } else {

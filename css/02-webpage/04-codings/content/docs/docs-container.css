@@ -10,11 +10,14 @@
 #codings-docs-container {
 
   width: 100%;
-  padding: .5em 0em 3em 0;
+  height: 100%;
+
+  padding: .5em 0em 7em 0;
 
   display: grid;
   justify-items: center;
-  align-content: flex-start;
+  /* ⚠️ */
+  /* align-content: flex-start; */
 
   row-gap: 1.5em;
 

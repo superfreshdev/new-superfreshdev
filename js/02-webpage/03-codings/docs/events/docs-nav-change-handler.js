@@ -31,22 +31,55 @@
         window.alert("docRadio - changed" + docRadio.getAttribute("id"))
         console.log("docRadio - changed" + docRadio.getAttribute("id"))
 
+
         /* -------------------------------------------------------- */
         // 🟩 Step 1.1
         // > Get doc content file path
         /* -------------------------------------------------------- */
 
           var docsContentPath = "";
-          docsContentPath = await getDocsContentFilePath( docsNavRadios, docsContentPathList );
+          docsContentPath = await getDocsContentFilePath( docsNavRadios, docsContentFilePaths );
           console.log("🌵-> (use): " + docsContentPath )
 
 
-        /* ----------------------------------------------------------------------- */
-        // ➡️🟥 Step 1.2
-        // > Create All Doc Category Container from Doc Content to "docsContaner"
-        /* ----------------------------------------------------------------------- */
+        /* -------------------------------------------------------- */
+        // 🟩 Step 1.2
+        // > Show - No Content Container, if Content is empty
+        // > check if all title = ""
+        /* -------------------------------------------------------- */
 
-          await createDocsContent( stylePath, docsContentPath, docsContainer )
+          var isNoContentViewActive = false;
+          isNoContentViewActive = await isDocsContentEmpty( docsContentPath );
+
+          if( isNoContentViewActive == false ) {
+
+            /* ----------------------------------------------------------------------- */
+            // 🟩 Step 1.3
+            // > Unshown - No Content View, if last time was active
+            /* ----------------------------------------------------------------------- */
+
+              await setDocsNoContentView( "none", docsNoContentContainer )
+
+            /* ----------------------------------------------------------------------- */
+            // ➡️🟨 Step 1.4
+            // > Create All Doc Category Container from Doc Content to "docsContaner"
+            /* ----------------------------------------------------------------------- */
+
+            await createDocsContent( stylePath, docsContentPath, docsContainer )
+
+
+          } else {
+
+            console.log("🤡 No Content View is Active - no data found")
+
+            // delete first old created docs content
+            await deleteTagElementsByCssClass("docs-category-container", docsContainer)
+
+            await setDocsNoContentView( "grid", docsNoContentContainer )
+
+          }
+
+
 
       })
 

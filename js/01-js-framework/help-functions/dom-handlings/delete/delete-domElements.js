@@ -72,3 +72,39 @@
     })
 
   }
+
+   // 🟩 Delete Tag Elements by Css Class
+  async function deleteTagElementsByCssClass( cssClass, container ) {
+
+    // console.log("deleteTagElementsByCssClass()")
+    // console.log("➡️ tagName: " + tagName )
+    // console.log("➡️ container: " + container )
+
+    // Delete All if minimum one dom element exist
+    return new Promise(resolve => {
+
+      if(container) {
+
+        // only direct children from container
+        const selector = `:scope > .${cssClass}`;
+        const elements = container.querySelectorAll(selector);
+
+        // try to delete if exist
+        if( elements.length > 0) {
+
+           console.log("🧹Delete all css class from container ")
+
+          elements.forEach(element => {
+           element.remove();
+          })
+
+        } else {
+          console.log("✋ No Delete Process Necessary (tagNames css class from container) - ")
+        }
+
+      }
+
+      resolve( );
+    })
+
+  }
