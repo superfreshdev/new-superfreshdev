@@ -204,47 +204,7 @@
 
   },
 
-  "javaScriptBackends": {
-
-    "title":"JS - Backends",
-    "subTitle": "",
-
-    "docCards": {
-
-
-      "nodeJs": {
-
-        "status": "later",
-        "imgPath": "web/js-backend/nodejs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "nestJs": {
-
-        "status": "later",
-        "imgPath": "web/js-backend/nestjs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "nextJs": {
-
-        "status": "later",
-        "imgPath": "web/js-backend/nextjs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      }
-
-
-    }
-
-  },
-
-  "cssSassCo": {
+  "sassTailwindCo": {
 
     "title":"SASS,Tailwind & Co",
     "subTitle": "",

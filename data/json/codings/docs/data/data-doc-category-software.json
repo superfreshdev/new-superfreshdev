@@ -100,8 +100,43 @@
         "odtHref": "",
         "pdfHref": ""
 
-      }
+      },
 
+       "junitMockito": {
+
+        "status": "later",
+        "imgPath": "software/testing/junit-mockito-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "mockmvcCypress": {
+
+        "status": "later",
+        "imgPath": "software/testing/mockmvc-cypress-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "wiremockTestcontainer": {
+
+        "status": "later",
+        "imgPath": "software/testing/wiremock-testcontainer-kafka-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "gatling4j": {
+
+        "status": "later",
+        "imgPath": "software/testing/gatling-4j-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      }
 
     }
 
@@ -124,9 +159,18 @@
 
       },
 
+      "cleanCodeTddZUS": {
+
+        "status": "later",
+        "imgPath": "software/software-quality/clean-code-tdd-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
       "testenRefactorMetrics": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "software/software-quality/02-qe-testen-refactoring-metriken.png",
         "odtHref": "",
         "pdfHref": ""
