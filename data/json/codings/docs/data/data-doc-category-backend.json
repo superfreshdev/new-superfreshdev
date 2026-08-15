@@ -24,6 +24,24 @@
         "odtHref": "",
         "pdfHref": ""
 
+      },
+
+      "grundlagenZUS": {
+
+        "status": "in-progress",
+        "imgPath": "backend/spring-boot/zus/sp-grundlagen-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "erweitertZUS": {
+
+        "status": "in-progress",
+        "imgPath": "backend/spring-boot/zus/sb-erweitert-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
       }
 
     }
@@ -221,7 +239,7 @@
       "swagger": {
 
         "status": "finished",
-        "imgPath": "backend/apis-messages/apis/swagger/01-swagger-doku-expressjs-crud.png",
+        "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-crud-expressjs.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -249,6 +267,24 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "kafkaConcepts": {
+
+        "status": "finished",
+        "imgPath": "backend/apis-messages/apache-kafka/youtube/yt-kafka-concepts.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "kafkaJavaGuides": {
+
+        "status": "finished",
+        "imgPath": "backend/apis-messages/apache-kafka/youtube/yt-kafka-java-guides.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -376,7 +412,7 @@
 
       "nodejs": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "backend/js-backend/nodejs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -385,7 +421,7 @@
 
       "nestjs": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "backend/js-backend/nextjs-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
