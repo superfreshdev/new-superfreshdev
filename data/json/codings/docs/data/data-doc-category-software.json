@@ -148,8 +148,8 @@
 
       "audBasicsLil": {
 
-        "status": "in-progress",
-        "imgPath": "software/aud/aud-grundlagen.png",
+        "status": "later",
+        "imgPath": "software/aud/aud-grundlagen-lil-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -157,8 +157,8 @@
 
       "audMathLil": {
 
-        "status": "in-progress",
-        "imgPath": "software/aud/mathematik-fuer-programmierer-grundlagen.png",
+        "status": "later",
+        "imgPath": "software/aud/aud-mathe-lil-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -167,7 +167,7 @@
       "audBasicTop9": {
 
         "status": "later",
-        "imgPath": "software/aud/mathematik-fuer-programmierer-grundlagen.png",
+        "imgPath": "software/aud/aud-grundlage-lil.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -176,7 +176,7 @@
       "audAdvacnedTop9": {
 
         "status": "later",
-        "imgPath": "software/aud/mathematik-fuer-programmierer-grundlagen.png",
+        "imgPath": "software/aud/aud-advanced-9-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
