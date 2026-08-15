@@ -17,6 +17,15 @@
 
       },
 
+      "typeScriptZUS": {
+
+        "status": "later",
+        "imgPath": "web/angular/zus/ts-zus.png",
+        "odtHref": "🔥🍎",
+        "pdfHref": ""
+
+      },
+
       "oekosystem": {
 
         "status": "finished",
@@ -30,6 +39,15 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang17-cli.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "oekoCliZUS": {
+
+        "status": "in-progress",
+        "imgPath": "web/angular/zus/ang17-oeko-cli-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -53,10 +71,28 @@
 
       },
 
+      "diExtendComCliZUS": {
+
+        "status": "in-progress",
+        "imgPath": "web/angular/zus/ang17-di-erw-kom-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
       "routing": {
 
         "status": "finished",
         "imgPath": "web/angular/ang17-routing.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "routingZUS": {
+
+        "status": "in-progress",
+        "imgPath": "web/angular/zus/ang17-routing-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -71,10 +107,28 @@
 
       },
 
+      "formularZUS": {
+
+        "status": "later",
+        "imgPath": "web/angular/zus/ang17-formulare-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
       "rxjs": {
 
         "status": "finished",
         "imgPath": "web/angular/ang19-rxjs.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "rxjsZUS": {
+
+        "status": "later",
+        "imgPath": "web/angular/zus/ang19-rxjs-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
@@ -89,24 +143,14 @@
 
       },
 
-      "signals": {
+      "ngrxSignalUniZUS": {
 
-        "status": "finished",
-        "imgPath": "web/angular/ang19-ngrx.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "universal": {
-
-        "status": "finished",
-        "imgPath": "web/angular/ang19-ngrx.png",
+        "status": "later",
+        "imgPath": "web/angular/zus/ang18-ngrx-signal-uni-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
       }
-
     }
 
 
