@@ -288,6 +288,15 @@
         "odtHref": "",
         "pdfHref": ""
 
+      },
+
+       "kafkaZUS": {
+
+        "status": "later",
+        "imgPath": "backend/apis-messages/apache-kafka/kafka-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
       }
     }
 
@@ -312,21 +321,13 @@
 
       "c4": {
 
-        "status": "finished",
-        "imgPath": "backend/system-designs/ms-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
-
-      },
-
-      "c4SystemDesigns6": {
-
-        "status": "finished",
-        "imgPath": "backend/system-designs/ms-grundlagen.png",
+        "status": "in-progress",
+        "imgPath": "backend/system-designs/c4-crashkurs-zus.png",
         "odtHref": "",
         "pdfHref": ""
 
       }
+
 
     }
 
@@ -374,6 +375,33 @@
         "odtHref": "",
         "pdfHref": ""
 
+      },
+
+      "later": {
+
+        "status": "later",
+        "imgPath": "backend/devops/linux-befehl.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "graphProm": {
+
+        "status": "later",
+        "imgPath": "backend/devops/graph-prome.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "keycloak": {
+
+        "status": "later",
+        "imgPath": "backend/devops/keycloak.png",
+        "odtHref": "",
+        "pdfHref": ""
+
       }
 
     }
@@ -392,6 +420,15 @@
 
         "status": "finished",
         "imgPath": "backend/cloud/cloud-grundlagen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "gcp": {
+
+        "status": "later",
+        "imgPath": "backend/cloud/gcp-cloud.png",
         "odtHref": "",
         "pdfHref": ""
 
