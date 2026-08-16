@@ -10,7 +10,8 @@
 
 .doc-card,
 .doc-card-in-progress,
-.doc-card-later {
+.doc-card-later,
+.doc-card-future {
 
   position: relative;
 
@@ -46,7 +47,14 @@
 /* later - light grey transparent */
 .doc-card-later > main .doc-card-status-later {
 
-  background-color: rgba(186, 186, 186, .3);
+  background-color: rgba(75, 127, 206, 0.6);
+
+}
+
+/* future -  */
+.doc-card-future > main .doc-card-status-future {
+
+  background-color: rgba(186, 186, 186, .6);
 
 }
 
@@ -56,7 +64,8 @@
 
 .doc-card > main,
 .doc-card-in-progress > main,
-.doc-card-later > main {
+.doc-card-later > main,
+.doc-card-future > main {
 
   /* position: relative; */
   width: 100%;
@@ -75,32 +84,46 @@
   width: 100%;
   height: 100%;
 
-  border-radius: .8em;
+  border-radius: .5em;
 
   opacity: .9;
 
 }
 
-/* Extra - later - img */
-.doc-card-later  > main > img {
-
-  width: 100%;
-  height: 100%;
-
-  border-radius: .8em;
-
-  opacity: .3;
-
-}
-
+/* In Progress - Img */
 .doc-card-in-progress  > main > img {
 
   width: 100%;
   height: 100%;
 
-  border-radius: .8em;
+  border-radius: .5em;
 
   opacity: .6;
+
+}
+
+
+/* Later - img */
+.doc-card-later  > main > img {
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: .5em;
+
+  opacity: .3;
+
+}
+
+/* Future - img */
+.doc-card-future  > main > img {
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: .5em;
+
+  opacity: .3;
 
 }
 
@@ -111,7 +134,8 @@
 
 .doc-card > footer,
 .doc-card-in-progress > footer,
-.doc-card-later > footer {
+.doc-card-later > footer,
+.doc-card-future > footer {
 
   position: absolute;
   bottom: 0;
@@ -131,7 +155,8 @@
 
 .doc-card > footer > a:nth-of-type(1),
 .doc-card-in-progress > footer > a:nth-of-type(1),
-.doc-card-later > footer > a:nth-of-type(1) {
+.doc-card-later > footer > a:nth-of-type(1),
+.doc-card-future > footer > a:nth-of-type(1) {
 
   border-right: 1px solid rgb(126, 126, 126);
 
@@ -144,7 +169,8 @@
 
 .doc-card > footer > a,
 .doc-card-in-progress > footer > a,
-.doc-card-later > footer > a {
+.doc-card-later > footer > a,
+.doc-card-future > footer > a {
 
   width: 100%;
   text-decoration: none;
@@ -165,7 +191,8 @@
 
 .doc-card > footer > a > div,
 .doc-card-in-progress > footer > a > div,
-.doc-card-later > footer > a > div {
+.doc-card-later > footer > a > div,
+.doc-card-future > footer > a > div {
 
   font-size: 13.5px;
 
@@ -174,7 +201,8 @@
 /* link 1 */
 .doc-card > footer > a:nth-of-type(1),
 .doc-card-in-progress > footer > a:nth-of-type(1),
-.doc-card-later > footer > a:nth-of-type(1) {
+.doc-card-later > footer > a:nth-of-type(1),
+.doc-card-future > footer > a:nth-of-type(1) {
 
   border-radius: 0 0 0em .5em;
 
@@ -182,7 +210,8 @@
 /* img download link - special layout fix */
 .doc-card > footer > a:nth-of-type(1) > img,
 .doc-card-in-progress > footer > a:nth-of-type(1) > img,
-.doc-card-later > footer > a:nth-of-type(1) > img {
+.doc-card-later > footer > a:nth-of-type(1) > img,
+.doc-card-future > footer > a:nth-of-type(1) > img {
 
   margin-top: 1px;
 
@@ -191,7 +220,8 @@
 /* link 2 */
 .doc-card > footer > a:nth-of-type(2),
 .doc-card-in-progress > footer > a:nth-of-type(2),
-.doc-card-later > footer > a:nth-of-type(2) {
+.doc-card-later > footer > a:nth-of-type(2),
+.doc-card-future > footer > a:nth-of-type(2) {
 
   border-radius: 0 0 .5em 0em;
 
@@ -200,7 +230,8 @@
 /* img external link - special layout fix */
 .doc-card > footer > a:nth-of-type(2) > img,
 .doc-card-in-progress > footer > a:nth-of-type(2) > img,
-.doc-card-later > footer > a:nth-of-type(2) > img {
+.doc-card-later > footer > a:nth-of-type(2) > img,
+.doc-card-future > footer > a:nth-of-type(2) > img {
 
   margin-top: 2px;
 
@@ -209,7 +240,8 @@
 /* hover */
 .doc-card > footer > a:hover,
 .doc-card-in-progress > footer > a:hover,
-.doc-card-later > footer > a:hover  {
+.doc-card-later > footer > a:hover,
+.doc-card-future > footer > a:hover  {
 
   background-color: rgb(66, 66, 66);
   opacity: 1;

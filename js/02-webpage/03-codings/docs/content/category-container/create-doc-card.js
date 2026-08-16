@@ -29,6 +29,10 @@
         docCardCssClass = styleDocCardStatus.laterCssClass;
         break;
 
+      case "future":
+        docCardCssClass = styleDocCardStatus.futureCssClass;
+        break;
+
       default:
         break;
 
@@ -59,6 +63,10 @@
         statusInfoCssClass = styleStatusInfo.laterCssClass;
         break;
 
+      case "future":
+        statusInfoCssClass = styleStatusInfo.futureCssClass;
+        break;
+
       default:
         break;
 
@@ -86,6 +94,10 @@
         iconFilename = style.iconFilenameLater;
         break;
 
+      case "future":
+        iconFilename = style.iconFilenameFuture;
+        break;
+
       default:
         break;
 
@@ -111,6 +123,10 @@
 
       case "later":
         statusText = style.laterText;
+        break;
+
+      case "future":
+        statusText = style.futureText;
         break;
 
       default:

@@ -29,7 +29,8 @@
 
           "finishedCssClass": "doc-card",
           "inProgressCssClass": "doc-card-in-progress",
-          "laterCssClass": "doc-card-later"
+          "laterCssClass": "doc-card-later",
+          "futureCssClass": "doc-card-future"
 
         },
 
@@ -37,6 +38,7 @@
 
           "inProgressCssClass": "doc-card-status-in-progress",
           "laterCssClass": "doc-card-status-later",
+          "futureCssClass": "doc-card-status-future",
 
           "statusBox": {
 
@@ -45,7 +47,9 @@
             "iconFilenameInProgress": "black-fire-1.png",
             "inProgressText": "in progress",
             "iconFilenameLater": "black-stop-hand.png",
-            "laterText": "later"
+            "laterText": "later",
+            "iconFilenameFuture": "black-3-shining-stars.png",
+            "futureText": "future"
 
           }
 

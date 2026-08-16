@@ -10,37 +10,37 @@
 
       "stat1": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/math/statistic/01-Statistik.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1bsDOMp_aRJ72h5G41Lc9PLcIOcfwHghM/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1-hyv7wdWbt6Xjd5gEHgjiu6zYUhtdylo/view?usp=sharing"
 
       },
 
       "stat2": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/math/statistic/02-Statistik.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1d7TjxeQ9AVvtaNdRfrLJO-_hUlFjipP8/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1l_drSpRZDnXVg06oQKjXpsD9ieOSGpnA/view?usp=sharing"
 
       },
 
       "stat3": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/math/statistic/03-Statistik.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1kFeT2Ke8np-0VJ5_kG-o1UVQAZRTNx1d/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1viM3OFEwWiKnruwcz0txmO52s7UdHJ2H/view?usp=sharing"
 
       },
 
       "stat4": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/math/statistic/04-Statistik.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1b4LZDzjlRB7MVGR687Fqwq_zhf77l3gX/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1tPSVuAwNJH6ubgKKmpSvTgCd9rXvVwEN/view?usp=sharing"
 
       }
 
@@ -59,19 +59,19 @@
 
       "dataScience": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/concepts/data-science-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1LFBQMKYEjM7fC86VpVcpZmA3Fm1jQYIV/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1xF0vl6Y7N1kEiFFLOHDY4OqOfQfWqTTv/view?usp=sharing"
 
       },
 
       "machineLearning": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/concepts/machine-learning-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1qWzYSnWniELhbPj6qAoIIxyI35-cn75n/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1O4jb1vtnBGz67-BHo2GmjniYfv9ctsvm/view?usp=sharing"
 
       }
 
@@ -88,10 +88,10 @@
 
       "pythonBasic": {
 
-        "status": "later",
+        "status": "future",
         "imgPath": "ai/language/python-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1nMSFFJufXbAOYU5awnFc_LwsYaWXc41c/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1RArohxiYuaK1h_NSvY1BNMoa2evo292W/view?usp=sharing"
 
       }
 
