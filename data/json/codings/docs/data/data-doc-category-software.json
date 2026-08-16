@@ -170,7 +170,7 @@
 
       "testenRefactorMetrics": {
 
-        "status": "later",
+        "status": "finished",
         "imgPath": "software/software-quality/02-qe-testen-refactoring-metriken.png",
         "odtHref": "",
         "pdfHref": ""
@@ -290,14 +290,30 @@
 
       "reactNative": {
 
-        "status": "in-progress",
+        "status": "later",
         "imgPath": "software/react-native/react-native-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
 
+      },
+
+      "reactNativeStyle": {
+
+        "status": "later",
+        "imgPath": "software/react-native/react-native-styles-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "reactNativeFeatures": {
+
+        "status": "later",
+        "imgPath": "software/react-native/react-native-feature-zus.png",
+        "odtHref": "",
+        "pdfHref": ""
+
       }
-
-
 
     }
 

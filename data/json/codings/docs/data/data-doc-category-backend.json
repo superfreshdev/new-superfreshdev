@@ -236,10 +236,28 @@
 
       },
 
-      "swagger": {
+      "swaggerExpressJS": {
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-crud-expressjs.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+      "swaggerJavaInstall": {
+
+        "status": "later",
+        "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-in-spring-boot-hinzufügen.png",
+        "odtHref": "",
+        "pdfHref": ""
+
+      },
+
+       "swaggerJavaConfigure": {
+
+        "status": "later",
+        "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-configure-spring-boot.png",
         "odtHref": "",
         "pdfHref": ""
 

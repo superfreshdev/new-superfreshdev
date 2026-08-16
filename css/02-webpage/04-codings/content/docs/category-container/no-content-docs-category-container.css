@@ -44,6 +44,7 @@
 #docs-category-container-no-content > div > img {
 
   height: 9em;
+  opacity: .6;
 
 }
 
