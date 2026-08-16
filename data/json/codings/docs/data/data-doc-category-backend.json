@@ -12,8 +12,8 @@
 
         "status": "finished",
         "imgPath": "backend/spring-boot/linkedin/spring-boot-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/10xLT8yqS9BSggGdrSS4NIcyAnsB7HFVe/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1DW1CWfrIu-mowTZ80_O2_OXOSMvqq-yr/view?usp=sharing"
 
       },
 
@@ -21,8 +21,8 @@
 
         "status": "finished",
         "imgPath": "backend/spring-boot/linkedin/spring-boot-microservices.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1gRrB2RfiEBimV6c5MqkihE7SlID5WZjs/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1pPH6WEe6-0PSetSY7X97Bdzo2Vzg5QrP/view?usp=sharing"
 
       },
 
@@ -30,17 +30,26 @@
 
         "status": "in-progress",
         "imgPath": "backend/spring-boot/zus/sp-grundlagen-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1xXjWnLxcnMspcRCSSzpMVWJeyJL9TUdE/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1Qap2khJHIPpNwfjEOZ0pFhyNDNS76a25/view?usp=sharing"
 
       },
 
-       "erweitertZUS": {
+      "erweitertZUS": {
 
         "status": "in-progress",
         "imgPath": "backend/spring-boot/zus/sb-erweitert-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1NP0tu1m0xXnWTQbNuBqj_sNv4__OYHak/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1qbLK1MB7UBRP9pjH9FEwXqdYNenuFcm3/view?usp=sharing"
+
+      },
+
+      "aufgaben": {
+
+        "status": "in-progress",
+        "imgPath": "backend/spring-boot/spring-boot-aufgaben.png",
+        "odtHref": "https://drive.google.com/file/d/1i29ldWJuTFWjUhIjv5mc904Cx5bxiiHF/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1Ja8gWT4-sByi86sP-wjncQ4Y_JbqYraf/view?usp=sharing"
 
       }
 
@@ -57,75 +66,75 @@
     "docCards": {
 
 
-      "amigo1von1": {
+      "amigoCloud1": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-1-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1bw_BWa4T_Ya5M9rVfZBpYjrz29NERFFh/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1sR9EiTYqkrM_anV3aDdxtV6Su5C18uXo/view?usp=sharing"
 
       },
 
-      "amigo1von2": {
+      "amigoCloud2": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-2-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1koiOqI9FyZktVyPhJZYWzWQQZt-hFQK-/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1qQ6fFWdlu7eNSVfpBEGSBOAsm-sP7eUt/view?usp=sharing"
 
       },
 
-      "amigo1von3": {
+      "amigoCloud3": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-3-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Ydw3bCcENkHSJTtCJLGiO3y1kqUjQ71P/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1xAMMK8NMc98PSDftDTgWAJddJebpG5w_/view?usp=sharing"
 
       },
 
-       "amigo1von4": {
+       "amigoCloud4": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/1/yt-amigo-sb-4-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1nnFvImEVyNi1KatE8K7EBISieH1OFILn/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/12FMONIXgZa96a0jDNOqTWHBPmVJjqM_a/view?usp=sharing"
 
       },
 
-      "amigo2von1": {
+      "amigoDataSecurity1": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-mistakes-1-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1tZPJyD2RphRO6BbNFnHzJOu7fUe4zn5i/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1s_s4I1ijCEBGS-jXXPxqQO_85MDj7snd/view?usp=sharing"
 
       },
 
-      "amigo2von2": {
+      "amigoDataSecurity2": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-exceptions-2-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/197AdWxJAAO8im4TExTZ9qi21trmtmtNg/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/10iHGACAGHBPlYF1zRIaFTEaA2H3Zkrgh/view?usp=sharing"
 
       },
 
-      "amigo2von3": {
+      "amigoDataSecurity3": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-json-web-token-3-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/18BOF5TnkteLtLdHkHp_8pkNXeMXqXfq0/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1RZdcScEdbmsWgAdcIkF1dcoNwtgGR1D9/view?usp=sharing"
 
       },
 
-      "amigo2von4": {
+      "amigoDataSecurity4": {
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/2/yt-amigo-jwt-auth-4-4.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1H0cxO7FLK6YBprrijgeAWT9uE7NVsYPC/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/10t7TyP1x8XC6CCHgr2RgCAK0BoKVvNxR/view?usp=sharing"
 
       },
 
@@ -133,8 +142,8 @@
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/3/yt-amigo-sb-angular-fullstack.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1pHl25WVU8BJhpN4sutjAyXYi859hgGaw/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1jI54BhR6bL-1rUY7gaBP8DZsvIK88J1g/view?usp=sharing"
 
       },
 
@@ -142,8 +151,8 @@
 
         "status": "later",
         "imgPath": "backend/spring-boot/youtube/amigo/3/yt-eric-sb-security-login-email.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1ByE_0ycYlQrfQu-UwmUwzpw1qZk1u7nN/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1RZVcoOaBXNomb6hPJajFnTJPwBHbeq7r/view?usp=sharing"
 
       }
 
@@ -164,8 +173,8 @@
 
         "status": "in-progress",
         "imgPath": "backend/database/db-normalformen-er.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1-gJeoiZqtHgYl6wPMIGFuzHo_cEYwEL-/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/19wIlwAgesjv9T7xqwPqAGiYgX2PbTxvW/view?usp=sharing"
 
       },
 
@@ -173,8 +182,8 @@
 
         "status": "finished",
         "imgPath": "backend/database/postgresql-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1h3Iv77iC41exXWytgFW_CAjE2JVZa_1L/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1msCHNml6rSQlzZm-ezdu9IAeSd8WpaIa/view?usp=sharing"
 
       },
 
@@ -182,8 +191,8 @@
 
         "status": "later",
         "imgPath": "backend/database/mongodb-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/11HBlAElQuJX6FcR878kG9q-Djz2_ia9I/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1HCNNzx8y01yPNHPJLfINj_oXRl5rMvcF/view?usp=sharing"
 
       }
 
@@ -204,8 +213,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apis/rest-api-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1l7MBd3VtmNMJ508yXYMyMrsU4kWyhde6/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1kc_Wbg4FnLf8VcfZgu1_xC91JRqtvj-8/view?usp=sharing"
 
       },
 
@@ -213,8 +222,8 @@
 
         "status": "later",
         "imgPath": "backend/apis-messages/apis/graphql-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1IvzHAKXNDAWgPDWi5C6sVPBk7F7NDcP5/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1Sv9km9i9jErdxodi1cY52jWwtYediytm/view?usp=sharing"
 
       },
 
@@ -222,8 +231,8 @@
 
         "status": "later",
         "imgPath": "backend/apis-messages/apis/chartjs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1kCNr7EPkdx-MITXuEGq5gA5mlWYMSrF5/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1kju0hAHuqRl4vwDpCiPf7YHd4SRyLYeO/view?usp=sharing"
 
       },
 
@@ -231,8 +240,8 @@
 
         "status": "later",
         "imgPath": "backend/apis-messages/apis/stripe-api-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1ZcB6-Yl_ZNOlXDV8XHBre4dM6GZtj5yU/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1VhBMIO8vRXW-ykrTkah4loeMKl9HVKAv/view?usp=sharing"
 
       },
 
@@ -240,8 +249,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-crud-expressjs.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1dWuaPQbjMifPanQI_VaQ96GCgc8uU6z1/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1RUPifMairfcjPB2X2OGkpzPnwxiHvT9t/view?usp=sharing"
 
       },
 
@@ -249,8 +258,8 @@
 
         "status": "later",
         "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-in-spring-boot-hinzufügen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Y1x37JkVX_0cfLe-lG1VFR-ZoYykWLFS/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1WamVSo_AtpI63q0iIZXbhZvApuxwFlKe/view?usp=sharing"
 
       },
 
@@ -258,8 +267,8 @@
 
         "status": "later",
         "imgPath": "backend/apis-messages/apis/swagger/yt-swagger-configure-spring-boot.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1uvN_H7KSdWVmjHds-9H-CIud4_ZU_Y3L/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1vrjetZ_gqLEoycO1VifjDQtyJCPdPOKn/view?usp=sharing"
 
       },
 
@@ -267,8 +276,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1OD_CRk5r3Rskbw4JNPQrMwcI9Le6YX8d/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1jzOOKMvz_TuzaW172MrGLHTEYyKJrgx4/view?usp=sharing"
 
       },
 
@@ -276,8 +285,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-erweiterte-konzepte.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Ha8HjGDAjS-TkjFU8mejVySglrh5sKkF/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1JpX9m-oZWo1uUt801MEyQFoVv_xzdlBP/view?usp=sharing"
 
       },
 
@@ -285,8 +294,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apache-kafka/linkedin/kafka-entscheidungstraeger.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1inLrAn9l5yUBlQuhxZnuFA_AvwC-9Krj/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1_R8iEGZ80OoTfn7JUzPn4OQ93z-LwRTK/view?usp=sharing"
 
       },
 
@@ -294,8 +303,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apache-kafka/youtube/yt-kafka-concepts.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Hv2LrfMGxtl2gTqjt23d2c1RcdGCcMlr/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1vkuMmZWpKP-Dxuf3BIKCMdrnGN13kVKc/view?usp=sharing"
 
       },
 
@@ -303,8 +312,8 @@
 
         "status": "finished",
         "imgPath": "backend/apis-messages/apache-kafka/youtube/yt-kafka-java-guides.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Rm5NlFJhBuC7VwrfUq_5hspd9XOodCrf/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1F6pRMby94OW9xBhYIH9W2jscTjOFChXw/view?usp=sharing"
 
       },
 
@@ -312,8 +321,8 @@
 
         "status": "later",
         "imgPath": "backend/apis-messages/apache-kafka/kafka-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1q0nuAtQKGn063UnEJQCwreVK1Hf4QqGk/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/12qXtF4WfMc8ITsGRwQiDuixpCOdZupuR/view?usp=sharing"
 
       }
     }
@@ -332,8 +341,8 @@
 
         "status": "finished",
         "imgPath": "backend/system-designs/ms-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/13Azv7V7fVyECbR_IFY46Y8lYh7IemlVH/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1QwpJ0As3GLojXL2z_6osFUFrcm6sdIy9/view?usp=sharing"
 
       },
 
@@ -341,8 +350,8 @@
 
         "status": "in-progress",
         "imgPath": "backend/system-designs/c4-crashkurs-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1LcTbOa_l__2y5e6PqwK8mxHEpAIdEjlR/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1DNsbyuzCU6ddQCkHY-T2n5kjf1N-Euh5/view?usp=sharing"
 
       }
 
@@ -363,8 +372,8 @@
 
         "status": "finished",
         "imgPath": "backend/devops/devops-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/12gPTlIyaNmCDwQIlGFUGNJ43aJUcKM5L/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1r4ulflksm4h6U2fLLQHF8ilga5eaqtzC/view?usp=sharing"
 
       },
 
@@ -372,8 +381,8 @@
 
         "status": "finished",
         "imgPath": "backend/devops/docker-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1QsKrJKR3dwSTbS3yVk5F86T1-7IfqxSw/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1qgsVEb1-3eeH2OpfelkOXvOfzqaA3Tv_/view?usp=sharing"
 
       },
 
@@ -381,8 +390,8 @@
 
         "status": "finished",
         "imgPath": "backend/devops/kubernetes-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/17MFnSpk3mfEbP7kn8uLHJCrx9upzrBwm/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1fI0-XbbwTBvQhirxkD0wO7xPd9RIFIIX/view?usp=sharing"
 
       },
 
@@ -390,17 +399,17 @@
 
         "status": "finished",
         "imgPath": "backend/devops/jenkins-ci-cd-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/14yWxko9C7QrgdQ9LkLnKBf30rSLFbqgP/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/15rX3w-ir1r7dzYoqOJxANdPPNNMdgbFC/view?usp=sharing"
 
       },
 
-      "later": {
+      "linuxCommand": {
 
         "status": "later",
         "imgPath": "backend/devops/linux-befehl.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1cnfig4PQ401kFdovTr2WQgkgiNAbZVfd/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1ZA_MOi2v_lklDknfbSFrzBmqDtqMsMTL/view?usp=sharing"
 
       },
 
@@ -408,8 +417,8 @@
 
         "status": "later",
         "imgPath": "backend/devops/graph-prome.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1UtO-Xom0yeSypDJTxLOJX0v8sNBe47JD/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1n_i8lkz-Gzg2MED_alm3tLYrR4H7Imo9/view?usp=sharing"
 
       },
 
@@ -417,8 +426,8 @@
 
         "status": "later",
         "imgPath": "backend/devops/keycloak.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/15zblCXB_VeedZUKczQNQ2R4dVflyjZgy/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/175iEcz1gfaYHzlVmwsN0Mr32dP_OFsiB/view?usp=sharing"
 
       }
 
@@ -438,8 +447,8 @@
 
         "status": "finished",
         "imgPath": "backend/cloud/cloud-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1RoAXwTWEp6MNqnvvvzCDlFbkLy-tHmkV/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1s2HyfZ18H07tjimugQb3s3CwINtNLEkU/view?usp=sharing"
 
       },
 
@@ -447,8 +456,8 @@
 
         "status": "later",
         "imgPath": "backend/cloud/gcp-cloud.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1lK4WZjBoWZoP-vw2F2cFoWHKNyz59-gY/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1BFrOf-pJXHqwWKkv27v0GsnJjwDsBmFS/view?usp=sharing"
 
       }
 
@@ -469,8 +478,8 @@
 
         "status": "later",
         "imgPath": "backend/js-backend/nodejs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/17HIOsUTKjXuY4xLEW96KttUHq5Wix6xD/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1dvD2EQYUrfZhNIL_n10UgsBxl0q3Q5VB/view?usp=sharing"
 
       },
 
@@ -478,8 +487,8 @@
 
         "status": "later",
         "imgPath": "backend/js-backend/nextjs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1EWt6F_LV9pnZL01hWIysJ9mizwD74tn2/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1HZ-bJcvg0sh7tt5eReXfTLZ43WsvuVye/view?usp=sharing"
 
       },
 
@@ -487,8 +496,8 @@
 
         "status": "later",
         "imgPath": "backend/js-backend/nestjs-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Y_7XdfYOdBwdOaavXBMXQvnNPxHU-3O_/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1l2Rn7xcxf0-UJvw9pU0zNrQrRiMRO4wY/view?usp=sharing"
 
       }
 

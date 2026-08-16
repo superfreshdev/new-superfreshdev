@@ -12,8 +12,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ts-grundlagen.png",
-        "odtHref": "🔥🍎",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1LoWEOj82XdpLdaoD5yjDvi5A2V02_fKI/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1_lcV1XF4iZhKz3ht0nrsa62u2yczdp6N/view?usp=sharing"
 
       },
 
@@ -21,8 +21,8 @@
 
         "status": "later",
         "imgPath": "web/angular/zus/ts-zus.png",
-        "odtHref": "🔥🍎",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Te_l5pyZBVhjc56GNt8drrMG3YKXFVcp/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/10XigP__15Vbm3clMan8BkWX8qgV8lqb-/view?usp=sharing"
 
       },
 
@@ -30,8 +30,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang17-oekosystem.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1lSpu5agdY94X_fIGl4vBPhGrSlT69Gd4/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1ohihxdgtGLhO4LXDwGymJ1dpWSO6CLTI/view?usp=sharing"
 
       },
 
@@ -39,8 +39,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang17-cli.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1MCLOT9HoL_OxmgHV2W4gSSGRcG2THAJf/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1YExX95grwdIKqz9m_5WBKMuzmwvfc5Hy/view?usp=sharing"
 
       },
 
@@ -48,8 +48,17 @@
 
         "status": "in-progress",
         "imgPath": "web/angular/zus/ang17-oeko-cli-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1ec6NDUUHem9fhJhwwwTK_43QMY1EYgk1/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1ZPvoW8stc1Xh6VXuAe5Gx4MlW1k--shg/view?usp=sharing"
+
+      },
+
+      "komponentenModule": {
+
+        "status": "finished",
+        "imgPath": "web/angular/ang17-komponenten-bindungen-module.png",
+        "odtHref": "https://drive.google.com/file/d/1wTg5GHUoGqpdCE1RZ6dy-7mOQCekzadR/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1L5llKiBuQBoUtAbhawDRjS2_AradwttC/view?usp=sharing"
 
       },
 
@@ -57,8 +66,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang17-di.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1iRmq6wL_kpOaKejH1cfcf6gGTh8keRfe/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1zqV4mfgLe-lWakxtKzqrGMMSGZ0_OTjD/view?usp=sharing"
 
       },
 
@@ -66,8 +75,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/Ang17-Erweiterte-Komponenten.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1X7NI_n6zoIMfgV-Irv_Q_O_7ysmBI4nl/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/11UjylsTUyCxDQoVYZD9QiTHKjr_eGzLL/view?usp=sharing"
 
       },
 
@@ -75,8 +84,8 @@
 
         "status": "in-progress",
         "imgPath": "web/angular/zus/ang17-di-erw-kom-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1ec6NDUUHem9fhJhwwwTK_43QMY1EYgk1/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1ZPvoW8stc1Xh6VXuAe5Gx4MlW1k--shg/view?usp=sharing"
 
       },
 
@@ -84,8 +93,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang17-routing.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1llS58rooNDgDOZOWO_wKn3RezaqQU-pA/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1Q5_LFS2waMaLXcIPzaLwj3HgvxAU6ckG/view?usp=sharing"
 
       },
 
@@ -93,17 +102,17 @@
 
         "status": "in-progress",
         "imgPath": "web/angular/zus/ang17-routing-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1M_bM-9IWd_NMLHAB5KLjpF-tHaXzY0EP/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1PugEGpaG323ebmKwC7E12DfaJP9_ZjiY/view?usp=sharing"
 
       },
 
       "formular": {
 
-        "status": "finished",
+        "status": "later",
         "imgPath": "web/angular/ang17-formulare.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1KFEnMrNyQ7lC7Gs9IPqJ1Q-uu9iB7YL5/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1585MJlLDT77LQRCRvww_V8JGVlvDjCD-/view?usp=sharing"
 
       },
 
@@ -111,8 +120,8 @@
 
         "status": "later",
         "imgPath": "web/angular/zus/ang17-formulare-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1spOhtY3OV0BBA7hqWSKUp3WaPBFhQR5S/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1QPuF7XPGLR6gtQe9bu22ymfcbOGM-s15/view?usp=sharing"
 
       },
 
@@ -120,8 +129,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang19-rxjs.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1QjKYCu1BGxuEPk_3oALo7A6tMfl9j3qn/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/18OOnYY_bf61X92F5e_Fzs24xbJZWD_Nf/view?usp=sharing"
 
       },
 
@@ -129,8 +138,8 @@
 
         "status": "later",
         "imgPath": "web/angular/zus/ang19-rxjs-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1EcU15eGEGNQiTxi7m0dshO7L_k6oPSC1/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/15UOuPxnVrYhaQs5u6ttwk9Y4BhrfH1JI/view?usp=sharing"
 
       },
 
@@ -138,8 +147,8 @@
 
         "status": "finished",
         "imgPath": "web/angular/ang19-ngrx.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1tHqbwvQy7wgWsGOXKrHyCeTwPmJWGET_/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/15Fa1we0iRxtmp8qLUGn-nQ-I3qBerfJD/view?usp=sharing"
 
       },
 
@@ -147,8 +156,8 @@
 
         "status": "later",
         "imgPath": "web/angular/zus/ang18-ngrx-signal-uni-zus.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1PoMjrP2cBsFU5DNdbiOW9IQZ_8eDquql/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1m8yrZm6FD6ttGVr7BJ8KOvDRKsN4DL0M/view?usp=sharing"
 
       }
     }
@@ -156,9 +165,9 @@
 
   },
 
-   "javaScript": {
+  "javaScript": {
 
-    "title":"Java Script",
+    "title":"Java Script - ❌ Unshown",
     "subTitle": "",
 
     "docCards": {
@@ -216,8 +225,8 @@
 
         "status": "finished",
         "imgPath": "web/sass-co/sass-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1Uq59g1m4GxgjYdG7rY3MvAiCBriz6EkS/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1bm1ob-cz2g94yeSnw6TcKv6k27-yFjrh/view?usp=sharing"
 
       },
 
@@ -225,8 +234,8 @@
 
         "status": "later",
         "imgPath": "web/sass-co/tailwind-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1g5q0FyMIE_spekHbTrnM6_Tc6UbW4SBd/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1YPSKnG7LmPkWAnlWJx1hGK-iHQq-zkGc/view?usp=sharing"
 
       },
 
@@ -234,8 +243,8 @@
 
         "status": "later",
         "imgPath": "web/sass-co/angular-cdk.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1A8Hf3wQSfEIUyo5BKGKvJbEqko8u18x2/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1XyYriOeJyzgyouZ9cgF-sVxy3je6xxwq/view?usp=sharing"
 
       }
 
@@ -256,8 +265,8 @@
 
         "status": "later",
         "imgPath": "web/tools/yt-npm.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/17LqTjLa4hv6X_ZTFItopx3CW8XjyVFSJ/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1RuTtVdugJ3dzI60PfSB0NWi4P7FCJdk4/view?usp=sharing"
 
       },
 
@@ -265,8 +274,8 @@
 
         "status": "later",
         "imgPath": "web/tools/storybook-grundlagen.png",
-        "odtHref": "",
-        "pdfHref": ""
+        "odtHref": "https://drive.google.com/file/d/1414k8C3YNYXSZepEWFOfy443fxYahoI1/view?usp=sharing",
+        "pdfHref": "https://drive.google.com/file/d/1Rg56O-NkOqceelrSt10mzo-Km4sIfmME/view?usp=sharing"
 
       }
 
