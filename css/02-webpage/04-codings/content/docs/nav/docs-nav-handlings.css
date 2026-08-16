@@ -25,13 +25,8 @@ input[name="name-radio-codings-docs-nav"] {
 #radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"],
 #radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"] {
 
-  /* background-color: rgb(210, 195, 164);
-  color:rgb(36, 36, 36); */
-
-  background-color: lightgrey;
-  opacity: .6;
-
-  color:rgb(36, 36, 36);
+  background-color: rgb(216, 216, 216);
+  color:rgb(58, 58, 58);
 
 }
 
