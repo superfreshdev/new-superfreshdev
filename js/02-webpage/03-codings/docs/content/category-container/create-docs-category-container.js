@@ -97,7 +97,74 @@
 
   }
 
-  // 🟩 Create - Doc Category Container - Main
+  // 🟩 Sort By Finished Doc Cards
+  async function sortByFinishedDocCards( dataDocCards ) {
+
+    console.log("🔩⛑️ - sortByFinishedDocCards")
+    // console.log("🔺dataDocCards (length): " + dataDocCards  )
+
+    // 🟩 Neue Lösung
+
+    /* -------------------------------------------------------------------- */
+    /* 🟩 Step 1/3
+    /* > Define Sort Priority
+    /* -------------------------------------------------------------------- */
+
+      const statusPriority = {
+
+        "finished": 1,
+        "in-progress": 2,
+        "later": 3,
+        "future": 4
+
+      }
+
+    /* -------------------------------------------------------------------- */
+    /* 🟩 Step 2/3
+    /* > Get Entries, sort and bring it to object again
+    /* > Senior Way, sort without mapping extra with Arrays
+    /* -------------------------------------------------------------------- */
+
+      const sortedEntries = Object.entries(dataDocCards).sort(([ keyA,dataA ], [ keyB, dataB ]) => {
+
+        // die x2 ?= Nullish Coalescing Operator - prüft ob der Wert vor ihm undefined oder null ist und greift
+        // dann auf den Fallback dahinter zurück
+        // min Infinity schrenken wir uns nicht ein fallst wir z.B 1000 Karten haben sollten = unrealistisch
+        const priorityA = statusPriority[dataA.status] ?? Infinity;
+        const priorityB = statusPriority[dataB.status] ?? Infinity;
+
+        // sortiert aufsteigend nach Prio - 1 kommt zuerst
+        // wenn wir -1 haben, rückt es nach oben, js-sort
+        return priorityA - priorityB;
+
+      })
+
+
+    /* -------------------------------------------------------------------- */
+    /* 🟩 Step 3/3
+    /* > Convert to Object key-value
+    /* -------------------------------------------------------------------- */
+
+      var sortedDocCards = "";
+      sortedDocCards = Object.fromEntries(sortedEntries)
+
+      // Test Print by Key names
+      // for( var [docCardName, docCardData] of Object.entries(sortedDocCards)) {
+
+      //   console.log("🏝️docCardName = " + docCardName )
+      //   console.log("🏝️docCardData = " + docCardData )
+
+      // }
+
+
+    return new Promise(resolve => {
+      resolve( sortedDocCards );
+    })
+
+  }
+
+
+  // ➡️🟥 Create - Doc Category Container - Main
   async function createDocCategoryMain( style, dataDocCards ) {
 
     console.log("🔩⛑️ - createDocCategoryMain()")
@@ -120,19 +187,29 @@
 
       var docCard = "";
 
-      // Run throw all data doc cards
-      for( var [docCategory, docData] of Object.entries(dataDocCards)) {
+      /* --------------------------------------------------------- */
+      /* 🟩 Sort Doc Cards by Finished
+      /* --------------------------------------------------------- */
 
-        console.log("-------")
-        console.log("➕ Create Doc Card: " + docCategory)
-        console.log("> Data Doc Card: " + docData )
+        var docCardsSorted = await sortByFinishedDocCards( dataDocCards );
+        console.log("🤡 docCardsSorted=== " + docCardsSorted)
 
-        docCard = await createDocCard( style, docData );
+      /* --------------------------------------------------------- */
+      /* 🟩 Create Doc Cards with new Sort
+      /* --------------------------------------------------------- */
 
-        // Add "docCards" to "main"
-        main.appendChild(docCard);
+        for( var [docCategory, docData] of Object.entries(docCardsSorted)) {
 
-      }
+          console.log("-------")
+          console.log("➕ Create Doc Card: " + docCategory)
+          console.log("> Data Doc Card: " + docData )
+
+          docCard = await createDocCard( style, docData );
+
+          // Add "docCards" to "main"
+          main.appendChild(docCard);
+
+        }
 
 
     return new Promise(resolve => {
