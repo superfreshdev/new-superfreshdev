@@ -97,7 +97,7 @@
 
   }
 
-  // ➡️🟥 Create - Doc Category Container - Main
+  // 🟩 Create - Doc Category Container - Main
   async function createDocCategoryMain( style, dataDocCards ) {
 
     console.log("🔩⛑️ - createDocCategoryMain()")
@@ -114,7 +114,7 @@
       var main = await createDivClass(mainCssClass);
 
     /* ----------------------------------------------------------------------------- */
-    /* ➡️🟥 Step 2/2
+    /* 🟩 Step 2/2
     /* > Create - All Doc Cards
     /* ----------------------------------------------------------------------------- */
 
@@ -129,12 +129,10 @@
 
         docCard = await createDocCard( style, docData );
 
-
         // Add "docCards" to "main"
         main.appendChild(docCard);
 
       }
-
 
 
     return new Promise(resolve => {
@@ -157,7 +155,7 @@
     console.log("❇️ Create - Doc Category Container")
 
     /* ----------------------------------------------------- */
-    /* 🟩 Step 1/4
+    /* 🟩 Step 1/3
     /* Create Docs Category Container
     /* ----------------------------------------------------- */
 
@@ -166,7 +164,7 @@
       console.log("> docCategoryContainer: " + docCategoryContainer)
 
     /* ----------------------------------------------------- */
-    /* 🟩 Step 2/4
+    /* 🟩 Step 2/3
     /* Create Doc Category - Header
     /* ----------------------------------------------------- */
 
@@ -175,7 +173,7 @@
       docCategoryContainer.appendChild(header);
 
     /* ----------------------------------------------------- */
-    /* ➡️🟥 Step 3/4
+    /* 🟩 Step 3/3
     /* Create Doc Category - Main
     /* ----------------------------------------------------- */
 
@@ -183,18 +181,6 @@
       var main = await createDocCategoryMain( style, dataDocCards );
       // Add "main" to "docCategoryContainer"
       docCategoryContainer.appendChild(main);
-
-
-    /* ----------------------------------------------------- */
-    /* 🟥 Step 4/4
-    /* Create & Add Doc Cards to Main
-    /* ----------------------------------------------------- */
-
-      var newDocCards = [];
-
-      // Add "newDocCards[x] to "main""
-
-      // Add "main to "docCategoryContainer""
 
 
     return new Promise(resolve => {

@@ -281,7 +281,7 @@
         docCard.appendChild(main)
 
       /* ---------------------------------------------------------- */
-      /* ➡️🟥 Step 1.2
+      /* 🟩 Step 1.2
       /* > Create Doc Card - Footer
       /* ---------------------------------------------------------- */
 
@@ -316,7 +316,7 @@
           footer.appendChild(linkOdt)
 
         /* ------------------------------------------------ */
-        // ➡️🟥 Step 1.2.1
+        // 🟩 Step 1.2.1
         // > Create - Link - External Link
         /* ------------------------------------------------ */
 
@@ -335,7 +335,6 @@
 
           // add "linkPdf" to "footer"
           footer.appendChild(linkPdf)
-
 
 
         // Add "footer" to "docCard"
