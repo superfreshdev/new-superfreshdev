@@ -2,6 +2,8 @@
 
   "springBoot": {
 
+    "showView": "true",
+
     "title":"Spring Boot",
     "subTitle": "Linkedin Learning",
 
@@ -59,6 +61,8 @@
   },
 
   "springBootYoutube": {
+
+    "showView": "true",
 
     "title":"Spring Boot",
     "subTitle": "Youtube",
@@ -163,6 +167,8 @@
 
   "database": {
 
+    "showView": "true",
+
     "title":"Databases",
     "subTitle": "",
 
@@ -202,6 +208,8 @@
   },
 
   "apiMessages": {
+
+    "showView": "true",
 
     "title":"APIs & Messages",
     "subTitle": "",
@@ -331,6 +339,8 @@
 
   "systemDesigns": {
 
+    "showView": "true",
+
     "title":"Software Architecture",
     "subTitle": "",
 
@@ -361,6 +371,8 @@
   },
 
   "devOps": {
+
+    "showView": "true",
 
     "title":"Dev Ops",
     "subTitle": "",
@@ -437,6 +449,8 @@
 
   "cloud": {
 
+    "showView": "true",
+
     "title":"Cloud ",
     "subTitle": "",
 
@@ -467,6 +481,8 @@
   },
 
   "jsBackend": {
+
+    "showView": "true",
 
     "title":"JS Backend",
     "subTitle": "",

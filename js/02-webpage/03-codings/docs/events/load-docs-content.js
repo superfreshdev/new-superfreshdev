@@ -45,6 +45,9 @@
 /* 🔩⛑️ Help Functions
 /* -------------------------------------------------------------------- */
 
+  // ⚠️ Methoden gruppieren, welche Methoden gehören zu welchem Kontext -> eigene Dateien
+
+
   // 🟩 Check active codings & docs nav
   async function isActiveCodingsDocsNav( codingsRadio, docsNavRadios ) {
 
@@ -68,8 +71,7 @@
     })
 
   }
-
-  // 🟩 Find Docs Content File to Create
+  // ➡️🟩 Find Docs Content File to Create
   async function getDocsContentFilePath( docsNavRadios, docsContentFilePaths ) {
 
     // console.log("getDocsContentFilePath()");
@@ -81,7 +83,7 @@
     /* > Get Id from checked Radios
     /* ----------------------------------------------------------------------- */
 
-      // Get Checked Docs Nav Radio Element
+       // Get Checked Docs Nav Radio Element
       var checkedDocsNavRadio = await getCheckedRadioElement( docsNavRadios )
       var checkedDocsNavRadioId = checkedDocsNavRadio.getAttribute("id");
       console.log("-> " + checkedDocsNavRadioId )
@@ -95,7 +97,6 @@
       // Filter Docs Nav Category
       var docsNavCategory = await substringAfter( "nav-", checkedDocsNavRadioId )
       console.log("-> " + docsNavCategory)
-
 
     /* ----------------------------------------------------------------------- */
     /* 🟩 Step 3/3
@@ -143,10 +144,10 @@
 
   }
 
-  // ➡️🟨 Create Docs Content
-  async function createDocsContent( stylePath, contentPath, docsContainer ) {
+  // 🟩 Create Docs Content
+  async function createDocsContentTo( stylePath, contentPath, docsContainer ) {
 
-    console.log("🔔createDocsContent()");
+    console.log("🔔createDocsContentTo()");
     console.log("🔔stylePath:" + stylePath);
     console.log("🔔contentPath:" + contentPath);
     console.log("🔔docsContainer:" + docsContainer);
@@ -187,6 +188,8 @@
         // Run all throw all Doc Categories by key value
         /* ----------------------------------------------------------------- */
 
+          var allowToCreate = false;
+
           for( var [categoryKey, categoryData] of Object.entries(dataDocsContent)) {
 
             console.log("-------------------------------------")
@@ -195,19 +198,31 @@
             console.log("categoryData: " + categoryData )
             console.log("-------------------------------------")
 
-            /* -------------------------------------------------------------- */
-            // 1. Create - Doc Category Containers
-            /* -------------------------------------------------------------- */
+            allowToCreate = categoryData.showView;
 
-              var docCategoryContainer = "";
-              docCategoryContainer = await createDocCategoryContainer( styleDocCategoryContainer, categoryData );
-              console.log("docCategoryContainer = " + docCategoryContainer )
+            if( allowToCreate == "true" ) {
 
-            /* -------------------------------------------------------------- */
-            // 2. Add step by step "docCategoryContainer" to "docsContainer""
-            /* -------------------------------------------------------------- */
+              console.log("🟩 Allow To Create - Docs Category Container - " + categoryKey )
 
-              docsContainer.appendChild( docCategoryContainer )
+              /* -------------------------------------------------------------- */
+              // 1. Create - Doc Category Containers
+              /* -------------------------------------------------------------- */
+
+                var docCategoryContainer = "";
+                docCategoryContainer = await createDocCategoryContainer( styleDocCategoryContainer, categoryData );
+                console.log("docCategoryContainer = " + docCategoryContainer )
+
+              /* -------------------------------------------------------------- */
+              // 2. Add step by step "docCategoryContainer" to "docsContainer""
+              /* -------------------------------------------------------------- */
+
+                docsContainer.appendChild( docCategoryContainer )
+
+            } else {
+
+              console.log("❌ Dont Allow To Create - Docs Category Container - " + categoryKey )
+
+            }
 
           }
 
@@ -218,10 +233,10 @@
 
   }
 
-  // 🟩 Create Docs Content
-  async function isDocsContentEmpty( docsContentPath ) {
+  // 🟩 Should Docs Content Create
+  async function shouldDocsContentCreate( docsContentPath ) {
 
-    console.log("🔔isDocsContentEmpty()");
+    console.log("🔔shouldDocsContentCreate()");
     console.log("🔔docsContentPath:" + docsContentPath);
 
     /* ---------------------------------------------------------------- */
@@ -234,37 +249,41 @@
 
     /* ---------------------------------------------------------------- */
     /* ➡️🟥 Step 2/2
-    /* > Check if all title = "", then no content view is active
+    /* > Check if all Docs Category are visibileView = false
     /* ---------------------------------------------------------------- */
 
-      var isContentEmpty = true;
+      var shouldContentViewCreate = false;
+      var foundShowViews = 0;
+      var showView = "";
 
-      var foundCategoryTitle = 0;
       var categoryKeys = Object.keys(docsContent);
 
+      // check if minimum 1 docs category visible view is true, then exit
       for( const key of categoryKeys) {
 
-        var title = docsContent[key].title;
+        showView = docsContent[key].showView;
 
         // if not empty, jump out - minimum 1 found to create
-        if( title != "" ) {
-          foundCategoryTitle = 1;
+        if( showView == "true" ) {
+          foundShowViews = 1;
           break;
         }
 
       }
 
-      if( foundCategoryTitle != 0 ) {
+      // if minimum x1 showView true found, then allow to create content view
+      if( foundShowViews > 0 ) {
 
-        isContentEmpty = false;
+        shouldContentViewCreate = true;
 
       }
 
-      console.log("isContentEmpty = " + isContentEmpty )
+      console.log("foundShowViews = " + foundShowViews)
+      console.log("shouldContentViewCreate = " + shouldContentViewCreate )
 
 
     return new Promise(resolve => {
-      resolve( isContentEmpty );
+      resolve( shouldContentViewCreate );
     })
 
   }
@@ -360,10 +379,17 @@
         // > check if all title = ""
         /* -------------------------------------------------------- */
 
-          var isNoContentViewActive = false;
-          isNoContentViewActive = await isDocsContentEmpty( docsContentPath );
+          // ⚠️ zu einer Methode machen -> createDocsView() -> docs content / no content yet - view
+          /*
+              1. Prüfe ob Docs Content überhaupt erstellt werden soll
+              2. Falls ja, erstelle Docs Category Container nur mit showView = true
+                 falls nein, lösche alten docs content und zeige no content view
+          */
 
-          if( isNoContentViewActive == false ) {
+          var createDocsContent = false;
+          createDocsContent = await shouldDocsContentCreate( docsContentPath );
+
+          if( createDocsContent == true ) {
 
             /* ----------------------------------------------------------------------- */
             // 🟩 Step 1.3
@@ -377,7 +403,7 @@
             // > Create All Doc Category Container from Doc Content to "docsContaner"
             /* ----------------------------------------------------------------------- */
 
-            await createDocsContent( stylePathDocCategoryContainer, docsContentPath, docsContainer )
+              await createDocsContentTo( stylePathDocCategoryContainer, docsContentPath, docsContainer )
 
 
           } else {

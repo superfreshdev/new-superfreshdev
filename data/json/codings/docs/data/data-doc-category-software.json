@@ -2,6 +2,8 @@
 
   "java": {
 
+    "showView": "true",
+
     "title":"Java",
     "subTitle": "",
 
@@ -68,6 +70,8 @@
   },
 
   "testing": {
+
+    "showView": "true",
 
     "title":"Testing",
     "subTitle": "",
@@ -144,6 +148,8 @@
 
   "softwareQuality": {
 
+    "showView": "true",
+
     "title":"Software Quality",
     "subTitle": "",
 
@@ -183,6 +189,8 @@
   },
 
   "aud": {
+
+    "showView": "true",
 
     "title":"Algorithmn & Datastructure",
     "subTitle": "",
@@ -233,6 +241,8 @@
 
   "tools": {
 
+    "showView": "true",
+
     "title":"Tools",
     "subTitle": "",
 
@@ -281,6 +291,8 @@
   },
 
   "reactNative": {
+
+    "showView": "true",
 
     "title":"React Native",
     "subTitle": "",

@@ -2,6 +2,8 @@
 
   "angular": {
 
+    "showView": "true",
+
     "title":"Angular",
     "subTitle": "World",
 
@@ -176,7 +178,9 @@
 
   "javaScript": {
 
-    "title":"Java Script - ❌ Unshown",
+    "showView": "false",
+
+    "title":"Java Script",
     "subTitle": "",
 
     "docCards": {
@@ -224,6 +228,8 @@
 
   "sassTailwindCo": {
 
+    "showView": "true",
+
     "title":"SASS,Tailwind & Co",
     "subTitle": "",
 
@@ -263,6 +269,8 @@
   },
 
   "webTools": {
+
+    "showView": "true",
 
     "title":"Web Tools",
     "subTitle": "",

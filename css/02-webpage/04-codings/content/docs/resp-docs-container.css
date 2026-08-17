@@ -103,23 +103,14 @@
 
   .docs-category-card-list {
 
-    /* width: 100%; */
-
-    display: flex;
-    flex-wrap: wrap;
-
-    align-items: flex-start;
-    justify-content: center;
-
-
-    column-gap: 1.5em;
-    row-gap: 1.5em;
+    column-gap: 1.8em;
+    row-gap: 1.8em;
 
   }
 
   .docs-category-card-list > div {
 
-    width: 13em;
+    width: 14em;
 
   }
 

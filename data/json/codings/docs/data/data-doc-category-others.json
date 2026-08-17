@@ -2,6 +2,8 @@
 
   "emptyNoContent": {
 
+    "showView": "false",
+
     "title":"",
     "subTitle": "",
 

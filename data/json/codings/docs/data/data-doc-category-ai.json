@@ -2,6 +2,8 @@
 
   "math": {
 
+    "showView": "true",
+
     "title":"Math",
     "subTitle": "",
 
@@ -51,6 +53,8 @@
 
   "concepts": {
 
+    "showView": "true",
+
     "title":"Concepts",
     "subTitle": "",
 
@@ -80,6 +84,8 @@
   },
 
   "language": {
+
+    "showView": "true",
 
     "title":"Language",
     "subTitle": "",

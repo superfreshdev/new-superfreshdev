@@ -147,8 +147,6 @@
 /* 🔩 Functions
 /* -------------------------------------------------------------------- */
 
-  // ⚠️ Promise - Async brauchst du wahrscheinlich hier nicht
-
   // 🟩 Create - Docs Category Container
   async function createDocCategoryContainer( style, data ) {
 
