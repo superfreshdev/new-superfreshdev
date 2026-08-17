@@ -18,13 +18,13 @@
   justify-items: center;
   align-items: center;
 
-
-
-
-
   column-gap: 1em;
   row-gap: 1em;
 
+}
 
+.docs-category-card-list > div {
+
+  width: 100%;
 
 }
