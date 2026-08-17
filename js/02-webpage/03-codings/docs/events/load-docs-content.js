@@ -11,8 +11,12 @@
 
   // Body Nav - Codings Radio
   var codingsNavRadio = document.getElementById("radio-codings");
+
   // Docs Nav - Radios
   var docsNavRadios = document.querySelectorAll('input[name="name-radio-codings-docs-nav"]');
+
+  // Docs Nav - Labels
+  var docsNavLabels = document.querySelectorAll("#codings-docs-nav > label")
 
   // No Content - Docs Category Container
   var docsNoContentContainer = document.getElementById("docs-category-container-no-content");
@@ -229,6 +233,100 @@
 /* 🔩 Functions
 /* -------------------------------------------------------------------- */
 
+  // 🟩 Update Docs Nav Counters
+  async function updateDocsNavCounters( docsNavLabels, contentPaths ) {
+
+    console.log("🔔updateDocsNavCounters()");
+    console.log("🔔docsNavLabels:" + docsNavLabels);
+    console.log("🔔contentPaths:" + contentPaths);
+
+    var docsContentPaths = [];
+    var docsNavCounter = "";
+    var maxContentPaths = Object.keys(contentPaths).length;
+    // console.log("maxContentPaths: " + maxContentPaths)
+
+    /* -------------------------------------------------------- */
+    /* 🟩 Step 1/2
+    /* > Get All Doc Content Paths
+    /* -------------------------------------------------------- */
+
+      for( var [docContent, docPath] of Object.entries(contentPaths)) {
+
+        // console.log( "🌵Key: " + docContent )
+        // console.log( "🌵Path: " + docPath )
+        docsContentPaths.push( docPath )
+
+      }
+
+      /* -------------------------------------------------------- */
+      /* 🟩 Step 2/2
+      /* > Count from all docsContentPaths active doc Cards
+      /* > & update Docs Nav Labels
+      /* -------------------------------------------------------- */
+
+        var docsContent = "";
+        var docCardsData = "";
+        var docCardsCounter = "";
+
+        // Get Each Docs Content File
+        for( let i=0; i < docsContentPaths.length; i++ ) {
+
+          // console.log("✴️ Label Update " + (i+1))
+          docCardsCounter = 0;
+
+          /* -------------------------------------------------------------- */
+          /* 🟩 Step 2.1
+          /* > Try Open File & Create Object
+          /* -------------------------------------------------------------- */
+
+            docContent = await getJsonObjectFromFile( docsContentPaths[i] );
+            console.log("docsContent = " + docContent)
+
+          /* -------------------------------------------------------------- */
+          /* 🟩 Step 2.2
+          /* > Count only Doc Cards from Doc Categories with activ
+          /* -------------------------------------------------------------- */
+
+            for( var [docCategory, docData] of Object.entries(docContent)) {
+
+              // console.log( "🔩Key: " + docCategory )
+              // console.log( "🔩Path: " + docData )
+
+              // Only Active Doc Category allow to count doc cards
+              if( docData.showView == "true") {
+
+                // console.log("### Allow to Count")
+
+                docCardsData = docData.docCards;
+
+                // Count Add
+                docCardsCounter += Object.keys(docCardsData).length;
+                // console.log("docCardsCounter====" + docCardsCounter)
+
+              }
+
+
+            }
+
+          /* -------------------------------------------------------------- */
+          /* 🟩 Step 2.4
+          /* > Add Final Counter to Label
+          /* > Label should be same index like files
+          /* -------------------------------------------------------------- */
+
+            docsNavLabels[i].querySelector("div:last-child > div").innerText = "x"+docCardsCounter;
+
+
+
+        }
+
+
+    return new Promise(resolve => {
+      resolve( );
+    })
+
+  }
+
   // 🟩 Create Docs Content To
   async function createDocsContentTo( stylePath, contentPath, docsContainer ) {
 
@@ -413,6 +511,7 @@
           // > Update Docs Nav Counters
           /* ------------------------------------------------------------------------ */
 
+            await updateDocsNavCounters( docsNavLabels, docsContentFilePaths );
 
           /* ------------------------------------------------------------------------ */
           // 🟩 Step 2.2
