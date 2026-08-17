@@ -233,7 +233,7 @@
 
   "tools": {
 
-    "title":"Tools ⚠️ Missing Files",
+    "title":"Tools",
     "subTitle": "",
 
     "docCards": {
@@ -241,7 +241,7 @@
 
       "git": {
 
-        "status": "finished",
+        "status": "later",
         "imgPath": "software/tools/git/git-github-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -250,7 +250,7 @@
 
       "vsCode": {
 
-        "status": "finished",
+        "status": "later",
         "imgPath": "software/tools/ide/vscode-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
@@ -259,7 +259,7 @@
 
       "intellij": {
 
-        "status": "finished",
+        "status": "later",
         "imgPath": "software/tools/ide/intellij-grundlagen.png",
         "odtHref": "",
         "pdfHref": ""
