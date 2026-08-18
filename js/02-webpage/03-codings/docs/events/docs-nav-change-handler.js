@@ -25,7 +25,7 @@
 
       docRadio.addEventListener("change", async() => {
 
-        window.alert("docRadio - changed" + docRadio.getAttribute("id"))
+        // window.alert("docRadio - changed" + docRadio.getAttribute("id"))
         console.log("docRadio - changed" + docRadio.getAttribute("id"))
 
         /* -------------------------------------------------------- */
