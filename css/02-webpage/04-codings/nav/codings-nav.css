@@ -44,9 +44,7 @@
   flex-wrap: wrap;
   align-items: center;
 
-  justify-content: flex-end;
-
-  /* justify-content: center; */
+  justify-content: center;
 
   column-gap: .4em;
   row-gap: .6em;

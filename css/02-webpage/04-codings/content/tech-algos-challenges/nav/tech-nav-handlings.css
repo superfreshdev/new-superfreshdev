@@ -23,11 +23,15 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-tech-nav-observability:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-observability"],
 #radio-codings-tech-nav-cloud:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-cloud"],
 #radio-codings-tech-nav-ai:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-ai"],
-#radio-codings-nav-tech-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"],
+#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"],
 #radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] {
 
   background-color: rgb(216, 216, 216);
   color:rgb(58, 58, 58);
+
+  color:rgb(108, 108, 108);
+
+  opacity: 1;
 
 }
 
@@ -37,7 +41,7 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-tech-nav-observability:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-observability"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-codings-tech-nav-cloud:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-cloud"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-codings-tech-nav-ai:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-ai"] > div:nth-of-type(1) > img:nth-of-type(1),
-#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"]  > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"] > div:nth-of-type(1) > img:nth-of-type(1),
 #radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"]  > div:nth-of-type(1) > img:nth-of-type(1) {
 
   display: none;
@@ -84,13 +88,8 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"] > div:last-child > div,
 #radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:last-child > div {
 
-  /* color: rgb(45, 42, 37);
-  color: rgb(122, 121, 121);
-
-  color: rgb(179, 161, 131);
-  */
   color:rgb(36, 36, 36);
-
+  color:rgb(108, 108, 108);
 
 }
 

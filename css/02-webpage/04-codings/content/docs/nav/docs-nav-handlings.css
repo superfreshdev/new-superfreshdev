@@ -28,6 +28,10 @@ input[name="name-radio-codings-docs-nav"] {
   background-color: rgb(216, 216, 216);
   color:rgb(58, 58, 58);
 
+  color:rgb(108, 108, 108);
+
+   opacity: 1;
+
 }
 
 /* unshow grey img */
@@ -63,6 +67,8 @@ input[name="name-radio-codings-docs-nav"] {
 #radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"] > div:last-child > div {
 
   color:rgb(36, 36, 36);
+
+  color:rgb(108, 108, 108);
 
 }
 

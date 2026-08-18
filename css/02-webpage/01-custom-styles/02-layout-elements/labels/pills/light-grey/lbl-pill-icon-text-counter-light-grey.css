@@ -17,9 +17,14 @@
   column-gap: .3em;
 
   font-weight: bold;
+
   border-radius: .8em;
 
   color: rgb(152, 152, 152);
+
+  border: 1px solid rgb(193, 193, 193);
+
+  opacity: .6;
 
 }
 
@@ -71,6 +76,8 @@
 
   background-color: rgb(216, 216, 216);
   color:rgb(58, 58, 58);
+
+  opacity: 1;
 
 }
 

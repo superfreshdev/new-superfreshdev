@@ -26,6 +26,10 @@ input[name="name-radio-codings-kits-nav"] {
   background-color: rgb(216, 216, 216);
   color:rgb(58, 58, 58);
 
+  color:rgb(108, 108, 108);
+
+  opacity: 1;
+
 }
 
 /* unshow grey img */
@@ -68,6 +72,8 @@ input[name="name-radio-codings-kits-nav"] {
 #radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] > div:last-child > div {
 
   color:rgb(36, 36, 36);
+
+  color:rgb(108, 108, 108);
 
 }
 

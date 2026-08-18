@@ -3,14 +3,22 @@
 /* ---------------------------------------------------------------- */
 
 
-/*
-
-  ⚠️ only if we need to create for
-      codings nav resp sets - for example in mobile
-      to create long nav item list to an drop down element
-
-*/
-
 /* ----------------------------------------------------------------- */
-/* ....
+/* > 450px
 /* ----------------------------------------------------------------- */
+
+@media (min-width: 450px) {
+
+  /* ----------------------------------------------------------------- */
+  /* Codings Nav
+  /* > Tech, Algos, Challenges, Kits, Docs, Unshown
+  /* ----------------------------------------------------------------- */
+
+    #codings-nav {
+
+      /* background-color: red; */
+
+    }
+
+
+}
