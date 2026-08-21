@@ -1,0 +1,110 @@
+/* --------------------------------------------------------------- */
+/* > codings-task-header.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Codings Task Header
+/* --------------------------------------------------------------- */
+
+#codings-task-header {
+
+  width: 100%;
+  padding: 1.5em .8em 2em .8em;
+
+  display: flex;
+  align-items: center;
+
+  column-gap: 1em;
+
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
+
+  /* background-color: rgb(228, 228, 228); */
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/2] | Img
+/* --------------------------------------------------------------- */
+
+#codings-task-header-img {
+
+
+  height: 3.5em;
+
+  opacity: .3;
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* [2/2] | Content ( Title + Time Limiter & Nav )
+/* --------------------------------------------------------------- */
+
+#codings-task-header-content {
+
+  width: 100%;
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div 2 - Div 1 | Time & Time Limiter
+/* --------------------------------------------------------------- */
+
+#codings-task-header-content > div:nth-of-type(1) {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  column-gap: 1.3em;
+  row-gap: .3em;
+
+  /* background-color: blue; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Title | Time & Time Limiter
+/* --------------------------------------------------------------- */
+
+#codings-task-header-title {
+
+  padding-left: .3em;
+
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(37, 37, 37);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Time Limiter | Time & Time Limiter
+/* --------------------------------------------------------------- */
+
+#codings-task-header-time-limiter {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  opacity: .4;
+
+}
+
+/* div */
+#codings-task-header-time-limiter > div {
+
+  /* layout fix */
+  padding-top: 1px;
+
+  font-weight: bold;
+  font-size: 13px;
+
+}

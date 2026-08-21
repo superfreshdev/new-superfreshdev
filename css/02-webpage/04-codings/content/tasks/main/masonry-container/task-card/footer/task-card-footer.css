@@ -1,0 +1,92 @@
+/* --------------------------------------------------------------- */
+/* > task-card-footer.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Footer - Task Card
+/* --------------------------------------------------------------- */
+
+.task-card-footer {
+
+  padding-top: 1.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Link - Default
+/* --------------------------------------------------------------- */
+
+.task-card-footer a {
+
+  /* delete default link style */
+  text-decoration: none;
+
+  height: 1.8em;
+  padding: 0 .5em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  font-weight: bold;
+
+  border-radius: .6em;
+
+  color:rgb(129, 129, 129);
+  /* background-color: rgb(231, 231, 231); */
+
+  border: 1px solid rgb(215, 215, 215);
+
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* visited */
+.task-card-footer a:visited {
+
+  color:rgb(129, 129, 129);
+
+}
+
+/* hover */
+.task-card-footer a:hover {
+
+  background-color: rgb(220, 219, 219);
+}
+
+/* img */
+.task-card-footer a > img {
+
+  opacity: .4;
+
+}
+
+/* div */
+.task-card-footer a > div {
+
+  /* layout fix */
+  margin-bottom: 1px;
+  font-size: 13.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* GitHub Links Box
+/* --------------------------------------------------------------- */
+
+.task-card-footer > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+}

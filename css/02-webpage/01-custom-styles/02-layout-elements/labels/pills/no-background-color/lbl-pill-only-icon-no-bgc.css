@@ -1,0 +1,69 @@
+/* --------------------------------------------------------------- */
+/* > lbl-pill-icon-no-bgc.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label | Icon | Pill
+/* --------------------------------------------------------------- */
+
+.lbl-pill-only-icon-no-bgc {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .8em;
+
+  border: 1px solid rgb(198, 198, 198);
+
+}
+
+.lbl-pill-only-icon-no-bgc:hover {
+
+  background-color: #d8d8d8;
+
+}
+
+/* img grey  */
+.lbl-pill-only-icon-no-bgc > img:nth-of-type(1) {
+
+  opacity: 1;
+
+}
+
+/* img black */
+.lbl-pill-only-icon-no-bgc > img:nth-of-type(2) {
+
+  opacity: .7;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Default Img Black Unshown
+/* --------------------------------------------------------------- */
+
+.lbl-pill-only-icon-no-bgc > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show black img by hover, unshown grey img
+/* ------------------------------------------------------------------------- */
+
+/* unshow grey img */
+.lbl-pill-only-icon-no-bgc:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show black img */
+.lbl-pill-only-icon-no-bgc:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}

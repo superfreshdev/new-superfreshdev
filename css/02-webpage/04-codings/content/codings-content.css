@@ -18,7 +18,7 @@
   justify-items: center;
   align-content: start;
 
-  grid: auto 1fr / 1fr;
+  grid: 1fr / 1fr;
 
   /* default unshown */
   display: none;
@@ -119,6 +119,8 @@
 
   display: grid;
   justify-content: start;
+
+  align-content: flex-start;
 
   grid: auto / 1fr;
 

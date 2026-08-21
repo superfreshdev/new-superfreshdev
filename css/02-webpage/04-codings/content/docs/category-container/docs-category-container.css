@@ -10,16 +10,17 @@
 
 .docs-category-container {
 
+  padding: 3em 0;
   width: 100%;
 
   display: grid;
 
   justify-items: center;
   justify-content: center;
-  align-content: flex-start;
+  /* align-content: flex-start; */
 
   row-gap: 1.3em;
 
-  /* background-color: rgb(218, 218, 218); */
+  background-color: rgb(218, 218, 218);
 
 }

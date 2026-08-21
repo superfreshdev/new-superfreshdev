@@ -1,0 +1,75 @@
+/* --------------------------------------------------------------- */
+/* > codings-task-header-info-container.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Codings Task Header Info
+/* --------------------------------------------------------------- */
+
+#codings-task-header-info {
+
+  padding-left: .6em;
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Topics
+/* --------------------------------------------------------------- */
+
+#codings-task-header-info > header {
+
+  font-weight: bold;
+  color:rgba(67, 67, 67, .8);
+
+}
+
+/* text */
+#codings-task-header-info > header > div {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Topics
+/* --------------------------------------------------------------- */
+
+#codings-task-header-info > main {
+
+  /* font-weight: bold; */
+
+  display: grid;
+  row-gap: .2em;
+
+  color:rgba(88, 88, 88, .8);
+
+}
+
+/* Div - List Item */
+#codings-task-header-info > main > div {
+
+
+  display: flex;
+  column-gap: .3em;
+
+
+}
+
+/* Arrow + Text */
+#codings-task-header-info > main > div > div {
+
+  font-size: 14.5px;
+  /* line-height: 1.5em; */
+
+}
+
+/* Text */
+#codings-task-header-info > main > div > div:nth-of-type(2) {
+
+  line-height: 1.6em;
+
+}

@@ -118,7 +118,7 @@ input[name="name-radio-codings-nav"] {
 #radio-codings-algos-nav:checked ~ #row-container-codings-content #codings-task-header,
 #radio-codings-challenges-nav:checked ~ #row-container-codings-content #codings-task-header {
 
-  display: grid;
+  /* display: grid; */
 
 }
 

@@ -1,26 +1,29 @@
 /* --------------------------------------------------------------- */
-/* > row-container.css
-/*
-/* : styles row container for resp content containers
+/* > codings-masonry-container.css
 /* --------------------------------------------------------------- */
 
 
 /* --------------------------------------------------------------- */
-/* Row Container
+/* Codings Masonry Container
 /* --------------------------------------------------------------- */
 
-.row-container {
+#codings-masonry-container {
 
-  position: relative;
   width: 100%;
   height: 100%;
+  padding: 0em 0em 0em 0em;
 
-  display:grid;
+  display: grid;
   justify-items: center;
 
-  /* ⚠️ neu */
-  /* justify-content: center; */
+  align-content: flex-start;
+  align-items: flex-start;
 
-  /* background-color: magenta; */
+  /* grid: auto / 1fr 1fr; */
+
+  column-gap: 2em;
+  row-gap: 2em;
+
+  /* background-color: red; */
 
 }

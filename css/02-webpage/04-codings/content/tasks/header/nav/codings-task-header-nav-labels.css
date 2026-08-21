@@ -1,0 +1,190 @@
+/* --------------------------------------------------------------- */
+/* > codings-task-header-nav-labels.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Nav Labels - In Progress, Later, Future, Finished
+/* --------------------------------------------------------------- */
+
+.task-header-nav-label-in-progress,
+.task-header-nav-label-later,
+.task-header-nav-label-future,
+.task-header-nav-label-finished {
+
+  height: 2em;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: .8em;
+
+  border: 1px solid rgb(198, 198, 198);
+
+  color:rgb(160, 160, 160);
+
+  cursor: pointer;
+  user-select: none;
+  transition: all .4s;
+
+}
+
+
+/* hover */
+.task-header-nav-label-in-progress:hover,
+.task-header-nav-label-later:hover,
+.task-header-nav-label-future:hover,
+.task-header-nav-label-finished:hover {
+
+  background-color: #d8d8d8;
+  color: #6c6c6c;
+
+}
+
+/* ------------------------------------------------- */
+/* Status Box | Label
+/* ------------------------------------------------- */
+
+.task-header-nav-label-status-box {
+
+  border-radius: .7em 0 0 .7em;
+
+  height: 100%;
+  padding: 0 .6em 0 .7em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: red;
+
+
+}
+
+/* ------------------------------------------------- */
+/* Title Box | Label
+/* ------------------------------------------------- */
+
+.task-header-nav-label-in-progress > div:nth-of-type(2),
+.task-header-nav-label-later > div:nth-of-type(2),
+.task-header-nav-label-future > div:nth-of-type(2),
+.task-header-nav-label-finished > div:nth-of-type(2) {
+
+  padding: 0 0 0 .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+}
+
+/* Text */
+.task-header-nav-label-in-progress > div:nth-of-type(2) > div,
+.task-header-nav-label-later > div:nth-of-type(2) > div,
+.task-header-nav-label-future > div:nth-of-type(2) > div,
+.task-header-nav-label-finished > div:nth-of-type(2) > div {
+
+  font-size: 13.5px;
+
+}
+
+/* ------------------------------------------------- */
+/* Counter Box | Label
+/* ------------------------------------------------- */
+
+.task-header-nav-label-counter-box {
+
+  padding: 0 .6em 0 .4em;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+/* Text */
+.task-header-nav-label-counter-box > div {
+
+  font-size: 12.5px;
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress | Status Box
+/* --------------------------------------------------------------- */
+
+.task-header-nav-label-in-progress {
+
+
+
+}
+
+.task-header-nav-label-in-progress > .task-header-nav-label-status-box {
+
+  background-color: rgb(251, 217, 132);
+
+}
+
+/* img */
+.task-header-nav-label-in-progress > .task-header-nav-label-status-box > img {
+
+  height: 1em;
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Later | Status Box
+/* --------------------------------------------------------------- */
+
+.task-header-nav-label-later > .task-header-nav-label-status-box {
+
+  background-color: rgba(75, 127, 206, 0.6);
+
+}
+
+/* img */
+.task-header-nav-label-later > .task-header-nav-label-status-box > img {
+
+  height: .7em;
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Future | Status Box
+/* --------------------------------------------------------------- */
+
+.task-header-nav-label-future > .task-header-nav-label-status-box {
+
+  background-color: #e3e3e3;
+
+}
+
+/* img */
+.task-header-nav-label-future > .task-header-nav-label-status-box > img {
+
+  height: .94em;
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Finished | Status Box
+/* --------------------------------------------------------------- */
+
+.task-header-nav-label-finished > .task-header-nav-label-status-box {
+
+  background-color: rgb(136, 216, 136);
+
+}
+
+/* img */
+.task-header-nav-label-finished > .task-header-nav-label-status-box > img {
+
+  height: .7em;
+  opacity: .5;
+
+}

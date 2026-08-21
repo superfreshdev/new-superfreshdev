@@ -1,0 +1,116 @@
+/* --------------------------------------------------------------- */
+/* > task-card-header-status.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Task Card Status
+/* --------------------------------------------------------------- */
+
+.task-card-status-in-progress,
+.task-card-status-later,
+.task-card-status-future,
+.task-card-status-finished {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  border-radius: .8em;
+
+  font-weight: bold;
+
+}
+
+/* img */
+.task-card-status-in-progress > img,
+.task-card-status-later > img,
+.task-card-status-future > img,
+.task-card-status-finished > img {
+
+  opacity: .6;
+
+}
+
+/* text */
+.task-card-status-in-progress > div,
+.task-card-status-later > div,
+.task-card-status-future > div,
+.task-card-status-finished > div {
+
+  font-size: 13.5px;
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress
+/* --------------------------------------------------------------- */
+
+.task-card-status-in-progress {
+
+  background-color: rgb(251, 217, 132);
+
+}
+
+/* img */
+.task-card-status-in-progress > img {
+
+  height: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Later
+/* --------------------------------------------------------------- */
+
+.task-card-status-later {
+
+  background-color: rgba(75, 127, 206, 0.6);
+
+}
+
+/* img */
+.task-card-status-later > img {
+
+  height: .63em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Future
+/* --------------------------------------------------------------- */
+
+.task-card-status-future {
+
+  background-color: #e3e3e3;
+  background-color: #c2c2c2;
+
+}
+
+/* img */
+.task-card-status-future > img {
+
+  height: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Finished
+/* --------------------------------------------------------------- */
+
+.task-card-status-finished {
+
+  background-color: rgb(136, 216, 136);
+
+}
+
+/* img */
+.task-card-status-finished > img {
+
+  height: .63em;
+
+}

@@ -1,0 +1,128 @@
+/* --------------------------------------------------------------- */
+/* > codings-task-content.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Codings Task Content
+/* --------------------------------------------------------------- */
+
+#codings-task-content {
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid: auto 1fr / 1fr;
+
+  /* align-content: flex-start; */
+  justify-items: center;
+
+  /* background-color: red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Codings Task Content
+/* --------------------------------------------------------------- */
+
+#codings-task-content .resp-content-container-max > main {
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+  /* background-color: rgb(189, 189, 189); */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Task Category Content | Main
+/* --------------------------------------------------------------- */
+
+#codings-task-category-content {
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+  /* row-gap: .8em; */
+
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Task Category Info | Main
+/* --------------------------------------------------------------- */
+
+#codings-task-category-info {
+
+  width: 100%;
+  padding: 1.8em .8em 3em .8em;
+
+  display: grid;
+  justify-items: center;
+
+  row-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Task Category Info
+/* --------------------------------------------------------------- */
+
+#codings-task-category-info > header {
+
+  font-weight: bold;
+  color:#484848;
+
+}
+
+/* title */
+#codings-task-category-info > header > div {
+
+  font-size: 16px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Task Category Info
+/* --------------------------------------------------------------- */
+
+#codings-task-category-info > main {
+
+  width: 100%;
+  display: grid;
+  justify-items: center;
+
+  text-align: center;
+
+  /* mobile */
+  row-gap: 1em;
+
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div | Main | Task Category Info
+/* --------------------------------------------------------------- */
+
+#codings-task-category-info > main > div {
+
+  font-size: 16px;
+  line-height: 1.6em;
+
+  text-align: center;
+
+  column-gap: .3em;
+  color:#484848;
+
+  opacity: .6;
+
+}

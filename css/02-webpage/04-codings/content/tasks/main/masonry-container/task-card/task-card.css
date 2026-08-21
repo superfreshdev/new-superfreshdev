@@ -1,0 +1,124 @@
+/* --------------------------------------------------------------- */
+/* > task-card.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Task Card - in Progress - Later - Future - Finished
+/* --------------------------------------------------------------- */
+
+.task-card-in-progress,
+.task-card-later,
+.task-card-future,
+.task-card-finished {
+
+  width: 100%;
+
+  display: grid;
+  grid: auto / auto 1fr;
+
+  border-radius: 0 .4em .4em 0;
+
+
+  border-left: 1px solid rgb(168, 168, 168);
+  border-right: 1px solid rgb(168, 168, 168);
+  border-top: 1px solid rgb(168, 168, 168);
+  border-bottom: 1px solid rgb(168, 168, 168);
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+  background-color: rgb(245, 245, 245);
+
+  background-color: rgba(245, 245, 245, .6);
+
+  /* background-color: rgba(214, 214, 214, 0.4); */
+
+  opacity: .6;
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.task-card-in-progress:hover,
+.task-card-later:hover,
+.task-card-future:hover,
+.task-card-finished:hover {
+
+  opacity: .9;
+
+  /* transform: translateY(-8px) scale(1.02); */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+
+  background-color: rgb(246, 246, 246);
+
+  background-color: rgb(252, 252, 252);
+
+}
+
+/* --------------------------------------------------------------- */
+/* [1/2] | Task Card Status Bar
+/* --------------------------------------------------------------- */
+
+.task-card-status-bar {
+
+  width: .8em;
+  height: 100%;
+
+}
+
+/* --------------------------------------------------------------- */
+/* In Progress
+/* --------------------------------------------------------------- */
+
+.task-card-in-progress .task-card-status-bar  {
+
+  background-color: rgb(251, 217, 132);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Later
+/* --------------------------------------------------------------- */
+
+.task-card-later .task-card-status-bar {
+
+  background-color: rgba(75, 127, 206, 0.6);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Future
+/* --------------------------------------------------------------- */
+
+.task-card-future .task-card-status-bar {
+
+  background-color: #e3e3e3;
+  background-color: #c2c2c2;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Finished
+/* --------------------------------------------------------------- */
+
+.task-card-finished .task-card-status-bar {
+
+  background-color: rgb(136, 216, 136);
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* [2/2] | Task Card Content ( header - main - footer )
+/* --------------------------------------------------------------- */
+
+.task-card-content {
+
+  width: 100%;
+  padding: .8em;
+
+  display: grid;
+
+}

@@ -9,13 +9,17 @@
 
 #codings-page-container {
 
+  /* fixed body header */
   margin-top: 4.5em;
+
+  /* fixed body footer */
+  /* margin-bottom: 3em; */
 
   z-index: 2;
 
   /* important to allow child elements to use max content area */
-  height: 100%;
   width: 100%;
+  /* height: 100%; */
 
   display: grid;
   justify-items: center;
