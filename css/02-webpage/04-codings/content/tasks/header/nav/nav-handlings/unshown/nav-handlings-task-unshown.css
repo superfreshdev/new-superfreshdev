@@ -1,0 +1,49 @@
+/* --------------------------------------------------------------- */
+/* > nav-handlings-task-unshown.css
+/* --------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* 🖌️ Styles
+/* -------------------------------------------------------------- */
+
+  /* set - background colors */
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(1) label[for="radio-codings-task-header-unshown"] {
+
+    background-color: #d8d8d8;
+    color: #6c6c6c;
+
+  }
+
+
+  /* unshown - img grey */
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(1) label[for="radio-codings-task-header-unshown"] > img:nth-of-type(1) {
+
+    display: none;
+
+  }
+
+  /* show - img black */
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(1) label[for="radio-codings-task-header-unshown"] > img:nth-of-type(2) {
+
+    display: flex;
+
+  }
+
+/* -------------------------------------------------------------- */
+/* 🛠️ Handlings
+/* -------------------------------------------------------------- */
+
+  /* Unshown - Codings Task Category Content ( info + masonry ) */
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-task-category-content {
+
+    display: none;
+
+  }
+
+  /* Show - Codings Unshown Container */
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-task-unshown-container {
+
+    display: grid;
+
+  }

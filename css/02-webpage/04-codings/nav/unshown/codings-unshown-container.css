@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > nav-handlings-unshown.css
+/* > codings-unshown-container.css
 /* --------------------------------------------------------------- */
 
 
@@ -34,7 +34,7 @@
 /* 🛠️ Handlings
 /* -------------------------------------------------------------- */
 
-  /* Unshown - Codings Masonry Container */
+  /* Unshown - Codings Task Category Content ( info + masonry ) */
   #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-task-category-content {
 
     display: none;
@@ -42,7 +42,7 @@
   }
 
   /* Show - Codings Unshown Container */
-  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-unshown-container {
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-task-unshown-container {
 
     display: grid;
 
