@@ -20,9 +20,8 @@
 
   border-radius: .8em;
 
-  color: rgb(152, 152, 152);
-
-  border: 1px solid rgb(193, 193, 193);
+  /* background-color: rgb(163, 163, 163); */
+  color: rgb(135, 135, 135);
 
   opacity: .6;
 
@@ -74,8 +73,8 @@
 
 .lbl-pill-icon-text-counter-light-grey:hover {
 
-  background-color: rgb(216, 216, 216);
-  color:rgb(58, 58, 58);
+  background-color: rgb(139, 139, 139);
+  color:rgb(41, 41, 41);
 
   opacity: 1;
 
@@ -119,7 +118,7 @@
   /* layout pos fix */
   padding-top: 1px;
 
-  font-size: 11.5px;
+  font-size: 12.5px;
 
   color: rgb(152, 152, 152);
 

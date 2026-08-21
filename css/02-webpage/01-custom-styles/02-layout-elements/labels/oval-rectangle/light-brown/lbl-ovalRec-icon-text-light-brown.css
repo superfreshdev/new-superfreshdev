@@ -1,0 +1,87 @@
+/* --------------------------------------------------------------- */
+/* > lbl-ovalRec-icon-text-light-brown.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label | Icon Text | Light Brown
+/* --------------------------------------------------------------- */
+
+.lbl-ovalRec-icon-text-light-brown {
+
+  padding-left: .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .3em;
+
+  font-weight: bold;
+  border-radius: .5em;
+
+  color: #525252;
+  color: #636363;
+
+  /* border: 1px solid rgb(68, 68, 68); */
+  /* background-color: red; */
+
+  opacity: 1;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img - Grey
+/* --------------------------------------------------------------- */
+
+.lbl-ovalRec-icon-text-light-brown > img:nth-of-type(1) {
+
+  opacity: .6;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Default Unshown | Light Brown Img
+/* --------------------------------------------------------------- */
+
+.lbl-ovalRec-icon-text-light-brown > img:nth-of-type(2) {
+
+  opacity: .7;
+  display: none;
+
+}
+
+/* div 1 - title */
+.lbl-ovalRec-icon-text-light-brown > div {
+
+  font-size: 14.5px;
+  /* color:red; */
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show black img by hover, unshown grey img
+/* ------------------------------------------------------------------------- */
+
+.lbl-ovalRec-icon-text-light-brown:hover {
+
+  background-color: rgb(210, 195, 164);
+  color:rgb(36, 36, 36);
+
+  opacity: 1;
+
+}
+
+/* unshow grey img */
+.lbl-ovalRec-icon-text-light-brown:hover > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show grey img */
+.lbl-ovalRec-icon-text-light-brown:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}

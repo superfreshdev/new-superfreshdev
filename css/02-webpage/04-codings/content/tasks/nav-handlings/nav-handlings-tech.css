@@ -26,66 +26,72 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"],
 #radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"]  {
 
+  background-color: rgb(210, 195, 164);
+  background-color: rgba(210, 195, 164, 1);
   color:rgb(36, 36, 36);
-  color:rgb(207, 191, 164);
 
-  /* background-color: blue; */
+  /* background-color: rgba(218, 218, 218, 0.6);
+  color:rgb(41, 41, 41); */
 
 }
 
 /* by checked, unshown grey img */
-/* #radio-codings-tech-nav:checked ~ #row-container-codings-navs label[for="radio-codings-tech-nav"] > img:nth-of-type(1),
-#radio-codings-algos-nav:checked ~ #row-container-codings-navs label[for="radio-codings-algos-nav"] > img:nth-of-type(1),
-#radio-codings-challenges-nav:checked ~ #row-container-codings-navs label[for="radio-codings-challenges-nav"]  > img:nth-of-type(1),
-#radio-codings-kits-nav:checked ~ #row-container-codings-navs label[for="radio-codings-kits-nav"] > img:nth-of-type(1),
-#radio-codings-docs-nav:checked ~ #row-container-codings-navs label[for="radio-codings-docs-nav"] > img:nth-of-type(1),
-#radio-codings-unshwon-nav:checked ~ #row-container-codings-navs label[for="radio-codings-unshwon-nav"] > img:nth-of-type(1) {
+#radio-codings-tech-nav-java:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-java"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-spring-boot:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-spring-boot"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-observability:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-observability"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-cloud:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-cloud"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-ai:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-ai"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"] > div:nth-of-type(1) > img:nth-of-type(1),
+#radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:nth-of-type(1) > img:nth-of-type(1)  {
 
- display: none;
+  display: none;
 
-} */
+}
+
 
 /* by checked, show black img */
-/* #radio-codings-tech-nav:checked ~ #row-container-codings-navs label[for="radio-codings-tech-nav"] > img:nth-of-type(2),
-#radio-codings-algos-nav:checked ~ #row-container-codings-navs label[for="radio-codings-algos-nav"]  img:nth-of-type(2),
-#radio-codings-challenges-nav:checked ~ #row-container-codings-navs label[for="radio-codings-challenges-nav"]  > img:nth-of-type(2),
-#radio-codings-kits-nav:checked ~ #row-container-codings-navs label[for="radio-codings-kits-nav"] > img:nth-of-type(2),
-#radio-codings-docs-nav:checked ~ #row-container-codings-navs label[for="radio-codings-docs-nav"] > img:nth-of-type(2),
-#radio-codings-unshwon-nav:checked ~ #row-container-codings-navs label[for="radio-codings-unshwon-nav"] > img:nth-of-type(2) {
+#radio-codings-tech-nav-java:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-java"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-tech-nav-spring-boot:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-spring-boot"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-tech-nav-observability:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-observability"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-tech-nav-cloud:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-cloud"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-tech-nav-ai:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-ai"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"] > div:nth-of-type(1) > img:nth-of-type(2),
+#radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:nth-of-type(1) > img:nth-of-type(2)  {
 
- display: flex;
+  display: flex;
 
-} */
-
+}
 
 /* counter box */
-/* #radio-codings-tech-nav-java:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-java"] > div:last-child,
+#radio-codings-tech-nav-java:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-java"] > div:last-child,
 #radio-codings-tech-nav-spring-boot:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-spring-boot"] > div:last-child,
 #radio-codings-tech-nav-observability:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-observability"] > div:last-child,
 #radio-codings-tech-nav-cloud:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-cloud"] > div:last-child,
 #radio-codings-tech-nav-ai:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-ai"] > div:last-child,
-#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"] > div:last-child,
-#radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:last-child {
+#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"]> div:last-child,
+#radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:last-child  {
 
+  display: flex;
 
+}
 
-
-
-} */
 
 /* counter color text */
-/* #radio-codings-tech-nav-java:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-java"] > div:last-child > div,
+#radio-codings-tech-nav-java:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-java"] > div:last-child > div,
 #radio-codings-tech-nav-spring-boot:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-spring-boot"] > div:last-child > div,
 #radio-codings-tech-nav-observability:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-observability"] > div:last-child > div,
 #radio-codings-tech-nav-cloud:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-cloud"] > div:last-child > div,
 #radio-codings-tech-nav-ai:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-ai"] > div:last-child > div,
-#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"] > div:last-child > div,
-#radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:last-child > div {
+#radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"]> div:last-child > div,
+#radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:last-child > div  {
 
   color:rgb(36, 36, 36);
   color:rgb(108, 108, 108);
 
-} */
+  color:rgb(41, 41, 41);
+
+}
+
 
 /* ------------------------------------------------------------- */
 /* Handlings - Content

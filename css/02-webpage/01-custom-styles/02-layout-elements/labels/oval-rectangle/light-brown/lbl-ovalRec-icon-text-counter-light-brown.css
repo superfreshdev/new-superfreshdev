@@ -4,7 +4,7 @@
 
 
 /* --------------------------------------------------------------- */
-/* Label | Icon Text Counter | Light Grey
+/* Label | Icon Text Counter | Light Brown
 /* --------------------------------------------------------------- */
 
 .lbl-ovalRec-icon-text-counter-light-brown {
@@ -14,14 +14,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: .3em;
+  column-gap: .1em;
 
   font-weight: bold;
 
-  border-radius: .5em;
+  border-radius: .8em;
 
   color: #525252;
-
   color: #636363;
 
   /* border: 1px solid rgb(68, 68, 68); */
@@ -78,10 +77,8 @@
 
 .lbl-ovalRec-icon-text-counter-light-brown:hover {
 
-  /* background-color: rgb(216, 216, 216);
-  color:rgb(58, 58, 58); */
-
-  color:rgb(185, 167, 135);
+  background-color: rgb(210, 195, 164);
+  color:rgb(36, 36, 36);
 
   opacity: 1;
 
@@ -125,7 +122,7 @@
   /* layout pos fix */
   padding-top: 1px;
 
-  font-size: 12.5px;
+  font-size: 13px;
 
   color: rgb(152, 152, 152);
 
