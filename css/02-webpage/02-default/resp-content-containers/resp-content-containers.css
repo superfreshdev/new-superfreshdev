@@ -154,6 +154,16 @@
 
   }
 
+  /* small no padd */
+  .resp-content-container-no-padd-small {
+
+    padding: 0;
+    width: 90%;
+
+    /* background-color: red; */
+
+  }
+
   /* medium */
   .resp-content-container-medium,
   .resp-content-container-no-padd-medium {
@@ -186,6 +196,16 @@
 
     width: 55em;
     /* background-color: red; */
+
+  }
+
+    /* small no padd */
+  .resp-content-container-no-padd-small {
+
+    padding: 0;
+    width: 55em;
+
+    /* background-color: rgb(60, 94, 205); */
 
   }
 
