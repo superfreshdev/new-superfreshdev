@@ -120,6 +120,7 @@
 
           <!-- 🟩 light brown -->
           <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/oval-rectangle/light-brown/lbl-ovalRec-icon-light-brown.css">
+          <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/oval-rectangle/light-brown/lbl-ovalRec-icon-text-counter-light-brown.css">
 
           <!-- 🟩 light grey -->
           <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/labels/oval-rectangle/light-grey/lbl-ovalRec-icon-text-counter-light-grey.css">
@@ -310,7 +311,6 @@
         <link rel="stylesheet" href="css/02-webpage/04-codings/nav/sub-nav/codings-sub-navs.css">
 
 
-
       <!-- -------------------------------------------------------------------- -->
       <!-- 🟩 Content -->
       <!-- -------------------------------------------------------------------- -->
@@ -325,9 +325,10 @@
           <!-- 🟥 default -->
           <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/codings-task-content.css">
 
-          <!-- 🟥 nav -->
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/nav/codings-task-nav.css">
-          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/nav/codings-task-nav-handlings.css">
+
+          <!-- Nav Handlings - Tech -->
+          <link rel="stylesheet" href="css/02-webpage/04-codings/content/tasks/nav-handlings/nav-handlings-tech.css">
+
 
           <!-- ------------------------------------------- -->
           <!-- 🟥 Content - Header                         -->
@@ -4312,7 +4313,7 @@
           <div id="row-container-codings-navs">
 
             <!-- ----------------------------------------------- -->
-            <!-- 🟩📐 Resp Medium | Codings Nav -->
+            <!-- 🟩📐 Codings Nav-->
             <!-- > Tech, Algos, Challenges, Kits, Docs, Unshown  -->
             <!-- ----------------------------------------------- -->
             <div class="row-container">
@@ -4436,7 +4437,7 @@
             </div>
 
             <!-- ----------------------------------------------- -->
-            <!-- ➡️🟥📐 Resp Medium | Codings Sub Navs -->
+            <!-- ➡️🟥📐 Codings Sub Navs -->
             <!-- > Sub Navs: Tech, Kits, Docs -->
             <!-- ----------------------------------------------- -->
             <div class="row-container">
@@ -4444,9 +4445,10 @@
               <div class="resp-content-container-medium">
 
                 <!-- -------------------------------------------------------- -->
-                <!-- 🟩 Codings Sub Navs -->
+                <!-- 🟩 Codings Sub Navs Container -->
                 <!-- -------------------------------------------------------- -->
-                <div id="codings-sub-navs">
+                 <!-- ⚠️ codings-sub-navs -->
+                <div id="codings-sub-navs-container">
 
                   <!-- ----------------------------------------------------- -->
                   <!-- 🟩 [1/3] | Tech - Sub Nav -->
@@ -4463,10 +4465,10 @@
                     <input  type="radio" id="radio-codings-tech-nav-react-native" name="name-radio-codings-nav-tech">
 
                     <!-- 🟩 Tech - Sub Nav -->
-                    <nav id="codings-tech-nav">
+                    <nav id="codings-tech-nav" class="codings-sub-nav">
 
                       <!-- label | java -->
-                      <label for="radio-codings-tech-nav-java" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey" >
+                      <label for="radio-codings-tech-nav-java" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown" >
 
                         <!-- icon + title box -->
                         <div>
@@ -4494,7 +4496,7 @@
                       </label>
 
                       <!-- label | spring boot -->
-                      <label for="radio-codings-tech-nav-spring-boot" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
+                      <label for="radio-codings-tech-nav-spring-boot" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown">
 
                         <!-- icon + title box -->
                         <div>
@@ -4523,7 +4525,7 @@
                       </label>
 
                       <!-- label | observability -->
-                      <label for="radio-codings-tech-nav-observability" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
+                      <label for="radio-codings-tech-nav-observability" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown">
 
                         <!-- icon + title box -->
                         <div>
@@ -4552,7 +4554,7 @@
                       </label>
 
                       <!-- label | cloud  -->
-                      <label for="radio-codings-tech-nav-cloud" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
+                      <label for="radio-codings-tech-nav-cloud" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown">
 
                         <!-- icon + title box -->
                         <div>
@@ -4581,7 +4583,7 @@
                       </label>
 
                       <!-- label | ai -->
-                      <label for="radio-codings-tech-nav-ai" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
+                      <label for="radio-codings-tech-nav-ai" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown">
 
                         <!-- icon + title box -->
                         <div>
@@ -4610,7 +4612,7 @@
                       </label>
 
                       <!-- label | angular -->
-                      <label for="radio-codings-tech-nav-angular" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
+                      <label for="radio-codings-tech-nav-angular" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown">
 
                         <!-- icon + title box -->
                         <div>
@@ -4639,7 +4641,7 @@
                       </label>
 
                       <!-- label | react native -->
-                      <label for="radio-codings-tech-nav-react-native" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
+                      <label for="radio-codings-tech-nav-react-native" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-brown">
 
                         <!-- icon + title box -->
                         <div>
@@ -4680,7 +4682,7 @@
                     <input type="radio" id="radio-codings-kits-nav-others" name="name-radio-codings-kits-nav">
 
                     <!-- Kits Sub Nav  -->
-                    <nav id="codings-kits-nav">
+                    <nav id="codings-kits-nav" class="codings-sub-nav">
 
                       <!-- label | web -->
                       <label for="radio-codings-kits-nav-web" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
@@ -4813,7 +4815,7 @@
                     <input type="radio" id="radio-codings-docs-nav-others" name="name-radio-codings-docs-nav">
 
                     <!-- 🟩 Docs - Sub Nav -->
-                    <nav id="codings-docs-nav">
+                    <nav id="codings-docs-nav" class="codings-sub-nav">
 
                       <!-- label | dev basic -->
                       <label for="radio-codings-docs-nav-dev-basic" class="lbl-very-small lbl-ovalRec-icon-text-counter-light-grey">
@@ -5014,7 +5016,7 @@
             <!-- ----------------------------------------------------------- -->
             <!-- ❌ [1/2] | Codings Task Header | 📐 Resp Medium   -->
             <!-- ----------------------------------------------------------- -->
-            <div class="row-container" style="display: none;">
+            <div class="row-containerX" style="display: none;">
 
               <div class="resp-content-container-medium">
 

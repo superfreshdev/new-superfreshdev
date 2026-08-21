@@ -22,6 +22,9 @@
 
   /* background-color: rgb(228, 228, 228); */
 
+  /* default unshown, only by checked - tech, algos, challenges */
+  display: none;
+
 }
 
 /* --------------------------------------------------------------- */

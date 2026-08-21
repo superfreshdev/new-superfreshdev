@@ -29,6 +29,7 @@ input[name="name-radio-codings-nav"] {
   background-color: rgb(210, 195, 164);
   color:rgb(36, 36, 36);
 
+
 }
 
 /* by checked, unshown grey img */
@@ -59,9 +60,9 @@ input[name="name-radio-codings-nav"] {
 /* Show Navs ( tech + kits + docs )
 /* -------------------------------------------------------------- */
 
-#radio-codings-tech-nav:checked ~ #row-container-codings-navs #codings-sub-navs #codings-tech-nav,
-#radio-codings-kits-nav:checked ~ #row-container-codings-navs #codings-sub-navs #codings-kits-nav,
-#radio-codings-docs-nav:checked ~ #row-container-codings-navs #codings-sub-navs #codings-docs-nav {
+#radio-codings-tech-nav:checked ~ #row-container-codings-navs #codings-sub-navs-container #codings-tech-nav,
+#radio-codings-kits-nav:checked ~ #row-container-codings-navs #codings-sub-navs-container #codings-kits-nav,
+#radio-codings-docs-nav:checked ~ #row-container-codings-navs #codings-sub-navs-container #codings-docs-nav {
 
  display: flex;
 
@@ -114,11 +115,11 @@ input[name="name-radio-codings-nav"] {
 /* > Tech,Algos,Challenges = checked
 /* -------------------------------------------------------------- */
 
-#radio-codings-tech-nav:checked ~ #row-container-codings-content #codings-task-header,
-#radio-codings-algos-nav:checked ~ #row-container-codings-content #codings-task-header,
-#radio-codings-challenges-nav:checked ~ #row-container-codings-content #codings-task-header {
+#radio-codings-tech-nav:checked ~ #row-container-codings-content > .row-container #codings-task-header,
+#radio-codings-algos-nav:checked ~ #row-container-codings-content > .row-container #codings-task-header,
+#radio-codings-challenges-nav:checked ~ #row-container-codings-content > .row-container #codings-task-header {
 
-  /* display: grid; */
+  display: flex;
 
 }
 
