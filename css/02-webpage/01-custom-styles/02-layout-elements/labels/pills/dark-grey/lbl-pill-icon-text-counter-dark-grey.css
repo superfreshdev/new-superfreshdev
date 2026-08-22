@@ -1,0 +1,130 @@
+/* --------------------------------------------------------------- */
+/* > lbl-pill-icon-text-counter-dark-grey.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Label | Icon - Text - Counter | Dark Grey
+/* --------------------------------------------------------------- */
+
+.lbl-pill-icon-text-counter-dark-grey {
+
+  /* height: 1.8em;
+  padding: 0 .8em; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .3em;
+
+  font-weight: bold;
+
+  border-radius: .8em;
+
+  color:rgb(152, 152, 152);
+
+  color: #636363;
+
+  /* background-color: rgb(58, 58, 58); */
+
+}
+
+/* icons + title box */
+.lbl-pill-icon-text-counter-dark-grey > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* div 1 - title */
+.lbl-pill-icon-text-counter-dark-grey > div:nth-of-type(1) > div:last-child {
+
+  font-size: 14.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Default Unshown | Black Img
+/* --------------------------------------------------------------- */
+
+.lbl-pill-icon-text-counter-dark-grey > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Show | Grey Img
+/* --------------------------------------------------------------- */
+
+.lbl-pill-icon-text-counter-dark-grey > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: flex;
+  opacity: .6;
+
+}
+
+/* ------------------------------------------------------------------------- */
+/* Extra Hover Handling
+/* > show black img by hover, unshown grey img
+/* ------------------------------------------------------------------------- */
+
+.lbl-pill-icon-text-counter-dark-grey:hover {
+
+  background-color: rgba(119, 119, 119, 0.3);
+  color:rgb(113, 113, 113);
+
+}
+
+/* unshow grey img */
+.lbl-pill-icon-text-counter-dark-grey:hover > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* show black img */
+.lbl-pill-icon-text-counter-dark-grey:hover > div:nth-of-type(1) > img:nth-of-type(2) {
+
+  display: flex;
+
+
+}
+
+/* -------------------------------------------------------------- */
+/* Div 2 | Label Counter | Light Grey
+/* -------------------------------------------------------------- */
+
+.lbl-pill-icon-text-counter-dark-grey > div:nth-of-type(2) {
+
+  /* height: 1.5em; */
+  padding: 0 .2em;
+
+  /* padding: .1em .3em; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color:#585858;
+
+  color:rgb(103, 103, 103);
+
+  /* border: 1px solid rgb(66, 66, 66); */
+
+  border-radius: .4em;
+
+  /* color: rgb(45, 42, 37); */
+
+}
+
+.lbl-pill-icon-text-counter-dark-grey > div:nth-of-type(2) > div {
+
+  /* layout fix */
+  /* padding-bottom: 1px; */
+  font-size: 12px;
+  /* color: rgb(194, 176, 143); */
+
+}
