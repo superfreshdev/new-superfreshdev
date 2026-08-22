@@ -14,7 +14,45 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* >= width: 412px & height: 915px | Pixel 7 Size
+/* ⭐ Lg 2 Mini |  >= width: 378px & height: >= 768px | Pixel 7 Size
+/* ---------------------------------------------------------------- */
+
+@media (min-width: 378px), (min-height: 768px ) {
+
+
+  /* ----------------------------------------------------------------- */
+  /* Codings Task - Unshown Container
+  /* ----------------------------------------------------------------- */
+
+    #codings-task-unshown-container > div:nth-of-type(1) {
+
+      /* mobile */
+      padding-bottom: 6vh;
+      padding-top: 2vh;
+
+
+    }
+
+    /* img */
+    #codings-task-unshown-container > div:nth-of-type(1) > img {
+
+      height: 5em;
+
+
+    }
+
+    #codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+
+      font-size: 18px;
+
+    }
+
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* ⭐ Pixel 7 |  >= width: 412px & height: >= 915px | Pixel 7 Size
 /* ---------------------------------------------------------------- */
 
 @media (min-width: 412px), (min-height: 915px ) {

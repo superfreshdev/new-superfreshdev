@@ -52,7 +52,7 @@
 
   display: grid;
   justify-items: center;
-  row-gap: 1em;
+  row-gap: .6em;
 
   /* background-color: red; */
 
@@ -89,6 +89,8 @@
   /* mobile */
   font-size: 18px;
   font-weight: bold;
+
+  color:rgb(96, 96, 96);
 
 }
 
