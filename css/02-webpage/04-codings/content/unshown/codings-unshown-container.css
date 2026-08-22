@@ -34,7 +34,7 @@
   /* default unshown, by click will be shown */
   display: none;
 
-  /* background-color: rgb(0, 255, 89); */
+  background-color: rgb(0, 255, 89);
 
 }
 
@@ -43,6 +43,9 @@
 /* ----------------------------------------------------------------- */
 
 #codings-unshown-container > div:nth-of-type(1) {
+
+  /* mobile */
+  padding-bottom: 1.5em;
 
   display: grid;
   justify-items: center;
