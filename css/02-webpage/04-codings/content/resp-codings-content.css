@@ -31,14 +31,38 @@
 
 
   /* ----------------------------------------------------------------- */
-  /* Unshown Mode - Codings Task Header
+  /* Codings Task - Unshown Container
   /* ----------------------------------------------------------------- */
 
-  #codings-task-unshown-container > div:nth-of-type(1) > img {
+  #codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
 
-    height: 6.5em;
+    font-size: 20px;
 
   }
+
+  #codings-task-unshown-container > div:nth-of-type(1) {
+
+    margin-bottom: 6em;
+
+  }
+
+  /* ----------------------------------------------------------------- */
+  /* Codings - Unshown Container
+  /* ----------------------------------------------------------------- */
+
+  #codings-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+
+    font-size: 18px;
+
+  }
+
+  #codings-unshown-container > div:nth-of-type(1) {
+
+    margin-bottom: 6em;
+
+  }
+
+
 
 
 

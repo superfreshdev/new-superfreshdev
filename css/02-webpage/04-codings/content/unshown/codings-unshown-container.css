@@ -34,7 +34,7 @@
   /* default unshown, by click will be shown */
   display: none;
 
-  background-color: rgb(0, 255, 89);
+  /* background-color: rgb(0, 255, 89); */
 
 }
 
@@ -43,8 +43,6 @@
 /* ----------------------------------------------------------------- */
 
 #codings-unshown-container > div:nth-of-type(1) {
-
-  margin-bottom: 3em;
 
   display: grid;
   justify-items: center;
@@ -81,7 +79,9 @@
 /* title - unshown mode */
 #codings-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
 
-  font-size: 20px;
+
+  /* mobile */
+  font-size: 18px;
   font-weight: bold;
 
 }
