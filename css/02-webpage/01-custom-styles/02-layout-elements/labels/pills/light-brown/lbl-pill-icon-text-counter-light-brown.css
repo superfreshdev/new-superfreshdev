@@ -23,7 +23,7 @@
 
   color:rgb(152, 152, 152);
 
-  /* color: #484848; */
+  color: #636363;
 
   /* background-color: rgb(58, 58, 58); */
 
@@ -41,7 +41,7 @@
 /* div 1 - title */
 .lbl-pill-icon-text-counter-light-brown > div:nth-of-type(1) > div:last-child {
 
-  font-size: 12.5px;
+  font-size: 14.5px;
 
 }
 

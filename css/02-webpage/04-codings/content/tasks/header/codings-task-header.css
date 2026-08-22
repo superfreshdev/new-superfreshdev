@@ -31,13 +31,11 @@
 /* [1/2] | Img
 /* --------------------------------------------------------------- */
 
+/* ⚠️ besser mit css class, weil individuell icons */
+
 #codings-task-header-img {
 
-
-  height: 3.5em;
-
   opacity: .3;
-
   /* default unshown */
   display: none;
 
@@ -63,10 +61,10 @@
 #codings-task-header-content > div:nth-of-type(1) {
 
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 
-  column-gap: 1.3em;
+  column-gap: .6em;
   row-gap: .3em;
 
   /* background-color: blue; */
@@ -93,11 +91,14 @@
 
 #codings-task-header-time-limiter {
 
+  /* layout fix */
+  margin-top: 1px;
+
   display: flex;
   align-items: center;
   column-gap: .4em;
 
-  opacity: .4;
+  opacity: .3;
 
 }
 

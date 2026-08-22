@@ -29,9 +29,11 @@
 
   background-color: rgba(235, 235, 235, 1);
 
+  background-color: white;
+
   /* background-color: rgba(214, 214, 214, 0.4); */
 
-  opacity: .8;
+  opacity: .6;
 
   transition: all .4s;
 
