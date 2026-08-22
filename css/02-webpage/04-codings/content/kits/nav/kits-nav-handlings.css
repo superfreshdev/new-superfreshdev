@@ -23,10 +23,8 @@ input[name="name-radio-codings-kits-nav"] {
 #radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"],
 #radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] {
 
-  background-color: rgb(216, 216, 216);
-  color:rgb(58, 58, 58);
-
-  color:rgb(108, 108, 108);
+  background-color: rgba(216, 216, 216, .2);
+  color:rgb(133, 133, 133);
 
   opacity: 1;
 
@@ -73,7 +71,7 @@ input[name="name-radio-codings-kits-nav"] {
 
   color:rgb(36, 36, 36);
 
-  color:rgb(108, 108, 108);
+  color:rgb(133, 133, 133);
 
 }
 

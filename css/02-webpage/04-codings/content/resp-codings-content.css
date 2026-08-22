@@ -10,15 +10,13 @@
 @media (min-width: 330px) {
 
 
-
 }
 
 /* ---------------------------------------------------------------- */
-/* ⭐ Lg 2 Mini |  >= width: 378px & height: >= 768px | Pixel 7 Size
+/* ⭐ Lg 2 Mini | >= width: 327px & height: >= 756px
 /* ---------------------------------------------------------------- */
 
-@media (min-width: 378px), (min-height: 768px ) {
-
+@media (min-width: 327px), (min-height: 756px ) {
 
   /* ----------------------------------------------------------------- */
   /* Codings Task - Unshown Container
@@ -30,6 +28,32 @@
       padding-bottom: 6vh;
       padding-top: 2vh;
 
+    }
+
+    /* img */
+    #codings-task-unshown-container > div:nth-of-type(1) > img {
+
+      height: 5em;
+
+    }
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* ⭐ Pixel 7 |  >= width: 378px & height: >= 768px
+/* ---------------------------------------------------------------- */
+@media (min-width: 378px), (min-height: 768px ) {
+
+  /* ----------------------------------------------------------------- */
+  /* Codings Task - Unshown Container
+  /* ----------------------------------------------------------------- */
+
+    #codings-task-unshown-container > div:nth-of-type(1) {
+
+      /* mobile */
+      padding-bottom: 6vh;
+      padding-top: 2vh;
 
     }
 
@@ -38,7 +62,6 @@
 
       height: 5em;
 
-
     }
 
     #codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
@@ -46,7 +69,6 @@
       font-size: 18px;
 
     }
-
 
 
 }
@@ -114,7 +136,7 @@
 
   #codings-task-unshown-container > div:nth-of-type(1) {
 
-    margin-bottom: 6em;
+    margin-bottom: 3em;
 
   }
 
@@ -131,7 +153,31 @@
   #codings-unshown-container > div:nth-of-type(1) {
 
     /* mobile */
-    padding-bottom: 3em;
+    padding-bottom: 6em;
+
+  }
+
+}
+
+/* ---------------------------------------------------------------- */
+/* >= 650px
+/* ---------------------------------------------------------------- */
+
+@media (min-width: 650px) {
+
+  /* ----------------------------------------------------------------- */
+  /* Codings Task - Unshown Container
+  /* ----------------------------------------------------------------- */
+
+  #codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+
+    font-size: 20px;
+
+  }
+
+  #codings-task-unshown-container > div:nth-of-type(1) {
+
+    margin-bottom: 1em;
 
   }
 
@@ -157,6 +203,22 @@
 
       /* mobile */
       padding-bottom: 10vh;
+
+    }
+
+    /* ----------------------------------------------------------------- */
+    /* Codings Task - Unshown Container
+    /* ----------------------------------------------------------------- */
+
+    #codings-task-unshown-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+
+      font-size: 20px;
+
+    }
+
+    #codings-task-unshown-container > div:nth-of-type(1) {
+
+      margin-bottom: 3em;
 
     }
 
