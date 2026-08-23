@@ -40,14 +40,14 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* x3 Sub Navs - Tech, Kits, Docs
+/* x3 - Codings Sub Nav
+/* Tech, Kits , Docs
 /* ----------------------------------------------------------------- */
 
 #codings-tech-nav,
 #codings-kits-nav,
 #codings-docs-nav {
 
-  /* default unshown - only by checked */
   display: none;
 
 }
