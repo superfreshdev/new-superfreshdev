@@ -1,0 +1,110 @@
+/* --------------------------------------------------------------- */
+/* > resp-content-containers-no-padd.css
+/*
+/* : styles resp content containers to let content
+     same content space
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------------- */
+/* No Start Paddings | Small, Medium, Big, Max | Resp Content Containers
+/* > if u nested different styles
+/* --------------------------------------------------------------------------------- */
+
+.resp-content-container-no-padd-small,
+.resp-content-container-no-padd-medium,
+.resp-content-container-no-padd-big,
+.resp-content-container-no-padd-max {
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+
+  /* background-color: black; */
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* >= 800px | Small, Medium
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+  /* small */
+  .resp-content-container-no-padd-small {
+
+    width: 50em;
+    /* background-color: red; */
+    /* background-color: aqua; */
+
+  }
+
+  /* medium */
+  .resp-content-container-no-padd-medium {
+
+    width: 90%;
+    /* background-color: red; */
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1000px | Medium
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1000px) {
+
+
+  /* small */
+  .resp-content-container-no-padd-small {
+
+    width: 55em;
+    /* background-color: red; */
+
+  }
+
+  /* medium */
+  .resp-content-container-no-padd-medium {
+
+    width: 80%;
+    /* background-color: red; */
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1200px | Medium
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1200px ) {
+
+  /* medium */
+  .resp-content-container-no-padd-medium {
+
+    width: 65em;
+    /* background-color: red; */
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1400px | Big
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1400px ) {
+
+  /* big */
+  .resp-content-container-no-padd-big {
+
+    width: 90%;
+    /* background-color: red; */
+
+  }
+
+}

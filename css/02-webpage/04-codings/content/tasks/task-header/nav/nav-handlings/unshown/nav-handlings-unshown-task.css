@@ -34,15 +34,16 @@
 /* 🛠️ Handlings
 /* -------------------------------------------------------------- */
 
-  /* Unshown - Codings Task Category Content ( info + masonry ) */
-  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-task-category-content {
+  /* Unshown - Codings Task Content ( info + masonry ) */
+  /* ⚠️ dont know why nth-2, because it is 1, maybe it count in another way */
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-no-padd-max:nth-of-type(2)  {
 
     display: none;
 
   }
 
   /* Show - Codings Unshown Container */
-  #radio-codings-task-header-unshown:checked ~ .resp-content-container-max:nth-of-type(2) #codings-task-unshown-container {
+  #radio-codings-task-header-unshown:checked ~ .resp-content-container-no-padd-max:nth-of-type(3) #codings-task-unshown-container {
 
     display: grid;
 

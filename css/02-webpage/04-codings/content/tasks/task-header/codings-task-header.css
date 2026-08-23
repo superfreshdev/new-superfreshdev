@@ -10,7 +10,7 @@
 #codings-task-header {
 
   width: 100%;
-  padding: 2em .8em 2em .8em;
+  padding: 2em 0em 2em 0em;
 
   display: flex;
   align-items: center;
@@ -19,11 +19,12 @@
 
   /* border-left: 1px solid black;
   border-right: 1px solid black; */
-
   /* background-color: rgb(228, 228, 228); */
 
   /* default unshown, only by checked - tech, algos, challenges */
   display: none;
+
+  /* background-color: red; */
 
 }
 

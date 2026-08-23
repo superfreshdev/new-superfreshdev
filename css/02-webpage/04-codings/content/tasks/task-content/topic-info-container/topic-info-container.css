@@ -4,10 +4,10 @@
 
 
 /* --------------------------------------------------------------- */
-/* Task Category Info | Main
+/* Topic Info Container
 /* --------------------------------------------------------------- */
 
-#codings-task-category-info {
+#codings-topic-info-container {
 
   width: 100%;
   padding: 2em .8em 2em .8em;
@@ -23,7 +23,7 @@
 /* Header | Task Category Info
 /* --------------------------------------------------------------- */
 
-#codings-task-category-info > header {
+#codings-topic-info-container > header {
 
   font-weight: bold;
   color:#484848;
@@ -31,7 +31,7 @@
 }
 
 /* title */
-#codings-task-category-info > header > div {
+#codings-topic-info-container > header > div {
 
   font-size: 16px;
 
@@ -41,7 +41,7 @@
 /* Main | Task Category Info
 /* --------------------------------------------------------------- */
 
-#codings-task-category-info > main {
+#codings-topic-info-container > main {
 
   width: 100%;
   display: grid;
@@ -61,7 +61,7 @@
 /* Div | Main | Task Category Info
 /* --------------------------------------------------------------- */
 
-#codings-task-category-info > main > div {
+#codings-topic-info-container > main > div {
 
   font-size: 16px;
   line-height: 1.6em;
