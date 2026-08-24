@@ -23,7 +23,7 @@ input[name="name-radio-codings-kits-nav"] {
 #radio-codings-kits-nav-backend:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-backend"],
 #radio-codings-kits-nav-others:checked ~ #codings-kits-nav label[for="radio-codings-kits-nav-others"] {
 
-  background-color: rgba(119, 119, 119, 0.4);
+  background-color: rgba(90, 90, 90, 0.3);
   color:rgb(146, 145, 145);
 
   opacity: 1;
