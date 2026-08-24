@@ -18,7 +18,7 @@ console.log("codings-task-masonry.js")
     breakpoints: [
       { minWidth: 0, columns: 1 }, // < 768px -> 1 col
       { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
-      { minWidth: 1200, columns: 3 }, // >= 1200px -> 3 col
+      { minWidth: 1400, columns: 3 }, // >= 1400px -> 3 col
 
     ]
 

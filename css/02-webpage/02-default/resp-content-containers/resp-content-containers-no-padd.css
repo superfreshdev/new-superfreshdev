@@ -7,10 +7,11 @@
 
 
 /* --------------------------------------------------------------------------------- */
-/* No Start Paddings | Small, Medium, Big, Max | Resp Content Containers
+/* No Start Paddings | Very Small, Small, Medium, Big, Max | Resp Content Containers
 /* > if u nested different styles
 /* --------------------------------------------------------------------------------- */
 
+.resp-content-container-no-padd-very-small,
 .resp-content-container-no-padd-small,
 .resp-content-container-no-padd-medium,
 .resp-content-container-no-padd-big,
@@ -32,6 +33,13 @@
 /* --------------------------------------------------------------- */
 
 @media (min-width: 800px) {
+
+  /* very small */
+  .resp-content-container-no-padd-very-small {
+
+    width: 50em;
+
+  }
 
   /* small */
   .resp-content-container-no-padd-small {
@@ -58,6 +66,12 @@
 
 @media (min-width: 1000px) {
 
+  /* very small */
+  .resp-content-container-no-padd-very-small {
+
+    width: 55em;
+
+  }
 
   /* small */
   .resp-content-container-no-padd-small {
@@ -82,6 +96,13 @@
 /* --------------------------------------------------------------- */
 
 @media (min-width: 1200px ) {
+
+   /* very small */
+  .resp-content-container-no-padd-very-small {
+
+    width: 50em;
+
+  }
 
   /* medium */
   .resp-content-container-no-padd-medium {

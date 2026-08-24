@@ -39,6 +39,18 @@
 
  }
 
+  /* ------------------------------------------------------ */
+  /* Codings Masonry Container */
+  /* ------------------------------------------------------ */
+
+    /* Reminder: Codings Masonry resp sets is in js defined 3 cols */
+    #codings-masonry-position {
+
+      width: 90%;
+
+    }
+
+
 }
 
 /* ----------------------------------------------------------- */
@@ -69,5 +81,78 @@
     width: 38em;
 
  }
+
+/* ------------------------------------------------------ */
+/* Codings Masonry Container */
+/* ------------------------------------------------------ */
+
+  /* Reminder: Codings Masonry resp sets is in js defined 3 cols */
+  #codings-masonry-position {
+
+    width: 55em;
+    /* background-color: blue; */
+
+  }
+
+}
+
+
+/* ----------------------------------------------------------- */
+/* >= 1200px
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+
+  /* ------------------------------------------------------ */
+  /* Codings Masonry Container */
+  /* ------------------------------------------------------ */
+
+    /* Reminder: Codings Masonry resp sets is in js defined 3 cols */
+    #codings-masonry-position {
+
+      width: 65em;
+      /* background-color: red; */
+
+    }
+
+}
+
+/* ----------------------------------------------------------- */
+/* >= 1400px
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1400px) {
+
+  /* ------------------------------------------------------ */
+  /* Codings Masonry Container */
+  /* ------------------------------------------------------ */
+
+    /* Reminder: Codings Masonry resp sets is in js defined 3 cols */
+    #codings-masonry-position {
+
+      width: 75em;
+      /* background-color: rgb(71, 152, 79); */
+
+    }
+
+}
+
+/* ----------------------------------------------------------- */
+/* >= 1600px
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1600px) {
+
+  /* ------------------------------------------------------ */
+  /* Codings Masonry Container */
+  /* ------------------------------------------------------ */
+
+    /* Reminder: Codings Masonry resp sets is in js defined 3 cols */
+    #codings-masonry-position {
+
+      width: 80em;
+      /* background-color: rgb(145, 152, 71); */
+
+    }
 
 }
