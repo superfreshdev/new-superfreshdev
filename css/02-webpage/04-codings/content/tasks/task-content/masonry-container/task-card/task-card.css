@@ -73,6 +73,12 @@
 /* In Progress
 /* --------------------------------------------------------------- */
 
+.task-card-in-progress {
+
+  background-color: rgb(255, 249, 234);
+
+}
+
 .task-card-in-progress .task-card-status-bar  {
 
   background-color: rgb(251, 217, 132);
@@ -82,6 +88,12 @@
 /* --------------------------------------------------------------- */
 /* Later
 /* --------------------------------------------------------------- */
+
+.task-card-later {
+
+  background-color: rgba(224, 235, 251, 0.6);
+
+}
 
 .task-card-later .task-card-status-bar {
 
@@ -93,6 +105,12 @@
 /* Future
 /* --------------------------------------------------------------- */
 
+.task-card-future {
+
+  background-color: rgba(226, 226, 226, .5);
+
+}
+
 .task-card-future .task-card-status-bar {
 
   background-color: #e3e3e3;
@@ -103,6 +121,12 @@
 /* --------------------------------------------------------------- */
 /* Finished
 /* --------------------------------------------------------------- */
+
+.task-card-finished {
+
+  background-color: rgb(240, 255, 240);
+
+}
 
 .task-card-finished .task-card-status-bar {
 
