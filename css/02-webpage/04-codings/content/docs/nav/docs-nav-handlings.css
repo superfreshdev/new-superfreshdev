@@ -25,8 +25,8 @@ input[name="name-radio-codings-docs-nav"] {
 #radio-codings-docs-nav-ai:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-ai"],
 #radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"] {
 
-  background-color: rgb(207, 207, 207);
-  color: rgb(74, 74, 74);
+  background-color: rgba(119, 119, 119, 0.4);
+  color:rgb(146, 145, 145);
 
   opacity: 1;
 
@@ -66,7 +66,7 @@ input[name="name-radio-codings-docs-nav"] {
 #radio-codings-docs-nav-others:checked ~ #codings-docs-nav label[for="radio-codings-docs-nav-others"] > div:last-child > div {
 
   color:rgb(36, 36, 36);
-  color: rgb(74, 74, 74);
+  color:rgb(146, 145, 145);
 
 }
 
