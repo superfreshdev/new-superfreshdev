@@ -11,7 +11,7 @@
 #codings-kits-container {
 
   width: 100%;
-  padding: .5em 0em 3em 0;
+  /* padding: 1.5em 0em 1.5em 0; */
 
   display: grid;
   justify-items: center;
@@ -24,5 +24,18 @@
 
   /* defualt unshown, only by nav checked */
   display: none;
+
+  /* background-color: grey; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Kits Content Container
+/* --------------------------------------------------------------- */
+
+#kits-content-container {
+
+  width: 100%;
+  display: grid;
 
 }

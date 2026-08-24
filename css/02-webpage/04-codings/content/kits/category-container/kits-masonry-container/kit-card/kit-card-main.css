@@ -5,72 +5,71 @@
 
 
 /* --------------------------------------------------------------- */
-/* Main | Kit Card
+/* Main - Kits Card
 /* --------------------------------------------------------------- */
 
-.kit-card > main {
+.kits-card-new > main {
 
-  padding: 1em .8em;
+  padding-top: .8em;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Nr Box | Main
+/* [1/2] | Topic List - Kits Card
 /* --------------------------------------------------------------- */
 
-.kit-card-nr-box {
-
-  width: 1.8em;
-  height: 1.8em;
-
-  border-radius: .5em;
+.kits-topic-list {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 
-  float: left;
+  column-gap: .3em;
+  row-gap: .2em;
 
-  margin-right: 1em;
-  margin-bottom: .4em;
+  color:rgb(117, 117, 117);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div | Topic List
+/* --------------------------------------------------------------- */
+
+.kits-topic-list > div {
 
   font-weight: bold;
 
-  background-color: rgba(170, 170, 170, 0.3);
-  color: rgb(145, 145, 145);
-
 }
 
-/* nr text */
-.kit-card-nr-box > div {
+/* div */
+.kits-topic-list > div > div {
 
-  font-size: 13.5px;
+  font-size: 14.5px;
 
 }
 
 /* --------------------------------------------------------------- */
-/* Title | Main
+/* Img | Topic List
 /* --------------------------------------------------------------- */
 
-.kit-card-title {
+.kits-topic-list > img {
 
-  font-size: 14px;
+  /* layout fix */
+  margin-top: 3px;
 
-  line-height: 1.6em;
-
-  /* font-weight: bold; */
-
-  color:rgba(136, 136, 136, .9);
+  height: .3em;
+  opacity: .4;
 
 }
 
+
 /* --------------------------------------------------------------- */
-/* Hashtags | Main
+/* [2/2] | Tech List - Kits Card
 /* --------------------------------------------------------------- */
 
-.kit-card-hashtag-list {
+.kits-tech-list {
 
-  padding-top: .8em;
+  padding-top: .6em;
 
   display: flex;
   flex-wrap: wrap;
@@ -80,27 +79,29 @@
 
 }
 
-/* --------------------------------------------------------------- */
-/* Items | Hashtags | Main
-/* --------------------------------------------------------------- */
+/* items */
+.kits-tech-list > div  {
 
-.kit-card-hashtag-list > div {
-
-  font-size: 13.5px;
-
-  height: 1.7em;
-  padding: 0 .4em .1em .4em;
+  height: 1.4em;
+  padding: 0 .4em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .5em;
+  border-radius: .4em;
 
-  color:rgb(184, 184, 184);
+  color:rgb(174, 174, 174);
+  border: 1px solid rgb(219, 219, 219);
 
-  border: 1px dashed rgb(212, 212, 212);
 
-  opacity: .9;
+}
 
+/* text */
+.kits-tech-list > div > div {
+
+  /* layout fix */
+  margin-bottom: 1px;
+
+  font-size: 13.5px;
 }

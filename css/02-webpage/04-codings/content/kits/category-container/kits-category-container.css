@@ -4,16 +4,130 @@
 
 
 /* --------------------------------------------------------------- */
-/* Codings Kits Category Container
+/* Kits Category Container
 /* --------------------------------------------------------------- */
 
 .kits-category-container {
 
   width: 100%;
+  padding: 2em .8em;
 
   display: grid;
-  row-gap: 1.3em;
+  justify-items: center;
+  row-gap: 1.5em;
+
+  border: 1px solid black;
+
+  background-color: white;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Kits Items Row Container
+/* --------------------------------------------------------------- */
+
+.kits-category-container > header {
+
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
 
   /* background-color: red; */
+
+}
+
+/* ------------------------------------------ */
+/* Kits Category Header | Box
+/* ------------------------------------------ */
+
+.kits-header-category-box {
+
+  height: 2em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+  border-radius: .5em;
+
+  border: 1px solid rgb(45, 45, 45);
+
+}
+
+/* ------------------------------------------ */
+/* Category Title | Box
+/* ------------------------------------------ */
+
+.kits-header-category-box > div:nth-of-type(1) {
+
+  font-weight: bold;
+  color:rgb(102, 29, 84);
+
+}
+
+/* text */
+.kits-header-category-box > div:nth-of-type(1) > div {
+
+  font-size: 16px;
+
+}
+
+/* ------------------------------------------ */
+/* Kits Info | Box
+/* ------------------------------------------ */
+
+.kits-header-category-box > div:nth-of-type(2) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+  color:rgb(196, 145, 145);
+
+}
+
+/* text */
+.kits-header-category-box > div:nth-of-type(2) > div {
+
+  font-size: 16px;
+
+}
+
+/* ------------------------------------------ */
+/* Kits Category Header | Nr Box
+/* ------------------------------------------ */
+
+.kits-header-category-nr-box {
+
+  display: flex;
+  align-items: center;
+  column-gap: .1em;
+
+  font-weight: bold;
+
+  color:rgb(255, 187, 0);
+
+}
+
+.kits-header-category-nr-box > div {
+
+  font-size: 16px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Kits Items Row Container
+/* --------------------------------------------------------------- */
+
+.kits-category-container > main {
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  /* background-color: red; */
+
 
 }

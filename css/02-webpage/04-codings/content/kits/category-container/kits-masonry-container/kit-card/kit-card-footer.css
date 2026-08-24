@@ -5,21 +5,33 @@
 
 
 /* --------------------------------------------------------------- */
-/* Footer | Kit Card
+/* Footer - Kits Card
 /* --------------------------------------------------------------- */
 
-.kit-card > footer {
+.kits-card-new > footer {
 
   width: 100%;
-  padding: .3em .8em .8em .8em;
+  padding-top: 1.3em;
 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 
-  column-gap: .3em;
+  column-gap: .4em;
   row-gap: .3em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* GitHub Links Box - Footer
+/* --------------------------------------------------------------- */
+
+.kits-card-new > footer > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
 
 }
 
@@ -28,7 +40,7 @@
 /* Links | Footer | Kit Card
 /* --------------------------------------------------------------- */
 
-.kit-card > footer > a {
+.kits-card-new > footer a {
 
   text-decoration: none;
 
@@ -53,7 +65,7 @@
 }
 
 /* text - Link */
-.kit-card > footer > a > img {
+.kits-card-new > footer a > img {
 
   opacity: .4;
 
@@ -61,14 +73,14 @@
 
 
 /* text - Link */
-.kit-card > footer > a > div {
+.kits-card-new > footer a > div {
 
   font-size: 12px;
 
 }
 
 /* hover */
-.kit-card > footer > a:hover {
+.kits-card-new > footer a:hover {
 
   background-color: rgb(225, 225, 225);
   opacity: 1;

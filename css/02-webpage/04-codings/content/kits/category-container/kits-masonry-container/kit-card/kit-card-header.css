@@ -1,4 +1,99 @@
 /* ---------------------------------------------------------------- */
-/* > kit-card.css
-/* : kits card
+/* > kit-card-header.css
+/* : kits card header
 /* ---------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Header - Kits Card
+/* --------------------------------------------------------------- */
+
+.kits-card-new > header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+/* Div 1 | Nr + Category Box */
+.kits-card-new > header > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Nr Box - Header
+/* --------------------------------------------------------------- */
+
+.kits-card-nr-box {
+
+  width: 1.7em;
+  height: 1.7em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(161, 161, 161);
+
+  background-color: rgb(213, 213, 213);
+  color:rgb(100, 100, 100);
+
+
+  border-radius: .4em;
+
+}
+
+/* div */
+.kits-card-nr-box > div {
+
+  font-size: 13.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Category Box - Header
+/* --------------------------------------------------------------- */
+
+.kits-card-category-box {
+
+  height: 1.7em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(185, 185, 185);
+  color:rgb(146, 146, 146);
+
+  border-radius: .4em;
+
+}
+
+/* div */
+.kits-card-category-box > div {
+
+  font-size: 13.5px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Kits Card Header - Icon Kits Info
+/* --------------------------------------------------------------- */
+
+.kits-card-header-icon {
+
+  height: 1.2em;
+  opacity: .3;
+
+}
