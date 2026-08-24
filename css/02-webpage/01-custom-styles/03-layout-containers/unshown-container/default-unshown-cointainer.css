@@ -22,7 +22,7 @@
 
   background-color: #f5f5f5;
 
-  background-color: rgb(249, 197, 197);
+  /* background-color: rgb(249, 197, 197); */
 
 }
 
@@ -39,7 +39,7 @@
   justify-items: center;
   row-gap: .6em;
 
-  background-color: red;
+  /* background-color: red; */
 
 }
 
