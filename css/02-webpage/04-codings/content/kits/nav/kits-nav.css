@@ -10,19 +10,6 @@
 
 #codings-kits-nav {
 
-  padding: 1em 0;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-
-  justify-content: flex-end;
-
-  justify-content: center;
-
-  column-gap: .4em;
-  row-gap: .8em;
-
   /* default unshown - only by checked */
   display: none;
 

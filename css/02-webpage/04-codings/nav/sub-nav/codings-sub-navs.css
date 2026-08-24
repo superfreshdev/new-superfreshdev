@@ -33,7 +33,8 @@
 
   justify-content: center;
 
-  column-gap: .4em;
+  /* mobile */
+  column-gap: .3em;
   row-gap: .8em;
 
 

@@ -9,16 +9,21 @@
 
 @media (min-width: 450px) {
 
+
   /* ----------------------------------------------------------------- */
-  /* Codings Nav
-  /* > Tech, Algos, Challenges, Kits, Docs, Unshown
+  /* Codings Sub Nav
   /* ----------------------------------------------------------------- */
 
-    #codings-nav {
+  .codings-sub-nav {
 
-      /* background-color: red; */
+    /* padding: .6em 0; */
 
-    }
+    /* mobile */
+    /* column-gap: .3em;
+    row-gap: .4em; */
+
+
+  }
 
 
 }

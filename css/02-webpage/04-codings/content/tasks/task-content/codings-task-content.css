@@ -49,6 +49,6 @@
 
 #codings-task-content > .resp-content-container-no-padd-max:nth-of-type(1) {
 
-  border-bottom: 1px solid rgb(211, 211, 211);
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
 
 }

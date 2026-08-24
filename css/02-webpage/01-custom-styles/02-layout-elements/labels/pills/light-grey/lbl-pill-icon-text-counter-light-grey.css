@@ -21,9 +21,11 @@
   border-radius: .8em;
 
   /* background-color: rgb(163, 163, 163); */
+
+  border: 1px solid rgb(209, 209, 209);
   color: rgb(135, 135, 135);
 
-  opacity: .6;
+  opacity: .8;
 
 }
 
@@ -55,12 +57,12 @@
 }
 
 /* --------------------------------------------------------------- */
-/* Default Unshown | Light Brown Img
+/* Default Unshown | Light Grey Img
 /* --------------------------------------------------------------- */
 
 .lbl-pill-icon-text-counter-light-grey > div:nth-of-type(1) > img:nth-of-type(2) {
 
-  opacity: .7;
+  opacity: .6;
 
   display: none;
 
@@ -73,8 +75,8 @@
 
 .lbl-pill-icon-text-counter-light-grey:hover {
 
-  background-color: rgb(139, 139, 139);
-  color:rgb(41, 41, 41);
+  background-color: rgb(214, 214, 214);
+  color:rgb(114, 114, 114);
 
   opacity: 1;
 
