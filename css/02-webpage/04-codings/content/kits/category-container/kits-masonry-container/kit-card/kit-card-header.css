@@ -8,7 +8,7 @@
 /* Header - Kits Card
 /* --------------------------------------------------------------- */
 
-.kits-card-new > header {
+.kits-card > header {
 
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 /* Div 1 | Nr + Category Box */
-.kits-card-new > header > div:nth-of-type(1) {
+.kits-card > header > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
@@ -41,10 +41,12 @@
 
   font-weight: bold;
 
-  border: 1px solid rgb(161, 161, 161);
+  border: 1px solid rgb(183, 183, 183);
 
-  background-color: rgb(213, 213, 213);
-  color:rgb(100, 100, 100);
+  background-color: rgb(225, 225, 225);
+  color:grey;
+  /* background-color: wheat; */
+  /* color:rgb(160, 132, 80); */
 
 
   border-radius: .4em;

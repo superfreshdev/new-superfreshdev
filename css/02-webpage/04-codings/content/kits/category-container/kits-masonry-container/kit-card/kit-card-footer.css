@@ -8,7 +8,7 @@
 /* Footer - Kits Card
 /* --------------------------------------------------------------- */
 
-.kits-card-new > footer {
+.kits-card > footer {
 
   width: 100%;
   padding-top: 1.3em;
@@ -27,7 +27,7 @@
 /* GitHub Links Box - Footer
 /* --------------------------------------------------------------- */
 
-.kits-card-new > footer > div:nth-of-type(1) {
+.kits-card > footer > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@
 /* Links | Footer | Kit Card
 /* --------------------------------------------------------------- */
 
-.kits-card-new > footer a {
+.kits-card > footer a {
 
   text-decoration: none;
 
@@ -65,7 +65,7 @@
 }
 
 /* text - Link */
-.kits-card-new > footer a > img {
+.kits-card > footer a > img {
 
   opacity: .4;
 
@@ -73,14 +73,14 @@
 
 
 /* text - Link */
-.kits-card-new > footer a > div {
+.kits-card > footer a > div {
 
   font-size: 12px;
 
 }
 
 /* hover */
-.kits-card-new > footer a:hover {
+.kits-card > footer a:hover {
 
   background-color: rgb(225, 225, 225);
   opacity: 1;

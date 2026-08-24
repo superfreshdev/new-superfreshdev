@@ -8,7 +8,7 @@
 /* Main - Kits Card
 /* --------------------------------------------------------------- */
 
-.kits-card-new > main {
+.kits-card > main {
 
   padding-top: .8em;
 
@@ -27,7 +27,8 @@
   column-gap: .3em;
   row-gap: .2em;
 
-  color:rgb(117, 117, 117);
+  color:#a0a0a0;
+  color:rgb(146, 146, 146);
 
 }
 

@@ -39,3 +39,20 @@
   display: grid;
 
 }
+
+/* --------------------------------------------------------------- */
+/* Divs | Row Container | Kits Content Container
+/* --------------------------------------------------------------- */
+
+#kits-content-container > div {
+
+  padding: 2em .8em 0 .8em;
+
+}
+
+/* last div */
+#kits-content-container > div:last-child {
+
+  padding-bottom: 2em;
+
+}
