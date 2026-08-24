@@ -54,7 +54,7 @@
 
   background-color: rgba(90, 90, 90, 0.3);
 
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(106, 106, 106);
 
 }
 
@@ -126,15 +126,32 @@
 .kits-category-container > main {
 
   width: 100%;
+  height: 100%;
+  /* margin-top: 3em;
+  margin-bottom: 1em; */
 
   display: grid;
-  grid: auto / 1fr;
-  align-items: flex-start;
+  justify-items: center;
+  align-items: center;
 
-  column-gap: 1.5em;
-  row-gap: 1.5em;
+  column-gap: 2em;
+  row-gap: 2em;
 
-  /* background-color: red; */
+}
 
+
+#kits-masonry-test {
+
+  width: 100%;
+  height: 100%;
+  /* margin-top: 3em;
+  margin-bottom: 1em; */
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  column-gap: 2em;
+  row-gap: 2em;
 
 }

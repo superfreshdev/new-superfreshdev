@@ -75,14 +75,14 @@
 
   .kits-category-container > main {
 
-    width: 100%;
+    /* width: 100%;
 
     display: grid;
     grid: auto / 1fr 1fr;
     align-items: flex-start;
 
     column-gap: 1.5em;
-    row-gap: 1.5em;
+    row-gap: 1.5em; */
 
     /* background-color: red; */
 

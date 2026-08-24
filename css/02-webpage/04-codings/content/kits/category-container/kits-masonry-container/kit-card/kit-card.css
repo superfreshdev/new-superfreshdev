@@ -23,9 +23,11 @@
 
   /* background-color: rgba(231, 231, 231, .4); */
 
- background-color: rgb(242, 242, 242);
+ /* background-color: rgb(242, 242, 242); */
 
-  transition: all .4s;
+  background-color: white;
+
+  transition: none !important;
 
 }
 

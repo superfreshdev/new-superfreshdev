@@ -24,6 +24,24 @@ console.log("codings-task-masonry.js")
 
   }
 
+  const ctxMasonryKitsLayout = {
+
+      container: document.getElementById("kits-masonry-test"),
+      itemSelector: "#kits-masonry-test > div",
+      gap: 32,
+
+      breakpoints: [
+        { minWidth: 0, columns: 1 }, // < 768px -> 1 col
+        { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
+        { minWidth: 1400, columns: 3 }, // >= 1400px -> 3 col
+
+      ]
+
+  };
+
+
+   var kitsMasonryContainers = document.querySelectorAll(".kits-category-container > main");
+
 /* ------------------------------------------------------------------------------ */
 /* 🏠 DOM Elements
 /* ------------------------------------------------------------------------------ */
@@ -74,5 +92,32 @@ console.log("codings-task-masonry.js")
 
 
 
+      // Alle Kits Masonry Container auswählen
 
+      console.log("kitsMasonryContainer(l)= " + kitsMasonryContainers.length )
+
+      // Für jeden Container eine eigene Masonry-Instanz initialisierne
+      // for of because of async, in for each it dont work
+
+      for(const containerElement of kitsMasonryContainers) {
+
+         const ctxMasonryKitsLayoutXXX = {
+
+          container: containerElement,
+          itemSelector: ".kits-category-container > main > div",
+          gap: 32,
+
+          breakpoints: [
+            { minWidth: 0, columns: 1 }, // < 768px -> 1 col
+            { minWidth: 768, columns: 2 }, // >= 768px -> 2 col
+            { minWidth: 1400, columns: 3 }, // >= 1400px -> 3 col
+
+          ]
+
+        };
+
+        // Initliaze Masonry in this context
+        await initResponsiveMasonry( ctxMasonryKitsLayoutXXX );
+
+      }
   });
