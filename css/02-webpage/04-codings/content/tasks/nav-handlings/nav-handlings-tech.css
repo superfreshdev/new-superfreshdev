@@ -26,8 +26,8 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-tech-nav-angular:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-angular"],
 #radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"]  {
 
-  background-color: rgba(119, 119, 119, 0.3);
-  color: rgb(113, 113, 113);
+  background-color: rgb(207, 207, 207);
+  color: rgb(74, 74, 74);
 
   opacity: 1;
 
@@ -86,7 +86,7 @@ input[name="name-radio-codings-nav-tech"] {
 #radio-codings-tech-nav-react-native:checked ~ #codings-tech-nav label[for="radio-codings-tech-nav-react-native"] > div:last-child > div  {
 
   color:rgb(36, 36, 36);
-  color:rgb(133, 133, 133);
+  color: rgb(74, 74, 74);
 
   /* color:rgb(41, 41, 41); */
 

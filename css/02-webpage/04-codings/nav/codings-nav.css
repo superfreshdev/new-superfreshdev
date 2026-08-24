@@ -46,6 +46,7 @@
 
   justify-content: center;
 
+
   column-gap: .4em;
   row-gap: .6em;
 
@@ -58,17 +59,9 @@
 
 #codings-navs-row-container > .row-container:nth-of-type(2) {
 
-  /* background-color: rgb(245, 245, 245);
-  background-color: rgb(83, 83, 83);
-  background-color: rgb(48, 48, 48);
-  background-color: #f5f5f5; */
-/*
-  background-color: rgb(234, 234, 234);
-  background-color: #eaeaea; */
+   background-color: #f5f5f5;
+   background-color: #eeeeee;
 
-  background-color: rgb(32, 32, 32);
-
-  /* background-color: white; */
-  /* border-bottom: 1px solid rgb(222, 222, 222); */
+   border-bottom: 1px solid rgb(222, 222, 222);
 
 }
