@@ -29,7 +29,8 @@
 
 
   color:rgb(162, 162, 162);
-  color:#606060;
+  color:#999999;
+  font-weight: bold;
 
 }
 
@@ -76,8 +77,10 @@
   display: flex;
   flex-wrap: wrap;
 
-  column-gap: .4em;
+  column-gap: .3em;
   row-gap: .4em;
+
+  opacity: .8;
 
 }
 
@@ -91,7 +94,7 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .4em;
+  border-radius: .5em;
 
   color:rgb(174, 174, 174);
   border: 1px solid rgb(219, 219, 219);

@@ -21,16 +21,29 @@
 
   background-color: white;
 
+  border-left: .6em solid rgb(127, 131, 134);
+
+  border-left: .4em solid rgb(179, 179, 179);
+
+  /* border-left: .6em solid rgb(153, 119, 149); */
+
+  /* border-left: .6em solid rgb(210, 179, 123); */
+
+
   /* opacity: .8; */
 
   transition: none !important;
+
+  /* transition: all .4s; */
 
 }
 
 .kits-card:hover {
 
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(249, 249, 249);
 
-  background-color: white;
+  /* background-color: white; */
+
+
 
 }

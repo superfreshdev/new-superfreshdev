@@ -47,14 +47,42 @@
 .task-card-future:hover,
 .task-card-finished:hover {
 
-  opacity: .9;
+  opacity: 1;
 
   /* transform: translateY(-8px) scale(1.02); */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, .25); */
 
-  background-color: rgb(246, 246, 246);
+  /* background-color: rgb(246, 246, 246);
+  background-color: rgb(245, 245, 245);
+  background-color: rgb(255, 249, 234); */
 
-  background-color: rgb(252, 252, 252);
+}
+
+/* hover - in progress */
+.task-card-in-progress:hover {
+
+  background-color: rgb(255, 249, 234);
+
+}
+
+/* hover - later */
+.task-card-later:hover {
+
+  background-color: rgba(224, 235, 251, 0.6);
+
+}
+
+/* hover - future */
+.task-card-future:hover {
+
+  background-color: rgba(226, 226, 226, .5);
+
+}
+
+/* hover - finished */
+.task-card-finished:hover {
+
+  background-color: rgb(240, 255, 240);
 
 }
 
