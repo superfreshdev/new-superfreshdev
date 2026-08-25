@@ -47,14 +47,14 @@
   align-items: center;
   column-gap: .2em;
 
-  border-radius: 1em;
+  border-radius: .8em;
 
   border: 1px solid rgb(197, 196, 196);
   background-color: rgba(171, 171, 171, 0.4);
 
-  background-color: rgba(90, 90, 90, 0.3);
+  background-color: rgba(90, 90, 90, 1);
 
-  background-color: rgb(106, 106, 106);
+  /* background-color: rgb(106, 106, 106); */
 
 }
 

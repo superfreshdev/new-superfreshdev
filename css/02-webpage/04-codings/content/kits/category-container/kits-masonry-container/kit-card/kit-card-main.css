@@ -27,8 +27,9 @@
   column-gap: .3em;
   row-gap: .2em;
 
-  color:#a0a0a0;
-  color:rgb(146, 146, 146);
+
+  color:rgb(162, 162, 162);
+  color:#606060;
 
 }
 
@@ -38,7 +39,7 @@
 
 .kits-topic-list > div {
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
 }
 
@@ -70,13 +71,13 @@
 
 .kits-tech-list {
 
-  padding-top: .6em;
+  padding-top: .8em;
 
   display: flex;
   flex-wrap: wrap;
 
-  column-gap: .3em;
-  row-gap: .3em;
+  column-gap: .4em;
+  row-gap: .4em;
 
 }
 
