@@ -1,0 +1,253 @@
+/* --------------------------------------------------------------- */
+/* > resp-top-it-projects.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* >= 400px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 400px) {
+
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+  #top-it-projects-list-container {
+
+    width: 90%;
+    /* background-color: grey; */
+
+  }
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 480px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 480px) {
+
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+  #top-it-projects-list-container {
+
+    width: 25em;
+    /* background-color: grey; */
+
+  }
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 600px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 600px) {
+
+
+  /* ------------------------------------------------- */
+  /* Top IT Projects  */
+  /* ------------------------------------------------- */
+
+  #top-it-projects-list-container {
+
+    width: 100%;
+    /* background-color: grey; */
+
+  }
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+
+    /* left */
+    .top-it-project-card-left-layout .top-it-project-card-content {
+
+      grid: auto / 14em 1fr;
+
+    }
+
+    /* right */
+    .top-it-project-card-right-layout .top-it-project-card-content {
+
+      grid: auto / 1fr 14em;
+
+    }
+
+    /* change order by top it project card */
+    .top-it-project-card-right-layout .top-it-project-card-content > .top-it-project-card-img-container {
+
+      order: 1;
+
+    }
+
+
+
+    /* details - container */
+    .top-it-project-card-details-container {
+
+      padding: 0;
+
+    }
+
+    .top-it-project-card-details-content {
+
+      padding-top: .6em;
+
+    }
+
+    .top-it-project-card-details-footer {
+
+
+    }
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 800px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+  /* left */
+  .top-it-project-card-left-layout .top-it-project-card-content {
+
+    grid: auto / 16em 1fr;
+
+  }
+
+  /* right */
+  .top-it-project-card-right-layout .top-it-project-card-content {
+
+    grid: auto / 1fr 16em;
+
+  }
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1000px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1000px) {
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+  /* left */
+  .top-it-project-card-left-layout .top-it-project-card-content {
+
+      grid: auto / 18em 1fr;
+
+  }
+
+  /* right */
+  .top-it-project-card-right-layout .top-it-project-card-content {
+
+    grid: auto / 1fr 18em;
+
+  }
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+   .top-it-project-card-title > div {
+
+      font-size: 18.5px;
+
+      line-height: 1.5em;
+
+      font-weight: bold;
+
+    }
+
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* >= 1200px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+  .top-it-project-card-img-container {
+
+    justify-self: center;
+
+
+  }
+
+  /* left */
+ .top-it-project-card-left-layout .top-it-project-card-content {
+
+    grid: auto / 20em 1fr;
+
+  }
+
+  /* right */
+  .top-it-project-card-right-layout .top-it-project-card-content {
+
+    grid: auto / 1fr 20em;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1400px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1400px) {
+
+  /* ------------------------------------------------- */
+  /* Top IT Project Card */
+  /* ------------------------------------------------- */
+
+  .top-it-project-card-title > div {
+
+      font-size: 19.5px;
+
+      line-height: 1.5em;
+
+      font-weight: bold;
+
+    }
+
+    /* left */
+  .top-it-project-card-left-layout .top-it-project-card-content {
+
+      grid: auto / 26em 1fr;
+
+    }
+
+    /* right */
+    .top-it-project-card-right-layout .top-it-project-card-content {
+
+      grid: auto / 1fr 26em;
+
+    }
+
+
+
+}

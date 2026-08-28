@@ -1,0 +1,172 @@
+/* --------------------------------------------------------------- */
+/* > header-impress.css
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------- */
+/* Header Impress | on light, on dark
+/* ------------------------------------------------------------------- */
+
+.header-impress-on-light,
+.header-impress-on-dark {
+
+
+  display: grid;
+  align-items: center;
+
+  justify-items: center;
+  justify-content: center;
+
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+
+  /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------------------- */
+/* Header Impress Content | on light, on dark
+/* ------------------------------------------------------------------- */
+
+.header-impress-content {
+
+  display: grid;
+  justify-items: center;
+  row-gap: .6em;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* Header | Header Impress Content
+/* ------------------------------------------------------------------- */
+
+.header-impress-content > header {
+
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.header-impress-content > header > div {
+
+  font-size: 20px;
+
+}
+
+/* on light */
+.header-impress-on-light .header-impress-content > header {
+
+  color:black;
+
+}
+
+/* on dark */
+.header-impress-on-dark .header-impress-content > header {
+
+  color:white;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* ⭐ Special Style, only for Top IT Projects
+/* Header Title - Top IT Projects
+/* ------------------------------------------------------------------- */
+
+#header-title-top-it-projects {
+
+  /* padding-bottom: .2em; */
+
+  display: flex;
+  align-items: center;
+
+  color:black;
+
+  font-size: 20px;
+
+}
+
+/* div 1 - my top */
+#header-title-top-it-projects > div:nth-of-type(1) {
+
+  /* layout fix */
+  margin-bottom: 3px;
+
+}
+
+/* div 3 - it-projects */
+#header-title-top-it-projects > div:nth-of-type(3) {
+
+  /* layout fix */
+  margin-bottom: 3px;
+
+}
+
+/* --------------------------------- */
+/* Extra Three Style  */
+/* --------------------------------- */
+
+#extra-three-style {
+
+  height: 1.5em;
+  width: 1.6em;
+  margin: 0em .3em .1em .3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  font-style: italic;
+
+  background-color: rgb(28, 28, 28);
+  color:rgb(209, 209, 209);
+
+}
+
+#extra-three-style > div {
+
+  /* layout fix */
+  padding-bottom: 1.3px;
+
+  font-size: 16px;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* Topic List | Header Impress Content
+/* ------------------------------------------------------------------- */
+
+.header-impress-topic-list {
+
+  display: grid;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  row-gap: .3em;
+
+  font-weight: bold;
+
+}
+
+/* Items */
+.header-impress-topic-list > div {
+
+  font-size: 16px;
+
+}
+
+/* on light */
+.header-impress-on-light .header-impress-topic-list > div {
+
+  color: #6c6c6c;;
+
+}
+
+/* on dark */
+.header-impress-on-dark .header-impress-topic-list > div {
+
+  color: #6c6c6c;
+
+}

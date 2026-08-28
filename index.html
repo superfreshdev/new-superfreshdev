@@ -87,6 +87,11 @@
       <!-- Layout Elements -->
       <!-- --------------------------------------------------  -->
 
+        <!-- header impress block - on dark, on light -->
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/impress/header-impress.css">
+        <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/impress/resp-header-impress.css">
+
+      <!-- ❌❌❌ Trash -->
       <!-- header -->
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/first-header/first-header-content.css">
       <link rel="stylesheet" href="css/02-webpage/01-custom-styles/02-layout-elements/headers/first-header/first-header-content-on-dark.css">
@@ -218,6 +223,7 @@
       <!-- 🟪 [1/4] | About -->
       <!-- -------------------------------------------------------------- -->
 
+
         <link rel="stylesheet" href="css/02-webpage/03-about/01-about-me/about-me.css">
         <!-- nav handling -->
         <link rel="stylesheet" href="css/02-webpage/03-about/01-about-me/nav/nav-handling-about-me.css">
@@ -269,6 +275,42 @@
         <!-- ----------------------------------------- -->
         <!-- 🟪 Top x3 IT Projects | About -->
         <!-- ----------------------------------------- -->
+
+        <!-- ------------------------------------------------- -->
+        <!-- ❇️ Neu -->
+        <!-- ------------------------------------------------- -->
+
+          <!-- 🟥 default -->
+          <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/top-it-projects.css">
+
+          <!-- ------------------------------------------ -->
+          <!-- 🟥 Top IT Project Card -->
+          <!-- ------------------------------------------ -->
+
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/top-it-project-card.css">
+
+            <!-- header nr -->
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/header-nr/top-it-project-card-header-nr.css">
+
+            <!-- --------------------------- -->
+            <!-- content -->
+            <!-- --------------------------- -->
+
+            <!-- content - img container -->
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/content/img-container/top-it-project-card-img-container.css">
+            <!-- content - details -->
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/content/details/top-it-project-card-details-container.css">
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/content/details/top-it-project-card-title.css">
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/content/details/top-it-project-card-tech-list.css">
+            <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/card/content/details/top-it-project-card-footer.css">
+
+          <!-- resp - top it proejcts -->
+          <link rel="stylesheet" href="css/02-webpage/03-about/top-it-projects/resp-top-it-projects.css">
+
+
+        <!-- ------------------------------------------------- -->
+        <!-- ❌❌❌ Trash - Refacotring -->
+        <!-- ------------------------------------------------- -->
 
         <link rel="stylesheet" href="css/02-webpage/03-about/02-top-it-projects/about-top-it-projects.css">
 
@@ -641,8 +683,8 @@
   <!-- ----------------------------------------------------------------------- -->
   <!-- Radios | Nav Header Body -->
   <!-- ----------------------------------------------------------------------- -->
-  <input type="radio" id="radio-about" name="name-radio-body-header-nav">
-  <input checked  type="radio" id="radio-codings" name="name-radio-body-header-nav">
+  <input checked type="radio" id="radio-about" name="name-radio-body-header-nav">
+  <input   type="radio" id="radio-codings" name="name-radio-body-header-nav">
   <input  type="radio" id="radio-lifestyle" name="name-radio-body-header-nav">
 
   <!-- ----------------------------------------------------------------------- -->
@@ -791,7 +833,7 @@
     <div class="push-slider">
 
       <!-- --------------------------------------------------------------------- -->
-      <!-- 🟩 [1/3] | About Page | Slide #1 | (z-index: 2) -->
+      <!-- ➡️🟥 [1/3] | About Page | Slide #1 | (z-index: 2) -->
       <!-- --------------------------------------------------------------------- -->
       <div class="push-content-slide-no-anim">
 
@@ -889,20 +931,20 @@
                       I'm a <span class="txt-b-light-brown-transparent">Fullstack Sofwtare Engineer</span> from Germany.
                       <br>
 
-                      My focus is on creating <span class="txt-b-light-brown-transparent"> web & mobile</span>
-                        <span class="txt-b-light-brown-transparent">solutions</span>
-                      and building <span class="txt-b-light-brown-transparent"> scalable backends. </span>
+                      My focus is on creating <span class="txt-b-light-brown-transparent"> Web & Mobile</span>
+                        <span class="txt-b-light-brown-transparent">Solutions</span>
+                      and building <span class="txt-b-light-brown-transparent"> scalable Backends. </span>
                        <br>
 
                       For the web, I use <span class="txt-b-light-brown-transparent">Angular</span>;
                       for mobile, <span class="txt-b-light-brown-transparent">React Native</span>.
                       <br>
                       On the backend, I work with <span class="txt-b-light-brown-transparent">Spring Boot</span>
-                      and <span class="txt-b-light-brown-transparent">modern databases</span>, mapping out systems with
+                      and <span class="txt-b-light-brown-transparent">Modern Databases</span>, mapping out systems with
                       <span class="txt-b-light-brown-transparent"> C4
-                      architecture </span> and treating <span class="txt-b-light-brown-transparent">observability</span> as a first-class citizen.
+                      Architecture </span> and treating <span class="txt-b-light-brown-transparent">Observability</span> as a first-class citizen.
                       <br>
-                      I bring architecture to the <span class="txt-b-light-brown-transparent">cloud </span> - and I'm always curious where
+                      I bring architecture to the <span class="txt-b-light-brown-transparent">Cloud </span> - and I'm always curious where
                       <span class="txt-b-light-brown-transparent">AI </span>can make it smarter.
 
 
@@ -2753,64 +2795,837 @@
             <div class="resp-content-container-big">
 
               <!-- --------------------------------------------------------------- -->
-              <!-- [3/4] | Top IT Projects | About Container -->
+              <!-- 🟨 [3/4] | Top IT Projects | About Container -->
               <!-- --------------------------------------------------------------- -->
-              <div id="top-it-projects-about-container">
+              <div id="top-it-projects-content-container">
 
 
                 <!-- ------------------------------------------------------------- -->
-                <!-- [1/2] | First Header Content | on light | Top It Projects     -->
+                <!-- 🟩 [1/2] | Header | on Light             -->
                 <!-- ------------------------------------------------------------- -->
-                <div class="first-header-content-on-light">
+                <div class="resp-content-container-no-padd-small">
 
-                  <!-- ------------------------------------------------ -->
-                  <!-- [1/2] | Img  -->
-                  <!-- ------------------------------------------------ -->
-                  <img src="media/imgs/icons/02-icon-colors/01-black/black-rocket.png"
-                      alt="img">
+                  <div class="header-impress-on-light">
 
-                  <!-- ------------------------------------------------ -->
-                  <!-- [1/2] | Title Area | First Content Header -->
-                  <!-- ------------------------------------------------ -->
-                  <div class="title-area-first-content-header">
+                    <!-- ------------------------------------------------ -->
+                    <!-- ➡️🟥 [1/2] | Img  -->
+                    <!-- ------------------------------------------------ -->
+                    <img src="media/imgs/icons/02-icon-colors/01-black/black-rocket.png"
+                        alt="img" class="img-h-3">
 
-                    <!-- -------------------------------------------------- -->
-                    <!-- First Title Header -->
-                    <!-- -------------------------------------------------- -->
-                    <div class="first-title-content-header">
-                      My Top
-                      <span id="extra-three-style">
-                        <span>x3</span>
-                      </span>
-                      IT-Projects
+                    <!-- ------------------------------------------------ -->
+                    <!-- ➡️🟥 [2/2] | Content -->
+                    <!-- ------------------------------------------------ -->
+                    <main class="header-impress-content">
+
+                      <!-- -------------------------------------------------- -->
+                      <!-- ⭐ Special Style, only for Top IT Projects -->
+                      <!-- Header | Title -->
+                      <!-- -------------------------------------------------- -->
+                      <header id="header-title-top-it-projects">
+
+                        <div> My Top </div>
+
+                        <div id="extra-three-style">
+                          <div>x3</div>
+                        </div>
+
+                        <div>IT-Projects</div>
 
 
-                    </div>
+                      </header>
 
-                    <!-- -------------------------------------------------- -->
-                    <!-- Sub First Title Header Container -->
-                    <!-- -------------------------------------------------- -->
-                    <div class="sub-title-content-header-container layout-fix-more-sub-title-items">
+                      <!-- -------------------------------------------------- -->
+                      <!-- Topic List -->
+                      <!-- -------------------------------------------------- -->
+                      <div class="header-impress-topic-list">
 
-                      <!-- sub title -->
-                      <div>» Invoice PDF Parser Analytics</div>
+                        <!-- sub title -->
+                        <div>» Invoice PDF Parser Analytics</div>
 
-                      <!-- sub title -->
-                      <div>» Food Delivery Service</div>
+                        <!-- sub title -->
+                        <div>» Food Delivery Service</div>
 
-                      <!-- sub title -->
-                      <div>» Responsive Data Dashboard</div>
+                        <!-- sub title -->
+                        <div>» Responsive Data Dashboard</div>
 
-                    </div>
+                      </div>
+
+                    </main>
 
                   </div>
 
                 </div>
 
                 <!-- ------------------------------------------------------------- -->
+                <!-- ➡️🟥 [2/2] | Top IT Project List Container                       -->
+                <!-- ------------------------------------------------------------- -->
+                <div class="resp-content-container-no-padd-medium">
+
+                  <div id="top-it-projects-list-container">
+
+
+                    <!-- ---------------------------------------------------------------- -->
+                    <!-- 🟩 [1/3] | About - Top IT Project Card -->
+                    <!-- ---------------------------------------------------------------- -->
+                    <div class="top-it-project-card-left-layout">
+
+                      <!-- ---------------------------------------------------------- -->
+                      <!-- 🟩 [1/2] | Header - Nr Box -->
+                      <!-- ---------------------------------------------------------- -->
+                      <header class="top-it-project-card-header-nr">
+
+                        <!-- ----------------------------------------- -->
+                        <!-- Nr Box -->
+                        <!-- ----------------------------------------- -->
+                        <div class="top-it-project-card-nr-box">
+                          <div>1</div>
+                          <div>/</div>
+                          <div>3</div>
+                        </div>
+
+                      </header>
+
+                      <!-- ---------------------------------------------------------- -->
+                      <!-- ➡️🟥 [2/2] | Content -  -->
+                      <!-- ---------------------------------------------------------- -->
+                      <main class="top-it-project-card-content">
+
+                        <!-- ---------------------------------------------------------- -->
+                        <!-- 🟩 [1/2] | Img Container - Top IT Project Card -->
+                        <!-- ---------------------------------------------------------- -->
+                        <div class="top-it-project-card-img-container">
+
+                          <img src="media/imgs/content/01-about/top-it-projects/top-it-project-1/pdf-upload-architecture.png"
+                              class="top-it-project-card-img" alt="img">
+
+                        </div>
+
+                        <!-- ---------------------------------------------------------- -->
+                        <!-- ➡️🟥 [2/2] | Details Container - Top IT Project Card -->
+                        <!-- ---------------------------------------------------------- -->
+                        <div class="top-it-project-card-details-container">
+
+                          <!-- ---------------------------------------------------------- -->
+                          <!-- ➡️🟥 [1/2] | Main - Content -->
+                          <!-- ---------------------------------------------------------- -->
+                          <main class="top-it-project-card-details-content">
+
+                            <!-- Title -->
+                            <header class="top-it-project-card-title">
+
+                              <!-- title -->
+                              <div>Claim PDF Upload Service with Integrated Review & Decison Feedback
+                                <span style="display: none;"> -
+                                dies könnte ein längerer Text sein
+                                  - was ist wenn es so lange ist - jetzt stellen wir uns noch mehr Text vor.</span>
+                              </div>
+
+                            </header>
+
+                            <!-- Tech List -->
+                            <main class="top-it-project-card-tech-list">
+
+                              <!-- header -->
+                              <header>Core Stack:</header>
+
+                              <!-- list -->
+                              <main>
+
+                                <!-- angular -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/angular19.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Angular</div>
+                                </div>
+
+                                <!-- java -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/java-black.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Java</div>
+                                </div>
+
+                                <!-- spring boot -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/springboot2.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Spring Boot</div>
+                                </div>
+
+                                <!-- kafka -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/kafka.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Kafka</div>
+                                </div>
+
+                                <!-- observability -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/graph-3-grey.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Observability</div>
+                                </div>
+
+                                <!-- postgresql -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/postgre.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>PostgreSQL</div>
+                                </div>
+
+                                <!-- gitlab ci/cd -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/gitlab.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Gitlab CI/CD</div>
+                                </div>
+
+                                <!-- docker -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/docker.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Docker</div>
+                                </div>
+
+                                <!-- kubernetes -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/kubernetes.png"
+                                        alt="img" class="img-h-1">
+                                  <div>Kubernetes</div>
+                                </div>
+
+                                <!-- rest api -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/rest.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Rest API</div>
+                                </div>
+
+
+                                <!-- unit -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Unit-T</div>
+                                </div>
+
+                                <!-- mock -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Mock-T</div>
+                                </div>
+
+                                <!-- integration test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Integration-T</div>
+                                </div>
+
+                                <!-- api test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>API-T</div>
+                                </div>
+
+                                <!-- e2e test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>E2E-T</div>
+                                </div>
+
+                                <!-- playwright -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/playwright-testing.png"
+                                        alt="img" class="img-h-0-9">
+                                  <div>Playwright</div>
+                                </div>
+
+                              </main>
+
+                            </main>
+
+                          </main>
+
+                          <!-- ---------------------------------------------------------- -->
+                          <!-- ➡️🟥 [2/2] | Footer - Content -->
+                          <!-- ---------------------------------------------------------- -->
+                          <footer class="top-it-project-card-details-footer">
+
+                            <!-- Link - Showcase -->
+                            <a href=""
+                                target="_blank">
+
+                              <!-- img -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
+                                   alt="img" class="img-h-0-6">
+
+                              <!-- title -->
+                              <div>Showcase</div>
+
+
+                            </a>
+
+                            <!-- github link container -->
+                            <div>
+
+
+
+                              <!-- zip link -->
+                              <a href=""
+                                target="_blank">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                    alt="img" class="img-h-0-7">
+
+                                <!-- title -->
+                                <div>.zip</div>
+
+                              </a>
+
+                               <!-- github link -->
+                              <a href=""
+                                target="_blank">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img" class="img-h-0-9">
+
+                                <!-- title -->
+                                <div>GitHub</div>
+
+
+                              </a>
+
+                            </div>
+
+                          </footer>
+
+
+                        </div>
+
+
+                      </main>
+
+
+                    </div>
+
+                    <!-- ---------------------------------------------------------------- -->
+                    <!-- 🟩 [2/3] | About - Top IT Project Card -->
+                    <!-- ---------------------------------------------------------------- -->
+                    <div class="top-it-project-card-right-layout">
+
+                      <!-- ---------------------------------------------------------- -->
+                      <!-- 🟩 [1/2] | Header - Nr Box -->
+                      <!-- ---------------------------------------------------------- -->
+                      <header class="top-it-project-card-header-nr">
+
+                        <!-- ----------------------------------------- -->
+                        <!-- Nr Box -->
+                        <!-- ----------------------------------------- -->
+                        <div class="top-it-project-card-nr-box">
+                          <div>2</div>
+                          <div>/</div>
+                          <div>3</div>
+                        </div>
+
+                      </header>
+
+                      <!-- ---------------------------------------------------------- -->
+                      <!-- ➡️🟥 [2/2] | Content -  -->
+                      <!-- ---------------------------------------------------------- -->
+                      <main class="top-it-project-card-content">
+
+                        <!-- ---------------------------------------------------------- -->
+                        <!-- 🟩 [1/2] | Img Container - Top IT Project Card -->
+                        <!-- ---------------------------------------------------------- -->
+                        <div class="top-it-project-card-img-container">
+
+                          <img src="media/imgs/content/01-about/top-it-projects/top-it-project-3/project-1-sass-dashboard.png"
+                              class="top-it-project-card-img" alt="img">
+
+                        </div>
+
+                        <!-- ---------------------------------------------------------- -->
+                        <!-- 🟩 [2/2] | Details Container - Top IT Project Card -->
+                        <!-- ---------------------------------------------------------- -->
+                        <div class="top-it-project-card-details-container">
+
+                          <!-- ---------------------------------------------------------- -->
+                          <!-- ➡️🟥 [1/2] | Main - Content -->
+                          <!-- ---------------------------------------------------------- -->
+                          <main class="top-it-project-card-details-content">
+
+                            <!-- Title -->
+                            <header class="top-it-project-card-title">
+
+                              <!-- title -->
+                              <div>Responsive Data Dashboard with 4 Analytics
+                                <span style="display: none;"> -
+                                dies könnte ein längerer Text sein
+                                  - was ist wenn es so lange ist - jetzt stellen wir uns noch mehr Text vor.</span>
+                              </div>
+
+                            </header>
+
+                            <!-- Tech List -->
+                            <main class="top-it-project-card-tech-list">
+
+                              <!-- header -->
+                              <header>Core Stack:</header>
+
+                              <!-- list -->
+                              <main>
+
+                                <!-- angular -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/angular19.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Angular</div>
+                                </div>
+
+                                <!-- java -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/java-black.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Java</div>
+                                </div>
+
+                                <!-- spring boot -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/springboot2.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Spring Boot</div>
+                                </div>
+
+                                <!-- kafka -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/kafka.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Kafka</div>
+                                </div>
+
+                                <!-- observability -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/graph-3-grey.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Observability</div>
+                                </div>
+
+                                <!-- postgresql -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/postgre.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>PostgreSQL</div>
+                                </div>
+
+                                <!-- gitlab ci/cd -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/gitlab.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Gitlab CI/CD</div>
+                                </div>
+
+                                <!-- docker -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/docker.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Docker</div>
+                                </div>
+
+                                <!-- kubernetes -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/kubernetes.png"
+                                        alt="img" class="img-h-1">
+                                  <div>Kubernetes</div>
+                                </div>
+
+                                <!-- rest api -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/rest.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Rest API</div>
+                                </div>
+
+
+                                <!-- unit -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Unit-T</div>
+                                </div>
+
+                                <!-- mock -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Mock-T</div>
+                                </div>
+
+                                <!-- integration test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Integration-T</div>
+                                </div>
+
+                                <!-- api test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>API-T</div>
+                                </div>
+
+                                <!-- e2e test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>E2E-T</div>
+                                </div>
+
+                                <!-- playwright -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/playwright-testing.png"
+                                        alt="img" class="img-h-0-9">
+                                  <div>Playwright</div>
+                                </div>
+
+                              </main>
+
+                            </main>
+
+                          </main>
+
+                          <!-- ---------------------------------------------------------- -->
+                          <!-- ➡️🟥 [2/2] | Footer - Content -->
+                          <!-- ---------------------------------------------------------- -->
+                          <footer class="top-it-project-card-details-footer">
+
+                            <!-- Link - Showcase -->
+                            <a href=""
+                                target="_blank">
+
+                              <!-- img -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
+                                   alt="img" class="img-h-0-6">
+
+                              <!-- title -->
+                              <div>Showcase</div>
+
+
+                            </a>
+
+                            <!-- github link container -->
+                            <div>
+
+
+
+                              <!-- zip link -->
+                              <a href=""
+                                target="_blank">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                    alt="img" class="img-h-0-7">
+
+                                <!-- title -->
+                                <div>.zip</div>
+
+                              </a>
+
+                               <!-- github link -->
+                              <a href=""
+                                target="_blank">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img" class="img-h-0-9">
+
+                                <!-- title -->
+                                <div>GitHub</div>
+
+
+                              </a>
+
+                            </div>
+
+                          </footer>
+
+
+                        </div>
+
+
+                      </main>
+
+
+                    </div>
+
+                    <!-- ---------------------------------------------------------------- -->
+                    <!-- 🟥 [3/3] | About - Top IT Project Card -->
+                    <!-- ---------------------------------------------------------------- -->
+                    <div class="top-it-project-card-left-layout">
+
+                      <!-- ---------------------------------------------------------- -->
+                      <!-- 🟩 [1/2] | Header - Nr Box -->
+                      <!-- ---------------------------------------------------------- -->
+                      <header class="top-it-project-card-header-nr">
+
+                        <!-- ----------------------------------------- -->
+                        <!-- Nr Box -->
+                        <!-- ----------------------------------------- -->
+                        <div class="top-it-project-card-nr-box">
+                          <div>3</div>
+                          <div>/</div>
+                          <div>3</div>
+                        </div>
+
+                      </header>
+
+                      <!-- ---------------------------------------------------------- -->
+                      <!-- ➡️🟥 [2/2] | Content -  -->
+                      <!-- ---------------------------------------------------------- -->
+                      <main class="top-it-project-card-content">
+
+                        <!-- ---------------------------------------------------------- -->
+                        <!-- 🟩 [1/2] | Img Container - Top IT Project Card -->
+                        <!-- ---------------------------------------------------------- -->
+                        <div class="top-it-project-card-img-container">
+
+                          <img src="media/imgs/content/01-about/top-it-projects/top-it-project-2/project-food-delivery-service.png"
+                              class="top-it-project-card-img" alt="img">
+
+                        </div>
+
+                        <!-- ---------------------------------------------------------- -->
+                        <!-- 🟩 [2/2] | Details Container - Top IT Project Card -->
+                        <!-- ---------------------------------------------------------- -->
+                        <div class="top-it-project-card-details-container">
+
+                          <!-- ---------------------------------------------------------- -->
+                          <!-- ➡️🟥 [1/2] | Main - Content -->
+                          <!-- ---------------------------------------------------------- -->
+                          <main class="top-it-project-card-details-content">
+
+                            <!-- Title -->
+                            <header class="top-it-project-card-title">
+
+                              <!-- title -->
+                              <div>Food Delivery Service with Kitchen Management to handle orders
+
+                              </div>
+
+                            </header>
+
+                            <!-- Tech List -->
+                            <main class="top-it-project-card-tech-list">
+
+                              <!-- header -->
+                              <header>Core Stack:</header>
+
+                              <!-- list -->
+                              <main>
+
+                                <!-- angular -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/angular19.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Angular</div>
+                                </div>
+
+                                <!-- java -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/java-black.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Java</div>
+                                </div>
+
+                                <!-- spring boot -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/springboot2.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Spring Boot</div>
+                                </div>
+
+                                <!-- kafka -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/kafka.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Kafka</div>
+                                </div>
+
+                                <!-- observability -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/graph-3-grey.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Observability</div>
+                                </div>
+
+                                <!-- postgresql -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/postgre.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>PostgreSQL</div>
+                                </div>
+
+                                <!-- gitlab ci/cd -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/gitlab.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Gitlab CI/CD</div>
+                                </div>
+
+                                <!-- docker -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/docker.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Docker</div>
+                                </div>
+
+                                <!-- kubernetes -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/kubernetes.png"
+                                        alt="img" class="img-h-1">
+                                  <div>Kubernetes</div>
+                                </div>
+
+                                <!-- rest api -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/rest.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Rest API</div>
+                                </div>
+
+
+                                <!-- unit -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Unit-T</div>
+                                </div>
+
+                                <!-- mock -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Mock-T</div>
+                                </div>
+
+                                <!-- integration test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>Integration-T</div>
+                                </div>
+
+                                <!-- api test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>API-T</div>
+                                </div>
+
+                                <!-- e2e test -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/testing.png"
+                                        alt="img" class="img-h-0-8">
+                                  <div>E2E-T</div>
+                                </div>
+
+                                <!-- playwright -->
+                                <div>
+                                  <img src="media/imgs/icons/04-tech-logos/playwright-testing.png"
+                                        alt="img" class="img-h-0-9">
+                                  <div>Playwright</div>
+                                </div>
+
+                              </main>
+
+                            </main>
+
+                          </main>
+
+                          <!-- ---------------------------------------------------------- -->
+                          <!-- ➡️🟥 [2/2] | Footer - Content -->
+                          <!-- ---------------------------------------------------------- -->
+                          <footer class="top-it-project-card-details-footer">
+
+                            <!-- Link - Showcase -->
+                            <a href=""
+                                target="_blank">
+
+                              <!-- img -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
+                                   alt="img" class="img-h-0-6">
+
+                              <!-- title -->
+                              <div>Showcase</div>
+
+
+                            </a>
+
+                            <!-- github link container -->
+                            <div>
+
+
+
+                              <!-- zip link -->
+                              <a href=""
+                                target="_blank">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                    alt="img" class="img-h-0-7">
+
+                                <!-- title -->
+                                <div>.zip</div>
+
+                              </a>
+
+                               <!-- github link -->
+                              <a href=""
+                                target="_blank">
+
+                                <!-- img -->
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                    alt="img" class="img-h-0-9">
+
+                                <!-- title -->
+                                <div>GitHub</div>
+
+
+                              </a>
+
+                            </div>
+
+                          </footer>
+
+
+                        </div>
+
+
+                      </main>
+
+
+                    </div>
+
+
+                  </div>
+
+                </div>
+
+
+                <!-- ------------------------------------------------------------------------ -->
+                <!-- ❌ Trash -->
+                <!-- ------------------------------------------------------------------------ -->
+                <!-- ------------------------------------------------------------- -->
                 <!-- [2/2] | Top IT Projects Content | About Container    -->
                 <!-- ------------------------------------------------------------- -->
-                <div id="top-it-projects-content-about-container">
+                <div id="top-it-projects-content-about-container" style="display: none;">
 
 
                   <!-- ------------------------------------------------------------------------------------- -->
@@ -4053,32 +4868,34 @@
               <div id="snippets-sport-lifestyle-about-container">
 
                 <!-- ------------------------------------------------------------- -->
-                <!-- [1/2] | First Header Content | on dark | Top It Projects     -->
+                <!-- ➡️🟥 [1/2] | Header Impress | on Dark                        -->
                 <!-- ------------------------------------------------------------- -->
-                <div class="first-header-content-on-dark">
+                <div class="header-impress-on-dark">
 
                   <!-- ------------------------------------------------ -->
-                  <!-- [1/2] | Img  -->
+                  <!-- ➡️🟥 [1/2] | Img  -->
                   <!-- ------------------------------------------------ -->
                   <img src="media/imgs/icons/02-icon-colors/02-white/white-sport-video.png"
-                      alt="img">
+                      alt="img" class="img-h-3-5">
 
                   <!-- ------------------------------------------------ -->
-                  <!-- [1/2] | Title Area | First Content Header -->
+                  <!-- ➡️🟥 [2/2] | Content -->
                   <!-- ------------------------------------------------ -->
-                  <div class="title-area-first-content-header">
+                  <main class="header-impress-content">
 
                     <!-- -------------------------------------------------- -->
-                    <!-- First Title Header -->
+                    <!-- Header | Title -->
                     <!-- -------------------------------------------------- -->
-                    <div class="first-title-content-header">
-                      Snippets of my Sport Lifestyle
-                    </div>
+                    <header>
+
+                      <div> Snippets of my Sport Lifestyle </div>
+
+                    </header>
 
                     <!-- -------------------------------------------------- -->
-                    <!-- Sub First Title Header Container -->
+                    <!-- Topic List -->
                     <!-- -------------------------------------------------- -->
-                    <div class="sub-title-content-header-container layout-fix-more-sub-title-items">
+                    <div class="header-impress-topic-list">
 
                       <!-- sub title -->
                       <div>» Running, Flexibility, Strength</div>
@@ -4091,8 +4908,7 @@
 
                     </div>
 
-
-                  </div>
+                  </main>
 
                 </div>
 

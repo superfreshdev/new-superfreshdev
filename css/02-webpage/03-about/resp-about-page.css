@@ -6,9 +6,88 @@
 
 
 /* --------------------------------------------------------------- */
-/* >= 600px
+/* >= 550px
 /* --------------------------------------------------------------- */
-@media (min-width: 600px ) {
+
+@media (min-width: 400px ) {
+
+
+  /* ---------------------------------------------------- */
+  /* Snippet Sport Life Style - Header Impress on Dark
+  /* ---------------------------------------------------- */
+
+  /* Header */
+  #snippets-sport-lifestyle-about-container .header-impress-on-dark .header-impress-content > header {
+
+    width: 100%;
+    text-align: center;
+
+    /* background-color: rgb(154, 112, 112); */
+
+  }
+
+  /* Topic List  */
+  #snippets-sport-lifestyle-about-container .header-impress-on-dark .header-impress-topic-list {
+
+    /* background-color: red !important; */
+    width: 100%;
+    text-align: left;
+    margin-left: 1.5em;
+
+  }
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* >= 550px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 550px ) {
+
+  /* --------------------------------------------------------------- */
+  /* Top IT Projects - Header Impress on light
+  /* --------------------------------------------------------------- */
+
+    #top-it-projects-about-container > .header-impress-on-light {
+
+      display: flex;
+
+    }
+
+    #top-it-projects-about-container > .header-impress-on-light #header-title-top-it-projects {
+
+      background-color: yellow;
+      justify-self: flex-start;
+
+    }
+
+  /* --------------------------------------------------------------- */
+  /* Snippelts of my Sport Lifestyle | Header Impress on dark
+  /* --------------------------------------------------------------- */
+
+    #snippets-sport-lifestyle-about-container > .header-impress-on-dark {
+
+      display: flex;
+
+    }
+
+    /* Header */
+    #snippets-sport-lifestyle-about-container .header-impress-on-dark .header-impress-content > header {
+
+      /* width: 100%; */
+      text-align: left;
+
+      /* background-color: rgb(154, 112, 112); */
+
+    }
+
+    /* Topic List */
+    #snippets-sport-lifestyle-about-container .header-impress-on-dark .header-impress-topic-list {
+
+      margin-left: 0em;
+
+    }
 
 
 }

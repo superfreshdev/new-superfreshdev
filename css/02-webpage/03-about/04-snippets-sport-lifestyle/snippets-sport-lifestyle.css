@@ -24,13 +24,23 @@
 
 
 /* --------------------------------------------------------------- */
-/* Img | First Header Content |
+/* Header Impress Topic List | Header Impress Dard
 /* --------------------------------------------------------------- */
 
-/* small mobile */
-#snippets-sport-lifestyle-about-container > .first-header-content-on-dark > img:nth-of-type(1) {
+/* Header */
+#snippets-sport-lifestyle-about-container .header-impress-on-dark .header-impress-content > header {
 
-  height: 3.5em;
+  width: 90%;
+  text-align: center;
+  /* background-color: red; */
+
+}
+
+/* Topic List  */
+#snippets-sport-lifestyle-about-container .header-impress-on-dark .header-impress-topic-list {
+
+  width: 90%;
+  text-align: center;
 
 }
 

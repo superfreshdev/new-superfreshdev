@@ -1,0 +1,44 @@
+/* --------------------------------------------------------------- */
+/* > top-it-project-card-details-container.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Details Container - Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-details-container {
+
+    width: 100%;
+
+    /* mobile */
+    padding: 0 .6em;
+
+    /* desktop */
+    display: grid;
+    /* align-items: flex-start; */
+    /* ⚠️ */
+    align-content: space-between;
+
+    /* background-color: rgb(245, 245, 245); */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Details Content - Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-details-content {
+
+  display: grid;
+  row-gap: 1em;
+
+  padding: 1em 1em !important;
+
+  border-radius: .8em;
+
+  background-color: rgba(241, 241, 241, .6);
+
+  /* background-color: red; */
+
+}

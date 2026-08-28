@@ -1,0 +1,44 @@
+/* --------------------------------------------------------------- */
+/* > top-it-project-card-img-container.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Img Container | Main
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-img-container {
+
+  width: 100%;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* border: 3px solid red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img | Media - Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-img {
+
+  align-self: flex-start;
+  width: 100%;
+
+  border-radius: .8em;
+
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+  border: 3px solid rgb(225, 224, 224);
+
+  border: 3px solid rgb(214, 214, 214);
+
+  transition: all .4s;
+  cursor: pointer;
+
+}

@@ -1,0 +1,51 @@
+/* --------------------------------------------------------------- */
+/* > top-it-project-card-header-nr.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Top IT Project Card | Header Nr
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-header-nr {
+
+  width: 100%;
+  display: flex;
+
+  /* background-color: rgb(239, 239, 239); */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Nr Box | Header
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-nr-box {
+
+  height: 3.5em;
+  width: 3.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .6em;
+
+  /*
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 95, 95);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  */
+
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+/* text nr */
+.top-it-project-card-nr-box > div {
+
+  font-size: 24px;
+  letter-spacing: 1px;
+
+}

@@ -1,0 +1,93 @@
+
+/* --------------------------------------------------------------- */
+/* > top-it-project-card-footer.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Footer | Content - Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-details-footer {
+
+  margin-top: 1em;
+  padding-top: .6em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  column-gap: .8em;
+  row-gap: .4em;
+
+  border-top: 1px solid rgb(228, 228, 228);
+
+  /* background-color: red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div | Footer
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-details-footer > div {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Links | Footer
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-details-footer a {
+
+  text-decoration: none;
+  color: black;
+
+  height: 2.2em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  font-weight: bold;
+
+  border: 1px solid rgb(223, 223, 223);
+  background-color: rgb(230, 230, 230);
+  color:grey;
+
+  border-radius: .6em;
+
+  opacity: 1;
+
+  user-select: none;
+  transition: all .4s;
+
+}
+
+/* img */
+.top-it-project-card-details-footer a > img {
+
+  opacity: .8;
+
+}
+
+/* text */
+.top-it-project-card-details-footer a > div {
+
+  font-size: 14.5px;
+
+}
+
+/* hover */
+.top-it-project-card-details-footer a:hover {
+
+ opacity: 1;
+ background-color: rgb(219, 219, 219);
+
+}

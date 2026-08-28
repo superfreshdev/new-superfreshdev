@@ -1,0 +1,48 @@
+/* --------------------------------------------------------------- */
+/* > resp-header-impress.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* >= 800px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+
+  .header-impress-on-light .header-impress-content > header div,
+  .header-impress-on-dark .header-impress-content > header div {
+
+    font-size: 22px;
+  }
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* >= 1300px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 1300px) {
+
+  .header-impress-on-light .header-impress-content > header div,
+  .header-impress-on-dark .header-impress-content > header div {
+
+    font-size: 24px;
+
+  }
+
+  #extra-three-style > div {
+
+    font-size: 18px;
+
+  }
+
+  .header-impress-on-light .header-impress-topic-list > div,
+  .header-impress-on-dark .header-impress-topic-list > div {
+
+    font-size: 18px;
+
+  }
+
+
+}

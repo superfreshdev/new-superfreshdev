@@ -1,0 +1,60 @@
+/* --------------------------------------------------------------- */
+/* > top-it-project-card.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Top IT Project Card - left/right
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-left-layout,
+.top-it-project-card-right-layout {
+
+  width: 100%;
+  display: grid;
+
+  row-gap: .6em;
+
+  /* background-color: red; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Left | Right | Top IT Project Card Content
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-content {
+
+  height: 100%;
+
+  display: grid;
+  /* align-items: center; */
+  /* align-items: flex-start; */
+
+  column-gap: 1.8em;
+  row-gap: 1.3em;
+
+}
+
+/* Left Layout - Content */
+.top-it-project-card-left-layout .top-it-project-card-content {
+
+  /* grid: auto / 14em 1fr; */
+  /* background-color: grey; */
+
+}
+
+/* Right Layout - Content */
+.top-it-project-card-right-layout .top-it-project-card-content {
+
+  /* grid: auto / 1fr 14em; */
+  /* background-color: rgb(229, 166, 166); */
+
+}
+
+/* change header nr to right */
+.top-it-project-card-right-layout .top-it-project-card-header-nr {
+
+  justify-content: flex-end;
+
+}

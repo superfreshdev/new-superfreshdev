@@ -1,0 +1,92 @@
+/* --------------------------------------------------------------- */
+/* top-it-project-card-tech-list.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Tech List - Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-tech-list {
+
+  display: grid;
+  row-gap: .6em;
+
+  /* background-color: yellow; */
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Tech List Container
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-tech-list > header {
+
+  /* layout fix */
+  padding-left: .3em;
+
+  font-size: 13.5px;
+  font-weight: bold;
+
+  color:rgb(101, 101, 101);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Tech List Container
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-tech-list > main {
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: .4em;
+  row-gap: .4em;
+
+  /* font-weight: bold; */
+
+}
+
+/* items */
+.top-it-project-card-tech-list > main > div {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border: 1px solid rgb(197, 197, 197);
+  color:grey;
+
+  border-radius: .6em;
+
+  opacity: .7;
+
+  /* user-select: none; */
+  transition: all .4s;
+
+
+}
+
+/* hover */
+.top-it-project-card-tech-list > main > div:hover {
+
+  background-color: rgb(236, 236, 236);
+
+}
+
+/* img */
+.top-it-project-card-tech-list > main > div > img {
+
+  opacity: .6;
+
+}
+
+/* text */
+.top-it-project-card-tech-list > main > div > div {
+
+  font-size: 14.5px;
+
+}

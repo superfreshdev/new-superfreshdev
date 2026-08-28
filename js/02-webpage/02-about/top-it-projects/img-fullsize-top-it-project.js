@@ -6,7 +6,7 @@
 /* -------------------------------------------------------------------------- */
 
 // 3 imgs
-var imgsTopItProject = document.getElementsByClassName("img-top-it-project-card");
+var imgsTopItProject = document.getElementsByClassName("top-it-project-card-img");
 
 // show, unshown
 var divAboutPageContainer = document.getElementById("about-page-container");
