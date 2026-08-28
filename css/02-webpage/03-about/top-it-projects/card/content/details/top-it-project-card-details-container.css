@@ -16,9 +16,10 @@
 
     /* desktop */
     display: grid;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     /* ⚠️ */
-    align-content: space-between;
+    align-content: flex-start;
+    /* align-content: space-between; */
 
     /* background-color: rgb(245, 245, 245); */
 
@@ -33,9 +34,9 @@
   display: grid;
   row-gap: 1em;
 
-  padding: 1em 1em !important;
+  padding: 1.3em 1.3em !important;
 
-  border-radius: .5em;
+  border-radius: .8em;
 
   background-color: rgba(241, 241, 241, .5);
 

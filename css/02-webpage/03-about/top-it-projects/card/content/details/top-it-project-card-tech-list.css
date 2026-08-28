@@ -58,6 +58,7 @@
   column-gap: .3em;
 
   border: 1px solid rgb(197, 197, 197);
+  border: 1px dashed rgb(165, 165, 165);
   color:grey;
 
   border-radius: .6em;
@@ -73,7 +74,15 @@
 /* hover */
 .top-it-project-card-tech-list > main > div:hover {
 
-  background-color: rgb(236, 236, 236);
+  opacity: 1;
+  background-color: rgb(224, 224, 224);
+
+}
+
+/* hover + img */
+.top-it-project-card-tech-list > main > div:hover img {
+
+  opacity: 1;
 
 }
 
