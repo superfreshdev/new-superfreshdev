@@ -53,26 +53,47 @@
   display: flex;
   flex-wrap: wrap;
 
-  row-gap: .5em;
+  row-gap: .6em;
   column-gap: .6em;
 
   color:rgb(163, 163, 163);
 
-  color:rgb(137, 137, 137);
+  color:rgb(88, 88, 88);
 
 }
 
 /* items */
 #quick-info-core-stack-container > main > div  {
 
-  height: 1.9em;
-  padding: 0 .5em;
+  height: 2.1em;
+  padding: 0 .6em;
 
   display: flex;
   align-items: center;
+  column-gap: .35em;
 
-  background-color: rgb(54, 54, 54);
-  border-radius: .5em;
+  background-color: rgba(54, 54, 54, .5);
+  border: 1px solid transparent;
+
+  border-radius: .6em;
+
+  font-weight: bold;
+
+  transition: all .4s;
+
+}
+
+#quick-info-core-stack-container > main > div > img {
+
+  opacity: .8;
+
+}
+
+#quick-info-core-stack-container > main > div:hover {
+
+  background-color: transparent;
+  border: 1px solid rgb(66, 66, 66);
+  color:rgb(163, 163, 163);
 
 }
 
