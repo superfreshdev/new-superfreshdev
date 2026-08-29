@@ -188,6 +188,19 @@
 @media (min-width: 1200px) {
 
   /* ------------------------------------------------- */
+  /* Top IT Project List Container */
+  /* ------------------------------------------------- */
+
+  /* explicit for 14 inch laptops, not to stretch long */
+  #top-it-projects-list-container {
+
+    width: 90%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+  }
+
+  /* ------------------------------------------------- */
   /* Top IT Project Card */
   /* ------------------------------------------------- */
 
