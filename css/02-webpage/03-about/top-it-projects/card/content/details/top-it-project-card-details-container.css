@@ -11,9 +11,6 @@
 
     width: 100%;
 
-    /* mobile */
-    padding: 0 .6em;
-
     /* desktop */
     display: grid;
     align-items: flex-start;
@@ -34,11 +31,21 @@
   display: grid;
   row-gap: 1em;
 
-  padding: 1.3em 1.3em !important;
+  /* desktop */
+  padding: 1.3em 1.3em;
+
+  /* mobile */
+  padding: .8em .8em;
 
   border-radius: .8em;
 
   background-color: rgba(241, 241, 241, .5);
+
+  border: 3px solid rgb(159, 159, 159);
+
+  border: 3px solid rgba(159, 159, 159, .4);
+
+  border: 3px solid rgba(159, 159, 159, .1);
 
   /* background-color: red; */
 

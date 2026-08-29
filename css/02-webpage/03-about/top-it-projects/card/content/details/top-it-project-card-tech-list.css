@@ -57,13 +57,18 @@
   align-items: center;
   column-gap: .3em;
 
-  border: 1px solid rgb(197, 197, 197);
-  border: 1px dashed rgb(165, 165, 165);
+
+  border: 1px solid rgb(213, 213, 213);
+
+  background-color: rgb(232, 232, 232);
+
+  background-color: white;
+
   color:grey;
 
   border-radius: .6em;
 
-  opacity: .7;
+  /* opacity: .7; */
 
   /* user-select: none; */
   transition: all .4s;
@@ -75,7 +80,8 @@
 .top-it-project-card-tech-list > main > div:hover {
 
   opacity: 1;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(202, 202, 202);
+  color:black;
 
 }
 
