@@ -6,6 +6,80 @@
 
 
 /* --------------------------------------------------------------- */
+/* Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-text-container {
+
+  font-weight: bold;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-core-stack-container {
+
+  display: grid;
+  row-gap: .3em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-core-stack-container > header {
+
+  font-weight: bold;
+  color:rgb(163, 163, 163);
+
+}
+
+/* text */
+#quick-info-core-stack-container > header > div {
+
+  font-weight: bold;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Quick Info Text Container
+/* --------------------------------------------------------------- */
+
+#quick-info-core-stack-container > main {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: .5em;
+  column-gap: .6em;
+
+  color:rgb(163, 163, 163);
+
+}
+
+/* items */
+#quick-info-core-stack-container > main > div  {
+
+  height: 1.9em;
+  padding: 0 .5em;
+
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(54, 54, 54);
+  border-radius: .5em;
+
+}
+
+#quick-info-core-stack-container > main > div > text  {
+
+
+}
+
+/* --------------------------------------------------------------- */
 /* Quick Info Text Container | About Me
 /* --------------------------------------------------------------- */
 
@@ -75,6 +149,9 @@
   /* mobile */
   /* text-align: center; */
 
+  display: grid;
+  row-gap: .8em;
+
   width: 90%;
   padding-left: .4em;
 
@@ -83,6 +160,10 @@
   color:rgb(187, 187, 187);
 
   color:rgb(163, 163, 163);
+
+  color:rgb(115, 115, 115);
+
+
 
    /* color:rgb(129, 129, 129); */
 

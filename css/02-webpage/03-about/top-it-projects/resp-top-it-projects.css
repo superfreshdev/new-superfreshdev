@@ -195,8 +195,8 @@
   #top-it-projects-list-container {
 
     width: 90%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
 
   }
 
@@ -232,6 +232,17 @@
 /* --------------------------------------------------------------- */
 
 @media (min-width: 1400px) {
+
+
+  /* ------------------------------------------------- */
+  /* Top IT Project List Container */
+  /* ------------------------------------------------- */
+
+  #top-it-projects-list-container {
+
+    width:100%;
+
+  }
 
   /* ------------------------------------------------- */
   /* Top IT Project Card */
