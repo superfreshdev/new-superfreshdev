@@ -90,7 +90,6 @@
     }
 
 
-
     /* details - container */
     .top-it-project-card-details-container {
 
@@ -100,7 +99,7 @@
 
     .top-it-project-card-details-content {
 
-      padding-top: .6em;
+      padding: 1.3em;
 
     }
 
