@@ -11,7 +11,7 @@
 
 #quick-info-text-container {
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
   font-size: 17px;
 
@@ -68,7 +68,9 @@
 
   color:rgb(88, 88, 88);
 
-  color:rgb(88, 88, 88);
+  color:rgb(104, 104, 104);
+
+  /* font-weight: bold; */
 
 }
 
@@ -87,11 +89,14 @@
   background-color: rgba(54, 54, 54, .4);
 
 
+  font-size: 15.5px;
+
+
   border: 1px solid transparent;
 
   border-radius: .6em;
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
   transition: all .4s;
 
