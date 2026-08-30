@@ -17,6 +17,8 @@
 
   line-height: 2em;
 
+  color:#686868;
+
 }
 
 /* --------------------------------------------------------------- */
@@ -192,7 +194,7 @@
   /* text-align: center; */
 
   display: grid;
-  row-gap: .8em;
+  row-gap: 1em;
 
   width: 90%;
   padding-left: .4em;
