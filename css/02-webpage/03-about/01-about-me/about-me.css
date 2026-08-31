@@ -33,11 +33,11 @@
 .txt-b-light-brown-transparent {
 
   font-weight: bold;
-  color:rgb(215, 195, 158);
+  color:rgba(215, 195, 158, .8);
 
-  color:rgb(158, 158, 158);
+  /* color:rgb(158, 158, 158); */
 
-  opacity: .8;
+  /* opacity: .8; */
 
 }
 

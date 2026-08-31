@@ -44,6 +44,8 @@
 
   border: 3px solid rgba(164, 164, 164, 0.3);
 
+  border: 3px solid rgba(65, 65, 65 , .3);
+
   /* border: 3px solid rgb(214, 214, 214); */
 
   transition: all .4s;

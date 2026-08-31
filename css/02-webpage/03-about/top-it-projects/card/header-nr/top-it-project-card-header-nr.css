@@ -22,32 +22,37 @@
 
 .top-it-project-card-nr-box {
 
-  height: 3.5em;
-  width: 3.5em;
+  height: 2.8em;
+  width: 3.3em;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* border: 1px solid rgb(211, 211, 211);
+  background-color: rgb(242, 242, 242);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+  color: rgb(103, 103, 103);
+  background-color: rgba(65, 65, 65, .1);
+
+  border: 2px solid rgba(65, 65, 65 , .1);
+
+
   border-radius: .6em;
 
-  /*
-    border: 1px solid rgb(211, 211, 211);
-    background-color: rgb(242, 242, 242);
-    color: rgb(95, 95, 95);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  */
 
   font-weight: bold;
   font-style: italic;
 
-  opacity: .3;
+  /* opacity: .3; */
 
 }
 
 /* text nr */
 .top-it-project-card-nr-box > div {
 
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 1px;
 
 }
