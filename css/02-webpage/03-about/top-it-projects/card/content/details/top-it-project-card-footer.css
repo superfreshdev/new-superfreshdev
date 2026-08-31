@@ -24,10 +24,12 @@
 
   /* background-color: red; */
 
+  cursor: not-allowed;
+
 }
 
 /* --------------------------------------------------------------- */
-/* Div | Footer
+/* Div (details+showcase & github links) | Footer
 /* --------------------------------------------------------------- */
 
 .top-it-project-card-details-footer > div {
@@ -37,6 +39,79 @@
   column-gap: .3em;
 
 }
+
+/* --------------------------------------------------------------- */
+/* Label - Details | Footer
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-details-footer label {
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+  border: 2px solid rgb(211, 211, 211);
+  /* background-color: rgb(243, 243, 243); */
+  /* background-color: rgb(134, 134, 134); */
+  color:grey;
+
+  border-radius: .6em;
+
+  opacity: .8;
+
+  user-select: none;
+  cursor: pointer;
+
+  /* ⚠️ actually */
+  cursor: not-allowed;
+
+  transition: all .4s;
+
+}
+
+.top-it-project-card-details-footer label:hover {
+
+  opacity: 1;
+  background-color: rgb(223, 223, 223);
+
+}
+
+/* img */
+.top-it-project-card-details-footer label > img {
+
+  opacity: .8;
+
+}
+
+/* img 1 - plus  */
+.top-it-project-card-details-footer label > img:nth-of-type(1) {
+
+  /* layout fix */
+  margin-top: .1em;
+  height: .6em;
+
+}
+
+/* img 2 - minus */
+.top-it-project-card-details-footer label > img:nth-of-type(2) {
+
+  height: .6em;
+
+}
+
+/* text */
+.top-it-project-card-details-footer label > div {
+
+  font-size: 14.5px;
+
+}
+
+
 
 /* --------------------------------------------------------------- */
 /* Links | Footer
@@ -66,6 +141,13 @@
   opacity: .8;
 
   user-select: none;
+
+   /* ⚠️ actually */
+
+  pointer-events: none;
+
+
+
   transition: all .4s;
 
 }
