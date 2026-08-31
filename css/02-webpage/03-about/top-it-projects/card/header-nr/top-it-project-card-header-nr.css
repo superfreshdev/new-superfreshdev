@@ -33,10 +33,10 @@
   background-color: rgb(242, 242, 242);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 
-  color: rgb(103, 103, 103);
-  background-color: rgba(65, 65, 65, .1);
+  color: rgb(73, 73, 73);
+  /* background-color: rgba(65, 65, 65, .1); */
 
-  border: 2px solid rgba(65, 65, 65 , .1);
+  /* border: 2px solid rgba(65, 65, 65 , .1); */
 
 
   border-radius: .6em;
@@ -52,7 +52,7 @@
 /* text nr */
 .top-it-project-card-nr-box > div {
 
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: 1px;
 
 }

@@ -1,0 +1,84 @@
+/* --------------------------------------------------------------- */
+/* > under-construction-info-container.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Under Construction Info Container
+/* --------------------------------------------------------------- */
+
+.under-construction-info-container {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 1.5em;
+  row-gap: 1em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img | Under Construction Info Container
+/* --------------------------------------------------------------- */
+
+.under-construction-info-container > img:nth-of-type(1) {
+
+  /* layout fix */
+  margin-bottom: .45em;
+  height: 3.5em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Under Construction Info Content
+/* --------------------------------------------------------------- */
+
+.under-construction-info-content {
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header | Under Construction Info Content
+/* --------------------------------------------------------------- */
+
+.under-construction-info-content > header {
+
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Main | Under Construction Info Content
+/* --------------------------------------------------------------- */
+
+.under-construction-info-content > main {
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+/* item */
+.under-construction-info-content > main > div {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+
+}
+
+/* text */
+.under-construction-info-content > main > div > div {
+
+  font-size: 16.5px;
+  line-height: 1.5em;
+
+}
