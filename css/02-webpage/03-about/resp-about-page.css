@@ -68,15 +68,22 @@
   /* Top IT Projects - Header Impress on light
   /* --------------------------------------------------------------- */
 
-    #top-it-projects-about-container > .header-impress-on-light {
+    #top-it-projects-content-container .header-impress-on-light {
 
       display: flex;
+      /* background-color: red; */
 
     }
 
-    #top-it-projects-about-container > .header-impress-on-light #header-title-top-it-projects {
+    #top-it-projects-content-container .header-impress-on-light .header-impress-topic-list {
 
-      background-color: yellow;
+      text-align: left;
+
+    }
+
+    #top-it-projects-content-container .header-impress-on-light #header-title-top-it-projects {
+
+      /* background-color: yellow; */
       justify-self: flex-start;
 
     }

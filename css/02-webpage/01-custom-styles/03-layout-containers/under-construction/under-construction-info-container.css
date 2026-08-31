@@ -82,3 +82,17 @@
   line-height: 1.5em;
 
 }
+
+
+/* --------------------------------------------------------------- */
+/* Under Construction Bold Text
+/* --------------------------------------------------------------- */
+
+.under-construction-bold {
+
+  font-weight: bold;
+  color: #ffdf40;
+
+  color: #9b8716;
+
+}

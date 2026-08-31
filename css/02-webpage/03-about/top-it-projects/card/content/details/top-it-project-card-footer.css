@@ -55,9 +55,11 @@
 
   font-weight: bold;
 
-  border: 2px solid rgb(211, 211, 211);
+  /* border: 2px solid rgb(211, 211, 211); */
   /* background-color: rgb(243, 243, 243); */
   /* background-color: rgb(134, 134, 134); */
+
+  border: 1px solid rgb(211, 211, 211);
   color:grey;
 
   border-radius: .6em;
@@ -132,6 +134,7 @@
   font-weight: bold;
 
   border: 2px solid rgb(211, 211, 211);
+  border: 1px solid rgb(211, 211, 211);
   /* background-color: rgb(243, 243, 243); */
   /* background-color: rgb(134, 134, 134); */
   color:grey;
