@@ -1,0 +1,88 @@
+/* --------------------------------------------------------------- */
+/* > top-it-project-card-category-container.css
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Category Container | Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-category-container {
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Category Box | Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-category-box {
+
+  padding-left: 2px;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  font-weight: bold;
+
+  color:rgb(177, 177, 177);
+
+}
+
+/* img */
+.top-it-project-card-category-box > img {
+
+  /* layout fix */
+  margin-top: 1px;
+  opacity: .2;
+
+}
+
+/* text */
+.top-it-project-card-category-box > div {
+
+  font-size: 14.5px;
+
+
+}
+
+
+/* --------------------------------------------------------------- */
+/* Status Mini | Top IT Project Card
+/* --------------------------------------------------------------- */
+
+.top-it-project-card-status-mini-in-progress,
+.top-it-project-card-status-mini-later {
+
+  width: 1.3em;
+  height: 1.3em;
+
+  border-radius: .3em;
+
+}
+
+/* in progress */
+.top-it-project-card-status-mini-in-progress {
+
+  background-color: #ffdf40;
+  border: 1px solid #9b8716;
+
+  opacity: .8;
+
+}
+
+/* later */
+.top-it-project-card-status-mini-later {
+
+  background-color: rgb(176, 209, 255);
+  border: 1px solid #374b9b;
+  opacity: .8;
+
+}

@@ -29,7 +29,7 @@
 .top-it-project-card-details-content {
 
   display: grid;
-  row-gap: 1em;
+  /* row-gap: 1em; */
 
   /* desktop */
   padding: 1.3em 1.3em;
