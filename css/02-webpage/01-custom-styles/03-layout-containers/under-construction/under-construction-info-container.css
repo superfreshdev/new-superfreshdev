@@ -9,6 +9,7 @@
 
 .under-construction-info-container {
 
+  padding: 0 1em;
   display: flex;
   flex-wrap: wrap;
 
